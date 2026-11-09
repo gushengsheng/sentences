@@ -380,8 +380,6 @@ export function apply(state: MatchState, action: Action): ApplyResult {
     case 'endTurn': {
       if (s.turn === 'A') {
         s.ap.A = 0; // 不结转
-        const ta = tally(s, 'A');
-        s.ledger.A = { correct: ta.correct, wrong: ta.wrong };
         s.turn = 'B';
         s.ap.B += s.pendingAp.B;
         s.lastGrant.B = s.pendingAp.B;
@@ -390,7 +388,10 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       }
 
       s.ap.B = 0;
+      // 账本与下一轮 AP 在同一时刻、同一状态上拍快照，保证信息栏能对上收入
+      const ta = tally(s, 'A');
       const tb = tally(s, 'B');
+      s.ledger.A = { correct: ta.correct, wrong: ta.wrong };
       s.ledger.B = { correct: tb.correct, wrong: tb.wrong };
       const completed = s.round;
       s.log.push('B 结束回合');
