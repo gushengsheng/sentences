@@ -4,7 +4,7 @@ import type { Book, Chapter, FragmentDef } from './engine';
 import type { BookBundle, BookSummary } from './mapsource';
 import type { Difficulty, Progress, Settings } from './store';
 
-export type Mode = 'ai' | 'hotseat';
+export type Mode = 'ai' | 'hotseat' | 'spectate';
 
 // ---------- 主菜单 ----------
 
@@ -260,6 +260,7 @@ export function SetupScreen({ book, chapter, fragment, onBack, onStart }: SetupP
           <select value={mode} onChange={(e) => setMode(e.target.value as Mode)}>
             <option value="ai">人机</option>
             <option value="hotseat">双人（同屏）</option>
+            <option value="spectate">看海（AI 对打）</option>
           </select>
         </label>
 
@@ -420,6 +421,20 @@ export function SettingsScreen({
             type="checkbox"
             checked={settings.animation}
             onChange={(e) => onChange({ ...settings, animation: e.target.checked })}
+          />
+        </label>
+
+        <label className="field row">
+          <span>
+            AI 行动速度 <b>{settings.aiSpeed} ms</b>
+          </span>
+          <input
+            type="range"
+            min="150"
+            max="2000"
+            step="50"
+            value={settings.aiSpeed}
+            onChange={(e) => onChange({ ...settings, aiSpeed: Number(e.target.value) })}
           />
         </label>
 

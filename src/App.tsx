@@ -310,6 +310,7 @@ export default function App() {
           fragmentId={screen.fragmentId}
           rounds={screen.rounds}
           mode={screen.mode}
+          aiSpeed={settings.aiSpeed}
           presetId={screen.presetId}
           custom={custom}
           difficulty={screen.difficulty}
@@ -323,17 +324,19 @@ export default function App() {
             setSave(loadSave());
           }}
           onFinish={({ won, margin }) => {
-            setProgress((p) =>
-              recordResult(
-                p,
-                screen.bookId,
-                screen.chapterId,
-                screen.fragmentId,
-                screen.difficulty,
-                won,
-                margin,
-              ),
-            );
+            if (screen.mode !== 'spectate') {
+              setProgress((p) =>
+                recordResult(
+                  p,
+                  screen.bookId,
+                  screen.chapterId,
+                  screen.fragmentId,
+                  screen.difficulty,
+                  won,
+                  margin,
+                ),
+              );
+            }
             setSave(null);
             clearSave();
           }}

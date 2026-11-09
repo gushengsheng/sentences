@@ -19,7 +19,8 @@ interface GameProps {
   chapter: Chapter;
   fragmentId: string;
   rounds: number;
-  mode: 'ai' | 'hotseat';
+  mode: 'ai' | 'hotseat' | 'spectate';
+  aiSpeed: number;
   presetId: string;
   custom: AiConfig;
   difficulty: Difficulty;
@@ -33,7 +34,7 @@ function randomSeed() {
 }
 
 export default function Game(props: GameProps) {
-  const { book, chapter, fragmentId, rounds, mode, presetId, custom, difficulty, initialState, onExit, onFinish } =
+  const { book, chapter, fragmentId, rounds, mode, aiSpeed, presetId, custom, difficulty, initialState, onExit, onFinish } =
     props;
 
   const meta = useMemo(
@@ -60,8 +61,8 @@ export default function Game(props: GameProps) {
   const reported = useRef(false);
 
   const aiConfig: AiConfig = presetId === 'custom' ? custom : presetById(presetId);
-  const humanTurn = mode === 'hotseat' || match.turn === 'A';
-  const thinking = mode === 'ai' && !match.ended && match.turn === 'B';
+  const humanTurn = mode !== 'spectate' && (mode === 'hotseat' || match.turn === 'A');
+  const thinking = !match.ended && (mode === 'spectate' || (mode === 'ai' && match.turn === 'B'));
 
   useEffect(() => {
     if (match.ended) return;
@@ -90,17 +91,18 @@ export default function Game(props: GameProps) {
   }, [match, onFinish]);
 
   useEffect(() => {
-    if (match.ended || mode !== 'ai' || match.turn !== 'B') return;
+    if (match.ended || mode === 'hotseat') return;
+    if (mode === 'ai' && match.turn !== 'B') return;
     const timer = window.setTimeout(() => {
-      const mem = memB.current;
+      const mem = match.turn === 'A' ? memA.current : memB.current;
       const action = decideNext(match, aiConfig, Math.random, mem);
       const r = apply(match, action);
       if (r.error) apply(match, { kind: 'endTurn' });
       else if (action.kind === 'correct' && r.correctResult) mem.confirmed.add(action.unitId);
       setMatch({ ...match });
-    }, 550);
+    }, aiSpeed);
     return () => window.clearTimeout(timer);
-  }, [match, mode, aiConfig, presetId, custom]);
+  }, [match, mode, aiConfig, aiSpeed, presetId, custom]);
 
   const pages = match.pages ?? [];
   const page = pages[Math.min(pageIdx, Math.max(0, pages.length - 1))];
@@ -119,6 +121,7 @@ export default function Game(props: GameProps) {
 
   function sideName(s: Side) {
     if (mode === 'hotseat') return s === 'A' ? '甲方' : '乙方';
+    if (mode === 'spectate') return s === 'A' ? '甲·AI' : '乙·AI';
     return s === 'A' ? '你' : '电脑';
   }
 
@@ -184,7 +187,7 @@ export default function Game(props: GameProps) {
         </div>
         <div className="top-actions">
           <span className="muted">
-            {mode === 'ai' ? `人机 · ${presetById(presetId).name}` : '双人'} ·{' '}
+            {mode === 'ai' ? `人机 · ${presetById(presetId).name}` : mode === 'spectate' ? `看海 · ${presetById(presetId).name}` : '双人'} ·{' '}
             {rounds === 0 ? '不限轮' : `${rounds} 轮`}
           </span>
           <button className="ghost" onClick={restart}>
@@ -384,8 +387,16 @@ export default function Game(props: GameProps) {
       {match.ended && (
         <div className="overlay">
           <div className="modal result">
-            <h2>{won ? '你拿下了这个知识碎片' : '这个知识碎片失守了'}</h2>
-            {won && <p className="rating">{ratingFor(difficulty)}</p>}
+            <h2>
+              {mode === 'spectate'
+                ? match.winner === 'A'
+                  ? '甲·AI 获胜'
+                  : '乙·AI 获胜'
+                : won
+                  ? '你拿下了这个知识碎片'
+                  : '这个知识碎片失守了'}
+            </h2>
+            {won && mode !== 'spectate' && <p className="rating">{ratingFor(difficulty)}</p>}
             <table>
               <thead>
                 <tr>
