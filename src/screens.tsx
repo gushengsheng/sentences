@@ -128,12 +128,10 @@ export function ChaptersScreen({ bundle, progress, onOpen, onBack }: ChapterList
                 (f) => progress[`${book.id}::${ref.id}::${f.id}`]?.rating,
               ).length
             : 0;
-          const locked = fragments === 0;
-          return (
+              return (
             <button
               key={ref.id}
-              className={`card ${locked ? 'locked' : ''}`}
-              disabled={locked}
+              className="card"
               onClick={() => onOpen(ref.id)}
             >
               <div className="card-row">
@@ -157,7 +155,6 @@ interface FragmentListProps {
   bundle: BookBundle;
   chapter: Chapter;
   progress: Progress;
-  sequentialUnlock: boolean;
   onPlay: (fragmentId: string) => void;
   onBack: () => void;
 }
@@ -166,7 +163,6 @@ export function FragmentsScreen({
   bundle,
   chapter,
   progress,
-  sequentialUnlock,
   onPlay,
   onBack,
 }: FragmentListProps) {
@@ -189,16 +185,11 @@ export function FragmentsScreen({
       <div className="cards">
         {ordered.map((f, i) => {
           const rec = progress[`${book.id}::${chapter.id}::${f.id}`];
-          const prev = ordered[i - 1];
-          const prevCleared =
-            !prev || !!progress[`${book.id}::${chapter.id}::${prev.id}`]?.rating;
-          const locked = sequentialUnlock && i > 0 && !prevCleared;
 
           return (
             <button
               key={f.id}
-              className={`card ${locked ? 'locked' : ''}`}
-              disabled={locked}
+              className="card"
               onClick={() => onPlay(f.id)}
             >
               <div className="card-row">
@@ -206,7 +197,6 @@ export function FragmentsScreen({
                   {String(i + 1).padStart(2, '0')} · {f.title}
                 </span>
                 {rec?.rating && <span className="badge">{rec.rating}</span>}
-                {locked && <span className="badge dim">未解锁</span>}
               </div>
               <div className="card-meta">
                 {f.units.length} 句 · {f.pages?.length ?? 1} 页 · 推荐 {f.recommendedRounds} 轮
@@ -430,15 +420,6 @@ export function SettingsScreen({
             type="checkbox"
             checked={settings.animation}
             onChange={(e) => onChange({ ...settings, animation: e.target.checked })}
-          />
-        </label>
-
-        <label className="field row">
-          <span>顺序解锁知识碎片</span>
-          <input
-            type="checkbox"
-            checked={settings.sequentialUnlock}
-            onChange={(e) => onChange({ ...settings, sequentialUnlock: e.target.checked })}
           />
         </label>
 

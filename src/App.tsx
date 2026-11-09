@@ -260,7 +260,6 @@ export default function App() {
           bundle={bundle}
           chapter={chapter}
           progress={progress}
-          sequentialUnlock={settings.sequentialUnlock}
           onPlay={(fragmentId) =>
             setScreen({
               name: 'setup',

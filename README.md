@@ -52,6 +52,8 @@ npx vite preview --host 0.0.0.0 --port 4173
 
 ## 部署到 GitHub Pages
 
+**线上地址：<https://gushengsheng.github.io/sentences/>**（仓库 `gushengsheng/sentences`，推 `main` 自动发布）
+
 免费账号的 Pages 只支持公开仓库。整套流程的产物地址是：
 
 ```

@@ -8,7 +8,6 @@ import type { MatchState } from './engine';
 export interface Settings {
   uiScale: number; // 0.85–1.4
   animation: boolean;
-  sequentialUnlock: boolean;
   theme: 'dark' | 'light';
 }
 
@@ -18,7 +17,6 @@ const LEGACY_SETTINGS_KEY = 'juyuan.settings.v1';
 const DEFAULT_SETTINGS: Settings = {
   uiScale: 1,
   animation: true,
-  sequentialUnlock: true,
   theme: 'dark',
 };
 
