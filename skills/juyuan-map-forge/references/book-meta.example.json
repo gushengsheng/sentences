@@ -1,0 +1,35 @@
+{
+  "book": {
+    "id": "pharmacology",
+    "title": "药理学",
+    "author": "",
+    "contentVersion": 2,
+    "contentNote": ""
+  },
+  "chapters": [
+    {
+      "id": "anticholinergic",
+      "title": "胆碱受体阻断药",
+      "order": 1,
+      "file": "01-anticholinergic.json",
+      "fragments": [
+        {
+          "id": "anticholinergic-01",
+          "title": "总论与药动学",
+          "order": 1,
+          "recommendedRounds": 12,
+          "unitsFile": ".work/pharmacology/01-anticholinergic/units-01.json",
+          "pagesFile": ".work/pharmacology/01-anticholinergic/pages-01.json"
+        },
+        {
+          "id": "anticholinergic-02",
+          "title": "阿托品机制与作用",
+          "order": 2,
+          "recommendedRounds": 12,
+          "unitsFile": ".work/pharmacology/01-anticholinergic/units-02.json",
+          "pagesFile": ".work/pharmacology/01-anticholinergic/pages-02.json"
+        }
+      ]
+    }
+  ]
+}

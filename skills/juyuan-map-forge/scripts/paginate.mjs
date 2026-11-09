@@ -1,13 +1,13 @@
 // DP 分页：句元数组 → 页数组
-// 用法：node paginate.mjs <units.json> <pages.json> [target=14]
+// 用法：node paginate.mjs <units.json> <pages.json> [target=12]
 import { readFileSync, writeFileSync } from 'node:fs';
 
 const unitsPath = process.argv[2];
 const outPath = process.argv[3];
-const target = Number(process.argv[4] ?? 14);
+const target = Number(process.argv[4] ?? 12);
 
 if (!unitsPath || !outPath) {
-  console.error('用法：node paginate.mjs <units.json> <pages.json> [target]');
+  console.error('用法：node paginate.mjs <units.json> <pages.json> [target=12]');
   process.exit(2);
 }
 

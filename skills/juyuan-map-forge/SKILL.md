@@ -1,144 +1,259 @@
 ---
 name: juyuan-map-forge
-description: 把一段纯文本锻造成「句元战棋」的可玩地图包（JSON）。负责切句、为每个句元生成 1 正 3 错 1 备用的四选一、硬校验、语义判定、DP 分页，输出到 public/maps 并更新清单。用户说“把这段文本做成地图 / 做个战役 / 生成关卡”时使用。
+description: 把医学/教材文本锻造成 sentences v2 的三级地图：书（Book）→章节（Chapter）→知识碎片（Fragment）→句元（Unit）。负责切句、碎片规划、词级四选一生成、单段 diff 校验、语义判定、DP 分页，输出 public/maps/<book>/book.json 与 NN-<chapter>.json，并自动生成 index.json。用户说“把这本书/这一章做成地图 / 新增一本书 / 做个知识碎片”时使用。
 ---
 
-# 句元地图锻造炉
+# sentences v2 地图锻造炉
 
-把文本变成 `MapPack` JSON。产出直接放进 `句元战棋/public/maps/`，游戏启动即可选到。
+## 产出
 
-## 硬约束（先读）
+```
+public/maps/
+  index.json                  ← scripts/index-books.mjs 自动生成
+  <book>/
+    book.json                 ← 书元信息 + 章节索引
+    NN-<chapter>.json         ← 一章，内含多个知识碎片
+```
 
-1. **不发明事实**：只改写字面，不引入原文没有的人名、数字、事件。
-2. **每个句元必须 5 个文本**：原文（`original`）、1 个忠实改写（`correctOption`）、3 个篡改项（`wrongOptions`）、1 个备用篡改（`wrongDisplay`）。
-3. **`original` 与 `wrongDisplay` 不得与任何选项字符串相同**，否则玩家可以靠字面匹配作弊。
-4. **每个篡改项只改 1 个语义要素**，并在结果里记 `errorOp`。
-5. **长度差 < 30%**，不能用长短区分对错。
-6. 校验不通过就重生成；连续两次失败，降级为装饰句元或丢弃，**不许凑合**。
+层级：**书 → 章节 → 知识碎片（= 一局）→ 句元（棋盘格子）**。
 
-## 输入
+- 书：一本书一个目录。
+- 章节：教材的一章/一节；一章一个文件。
+- 知识碎片：原 v1 的「一局」，含 `pages` 与 `units`，18–30 个句元。
+- 句元：原 v1 的 `UnitDef`，字段不变。
 
-- 文本：用户粘贴的内容，或一个文件路径。
-- 可选：包名、战区数、每战区句元数（默认 30–45）、错误密度（默认 25%）。
-- 页内句元数固定 10–16，由分页脚本决定，不是用户参数。
+## 内容类型（不要混）
+
+| 类型 | 适用 | 规则 |
+|---|---|---|
+| `medical`（默认） | 医学教材、说明文、讲义 | 本 skill 的词级规则 |
+| `vocabulary` | 英语背单词 | 拼写/中文释义篡改，**另立 skill**，不要套医学规则 |
+
+本 skill 只处理 `medical`。遇到英语单词书，停，先确认 vocabulary 规则。
+
+## 硬规则（用户亲自定，违反即返工）
+
+1. **只做词级替换**：限定/范围、判断/否定、数字、名词/专名、方向、主客、时间、程度、情态、单位、人群、给药途径、部位/侧别、比较词。
+2. 篡改文本与 `original` 的字符 diff **只能有 1 段连续差异**，且不跨 `，。；：、`，差异段 ≤ 12 字。
+3. **一个选项只改一处**；`wrongDisplay` 也只改一个要素。
+4. 四选一**恰好 1 个 faithful**（`correctOption`）。
+5. 禁止：因果倒置、`只有…才 / 如果…就`、语序对调、增删分句、改标点、一个选项改两处。
+6. `correctOption` 仍允许同义改写；建议最小改写（1–3 个同义词）。
+7. `original`、`wrongDisplay` 不得等于任何选项；5 个生成文本两两不同。
+8. 6 个文本长度比 ≤ 1.3；错误密度 15%–35%。
+9. 不引入原文之外的人名、数字、事件。
+
+## 命名
+
+| 对象 | 规则 | 例 |
+|---|---|---|
+| 书目录 / `book.id` | 英文小写 kebab-case | `pharmacology` |
+| 章节文件 | `NN-<chapter>.json` | `01-anticholinergic.json` |
+| 章节 id | 英文小写 kebab-case | `anticholinergic` |
+| 碎片 id | `<chapterId>-NN` | `anticholinergic-01` |
+| 句元 id | `<fragmentId>-sNN` | `anticholinergic-01-s01` |
+| 页 id | `<fragmentId>-pN` | `anticholinergic-01-p1` |
+
+文件名一律英文；中文标题只写在 JSON 内容里。
+
+## 工作目录
+
+```
+.work/<bookId>/
+  chapters/01-<chapter>.txt       ← 一章一个纯文本
+  plan.json                       ← 章节 / 碎片规划
+  01-<chapter>/
+    sentences.json                ← split.mjs 输出
+    units-1.json, units-2.json…   ← 每 6–8 句一片
+    units.json                    ← 合并后
+    pages.json                    ← paginate.mjs 输出
+  meta.json                       ← build-book.mjs 输入
+```
 
 ## 流程
+
+### 0. 拆书
+
+一本书按「章」拆成多个 txt；一章一个文件。不要一章里混两章内容。
+章文件名带两位序号：`01-anticholinergic.txt`、`02-...txt`。
 
 ### 1. 切句
 
 ```bash
-node skills/juyuan-map-forge/scripts/split.mjs <文本文件> .work/sentences.json
+node skills/juyuan-map-forge/scripts/split.mjs \
+  .work/<bookId>/chapters/01-<chapter>.txt \
+  .work/<bookId>/01-<chapter>/sentences.json
 ```
 
-输出 `[{ index, paragraph, text }]`。脚本会合并过短句、在标点处二次切过长句。
+输出 `{ headings, sentences }`。每句带 `quality`：
 
-### 2. 可错性筛选
+- `high`：≥18 字、完整句末标点、无碎片特征 → 正常生成。
+- `medium`：12–17 字，或“其/也/但/这…”开头 → 可生成，人工留意。
+- `low`：<12 字、无句末标点 → **跳过，不做句元**。
 
-按下表给每句打分，只让“高”和“中”进入可错句元池，“低”的留作装饰句元（`scoreable: false`，但当前 schema 里直接剔除或作为普通正确句元）。
+### 2. 规划知识碎片
 
-| 级别 | 特征 |
-|---|---|
-| 高 | 含数字、专名、因果连词、条件句、限定词（所有/只/必须/一定） |
-| 中 | 主谓宾完整、可独立理解 |
-| 低 | 诗意、歧义、强依赖上下文、口语碎片 |
+原则：
+
+- 一个碎片 **18–30 个句元**，1–3 页，目标页长 12。
+- 在标题/段落边界切；不要把同一小节硬拆两半。
+- 一章 <15 句 → 整章一个碎片；>40 句 → 按小节拆 2–4 个碎片。
+- 标题取小节标题；没有标题就取该碎片首句的主题词。
+- 碎片 `id` = `<chapterId>-NN`；顺序 = 阅读顺序。
+
+先在 `.work/<bookId>/plan.json` 写清章节与碎片边界，再生成。
 
 ### 3. 生成四选一
 
-**分批**：每批 6–8 句，不要一次丢 50 句（质量会断崖式下滑）。
+**分批**：每批 6–8 句，不要一次丢 30 句。用 `references/prompt-generate.md`。
 
-用 `references/prompt-generate.md` 的模板，逐批输出 JSON，累积到 `.work/units.json`。
-
-每条生成结果形如：
+每个句元字段：
 
 ```json
 {
-  "id": "u01",
+  "id": "anticholinergic-01-s01",
   "paragraph": 1,
   "corruptNow": false,
-  "original": "原文原句",
-  "wrongDisplay": "备用篡改版",
-  "correctOption": "忠实改写",
-  "wrongOptions": ["篡改1", "篡改2", "篡改3"]
+  "original": "原句逐字",
+  "wrongDisplay": "备用篡改",
+  "correctOption": "最小改写",
+  "wrongOptions": ["错1", "错2", "错3"],
+  "errorOps": ["name", "negation", "direction"],
+  "errorOpDisplay": "time"
 }
 ```
 
-### 4. 硬校验
+- `id` 用 `<fragmentId>-sNN`；`paragraph` 照抄 sentences。
+- 4 个算子互异，来自 `references/error-ops.md` 的 14 类。
+- `corruptNow` 约 25%，均匀分布，连续不超过 2。
+- 每 6–8 句写一个分片，最后合并；不要一次写整个碎片。
 
 ```bash
-node scripts/validate-map.mjs .work/pack.json
+node skills/juyuan-map-forge/scripts/merge-units.mjs \
+  .work/<bookId>/01-<chapter>/units.json \
+  .work/<bookId>/01-<chapter>/units-1.json \
+  .work/<bookId>/01-<chapter>/units-2.json
 ```
 
-（校验器在项目根目录的 `scripts/` 下，不在 skill 里。）
+### 4. 内容硬校验
 
-失败项按 `references/prompt-generate.md` 的“重生成策略”处理。
+```bash
+node skills/juyuan-map-forge/scripts/validate-content.mjs \
+  .work/<bookId>/01-<chapter>/units.json \
+  .work/<bookId>/01-<chapter>/sentences.json
+```
+
+必须 `PASS`。失败项按 `references/prompt-generate.md` 的重生成策略处理；连续两次失败就丢弃该句元。
 
 ### 5. 语义判定
 
-对每个句元，用 `references/prompt-judge.md` 起一次独立调用，检查：
+对每个句元用 `references/prompt-judge.md` 起独立判定：
 
-- 正确项是否真的与原文等价；
-- 3 个篡改项是否各自有**唯一、可命名**的语义错误；
-- 是否出现“两个选项都说得通”。
+- 恰好 1 个 `faithful`；
+- 每个非正确项只有 1 处差异、可命名；
+- 无 `vague` / `multi-change` / `ambiguous`。
 
-判定失败 → 换一种 `errorOp` 重生成该句元。
+失败 → 换算子重生成；不要用结构改写补。
 
 ### 6. 分页
 
 ```bash
-node skills/juyuan-map-forge/scripts/paginate.mjs .work/units.json .work/pages.json 14
+node skills/juyuan-map-forge/scripts/paginate.mjs \
+  .work/<bookId>/01-<chapter>/units.json \
+  .work/<bookId>/01-<chapter>/pages.json 12
 ```
 
-DP 求最优切分：页长接近目标、尽量在段落边界断开、页间长度均衡。
+DP 求最优切分，页长接近 12，尽量在段落边界断开。
 
-### 7. 组装并写盘
+### 7. 组装 v2 书
 
-```bash
-node skills/juyuan-map-forge/scripts/build.mjs .work/meta.json
-```
-
-`meta.json` 形如：
+写 `.work/<bookId>/meta.json`：
 
 ```json
 {
-  "packId": "bee",
-  "title": "蜜蜂与蜂群",
-  "source": "原文本出处",
-  "maps": [
+  "book": {
+    "id": "pharmacology",
+    "title": "药理学",
+    "author": "",
+    "contentVersion": 2,
+    "contentNote": ""
+  },
+  "chapters": [
     {
-      "id": "bee-01",
-      "title": "第一战区 · 蜂群与分工",
+      "id": "anticholinergic",
+      "title": "胆碱受体阻断药",
       "order": 1,
-      "recommendedRounds": 9,
-      "unitsFile": ".work/units-map1.json",
-      "pagesFile": ".work/pages-map1.json"
+      "file": "01-anticholinergic.json",
+      "fragments": [
+        {
+          "id": "anticholinergic-01",
+          "title": "总论与药动学",
+          "order": 1,
+          "recommendedRounds": 12,
+          "unitsFile": ".work/pharmacology/01-anticholinergic/units.json",
+          "pagesFile": ".work/pharmacology/01-anticholinergic/pages.json"
+        }
+      ]
     }
   ]
 }
 ```
 
-输出 `public/maps/<packId>.json` 并自动更新 `public/maps/index.json`。
+然后：
 
-### 8. 报告
+```bash
+node skills/juyuan-map-forge/scripts/build-book.mjs .work/<bookId>/meta.json
+```
 
-向用户汇报：战区数、每战区句元数、错误密度、校验通过率、重生成次数、需要人工抽检的句子编号。
+会写 `public/maps/<bookId>/book.json` + 章节文件，并自动调用 `scripts/index-books.mjs` 更新 `index.json`。
+
+### 8. 最终校验
+
+```bash
+node scripts/validate-map.mjs public/maps/<bookId>/book.json
+node scripts/index-books.mjs
+```
+
+必须 `PASS`。**没有通过校验的书不允许进 `public/maps/`。**
+
+### 9. 报告
+
+汇报：书、章节数、碎片数、每碎片句元数、页数、错误密度、PASS/FAIL、全部 warning、被丢弃的句元编号、人工抽检建议。
+
+## 新增一本书（SOP）
+
+1. 在 `public/maps/` 下选英文目录名：`<bookId>`（小写 kebab-case）。
+2. 把书按章拆成 `.work/<bookId>/chapters/01-<chapter>.txt`、`02-...`。
+3. 对每章跑 `split.mjs`，看 `quality` 统计。
+4. 在 `.work/<bookId>/plan.json` 规划：每章拆几个碎片、每个碎片多少句、标题。
+5. 每碎片按 6–8 句一批生成 `units-N.json`，合并成 `units.json`。
+6. 跑 `validate-content.mjs`，再跑 `prompt-judge` 语义判定，修到全 PASS。
+7. 跑 `paginate.mjs ... 12` 得 `pages.json`。
+8. 写 `meta.json`（book + chapters + fragments）。
+9. 跑 `build-book.mjs`，再跑 `validate-map.mjs public/maps/<bookId>/book.json`。
+10. 跑 `npm run build`（prebuild 会重建 `index.json`），刷新页面确认菜单出现新书。
 
 ## 质量红线
 
-- 一眼假的干扰项（“蜜蜂是鸟类”）只允许出现在初级难度包。
-- 两个选项意思都能成立 → 必须重生成。
-- 篡改点依赖原文之外的知识 → 必须重生成。
-- 连续两次失败 → 丢弃该句元，不要降低标准。
+- 找不到 4 个互异单点算子 → 丢弃该句，不硬凑。
+- 两个选项都说得通 → 重生成。
+- 差异依赖原文之外的知识 → 重生成。
+- 连续两次失败 → 丢弃并记录编号。
+- 旧 v1 内容迁移进 v2 时，`contentVersion` 标 1，`contentNote` 说明“可能未按 v2 词级规则生成”，不要假装合规。
 
-## 输出位置
+## 兼容与迁移
 
-```
-句元战棋/public/maps/<packId>.json
-句元战棋/public/maps/index.json   （自动更新）
-句元战棋/reports/<packId>.md       （可选）
-```
+- 旧 `public/maps/<pack>.json`（v1 `schemaVersion:1`）由 App 的迁移层读成「单章书」；skill 不再产出 v1。
+- 旧 skill 的 `build.mjs` 已废弃，v2 用 `build-book.mjs`。
+- 校验器仍兼容三种输入：`book.json` / 章节 JSON / v1 地图包。
+- 注意：`scripts/validate-map.mjs` 只做结构校验；「恰好 1 个 faithful」「长度 < 30%」由 `validate-content.mjs` + `prompt-judge` 负责。校验器里的 5 文本长度分支是历史 bug，不要依赖它。
 
-## 注意
+## 参考
 
-- 选项顺序**不要在文件里洗牌**，引擎会按 seed 洗。
-- 同一个句元的 5 个文本必须互不重复（含 `original` 与 `wrongDisplay`）。
-- 生成完必须跑一次校验器，**没有通过校验的地图不允许进 `public/maps/`**。
+- `references/schema.md`：完整数据结构与命名。
+- `references/error-ops.md`：14 个允许算子 + 禁止项 + 反例。
+- `references/prompt-generate.md`：生成提示词。
+- `references/prompt-judge.md`：语义判定提示词。
+- `references/add-book.md`：新增一本书的逐步清单。
+- `references/book-meta.example.json`：book meta 示例。
+- `references/content-types.md`：医学 vs 英语单词的边界。
