@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "id": "psychotropic",
+  "title": "精神药物",
+  "author": "杨宝峰",
+  "contentVersion": 2,
+  "contentNote": "取自《药理学》（杨宝峰）第十八章，按考试复习口径筛选；紧凑篡改点 + 脚本物化生成。",
+  "chapters": [
+    {
+      "id": "antipsychotics",
+      "title": "抗精神失常药",
+      "order": 1,
+      "file": "01-antipsychotics.json"
+    }
+  ]
+}

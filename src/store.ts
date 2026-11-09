@@ -9,6 +9,12 @@ export interface Settings {
   uiScale: number; // 0.85–1.4
   animation: boolean;
   theme: 'dark' | 'light';
+  /** 棋盘闪光：修正 / 被进攻时高亮那一句 */
+  flashBoard: boolean;
+  /** 回合横幅：只在第 1 回合和灾变后出现 */
+  turnBanner: boolean;
+  /** 手机震动反馈 */
+  vibrate: boolean;
 }
 
 const SETTINGS_KEY = 'sentences.settings.v1';
@@ -18,6 +24,9 @@ const DEFAULT_SETTINGS: Settings = {
   uiScale: 1,
   animation: true,
   theme: 'dark',
+  flashBoard: true,
+  turnBanner: true,
+  vibrate: true,
 };
 
 export function loadSettings(): Settings {

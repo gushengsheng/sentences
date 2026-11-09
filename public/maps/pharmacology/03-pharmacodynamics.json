@@ -1,0 +1,2176 @@
+{
+  "id": "pharmacodynamics",
+  "title": "药物效应动力学",
+  "fragments": [
+    {
+      "id": "pharmacodynamics-01",
+      "title": "药物作用与疗效",
+      "order": 1,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "pharmacodynamics-01-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "pharmacodynamics-01-s02",
+            "pharmacodynamics-01-s03",
+            "pharmacodynamics-01-s06",
+            "pharmacodynamics-01-s07",
+            "pharmacodynamics-01-s08",
+            "pharmacodynamics-01-s09",
+            "pharmacodynamics-01-s10",
+            "pharmacodynamics-01-s11"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-01-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "pharmacodynamics-01-s12",
+            "pharmacodynamics-01-s14",
+            "pharmacodynamics-01-s15",
+            "pharmacodynamics-01-s16",
+            "pharmacodynamics-01-s18",
+            "pharmacodynamics-01-s20",
+            "pharmacodynamics-01-s23",
+            "pharmacodynamics-01-s25",
+            "pharmacodynamics-01-s26",
+            "pharmacodynamics-01-s27",
+            "pharmacodynamics-01-s29"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "pharmacodynamics-01-s02",
+          "paragraph": 4,
+          "corruptNow": false,
+          "original": "药物作用（drug action）是指药物对机体的初始作用，是动因。",
+          "wrongDisplay": "药物作用（drug action）是指药物对机体的最终作用，是动因。",
+          "correctOption": "药物作用（drug action）是指药物对机体的初始作用，为动因。",
+          "wrongOptions": [
+            "药物作用（drug action）不是指药物对机体的初始作用，是动因。",
+            "药物作用（drug action）是指药物对机体的初始效应，是动因。",
+            "药物作用（drug action）仅指药物对机体的初始作用，是动因。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-01-s03",
+          "paragraph": 4,
+          "corruptNow": true,
+          "original": "药理效应（pharmacological effect）是药物作用的结果，是机体反应的表现。",
+          "wrongDisplay": "药理效应（pharmacodynamic effect）是药物作用的结果，是机体反应的表现。",
+          "correctOption": "药理效应（pharmacological effect）为药物作用的结果，是机体反应的表现。",
+          "wrongOptions": [
+            "药理效应（pharmacological effect）不是药物作用的结果，是机体反应的表现。",
+            "药理效应（pharmacological effect）是药物作用的结果，是机体全部反应的表现。",
+            "药理效应（pharmacological effect）是药物作用的结果，是机体反应的主要表现。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-01-s06",
+          "paragraph": 5,
+          "corruptNow": false,
+          "original": "药理效应是机体器官原有功能水平的改变，功能提高称为兴奋（excitation），功能降低称为抑制（inhibition）。",
+          "wrongDisplay": "药理效应是机体组织原有功能水平的改变，功能提高称为兴奋（excitation），功能降低称为抑制（inhibition）。",
+          "correctOption": "药理效应是机体器官原有功能水平的变化，功能提高称作兴奋（excitation），功能降低称作抑制（inhibition）。",
+          "wrongOptions": [
+            "药理效应不是机体器官原有功能水平的改变，功能提高称为兴奋（excitation），功能降低称为抑制（inhibition）。",
+            "药理效应是机体器官原有功能水平的改变，功能提高称为兴奋（excitation），功能升高称为抑制（inhibition）。",
+            "药理效应是机体所有器官原有功能水平的改变，功能提高称为兴奋（excitation），功能降低称为抑制（inhibition）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-01-s07",
+          "paragraph": 5,
+          "corruptNow": false,
+          "original": "例如，肾上腺素升高血压、呋塞米增加尿量均属兴奋；阿司匹林退热和吗啡镇痛均属抑制。",
+          "wrongDisplay": "例如，肾上腺素升高血压、呋塞米减少尿量均属兴奋；阿司匹林退热和吗啡镇痛均属抑制。",
+          "correctOption": "例如，肾上腺素升高血压、呋塞米增加尿量均属兴奋；阿司匹林退热与吗啡镇痛均属抑制。",
+          "wrongOptions": [
+            "例如，肾上腺素升高血压、呋塞米增加尿量均属兴奋；阿司匹林退热和吗啡镇痛均不属于抑制。",
+            "例如，肾上腺素只升高血压、呋塞米增加尿量均属兴奋；阿司匹林退热和吗啡镇痛均属抑制。",
+            "例如，异丙肾上腺素升高血压、呋塞米增加尿量均属兴奋；阿司匹林退热和吗啡镇痛均属抑制。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-01-s08",
+          "paragraph": 6,
+          "corruptNow": false,
+          "original": "多数药物是通过化学反应而产生药理效应的。",
+          "wrongDisplay": "多数药物不是通过化学反应而产生药理效应的。",
+          "correctOption": "大多数药物是通过化学反应而产生药理效应的。",
+          "wrongOptions": [
+            "全部药物是通过化学反应而产生药理效应的。",
+            "多数药物是通过物理作用而产生药理效应的。",
+            "少数药物是通过化学反应而产生药理效应的。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-01-s09",
+          "paragraph": 6,
+          "corruptNow": true,
+          "original": "这种化学反应的专一性使药物的作用具有特异性（specificity）。",
+          "wrongDisplay": "这种化学反应的选择性使药物的作用具有特异性（specificity）。",
+          "correctOption": "这种化学反应的专一性使药物的作用具备特异性（specificity）。",
+          "wrongOptions": [
+            "这种化学反应的专一性使药物的作用不具有特异性（specificity）。",
+            "这种化学反应的专一性使药物的全部作用具有特异性（specificity）。",
+            "这种化学反应的专一性使药物的作用必须具有特异性（specificity）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-01-s10",
+          "paragraph": 6,
+          "corruptNow": false,
+          "original": "例如，阿托品特异性地阻断M胆碱受体，而对其他受体影响不大。",
+          "wrongDisplay": "例如，阿托品特异性地阻断M胆碱受体，而对其他受体影响很大。",
+          "correctOption": "例如，阿托品特异性地阻断M胆碱受体，而对其他受体影响较小。",
+          "wrongOptions": [
+            "例如，阿托品特异性地阻断N胆碱受体，而对其他受体影响不大。",
+            "例如，阿托品非特异性地阻断M胆碱受体，而对其他受体影响不大。",
+            "例如，阿托品特异性地激动M胆碱受体，而对其他受体影响不大。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-01-s11",
+          "paragraph": 6,
+          "corruptNow": false,
+          "original": "药物作用特异性的物质基础是药物的化学结构。",
+          "wrongDisplay": "药物作用特异性的物质基础是药物的化学性质。",
+          "correctOption": "药物作用特异性的物质基础为药物的化学结构。",
+          "wrongOptions": [
+            "药物作用特异性的物质基础不是药物的化学结构。",
+            "药物作用特异性的唯一物质基础是药物的化学结构。",
+            "药物作用特异性的物质基础必须是药物的化学结构。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-01-s12",
+          "paragraph": 7,
+          "corruptNow": false,
+          "original": "药物的作用还有其选择性（selectivity），有些药物可影响机体的多种功能，有些药物只影响机体的一种功能，前者选择性低，后者选择性高。",
+          "wrongDisplay": "药物的作用还有其选择性（selectivity），有些药物必须影响机体的多种功能，有些药物只影响机体的一种功能，前者选择性低，后者选择性高。",
+          "correctOption": "药物的作用还有其选择性（selectivity），有些药物可影响机体的多种功能，有些药物仅影响机体的一种功能，前者选择性低，后者选择性高。",
+          "wrongOptions": [
+            "药物的作用还有其选择性（selectivity），所有药物可影响机体的多种功能，有些药物只影响机体的一种功能，前者选择性低，后者选择性高。",
+            "药物的作用还有其选择性（selectivity），有些药物可影响机体的多种功能，有些药物不只影响机体的一种功能，前者选择性低，后者选择性高。",
+            "药物的作用还有其选择性（selectivity），有些药物可影响机体的多种功能，有些药物只影响机体的一种功能，前者选择性低，后者选择性低。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-01-s14",
+          "paragraph": 7,
+          "corruptNow": false,
+          "original": "例如，阿托品特异性地阻断M胆碱受体，但其药理效应选择性并不高，对心脏、血管、平滑肌、腺体及中枢神经系统都有影响，而且有的兴奋，有的抑制。",
+          "wrongDisplay": "例如，阿托品特异性地阻断M胆碱受体，但其药理效应选择性非常高，对心脏、血管、平滑肌、腺体及中枢神经系统都有影响，而且有的兴奋，有的抑制。",
+          "correctOption": "例如，阿托品特异性地阻断M胆碱受体，但其药理效应选择性并不高，对心脏、血管、平滑肌、腺体及中枢神经系统均有影响，而且有的兴奋，有的抑制。",
+          "wrongOptions": [
+            "例如，阿托品特异性地阻断N胆碱受体，但其药理效应选择性并不高，对心脏、血管、平滑肌、腺体及中枢神经系统都有影响，而且有的兴奋，有的抑制。",
+            "例如，阿托品特异性地阻断M胆碱受体，但其药理效应选择性并不高，对心脏、血管、平滑肌、腺体及中枢神经系统都无影响，而且有的兴奋，有的抑制。",
+            "例如，阿托品特异性地阻断M胆碱受体，但其药理效应选择性并不高，对心脏、血管、平滑肌、腺体及中枢神经系统都有明显影响，而且有的兴奋，有的抑制。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-01-s15",
+          "paragraph": 7,
+          "corruptNow": false,
+          "original": "作用特异性强和（或）效应选择性高的药物应用时针对性较好。",
+          "wrongDisplay": "作用特异性强和（或）效应选择性高的药物应用时针对性较差。",
+          "correctOption": "作用特异性强和（或）效应选择性高的药物使用时针对性较好。",
+          "wrongOptions": [
+            "作用特异性不强和（或）效应选择性高的药物应用时针对性较好。",
+            "作用特异性强和（或）效应选择性高的药物应用时针对性都好。",
+            "作用特异性强和（或）效应选择性高的药物应用时针对性最好。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-01-s16",
+          "paragraph": 7,
+          "corruptNow": false,
+          "original": "反之，效应广泛的药物副反应较多。",
+          "wrongDisplay": "反之，效应广泛的药物副反应较少。",
+          "correctOption": "反之，效应广泛的药物副反应偏多。",
+          "wrongOptions": [
+            "反之，效应不广泛的药物副反应较多。",
+            "反之，效应广泛的药物副反应都较多。",
+            "反之，效应广泛的药物副反应必然较多。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-01-s18",
+          "paragraph": 7,
+          "corruptNow": true,
+          "original": "选择性的基础有以下几方面：药物在体内的分布不均匀、机体组织细胞的结构不同、生化功能存在差异等。",
+          "wrongDisplay": "选择性的基础有以下几方面：药物在体内的吸收不均匀、机体组织细胞的结构不同、生化功能存在差异等。",
+          "correctOption": "选择性的基础有以下几个方面：药物在体内的分布不均匀、机体组织细胞的结构不同、生化功能存在差异等。",
+          "wrongOptions": [
+            "选择性的基础有以下几方面：药物在体内的分布不均匀、机体组织细胞的结构不同、生化功能不存在差异等。",
+            "选择性的基础有以下几方面：药物在体内的分布较均匀、机体组织细胞的结构不同、生化功能存在差异等。",
+            "选择性的基础有以下两方面：药物在体内的分布不均匀、机体组织细胞的结构不同、生化功能存在差异等。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-01-s20",
+          "paragraph": 9,
+          "corruptNow": false,
+          "original": "治疗效果，也称疗效（therapeutic effect），是指药物作用的结果有利于改变患者的生理、生化功能或病理过程，使患病的机体恢复正常。",
+          "wrongDisplay": "治疗效果，也称疗效（therapeutic effect），是指药物作用的结果不利于改变患者的生理、生化功能或病理过程，使患病的机体恢复正常。",
+          "correctOption": "治疗效果，又称疗效（therapeutic effect），是指药物作用的结果有利于改变患者的生理、生化功能或病理过程，使患病的机体恢复正常。",
+          "wrongOptions": [
+            "治疗效果，也称疗效（therapeutic effect），是指药物作用的结果有利于改变全部患者的生理、生化功能或病理过程，使患病的机体恢复正常。",
+            "治疗效果，也称疗效（therapeutic effect），是指药物作用的结果有利于改变患者的生理、生化功能或生理过程，使患病的机体恢复正常。",
+            "治疗效果，也称疗效（therapeutic effect），是指药物作用的结果有利于改变成人的生理、生化功能或病理过程，使患病的机体恢复正常。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-01-s23",
+          "paragraph": 11,
+          "corruptNow": false,
+          "original": "用药目的在于消除原发致病因子，彻底治愈疾病，称为对因治疗，如用抗生素杀灭体内致病菌。",
+          "wrongDisplay": "用药目的在于消除原发致病因子，彻底治愈疾病，称为对症治疗，如用抗生素杀灭体内致病菌。",
+          "correctOption": "用药目的在于消除原发致病因子，彻底治愈疾病，称为对因治疗，如以抗生素杀灭体内致病菌。",
+          "wrongOptions": [
+            "用药目的不在于消除原发致病因子，彻底治愈疾病，称为对因治疗，如用抗生素杀灭体内致病菌。",
+            "用药目的在于消除原发致病因子，初步治愈疾病，称为对因治疗，如用抗生素杀灭体内致病菌。",
+            "用药目的在于消除原发致病因子，彻底治愈疾病，称为对因治疗，如用抗生素杀灭体内全部致病菌。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-01-s25",
+          "paragraph": 13,
+          "corruptNow": false,
+          "original": "用药目的在于改善症状，称为对症治疗。",
+          "wrongDisplay": "用药目的在于改善症状，称为对因治疗。",
+          "correctOption": "用药的目的在于改善症状，称为对症治疗。",
+          "wrongOptions": [
+            "用药目的不在于改善症状，称为对症治疗。",
+            "用药目的在于加重症状，称为对症治疗。",
+            "用药目的在于改善全部症状，称为对症治疗。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-01-s26",
+          "paragraph": 13,
+          "corruptNow": true,
+          "original": "对症治疗不能根除病因，但对病因未明暂时无法根治的疾病却是必不可少的。",
+          "wrongDisplay": "对症治疗也能根除病因，但对病因未明暂时无法根治的疾病却是必不可少的。",
+          "correctOption": "对症治疗不能根除病因，但对病因未明暂时无法根治的疾病仍是必不可少的。",
+          "wrongOptions": [
+            "对症治疗不能根除病因，但对病因已明暂时无法根治的疾病却是必不可少的。",
+            "对症治疗不能根除病因，但对全部病因未明暂时无法根治的疾病却是必不可少的。",
+            "对症治疗不必根除病因，但对病因未明暂时无法根治的疾病却是必不可少的。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-01-s27",
+          "paragraph": 13,
+          "corruptNow": false,
+          "original": "对某些危重急症如休克、惊厥、心力衰竭、心跳或呼吸暂停等，对症治疗可能比对因治疗更为迫切。",
+          "wrongDisplay": "对某些危重急症如休克、惊厥、心力衰竭、心跳或呼吸暂停等，对症治疗不可能比对因治疗更为迫切。",
+          "correctOption": "对某些危重急症如休克、惊厥、心力衰竭、心跳或呼吸暂停等，对症治疗可能比对因治疗更加迫切。",
+          "wrongOptions": [
+            "对某些危重急症如休克、惊厥、心力衰竭、心跳或呼吸暂停等，对症治疗可能比对因治疗更不迫切。",
+            "对全部危重急症如休克、惊厥、心力衰竭、心跳或呼吸暂停等，对症治疗可能比对因治疗更为迫切。",
+            "对某些危重急症如休克、惊厥、心力衰竭、心跳或呼吸加快等，对症治疗可能比对因治疗更为迫切。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-01-s29",
+          "paragraph": 13,
+          "corruptNow": false,
+          "original": "此时的对症治疗（如退热或止痛）对惊厥或休克而言，又可看成是对因治疗。",
+          "wrongDisplay": "此时的对症治疗（如退热或止痛）对惊厥或休克而言，不可看成是对因治疗。",
+          "correctOption": "此时的对症治疗（如退热或止痛）对惊厥或休克而言，又可视为对因治疗。",
+          "wrongOptions": [
+            "此时的对症治疗（如退热或止痛）对惊厥或休克而言，又必须看成是对因治疗。",
+            "此时全部的对症治疗（如退热或止痛）对惊厥或休克而言，又可看成是对因治疗。",
+            "早期的对症治疗（如退热或止痛）对惊厥或休克而言，又可看成是对因治疗。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacodynamics-02",
+      "title": "不良反应",
+      "order": 2,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "pharmacodynamics-02-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "pharmacodynamics-02-s33",
+            "pharmacodynamics-02-s34",
+            "pharmacodynamics-02-s35",
+            "pharmacodynamics-02-s37",
+            "pharmacodynamics-02-s38",
+            "pharmacodynamics-02-s39",
+            "pharmacodynamics-02-s41",
+            "pharmacodynamics-02-s42",
+            "pharmacodynamics-02-s43",
+            "pharmacodynamics-02-s44",
+            "pharmacodynamics-02-s47"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-02-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "pharmacodynamics-02-s49",
+            "pharmacodynamics-02-s52",
+            "pharmacodynamics-02-s54",
+            "pharmacodynamics-02-s55",
+            "pharmacodynamics-02-s57",
+            "pharmacodynamics-02-s58",
+            "pharmacodynamics-02-s62",
+            "pharmacodynamics-02-s64"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "pharmacodynamics-02-s33",
+          "paragraph": 16,
+          "corruptNow": false,
+          "original": "凡与用药目的无关，并为患者带来不适或痛苦的反应统称为药物不良反应（adverse reaction）。",
+          "wrongDisplay": "凡与用药目的无关，并为患者带来不适或痛苦的反应不称为药物不良反应（adverse reaction）。",
+          "correctOption": "凡与用药目的无关，且为患者带来不适或痛苦的反应统称为药物不良反应（adverse reaction）。",
+          "wrongOptions": [
+            "大多数与用药目的无关，并为患者带来不适或痛苦的反应统称为药物不良反应（adverse reaction）。",
+            "凡与用药目的无关，并为患者带来不适或痛苦的反应统称为药物副作用（adverse reaction）。",
+            "凡与用药目的无关，并为儿童带来不适或痛苦的反应统称为药物不良反应（adverse reaction）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-02-s34",
+          "paragraph": 16,
+          "corruptNow": false,
+          "original": "多数不良反应是药物固有的效应，在一般情况下是可以预知的，但不一定是能够避免的。",
+          "wrongDisplay": "多数不良反应是药物固有的效应，在一般情况下是可以预知的，但一定是能够避免的。",
+          "correctOption": "多数不良反应是药物固有的效应，在通常情况下是可以预知的，但不一定是能够避免的。",
+          "wrongOptions": [
+            "所有不良反应是药物固有的效应，在一般情况下是可以预知的，但不一定是能够避免的。",
+            "多数不良反应是药物固有的效应，在一般情况下必须是可预知的，但不一定是能够避免的。",
+            "多数不良反应是药物继发的效应，在一般情况下是可以预知的，但不一定是能够避免的。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-02-s35",
+          "paragraph": 16,
+          "corruptNow": true,
+          "original": "少数较严重的不良反应较难恢复，称为药源性疾病（drug-induced disease），例如庆大霉素引起的神经性耳聋、肼屈嗪引起的红斑性狼疮等。",
+          "wrongDisplay": "少数较严重的不良反应较易恢复，称为药源性疾病（drug-induced disease），例如庆大霉素引起的神经性耳聋、肼屈嗪引起的红斑性狼疮等。",
+          "correctOption": "少数较严重的不良反应难以恢复，称为药源性疾病（drug-induced disease），例如庆大霉素引起的神经性耳聋、肼屈嗪引起的红斑性狼疮等。",
+          "wrongOptions": [
+            "多数较严重的不良反应较难恢复，称为药源性疾病（drug-induced disease），例如庆大霉素引起的神经性耳聋、肼屈嗪引起的红斑性狼疮等。",
+            "少数较严重的不良反应较难恢复，称为药源性疾病（drug-induced disease），例如青霉素引起的神经性耳聋、肼屈嗪引起的红斑性狼疮等。",
+            "少数较严重的不良反应较难恢复，不称为药源性疾病（drug-induced disease），例如庆大霉素引起的神经性耳聋、肼屈嗪引起的红斑性狼疮等。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-02-s37",
+          "paragraph": 18,
+          "corruptNow": false,
+          "original": "由于选择性低，药理效应涉及多个器官，当某一效应用作治疗目的时，其他效应就成为副反应（通常也称副作用）。",
+          "wrongDisplay": "由于选择性低，药理效应涉及多个器官，当某一效应用作治疗目的时，其他效应就成为毒性反应（通常也称副作用）。",
+          "correctOption": "由于选择性低，药理效应涉及多个器官，当某一效应用于治疗目的时，其他效应就成为副反应（通常也称副作用）。",
+          "wrongOptions": [
+            "由于选择性高，药理效应涉及多个器官，当某一效应用作治疗目的时，其他效应就成为副反应（通常也称副作用）。",
+            "由于选择性低，药理效应涉及单个器官，当某一效应用作治疗目的时，其他效应就成为副反应（通常也称副作用）。",
+            "由于选择性低，药理效应涉及多个器官，当某一效应用作治疗目的时，其他效应就不会成为副反应（通常也称副作用）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-02-s38",
+          "paragraph": 18,
+          "corruptNow": false,
+          "original": "例如，阿托品用于解除胃肠痉挛时，可引起口干、心悸、便秘等副反应。",
+          "wrongDisplay": "例如，阿托品用于解除胃肠痉挛时，不能引起口干、心悸、便秘等副反应。",
+          "correctOption": "例如，阿托品用于解除胃肠痉挛时，能引起口干、心悸、便秘等副反应。",
+          "wrongOptions": [
+            "例如，东莨菪碱用于解除胃肠痉挛时，可引起口干、心悸、便秘等副反应。",
+            "例如，阿托品用于解除胃肠痉挛时，可引起口干、心悸、腹泻等副反应。",
+            "例如，阿托品用于解除胃肠痉挛时，可引起口干、心悸、便秘等严重副反应。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-02-s39",
+          "paragraph": 18,
+          "corruptNow": false,
+          "original": "副反应是在治疗剂量下发生的，是药物本身固有的作用，多数较轻微并可以预料。",
+          "wrongDisplay": "副反应是在治疗剂量下发生的，是药物本身固有的作用，多数较严重并可以预料。",
+          "correctOption": "副反应是在治疗剂量下发生的，是药物本身固有的作用，多数较轻微并能预料。",
+          "wrongOptions": [
+            "副反应是在治疗剂量下发生的，是药物本身固有的作用，多数较轻微并难以预料。",
+            "副反应是在治疗剂量下发生的，是药物本身固有的作用，少数较轻微并可以预料。",
+            "副反应是在中毒剂量下发生的，是药物本身固有的作用，多数较轻微并可以预料。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-02-s41",
+          "paragraph": 20,
+          "corruptNow": false,
+          "original": "毒性反应是指在剂量过大或药物在体内蓄积过多时发生的危害性反应，一般比较严重。",
+          "wrongDisplay": "毒性反应是指在剂量过大或药物在体内蓄积过多时发生的危害性反应，一般不严重。",
+          "correctOption": "毒性反应是指在剂量过大或药物在体内蓄积过多时发生的危害性反应，通常比较严重。",
+          "wrongOptions": [
+            "毒性反应是指在剂量过小或药物在体内蓄积过多时发生的危害性反应，一般比较严重。",
+            "毒性反应是指在剂量过大或药物在体内蓄积过少时发生的危害性反应，一般比较严重。",
+            "毒性反应是指在剂量过大或药物在体外蓄积过多时发生的危害性反应，一般比较严重。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-02-s42",
+          "paragraph": 20,
+          "corruptNow": true,
+          "original": "毒性反应一般是可以预知的，应该避免发生。",
+          "wrongDisplay": "副反应一般是可以预知的，应该避免发生。",
+          "correctOption": "毒性反应通常是可以预知的，应该避免发生。",
+          "wrongOptions": [
+            "毒性反应一般不是可以预知的，应该避免发生。",
+            "毒性反应一般是可以预知的，不必避免发生。",
+            "毒性反应都是可以预知的，应该避免发生。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-02-s43",
+          "paragraph": 20,
+          "corruptNow": false,
+          "original": "急性毒性多损害循环、呼吸及神经系统功能，慢性毒性多损害肝、肾、骨髓、内分泌等功能。",
+          "wrongDisplay": "急性毒性多损害循环、呼吸及神经系统功能，慢性毒性不损害肝、肾、骨髓、内分泌等功能。",
+          "correctOption": "急性毒性常损害循环、呼吸及神经系统功能，慢性毒性多损害肝、肾、骨髓、内分泌等功能。",
+          "wrongOptions": [
+            "急性毒性多损害循环、呼吸及神经系统功能，慢性毒性多损害肝、肾、骨髓、外分泌等功能。",
+            "急性毒性多损害消化、呼吸及神经系统功能，慢性毒性多损害肝、肾、骨髓、内分泌等功能。",
+            "急性毒性轻微损害循环、呼吸及神经系统功能，慢性毒性多损害肝、肾、骨髓、内分泌等功能。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-02-s44",
+          "paragraph": 20,
+          "corruptNow": false,
+          "original": "致癌（carcinogenesis）、致畸胎（teratogenesis）和致突变（mutagenesis）反应也属于慢性毒性范畴。",
+          "wrongDisplay": "致癌（carcinogenesis）、致畸胎（teratogenesis）和致突变（mutagenesis）反应也属于急性毒性范畴。",
+          "correctOption": "致癌（carcinogenesis）、致畸胎（teratogenesis）与致突变（mutagenesis）反应也属于慢性毒性范畴。",
+          "wrongOptions": [
+            "致癌（carcinogenesis）、致畸胎（teratogenesis）和致突变（mutagenesis）反应也不属于慢性毒性范畴。",
+            "致癌（carcinogenesis）、致畸形（teratogenesis）和致突变（mutagenesis）反应也属于慢性毒性范畴。",
+            "致癌（carcinogenesis）、致畸胎（teratogenesis）和抗突变（mutagenesis）反应也属于慢性毒性范畴。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-02-s47",
+          "paragraph": 22,
+          "corruptNow": true,
+          "original": "是指停药后血药浓度已降至阈浓度以下时残存的药理效应，例如服用巴比妥类催眠药后，次晨出现的乏力、困倦等现象。",
+          "wrongDisplay": "是指停药后血药浓度已降至阈浓度以上时残存的药理效应，例如服用巴比妥类催眠药后，次晨出现的乏力、困倦等现象。",
+          "correctOption": "是指停药后血药浓度已降至阈浓度以下时残留的药理效应，例如服用巴比妥类催眠药后，次晨出现的乏力、困倦等现象。",
+          "wrongOptions": [
+            "不是指停药后血药浓度已降至阈浓度以下时残存的药理效应，例如服用巴比妥类催眠药后，次晨出现的乏力、困倦等现象。",
+            "是指停药后血药浓度将降至阈浓度以下时残存的药理效应，例如服用巴比妥类催眠药后，次晨出现的乏力、困倦等现象。",
+            "是指停药后血药浓度已降至峰浓度以下时残存的药理效应，例如服用巴比妥类催眠药后，次晨出现的乏力、困倦等现象。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-02-s49",
+          "paragraph": 24,
+          "corruptNow": false,
+          "original": "是指突然停药后原有疾病加剧，又称回跃反应（rebound reaction），例如长期服用可乐定降血压，停药次日血压将明显回升。",
+          "wrongDisplay": "是指突然停药后原有疾病减轻，又称回跃反应（rebound reaction），例如长期服用可乐定降血压，停药次日血压将明显回升。",
+          "correctOption": "是指突然停药后原有疾病加重，又称回跃反应（rebound reaction），例如长期服用可乐定降血压，停药次日血压将明显回升。",
+          "wrongOptions": [
+            "是指突然停药后原有疾病加剧，又称回跃反应（rebound reaction），例如短期服用可乐定降血压，停药次日血压将明显回升。",
+            "是指突然停药后原有疾病加剧，又称回跃反应（rebound reaction），例如长期服用卡托普利降血压，停药次日血压将明显回升。",
+            "是指突然停药后原有疾病加剧，又称回跃反应（rebound reaction），例如长期服用可乐定降血压，停药次日血压将轻微回升。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-02-s52",
+          "paragraph": 26,
+          "corruptNow": false,
+          "original": "非肽类药物作为半抗原与机体蛋白结合为抗原后，经过接触10天左右的敏感化过程而发生的反应，也称过敏反应（hypersensitive reaction）。",
+          "wrongDisplay": "非肽类药物作为半抗原与机体蛋白结合为抗原后，经过接触20天左右的敏感化过程而发生的反应，也称过敏反应（hypersensitive reaction）。",
+          "correctOption": "非肽类药物作为半抗原与机体蛋白结合为抗原后，经过接触10天上下的敏感化过程而发生的反应，也称过敏反应（hypersensitive reaction）。",
+          "wrongOptions": [
+            "非肽类药物作为完全抗原与机体蛋白结合为抗原后，经过接触10天左右的敏感化过程而发生的反应，也称过敏反应（hypersensitive reaction）。",
+            "非肽类药物作为半抗原与机体蛋白结合为抗原后，经过接触10天左右的敏感化过程而发生的反应，不称过敏反应（hypersensitive reaction）。",
+            "非肽类药物作为半抗原与机体蛋白结合为抗原后，经过接触10天以内的敏感化过程而发生的反应，也称过敏反应（hypersensitive reaction）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-02-s54",
+          "paragraph": 26,
+          "corruptNow": false,
+          "original": "反应性质与药物原有效应无关，用药理性拮抗药解救无效。",
+          "wrongDisplay": "反应性质与药物原有效应有关，用药理性拮抗药解救无效。",
+          "correctOption": "反应性质与药物原有作用无关，用药理性拮抗药解救无效。",
+          "wrongOptions": [
+            "反应性质与药物原有效应无关，用生理性拮抗药解救无效。",
+            "反应性质与药物原有效应无关，用药理性拮抗药解救有效。",
+            "反应性质与药物原有效应无关，用药理性拮抗药解救未必无效。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-02-s55",
+          "paragraph": 26,
+          "corruptNow": true,
+          "original": "反应的严重程度差异很大，与剂量无关，从轻微的皮疹、发热至造血系统抑制、肝肾功能损害、休克等。",
+          "wrongDisplay": "反应的严重程度差异很大，与剂量有关，从轻微的皮疹、发热至造血系统抑制、肝肾功能损害、休克等。",
+          "correctOption": "反应的严重程度差异很大，与剂量无关，从轻微的皮疹、发热到造血系统抑制、肝肾功能损害、休克等。",
+          "wrongOptions": [
+            "反应的严重程度差异很小，与剂量无关，从轻微的皮疹、发热至造血系统抑制、肝肾功能损害、休克等。",
+            "反应的严重程度差异很大，与剂量无关，从严重的皮疹、发热至造血系统抑制、肝肾功能损害、休克等。",
+            "反应的严重程度差异很大，与剂量无关，从轻微的皮疹、发热至造血系统抑制、肝肾功能损害、昏迷等。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-02-s57",
+          "paragraph": 26,
+          "corruptNow": false,
+          "original": "停药后反应逐渐消失，再用时可能再发。",
+          "wrongDisplay": "停药后反应逐渐消失，再用时必然再发。",
+          "correctOption": "停药后反应逐渐消退，再用时可能再发。",
+          "wrongOptions": [
+            "停药前反应逐渐消失，再用时可能再发。",
+            "停药后反应逐渐消失，再用时不可能再发。",
+            "停药后反应逐渐出现，再用时可能再发。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-02-s58",
+          "paragraph": 26,
+          "corruptNow": false,
+          "original": "致敏物质可能是药物本身，也可能是其代谢物，亦可能是制剂中的杂质。",
+          "wrongDisplay": "致敏物质必定是药物本身，也可能是其代谢物，亦可能是制剂中的杂质。",
+          "correctOption": "致敏物质可能是药物本身，也可能是其代谢产物，亦可能是制剂中的杂质。",
+          "wrongOptions": [
+            "致敏物质可能是药物本身，也可能是其代谢酶，亦可能是制剂中的杂质。",
+            "致敏物质只可能是药物本身，也可能是其代谢物，亦可能是制剂中的杂质。",
+            "致敏物质可能是药物本身，也可能是其代谢物，亦可能不是制剂中的杂质。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-02-s62",
+          "paragraph": 28,
+          "corruptNow": true,
+          "original": "少数特异体质患者对某些药物反应特别敏感，反应性质也可能与常人不同，但与药物固有的药理作用基本一致，反应严重程度与剂量成比例，药理性拮抗药救治可能有效。",
+          "wrongDisplay": "少数特异体质患者对某些药物反应特别敏感，反应性质也可能与常人不同，但与药物固有的药理作用基本一致，反应严重程度与剂量成比例，药理性拮抗药救治可能无效。",
+          "correctOption": "少数特异体质患者对某些药物反应特别敏感，反应性质也可能与常人不同，但与药物固有的药理作用基本一致，反应严重程度与剂量成正比，药理性拮抗药救治可能有效。",
+          "wrongOptions": [
+            "少数特异体质患者对某些药物反应特别敏感，反应性质也可能与成人不同，但与药物固有的药理作用基本一致，反应严重程度与剂量成比例，药理性拮抗药救治可能有效。",
+            "少数特异体质患者对某些药物反应特别迟钝，反应性质也可能与常人不同，但与药物固有的药理作用基本一致，反应严重程度与剂量成比例，药理性拮抗药救治可能有效。",
+            "少数特异体质患者对某些药物反应特别敏感，反应性质也可能与常人不同，但与药物固有的药理作用完全一致，反应严重程度与剂量成比例，药理性拮抗药救治可能有效。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-02-s64",
+          "paragraph": 28,
+          "corruptNow": false,
+          "original": "现在知道这是一类先天遗传异常所致的反应，例如，对骨骼肌松弛药琥珀胆碱发生的特异质反应是由于先天性血浆胆碱酯酶缺乏所致。",
+          "wrongDisplay": "现在知道这是一类后天遗传异常所致的反应，例如，对骨骼肌松弛药琥珀胆碱发生的特异质反应是由于先天性血浆胆碱酯酶缺乏所致。",
+          "correctOption": "现在知道这是一类先天遗传异常所致的反应，例如，对骨骼肌松弛药琥珀胆碱发生的特异质反应是由于先天性血浆胆碱酯酶不足所致。",
+          "wrongOptions": [
+            "现在知道这是一类先天遗传异常所致的反应，例如，对骨骼肌松弛药筒箭毒碱发生的特异质反应是由于先天性血浆胆碱酯酶缺乏所致。",
+            "现在知道这是一类先天遗传异常所致的反应，例如，对骨骼肌松弛药琥珀胆碱发生的特异质反应是由于先天性血浆胆碱酯酶增多所致。",
+            "现在知道这不是一类先天遗传异常所致的反应，例如，对骨骼肌松弛药琥珀胆碱发生的特异质反应是由于先天性血浆胆碱酯酶缺乏所致。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacodynamics-03",
+      "title": "剂量与效应关系",
+      "order": 3,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "pharmacodynamics-03-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "pharmacodynamics-03-s65",
+            "pharmacodynamics-03-s66",
+            "pharmacodynamics-03-s67",
+            "pharmacodynamics-03-s68",
+            "pharmacodynamics-03-s73",
+            "pharmacodynamics-03-s74",
+            "pharmacodynamics-03-s75",
+            "pharmacodynamics-03-s76",
+            "pharmacodynamics-03-s77",
+            "pharmacodynamics-03-s78",
+            "pharmacodynamics-03-s79",
+            "pharmacodynamics-03-s80"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "pharmacodynamics-03-s82",
+            "pharmacodynamics-03-s83",
+            "pharmacodynamics-03-s89",
+            "pharmacodynamics-03-s90",
+            "pharmacodynamics-03-s91",
+            "pharmacodynamics-03-s92",
+            "pharmacodynamics-03-s93",
+            "pharmacodynamics-03-s94"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "pharmacodynamics-03-s65",
+          "paragraph": 30,
+          "corruptNow": false,
+          "original": "药理效应与剂量在一定范围内成比例，这就是剂量-效应关系（dose-effect relationship，简称量-效关系）。",
+          "wrongDisplay": "药理效应与剂量在一定范围内成比例，这就是剂量-效应曲线（dose-effect relationship，简称量-效关系）。",
+          "correctOption": "药理效应与剂量在一定范围内成比例，这就是剂量-效应关系（dose-effect relationship，又称量-效关系）。",
+          "wrongOptions": [
+            "药理效应与剂量在一定范围内不成比例，这就是剂量-效应关系（dose-effect relationship，简称量-效关系）。",
+            "药理效应与剂量在全部范围内成比例，这就是剂量-效应关系（dose-effect relationship，简称量-效关系）。",
+            "药理效应与剂量在一定范围内成反比，这就是剂量-效应关系（dose-effect relationship，简称量-效关系）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-s66",
+          "paragraph": 30,
+          "corruptNow": false,
+          "original": "用效应强度为纵坐标，药物剂量或药物浓度为横坐标作图则得量-效曲线（doseeffect curve）。",
+          "wrongDisplay": "必须用效应强度为纵坐标，药物剂量或药物浓度为横坐标作图则得量-效曲线（doseeffect curve）。",
+          "correctOption": "用效应强度为纵坐标，药物剂量或药物浓度为横坐标作图可得量-效曲线（doseeffect curve）。",
+          "wrongOptions": [
+            "用效应强度为横坐标，药物剂量或药物浓度为横坐标作图则得量-效曲线（doseeffect curve）。",
+            "用效应时间为纵坐标，药物剂量或药物浓度为横坐标作图则得量-效曲线（doseeffect curve）。",
+            "用效应强度为纵坐标，药物剂量和药物浓度为横坐标作图则得量-效曲线（doseeffect curve）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-s67",
+          "paragraph": 31,
+          "corruptNow": true,
+          "original": "药理效应按性质可以分为量反应和质反应两种情况。",
+          "wrongDisplay": "全部药理效应按性质可以分为量反应和质反应两种情况。",
+          "correctOption": "药理效应按性质可分为量反应和质反应两种情况。",
+          "wrongOptions": [
+            "药理效应按性质不可以分为量反应和质反应两种情况。",
+            "药理效应按性质必须分为量反应和质反应两种情况。",
+            "药理效应按性质可以分为量反应和质反应三种情况。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-s68",
+          "paragraph": 31,
+          "corruptNow": false,
+          "original": "效应的强弱呈连续增减的变化，可用具体数量或最大反应的百分率表示者称为量反应（graded response），例如血压的升降、平滑肌的舒缩等，其研究对象为单一的生物单位。",
+          "wrongDisplay": "效应的强弱呈连续增减的变化，可用具体数量或最小反应的百分率表示者称为量反应（graded response），例如血压的升降、平滑肌的舒缩等，其研究对象为单一的生物单位。",
+          "correctOption": "效应的强弱呈连续增减的变化，可用具体数量或最大反应的百分率表示者称为量反应（graded response），如血压的升降、平滑肌的舒缩等，其研究对象为单一的生物单位。",
+          "wrongOptions": [
+            "效应的强弱呈连续增减的变化，可用具体数量或最大反应的百分率表示者称为量反应（graded response），例如血压的升降、平滑肌的舒缩等，其研究对象为多个的生物单位。",
+            "效应的强弱呈连续增减的变化，不可用具体数量或最大反应的百分率表示者称为量反应（graded response），例如血压的升降、平滑肌的舒缩等，其研究对象为单一的生物单位。",
+            "效应的强弱呈连续增减的变化，可用具体数量或最大反应的百分率表示者称为质反应（graded response），例如血压的升降、平滑肌的舒缩等，其研究对象为单一的生物单位。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-s73",
+          "paragraph": 35,
+          "corruptNow": false,
+          "original": "最小有效量（minimal effective dose）或最低有效浓度（minimal effective concentration）即刚能引起效应的最小药量或最小药物浓度，亦称阈剂量或阈浓度（threshold dose or concentration）。",
+          "wrongDisplay": "最小有效量（minimal effective dose）或最低有效浓度（minimal effective concentration）即刚能引起效应的最小药量或最小药物浓度，不称阈剂量或阈浓度（threshold dose or concentration）。",
+          "correctOption": "最小有效量（minimal effective dose）或最低有效浓度（minimal effective concentration）即刚能引起效应的最小药量或最小药物浓度，又称阈剂量或阈浓度（threshold dose or concentration）。",
+          "wrongOptions": [
+            "最大有效量（minimal effective dose）或最低有效浓度（minimal effective concentration）即刚能引起效应的最小药量或最小药物浓度，亦称阈剂量或阈浓度（threshold dose or concentration）。",
+            "最小有效量（minimal effective dose）或最低中毒浓度（minimal effective concentration）即刚能引起效应的最小药量或最小药物浓度，亦称阈剂量或阈浓度（threshold dose or concentration）。",
+            "最小有效量（minimal effective dose）或最低有效浓度（minimal effective concentration）即必须能引起效应的最小药量或最小药物浓度，亦称阈剂量或阈浓度（threshold dose or concentration）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-s74",
+          "paragraph": 36,
+          "corruptNow": false,
+          "original": "最大效应（maximal effect，Emax）随着剂量或浓度的增加，效应也增加，当效应增加到一定程度后，若继续增加药物浓度或剂量而其效应不再继续增强，这一药理效应的极限称为最大效应，也称效能（efficacy）。",
+          "wrongDisplay": "最大效应（maximal effect，Emax）随着剂量和浓度的增加，效应也增加，当效应增加到一定程度后，若继续增加药物浓度或剂量而其效应不再继续增强，这一药理效应的极限称为最大效应，也称效能（efficacy）。",
+          "correctOption": "最大效应（maximal effect，Emax）随着剂量或浓度的增加，效应也增加，当效应增加到一定程度后，若继续增加药物浓度或剂量而其效应不再增强，这一药理效应的极限称为最大效应，也称效能（efficacy）。",
+          "wrongOptions": [
+            "最大效应（maximal effect，Emax）随着剂量或浓度的增加，效应也增加，当效应增加到一定程度后，若继续增加药物浓度或剂量而其效应仍继续增强，这一药理效应的极限称为最大效应，也称效能（efficacy）。",
+            "最大效应（maximal effect，Emax）随着剂量或浓度的增加，效应也增加，当效应增加到一定程度后，若继续增加药物浓度或剂量而其效应不再继续增强，这一药理效应的极限称为最大效应，也称效价（efficacy）。",
+            "最大效应（maximal effect，Emax）随着剂量或浓度的增加，效应也增加，当效应增加到一定程度后，若继续减少药物浓度或剂量而其效应不再继续增强，这一药理效应的极限称为最大效应，也称效能（efficacy）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-s75",
+          "paragraph": 37,
+          "corruptNow": true,
+          "original": "半最大效应浓度（concentration for 50%of maximal effect，EC50）是指能引起50%最大效应的浓度。",
+          "wrongDisplay": "最大效应浓度（concentration for 50%of maximal effect，EC50）是指能引起50%最大效应的浓度。",
+          "correctOption": "半最大效应浓度（concentration for 50%of maximal effect，EC50）是能引起50%最大效应的浓度。",
+          "wrongOptions": [
+            "半最大效应浓度（concentration for 50%of maximal effect，EC50）是指能引起80%最大效应的浓度。",
+            "半最大效应浓度（concentration for 50%of maximal effect，ED50）是指能引起50%最大效应的浓度。",
+            "半最大效应浓度（concentration for 50%of maximal effect，EC50）是指不能引起50%最大效应的浓度。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-s76",
+          "paragraph": 38,
+          "corruptNow": false,
+          "original": "效价强度（potency）是指能引起等效反应（一般采用50%效应量）的相对浓度或剂量，其值越小则强度越大。",
+          "wrongDisplay": "效价强度（efficacy）是指能引起等效反应（一般采用50%效应量）的相对浓度或剂量，其值越小则强度越大。",
+          "correctOption": "效价强度（potency）是指能引起等效反应（一般采用50%效应量）的相对浓度或剂量，其值越小则强度越强。",
+          "wrongOptions": [
+            "效价强度（potency）是指能引起等效反应（一般采用50%效应量）的相对浓度或剂量，其值越大则强度越大。",
+            "效价强度（potency）是指不能引起等效反应（一般采用50%效应量）的相对浓度或剂量，其值越小则强度越大。",
+            "效价强度（potency）是指能引起等效反应（一般采用80%效应量）的相对浓度或剂量，其值越小则强度越大。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-s77",
+          "paragraph": 38,
+          "corruptNow": false,
+          "original": "药物的最大效应与效价强度含义完全不同，二者并不平行。",
+          "wrongDisplay": "药物的最大效应与效价强度含义完全不同，二者必须平行。",
+          "correctOption": "药物的最大效应与效价强度含义截然不同，二者并不平行。",
+          "wrongOptions": [
+            "药物的最大效应与效价强度含义完全相同，二者并不平行。",
+            "药物的最小效应与效价强度含义完全不同，二者并不平行。",
+            "药物的最大效应与效能强度含义完全不同，二者并不平行。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-s78",
+          "paragraph": 38,
+          "corruptNow": false,
+          "original": "例如，利尿药以每日排钠量为效应指标进行比较，氢氯噻嗪的效价强度大于呋塞米，而后者的最大效应大于前者（图3-2）。",
+          "wrongDisplay": "例如，利尿药以单次排钠量为效应指标进行比较，氢氯噻嗪的效价强度大于呋塞米，而后者的最大效应大于前者（图3-2）。",
+          "correctOption": "例如，利尿药以每日排钠量为效应指标进行比较，氢氯噻嗪的效价强度高于呋塞米，而后者的最大效应大于前者（图3-2）。",
+          "wrongOptions": [
+            "例如，利尿药以每日排钾量为效应指标进行比较，氢氯噻嗪的效价强度大于呋塞米，而后者的最大效应大于前者（图3-2）。",
+            "例如，利尿药以每日排钠量为效应指标进行比较，氢氯噻嗪的效价强度大于呋塞米，而后者的最大效应小于前者（图3-2）。",
+            "例如，利尿药以每日排钠量为效应指标进行比较，氢氯噻嗪的效价强度不大于呋塞米，而后者的最大效应大于前者（图3-2）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-s79",
+          "paragraph": 38,
+          "corruptNow": true,
+          "original": "药物的最大效应值有较大实际意义，不区分最大效应与效价强度只讲某药较另药强若干倍是易被误解的。",
+          "wrongDisplay": "药物的最大效应值必须有较大实际意义，不区分最大效应与效价强度只讲某药较另药强若干倍是易被误解的。",
+          "correctOption": "药物的最大效应值有较大实际价值，不区分最大效应与效价强度只讲某药较另药强若干倍是易被误解的。",
+          "wrongOptions": [
+            "药物的最大效应值无较大实际意义，不区分最大效应与效价强度只讲某药较另药强若干倍是易被误解的。",
+            "药物的最大效应值有较大实际意义，不区分最大效应与效价强度只讲某药较另药弱若干倍是易被误解的。",
+            "药物的最大效应值有较大实际意义，不区分最大效应与效价强度只讲某药较所有药强若干倍是易被误解的。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-s80",
+          "paragraph": 38,
+          "corruptNow": false,
+          "original": "曲线中段斜率（slope）较陡的提示药效较剧烈，较平坦的则提示药效较温和。",
+          "wrongDisplay": "曲线中段斜率（slope）较陡的必然提示药效较剧烈，较平坦的则提示药效较温和。",
+          "correctOption": "曲线中段斜率（slope）较陡的提示药效较强烈，较平坦的则提示药效较温和。",
+          "wrongOptions": [
+            "曲线前段斜率（slope）较陡的提示药效较剧烈，较平坦的则提示药效较温和。",
+            "曲线中段斜率（curve）较陡的提示药效较剧烈，较平坦的则提示药效较温和。",
+            "曲线中段斜率（slope）较陡的提示药效较剧烈，较平坦的则提示药效较剧烈。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-s82",
+          "paragraph": 40,
+          "corruptNow": false,
+          "original": "如果药理效应不是随着药物剂量或浓度的增减呈连续性量的变化，而表现为反应性质的变化，则称为质反应（quantal response or all-or-none response）。",
+          "wrongDisplay": "如果药理效应不是随着药物剂量或浓度的增减呈连续性量的变化，而表现为反应性质的变化，则必须称为质反应（quantal response or all-or-none response）。",
+          "correctOption": "如果药理效应不是随着药物剂量或浓度的增减呈连续性量的变化，而表现为反应性质的改变，则称为质反应（quantal response or all-or-none response）。",
+          "wrongOptions": [
+            "如果药理效应是随着药物剂量或浓度的增减呈连续性量的变化，而表现为反应性质的变化，则称为质反应（quantal response or all-or-none response）。",
+            "如果药理效应不是随着药物剂量或浓度的增减呈连续性量的变化，而表现为反应性质的变化，则称为量反应（quantal response or all-or-none response）。",
+            "如果药理效应不是随着药物剂量和浓度的增减呈连续性量的变化，而表现为反应性质的变化，则称为质反应（quantal response or all-or-none response）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-s83",
+          "paragraph": 40,
+          "corruptNow": false,
+          "original": "质反应以阳性或阴性、全或无的方式表现，如死亡与生存、惊厥与不惊厥等，其研究对象为一个群体。",
+          "wrongDisplay": "质反应以阳性或阴性、全或无的方式表现，如死亡与生存、惊厥与不惊厥等，其研究对象为两个群体。",
+          "correctOption": "质反应以阳性或阴性、全或无的方式表现，如死亡与生存、惊厥与不惊厥等，其研究对象是一个群体。",
+          "wrongOptions": [
+            "质反应不以阳性或阴性、全或无的方式表现，如死亡与生存、惊厥与不惊厥等，其研究对象为一个群体。",
+            "质反应以阳性或阴性、全或无的方式表现，如死亡与生存、惊厥与不惊厥等，其研究对象为单一的生物单位。",
+            "质反应以阳性和阴性、全或无的方式表现，如死亡与生存、惊厥与不惊厥等，其研究对象为一个群体。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-s89",
+          "paragraph": 43,
+          "corruptNow": true,
+          "original": "在这一曲线可以看出的特定位点为半数有效量（median effective dose，ED50），即能引起50%的实验动物出现阳性反应时的药物剂量；如效应为死亡，则称为半数致死量（median lethal dose，LD50）。",
+          "wrongDisplay": "在这一曲线可以看出的特定位点为最大有效量（median effective dose，ED50），即能引起50%的实验动物出现阳性反应时的药物剂量；如效应为死亡，则称为半数致死量（median lethal dose，LD50）。",
+          "correctOption": "在这一曲线可以看出的特定位点是半数有效量（median effective dose，ED50），即能引起50%的实验动物出现阳性反应时的药物剂量；如效应为死亡，则称为半数致死量（median lethal dose，LD50）。",
+          "wrongOptions": [
+            "在这一曲线可以看出的特定位点为半数有效量（median effective dose，ED50），即能引起80%的实验动物出现阳性反应时的药物剂量；如效应为死亡，则称为半数致死量（median lethal dose，LD50）。",
+            "在这一曲线可以看出的特定位点为半数有效量（median effective dose，ED50），即能引起50%的实验动物出现阳性反应时的药物剂量；如效应为死亡，则称为半数中毒量（median lethal dose，LD50）。",
+            "在这一曲线可以看出的特定位点为半数有效量（median effective dose，ED50），即能引起50%的实验动物出现阴性反应时的药物剂量；如效应为死亡，则称为半数致死量（median lethal dose，LD50）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-s90",
+          "paragraph": 43,
+          "corruptNow": false,
+          "original": "通常将药物的LD50/ED50的比值称为治疗指数（therapeutic index，TI），用以表示药物的安全性。",
+          "wrongDisplay": "必须将药物的LD50/ED50的比值称为治疗指数（therapeutic index，TI），用以表示药物的安全性。",
+          "correctOption": "通常将药物的LD50/ED50的比值称为治疗指数（therapeutic index，TI），用于表示药物的安全性。",
+          "wrongOptions": [
+            "通常不将药物的LD50/ED50的比值称为治疗指数（therapeutic index，TI），用以表示药物的安全性。",
+            "通常将药物的LD50/ED50的比值称为治疗指数（therapeutic index，TI），用以表示药物的危险性。",
+            "通常将药物的LD50/ED50的比值称为治疗指数（therapeutic index，TI），用以表示药物的有效性。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-s91",
+          "paragraph": 43,
+          "corruptNow": false,
+          "original": "治疗指数大的药物相对较治疗指数小的药物安全。",
+          "wrongDisplay": "治疗指数大的药物相对不如治疗指数小的药物安全。",
+          "correctOption": "治疗指数大的药物相对比治疗指数小的药物安全。",
+          "wrongOptions": [
+            "治疗指数大的药物相对较治疗指数小的药物危险。",
+            "治疗剂量大的药物相对较治疗指数小的药物安全。",
+            "治疗指数大的药物相对较治疗指数小的药物不安全。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-s92",
+          "paragraph": 43,
+          "corruptNow": true,
+          "original": "但以治疗指数来评价药物的安全性，并不完全可靠。",
+          "wrongDisplay": "但以治疗指数来评价药物的安全性，更为可靠一些。",
+          "correctOption": "但以治疗指数评价药物的安全性，并不完全可靠。",
+          "wrongOptions": [
+            "但以治疗指数来评价药物的安全性，完全可靠。",
+            "但以治疗指数来评价药物的有效性，并不完全可靠。",
+            "但以治疗指数来评价所有药物的安全性，并不完全可靠。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-s93",
+          "paragraph": 43,
+          "corruptNow": false,
+          "original": "如某药的ED和LD两条曲线的首尾有重叠（图3-4），即有效剂量与其致死剂量之间有重叠。",
+          "wrongDisplay": "如所有药的ED和LD两条曲线的首尾有重叠（图3-4），即有效剂量与其致死剂量之间有重叠。",
+          "correctOption": "如某药的ED和LD两条曲线的首尾有重叠（图3-4），即有效剂量与其致死剂量间有重叠。",
+          "wrongOptions": [
+            "如某药的ED和LD两条曲线的首尾无重叠（图3-4），即有效剂量与其致死剂量之间有重叠。",
+            "如某药的ED和LD三条曲线的首尾有重叠（图3-4），即有效剂量与其致死剂量之间有重叠。",
+            "如某药的ED和LD两条曲线的首尾有重叠（图3-4），即有效剂量与其中毒剂量之间有重叠。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-03-s94",
+          "paragraph": 43,
+          "corruptNow": false,
+          "original": "为此，有人用1%致死量（LD1）与99%有效量（ED99）的比值或5%致死量（LD5）与95%有效量（ED95）之间的距离来衡量药物的安全性。",
+          "wrongDisplay": "为此，有人不用1%致死量（LD1）与99%有效量（ED99）的比值或5%致死量（LD5）与95%有效量（ED95）之间的距离来衡量药物的安全性。",
+          "correctOption": "为此，有人用1%致死量（LD1）与99%有效量（ED99）的比值或5%致死量（LD5）与95%有效量（ED95）间的距离来衡量药物的安全性。",
+          "wrongOptions": [
+            "为此，有人用1%致死量（LD1）与99%有效量（ED99）的比值或5%致死量（LD5）与95%有效量（ED95）的比值来衡量药物的安全性。",
+            "为此，所有人都用1%致死量（LD1）与99%有效量（ED99）的比值或5%致死量（LD5）与95%有效量（ED95）之间的距离来衡量药物的安全性。",
+            "为此，有人用1%中毒量（LD1）与99%有效量（ED99）的比值或5%致死量（LD5）与95%有效量（ED95）之间的距离来衡量药物的安全性。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacodynamics-04",
+      "title": "受体概念与特性",
+      "order": 4,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "pharmacodynamics-04-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "pharmacodynamics-04-s97",
+            "pharmacodynamics-04-s98",
+            "pharmacodynamics-04-s100",
+            "pharmacodynamics-04-s101",
+            "pharmacodynamics-04-s109",
+            "pharmacodynamics-04-s113",
+            "pharmacodynamics-04-s114",
+            "pharmacodynamics-04-s115",
+            "pharmacodynamics-04-s116",
+            "pharmacodynamics-04-s117",
+            "pharmacodynamics-04-s118",
+            "pharmacodynamics-04-s119",
+            "pharmacodynamics-04-s120",
+            "pharmacodynamics-04-s121",
+            "pharmacodynamics-04-s122"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-04-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "pharmacodynamics-04-s125",
+            "pharmacodynamics-04-s126",
+            "pharmacodynamics-04-s127",
+            "pharmacodynamics-04-s128"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "pharmacodynamics-04-s97",
+          "paragraph": 47,
+          "corruptNow": false,
+          "original": "药物的作用机制（mechanism of action）是研究药物如何与机体细胞结合而发挥作用的。",
+          "wrongDisplay": "药物的作用机制（mechanism of action）是研究药物如何与机体细胞解离而发挥作用的。",
+          "correctOption": "药物的作用机制（mechanism of action）是研究药物如何与机体细胞结合并发挥作用的。",
+          "wrongOptions": [
+            "药物的作用机制（mechanism of action）不是研究药物如何与机体细胞结合而发挥作用的。",
+            "药物的作用机制（mechanism of action）是研究药物如何与机体受体结合而发挥作用的。",
+            "药物的作用机制（mechanism of action）是研究药物如何与机体全部细胞结合而发挥作用的。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-04-s98",
+          "paragraph": 47,
+          "corruptNow": true,
+          "original": "大多数药物的作用来自于药物与机体生物大分子之间的相互作用，这种相互作用引起了机体生理、生化功能的改变。",
+          "wrongDisplay": "少数药物的作用来自于药物与机体生物大分子之间的相互作用，这种相互作用引起了机体生理、生化功能的改变。",
+          "correctOption": "多数药物的作用来自于药物与机体生物大分子之间的相互作用，这种相互作用引起了机体生理、生化功能的改变。",
+          "wrongOptions": [
+            "大多数药物的作用不来自于药物与机体生物大分子之间的相互作用，这种相互作用引起了机体生理、生化功能的改变。",
+            "所有药物的作用来自于药物与机体生物大分子之间的相互作用，这种相互作用引起了机体生理、生化功能的改变。",
+            "大多数药物的作用来自于药物与机体生物小分子之间的相互作用，这种相互作用引起了机体生理、生化功能的改变。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-04-s100",
+          "paragraph": 47,
+          "corruptNow": false,
+          "original": "已知的药物作用机制涉及受体、酶、离子通道、核酸、载体、免疫系统、基因等。",
+          "wrongDisplay": "已知的药物作用机制涉及受体、酶、离子泵、核酸、载体、免疫系统、基因等。",
+          "correctOption": "已知的药物作用机制包括受体、酶、离子通道、核酸、载体、免疫系统、基因等。",
+          "wrongOptions": [
+            "已知的药物作用机制不涉及受体、酶、离子通道、核酸、载体、免疫系统、基因等。",
+            "已知的药物作用机制可能涉及受体、酶、离子通道、核酸、载体、免疫系统、基因等。",
+            "少数已知的药物作用机制涉及受体、酶、离子通道、核酸、载体、免疫系统、基因等。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-04-s101",
+          "paragraph": 47,
+          "corruptNow": false,
+          "original": "此外，有些药物通过其理化作用（如抗酸药）或补充机体所缺乏的物质而发挥作用。",
+          "wrongDisplay": "此外，有些药物通过其物理作用（如抗酸药）或补充机体所缺乏的物质而发挥作用。",
+          "correctOption": "此外，某些药物通过其理化作用（如抗酸药）或补充机体所缺乏的物质而发挥作用。",
+          "wrongOptions": [
+            "此外，所有药物通过其理化作用（如抗酸药）或补充机体所缺乏的物质而发挥作用。",
+            "此外，有些药物不通过其理化作用（如抗酸药）或补充机体所缺乏的物质而发挥作用。",
+            "此外，有些药物通过其理化作用（如抗酸药）或清除机体所缺乏的物质而发挥作用。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-04-s109",
+          "paragraph": 49,
+          "corruptNow": true,
+          "original": "同时也提出了受体应具有两个基本特点：其一是特异性识别与之相结合的配体（ligand）或药物的能力，其二是药物—受体复合物可引起生物效应，即类似锁与钥匙的特异性关系。",
+          "wrongDisplay": "同时也提出了受体应具有三个基本特点：其一是特异性识别与之相结合的配体（ligand）或药物的能力，其二是药物—受体复合物可引起生物效应，即类似锁与钥匙的特异性关系。",
+          "correctOption": "同时也提出了受体应具有两项基本特点：其一是特异性识别与之相结合的配体（ligand）或药物的能力，其二是药物—受体复合物可引起生物效应，即类似锁与钥匙的特异性关系。",
+          "wrongOptions": [
+            "同时也提出了受体应具有两个基本特点：其一是特异性识别与之相结合的配体（ligand）或药物的能力，其二是药物—受体复合物不能引起生物效应，即类似锁与钥匙的特异性关系。",
+            "同时也提出了受体应具有两个基本特点：其一是特异性识别与之相结合的配体（ligand）或药物的能力，其二是药物—配体复合物可引起生物效应，即类似锁与钥匙的特异性关系。",
+            "同时也提出了受体必须具有两个基本特点：其一是特异性识别与之相结合的配体（ligand）或药物的能力，其二是药物—受体复合物可引起生物效应，即类似锁与钥匙的特异性关系。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-04-s113",
+          "paragraph": 51,
+          "corruptNow": false,
+          "original": "受体是一类介导细胞信号转导的功能蛋白质，能识别周围环境中某种微量化学物质，首先与之结合，并通过中介的信息放大系统，触发后续的生理反应或药理效应。",
+          "wrongDisplay": "受体是一类介导细胞信号转导的功能蛋白质，能识别周围环境中某种微量化学物质，首先与之结合，并通过中介的信息放大系统，抑制后续的生理反应或药理效应。",
+          "correctOption": "受体是一类介导细胞信号转导的功能蛋白，能识别周围环境中某种微量化学物质，首先与之结合，并通过中介的信息放大系统，触发后续的生理反应或药理效应。",
+          "wrongOptions": [
+            "受体是一类介导细胞信号转导的功能蛋白质，不能识别周围环境中某种微量化学物质，首先与之结合，并通过中介的信息放大系统，触发后续的生理反应或药理效应。",
+            "受体是一类介导细胞信号转导的功能蛋白质，能识别周围环境中所有微量化学物质，首先与之结合，并通过中介的信息放大系统，触发后续的生理反应或药理效应。",
+            "受体是一类介导细胞信号转导的功能蛋白质，能识别周围环境中某种微量化学物质，首先与之结合，并通过胞内的信息放大系统，触发后续的生理反应或药理效应。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-04-s114",
+          "paragraph": 51,
+          "corruptNow": false,
+          "original": "体内能与受体特异性结合的物质称为配体，也称第一信使。",
+          "wrongDisplay": "体内能与受体特异性结合的物质称为配体，曾称第一信使。",
+          "correctOption": "体内能与受体特异性结合的物质称为配体，也叫第一信使。",
+          "wrongOptions": [
+            "体内不能与受体特异性结合的物质称为配体，也称第一信使。",
+            "体内能与全部受体特异性结合的物质称为配体，也称第一信使。",
+            "体内能与受体特异性结合的物质称为配体，也称第二信使。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-04-s115",
+          "paragraph": 51,
+          "corruptNow": false,
+          "original": "受体对相应的配体有极高的识别能力，受体均有相应的内源性配体，如神经递质、激素、自体活性物质（autacoid）等。",
+          "wrongDisplay": "受体对相应的配体有较低的识别能力，受体均有相应的内源性配体，如神经递质、激素、自体活性物质（autacoid）等。",
+          "correctOption": "受体对相应的配体具有极高的识别能力，受体均有相应的内源性配体，如神经递质、激素、自体活性物质（autacoid）等。",
+          "wrongOptions": [
+            "受体对所有配体有极高的识别能力，受体均有相应的内源性配体，如神经递质、激素、自体活性物质（autacoid）等。",
+            "受体对相应的配体有极高的识别能力，受体均无相应的内源性配体，如神经递质、激素、自体活性物质（autacoid）等。",
+            "受体对相应的配体有极高的识别能力，受体均有相应的外源性配体，如神经递质、激素、自体活性物质（autacoid）等。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-04-s116",
+          "paragraph": 51,
+          "corruptNow": true,
+          "original": "配体与受体大分子中的一小部分结合，该部位叫做结合位点或受点（binding site）。",
+          "wrongDisplay": "配体与生物大分子中的一小部分结合，该部位叫做结合位点或受点（binding site）。",
+          "correctOption": "配体与受体大分子中的一小部分结合，该部位称为结合位点或受点（binding site）。",
+          "wrongOptions": [
+            "配体与受体大分子中的一小部分结合，该部位不叫做结合位点或受点（binding site）。",
+            "配体与受体大分子中的一大部分结合，该部位叫做结合位点或受点（binding site）。",
+            "配体与受体大分子中的一小部分解离，该部位叫做结合位点或受点（binding site）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-04-s117",
+          "paragraph": 51,
+          "corruptNow": false,
+          "original": "受体具有如下特性：①灵敏性（sensitivity）：受体只需与很低浓度的配体结合就能产生显著的效应。",
+          "wrongDisplay": "受体具有如下特性：①灵敏性（sensitivity）：受体只需与很低浓度的配体结合就能产生轻微的效应。",
+          "correctOption": "受体具有如下特性：①灵敏性（sensitivity）：受体仅需与很低浓度的配体结合就能产生显著的效应。",
+          "wrongOptions": [
+            "受体不具有如下特性：①灵敏性（sensitivity）：受体只需与很低浓度的配体结合就能产生显著的效应。",
+            "受体具有如下特性：①特异性（sensitivity）：受体只需与很低浓度的配体结合就能产生显著的效应。",
+            "受体具有如下特性：①灵敏性（sensitivity）：受体只需与很高浓度的配体结合就能产生显著的效应。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-04-s118",
+          "paragraph": 51,
+          "corruptNow": false,
+          "original": "②特异性（specificity）：引起某一类型受体兴奋反应的配体的化学结构非常相似，但不同光学异构体的反应可以完全不同。",
+          "wrongDisplay": "②特异性（specificity）：引起某一类型受体兴奋反应的配体的化学结构非常相似，但不同光学异构体的反应必须完全不同。",
+          "correctOption": "②特异性（specificity）：引起某一类型受体兴奋反应的配体的化学结构十分相似，但不同光学异构体的反应可以完全不同。",
+          "wrongOptions": [
+            "②特异性（specificity）：引起某一类型受体兴奋反应的配体的化学结构非常不相似，但不同光学异构体的反应可以完全不同。",
+            "②特异性（specificity）：引起某一类型受体兴奋反应的配体的化学结构非常相似，但不同几何异构体的反应可以完全不同。",
+            "②特异性（specificity）：引起所有类型受体兴奋反应的配体的化学结构非常相似，但不同光学异构体的反应可以完全不同。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-04-s119",
+          "paragraph": 51,
+          "corruptNow": false,
+          "original": "同一类型的激动药与同一类型的受体结合时产生的效应类似。",
+          "wrongDisplay": "同一类型的激动药与所有类型的受体结合时产生的效应类似。",
+          "correctOption": "同一类型的激动药与同一类型的受体结合时产生的效应相似。",
+          "wrongOptions": [
+            "同一类型的激动药与同一类型的受体结合时产生的效应不类似。",
+            "同一类型的拮抗药与同一类型的受体结合时产生的效应类似。",
+            "不同类型的激动药与同一类型的受体结合时产生的效应类似。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-04-s120",
+          "paragraph": 51,
+          "corruptNow": true,
+          "original": "③饱和性（saturability）：受体数目是一定的，因此配体与受体结合的剂量反应曲线具有饱和性，作用于同一受体的配体之间存在竞争现象。",
+          "wrongDisplay": "③饱和性（saturability）：受体数目是一定的，因此配体与受体结合的剂量反应曲线具有饱和性，作用于同一受体亚型的配体之间存在竞争现象。",
+          "correctOption": "③饱和性（saturability）：受体数目是一定的，因而配体与受体结合的剂量反应曲线具有饱和性，作用于同一受体的配体之间存在竞争现象。",
+          "wrongOptions": [
+            "③饱和性（saturability）：受体数目不是一定的，因此配体与受体结合的剂量反应曲线具有饱和性，作用于同一受体的配体之间存在竞争现象。",
+            "③饱和性（saturability）：受体数目是无限的，因此配体与受体结合的剂量反应曲线具有饱和性，作用于同一受体的配体之间存在竞争现象。",
+            "③饱和性（saturability）：受体数目是一定的，因此配体与受体结合的剂量反应曲线具有饱和性，作用于同一受体的配体之间存在协同现象。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-04-s121",
+          "paragraph": 51,
+          "corruptNow": false,
+          "original": "④可逆性（reversibility）：配体与受体的结合是可逆的，配体与受体复合物可以解离，解离后可得到原来的配体而非代谢物。",
+          "wrongDisplay": "④可逆性（reversibility）：配体与受体的结合是可逆的，配体与受体复合物必须解离，解离后可得到原来的配体而非代谢物。",
+          "correctOption": "④可逆性（reversibility）：配体与受体的结合是可逆的，配体与受体复合物能够解离，解离后可得到原来的配体而非代谢物。",
+          "wrongOptions": [
+            "④可逆性（reversibility）：配体与受体的结合是不可逆的，配体与受体复合物可以解离，解离后可得到原来的配体而非代谢物。",
+            "④可逆性（reversibility）：配体与受体的结合是可逆的，配体与受体复合物可以解离，解离后可得到原来的受体而非代谢物。",
+            "④可逆性（reversibility）：所有配体与受体的结合是可逆的，配体与受体复合物可以解离，解离后可得到原来的配体而非代谢物。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-04-s122",
+          "paragraph": 51,
+          "corruptNow": false,
+          "original": "⑤多样性（multiple-variation）：同一受体可广泛分布到不同的细胞而产生不同效应，受体多样性是受体亚型分类的基础，受体受生理、病理及药理因素调节，经常处于动态变化之中。",
+          "wrongDisplay": "⑤多样性（multiple-variation）：同一受体可广泛分布到不同的细胞而产生不同效应，受体多样性是受体亚型分类的基础，受体受生理、病理及药理因素调节，偶尔处于动态变化之中。",
+          "correctOption": "⑤多样性（multiple-variation）：同一受体可广泛分布于不同的细胞而产生不同效应，受体多样性是受体亚型分类的基础，受体受生理、病理及药理因素调节，经常处于动态变化之中。",
+          "wrongOptions": [
+            "⑤多样性（multiple-variation）：同一受体可广泛分布到不同的细胞而产生不同效应，受体多样性不是受体亚型分类的基础，受体受生理、病理及药理因素调节，经常处于动态变化之中。",
+            "⑤多样性（multiple-variation）：同一配体可广泛分布到不同的细胞而产生不同效应，受体多样性是受体亚型分类的基础，受体受生理、病理及药理因素调节，经常处于动态变化之中。",
+            "⑤多样性（multiple-variation）：同一受体可广泛分布到所有细胞而产生不同效应，受体多样性是受体亚型分类的基础，受体受生理、病理及药理因素调节，经常处于动态变化之中。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-04-s125",
+          "paragraph": 54,
+          "corruptNow": false,
+          "original": "Clark于1926年、Gaddum于1937年分别提出占领学说，该学说认为：受体只有与药物结合才能被激活并产生效应，而效应的强度与被占领的受体数目成正比，当受体全部被占领时出现最大效应。",
+          "wrongDisplay": "Clark于1936年、Gaddum于1937年分别提出占领学说，该学说认为：受体只有与药物结合才能被激活并产生效应，而效应的强度与被占领的受体数目成正比，当受体全部被占领时出现最大效应。",
+          "correctOption": "Clark于1926年、Gaddum于1937年分别提出了占领学说，该学说认为：受体只有与药物结合才能被激活并产生效应，而效应的强度与被占领的受体数目成正比，当受体全部被占领时出现最大效应。",
+          "wrongOptions": [
+            "Clark于1926年、Gaddum于1937年分别提出占领学说，该学说认为：受体只有与药物结合才能被激活并产生效应，而效应的强度与被占领的受体数目成反比，当受体全部被占领时出现最大效应。",
+            "Clark于1926年、Gaddum于1937年分别提出受体学说，该学说认为：受体只有与药物结合才能被激活并产生效应，而效应的强度与被占领的受体数目成正比，当受体全部被占领时出现最大效应。",
+            "Clark于1926年、Gaddum于1937年分别提出占领学说，该学说认为：受体只有与药物结合才能被激活并产生效应，而效应的强度与被占领的受体数目成正比，当受体部分被占领时出现最大效应。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-04-s126",
+          "paragraph": 54,
+          "corruptNow": true,
+          "original": "1954年Ariëns修正了占领学说，认为药物与受体结合不仅需要亲和力（affinity），而且还需要有内在活性（intrinsic activity，α）才能激动受体而产生效应。",
+          "wrongDisplay": "1945年Ariëns修正了占领学说，认为药物与受体结合不仅需要亲和力（affinity），而且还需要有内在活性（intrinsic activity，α）才能激动受体而产生效应。",
+          "correctOption": "1954年Ariëns修正了占领学说，认为药物与受体结合不仅需要亲和力（affinity），而且还需有内在活性（intrinsic activity，α）才能激动受体而产生效应。",
+          "wrongOptions": [
+            "1954年Ariëns修正了占领学说，认为药物与受体结合不仅不需要亲和力（affinity），而且还需要有内在活性（intrinsic activity，α）才能激动受体而产生效应。",
+            "1954年Ariëns修正了占领学说，认为药物与受体结合不仅需要亲和力（affinity），而且还需要有内在活性（intrinsic activity，α）才能阻断受体而产生效应。",
+            "1954年Ariëns修正了占领学说，认为药物与所有受体结合不仅需要亲和力（affinity），而且还需要有内在活性（intrinsic activity，α）才能激动受体而产生效应。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-04-s127",
+          "paragraph": 54,
+          "corruptNow": false,
+          "original": "所谓的内在活性是指药物与受体结合后产生效应的能力。",
+          "wrongDisplay": "所谓的内在活性是指药物与受体结合前产生效应的能力。",
+          "correctOption": "所谓的内在活性指的是药物与受体结合后产生效应的能力。",
+          "wrongOptions": [
+            "所谓的内在活性不是指药物与受体结合后产生效应的能力。",
+            "所谓的内在亲和力是指药物与受体结合后产生效应的能力。",
+            "所谓的内在活性是指药物与所有受体结合后产生效应的能力。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-04-s128",
+          "paragraph": 54,
+          "corruptNow": false,
+          "original": "只有亲和力而没有内在活性的药物，虽可与受体结合，但不能产生效应。",
+          "wrongDisplay": "只有亲和力而没有内在活性的药物，虽可与受体紧密结合，但不能产生效应。",
+          "correctOption": "仅有亲和力而没有内在活性的药物，虽可与受体结合，但不能产生效应。",
+          "wrongOptions": [
+            "只有亲和力而没有内在活性的药物，虽可与受体结合，但能产生效应。",
+            "只有亲脂性而没有内在活性的药物，虽可与受体结合，但不能产生效应。",
+            "只有亲和力而没有内在活性的药物，虽可与部分受体结合，但不能产生效应。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacodynamics-05",
+      "title": "占领学说与激动拮抗药",
+      "order": 5,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "pharmacodynamics-05-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "pharmacodynamics-05-s144",
+            "pharmacodynamics-05-s145",
+            "pharmacodynamics-05-s146",
+            "pharmacodynamics-05-s147",
+            "pharmacodynamics-05-s149",
+            "pharmacodynamics-05-s153",
+            "pharmacodynamics-05-s155",
+            "pharmacodynamics-05-s156",
+            "pharmacodynamics-05-s157",
+            "pharmacodynamics-05-s159",
+            "pharmacodynamics-05-s160",
+            "pharmacodynamics-05-s161"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "pharmacodynamics-05-s162",
+            "pharmacodynamics-05-s163",
+            "pharmacodynamics-05-s164",
+            "pharmacodynamics-05-s165",
+            "pharmacodynamics-05-s166",
+            "pharmacodynamics-05-s167",
+            "pharmacodynamics-05-s168",
+            "pharmacodynamics-05-s169",
+            "pharmacodynamics-05-s172"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "pharmacodynamics-05-s144",
+          "paragraph": 69,
+          "corruptNow": false,
+          "original": "KD表示药物与受体的亲和力，单位为摩尔，其意义是引起最大效应的一半时（即50%受体被占领）所需的药物剂量。",
+          "wrongDisplay": "KD表示药物与受体的亲和力，单位为毫摩尔，其意义是引起最大效应的一半时（即50%受体被占领）所需的药物剂量。",
+          "correctOption": "KD表示药物与受体的亲和力，单位为摩尔，其含义是引起最大效应的一半时（即50%受体被占领）所需的药物剂量。",
+          "wrongOptions": [
+            "KD表示药物与受体的亲和力，单位为摩尔，其意义不是引起最大效应的一半时（即50%受体被占领）所需的药物剂量。",
+            "KD表示药物与受体的亲和力，单位为摩尔，其意义是引起最大效应的一半时（即80%受体被占领）所需的药物剂量。",
+            "KD表示药物与受体的内在活性，单位为摩尔，其意义是引起最大效应的一半时（即50%受体被占领）所需的药物剂量。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s145",
+          "paragraph": 69,
+          "corruptNow": false,
+          "original": "KD越大，药物与受体的亲和力越小，即二者成反比。",
+          "wrongDisplay": "KD越大，药物与受体的亲和力越大，即二者成反比。",
+          "correctOption": "KD越大，药物与受体的亲和力越小，即二者呈反比。",
+          "wrongOptions": [
+            "KD越大，药物与受体的亲和力越小，即二者不成反比。",
+            "KD越大，药物与受体的内在活性越小，即二者成反比。",
+            "KD越大，药物与受体的亲和力越小，即二者成正比。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s146",
+          "paragraph": 69,
+          "corruptNow": true,
+          "original": "将药物-受体复合物的解离常数KD的负对数（-lgKD）称为亲和力指数（pD2），其值与亲和力成正比。",
+          "wrongDisplay": "将药物-受体复合物的解离常数KD的负对数（-lgKD）称为亲和力指数（pD2），其值与亲和力成反比。",
+          "correctOption": "将药物-受体复合物的解离常数KD的负对数（-lgKD）称为亲和力指数（pD2），其值与亲和力呈正比。",
+          "wrongOptions": [
+            "将药物-受体复合物的解离常数KD的负对数（-lgKD）称为亲和力指数（pD2），其值与亲和力不成正比。",
+            "将药物-受体复合物的结合常数KD的负对数（-lgKD）称为亲和力指数（pD2），其值与亲和力成正比。",
+            "将药物-受体复合物的解离常数KD的负对数（-lgKD）称为亲和力指数（pD2），其值大致与亲和力成正比。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s147",
+          "paragraph": 70,
+          "corruptNow": false,
+          "original": "药物与受体结合产生效应不仅要有亲和力，而且还要有内在活性，后者是决定药物与受体结合时产生效应大小的性质，可用α表示，通常0≤α≤1。",
+          "wrongDisplay": "药物与受体结合产生效应不仅要有亲和力，而且还要有内在活性，后者是决定药物与受体结合时产生效应大小的性质，可用α表示，通常0≤α≤2。",
+          "correctOption": "药物与受体结合产生效应不仅要有亲和力，而且还要有内在活性，后者是决定药物与受体结合时产生效应大小的特性，可用α表示，通常0≤α≤1。",
+          "wrongOptions": [
+            "药物与受体结合产生效应不仅要有亲和力，而且还要有内在活性，后者不是决定药物与受体结合时产生效应大小的性质，可用α表示，通常0≤α≤1。",
+            "药物与受体结合产生效应不仅要有亲和力，而且还要有内在活性，前者是决定药物与受体结合时产生效应大小的性质，可用α表示，通常0≤α≤1。",
+            "药物与受体结合产生效应不仅要有亲和力，而且还要有内在活性，后者是决定药物与受体结合时产生效应大小的性质，必须用α表示，通常0≤α≤1。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s149",
+          "paragraph": 71,
+          "corruptNow": false,
+          "original": "当两药亲和力相等时，其效应强度取决于内在活性强弱，当内在活性相等时，则取决于亲和力大小（图3-5）。",
+          "wrongDisplay": "当两药亲和力相等时，其效应强度取决于内在活性强弱，当内在活性相等时，则不取决于亲和力大小（图3-5）。",
+          "correctOption": "当两药亲和力相等时，其效应强度决定于内在活性强弱，当内在活性相等时，则取决于亲和力大小（图3-5）。",
+          "wrongOptions": [
+            "当两药亲和力相等时，其效价强度取决于内在活性强弱，当内在活性相等时，则取决于亲和力大小（图3-5）。",
+            "当两药亲和力相等时，其效应强度取决于内在活性强弱，当内在活性相等时，则只取决于亲和力大小（图3-5）。",
+            "当三药亲和力相等时，其效应强度取决于内在活性强弱，当内在活性相等时，则取决于亲和力大小（图3-5）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s153",
+          "paragraph": 75,
+          "corruptNow": false,
+          "original": "根据药物与受体结合后所产生效应的不同，习惯上将作用于受体的药物分为激动药、部分激动药和拮抗药（阻断药）3类。",
+          "wrongDisplay": "根据药物与受体结合后所产生效应的不同，必须将作用于受体的药物分为激动药、部分激动药和拮抗药（阻断药）3类。",
+          "correctOption": "根据药物与受体结合后所产生效应的差异，习惯上将作用于受体的药物分为激动药、部分激动药和拮抗药（阻断药）3类。",
+          "wrongOptions": [
+            "根据药物与受体结合后所产生效应的不同，习惯上将作用于受体的药物分为激动药、部分激动药和拮抗药（阻断药）4类。",
+            "根据药物与受体结合后所产生效应的不同，习惯上将作用于受体的药物分为激动药、部分拮抗药和拮抗药（阻断药）3类。",
+            "根据药物与受体结合后所产生效应的不同，习惯上将所有作用于受体的药物分为激动药、部分激动药和拮抗药（阻断药）3类。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s155",
+          "paragraph": 77,
+          "corruptNow": true,
+          "original": "为既有亲和力又有内在活性的药物，它们能与受体结合并激动受体而产生效应。",
+          "wrongDisplay": "为既有亲和力而无内在活性的药物，它们能与受体结合并激动受体而产生效应。",
+          "correctOption": "为既有亲和力又有内在活性的药物，它们可与受体结合并激动受体而产生效应。",
+          "wrongOptions": [
+            "为既有亲和力又有内在活性的药物，它们能与受体结合并抑制受体而产生效应。",
+            "为既有亲和力又有内在活性的药物，它们能被受体结合并激动受体而产生效应。",
+            "为既有亲和力又有内在活性的药物，它们必须与受体结合并激动受体而产生效应。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s156",
+          "paragraph": 77,
+          "corruptNow": false,
+          "original": "依其内在活性大小又可分为完全激动药（full agonist）和部分激动药（partial agonist）。",
+          "wrongDisplay": "依其内在活性大小又不可分为完全激动药（full agonist）和部分激动药（partial agonist）。",
+          "correctOption": "依其内在活性大小又可分为完全激动药（full agonist）与部分激动药（partial agonist）。",
+          "wrongOptions": [
+            "依其亲和力大小又可分为完全激动药（full agonist）和部分激动药（partial agonist）。",
+            "依其内在活性大小又必须分为完全激动药（full agonist）和部分激动药（partial agonist）。",
+            "只依其内在活性大小又可分为完全激动药（full agonist）和部分激动药（partial agonist）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s157",
+          "paragraph": 77,
+          "corruptNow": false,
+          "original": "前者具有较强亲和力和较强内在活性（α=1）；后者有较强亲和力，但内在活性不强（α<1），与激动药并用还可拮抗激动药的部分效应，如吗啡为完全激动药，而喷他佐辛则为部分激动药。",
+          "wrongDisplay": "前者具有较强亲和力和较强内在活性（α=1）；后者有较强亲和力，但内在活性不强（α<1），与激动药并用还可拮抗激动药的部分效应，如吗啡为部分激动药，而喷他佐辛则为部分激动药。",
+          "correctOption": "前者具有较强亲和力和较强内在活性（α=1）；后者有较强亲和力，但内在活性不强（α<1），与激动药并用还可拮抗激动药的部分效应，如吗啡为完全激动药，而喷他佐辛为部分激动药。",
+          "wrongOptions": [
+            "前者具有较强亲和力和较强内在活性（α=1）；后者有较强亲和力，但内在活性不强（α<1），与激动药并用不可拮抗激动药的部分效应，如吗啡为完全激动药，而喷他佐辛则为部分激动药。",
+            "前者具有较强亲和力和较弱内在活性（α=1）；后者有较强亲和力，但内在活性不强（α<1），与激动药并用还可拮抗激动药的部分效应，如吗啡为完全激动药，而喷他佐辛则为部分激动药。",
+            "前者具有较强亲和力和较强内在活性（α=1）；后者有较强亲和力，但内在活性不强（α<1），与激动药并用还可拮抗激动药的全部效应，如吗啡为完全激动药，而喷他佐辛则为部分激动药。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s159",
+          "paragraph": 79,
+          "corruptNow": false,
+          "original": "能与受体结合，具有较强亲和力而无内在活性（α=0）的药物。",
+          "wrongDisplay": "能与受体结合，具有较强亲和力而无内在活性（α=1）的药物。",
+          "correctOption": "能与受体结合，具有较强亲和力而缺乏内在活性（α=0）的药物。",
+          "wrongOptions": [
+            "不能与受体结合，具有较强亲和力而无内在活性（α=0）的药物。",
+            "能与受体结合，具有较弱亲和力而无内在活性（α=0）的药物。",
+            "能与受体结合，具有较强亲和力而无内在活性（α>0）的药物。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s160",
+          "paragraph": 79,
+          "corruptNow": true,
+          "original": "它们本身不产生作用，但因占据受体而拮抗激动药的效应，如纳洛酮和普萘洛尔均属于拮抗药。",
+          "wrongDisplay": "它们本身不产生作用，但因占据受体而拮抗激动药的效应，如喷他佐辛和普萘洛尔均属于拮抗药。",
+          "correctOption": "它们本身不产生作用，但因占据受体而拮抗激动药的效应，如纳洛酮和普萘洛尔均属拮抗药。",
+          "wrongOptions": [
+            "它们本身产生作用，但因占据受体而拮抗激动药的效应，如纳洛酮和普萘洛尔均属于拮抗药。",
+            "它们本身不产生作用，但因占据受体而增强激动药的效应，如纳洛酮和普萘洛尔均属于拮抗药。",
+            "它们本身几乎不产生作用，但因占据受体而拮抗激动药的效应，如纳洛酮和普萘洛尔均属于拮抗药。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s161",
+          "paragraph": 79,
+          "corruptNow": false,
+          "original": "少数拮抗药以拮抗作用为主，同时尚有较弱的内在活性（α<1），故有较弱的激动受体作用，如β受体拮抗药氧烯洛尔。",
+          "wrongDisplay": "多数拮抗药以拮抗作用为主，同时尚有较弱的内在活性（α<1），故有较弱的激动受体作用，如β受体拮抗药氧烯洛尔。",
+          "correctOption": "少数拮抗药以拮抗作用为主，同时还有较弱的内在活性（α<1），故有较弱的激动受体作用，如β受体拮抗药氧烯洛尔。",
+          "wrongOptions": [
+            "少数拮抗药不以拮抗作用为主，同时尚有较弱的内在活性（α<1），故有较弱的激动受体作用，如β受体拮抗药氧烯洛尔。",
+            "少数拮抗药以拮抗作用为主，同时尚有较弱的内在活性（α<1），故有较强的激动受体作用，如β受体拮抗药氧烯洛尔。",
+            "少数拮抗药以拮抗作用为主，同时尚有较弱的内在活性（α<1），故有较弱的激动受体作用，如α受体拮抗药氧烯洛尔。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s162",
+          "paragraph": 80,
+          "corruptNow": false,
+          "original": "根据拮抗药与受体结合是否具有可逆性而将其分为竞争性拮抗药（competitive antagonist）和非竞争性拮抗药（noncompetitive antagonist）。",
+          "wrongDisplay": "根据拮抗药与受体结合是否具有不可逆性而将其分为竞争性拮抗药（competitive antagonist）和非竞争性拮抗药（noncompetitive antagonist）。",
+          "correctOption": "根据拮抗药与受体结合是否具有可逆性而将其分为竞争性拮抗药（competitive antagonist）与非竞争性拮抗药（noncompetitive antagonist）。",
+          "wrongOptions": [
+            "根据拮抗药与受体结合是否具有选择性而将其分为竞争性拮抗药（competitive antagonist）和非竞争性拮抗药（noncompetitive antagonist）。",
+            "根据拮抗药与受体结合是否具有可逆性而必须将其分为竞争性拮抗药（competitive antagonist）和非竞争性拮抗药（noncompetitive antagonist）。",
+            "根据所有拮抗药与受体结合是否具有可逆性而将其分为竞争性拮抗药（competitive antagonist）和非竞争性拮抗药（noncompetitive antagonist）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s163",
+          "paragraph": 80,
+          "corruptNow": false,
+          "original": "竞争性拮抗药能与激动药竞争相同受体，其结合是可逆的。",
+          "wrongDisplay": "竞争性拮抗药能与激动药竞争不同受体，其结合是可逆的。",
+          "correctOption": "竞争性拮抗药能与激动药竞争同一受体，其结合是可逆的。",
+          "wrongOptions": [
+            "竞争性拮抗药能与激动药竞争相同受体，其结合不是可逆的。",
+            "竞争性拮抗药能与拮抗药竞争相同受体，其结合是可逆的。",
+            "竞争性拮抗药能与激动药竞争相同受体，其结合必须是可逆的。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s164",
+          "paragraph": 80,
+          "corruptNow": true,
+          "original": "通过增加激动药的剂量与拮抗药竞争结合部位，可使量效曲线平行右移，但最大效能不变。",
+          "wrongDisplay": "通过增加激动药的剂量与拮抗药竞争结合部位，可使量效曲线平行左移，但最大效能不变。",
+          "correctOption": "通过提高激动药的剂量与拮抗药竞争结合部位，可使量效曲线平行右移，但最大效能不变。",
+          "wrongOptions": [
+            "通过增加激动药的剂量与拮抗药竞争结合部位，不可使量效曲线平行右移，但最大效能不变。",
+            "通过增加激动药的剂量与拮抗药竞争结合部位，可使量效曲线平行右移，但效价强度不变。",
+            "通过减少激动药的剂量与拮抗药竞争结合部位，可使量效曲线平行右移，但最大效能不变。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s165",
+          "paragraph": 80,
+          "corruptNow": false,
+          "original": "可用拮抗参数（pA2）表示竞争性拮抗药的作用强度，其含义为：当激动药与拮抗药合用时，若两倍浓度激动药所产生的效应恰好等于未加入拮抗药时激动药所引起的效应，则所加入拮抗药的摩尔浓度的负对数值为pA2。",
+          "wrongDisplay": "可用拮抗参数（pA2）表示竞争性拮抗药的作用强度，其含义为：当激动药与拮抗药合用时，若三倍浓度激动药所产生的效应恰好等于未加入拮抗药时激动药所引起的效应，则所加入拮抗药的摩尔浓度的负对数值为pA2。",
+          "correctOption": "可用拮抗参数（pA2）表示竞争性拮抗药的作用强度，其含义为：当激动药与拮抗药合用时，若两倍浓度激动药所产生的效应恰好等于未加入拮抗药时激动药所引起的效应，则所加入拮抗药的摩尔浓度的负对数值即为pA2。",
+          "wrongOptions": [
+            "不可用拮抗参数（pA2）表示竞争性拮抗药的作用强度，其含义为：当激动药与拮抗药合用时，若两倍浓度激动药所产生的效应恰好等于未加入拮抗药时激动药所引起的效应，则所加入拮抗药的摩尔浓度的负对数值为pA2。",
+            "可用拮抗参数（pA2）表示竞争性拮抗药的作用强度，其含义为：当激动药与拮抗药合用时，若两倍浓度激动药所产生的效应恰好等于未加入拮抗药时激动药所引起的效应，则所加入拮抗药的摩尔浓度的负对数值为pD2。",
+            "可用拮抗参数（pA2）表示竞争性拮抗药的作用强度，其含义为：当激动药与拮抗药合用时，若两倍浓度激动药所产生的效应恰好小于未加入拮抗药时激动药所引起的效应，则所加入拮抗药的摩尔浓度的负对数值为pA2。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s166",
+          "paragraph": 80,
+          "corruptNow": false,
+          "original": "pA2越大，拮抗作用越强。",
+          "wrongDisplay": "pA2越大，拮抗作用并非越强。",
+          "correctOption": "pA2越大，其拮抗作用越强。",
+          "wrongOptions": [
+            "pA2越大，拮抗作用越弱。",
+            "pA2越小，拮抗作用越强。",
+            "pD2越大，拮抗作用越强。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s167",
+          "paragraph": 80,
+          "corruptNow": false,
+          "original": "pA2还可用以判断激动药的性质，如两种激动药被同一拮抗药拮抗，且二者pA2相近，则说明此两种激动药是作用于同一受体。",
+          "wrongDisplay": "pA2还可用以判断激动药的性质，如三种激动药被同一拮抗药拮抗，且二者pA2相近，则说明此两种激动药是作用于同一受体。",
+          "correctOption": "pA2还可用以判断激动药的性质，如两种激动药被同一拮抗药拮抗，且二者pA2相近，则说明此两种激动药作用于同一受体。",
+          "wrongOptions": [
+            "pA2还可用以判断激动药的性质，如两种激动药被同一拮抗药拮抗，且二者pA2相近，则说明此两种激动药不是作用于同一受体。",
+            "pA2还可用以判断激动药的性质，如两种激动药被不同拮抗药拮抗，且二者pA2相近，则说明此两种激动药是作用于同一受体。",
+            "pA2还可用以判断所有激动药的性质，如两种激动药被同一拮抗药拮抗，且二者pA2相近，则说明此两种激动药是作用于同一受体。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s168",
+          "paragraph": 81,
+          "corruptNow": true,
+          "original": "非竞争性拮抗药与激动药并用时，可使亲和力与活性均降低，即不仅使激动药的量效曲线右移，而且也降低其最大效能（图3-6）。",
+          "wrongDisplay": "非竞争性拮抗药与激动药并用时，可使亲和力与活性均升高，即不仅使激动药的量效曲线右移，而且也降低其最大效能（图3-6）。",
+          "correctOption": "非竞争性拮抗药与激动药并用时，可使亲和力与活性均降低，即不但使激动药的量效曲线右移，而且也降低其最大效能（图3-6）。",
+          "wrongOptions": [
+            "非竞争性拮抗药与激动药并用时，不可使亲和力与活性均降低，即不仅使激动药的量效曲线右移，而且也降低其最大效能（图3-6）。",
+            "竞争性拮抗药与激动药并用时，可使亲和力与活性均降低，即不仅使激动药的量效曲线右移，而且也降低其最大效能（图3-6）。",
+            "非竞争性拮抗药与激动药并用时，可使亲和力与活性均降低，即不仅使激动药的量效曲线左移，而且也降低其最大效能（图3-6）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s169",
+          "paragraph": 81,
+          "corruptNow": false,
+          "original": "与受体结合非常牢固，产生不可逆结合的药物也能产生类似效应。",
+          "wrongDisplay": "与受体结合非常牢固，产生可逆结合的药物也能产生类似效应。",
+          "correctOption": "与受体结合非常牢固，产生不可逆结合的药物也可产生类似效应。",
+          "wrongOptions": [
+            "与受体结合非常牢固，产生不可逆结合的药物也能产生相反效应。",
+            "与受体结合不太牢固，产生不可逆结合的药物也能产生类似效应。",
+            "与受体结合非常牢固，产生不可逆结合的药物均能产生类似效应。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-05-s172",
+          "paragraph": 83,
+          "corruptNow": false,
+          "original": "但一些活性高的药物只需与一部分受体结合就能发挥最大效能，在产生最大效能时，常有95%～99%受体未被占领，剩余的未结合的受体称为储备受体（spare receptor），拮抗药必须完全占领储备受体后，才能发挥其拮抗效应。",
+          "wrongDisplay": "但一些活性高的药物只需与全部受体结合就能发挥最大效能，在产生最大效能时，常有95%～99%受体未被占领，剩余的未结合的受体称为储备受体（spare receptor），拮抗药必须完全占领储备受体后，才能发挥其拮抗效应。",
+          "correctOption": "但一些活性高的药物只需与一部分受体结合就能发挥最大效能，在产生最大效能时，常有95%～99%受体未被占领，剩余的未结合受体称为储备受体（spare receptor），拮抗药必须完全占领储备受体后，才能发挥其拮抗效应。",
+          "wrongOptions": [
+            "但一些活性高的药物只需与一部分受体结合就能发挥最大效能，在产生最大效能时，常有95%～99%受体被占领，剩余的未结合的受体称为储备受体（spare receptor），拮抗药必须完全占领储备受体后，才能发挥其拮抗效应。",
+            "但一些活性高的药物只需与一部分受体结合就能发挥最大效能，在产生最大效能时，常有85%～99%受体未被占领，剩余的未结合的受体称为储备受体（spare receptor），拮抗药必须完全占领储备受体后，才能发挥其拮抗效应。",
+            "但一些活性高的药物只需与一部分受体结合就能发挥最大效能，在产生最大效能时，常有95%～99%受体未被占领，剩余的未结合的受体称为储备受体（spare receptor），拮抗药必须完全占领储备受体后，才能发挥其激动效应。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacodynamics-06",
+      "title": "二态模型与受体类型",
+      "order": 6,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "pharmacodynamics-06-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "pharmacodynamics-06-s173",
+            "pharmacodynamics-06-s174",
+            "pharmacodynamics-06-s175",
+            "pharmacodynamics-06-s177",
+            "pharmacodynamics-06-s178",
+            "pharmacodynamics-06-s179",
+            "pharmacodynamics-06-s180",
+            "pharmacodynamics-06-s181",
+            "pharmacodynamics-06-s182",
+            "pharmacodynamics-06-s187",
+            "pharmacodynamics-06-s188",
+            "pharmacodynamics-06-s189"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "pharmacodynamics-06-s190",
+            "pharmacodynamics-06-s193",
+            "pharmacodynamics-06-s194",
+            "pharmacodynamics-06-s195",
+            "pharmacodynamics-06-s203",
+            "pharmacodynamics-06-s204",
+            "pharmacodynamics-06-s205",
+            "pharmacodynamics-06-s208",
+            "pharmacodynamics-06-s211",
+            "pharmacodynamics-06-s212",
+            "pharmacodynamics-06-s214"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "pharmacodynamics-06-s173",
+          "paragraph": 84,
+          "corruptNow": false,
+          "original": "为什么化学结构类似的药物对于同一受体有的是激动药，有的是拮抗药，还有的是部分激动药？",
+          "wrongDisplay": "为什么化学结构类似的药物对于同一受体大多数是激动药，有的是拮抗药，还有的是部分激动药？",
+          "correctOption": "为什么化学结构相似的药物对于同一受体有的是激动药，有的是拮抗药，还有的是部分激动药？",
+          "wrongOptions": [
+            "为什么化学结构类似的药物对于同一受体有的不是激动药，有的是拮抗药，还有的是部分激动药？",
+            "为什么化学结构类似的药物对于同一受体有的是激动药，有的是拮抗药，还有的是完全激动药？",
+            "为什么化学结构类似的药物对于同一配体有的是激动药，有的是拮抗药，还有的是部分激动药？"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s174",
+          "paragraph": 84,
+          "corruptNow": false,
+          "original": "这可用二态模型学说解释。",
+          "wrongDisplay": "这曾用二态模型学说解释。",
+          "correctOption": "这可用二态模型学说阐明。",
+          "wrongOptions": [
+            "这不可用二态模型学说解释。",
+            "这可用二室模型学说解释。",
+            "这可用三态模型学说解释。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s175",
+          "paragraph": 84,
+          "corruptNow": false,
+          "original": "按此学说，受体蛋白有两种可以互变的构型状态：活动状态（active，Ra）与静息状态（inactive，Ri）。",
+          "wrongDisplay": "按此学说，受体蛋白有两种可以互变的构型状态：活动状态（active，Ra）或静息状态（inactive，Ri）。",
+          "correctOption": "按此学说，受体蛋白具有两种可互变的构型状态：活动状态（active，Ra）与静息状态（inactive，Ri）。",
+          "wrongOptions": [
+            "按此学说，受体蛋白有三种可以互变的构型状态：活动状态（active，Ra）与静息状态（inactive，Ri）。",
+            "按此学说，受体蛋白有两种不能互变的构型状态：活动状态（active，Ra）与静息状态（inactive，Ri）。",
+            "按此学说，受体蛋白有两种可以互变的构型状态：激活状态（active，Ra）与静息状态（inactive，Ri）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s177",
+          "paragraph": 84,
+          "corruptNow": true,
+          "original": "平衡趋向的改变，主要取决于药物对Ra及Ri亲和力的大小。",
+          "wrongDisplay": "平衡趋向的改变，主要取决于药物对Ra或Ri亲和力的大小。",
+          "correctOption": "平衡趋向的改变，主要取决于药物对Ra和Ri亲和力的大小。",
+          "wrongOptions": [
+            "平衡趋向的改变，主要不取决于药物对Ra及Ri亲和力的大小。",
+            "平衡趋向的改变，完全取决于药物对Ra及Ri亲和力的大小。",
+            "平衡趋向的改变，主要取决于药物对Ra及Ri选择性的大小。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s178",
+          "paragraph": 84,
+          "corruptNow": false,
+          "original": "如激动药对Ra的亲和力大于对Ri的亲和力，可使平衡趋向Ra，并同时激动受体产生效应。",
+          "wrongDisplay": "如激动药对Ra的亲和力大于对Ri的亲和力，可使平衡背离Ra，并同时激动受体产生效应。",
+          "correctOption": "如激动药对Ra的亲和力高于对Ri的亲和力，可使平衡趋向Ra，并同时激动受体产生效应。",
+          "wrongOptions": [
+            "如激动药对Ra的亲和力小于对Ri的亲和力，可使平衡趋向Ra，并同时激动受体产生效应。",
+            "如拮抗药对Ra的亲和力大于对Ri的亲和力，可使平衡趋向Ra，并同时激动受体产生效应。",
+            "如激动药对Ra的亲和力大于对Ri的亲和力，不能使平衡趋向Ra，并同时激动受体产生效应。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s179",
+          "paragraph": 84,
+          "corruptNow": false,
+          "original": "一个完全激动药对Ra有充分的选择性，在有足够的药量时，可以使受体构型完全转为Ra。",
+          "wrongDisplay": "两个完全激动药对Ra有充分的选择性，在有足够的药量时，可以使受体构型完全转为Ra。",
+          "correctOption": "一个完全激动药对Ra有充分的选择性，在有足够药量时，可以使受体构型完全转为Ra。",
+          "wrongOptions": [
+            "一个部分激动药对Ra有充分的选择性，在有足够的药量时，可以使受体构型完全转为Ra。",
+            "一个完全激动药对Ra有充分的选择性，在有足够的药量时，不能使受体构型完全转为Ra。",
+            "一个完全激动药对Ra有充分的亲和力，在有足够的药量时，可以使受体构型完全转为Ra。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s180",
+          "paragraph": 84,
+          "corruptNow": false,
+          "original": "部分激动药对Ra的亲和力仅比对Ri的亲和力大50%左右，即便是有足够的药量，也只能产生较小的效应。",
+          "wrongDisplay": "部分激动药对Ra的亲和力仅比对Ri的亲和力大50%左右，即便是有足够的药量，也必须产生较小的效应。",
+          "correctOption": "部分激动药对Ra的亲和力仅比对Ri的亲和力大50%上下，即便是有足够的药量，也只能产生较小的效应。",
+          "wrongOptions": [
+            "部分激动药对Ra的亲和力仅比对Ri的亲和力大20%左右，即便是有足够的药量，也只能产生较小的效应。",
+            "部分激动药对Ra的亲和力仅比对Ri的亲和力小50%左右，即便是有足够的药量，也只能产生较小的效应。",
+            "部分激动药对Ra的亲和力仅比对Ri的亲和力大50%左右，即便是有足够的药量，也只能产生明显的效应。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s181",
+          "paragraph": 84,
+          "corruptNow": false,
+          "original": "拮抗药对Ra及Ri亲和力相等，并不改变两种受体状态的平衡。",
+          "wrongDisplay": "拮抗药对Ra及Ri亲和力相等，并不改变全部受体状态的平衡。",
+          "correctOption": "拮抗药对Ra和Ri亲和力相等，并不改变两种受体状态的平衡。",
+          "wrongOptions": [
+            "拮抗药对Ra及Ri亲和力相等，可以改变两种受体状态的平衡。",
+            "拮抗药对Ra及Ri亲和力不等，并不改变两种受体状态的平衡。",
+            "激动药对Ra及Ri亲和力相等，并不改变两种受体状态的平衡。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s182",
+          "paragraph": 84,
+          "corruptNow": true,
+          "original": "另有些药物（如苯二氮䓬类）对Ri亲和力大于Ra，药物与受体结合后引起与激动药相反的效应，称为反向激动药（inverse agonists）（图3-7）。",
+          "wrongDisplay": "另有些药物（如苯二氮䓬类）对Ri亲和力大于Ra，药物与受体结合前引起与激动药相反的效应，称为反向激动药（inverse agonists）（图3-7）。",
+          "correctOption": "另有些药物（如苯二氮䓬类）对Ri亲和力高于Ra，药物与受体结合后引起与激动药相反的效应，称为反向激动药（inverse agonists）（图3-7）。",
+          "wrongOptions": [
+            "另有些药物（如苯二氮䓬类）对Ri亲和力小于Ra，药物与受体结合后引起与激动药相反的效应，称为反向激动药（inverse agonists）（图3-7）。",
+            "另有些药物（如巴比妥类）对Ri亲和力大于Ra，药物与受体结合后引起与激动药相反的效应，称为反向激动药（inverse agonists）（图3-7）。",
+            "另有些药物（如苯二氮䓬类）对Ri亲和力大于Ra，药物与受体结合后引起与激动药相反的效应，不称为反向激动药（inverse agonists）（图3-7）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s187",
+          "paragraph": 89,
+          "corruptNow": false,
+          "original": "G蛋白偶联受体（G protein-coupled receptors）是一类由GTP结合调节蛋白（简称为G蛋白，G-protein）组成的受体超家族，可将配体带来的信号传送至效应器蛋白，产生生物效应。",
+          "wrongDisplay": "G蛋白偶联受体（G protein-coupled receptors）是一类由GTP结合调节蛋白（简称为G蛋白，G-protein）组成的受体超家族，必须将配体带来的信号传送至效应器蛋白，产生生物效应。",
+          "correctOption": "G蛋白偶联受体（G protein-coupled receptors）是一类由GTP结合调节蛋白（简称为G蛋白，G-protein）组成的受体超家族，可将配体传递的信号传送至效应器蛋白，产生生物效应。",
+          "wrongOptions": [
+            "G蛋白偶联受体（G protein-coupled receptors）是一类由GDP结合调节蛋白（简称为G蛋白，G-protein）组成的受体超家族，可将配体带来的信号传送至效应器蛋白，产生生物效应。",
+            "G蛋白偶联受体（G protein-coupled receptors）不是一类由GTP结合调节蛋白（简称为G蛋白，G-protein）组成的受体超家族，可将配体带来的信号传送至效应器蛋白，产生生物效应。",
+            "G蛋白偶联受体（G protein-coupled receptors）是一类由GTP结合调节蛋白（简称为G蛋白，G-protein）组成的受体超家族，可将配体带来的信号传送至效应器蛋白，抑制生物效应。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s188",
+          "paragraph": 89,
+          "corruptNow": false,
+          "original": "这一类受体是目前发现的种类最多的受体，包括生物胺、激素、多肽激素及神经递质等的受体。",
+          "wrongDisplay": "这一类受体是目前发现的种类最多的受体，不包括生物胺、激素、多肽激素及神经递质等的受体。",
+          "correctOption": "这一类受体是目前发现的种类最多的受体，包含生物胺、激素、多肽激素及神经递质等的受体。",
+          "wrongOptions": [
+            "这一类受体是目前发现的种类较多的受体，包括生物胺、激素、多肽激素及神经递质等的受体。",
+            "全部受体是目前发现的种类最多的受体，包括生物胺、激素、多肽激素及神经递质等的受体。",
+            "这一类受体是目前发现的种类最多的受体，包括生物碱、激素、多肽激素及神经递质等的受体。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s189",
+          "paragraph": 89,
+          "corruptNow": false,
+          "original": "G蛋白的调节效应器包括酶类，如腺苷酸环化酶（adenylate cyclase，AC）、磷脂酶C（phospholipase C，PLC）等及某些离子通道如Ca2+、K+离子通道。",
+          "wrongDisplay": "G蛋白的调节效应器必须包括酶类，如腺苷酸环化酶（adenylate cyclase，AC）、磷脂酶C（phospholipase C，PLC）等及某些离子通道如Ca2+、K+离子通道。",
+          "correctOption": "G蛋白的调节效应器包括酶类，如腺苷酸环化酶（adenylate cyclase，AC）、磷脂酶C（phospholipase C，PLC）等以及某些离子通道如Ca2+、K+离子通道。",
+          "wrongOptions": [
+            "G蛋白的调节效应器包括酶类，如鸟苷酸环化酶（adenylate cyclase，AC）、磷脂酶C（phospholipase C，PLC）等及某些离子通道如Ca2+、K+离子通道。",
+            "G蛋白的调节效应器包括酶类，如腺苷酸环化酶（adenylate cyclase，AC）、磷脂酶C（phospholipase C，PLC）等及全部离子通道如Ca2+、K+离子通道。",
+            "G蛋白的调节效应器不包括酶类，如腺苷酸环化酶（adenylate cyclase，AC）、磷脂酶C（phospholipase C，PLC）等及某些离子通道如Ca2+、K+离子通道。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s190",
+          "paragraph": 90,
+          "corruptNow": true,
+          "original": "G蛋白偶联受体结构非常相似，均为单一肽链形成7个α螺旋（又称跨膜区段结构）往返穿透细胞膜，形成3个细胞外环和3个细胞内环。",
+          "wrongDisplay": "G蛋白偶联受体结构并不相似，均为单一肽链形成7个α螺旋（又称跨膜区段结构）往返穿透细胞膜，形成3个细胞外环和3个细胞内环。",
+          "correctOption": "G蛋白偶联受体结构非常相似，均为单一肽链形成7个α螺旋（又称跨膜区段结构）往返穿过细胞膜，形成3个细胞外环和3个细胞内环。",
+          "wrongOptions": [
+            "G蛋白偶联受体结构非常相似，均为单一肽链形成5个α螺旋（又称跨膜区段结构）往返穿透细胞膜，形成3个细胞外环和3个细胞内环。",
+            "G蛋白偶联受体结构非常相似，均为单一肽链形成7个β螺旋（又称跨膜区段结构）往返穿透细胞膜，形成3个细胞外环和3个细胞内环。",
+            "G蛋白偶联受体结构非常相似，均为单一肽链形成7个α螺旋（又称跨膜区段结构）单向穿透细胞膜，形成3个细胞外环和3个细胞内环。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s193",
+          "paragraph": 90,
+          "corruptNow": false,
+          "original": "G蛋白是由α、β、γ三种亚单位组成的三聚体，静息状态时与GDP结合。",
+          "wrongDisplay": "G蛋白是由α、β、γ三种亚单位组成的三聚体，静息状态时与GDP解离。",
+          "correctOption": "G蛋白是由α、β、γ三种亚单位组成的三聚体，静息时与GDP结合。",
+          "wrongOptions": [
+            "G蛋白是由α、β、γ两种亚单位组成的三聚体，静息状态时与GDP结合。",
+            "G蛋白是由α、β、γ三种亚单位组成的三聚体，静息状态时与GTP结合。",
+            "G蛋白是由α、β、γ三种亚单位组成的三聚体，静息状态时不与GDP结合。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s194",
+          "paragraph": 90,
+          "corruptNow": false,
+          "original": "当受体激活时GDP-αβγ复合物在Mg2+参与下，结合的GDP与胞质中GTP交换，GTP-α与βγ分离并激活效应器蛋白，同时配体与受体分离。",
+          "wrongDisplay": "当受体激活后GDP-αβγ复合物在Mg2+参与下，结合的GDP与胞质中GTP交换，GTP-α与βγ分离并激活效应器蛋白，同时配体与受体分离。",
+          "correctOption": "当受体激活时GDP-αβγ复合物在Mg2+参与下，结合的GDP与胞质中GTP互换，GTP-α与βγ分离并激活效应器蛋白，同时配体与受体分离。",
+          "wrongOptions": [
+            "当受体激活时GTP-αβγ复合物在Mg2+参与下，结合的GDP与胞质中GTP交换，GTP-α与βγ分离并激活效应器蛋白，同时配体与受体分离。",
+            "当受体激活时GDP-αβγ复合物在Mg2+参与下，结合的GDP与胞质中GTP交换，GTP-α与βγ结合并激活效应器蛋白，同时配体与受体分离。",
+            "当受体激活时GDP-αβγ复合物在Mg2+参与下，结合的GDP与胞质中GTP交换，GTP-α与βγ分离并激活效应器蛋白，同时配体与受体不分离。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s195",
+          "paragraph": 90,
+          "corruptNow": true,
+          "original": "α亚单位本身具有GTP酶活性，促使GTP水解为GDP，再与βγ亚单位形成G蛋白三聚体恢复原来的静息状态。",
+          "wrongDisplay": "α亚单位本身具有GTP酶活性，促使GTP彻底水解为GDP，再与βγ亚单位形成G蛋白三聚体恢复原来的静息状态。",
+          "correctOption": "α亚单位本身具有GTP酶活性，促使GTP水解成GDP，再与βγ亚单位形成G蛋白三聚体恢复原来的静息状态。",
+          "wrongOptions": [
+            "α亚单位本身具有GTP酶活性，促使GTP水解为GDP，再与βγ亚单位形成G蛋白二聚体恢复原来的静息状态。",
+            "α亚单位本身具有GTP酶活性，不促使GTP水解为GDP，再与βγ亚单位形成G蛋白三聚体恢复原来的静息状态。",
+            "α亚单位本身具有GTP酶活性，促使GTP水解为GDP，再与αγ亚单位形成G蛋白三聚体恢复原来的静息状态。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s203",
+          "paragraph": 94,
+          "corruptNow": false,
+          "original": "离子通道按生理功能分类，可分为配体门控离子通道（ligand-gated ion channel）及电压门控离子通道（voltage-gated ion channel）。",
+          "wrongDisplay": "离子通道按生理功能分类，必须分为配体门控离子通道（ligand-gated ion channel）及电压门控离子通道（voltage-gated ion channel）。",
+          "correctOption": "离子通道按生理功能分类，可分为配体门控离子通道（ligand-gated ion channel）与电压门控离子通道（voltage-gated ion channel）。",
+          "wrongOptions": [
+            "离子通道按生理功能分类，可分为配体门控离子通道（ligand-gated ion channel）及机械门控离子通道（voltage-gated ion channel）。",
+            "离子通道按生理功能分类，不可分为配体门控离子通道（ligand-gated ion channel）及电压门控离子通道（voltage-gated ion channel）。",
+            "离子通道按生理功能分类，可分为配体门控离子通道（ligand-gated ion channel）或电压门控离子通道（voltage-gated ion channel）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s204",
+          "paragraph": 94,
+          "corruptNow": false,
+          "original": "配体门控离子通道受体（ligand-gated ion channel receptors）由配体结合部位及离子通道两部分构成，当配体与其结合后，受体变构使通道开放或关闭，改变细胞膜离子流动状态，从而传递信息。",
+          "wrongDisplay": "配体门控离子通道受体（ligand-gated ion channel receptors）由配体结合部位及离子通道两部分构成，当配体与其结合前，受体变构使通道开放或关闭，改变细胞膜离子流动状态，从而传递信息。",
+          "correctOption": "配体门控离子通道受体（ligand-gated ion channel receptors）由配体结合部位及离子通道两部分组成，当配体与其结合后，受体变构使通道开放或关闭，改变细胞膜离子流动状态，从而传递信息。",
+          "wrongOptions": [
+            "电压门控离子通道受体（ligand-gated ion channel receptors）由配体结合部位及离子通道两部分构成，当配体与其结合后，受体变构使通道开放或关闭，改变细胞膜离子流动状态，从而传递信息。",
+            "配体门控离子通道受体（ligand-gated ion channel receptors）由配体结合部位及离子通道两部分构成，当配体与其结合后，受体变构使通道开放或关闭，改变细胞膜离子流动状态，从而不传递信息。",
+            "配体门控离子通道受体（ligand-gated ion channel receptors）由配体结合部位及离子通道三部分构成，当配体与其结合后，受体变构使通道开放或关闭，改变细胞膜离子流动状态，从而传递信息。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s205",
+          "paragraph": 94,
+          "corruptNow": true,
+          "original": "这一类受体包括N型乙酰胆碱受体、γ-氨基丁酸（GABA）受体等。",
+          "wrongDisplay": "全部受体包括N型乙酰胆碱受体、γ-氨基丁酸（GABA）受体等。",
+          "correctOption": "这一类受体包含N型乙酰胆碱受体、γ-氨基丁酸（GABA）受体等。",
+          "wrongOptions": [
+            "这一类受体包括M型乙酰胆碱受体、γ-氨基丁酸（GABA）受体等。",
+            "这一类受体包括N型乙酰胆碱受体、α-氨基丁酸（GABA）受体等。",
+            "这一类受体不包括N型乙酰胆碱受体、γ-氨基丁酸（GABA）受体等。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s208",
+          "paragraph": 96,
+          "corruptNow": false,
+          "original": "胰岛素及一些生长因子的受体本身具有酪氨酸蛋白激酶的活性，称为酪氨酸蛋白激酶受体（tyrosine-protein kinase receptor）。",
+          "wrongDisplay": "胰岛素及一些生长因子的受体本身具有酪氨酸蛋白激酶的高活性，称为酪氨酸蛋白激酶受体（tyrosine-protein kinase receptor）。",
+          "correctOption": "胰岛素及一些生长因子的受体本身具有酪氨酸蛋白激酶的活性，又称酪氨酸蛋白激酶受体（tyrosine-protein kinase receptor）。",
+          "wrongOptions": [
+            "胰岛素及一些生长因子的受体本身具有丝氨酸蛋白激酶的活性，称为酪氨酸蛋白激酶受体（tyrosine-protein kinase receptor）。",
+            "胰岛素及全部生长因子的受体本身具有酪氨酸蛋白激酶的活性，称为酪氨酸蛋白激酶受体（tyrosine-protein kinase receptor）。",
+            "胰岛素及一些生长因子的受体本身不具有酪氨酸蛋白激酶的活性，称为酪氨酸蛋白激酶受体（tyrosine-protein kinase receptor）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s211",
+          "paragraph": 98,
+          "corruptNow": false,
+          "original": "甾体激素、甲状腺激素、维生素D及维生素A受体是可溶性的DNA结合蛋白，其作用是调节某些特殊基因的转录。",
+          "wrongDisplay": "甾体激素、甲状腺激素、维生素D及维生素A受体是可溶性的DNA结合蛋白，其作用是抑制某些特殊基因的转录。",
+          "correctOption": "甾体激素、甲状腺激素、维生素D及维生素A受体是可溶性的DNA结合蛋白，其功能是调节某些特殊基因的转录。",
+          "wrongOptions": [
+            "甾体激素、甲状旁腺激素、维生素D及维生素A受体是可溶性的DNA结合蛋白，其作用是调节某些特殊基因的转录。",
+            "甾体激素、甲状腺激素、维生素D及维生素A受体是可溶性的DNA结合蛋白，其作用是调节全部特殊基因的转录。",
+            "甾体激素、甲状腺激素、维生素D及维生素A受体是可溶性的DNA结合蛋白，其作用不是调节某些特殊基因的转录。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s212",
+          "paragraph": 98,
+          "corruptNow": true,
+          "original": "甾体激素受体存在于细胞质内，与相应的甾体激素结合形成复合物后，以二聚体的形式进入细胞核中发挥作用。",
+          "wrongDisplay": "甾体激素受体存在于细胞质内，与相应的甾体激素结合形成复合物前，以二聚体的形式进入细胞核中发挥作用。",
+          "correctOption": "甾体激素受体存在于细胞质中，与相应的甾体激素结合形成复合物后，以二聚体的形式进入细胞核中发挥作用。",
+          "wrongOptions": [
+            "甾体激素受体存在于细胞质外，与相应的甾体激素结合形成复合物后，以二聚体的形式进入细胞核中发挥作用。",
+            "甾体激素受体存在于细胞质内，与相应的肽类激素结合形成复合物后，以二聚体的形式进入细胞核中发挥作用。",
+            "甾体激素受体存在于细胞质内，与相应的甾体激素结合形成复合物后，以三聚体的形式进入细胞核中发挥作用。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-06-s214",
+          "paragraph": 98,
+          "corruptNow": false,
+          "original": "细胞核激素受体（cell nuclear hormone receptors）本质上属于转录因子（transcription factors），激素则是这种转录因子的调控物。",
+          "wrongDisplay": "细胞核激素受体（cell nuclear hormone receptors）本质上都属于转录因子（transcription factors），激素则是这种转录因子的调控物。",
+          "correctOption": "细胞核激素受体（cell nuclear hormone receptors）本质上属于转录因子（transcription factors），激素则是这种转录因子的调节物。",
+          "wrongOptions": [
+            "细胞核激素受体（cell nuclear hormone receptors）本质上属于转录酶（transcription factors），激素则是这种转录因子的调控物。",
+            "细胞核激素受体（cell nuclear hormone receptors）本质上不属于转录因子（transcription factors），激素则是这种转录因子的调控物。",
+            "细胞核激素受体（cell nuclear hormone receptors）本质上属于转录因子（transcription factors），激素则是这种转录因子的被调控物。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacodynamics-07",
+      "title": "信号转导与受体调节",
+      "order": 7,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "pharmacodynamics-07-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "pharmacodynamics-07-s219",
+            "pharmacodynamics-07-s220",
+            "pharmacodynamics-07-s221",
+            "pharmacodynamics-07-s222",
+            "pharmacodynamics-07-s223",
+            "pharmacodynamics-07-s225",
+            "pharmacodynamics-07-s226",
+            "pharmacodynamics-07-s227",
+            "pharmacodynamics-07-s228",
+            "pharmacodynamics-07-s229",
+            "pharmacodynamics-07-s231",
+            "pharmacodynamics-07-s232"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "pharmacodynamics-07-s235",
+            "pharmacodynamics-07-s236",
+            "pharmacodynamics-07-s237",
+            "pharmacodynamics-07-s238",
+            "pharmacodynamics-07-s250",
+            "pharmacodynamics-07-s251",
+            "pharmacodynamics-07-s252",
+            "pharmacodynamics-07-s253",
+            "pharmacodynamics-07-s254",
+            "pharmacodynamics-07-s255",
+            "pharmacodynamics-07-s256"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "pharmacodynamics-07-s219",
+          "paragraph": 102,
+          "corruptNow": false,
+          "original": "第一信使是指多肽类激素、神经递质及细胞因子等细胞外信使物质。",
+          "wrongDisplay": "第一信使是指蛋白质激素、神经递质及细胞因子等细胞外信使物质。",
+          "correctOption": "第一信使是指多肽类激素、神经递质和细胞因子等细胞外信使物质。",
+          "wrongOptions": [
+            "第一信使不是指多肽类激素、神经递质及细胞因子等细胞外信使物质。",
+            "第一信使是指多肽类激素、神经递质及细胞因子等细胞内信使物质。",
+            "第一信使必须是指多肽类激素、神经递质及细胞因子等细胞外信使物质。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s220",
+          "paragraph": 102,
+          "corruptNow": true,
+          "original": "大多数第一信使不能进入细胞内，而是与靶细胞膜表面的特异受体结合，激活受体而引起细胞某些生物学特性的改变，如膜对某些离子的通透性及膜上某些酶活性的改变，从而调节细胞功能。",
+          "wrongDisplay": "大多数第一信使能进入细胞内，而是与靶细胞膜表面的特异受体结合，激活受体而引起细胞某些生物学特性的改变，如膜对某些离子的通透性及膜上某些酶活性的改变，从而调节细胞功能。",
+          "correctOption": "大多数第一信使不能进入细胞内，而是与靶细胞膜表面的特异受体结合，激活受体而引起细胞某些生物学特性的改变，如膜对某些离子的通透性及膜上某些酶活性的改变，进而调节细胞功能。",
+          "wrongOptions": [
+            "所有第一信使不能进入细胞内，而是与靶细胞膜表面的特异受体结合，激活受体而引起细胞某些生物学特性的改变，如膜对某些离子的通透性及膜上某些酶活性的改变，从而调节细胞功能。",
+            "少数第一信使不能进入细胞内，而是与靶细胞膜表面的特异受体结合，激活受体而引起细胞某些生物学特性的改变，如膜对某些离子的通透性及膜上某些酶活性的改变，从而调节细胞功能。",
+            "大多数第一信使不能进入细胞内，而是与靶细胞膜内侧的特异受体结合，激活受体而引起细胞某些生物学特性的改变，如膜对某些离子的通透性及膜上某些酶活性的改变，从而调节细胞功能。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s221",
+          "paragraph": 103,
+          "corruptNow": false,
+          "original": "第二信使（second messenger）为第一信使作用于靶细胞后在胞质内产生的信息分子。",
+          "wrongDisplay": "第二信使（second messenger）为第一信使作用于靶器官后在胞质内产生的信息分子。",
+          "correctOption": "第二信使（second messenger）是第一信使作用于靶细胞后在胞质内产生的信息分子。",
+          "wrongOptions": [
+            "第二信使（second messenger）不为第一信使作用于靶细胞后在胞质内产生的信息分子。",
+            "第二信使（second messenger）为第一信使作用于靶细胞后在细胞核内产生的信息分子。",
+            "第二信使（second messenger）必须为第一信使作用于靶细胞后在胞质内产生的信息分子。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s222",
+          "paragraph": 103,
+          "corruptNow": false,
+          "original": "第二信使将获得信息增强、分化、整合并传递给效应器才能发挥其特定的生理功能或药理效应。",
+          "wrongDisplay": "第二信使将获得信息增强、分化、整合并不传递给效应器才能发挥其特定的生理功能或药理效应。",
+          "correctOption": "第二信使将获得的信息增强、分化、整合并传递给效应器才能发挥其特定的生理功能或药理效应。",
+          "wrongOptions": [
+            "第二信使将获得信息减弱、分化、整合并传递给效应器才能发挥其特定的生理功能或药理效应。",
+            "第二信使将获得信息增强、分化、整合并传递给效应器才能发挥其全部生理功能或药理效应。",
+            "第二信使已获得信息增强、分化、整合并传递给效应器才能发挥其特定的生理功能或药理效应。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s223",
+          "paragraph": 103,
+          "corruptNow": false,
+          "original": "最早发现的第二信使是环磷腺苷（cAMP），现在知道还有许多其他物质参与细胞内信号转导。",
+          "wrongDisplay": "最早发现的第二信使是环磷鸟苷（cAMP），现在知道还有许多其他物质参与细胞内信号转导。",
+          "correctOption": "最早发现的第二信使是环磷腺苷（cAMP），现在知道还有不少其他物质参与细胞内信号转导。",
+          "wrongOptions": [
+            "最晚发现的第二信使是环磷腺苷（cAMP），现在知道还有许多其他物质参与细胞内信号转导。",
+            "最早发现的第二信使是环磷腺苷（cAMP），现在知道还有所有其他物质参与细胞内信号转导。",
+            "最早发现的第二信使是环磷腺苷（cAMP），现在不知道还有许多其他物质参与细胞内信号转导。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s225",
+          "paragraph": 105,
+          "corruptNow": true,
+          "original": "cAMP是ATP经AC作用的产物。",
+          "wrongDisplay": "cAMP是ATP经GC作用的产物。",
+          "correctOption": "cAMP是ATP经AC作用后的产物。",
+          "wrongOptions": [
+            "cAMP不是ATP经AC作用的产物。",
+            "cAMP是被ATP经AC作用的产物。",
+            "cAMP是ATP经AC作用的唯一产物。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s226",
+          "paragraph": 105,
+          "corruptNow": false,
+          "original": "β受体、D1受体、H2受体等激动药通过Gs作用使AC活化，ATP水解而使细胞内cAMP增加。",
+          "wrongDisplay": "β受体、D1受体、H2受体等激动药通过Gi作用使AC活化，ATP水解而使细胞内cAMP增加。",
+          "correctOption": "β受体、D1受体、H2受体等激动药经Gs作用使AC活化，ATP水解而使细胞内cAMP增加。",
+          "wrongOptions": [
+            "β受体、D1受体、H2受体等激动药通过Gs作用使AC活化，ATP水解而使细胞内cAMP不增加。",
+            "β受体、D1受体、H2受体等激动药通过Gs作用使AC活化，ATP水解而使细胞内cAMP减少。",
+            "β受体、D1受体、H2受体等激动药通过Gs作用使AC活化，ATP水解而使细胞外cAMP增加。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s227",
+          "paragraph": 105,
+          "corruptNow": false,
+          "original": "α受体、D2受体、M2受体、阿片受体等激动药通过Gi作用抑制AC，细胞内cAMP减少。",
+          "wrongDisplay": "α受体、D2受体、M2受体、阿片受体等激动药通过Gs作用抑制AC，细胞内cAMP减少。",
+          "correctOption": "α受体、D2受体、M2受体、阿片受体等激动药通过Gi作用抑制AC，细胞内cAMP下降。",
+          "wrongOptions": [
+            "α受体、D2受体、M2受体、阿片受体等激动药通过Gi作用激活AC，细胞内cAMP减少。",
+            "α受体、D2受体、M2受体、阿片受体等激动药通过Gi作用抑制AC，细胞外cAMP减少。",
+            "α受体、D2受体、M2受体、阿片受体等激动药必须通过Gi作用抑制AC，细胞内cAMP减少。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s228",
+          "paragraph": 105,
+          "corruptNow": false,
+          "original": "cAMP经磷酸二酯酶（phospho-diesterase，PDE）水解为5′-AMP后灭活。",
+          "wrongDisplay": "cGMP经磷酸二酯酶（phospho-diesterase，PDE）水解为5′-AMP后灭活。",
+          "correctOption": "cAMP经磷酸二酯酶（phospho-diesterase，PDE）水解成5′-AMP后灭活。",
+          "wrongOptions": [
+            "cAMP经磷酸二酯酶（phospho-diesterase，PDE）水解为5′-AMP后不灭活。",
+            "cAMP经磷酸二酯酶（phospho-diesterase，PDE）水解为5′-AMP后激活。",
+            "cAMP经磷酸二酯酶（phospho-diesterase，PDE）水解为3′-AMP后灭活。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s229",
+          "paragraph": 105,
+          "corruptNow": true,
+          "original": "cAMP能激活蛋白激酶A（protein kinase P，PKA），PKA能在ATP存在的情况下使许多蛋白质特定的丝氨酸残基和（或）苏氨酸残基磷酸化，从而产生生物效应。",
+          "wrongDisplay": "cAMP能激活蛋白激酶C（protein kinase P，PKA），PKA能在ATP存在的情况下使许多蛋白质特定的丝氨酸残基和（或）苏氨酸残基磷酸化，从而产生生物效应。",
+          "correctOption": "cAMP可激活蛋白激酶A（protein kinase P，PKA），PKA能在ATP存在的情况下使许多蛋白质特定的丝氨酸残基和（或）苏氨酸残基磷酸化，从而产生生物效应。",
+          "wrongOptions": [
+            "cAMP不能激活蛋白激酶A（protein kinase P，PKA），PKA能在ATP存在的情况下使许多蛋白质特定的丝氨酸残基和（或）苏氨酸残基磷酸化，从而产生生物效应。",
+            "cAMP能激活蛋白激酶A（protein kinase P，PKA），PKA能在ATP存在的情况下使所有蛋白质特定的丝氨酸残基和（或）苏氨酸残基磷酸化，从而产生生物效应。",
+            "cAMP能激活蛋白激酶A（protein kinase P，PKA），PKA能在ATP存在的情况下使许多蛋白质特定的丝氨酸残基和（或）苏氨酸残基磷酸化，从而抑制生物效应。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s231",
+          "paragraph": 107,
+          "corruptNow": false,
+          "original": "cGMP是GTP经GC作用的产物，也受PDE灭活。",
+          "wrongDisplay": "cGMP是GTP经AC作用的产物，也受PDE灭活。",
+          "correctOption": "cGMP为GTP经GC作用的产物，也受PDE灭活。",
+          "wrongOptions": [
+            "cGMP是GTP经GC作用的产物，也不受PDE灭活。",
+            "cGMP是GTP经GC作用的产物，也受PDE激活。",
+            "cGMP是GTP经GC作用的唯一产物，也受PDE灭活。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s232",
+          "paragraph": 107,
+          "corruptNow": false,
+          "original": "cGMP作用与cAMP相反，使心脏抑制、血管舒张、肠腺分泌等。",
+          "wrongDisplay": "cGMP作用与cAMP相反，使心脏抑制、血管舒张、胃腺分泌等。",
+          "correctOption": "cGMP的作用与cAMP相反，使心脏抑制、血管舒张、肠腺分泌等。",
+          "wrongOptions": [
+            "cGMP作用与cAMP相反，使心脏兴奋、血管舒张、肠腺分泌等。",
+            "cGMP作用与cAMP相似，使心脏抑制、血管舒张、肠腺分泌等。",
+            "cGMP作用与cAMP相反，必须使心脏抑制、血管舒张、肠腺分泌等。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s235",
+          "paragraph": 109,
+          "corruptNow": false,
+          "original": "细胞膜肌醇磷脂的水解是另一类重要的受体信号转导系统。",
+          "wrongDisplay": "细胞膜鞘磷脂的水解是另一类重要的受体信号转导系统。",
+          "correctOption": "细胞膜肌醇磷脂的水解为另一类重要的受体信号转导系统。",
+          "wrongOptions": [
+            "细胞膜肌醇磷脂的水解不是另一类重要的受体信号转导系统。",
+            "细胞核肌醇磷脂的水解是另一类重要的受体信号转导系统。",
+            "细胞膜肌醇磷脂的水解必须是另一类重要的受体信号转导系统。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s236",
+          "paragraph": 109,
+          "corruptNow": true,
+          "original": "α1、H1、5-HT2、M1、M3等受体激动药与其受体结合后，通过G蛋白介导激活PLC，PLC使4，5-二磷酸肌醇（PIP2）水解为二酰甘油（DAG）及1，4，5-三磷酸肌醇（IP3）。",
+          "wrongDisplay": "α1、H1、5-HT2、M1、M3等受体激动药与其受体结合后，通过G蛋白介导激活PLA2，PLC使4，5-二磷酸肌醇（PIP2）水解为二酰甘油（DAG）及1，4，5-三磷酸肌醇（IP3）。",
+          "correctOption": "α1、H1、5-HT2、M1、M3等受体激动药与其受体结合后，经G蛋白介导激活PLC，PLC使4，5-二磷酸肌醇（PIP2）水解为二酰甘油（DAG）及1，4，5-三磷酸肌醇（IP3）。",
+          "wrongOptions": [
+            "α1、H1、5-HT2、M1、M3等受体激动药与其受体结合前，通过G蛋白介导激活PLC，PLC使4，5-二磷酸肌醇（PIP2）水解为二酰甘油（DAG）及1，4，5-三磷酸肌醇（IP3）。",
+            "α1、H1、5-HT2、M1、M3等受体激动药与其受体结合后，通过G蛋白介导抑制PLC，PLC使4，5-二磷酸肌醇（PIP2）水解为二酰甘油（DAG）及1，4，5-三磷酸肌醇（IP3）。",
+            "α1、H1、5-HT2、M1、M3等受体激动药与其受体结合后，通过G蛋白介导激活PLC，PLC不能使4，5-二磷酸肌醇（PIP2）水解为二酰甘油（DAG）及1，4，5-三磷酸肌醇（IP3）。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s237",
+          "paragraph": 109,
+          "corruptNow": false,
+          "original": "DAG在细胞膜上激活PKC，使许多靶蛋白磷酸化而产生效应，如腺体分泌，血小板聚集、中性粒细胞活化及细胞生长、代谢、分化等效应。",
+          "wrongDisplay": "DAG在细胞膜上激活PKA，使许多靶蛋白磷酸化而产生效应，如腺体分泌，血小板聚集、中性粒细胞活化及细胞生长、代谢、分化等效应。",
+          "correctOption": "DAG在细胞膜上激活PKC，使许多靶蛋白发生磷酸化而产生效应，如腺体分泌，血小板聚集、中性粒细胞活化及细胞生长、代谢、分化等效应。",
+          "wrongOptions": [
+            "DAG在细胞膜上激活PKC，使许多靶蛋白去磷酸化而产生效应，如腺体分泌，血小板聚集、中性粒细胞活化及细胞生长、代谢、分化等效应。",
+            "DAG在细胞膜上激活PKC，使所有靶蛋白磷酸化而产生效应，如腺体分泌，血小板聚集、中性粒细胞活化及细胞生长、代谢、分化等效应。",
+            "DAG在细胞膜上不激活PKC，使许多靶蛋白磷酸化而产生效应，如腺体分泌，血小板聚集、中性粒细胞活化及细胞生长、代谢、分化等效应。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s238",
+          "paragraph": 109,
+          "corruptNow": false,
+          "original": "IP3能促进细胞内钙池释放Ca2+，也有重要的生理意义。",
+          "wrongDisplay": "IP3能促进细胞外钙池释放Ca2+，也有重要的生理意义。",
+          "correctOption": "IP3可促进细胞内钙池释放Ca2+，也有重要的生理意义。",
+          "wrongOptions": [
+            "IP3能促进细胞内钙池释放Ca2+，也没有重要的生理意义。",
+            "IP3能促进细胞内钙池摄取Ca2+，也有重要的生理意义。",
+            "IP3能促进细胞内钙池释放Ca2+，也曾有重要的生理意义。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s250",
+          "paragraph": 115,
+          "corruptNow": false,
+          "original": "受体虽是遗传获得的固有蛋白，但并不是固定不变的，而是经常代谢转换处于动态平衡状态，其数量、亲和力及效应力经常受到各种生理及药理因素的影响。",
+          "wrongDisplay": "受体虽是遗传获得的固有蛋白，但并不是固定不变的，而是经常代谢转换处于动态平衡状态，其数量、亲和力及效应力经常不受各种生理及药理因素的影响。",
+          "correctOption": "受体虽是遗传获得的固有蛋白，但并不是固定不变的，而是常常代谢转换处于动态平衡状态，其数量、亲和力及效应力经常受到各种生理及药理因素的影响。",
+          "wrongOptions": [
+            "受体虽是遗传获得的固有蛋白，但并不是固定不变的，而是经常代谢转换处于动态平衡状态，其数量、亲和力及效应力经常受到各种病理及药理因素的影响。",
+            "受体虽是遗传获得的固有蛋白，但并不是固定不变的，而是经常代谢转换处于动态平衡状态，其数量、亲和力及效应力经常受到所有生理及药理因素的影响。",
+            "受体虽是遗传获得的固有蛋白，但并不是固定不变的，而是经常代谢转换处于静态平衡状态，其数量、亲和力及效应力经常受到各种生理及药理因素的影响。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s251",
+          "paragraph": 116,
+          "corruptNow": true,
+          "original": "受体的调节是维持机体内环境稳定的一个重要因素，其调节方式有脱敏和增敏两种类型。",
+          "wrongDisplay": "受体的调节是维持机体内环境稳定的一个重要因素，其调节方式有脱敏和增敏三种类型。",
+          "correctOption": "受体的调节是维持机体内环境稳定的一项重要因素，其调节方式有脱敏和增敏两种类型。",
+          "wrongOptions": [
+            "受体的调节不是维持机体内环境稳定的一个重要因素，其调节方式有脱敏和增敏两种类型。",
+            "受体的调节是维持机体内环境稳定的一个重要因素，其调节方式有脱敏和致敏两种类型。",
+            "受体的调节是维持机体内环境稳定的唯一重要因素，其调节方式有脱敏和增敏两种类型。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s252",
+          "paragraph": 116,
+          "corruptNow": false,
+          "original": "受体脱敏（receptor desensitization）是指在长期使用一种激动药后，组织或细胞对激动药的敏感性和反应性下降的现象。",
+          "wrongDisplay": "受体脱敏（receptor desensitization）是指在长期使用一种拮抗药后，组织或细胞对激动药的敏感性和反应性下降的现象。",
+          "correctOption": "受体脱敏（receptor desensitization）是指长期使用一种激动药后，组织或细胞对激动药的敏感性和反应性下降的现象。",
+          "wrongOptions": [
+            "受体脱敏（receptor desensitization）是指在长期使用一种激动药后，组织或细胞对激动药的敏感性和反应性升高的现象。",
+            "受体脱敏（receptor desensitization）是指在长期使用一种激动药后，组织或细胞对激动药的敏感性和反应性不下降的现象。",
+            "受体脱敏（receptor desensitization）是指在短期使用一种激动药后，组织或细胞对激动药的敏感性和反应性下降的现象。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s253",
+          "paragraph": 116,
+          "corruptNow": false,
+          "original": "如仅对一种类型的受体激动药的反应性下降，而对其他类型受体激动药的反应性不变，则称之为激动药特异性脱敏（agonist-specific desensitization）；若组织或细胞对一种类型激动药脱敏，对其他类型受体激动药也不敏感，则称为激动药非特异性脱敏（agonistnonspecific desensitization），前者可能与受体磷酸化或受体内移有关；后者则可能是由于所有受影响的受体有一个共同的反馈调节机制，也可能受到调节的是它们信号转导通路上的某个共同环节。",
+          "wrongDisplay": "如仅对一种类型的受体激动药的反应性下降，而对其他类型受体激动药的反应性不变，则称之为激动药特异性脱敏（agonist-specific desensitization）；若组织或细胞对一种类型激动药脱敏，对其他类型受体激动药也敏感，则称为激动药非特异性脱敏（agonistnonspecific desensitization），前者可能与受体磷酸化或受体内移有关；后者则可能是由于所有受影响的受体有一个共同的反馈调节机制，也可能受到调节的是它们信号转导通路上的某个共同环节。",
+          "correctOption": "如仅对一种类型的受体激动药的反应性下降，而对其他类型受体激动药的反应性不变，则称为激动药特异性脱敏（agonist-specific desensitization）；若组织或细胞对一种类型激动药脱敏，对其他类型受体激动药也不敏感，则称为激动药非特异性脱敏（agonistnonspecific desensitization），前者可能与受体磷酸化或受体内移有关；后者则可能是由于所有受影响的受体有一个共同的反馈调节机制，也可能受到调节的是它们信号转导通路上的某个共同环节。",
+          "wrongOptions": [
+            "如仅对一种类型的受体激动药的反应性下降，而对其他类型受体激动药的反应性不变，则称之为激动药特异性脱敏（agonist-specific desensitization）；若组织或细胞对一种类型激动药脱敏，对其他类型受体激动药也不敏感，则称为激动药非特异性脱敏（agonistnonspecific desensitization），前者可能与受体磷酸化或受体内移有关；后者则可能是由于部分受影响的受体有一个共同的反馈调节机制，也可能受到调节的是它们信号转导通路上的某个共同环节。",
+            "如仅对一种类型的受体激动药的反应性下降，而对其他类型受体激动药的反应性不变，则称之为激动药特异性脱敏（agonist-specific desensitization）；若组织或细胞对一种类型激动药脱敏，对其他类型受体激动药也不敏感，则称为激动药非特异性脱敏（agonistnonspecific desensitization），前者可能与受体甲基化或受体内移有关；后者则可能是由于所有受影响的受体有一个共同的反馈调节机制，也可能受到调节的是它们信号转导通路上的某个共同环节。",
+            "如仅对一种类型的受体激动药的反应性升高，而对其他类型受体激动药的反应性不变，则称之为激动药特异性脱敏（agonist-specific desensitization）；若组织或细胞对一种类型激动药脱敏，对其他类型受体激动药也不敏感，则称为激动药非特异性脱敏（agonistnonspecific desensitization），前者可能与受体磷酸化或受体内移有关；后者则可能是由于所有受影响的受体有一个共同的反馈调节机制，也可能受到调节的是它们信号转导通路上的某个共同环节。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s254",
+          "paragraph": 117,
+          "corruptNow": false,
+          "original": "受体增敏（receptor hypersensitization）是与受体脱敏相反的一种现象，可因受体激动药水平降低或长期应用拮抗药而造成。",
+          "wrongDisplay": "受体增敏（receptor hypersensitization）是与受体脱敏相反的一种现象，可因受体激动药水平升高或长期应用拮抗药而造成。",
+          "correctOption": "受体增敏（receptor hypersensitization）是与受体脱敏相反的现象，可因受体激动药水平降低或长期应用拮抗药而造成。",
+          "wrongOptions": [
+            "受体增敏（receptor hypersensitization）是与受体脱敏相反的一种现象，可因受体激动药水平降低或长期应用激动药而造成。",
+            "受体增敏（receptor hypersensitization）是与受体脱敏相反的一种现象，不可因受体激动药水平降低或长期应用拮抗药而造成。",
+            "受体增敏（receptor hypersensitization）是与受体脱敏相似的一种现象，可因受体激动药水平降低或长期应用拮抗药而造成。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s255",
+          "paragraph": 117,
+          "corruptNow": true,
+          "original": "如长期应用β受体拮抗药普萘洛尔时，突然停药可致“反跳”现象，这是由于β受体的敏感性增高所致。",
+          "wrongDisplay": "如短期应用β受体拮抗药普萘洛尔时，突然停药可致“反跳”现象，这是由于β受体的敏感性增高所致。",
+          "correctOption": "如长期应用β受体拮抗药普萘洛尔时，突然停药可致“反跳”现象，这是由β受体的敏感性增高所致。",
+          "wrongOptions": [
+            "如长期应用β受体拮抗药普萘洛尔时，突然停药可致“反跳”现象，这是由于β受体的敏感性降低所致。",
+            "如长期应用β受体激动药普萘洛尔时，突然停药可致“反跳”现象，这是由于β受体的敏感性增高所致。",
+            "如长期应用β受体拮抗药普萘洛尔时，突然停药不致“反跳”现象，这是由于β受体的敏感性增高所致。"
+          ]
+        },
+        {
+          "id": "pharmacodynamics-07-s256",
+          "paragraph": 118,
+          "corruptNow": false,
+          "original": "若受体脱敏和增敏只涉及受体密度的变化，则分别称之为下调（down-regulation）和上调（up-regulation）。",
+          "wrongDisplay": "若受体脱敏和增敏只涉及受体亲和力的变化，则分别称之为下调（down-regulation）和上调（up-regulation）。",
+          "correctOption": "若受体脱敏和增敏仅涉及受体密度的变化，则分别称之为下调（down-regulation）和上调（up-regulation）。",
+          "wrongOptions": [
+            "若受体脱敏和增敏不涉及受体密度的变化，则分别称之为下调（down-regulation）和上调（up-regulation）。",
+            "若受体脱敏和增敏只涉及受体密度的变化，则分别称之为下调（down-regulation）和下调（up-regulation）。",
+            "若受体脱敏和增敏只涉及受体密度的变化，则必须分别称之为下调（down-regulation）和上调（up-regulation）。"
+          ]
+        }
+      ]
+    }
+  ]
+}

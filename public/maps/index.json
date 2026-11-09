@@ -2,12 +2,30 @@
   "schemaVersion": 2,
   "books": [
     {
+      "id": "psychotropic",
+      "title": "精神药物",
+      "author": "杨宝峰",
+      "dir": "psychotropic",
+      "file": "psychotropic/book.json",
+      "chapters": 1,
+      "fragments": 11
+    },
+    {
       "id": "bees",
       "title": "蜜蜂与蜂群",
       "dir": "bees",
       "file": "bees/book.json",
       "chapters": 1,
       "fragments": 2
+    },
+    {
+      "id": "adrenergic",
+      "title": "肾上腺素受体激动药",
+      "author": "杨宝峰",
+      "dir": "adrenergic",
+      "file": "adrenergic/book.json",
+      "chapters": 1,
+      "fragments": 9
     },
     {
       "id": "sleep",
@@ -20,10 +38,11 @@
     {
       "id": "pharmacology",
       "title": "药理学",
+      "author": "杨宝峰",
       "dir": "pharmacology",
       "file": "pharmacology/book.json",
-      "chapters": 1,
-      "fragments": 7
+      "chapters": 4,
+      "fragments": 19
     }
   ]
 }

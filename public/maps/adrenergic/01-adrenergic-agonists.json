@@ -1,0 +1,3068 @@
+{
+  "id": "adrenergic-agonists",
+  "title": "肾上腺素受体激动药",
+  "fragments": [
+    {
+      "id": "adrenergic-agonists-01",
+      "title": "概述、构效关系与去甲肾上腺素（一）",
+      "order": 1,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "adrenergic-agonists-01-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "adrenergic-agonists-01-s01",
+            "adrenergic-agonists-01-s10p1",
+            "adrenergic-agonists-01-s11",
+            "adrenergic-agonists-01-s18p1",
+            "adrenergic-agonists-01-s18p2",
+            "adrenergic-agonists-01-s18p3",
+            "adrenergic-agonists-01-s19p1",
+            "adrenergic-agonists-01-s20",
+            "adrenergic-agonists-01-s30",
+            "adrenergic-agonists-01-s33",
+            "adrenergic-agonists-01-s34"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "adrenergic-agonists-01-s36p1",
+            "adrenergic-agonists-01-s36p2",
+            "adrenergic-agonists-01-s37",
+            "adrenergic-agonists-01-s38p1",
+            "adrenergic-agonists-01-s38p2",
+            "adrenergic-agonists-01-s40",
+            "adrenergic-agonists-01-s42",
+            "adrenergic-agonists-01-s43",
+            "adrenergic-agonists-01-s45",
+            "adrenergic-agonists-01-s46p1",
+            "adrenergic-agonists-01-s46p2",
+            "adrenergic-agonists-01-s47"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "adrenergic-agonists-01-s01",
+          "paragraph": 2,
+          "corruptNow": true,
+          "original": "肾上腺素受体激动药（adrenoceptor agonists）是一类化学结构及药理作用和肾上腺素、去甲肾上腺素相似的药物，与肾上腺素受体结合并激动受体，产生肾上腺素样作用，又称拟肾上腺素药（adrenomimetic drugs）。",
+          "wrongDisplay": "肾上腺素受体激动药（adrenoceptor agonists）是一类化学结构及药理作用和肾上腺素、去甲肾上腺素相似的药物，与肾上腺素受体结合并阻断受体，产生肾上腺素样作用，又称拟肾上腺素药（adrenomimetic drugs）。",
+          "correctOption": "肾上腺素受体激动药（adrenoceptor agonists）是一类化学结构及药理作用和肾上腺素、去甲肾上腺素相似的药物，与肾上腺素受体结合并激动受体，产生肾上腺素样作用，又称拟肾上腺素药（adrenomimetic drugs）。",
+          "wrongOptions": [
+            "肾上腺素受体激动药（adrenoceptor agonists）不是一类化学结构及药理作用和肾上腺素、去甲肾上腺素相似的药物，与肾上腺素受体结合并激动受体，产生肾上腺素样作用，又称拟肾上腺素药（adrenomimetic drugs）。",
+            "肾上腺素受体激动药（adrenoceptor agonists）是一类化学结构及药理作用和肾上腺素、去甲肾上腺素相似的药物，与肾上腺素受体结合并激动受体，产生肾上腺素样作用，又称抗肾上腺素药（adrenomimetic drugs）。",
+            "肾上腺素受体激动药（adrenoceptor agonists）是一类化学结构及药理作用和肾上腺素、去甲肾上腺素完全相同的药物，与肾上腺素受体结合并激动受体，产生肾上腺素样作用，又称拟肾上腺素药（adrenomimetic drugs）。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s10p1",
+          "paragraph": 9,
+          "corruptNow": false,
+          "original": "肾上腺素、去甲肾上腺素、异丙肾上腺素和多巴胺等在苯环第3、4位碳上都有羟基，形成儿茶酚，",
+          "wrongDisplay": "肾上腺素、去甲肾上腺素、异丙肾上腺素和多巴胺等在苯环第3、5位碳上都有羟基，形成儿茶酚，",
+          "correctOption": "肾上腺素、去甲肾上腺素、异丙肾上腺素和多巴胺等在苯环第3、4位碳上都有羟基，形成儿茶酚，",
+          "wrongOptions": [
+            "肾上腺素、去甲肾上腺素、异丙肾上腺素和多巴胺等在苯环第3、4位碳上均无羟基，形成儿茶酚，",
+            "肾上腺素、去氧肾上腺素、异丙肾上腺素和多巴胺等在苯环第3、4位碳上都有羟基，形成儿茶酚，",
+            "肾上腺素、去甲肾上腺素、异丙肾上腺素和多巴胺等在苯环第2、4位碳上都有羟基，形成儿茶酚，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s11",
+          "paragraph": 9,
+          "corruptNow": false,
+          "original": "它们在外周产生明显的α、β受体激动作用，易被儿茶酚邻位转移酶（COMT）灭活，作用时间短，对中枢作用弱。",
+          "wrongDisplay": "它们在外周产生明显的α、β受体激动作用，易被儿茶酚邻位转移酶（COMT）灭活，作用时间短，对中枢作用强。",
+          "correctOption": "它们在外周产生明显的α、β受体激动作用，易被儿茶酚邻位转移酶（COMT）灭活，作用时间短，对中枢作用弱。",
+          "wrongOptions": [
+            "它们在中枢产生明显的α、β受体激动作用，易被儿茶酚邻位转移酶（COMT）灭活，作用时间短，对中枢作用弱。",
+            "它们在外周产生明显的α、β受体激动作用，易被儿茶酚邻位转移酶（MAO）灭活，作用时间短，对中枢作用弱。",
+            "它们在外周产生明显的α、β受体激动作用，易被儿茶酚邻位转移酶（COMT）灭活，作用时间长，对中枢作用弱。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s18p1",
+          "paragraph": 13,
+          "corruptNow": false,
+          "original": "去甲肾上腺素氨基末端的氢被甲基取代，则为肾上腺素，可增加对β1受体的活性；",
+          "wrongDisplay": "去甲肾上腺素羧基末端的氢被甲基取代，则为肾上腺素，可增加对β1受体的活性；",
+          "correctOption": "去甲肾上腺素氨基末端的氢被甲基取代，则为肾上腺素，可增加对β1受体的活性；",
+          "wrongOptions": [
+            "去甲肾上腺素氨基末端的氢被乙基取代，则为肾上腺素，可增加对β1受体的活性；",
+            "去甲肾上腺素氨基末端的甲基被氢取代，则为肾上腺素，可增加对β1受体的活性；",
+            "去甲肾上腺素氨基末端的氢被甲基取代，则为肾上腺素，可降低对β1受体的活性；"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s18p2",
+          "paragraph": 13,
+          "corruptNow": true,
+          "original": "被异丙基取代，则为异丙肾上腺素，可进一步增加对β1、β2受体的作用，",
+          "wrongDisplay": "异丙基被取代，则为异丙肾上腺素，可进一步增加对β1、β2受体的作用，",
+          "correctOption": "被异丙基取代，则为异丙肾上腺素，可进一步增加对β1、β2受体的作用，",
+          "wrongOptions": [
+            "被甲基取代，则为异丙肾上腺素，可进一步增加对β1、β2受体的作用，",
+            "被异丙基取代，则为异丙肾上腺素，可进一步减弱对β1、β2受体的作用，",
+            "被异丙基取代，则为异丙肾上腺素，不能进一步增加对β1、β2受体的作用，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s18p3",
+          "paragraph": 13,
+          "corruptNow": false,
+          "original": "而对α受体的作用逐渐减弱。",
+          "wrongDisplay": "而对β受体的作用逐渐减弱。",
+          "correctOption": "而对α受体的作用逐渐减弱。",
+          "wrongOptions": [
+            "而对α受体的作用突然减弱。",
+            "而对α受体的作用逐渐增强。",
+            "而对α受体的作用未见减弱。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s19p1",
+          "paragraph": 13,
+          "corruptNow": false,
+          "original": "去氧肾上腺素虽然氨基上的氢被甲基取代，但由于苯环上缺少4位碳羟基，",
+          "wrongDisplay": "去氧肾上腺素虽然氨基上的甲基被氢取代，但由于苯环上缺少4位碳羟基，",
+          "correctOption": "去氧肾上腺素虽然氨基上的氢被甲基取代，但由于苯环上缺少4位碳羟基，",
+          "wrongOptions": [
+            "去甲肾上腺素虽然氨基上的氢被甲基取代，但由于苯环上缺少4位碳羟基，",
+            "去氧肾上腺素虽然氨基上的氢被甲基取代，但由于苯环上具有4位碳羟基，",
+            "去氧肾上腺素虽然氨基上的氢被甲基取代，但由于苯环上缺少3位碳羟基，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s20",
+          "paragraph": 13,
+          "corruptNow": false,
+          "original": "取代基团从甲基到叔丁基，对α受体的作用逐渐减弱，对β受体的作用却逐渐加强。",
+          "wrongDisplay": "取代基团从甲基到叔丁基，对α受体的作用逐渐减弱，对β受体的作用却突然加强。",
+          "correctOption": "取代基团从甲基到叔丁基，对α受体的作用逐渐减弱，对β受体的作用却逐渐加强。",
+          "wrongOptions": [
+            "取代基团从甲基到异丙基，对α受体的作用逐渐减弱，对β受体的作用却逐渐加强。",
+            "取代基团从乙基到叔丁基，对α受体的作用逐渐减弱，对β受体的作用却逐渐加强。",
+            "取代基团从甲基到叔丁基，对α受体的作用逐渐减弱，对β受体的作用却逐渐减弱。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s30",
+          "paragraph": 21,
+          "corruptNow": true,
+          "original": "去甲肾上腺素（noradrenaline，NA；norepinephrine，NE）是去甲肾上腺素能神经末梢释放的主要递质，肾上腺髓质亦少量分泌。",
+          "wrongDisplay": "去甲肾上腺素（noradrenaline，NA；norepinephrine，NE）是去甲肾上腺素能神经末梢释放的主要递质，肾上腺髓质亦大量分泌。",
+          "correctOption": "去甲肾上腺素（noradrenaline，NA；norepinephrine，NE）是去甲肾上腺素能神经末梢释放的主要递质，肾上腺髓质亦少量分泌。",
+          "wrongOptions": [
+            "去甲肾上腺素（noradrenaline，NA；norepinephrine，NE）是去甲肾上腺素能神经末梢释放的次要递质，肾上腺髓质亦少量分泌。",
+            "去甲肾上腺素（noradrenaline，NA；norepinephrine，NE）是去甲肾上腺素能神经胞体释放的主要递质，肾上腺髓质亦少量分泌。",
+            "去甲肾上腺素（noradrenaline，NA；norepinephrine，NE）是去甲肾上腺素能神经末梢释放的主要递质，肾上腺皮质亦少量分泌。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s33",
+          "paragraph": 23,
+          "corruptNow": false,
+          "original": "激动α受体作用强大，对α1和α2受体无选择性。",
+          "wrongDisplay": "阻断α受体作用强大，对α1和α2受体无选择性。",
+          "correctOption": "激动α受体作用强大，对α1和α2受体无选择性。",
+          "wrongOptions": [
+            "激动α受体作用微弱，对α1和α2受体无选择性。",
+            "激动α受体作用强大，对α1和α2受体有选择性。",
+            "激动α受体作用强大，对β1和α2受体无选择性。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s34",
+          "paragraph": 23,
+          "corruptNow": false,
+          "original": "对心脏β1受体作用较弱，对β2受体几乎无作用（表10-2）。",
+          "wrongDisplay": "对心脏β1受体作用较弱，对β2受体几乎无作用（表10-3）。",
+          "correctOption": "对心脏β1受体作用较弱，对β2受体几乎无作用（表10-2）。",
+          "wrongOptions": [
+            "对心脏β1受体作用较强，对β2受体几乎无作用（表10-2）。",
+            "对心脏β1受体作用较弱，对β2受体有明显作用（表10-2）。",
+            "对心脏α1受体作用较弱，对β2受体几乎无作用（表10-2）。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s36p1",
+          "paragraph": 25,
+          "corruptNow": false,
+          "original": "口服因局部作用使胃黏膜血管收缩而影响其吸收，在肠内易被碱性肠液破坏；",
+          "wrongDisplay": "口服因局部作用使胃黏膜血管收缩而影响其吸收，在胃内易被碱性肠液破坏；",
+          "correctOption": "口服因局部作用使胃黏膜血管收缩而影响其吸收，在肠内易被碱性肠液破坏；",
+          "wrongOptions": [
+            "静脉注射因局部作用使胃黏膜血管收缩而影响其吸收，在肠内易被碱性肠液破坏；",
+            "口服因局部作用使胃黏膜血管收缩而影响其吸收，在肠内易被酸性肠液破坏；",
+            "口服因局部作用使胃黏膜血管舒张而影响其吸收，在肠内易被碱性肠液破坏；"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s36p2",
+          "paragraph": 25,
+          "corruptNow": true,
+          "original": "皮下注射时，因血管剧烈收缩吸收很少，且易发生局部组织坏死，故一般采用静脉滴注给药。",
+          "wrongDisplay": "皮下注射时，因血管剧烈舒张吸收很少，且易发生局部组织坏死，故一般采用静脉滴注给药。",
+          "correctOption": "皮下注射时，因血管剧烈收缩吸收很少，且易发生局部组织坏死，故一般采用静脉滴注给药。",
+          "wrongOptions": [
+            "肌肉注射时，因血管剧烈收缩吸收很少，且易发生局部组织坏死，故一般采用静脉滴注给药。",
+            "皮下注射时，因血管剧烈收缩吸收很多，且易发生局部组织坏死，故一般采用静脉滴注给药。",
+            "皮下注射时，因血管剧烈收缩吸收很少，且易发生全身组织坏死，故一般采用静脉滴注给药。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s37",
+          "paragraph": 25,
+          "corruptNow": false,
+          "original": "外源性去甲肾上腺素不易透过血脑屏障，很少到达脑组织。",
+          "wrongDisplay": "外源性去甲肾上腺素不易透过血脑屏障，很少到达心肌组织。",
+          "correctOption": "外源性去甲肾上腺素不易透过血脑屏障，很少到达脑组织。",
+          "wrongOptions": [
+            "外源性去甲肾上腺素易透过血脑屏障，很少到达脑组织。",
+            "外源性去甲肾上腺素极易透过血脑屏障，很少到达脑组织。",
+            "外源性去甲肾上腺素不易透过血脑屏障，全部到达脑组织。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s38p1",
+          "paragraph": 25,
+          "corruptNow": false,
+          "original": "内源性和外源性去甲肾上腺素大部分被神经末梢摄取后，进入囊泡贮存（摄取-1）；",
+          "wrongDisplay": "内源性和外源性去甲肾上腺素大部分被神经末梢摄取前，进入囊泡贮存（摄取-1）；",
+          "correctOption": "内源性和外源性去甲肾上腺素大部分被神经末梢摄取后，进入囊泡贮存（摄取-1）；",
+          "wrongOptions": [
+            "内源性和外源性去甲肾上腺素大部分被神经末梢摄取后，进入囊泡贮存（摄取-2）；",
+            "内源性和外源性去甲肾上腺素小部分被神经末梢摄取后，进入囊泡贮存（摄取-1）；",
+            "内源性和外源性去甲肾上腺素大部分被非神经细胞摄取后，进入囊泡贮存（摄取-1）；"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s38p2",
+          "paragraph": 25,
+          "corruptNow": false,
+          "original": "被非神经细胞摄取者，大多被COMT和MAO代谢而失活（摄取-2）。",
+          "wrongDisplay": "被非神经细胞摄取者，大多被COMT和MAO代谢而活化（摄取-2）。",
+          "correctOption": "被非神经细胞摄取者，大多被COMT和MAO代谢而失活（摄取-2）。",
+          "wrongOptions": [
+            "被非神经细胞摄取者，大多被COX和MAO代谢而失活（摄取-2）。",
+            "被非神经细胞摄取者，少数被COMT和MAO代谢而失活（摄取-2）。",
+            "被神经末梢摄取者，大多被COMT和MAO代谢而失活（摄取-2）。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s40",
+          "paragraph": 25,
+          "corruptNow": true,
+          "original": "由于去甲肾上腺素进入机体迅速被摄取和代谢，故作用短暂。",
+          "wrongDisplay": "由于去甲肾上腺素进入机体迅速被摄取和代谢，故作用最久。",
+          "correctOption": "由于去甲肾上腺素进入机体迅速被摄取和代谢，故作用短暂。",
+          "wrongOptions": [
+            "由于去甲肾上腺素进入机体缓慢被摄取和代谢，故作用短暂。",
+            "由于去甲肾上腺素进入机体迅速被摄取和代谢，故作用持久。",
+            "由于去甲肾上腺素进入机体迅速不被摄取和代谢，故作用短暂。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s42",
+          "paragraph": 27,
+          "corruptNow": false,
+          "original": "激动血管α1受体，使血管收缩，主要使小动脉和小静脉收缩。",
+          "wrongDisplay": "激动血管α1受体，使血管收缩，不使小动脉和小静脉收缩。",
+          "correctOption": "激动血管α1受体，使血管收缩，主要使小动脉和小静脉收缩。",
+          "wrongOptions": [
+            "激动血管β2受体，使血管收缩，主要使小动脉和小静脉收缩。",
+            "激动血管α1受体，使血管舒张，主要使小动脉和小静脉收缩。",
+            "激动心脏α1受体，使血管收缩，主要使小动脉和小静脉收缩。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s43",
+          "paragraph": 27,
+          "corruptNow": false,
+          "original": "皮肤黏膜血管收缩最明显，其次是肾脏血管。",
+          "wrongDisplay": "皮肤黏膜血管舒张最明显，其次是肾脏血管。",
+          "correctOption": "皮肤黏膜血管收缩最明显，其次是肾脏血管。",
+          "wrongOptions": [
+            "皮肤黏膜血管收缩不明显，其次是肾脏血管。",
+            "皮肤黏膜血管收缩最明显，其次是脑血管。",
+            "内脏血管收缩最明显，其次是肾脏血管。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s45",
+          "paragraph": 27,
+          "corruptNow": false,
+          "original": "动脉收缩使血流量减少，静脉的显著收缩使总外周阻力增加。",
+          "wrongDisplay": "动脉收缩使血流量减少，静脉的显著收缩使总肺阻力增加。",
+          "correctOption": "动脉收缩使血流量减少，静脉的显著收缩使总外周阻力增加。",
+          "wrongOptions": [
+            "动脉收缩使血流量增加，静脉的显著收缩使总外周阻力增加。",
+            "动脉收缩使血流量减少，静脉的显著收缩使总外周阻力不增加。",
+            "动脉收缩使血流量减少，毛细血管的显著收缩使总外周阻力增加。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s46p1",
+          "paragraph": 27,
+          "corruptNow": true,
+          "original": "冠状血管舒张，主要是由于心脏兴奋、心肌的代谢产物（腺苷等）增加所致，",
+          "wrongDisplay": "冠状血管舒张，主要是由于心脏兴奋、血管的代谢产物（腺苷等）增加所致，",
+          "correctOption": "冠状血管舒张，主要是由于心脏兴奋、心肌的代谢产物（腺苷等）增加所致，",
+          "wrongOptions": [
+            "冠状血管收缩，主要是由于心脏兴奋、心肌的代谢产物（腺苷等）增加所致，",
+            "冠状血管舒张，主要是由于心脏兴奋、心肌的代谢产物（腺苷等）减少所致，",
+            "冠状血管舒张，主要是由于心脏兴奋、心肌的代谢产物（腺嘌呤等）增加所致，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s46p2",
+          "paragraph": 27,
+          "corruptNow": false,
+          "original": "同时因血压升高，提高冠状血管的灌注压，故冠脉流量增加。",
+          "wrongDisplay": "同时因血压升高，提高脑血管的灌注压，故冠脉流量增加。",
+          "correctOption": "同时因血压升高，提高冠状血管的灌注压，故冠脉流量增加。",
+          "wrongOptions": [
+            "同时因血压降低，提高冠状血管的灌注压，故冠脉流量增加。",
+            "同时因血压升高，降低冠状血管的灌注压，故冠脉流量增加。",
+            "同时因血压升高，提高冠状血管的灌注压，故冠脉阻力增加。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-01-s47",
+          "paragraph": 27,
+          "corruptNow": false,
+          "original": "激动血管壁的去甲肾上腺素能神经末梢突触前膜α2受体，抑制去甲肾上腺素释放。",
+          "wrongDisplay": "激动血管壁的去甲肾上腺素能神经末梢突触前膜α2受体，不抑制去甲肾上腺素释放。",
+          "correctOption": "激动血管壁的去甲肾上腺素能神经末梢突触前膜α2受体，抑制去甲肾上腺素释放。",
+          "wrongOptions": [
+            "激动血管壁的去甲肾上腺素能神经末梢突触后膜α2受体，抑制去甲肾上腺素释放。",
+            "激动血管壁的去甲肾上腺素能神经末梢突触前膜α2受体，促进去甲肾上腺素释放。",
+            "激动血管壁的去甲肾上腺素能神经末梢突触前膜α1受体，抑制去甲肾上腺素释放。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adrenergic-agonists-02",
+      "title": "去甲肾上腺素（二）与间羟胺",
+      "order": 2,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "adrenergic-agonists-02-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "adrenergic-agonists-02-s49",
+            "adrenergic-agonists-02-s50p1",
+            "adrenergic-agonists-02-s50p2",
+            "adrenergic-agonists-02-s51",
+            "adrenergic-agonists-02-s53p1",
+            "adrenergic-agonists-02-s53p2",
+            "adrenergic-agonists-02-s54",
+            "adrenergic-agonists-02-s58",
+            "adrenergic-agonists-02-s59",
+            "adrenergic-agonists-02-s62",
+            "adrenergic-agonists-02-s63",
+            "adrenergic-agonists-02-s66p1",
+            "adrenergic-agonists-02-s66p3"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "adrenergic-agonists-02-s68p1",
+            "adrenergic-agonists-02-s68p2",
+            "adrenergic-agonists-02-s71p1",
+            "adrenergic-agonists-02-s72",
+            "adrenergic-agonists-02-s73",
+            "adrenergic-agonists-02-s74",
+            "adrenergic-agonists-02-s75",
+            "adrenergic-agonists-02-s76p1",
+            "adrenergic-agonists-02-s76p2",
+            "adrenergic-agonists-02-s77",
+            "adrenergic-agonists-02-s78p1",
+            "adrenergic-agonists-02-s78p2",
+            "adrenergic-agonists-02-s69"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "adrenergic-agonists-02-s49",
+          "paragraph": 29,
+          "corruptNow": true,
+          "original": "较弱激动心脏的β1受体，使心肌收缩性加强，心率加快，传导加速，心排出量增加。",
+          "wrongDisplay": "强烈激动心脏的β1受体，使心肌收缩性加强，心率加快，传导加速，心排出量增加。",
+          "correctOption": "较弱激动心脏的β1受体，使心肌收缩性加强，心率加快，传导加速，心排出量增加。",
+          "wrongOptions": [
+            "较弱激动心脏的β2受体，使心肌收缩性加强，心率加快，传导加速，心排出量增加。",
+            "较弱激动心脏的β1受体，使心肌收缩性减弱，心率加快，传导加速，心排出量增加。",
+            "较弱激动心脏的β1受体，使心肌收缩性加强，心率加快，传导加速，心排出量减少。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s50p1",
+          "paragraph": 29,
+          "corruptNow": false,
+          "original": "在整体情况下，心率由于血压升高而反射性减慢；",
+          "wrongDisplay": "在离体情况下，心率由于血压升高而反射性减慢；",
+          "correctOption": "在整体情况下，心率由于血压升高而反射性减慢；",
+          "wrongOptions": [
+            "在整体情况下，心率由于血压降低而反射性减慢；",
+            "在整体情况下，心率由于血压升高而反射性不减慢；",
+            "在整体情况下，心率由于血压升高而直接减慢；"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s50p2",
+          "paragraph": 29,
+          "corruptNow": false,
+          "original": "另外，由于药物的强烈血管收缩作用，总外周阻力增高，增加了心脏的射血阻力，使心排出量不变或下降。",
+          "wrongDisplay": "另外，由于药物的强烈血管收缩作用，总外周阻力增高，增加了血管的射血阻力，使心排出量不变或下降。",
+          "correctOption": "另外，由于药物的强烈血管收缩作用，总外周阻力增高，增加了心脏的射血阻力，使心排出量不变或下降。",
+          "wrongOptions": [
+            "另外，由于药物的强烈血管收缩作用，总外周阻力降低，增加了心脏的射血阻力，使心排出量不变或下降。",
+            "另外，由于药物的强烈血管收缩作用，总外周阻力增高，减少了心脏的射血阻力，使心排出量不变或下降。",
+            "另外，由于药物的强烈支气管收缩作用，总外周阻力增高，增加了心脏的射血阻力，使心排出量不变或下降。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s51",
+          "paragraph": 29,
+          "corruptNow": false,
+          "original": "剂量过大时，心脏自动节律性增加，可能引起心律失常，但较肾上腺素少见。",
+          "wrongDisplay": "剂量过大时，心脏自动节律性增加，不可能引起心律失常，但较肾上腺素少见。",
+          "correctOption": "剂量过大时，心脏自动节律性增加，可能引起心律失常，但较肾上腺素少见。",
+          "wrongOptions": [
+            "剂量过小时，心脏自动节律性增加，可能引起心律失常，但较肾上腺素少见。",
+            "剂量过大时，心脏自动节律性降低，可能引起心律失常，但较肾上腺素少见。",
+            "剂量过大时，心脏自动节律性增加，可能引起心律失常，但较肾上腺素多见。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s53p1",
+          "paragraph": 31,
+          "corruptNow": true,
+          "original": "小剂量静脉滴注血管收缩作用尚不十分剧烈时，由于心脏兴奋使收缩压升高，",
+          "wrongDisplay": "小剂量静脉滴注血管收缩作用尚不十分剧烈时，由于血管兴奋使收缩压升高，",
+          "correctOption": "小剂量静脉滴注血管收缩作用尚不十分剧烈时，由于心脏兴奋使收缩压升高，",
+          "wrongOptions": [
+            "小剂量口服血管收缩作用尚不十分剧烈时，由于心脏兴奋使收缩压升高，",
+            "大剂量静脉滴注血管收缩作用尚不十分剧烈时，由于心脏兴奋使收缩压升高，",
+            "小剂量静脉滴注血管收缩作用尚不十分剧烈时，由于心脏兴奋使收缩压降低，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s53p2",
+          "paragraph": 31,
+          "corruptNow": false,
+          "original": "而舒张压升高不明显，故脉压差加大（图10-1）。",
+          "wrongDisplay": "而舒张压升高不明显，故脉压差不加大（图10-1）。",
+          "correctOption": "而舒张压升高不明显，故脉压差加大（图10-1）。",
+          "wrongOptions": [
+            "而舒张压升高明显，故脉压差加大（图10-1）。",
+            "而舒张压升高不明显，故脉压差减小（图10-1）。",
+            "而收缩压升高不明显，故脉压差加大（图10-1）。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s54",
+          "paragraph": 31,
+          "corruptNow": false,
+          "original": "较大剂量时，因血管强烈收缩使外周阻力明显增高，故收缩压升高的同时舒张压也明显升高，脉压差减小。",
+          "wrongDisplay": "较大剂量时，因血管强烈收缩使肺阻力明显增高，故收缩压升高的同时舒张压也明显升高，脉压差减小。",
+          "correctOption": "较大剂量时，因血管强烈收缩使外周阻力明显增高，故收缩压升高的同时舒张压也明显升高，脉压差减小。",
+          "wrongOptions": [
+            "较小剂量时，因血管强烈收缩使外周阻力明显增高，故收缩压升高的同时舒张压也明显升高，脉压差减小。",
+            "较大剂量时，因血管强烈收缩使外周阻力明显降低，故收缩压升高的同时舒张压也明显升高，脉压差减小。",
+            "较大剂量时，因血管强烈收缩使外周阻力明显增高，故收缩压降低的同时舒张压也明显升高，脉压差减小。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s58",
+          "paragraph": 35,
+          "corruptNow": false,
+          "original": "对机体代谢的影响较弱，仅在大剂量时才出现血糖升高。",
+          "wrongDisplay": "对机体代谢的影响较弱，仅在小剂量时才出现血糖升高。",
+          "correctOption": "对机体代谢的影响较弱，仅在大剂量时才出现血糖升高。",
+          "wrongOptions": [
+            "对机体代谢的影响较强，仅在大剂量时才出现血糖升高。",
+            "对机体代谢的影响较弱，不限于大剂量时才出现血糖升高。",
+            "对机体代谢的影响较弱，仅在大剂量时才出现血糖降低。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s59",
+          "paragraph": 35,
+          "corruptNow": true,
+          "original": "对中枢神经系统的作用较弱。",
+          "wrongDisplay": "对交感神经系统的作用较弱。",
+          "correctOption": "对中枢神经系统的作用较弱。",
+          "wrongOptions": [
+            "对中枢神经系统的作用较强。",
+            "对外周神经系统的作用较弱。",
+            "对中枢神经系统的作用不弱。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s62",
+          "paragraph": 37,
+          "corruptNow": false,
+          "original": "去甲肾上腺素仅限于早期神经源性休克以及嗜铬细胞瘤切除后或药物中毒时的低血压。",
+          "wrongDisplay": "去甲肾上腺素仅限于早期神经源性休克以及嗜铬细胞瘤切除后或药物中毒时的高血压。",
+          "correctOption": "去甲肾上腺素仅限于早期神经源性休克以及嗜铬细胞瘤切除后或药物中毒时的低血压。",
+          "wrongOptions": [
+            "去甲肾上腺素不限于早期神经源性休克以及嗜铬细胞瘤切除后或药物中毒时的低血压。",
+            "去甲肾上腺素仅限于早期神经源性休克以及甲状腺瘤切除后或药物中毒时的低血压。",
+            "去甲肾上腺素仅限于晚期神经源性休克以及嗜铬细胞瘤切除后或药物中毒时的低血压。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s63",
+          "paragraph": 37,
+          "corruptNow": false,
+          "original": "本药稀释后口服，可使食管和胃黏膜血管收缩产生局部止血作用。",
+          "wrongDisplay": "本药稀释后口服，可使食管和胃黏膜血管收缩产生局部出血作用。",
+          "correctOption": "本药稀释后口服，可使食管和胃黏膜血管收缩产生局部止血作用。",
+          "wrongOptions": [
+            "本药稀释后静脉注射，可使食管和胃黏膜血管收缩产生局部止血作用。",
+            "本药稀释后口服，可使肠道和胃黏膜血管收缩产生局部止血作用。",
+            "本药稀释后口服，可使食管和胃黏膜血管舒张产生局部止血作用。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s66p1",
+          "paragraph": 40,
+          "corruptNow": false,
+          "original": "静脉滴注时间过长、浓度过高或药液漏出血管，可引起局部缺血坏死，",
+          "wrongDisplay": "静脉滴注时间过长、浓度过高或药液漏出血管，可引起局部充血坏死，",
+          "correctOption": "静脉滴注时间过长、浓度过高或药液漏出血管，可引起局部缺血坏死，",
+          "wrongOptions": [
+            "静脉滴注时间过短、浓度过高或药液漏出血管，可引起局部缺血坏死，",
+            "静脉滴注时间过长、浓度过低或药液漏出血管，可引起局部缺血坏死，",
+            "口服时间过长、浓度过高或药液漏出血管，可引起局部缺血坏死，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s66p3",
+          "paragraph": 40,
+          "corruptNow": true,
+          "original": "进行热敷，并用α受体阻断药酚妥拉明作局部浸润注射，以扩张血管。",
+          "wrongDisplay": "进行热敷，并用α受体阻断药酚妥拉明作全身浸润注射，以扩张血管。",
+          "correctOption": "进行热敷，并用α受体阻断药酚妥拉明作局部浸润注射，以扩张血管。",
+          "wrongOptions": [
+            "进行热敷，并用α受体阻断药阿托品作局部浸润注射，以扩张血管。",
+            "进行热敷，并用α受体激动药酚妥拉明作局部浸润注射，以扩张血管。",
+            "进行热敷，并用α受体阻断药酚妥拉明作局部浸润注射，以收缩血管。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s68p1",
+          "paragraph": 42,
+          "corruptNow": false,
+          "original": "滴注时间过长或剂量过大，可使肾脏血管剧烈收缩，产生少尿、无尿和肾实质损伤，",
+          "wrongDisplay": "滴注时间过长或剂量过大，可使肾脏血管剧烈舒张，产生少尿、无尿和肾实质损伤，",
+          "correctOption": "滴注时间过长或剂量过大，可使肾脏血管剧烈收缩，产生少尿、无尿和肾实质损伤，",
+          "wrongOptions": [
+            "滴注时间过短或剂量过大，可使肾脏血管剧烈收缩，产生少尿、无尿和肾实质损伤，",
+            "滴注时间过长或剂量过小，可使肾脏血管剧烈收缩，产生少尿、无尿和肾实质损伤，",
+            "滴注时间过长或剂量过大，可使肝脏血管剧烈收缩，产生少尿、无尿和肾实质损伤，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s68p2",
+          "paragraph": 42,
+          "corruptNow": false,
+          "original": "故用药期间尿量应保持在每小时25ml以上。",
+          "wrongDisplay": "故用药期间尿量应保持在每天25ml以上。",
+          "correctOption": "故用药期间尿量应保持在每小时25ml以上。",
+          "wrongOptions": [
+            "故用药期间尿量应保持在每小时15ml以上。",
+            "故用药期间尿量应保持在每小时25L以上。",
+            "故用药期间尿量应保持在每小时25ml以下。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s71p1",
+          "paragraph": 45,
+          "corruptNow": true,
+          "original": "间羟胺（metaraminol，阿拉明，aramine），性质较稳定，主要作用是直接激动α受体，",
+          "wrongDisplay": "间羟胺（metaraminol，阿拉明，aramine），性质较稳定，唯一作用是直接激动α受体，",
+          "correctOption": "间羟胺（metaraminol，阿拉明，aramine），性质较稳定，主要作用是直接激动α受体，",
+          "wrongOptions": [
+            "肾上腺素（metaraminol，阿拉明，aramine），性质较稳定，主要作用是直接激动α受体，",
+            "间羟胺（metaraminol，阿拉明，aramine），性质不稳定，主要作用是直接激动α受体，",
+            "间羟胺（metaraminol，阿拉明，aramine），性质较稳定，主要作用是间接激动α受体，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s72",
+          "paragraph": 45,
+          "corruptNow": false,
+          "original": "间羟胺也可被肾上腺素能神经末梢摄取进入囊泡，通过置换作用促使囊泡中的去甲肾上腺素释放，间接地发挥作用。",
+          "wrongDisplay": "间羟胺也可被肾上腺素能神经末梢摄取进入囊泡，通过阻断作用促使囊泡中的去甲肾上腺素释放，间接地发挥作用。",
+          "correctOption": "间羟胺也可被肾上腺素能神经末梢摄取进入囊泡，通过置换作用促使囊泡中的去甲肾上腺素释放，间接地发挥作用。",
+          "wrongOptions": [
+            "间羟胺也可被肾上腺素能神经末梢摄取进入胞质，通过置换作用促使囊泡中的去甲肾上腺素释放，间接地发挥作用。",
+            "间羟胺也可被肾上腺素能神经末梢摄取进入囊泡，通过置换作用促使囊泡中的去甲肾上腺素释放，直接地发挥作用。",
+            "间羟胺也可被肾上腺素能神经末梢摄取进入囊泡，通过置换作用抑制囊泡中的去甲肾上腺素释放，间接地发挥作用。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s73",
+          "paragraph": 45,
+          "corruptNow": false,
+          "original": "短时间内连续应用，可因囊泡内去甲肾上腺素减少，使效应逐渐减弱，产生快速耐受性。",
+          "wrongDisplay": "短时间内连续应用，可因囊泡内去甲肾上腺素减少，使效应逐渐减弱，产生交叉耐受性。",
+          "correctOption": "短时间内连续应用，可因囊泡内去甲肾上腺素减少，使效应逐渐减弱，产生快速耐受性。",
+          "wrongOptions": [
+            "长时间内连续应用，可因囊泡内去甲肾上腺素减少，使效应逐渐减弱，产生快速耐受性。",
+            "短时间内连续应用，可因囊泡内去甲肾上腺素增加，使效应逐渐减弱，产生快速耐受性。",
+            "短时间内连续应用，可因囊泡内去甲肾上腺素减少，使效应逐渐增强，产生快速耐受性。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s74",
+          "paragraph": 45,
+          "corruptNow": false,
+          "original": "在产生耐受性时，适当加用小剂量去甲肾上腺素可恢复或增强其升压作用。",
+          "wrongDisplay": "在产生耐受性时，适当加用小剂量异丙肾上腺素可恢复或增强其升压作用。",
+          "correctOption": "在产生耐受性时，适当加用小剂量去甲肾上腺素可恢复或增强其升压作用。",
+          "wrongOptions": [
+            "在产生耐受性时，适当加用小剂量去甲肾上腺素不可恢复或增强其升压作用。",
+            "在产生耐受性时，适当加用小剂量去甲肾上腺素可恢复或减弱其升压作用。",
+            "在产生耐受性前，适当加用小剂量去甲肾上腺素可恢复或增强其升压作用。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s75",
+          "paragraph": 46,
+          "corruptNow": true,
+          "original": "间羟胺收缩血管，升高血压作用较去甲肾上腺素弱而持久，略增加心肌收缩性，使休克患者的心排出量增加。",
+          "wrongDisplay": "间羟胺收缩血管，升高血压作用较去甲肾上腺素弱而持久，略增加心肌收缩性，使休克患者的心率增加。",
+          "correctOption": "间羟胺收缩血管，升高血压作用较去甲肾上腺素弱而持久，略增加心肌收缩性，使休克患者的心排出量增加。",
+          "wrongOptions": [
+            "间羟胺收缩血管，升高血压作用较去甲肾上腺素强而持久，略增加心肌收缩性，使休克患者的心排出量增加。",
+            "间羟胺舒张血管，升高血压作用较去甲肾上腺素弱而持久，略增加心肌收缩性，使休克患者的心排出量增加。",
+            "间羟胺收缩血管，升高血压作用较去甲肾上腺素弱而持久，略增加心肌收缩性，使休克患者的心排出量减少。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s76p1",
+          "paragraph": 46,
+          "corruptNow": false,
+          "original": "对心率的影响不明显，有时因血压升高反射性减慢心率，但很少引起心律失常；",
+          "wrongDisplay": "对心率的影响不明显，有时因血压升高反射性减慢心率，但经常引起心律失常；",
+          "correctOption": "对心率的影响不明显，有时因血压升高反射性减慢心率，但很少引起心律失常；",
+          "wrongOptions": [
+            "对心率的影响很明显，有时因血压升高反射性减慢心率，但很少引起心律失常；",
+            "对心率的影响不明显，总是因血压升高反射性减慢心率，但很少引起心律失常；",
+            "对心率的影响不明显，有时因血压升高反射性加快心率，但很少引起心律失常；"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s76p2",
+          "paragraph": 46,
+          "corruptNow": false,
+          "original": "对肾脏血管的收缩作用较去甲肾上腺素弱，但仍能显著减少肾脏血流量。",
+          "wrongDisplay": "对肾脏血管的收缩作用较去甲肾上腺素弱，但不能显著减少肾脏血流量。",
+          "correctOption": "对肾脏血管的收缩作用较去甲肾上腺素弱，但仍能显著减少肾脏血流量。",
+          "wrongOptions": [
+            "对肝脏血管的收缩作用较去甲肾上腺素弱，但仍能显著减少肾脏血流量。",
+            "对肾脏血管的收缩作用较去甲肾上腺素弱，但仍能显著增加肾脏血流量。",
+            "对肾脏血管的收缩作用较去甲肾上腺素强，但仍能显著减少肾脏血流量。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s77",
+          "paragraph": 46,
+          "corruptNow": false,
+          "original": "间羟胺可静滴也可肌内注射，故临床作为去甲肾上腺素的代用品，用于各种休克早期及手术后或脊髓麻醉后的休克。",
+          "wrongDisplay": "间羟胺可静滴也可肌内注射，故临床作为去甲肾上腺素的代用品，不用于各种休克早期及手术后或脊髓麻醉后的休克。",
+          "correctOption": "间羟胺可静滴也可肌内注射，故临床作为去甲肾上腺素的代用品，用于各种休克早期及手术后或脊髓麻醉后的休克。",
+          "wrongOptions": [
+            "间羟胺可口服也可肌内注射，故临床作为去甲肾上腺素的代用品，用于各种休克早期及手术后或脊髓麻醉后的休克。",
+            "间羟胺可静滴也可肌内注射，故临床作为去甲肾上腺素的代用品，用于各种休克晚期及手术后或脊髓麻醉后的休克。",
+            "间羟胺可静滴也可肌内注射，故临床作为去甲肾上腺素的代用品，用于各种休克早期及手术后或全身麻醉后的休克。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s78p1",
+          "paragraph": 46,
+          "corruptNow": true,
+          "original": "也可用于阵发性房性心动过速，特别是伴有低血压的患者，反射性减慢心率，",
+          "wrongDisplay": "也可用于持续性房性心动过速，特别是伴有低血压的患者，反射性减慢心率，",
+          "correctOption": "也可用于阵发性房性心动过速，特别是伴有低血压的患者，反射性减慢心率，",
+          "wrongOptions": [
+            "也可用于阵发性室性心动过速，特别是伴有低血压的患者，反射性减慢心率，",
+            "也可用于阵发性房性心动过速，特别是伴有高血压的患者，反射性减慢心率，",
+            "也可用于阵发性房性心动过速，特别是伴有低血压的患者，反射性加快心率，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s78p2",
+          "paragraph": 46,
+          "corruptNow": false,
+          "original": "并对窦房结可能具有直接抑制作用，使心率恢复正常。",
+          "wrongDisplay": "并对窦房结不可能具有直接抑制作用，使心率恢复正常。",
+          "correctOption": "并对窦房结可能具有直接抑制作用，使心率恢复正常。",
+          "wrongOptions": [
+            "并对房室结可能具有直接抑制作用，使心率恢复正常。",
+            "并对窦房结可能具有直接兴奋作用，使心率恢复正常。",
+            "并对窦房结可能具有直接抑制作用，使心率进一步加快。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-02-s69",
+          "paragraph": 43,
+          "corruptNow": false,
+          "original": "伴有高血压、动脉硬化症、器质性心脏病、少尿、无尿、严重微循环障碍的患者及孕妇禁用。",
+          "wrongDisplay": "伴有低血压、动脉硬化症、器质性心脏病、少尿、无尿、严重微循环障碍的患者及孕妇禁用。",
+          "correctOption": "伴有高血压、动脉硬化症、器质性心脏病、少尿、无尿、严重微循环障碍的患者及孕妇禁用。",
+          "wrongOptions": [
+            "伴有高血压、动脉硬化症、器质性心脏病、少尿、无尿、严重微循环障碍的患者及孕妇可用。",
+            "伴有高血压、动脉硬化症、器质性心脏病、少尿、无尿、严重微循环障碍的患者及儿童禁用。",
+            "伴有高血压、动脉硬化症、器质性心脏病、少尿、无尿、轻微微循环障碍的患者及孕妇禁用。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adrenergic-agonists-03",
+      "title": "去氧肾上腺素、甲氧明与 α2 激动药",
+      "order": 3,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "adrenergic-agonists-03-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "adrenergic-agonists-03-s81",
+            "adrenergic-agonists-03-s82",
+            "adrenergic-agonists-03-s83",
+            "adrenergic-agonists-03-s85",
+            "adrenergic-agonists-03-s86p1",
+            "adrenergic-agonists-03-s86p2",
+            "adrenergic-agonists-03-s87p1",
+            "adrenergic-agonists-03-s87p2",
+            "adrenergic-agonists-03-s87p3",
+            "adrenergic-agonists-03-s89",
+            "adrenergic-agonists-03-s90",
+            "adrenergic-agonists-03-s91",
+            "adrenergic-agonists-03-s92",
+            "adrenergic-agonists-03-s96p3"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "adrenergic-agonists-03-s101",
+            "adrenergic-agonists-03-s102",
+            "adrenergic-agonists-03-s104",
+            "adrenergic-agonists-03-s106",
+            "adrenergic-agonists-03-s107",
+            "adrenergic-agonists-03-s108p1",
+            "adrenergic-agonists-03-s108p2",
+            "adrenergic-agonists-03-s108p3",
+            "adrenergic-agonists-03-s111",
+            "adrenergic-agonists-03-s112p1",
+            "adrenergic-agonists-03-s112p2",
+            "adrenergic-agonists-03-s113p2",
+            "adrenergic-agonists-03-s113p3"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "adrenergic-agonists-03-s81",
+          "paragraph": 48,
+          "corruptNow": true,
+          "original": "作用机制与间羟胺相似，不易被MAO代谢，可直接和间接地激动α1受体，又称α1受体激动药。",
+          "wrongDisplay": "作用机制与间羟胺相似，不易被MAO代谢，可间接地激动α1受体，又称α1受体激动药。",
+          "correctOption": "作用机制与间羟胺相似，不易被MAO代谢，可直接和间接地激动α1受体，又称α1受体激动药。",
+          "wrongOptions": [
+            "作用机制与间羟胺相似，极易被MAO代谢，可直接和间接地激动α1受体，又称α1受体激动药。",
+            "作用机制与间羟胺相反，不易被MAO代谢，可直接和间接地激动α1受体，又称α1受体激动药。",
+            "作用机制与间羟胺相似，不易被MAO代谢，可直接和间接地激动α1受体，又称β1受体激动药。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s82",
+          "paragraph": 48,
+          "corruptNow": false,
+          "original": "作用与去甲肾上腺素相似但较弱，一般剂量时对β受体的作用不明显，高浓度的甲氧明具有阻断β受体的作用。",
+          "wrongDisplay": "作用与去甲肾上腺素相似但较弱，一般剂量时对β受体的作用不明显，高浓度的去氧肾上腺素具有阻断β受体的作用。",
+          "correctOption": "作用与去甲肾上腺素相似但较弱，一般剂量时对β受体的作用不明显，高浓度的甲氧明具有阻断β受体的作用。",
+          "wrongOptions": [
+            "作用与去甲肾上腺素相似但较强，一般剂量时对β受体的作用不明显，高浓度的甲氧明具有阻断β受体的作用。",
+            "作用与去甲肾上腺素相似但较弱，一般剂量时对β受体的作用很明显，高浓度的甲氧明具有阻断β受体的作用。",
+            "作用与去甲肾上腺素相似但较弱，一般剂量时对β受体的作用不明显，高浓度的甲氧明不具有阻断β受体的作用。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s83",
+          "paragraph": 48,
+          "corruptNow": false,
+          "original": "在升高血压的同时，肾血流的减少比去甲肾上腺素更为明显。",
+          "wrongDisplay": "在升高血压之后，肾血流的减少比去甲肾上腺素更为明显。",
+          "correctOption": "在升高血压的同时，肾血流的减少比去甲肾上腺素更为明显。",
+          "wrongOptions": [
+            "在升高血压的同时，肾血流的减少比肾上腺素更为明显。",
+            "在升高血压的同时，肾血流的增加比去甲肾上腺素更为明显。",
+            "在升高血压的同时，肾血流的减少比去甲肾上腺素较为轻微。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s85",
+          "paragraph": 48,
+          "corruptNow": false,
+          "original": "用于抗休克及防治脊髓麻醉或全身麻醉的低血压。",
+          "wrongDisplay": "用于抗休克及防治脊髓麻醉或局部麻醉的低血压。",
+          "correctOption": "用于抗休克及防治脊髓麻醉或全身麻醉的低血压。",
+          "wrongOptions": [
+            "用于抗休克及防治脊髓麻醉或全身麻醉的高血压。",
+            "禁用于抗休克及防治脊髓麻醉或全身麻醉的低血压。",
+            "用于抗过敏及防治脊髓麻醉或全身麻醉的低血压。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s86p1",
+          "paragraph": 48,
+          "corruptNow": true,
+          "original": "甲氧明与去氧肾上腺素均能通过收缩血管、升高血压，使迷走神经反射性兴奋而减慢心率，",
+          "wrongDisplay": "甲氧明与去氧肾上腺素均能通过收缩血管、升高血压，使交感神经反射性兴奋而减慢心率，",
+          "correctOption": "甲氧明与去氧肾上腺素均能通过收缩血管、升高血压，使迷走神经反射性兴奋而减慢心率，",
+          "wrongOptions": [
+            "甲氧明与去甲肾上腺素均能通过收缩血管、升高血压，使迷走神经反射性兴奋而减慢心率，",
+            "甲氧明与去氧肾上腺素均能通过收缩血管、升高血压，使迷走神经反射性兴奋而加快心率，",
+            "甲氧明与去氧肾上腺素不能通过收缩血管、升高血压，使迷走神经反射性兴奋而减慢心率，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s86p2",
+          "paragraph": 48,
+          "corruptNow": false,
+          "original": "临床可用于阵发性室上性心动过速。",
+          "wrongDisplay": "临床可用于持续性室上性心动过速。",
+          "correctOption": "临床可用于阵发性室上性心动过速。",
+          "wrongOptions": [
+            "临床可用于阵发性室性心动过速。",
+            "临床禁用于阵发性室上性心动过速。",
+            "临床不用于阵发性室上性心动过速。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s87p1",
+          "paragraph": 48,
+          "corruptNow": false,
+          "original": "去氧肾上腺素还能兴奋瞳孔扩大肌，使瞳孔扩大，作用较阿托品弱，持续时间较短，",
+          "wrongDisplay": "去氧肾上腺素还能兴奋瞳孔扩大肌，使瞳孔缩小，作用较阿托品弱，持续时间较短，",
+          "correctOption": "去氧肾上腺素还能兴奋瞳孔扩大肌，使瞳孔扩大，作用较阿托品弱，持续时间较短，",
+          "wrongOptions": [
+            "去甲肾上腺素还能兴奋瞳孔扩大肌，使瞳孔扩大，作用较阿托品弱，持续时间较短，",
+            "去氧肾上腺素不能兴奋瞳孔扩大肌，使瞳孔扩大，作用较阿托品弱，持续时间较短，",
+            "去氧肾上腺素还能兴奋瞳孔扩大肌，使瞳孔扩大，作用较阿托品强，持续时间较短，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s87p2",
+          "paragraph": 48,
+          "corruptNow": false,
+          "original": "一般不引起眼内压升高（老年人虹膜角膜角狭窄者可能引起眼内压升高）和调节麻痹，",
+          "wrongDisplay": "一般不引起眼内压升高（老年人虹膜角膜角狭窄者必然引起眼内压升高）和调节麻痹，",
+          "correctOption": "一般不引起眼内压升高（老年人虹膜角膜角狭窄者可能引起眼内压升高）和调节麻痹，",
+          "wrongOptions": [
+            "一般可引起眼内压升高（老年人虹膜角膜角狭窄者可能引起眼内压升高）和调节麻痹，",
+            "一般不引起眼内压升高（青年人虹膜角膜角狭窄者可能引起眼内压升高）和调节麻痹，",
+            "一般不引起眼内压升高（老年人虹膜角膜角宽大者可能引起眼内压升高）和调节麻痹，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s87p3",
+          "paragraph": 48,
+          "corruptNow": true,
+          "original": "在眼底检查时作为快速短效的扩瞳药。",
+          "wrongDisplay": "在眼底检查时不作为快速短效的扩瞳药。",
+          "correctOption": "在眼底检查时作为快速短效的扩瞳药。",
+          "wrongOptions": [
+            "在眼底检查前作为快速短效的扩瞳药。",
+            "在眼底检查时作为缓慢长效的扩瞳药。",
+            "在眼底检查时作为快速短效的缩瞳药。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s89",
+          "paragraph": 50,
+          "corruptNow": false,
+          "original": "羟甲唑啉（oxymetazoline，氧甲唑啉）和可乐定的衍生物阿可乐定（apraclonidine）是外周突触后膜α2受体激动药。",
+          "wrongDisplay": "羟甲唑啉（oxymetazoline，氧甲唑啉）和可乐定的衍生物阿可乐定（apraclonidine）是外周突触后膜α2受体阻断药。",
+          "correctOption": "羟甲唑啉（oxymetazoline，氧甲唑啉）和可乐定的衍生物阿可乐定（apraclonidine）是外周突触后膜α2受体激动药。",
+          "wrongOptions": [
+            "羟甲唑啉（oxymetazoline，氧甲唑啉）和可乐定的衍生物阿可乐定（apraclonidine）是中枢突触前膜α2受体激动药。",
+            "羟甲唑啉（oxymetazoline，氧甲唑啉）和可乐定的衍生物阿可乐定（apraclonidine）是外周突触后膜α1受体激动药。",
+            "羟甲唑啉（oxymetazoline，氧甲唑啉）和可乐定的衍生物阿可乐定（apraclonidine）非外周突触后膜α2受体激动药。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s90",
+          "paragraph": 50,
+          "corruptNow": false,
+          "original": "羟甲唑啉收缩血管，滴鼻用于治疗鼻黏膜充血和鼻炎，常用浓度为0.05%，作用在几分钟内发生，可持续数小时。",
+          "wrongDisplay": "羟甲唑啉收缩血管，滴鼻用于治疗鼻黏膜充血和鼻炎，常用浓度为0.05%，作用在几小时内发生，可持续数小时。",
+          "correctOption": "羟甲唑啉收缩血管，滴鼻用于治疗鼻黏膜充血和鼻炎，常用浓度为0.05%，作用在几分钟内发生，可持续数小时。",
+          "wrongOptions": [
+            "羟甲唑啉舒张血管，滴鼻用于治疗鼻黏膜充血和鼻炎，常用浓度为0.05%，作用在几分钟内发生，可持续数小时。",
+            "羟甲唑啉收缩血管，口服用于治疗鼻黏膜充血和鼻炎，常用浓度为0.05%，作用在几分钟内发生，可持续数小时。",
+            "羟甲唑啉收缩血管，滴鼻用于治疗鼻黏膜充血和鼻炎，常用浓度为0.5%，作用在几分钟内发生，可持续数小时。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s91",
+          "paragraph": 50,
+          "corruptNow": false,
+          "original": "偶见局部刺激症状，小儿用后可致中枢神经系统症状，2岁以下儿童禁用。",
+          "wrongDisplay": "常见局部刺激症状，小儿用后可致中枢神经系统症状，2岁以下儿童禁用。",
+          "correctOption": "偶见局部刺激症状，小儿用后可致中枢神经系统症状，2岁以下儿童禁用。",
+          "wrongOptions": [
+            "偶见局部刺激症状，小儿用后可致中枢神经系统症状，2岁以上儿童禁用。",
+            "偶见局部刺激症状，小儿用后可致中枢神经系统症状，2岁以下儿童可用。",
+            "偶见局部刺激症状，小儿用后可致外周神经系统症状，2岁以下儿童禁用。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s92",
+          "paragraph": 50,
+          "corruptNow": true,
+          "original": "阿可乐定主要利用其降低眼压的作用，用于青光眼的短期辅助治疗，特别在激光疗法之后，预防眼压回升。",
+          "wrongDisplay": "阿可乐定主要利用其降低眼压的作用，用于白内障的短期辅助治疗，特别在激光疗法之后，预防眼压回升。",
+          "correctOption": "阿可乐定主要利用其降低眼压的作用，用于青光眼的短期辅助治疗，特别在激光疗法之后，预防眼压回升。",
+          "wrongOptions": [
+            "阿可乐定主要利用其升高眼压的作用，用于青光眼的短期辅助治疗，特别在激光疗法之后，预防眼压回升。",
+            "阿可乐定主要利用其降低眼压的作用，用于青光眼的短期首选治疗，特别在激光疗法之后，预防眼压回升。",
+            "阿可乐定主要利用其降低眼压的作用，用于青光眼的长期辅助治疗，特别在激光疗法之后，预防眼压回升。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s96p3",
+          "paragraph": 55,
+          "corruptNow": false,
+          "original": "使去甲肾上腺素甲基化形成肾上腺素。",
+          "wrongDisplay": "使去甲肾上腺素二甲基化形成肾上腺素。",
+          "correctOption": "使去甲肾上腺素甲基化形成肾上腺素。",
+          "wrongOptions": [
+            "使异丙肾上腺素甲基化形成肾上腺素。",
+            "使去甲肾上腺素脱甲基形成肾上腺素。",
+            "不使去甲肾上腺素甲基化形成肾上腺素。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s101",
+          "paragraph": 57,
+          "corruptNow": false,
+          "original": "肾上腺素主要激动α和β受体。",
+          "wrongDisplay": "肾上腺素主要激动α或β受体。",
+          "correctOption": "肾上腺素主要激动α和β受体。",
+          "wrongOptions": [
+            "去甲肾上腺素主要激动α和β受体。",
+            "肾上腺素主要阻断α和β受体。",
+            "肾上腺素并不激动α和β受体。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s102",
+          "paragraph": 57,
+          "corruptNow": false,
+          "original": "作用与机体的生理病理状态、靶器官中肾上腺素受体亚型的分布、整体的反射作用和神经末梢突触间隙的反馈调节等因素有关。",
+          "wrongDisplay": "作用与机体的生理病理状态、靶器官中肾上腺素受体亚型的分布、局部的反射作用和神经末梢突触间隙的反馈调节等因素有关。",
+          "correctOption": "作用与机体的生理病理状态、靶器官中肾上腺素受体亚型的分布、整体的反射作用和神经末梢突触间隙的反馈调节等因素有关。",
+          "wrongOptions": [
+            "作用与机体的生理病理状态、靶器官中胆碱受体亚型的分布、整体的反射作用和神经末梢突触间隙的反馈调节等因素有关。",
+            "作用与机体的生理病理状态、靶器官中肾上腺素受体亚型的分布、整体的反射作用和神经末梢突触间隙的反馈调节等因素无关。",
+            "作用与机体的生理病理状态、靶器官中肾上腺素受体亚型的分布、整体的反射作用和神经末梢突触前膜的反馈调节等因素有关。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s104",
+          "paragraph": 59,
+          "corruptNow": true,
+          "original": "作用于心肌、传导系统和窦房结的β1及β2受体，加强心肌收缩性，加速传导，加快心率，提高心肌的兴奋性。",
+          "wrongDisplay": "作用于心肌、传导系统和窦房结的β1及β2受体，加强心肌收缩性，加速传导，加快心率，不提高心肌的兴奋性。",
+          "correctOption": "作用于心肌、传导系统和窦房结的β1及β2受体，加强心肌收缩性，加速传导，加快心率，提高心肌的兴奋性。",
+          "wrongOptions": [
+            "作用于心肌、传导系统和窦房结的α1及α2受体，加强心肌收缩性，加速传导，加快心率，提高心肌的兴奋性。",
+            "作用于心肌、传导系统和窦房结的β1及β2受体，加强心肌收缩性，加速传导，减慢心率，提高心肌的兴奋性。",
+            "作用于心肌、传导系统和窦房结的β1及β2受体，减弱心肌收缩性，加速传导，加快心率，提高心肌的兴奋性。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s106",
+          "paragraph": 59,
+          "corruptNow": false,
+          "original": "由于心肌收缩力增强，心率加快，故心排出量增加。",
+          "wrongDisplay": "由于心肌收缩力增强，心率不变，故心排出量增加。",
+          "correctOption": "由于心肌收缩力增强，心率加快，故心排出量增加。",
+          "wrongOptions": [
+            "由于骨骼肌收缩力增强，心率加快，故心排出量增加。",
+            "由于心肌收缩力减弱，心率加快，故心排出量增加。",
+            "由于心肌收缩力增强，心率加快，故心排出量不增加。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s107",
+          "paragraph": 59,
+          "corruptNow": false,
+          "original": "肾上腺素舒张冠状血管，改善心肌的血液供应，且作用迅速。",
+          "wrongDisplay": "肾上腺素舒张冠状血管，改善心肌的血液供应，且作用缓慢。",
+          "correctOption": "肾上腺素舒张冠状血管，改善心肌的血液供应，且作用迅速。",
+          "wrongOptions": [
+            "肾上腺素收缩冠状血管，改善心肌的血液供应，且作用迅速。",
+            "肾上腺素舒张冠状血管，不改善心肌的血液供应，且作用迅速。",
+            "肾上腺素舒张冠状血管，改善骨骼肌的血液供应，且作用迅速。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s108p1",
+          "paragraph": 59,
+          "corruptNow": false,
+          "original": "肾上腺素兴奋心脏，提高心肌代谢，使心肌耗氧量增加，剂量过大或静脉注射过快，可引起心律失常，",
+          "wrongDisplay": "肾上腺素兴奋心脏，提高心肌代谢，使心肌耗氧量增加，剂量过大或静脉注射过快，可不引起心律失常，",
+          "correctOption": "肾上腺素兴奋心脏，提高心肌代谢，使心肌耗氧量增加，剂量过大或静脉注射过快，可引起心律失常，",
+          "wrongOptions": [
+            "肾上腺素兴奋心脏，提高心肌代谢，使心肌耗氧量增加，剂量过小或静脉注射过快，可引起心律失常，",
+            "肾上腺素兴奋心脏，提高心肌代谢，使心肌耗氧量增加，剂量过大或口服过快，可引起心律失常，",
+            "肾上腺素兴奋心脏，提高心肌代谢，使心肌耗氧量减少，剂量过大或静脉注射过快，可引起心律失常，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s108p2",
+          "paragraph": 59,
+          "corruptNow": true,
+          "original": "出现期前收缩，甚至引起心室纤颤；当患者处于心肌缺血、缺氧及心力衰竭时，",
+          "wrongDisplay": "出现期前收缩，仅引起心室纤颤；当患者处于心肌缺血、缺氧及心力衰竭时，",
+          "correctOption": "出现期前收缩，甚至引起心室纤颤；当患者处于心肌缺血、缺氧及心力衰竭时，",
+          "wrongOptions": [
+            "出现期前收缩，甚至引起心房纤颤；当患者处于心肌缺血、缺氧及心力衰竭时，",
+            "出现期前收缩，甚至不引起心室纤颤；当患者处于心肌缺血、缺氧及心力衰竭时，",
+            "出现期前收缩，甚至引起心室纤颤；当患者处于心肌充血、缺氧及心力衰竭时，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s108p3",
+          "paragraph": 59,
+          "corruptNow": false,
+          "original": "肾上腺素有可能使病情加重或引起快速性心律失常，如期前收缩、心动过速，甚至心室纤颤。",
+          "wrongDisplay": "肾上腺素有可能使病情加重或引起快速性心律失常，如期后收缩、心动过速，甚至心室纤颤。",
+          "correctOption": "肾上腺素有可能使病情加重或引起快速性心律失常，如期前收缩、心动过速，甚至心室纤颤。",
+          "wrongOptions": [
+            "肾上腺素不可能使病情加重或引起快速性心律失常，如期前收缩、心动过速，甚至心室纤颤。",
+            "肾上腺素有可能使病情加重或引起缓慢性心律失常，如期前收缩、心动过速，甚至心室纤颤。",
+            "肾上腺素有可能使病情减轻或引起快速性心律失常，如期前收缩、心动过速，甚至心室纤颤。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s111",
+          "paragraph": 62,
+          "corruptNow": false,
+          "original": "激动血管平滑肌上的α受体，血管收缩；激动β2受体，血管舒张。",
+          "wrongDisplay": "激动血管内皮上的α受体，血管收缩；激动β2受体，血管舒张。",
+          "correctOption": "激动血管平滑肌上的α受体，血管收缩；激动β2受体，血管舒张。",
+          "wrongOptions": [
+            "激动血管平滑肌上的β2受体，血管收缩；激动β2受体，血管舒张。",
+            "激动血管平滑肌上的α受体，血管舒张；激动β2受体，血管舒张。",
+            "激动血管平滑肌上的α受体，血管收缩；阻断β2受体，血管舒张。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s112p1",
+          "paragraph": 62,
+          "corruptNow": false,
+          "original": "体内各部位血管的肾上腺素受体的种类和密度各不相同，",
+          "wrongDisplay": "体内各部位血管的肾上腺素受体的种类和密度较为接近，",
+          "correctOption": "体内各部位血管的肾上腺素受体的种类和密度各不相同，",
+          "wrongOptions": [
+            "体内各部位血管的胆碱受体的种类和密度各不相同，",
+            "体内各部位血管的肾上腺素受体的种类和密度完全相同，",
+            "体外各部位血管的肾上腺素受体的种类和密度各不相同，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s112p2",
+          "paragraph": 62,
+          "corruptNow": true,
+          "original": "所以肾上腺素对血管的作用取决于各器官血管平滑肌上α及β2受体的分布密度以及给药剂量的大小。",
+          "wrongDisplay": "所以肾上腺素对血管的作用取决于各器官血管平滑肌上α及β2受体的分布密度以及口服剂量的大小。",
+          "correctOption": "所以肾上腺素对血管的作用取决于各器官血管平滑肌上α及β2受体的分布密度以及给药剂量的大小。",
+          "wrongOptions": [
+            "所以肾上腺素对血管的作用取决于各器官血管平滑肌上α及β1受体的分布密度以及给药剂量的大小。",
+            "所以肾上腺素对血管的作用不取决于各器官血管平滑肌上α及β2受体的分布密度以及给药剂量的大小。",
+            "所以肾上腺素对血管的作用取决于各器官血管内皮上α及β2受体的分布密度以及给药剂量的大小。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s113p2",
+          "paragraph": 62,
+          "corruptNow": false,
+          "original": "故以皮肤、黏膜血管收缩为最强烈；内脏血管，尤其是肾血管，也显著收缩；对脑和肺血管收缩作用十分微弱，",
+          "wrongDisplay": "故以皮肤、黏膜血管收缩为最强烈；内脏血管，尤其是脑血管，也显著收缩；对脑和肺血管收缩作用十分微弱，",
+          "correctOption": "故以皮肤、黏膜血管收缩为最强烈；内脏血管，尤其是肾血管，也显著收缩；对脑和肺血管收缩作用十分微弱，",
+          "wrongOptions": [
+            "故以皮肤、黏膜血管收缩为最微弱；内脏血管，尤其是肾血管，也显著收缩；对脑和肺血管收缩作用十分微弱，",
+            "故以皮肤、黏膜血管收缩为最强烈；内脏血管，尤其是肾血管，也轻微收缩；对脑和肺血管收缩作用十分微弱，",
+            "故以皮肤、黏膜血管收缩为最强烈；内脏血管，尤其是肾血管，并不收缩；对脑和肺血管收缩作用十分微弱，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-03-s113p3",
+          "paragraph": 62,
+          "corruptNow": false,
+          "original": "有时由于血压升高而被动地舒张；而静脉和大动脉的肾上腺素受体密度低，故收缩作用较弱。",
+          "wrongDisplay": "有时由于血压升高而主动地舒张；而静脉和大动脉的肾上腺素受体密度低，故收缩作用较弱。",
+          "correctOption": "有时由于血压升高而被动地舒张；而静脉和大动脉的肾上腺素受体密度低，故收缩作用较弱。",
+          "wrongOptions": [
+            "有时由于血压降低而被动地舒张；而静脉和大动脉的肾上腺素受体密度低，故收缩作用较弱。",
+            "有时由于血压升高而被动地舒张；而静脉和大动脉的肾上腺素受体密度低，故收缩作用较强。",
+            "有时由于血压升高而被动地舒张；而静脉和小动脉的肾上腺素受体密度低，故收缩作用较弱。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adrenergic-agonists-04",
+      "title": "肾上腺素（一）：心血管作用",
+      "order": 4,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "adrenergic-agonists-04-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "adrenergic-agonists-04-s114",
+            "adrenergic-agonists-04-s115p1",
+            "adrenergic-agonists-04-s115p2",
+            "adrenergic-agonists-04-s115p3",
+            "adrenergic-agonists-04-s117p1",
+            "adrenergic-agonists-04-s117p2",
+            "adrenergic-agonists-04-s117p3",
+            "adrenergic-agonists-04-s118",
+            "adrenergic-agonists-04-s119p1",
+            "adrenergic-agonists-04-s119p2",
+            "adrenergic-agonists-04-s120"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "adrenergic-agonists-04-s124",
+            "adrenergic-agonists-04-s125",
+            "adrenergic-agonists-04-s126p1",
+            "adrenergic-agonists-04-s126p2",
+            "adrenergic-agonists-04-s126p3",
+            "adrenergic-agonists-04-s127",
+            "adrenergic-agonists-04-s129",
+            "adrenergic-agonists-04-s130p1",
+            "adrenergic-agonists-04-s130p2",
+            "adrenergic-agonists-04-s131",
+            "adrenergic-agonists-04-s132",
+            "adrenergic-agonists-04-s135p1",
+            "adrenergic-agonists-04-s135p2"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "adrenergic-agonists-04-s114",
+          "paragraph": 62,
+          "corruptNow": true,
+          "original": "而在骨骼肌和肝脏的血管平滑肌上β2受体占优势，故小剂量的肾上腺素往往使这些血管舒张。",
+          "wrongDisplay": "而在骨骼肌和肝脏的血管平滑肌上β2受体占优势，故小剂量的肾上腺素并不使这些血管舒张。",
+          "correctOption": "而在骨骼肌和肝脏的血管平滑肌上β2受体占优势，故小剂量的肾上腺素往往使这些血管舒张。",
+          "wrongOptions": [
+            "而在骨骼肌和皮肤的血管平滑肌上β2受体占优势，故小剂量的肾上腺素往往使这些血管舒张。",
+            "而在骨骼肌和肝脏的血管平滑肌上β2受体占优势，故大剂量的肾上腺素往往使这些血管舒张。",
+            "而在骨骼肌和肝脏的血管平滑肌上β2受体占优势，故小剂量的肾上腺素往往使这些血管收缩。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s115p1",
+          "paragraph": 62,
+          "corruptNow": false,
+          "original": "肾上腺素也能舒张冠状血管，此作用可在不增加主动脉血压时发生，",
+          "wrongDisplay": "肾上腺素也能舒张脑血管，此作用可在不增加主动脉血压时发生，",
+          "correctOption": "肾上腺素也能舒张冠状血管，此作用可在不增加主动脉血压时发生，",
+          "wrongOptions": [
+            "肾上腺素也能收缩冠状血管，此作用可在不增加主动脉血压时发生，",
+            "肾上腺素也能舒张冠状血管，此作用可在增加主动脉血压时发生，",
+            "肾上腺素不能舒张冠状血管，此作用可在不增加主动脉血压时发生，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s115p2",
+          "paragraph": 62,
+          "corruptNow": false,
+          "original": "可能由下述3个因素引起：①兴奋冠脉血管β2受体，血管舒张；②心脏的收缩期缩短，相对延长舒张期；",
+          "wrongDisplay": "可能由下述3个因素引起：①兴奋冠脉血管β2受体，血管舒张；②心脏的收缩期缩短，相对缩短舒张期；",
+          "correctOption": "可能由下述3个因素引起：①兴奋冠脉血管β2受体，血管舒张；②心脏的收缩期缩短，相对延长舒张期；",
+          "wrongOptions": [
+            "可能由下述4个因素引起：①兴奋冠脉血管β2受体，血管舒张；②心脏的收缩期缩短，相对延长舒张期；",
+            "可能由下述3个因素引起：①兴奋冠脉血管α受体，血管舒张；②心脏的收缩期缩短，相对延长舒张期；",
+            "可能由下述3个因素引起：①兴奋冠脉血管β2受体，血管舒张；②心脏的收缩期延长，相对延长舒张期；"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s115p3",
+          "paragraph": 62,
+          "corruptNow": false,
+          "original": "③肾上腺素引起心肌收缩力增强和心肌耗氧量增加，从而促使心肌细胞释放扩血管的代谢产物腺苷（adenosine）。",
+          "wrongDisplay": "③肾上腺素引起心肌收缩力增强和心肌耗氧量增加，从而促使心肌细胞释放扩血管的代谢产物组胺（adenosine）。",
+          "correctOption": "③肾上腺素引起心肌收缩力增强和心肌耗氧量增加，从而促使心肌细胞释放扩血管的代谢产物腺苷（adenosine）。",
+          "wrongOptions": [
+            "③肾上腺素引起心肌收缩力减弱和心肌耗氧量增加，从而促使心肌细胞释放扩血管的代谢产物腺苷（adenosine）。",
+            "③肾上腺素引起心肌收缩力增强和心肌耗氧量减少，从而促使心肌细胞释放扩血管的代谢产物腺苷（adenosine）。",
+            "③肾上腺素引起心肌收缩力增强和心肌耗氧量增加，从而阻止心肌细胞释放扩血管的代谢产物腺苷（adenosine）。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s117p1",
+          "paragraph": 64,
+          "corruptNow": true,
+          "original": "在皮下注射治疗量肾上腺素或低浓度静脉滴注时，由于心脏兴奋，皮肤黏膜血管收缩，",
+          "wrongDisplay": "在皮下注射治疗量肾上腺素或低浓度静脉滴注时，由于心脏抑制，皮肤黏膜血管收缩，",
+          "correctOption": "在皮下注射治疗量肾上腺素或低浓度静脉滴注时，由于心脏兴奋，皮肤黏膜血管收缩，",
+          "wrongOptions": [
+            "在口服治疗量肾上腺素或低浓度静脉滴注时，由于心脏兴奋，皮肤黏膜血管收缩，",
+            "在皮下注射治疗量肾上腺素或低浓度静脉滴注时，由于心脏兴奋，皮肤黏膜血管舒张，",
+            "在皮下注射治疗量肾上腺素或低浓度静脉滴注时，由于心脏兴奋，骨骼肌血管收缩，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s117p2",
+          "paragraph": 64,
+          "corruptNow": false,
+          "original": "使收缩压和舒张压升高（图10-1）；由于骨骼肌血管的舒张作用，抵消或超过了皮肤黏膜血管收缩作用的影响，",
+          "wrongDisplay": "使收缩压和舒张压升高（图10-1）；由于骨骼肌血管的舒张作用，远不及皮肤黏膜血管收缩作用的影响，",
+          "correctOption": "使收缩压和舒张压升高（图10-1）；由于骨骼肌血管的舒张作用，抵消或超过了皮肤黏膜血管收缩作用的影响，",
+          "wrongOptions": [
+            "使收缩压和舒张压不升高（图10-1）；由于骨骼肌血管的舒张作用，抵消或超过了皮肤黏膜血管收缩作用的影响，",
+            "使收缩压和舒张压升高（图10-1）；由于骨骼肌血管的收缩作用，抵消或超过了皮肤黏膜血管收缩作用的影响，",
+            "使收缩压和舒张压升高（图10-1）；由于内脏血管的舒张作用，抵消或超过了皮肤黏膜血管收缩作用的影响，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s117p3",
+          "paragraph": 64,
+          "corruptNow": false,
+          "original": "故舒张压不变或下降；此时脉压差加大，身体各部位血液重新分配，有利于紧急状态下机体能量供应的需要。",
+          "wrongDisplay": "故舒张压不变或下降；此时脉压差加大，身体各部位血液重新分配，有利于安静状态下机体能量供应的需要。",
+          "correctOption": "故舒张压不变或下降；此时脉压差加大，身体各部位血液重新分配，有利于紧急状态下机体能量供应的需要。",
+          "wrongOptions": [
+            "故舒张压不变或上升；此时脉压差加大，身体各部位血液重新分配，有利于紧急状态下机体能量供应的需要。",
+            "故舒张压不变或下降；此时脉压差缩小，身体各部位血液重新分配，有利于紧急状态下机体能量供应的需要。",
+            "故舒张压不变或下降；此时脉压差加大，身体各部位血液重新分配，不利于紧急状态下机体能量供应的需要。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s118",
+          "paragraph": 64,
+          "corruptNow": false,
+          "original": "较大剂量静脉注射时，由于缩血管反应使收缩压和舒张压均升高。",
+          "wrongDisplay": "较大剂量静脉注射时，由于缩血管反应使收缩压和舒张压不升高。",
+          "correctOption": "较大剂量静脉注射时，由于缩血管反应使收缩压和舒张压均升高。",
+          "wrongOptions": [
+            "较大剂量口服时，由于缩血管反应使收缩压和舒张压均升高。",
+            "较小剂量静脉注射时，由于缩血管反应使收缩压和舒张压均升高。",
+            "较大剂量静脉注射时，由于缩血管反应使收缩压和舒张压均降低。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s119p1",
+          "paragraph": 64,
+          "corruptNow": true,
+          "original": "肾上腺素的典型血压改变多为双相反应，即给药后迅速出现明显的升压作用，",
+          "wrongDisplay": "肾上腺素的典型血压改变多为双相反应，即给药后缓慢出现明显的升压作用，",
+          "correctOption": "肾上腺素的典型血压改变多为双相反应，即给药后迅速出现明显的升压作用，",
+          "wrongOptions": [
+            "肾上腺素的典型血压改变多为单相反应，即给药后迅速出现明显的升压作用，",
+            "肾上腺素的典型血压改变多为双相反应，即给药后迅速出现明显的降压作用，",
+            "肾上腺素的典型血压改变多为双相反应，即给药后迅速出现轻微的升压作用，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s119p2",
+          "paragraph": 64,
+          "corruptNow": false,
+          "original": "而后出现微弱的降压反应，后者持续作用时间较长。",
+          "wrongDisplay": "而后出现微弱的降压反应，前者持续作用时间较长。",
+          "correctOption": "而后出现微弱的降压反应，后者持续作用时间较长。",
+          "wrongOptions": [
+            "而后出现强烈的降压反应，后者持续作用时间较长。",
+            "而后出现微弱的升压反应，后者持续作用时间较长。",
+            "而后出现微弱的降压反应，后者持续作用时间较短。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s120",
+          "paragraph": 64,
+          "corruptNow": false,
+          "original": "如预给α受体阻断药，肾上腺素的升压作用可被翻转，呈现明显的降压反应，表现出肾上腺素对血管β2受体的激动作用。",
+          "wrongDisplay": "如预给α受体阻断药，肾上腺素的降压作用可被翻转，呈现明显的降压反应，表现出肾上腺素对血管β2受体的激动作用。",
+          "correctOption": "如预给α受体阻断药，肾上腺素的升压作用可被翻转，呈现明显的降压反应，表现出肾上腺素对血管β2受体的激动作用。",
+          "wrongOptions": [
+            "如预给β受体阻断药，肾上腺素的升压作用可被翻转，呈现明显的降压反应，表现出肾上腺素对血管β2受体的激动作用。",
+            "如预给α受体阻断药，肾上腺素的升压作用不被翻转，呈现明显的降压反应，表现出肾上腺素对血管β2受体的激动作用。",
+            "如预给α受体阻断药，肾上腺素的升压作用可被翻转，呈现轻微的降压反应，表现出肾上腺素对血管β2受体的激动作用。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s124",
+          "paragraph": 67,
+          "corruptNow": false,
+          "original": "激动支气管平滑肌的β2受体，发挥强大的舒张支气管作用，并能抑制肥大细胞释放组胺等过敏性物质。",
+          "wrongDisplay": "激动支气管平滑肌的β2受体，发挥强大的收缩支气管作用，并能抑制肥大细胞释放组胺等过敏性物质。",
+          "correctOption": "激动支气管平滑肌的β2受体，发挥强大的舒张支气管作用，并能抑制肥大细胞释放组胺等过敏性物质。",
+          "wrongOptions": [
+            "激动支气管平滑肌的α受体，发挥强大的舒张支气管作用，并能抑制肥大细胞释放组胺等过敏性物质。",
+            "激动支气管平滑肌的β2受体，发挥微弱的舒张支气管作用，并能抑制肥大细胞释放组胺等过敏性物质。",
+            "激动支气管平滑肌的β2受体，发挥强大的舒张支气管作用，并能促进肥大细胞释放组胺等过敏性物质。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s125",
+          "paragraph": 67,
+          "corruptNow": true,
+          "original": "激动支气管黏膜血管的α受体，使其收缩，降低毛细血管的通透性，有利于消除支气管黏膜水肿。",
+          "wrongDisplay": "激动支气管黏膜血管的α受体，使其收缩，降低毛细血管的通透性，不利于消除支气管黏膜水肿。",
+          "correctOption": "激动支气管黏膜血管的α受体，使其收缩，降低毛细血管的通透性，有利于消除支气管黏膜水肿。",
+          "wrongOptions": [
+            "激动支气管黏膜血管的β2受体，使其收缩，降低毛细血管的通透性，有利于消除支气管黏膜水肿。",
+            "激动支气管黏膜血管的α受体，使其舒张，降低毛细血管的通透性，有利于消除支气管黏膜水肿。",
+            "激动支气管黏膜上皮的α受体，使其收缩，降低毛细血管的通透性，有利于消除支气管黏膜水肿。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s126p1",
+          "paragraph": 67,
+          "corruptNow": false,
+          "original": "使β1受体占优势的胃肠平滑肌张力降低、自发性收缩频率和幅度减少；",
+          "wrongDisplay": "使β1受体占优势的胃肠平滑肌张力降低、自发性收缩频率和幅度不减少；",
+          "correctOption": "使β1受体占优势的胃肠平滑肌张力降低、自发性收缩频率和幅度减少；",
+          "wrongOptions": [
+            "使α受体占优势的胃肠平滑肌张力降低、自发性收缩频率和幅度减少；",
+            "使β1受体占优势的胃肠平滑肌张力升高、自发性收缩频率和幅度减少；",
+            "使β1受体占劣势的胃肠平滑肌张力降低、自发性收缩频率和幅度减少；"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s126p2",
+          "paragraph": 67,
+          "corruptNow": false,
+          "original": "对子宫平滑肌的作用与性周期、充盈状态和给药剂量有关，",
+          "wrongDisplay": "对子宫骨骼肌的作用与性周期、充盈状态和给药剂量有关，",
+          "correctOption": "对子宫平滑肌的作用与性周期、充盈状态和给药剂量有关，",
+          "wrongOptions": [
+            "对子宫平滑肌的作用与性周期、充盈状态和给药剂量无关，",
+            "对子宫平滑肌的作用与性周期、充盈状态和给药次数有关，",
+            "对子宫平滑肌的作用与性周期、排空状态和给药剂量有关，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s126p3",
+          "paragraph": 67,
+          "corruptNow": false,
+          "original": "妊娠末期能抑制子宫张力和收缩。",
+          "wrongDisplay": "妊娠末期须抑制子宫张力和收缩。",
+          "correctOption": "妊娠末期能抑制子宫张力和收缩。",
+          "wrongOptions": [
+            "妊娠早期能抑制子宫张力和收缩。",
+            "妊娠末期能不抑制子宫张力和收缩。",
+            "妊娠末期能兴奋子宫张力和收缩。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s127",
+          "paragraph": 67,
+          "corruptNow": true,
+          "original": "肾上腺素的β受体激动作用可使膀胱逼尿肌舒张，α受体激动作用使三角肌和括约肌收缩，由此引起排尿困难和尿潴留。",
+          "wrongDisplay": "肾上腺素的β受体激动作用可使膀胱逼尿肌舒张，α受体激动作用使逼尿肌和括约肌收缩，由此引起排尿困难和尿潴留。",
+          "correctOption": "肾上腺素的β受体激动作用可使膀胱逼尿肌舒张，α受体激动作用使三角肌和括约肌收缩，由此引起排尿困难和尿潴留。",
+          "wrongOptions": [
+            "肾上腺素的α受体激动作用可使膀胱逼尿肌舒张，α受体激动作用使三角肌和括约肌收缩，由此引起排尿困难和尿潴留。",
+            "肾上腺素的β受体激动作用可使膀胱逼尿肌收缩，α受体激动作用使三角肌和括约肌收缩，由此引起排尿困难和尿潴留。",
+            "肾上腺素的β受体激动作用可使膀胱逼尿肌舒张，α受体激动作用使三角肌和括约肌收缩，由此不引起排尿困难和尿潴留。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s129",
+          "paragraph": 69,
+          "corruptNow": false,
+          "original": "肾上腺素能提高机体代谢，治疗剂量下，可使耗氧量升高20%～30%。",
+          "wrongDisplay": "肾上腺素不能提高机体代谢，治疗剂量下，可使耗氧量升高20%～30%。",
+          "correctOption": "肾上腺素能提高机体代谢，治疗剂量下，可使耗氧量升高20%～30%。",
+          "wrongOptions": [
+            "肾上腺素能提高机体代谢，治疗剂量下，可使耗氧量升高10%～30%。",
+            "肾上腺素能提高机体代谢，治疗剂量下，可使耗氧量升高20‰～30%。",
+            "肾上腺素能提高机体代谢，治疗剂量下，可使耗氧量降低20%～30%。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s130p1",
+          "paragraph": 69,
+          "corruptNow": false,
+          "original": "在人体，由于α受体和β2受体的激动都可能致肝糖原分解，",
+          "wrongDisplay": "在人体，由于α受体和β2受体的阻断都可能致肝糖原分解，",
+          "correctOption": "在人体，由于α受体和β2受体的激动都可能致肝糖原分解，",
+          "wrongOptions": [
+            "在人体，由于α受体和β2受体的激动都可能致肌糖原分解，",
+            "在人体，由于α受体和β2受体的激动都必然致肝糖原分解，",
+            "在人体，由于α受体和β2受体的激动并非都可能致肝糖原分解，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s130p2",
+          "paragraph": 69,
+          "corruptNow": false,
+          "original": "而肾上腺素兼具α、β作用，故其升高血糖作用较去甲肾上腺素显著。",
+          "wrongDisplay": "而肾上腺素兼具α、β作用，故其降低血糖作用较去甲肾上腺素显著。",
+          "correctOption": "而肾上腺素兼具α、β作用，故其升高血糖作用较去甲肾上腺素显著。",
+          "wrongOptions": [
+            "而肾上腺素兼具α、β作用，故其升高血糖作用较异丙肾上腺素显著。",
+            "而肾上腺素兼具α、β作用，故其升高血糖作用较去甲肾上腺素微弱。",
+            "而肾上腺素缺乏α、β作用，故其升高血糖作用较去甲肾上腺素显著。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s131",
+          "paragraph": 69,
+          "corruptNow": true,
+          "original": "此外，肾上腺素降低外周组织对葡萄糖的摄取，部分原因与抑制胰岛素的释放有关。",
+          "wrongDisplay": "此外，肾上腺素降低中枢组织对葡萄糖的摄取，部分原因与抑制胰岛素的释放有关。",
+          "correctOption": "此外，肾上腺素降低外周组织对葡萄糖的摄取，部分原因与抑制胰岛素的释放有关。",
+          "wrongOptions": [
+            "此外，肾上腺素升高外周组织对葡萄糖的摄取，部分原因与抑制胰岛素的释放有关。",
+            "此外，肾上腺素降低外周组织对葡萄糖的摄取，部分原因与抑制胰岛素的释放无关。",
+            "此外，肾上腺素降低外周组织对脂肪酸的摄取，部分原因与抑制胰岛素的释放有关。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s132",
+          "paragraph": 69,
+          "corruptNow": false,
+          "original": "肾上腺素激活甘油三酯酶加速脂肪分解，使血液中游离脂肪酸升高，可能与激动β1、β3受体有关。",
+          "wrongDisplay": "肾上腺素激活甘油三酯酶减慢脂肪分解，使血液中游离脂肪酸升高，可能与激动β1、β3受体有关。",
+          "correctOption": "肾上腺素激活甘油三酯酶加速脂肪分解，使血液中游离脂肪酸升高，可能与激动β1、β3受体有关。",
+          "wrongOptions": [
+            "肾上腺素激活甘油三酯酶加速脂肪分解，使血液中游离脂肪酸升高，可能与激动α1、β3受体有关。",
+            "肾上腺素激活甘油三酯酶加速脂肪分解，使血液中游离脂肪酸降低，可能与激动β1、β3受体有关。",
+            "肾上腺素不激活甘油三酯酶加速脂肪分解，使血液中游离脂肪酸升高，可能与激动β1、β3受体有关。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s135p1",
+          "paragraph": 72,
+          "corruptNow": false,
+          "original": "肾上腺素不易透过血脑屏障，治疗量时一般无明显中枢兴奋现象，",
+          "wrongDisplay": "肾上腺素不能透过血脑屏障，治疗量时一般无明显中枢兴奋现象，",
+          "correctOption": "肾上腺素不易透过血脑屏障，治疗量时一般无明显中枢兴奋现象，",
+          "wrongOptions": [
+            "肾上腺素极易透过血脑屏障，治疗量时一般无明显中枢兴奋现象，",
+            "肾上腺素不易透过血脑屏障，治疗量时一般有明显中枢兴奋现象，",
+            "肾上腺素不易透过血脑屏障，大剂量时一般无明显中枢兴奋现象，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-04-s135p2",
+          "paragraph": 72,
+          "corruptNow": false,
+          "original": "大剂量时出现中枢兴奋症状，如激动、呕吐、肌强直，甚至惊厥等。",
+          "wrongDisplay": "大剂量时出现中枢兴奋症状，如激动、呕吐、肌强直，甚至昏迷等。",
+          "correctOption": "大剂量时出现中枢兴奋症状，如激动、呕吐、肌强直，甚至惊厥等。",
+          "wrongOptions": [
+            "小剂量时出现中枢兴奋症状，如激动、呕吐、肌强直，甚至惊厥等。",
+            "大剂量时出现中枢抑制症状，如激动、呕吐、肌强直，甚至惊厥等。",
+            "大剂量时不出现中枢兴奋症状，如激动、呕吐、肌强直，甚至惊厥等。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adrenergic-agonists-05",
+      "title": "肾上腺素（二）：应用、不良反应与多巴胺（一）",
+      "order": 5,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "adrenergic-agonists-05-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "adrenergic-agonists-05-s144p1",
+            "adrenergic-agonists-05-s144p2",
+            "adrenergic-agonists-05-s144p3",
+            "adrenergic-agonists-05-s145",
+            "adrenergic-agonists-05-s148p1",
+            "adrenergic-agonists-05-s148p2",
+            "adrenergic-agonists-05-s148p3",
+            "adrenergic-agonists-05-s151",
+            "adrenergic-agonists-05-s152",
+            "adrenergic-agonists-05-s154",
+            "adrenergic-agonists-05-s158"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "adrenergic-agonists-05-s160",
+            "adrenergic-agonists-05-s161",
+            "adrenergic-agonists-05-s162",
+            "adrenergic-agonists-05-s163",
+            "adrenergic-agonists-05-s167",
+            "adrenergic-agonists-05-s169p2",
+            "adrenergic-agonists-05-s169p3",
+            "adrenergic-agonists-05-s170",
+            "adrenergic-agonists-05-s172",
+            "adrenergic-agonists-05-s173",
+            "adrenergic-agonists-05-s174p1",
+            "adrenergic-agonists-05-s174p3"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "adrenergic-agonists-05-s144p1",
+          "paragraph": 77,
+          "corruptNow": true,
+          "original": "用于溺水、麻醉和手术过程中的意外、药物中毒、传染病和心脏传导阻滞等所致的心脏骤停，",
+          "wrongDisplay": "仅用于溺水、麻醉和手术过程中的意外、药物中毒、传染病和心脏传导阻滞等所致的心脏骤停，",
+          "correctOption": "用于溺水、麻醉和手术过程中的意外、药物中毒、传染病和心脏传导阻滞等所致的心脏骤停，",
+          "wrongOptions": [
+            "不用于溺水、麻醉和手术过程中的意外、药物中毒、传染病和心脏传导阻滞等所致的心脏骤停，",
+            "用于溺水、麻醉和手术过程中的意外、药物过敏、传染病和心脏传导阻滞等所致的心脏骤停，",
+            "用于溺水、麻醉和手术过程后的意外、药物中毒、传染病和心脏传导阻滞等所致的心脏骤停，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s144p2",
+          "paragraph": 77,
+          "corruptNow": false,
+          "original": "可用肾上腺素做心室内注射，",
+          "wrongDisplay": "可用多巴胺做心室内注射，",
+          "correctOption": "可用肾上腺素做心室内注射，",
+          "wrongOptions": [
+            "可用肾上腺素做心室外注射，",
+            "可用肾上腺素做心室内滴注，",
+            "禁用肾上腺素做心室内注射，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s144p3",
+          "paragraph": 77,
+          "corruptNow": false,
+          "original": "使心脏重新起搏同时进行心脏按摩、人工呼吸和纠正酸中毒等措施。",
+          "wrongDisplay": "使心脏重新起搏同时进行心脏按摩、人工呼吸和纠正碱中毒等措施。",
+          "correctOption": "使心脏重新起搏同时进行心脏按摩、人工呼吸和纠正酸中毒等措施。",
+          "wrongOptions": [
+            "使心脏重新起搏同时停止心脏按摩、人工呼吸和纠正酸中毒等措施。",
+            "使心脏重新起搏随后进行心脏按摩、人工呼吸和纠正酸中毒等措施。",
+            "使心脏重新起搏同时进行心脏按摩、人工呼吸和加重酸中毒等措施。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s145",
+          "paragraph": 77,
+          "corruptNow": false,
+          "original": "对电击所致的心脏骤停用肾上腺素配合心脏除颤器或利多卡因等除颤。",
+          "wrongDisplay": "对电击所致的心脏骤停用肾上腺素配合心脏除颤器而非利多卡因等除颤。",
+          "correctOption": "对电击所致的心脏骤停用肾上腺素配合心脏除颤器或利多卡因等除颤。",
+          "wrongOptions": [
+            "对电击所致的心脏骤停不用肾上腺素配合心脏除颤器或利多卡因等除颤。",
+            "对电击所致的心脏骤停用肾上腺素配合心脏除颤器或阿托品等除颤。",
+            "对各种原因的心脏骤停用肾上腺素配合心脏除颤器或利多卡因等除颤。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s148p1",
+          "paragraph": 80,
+          "corruptNow": true,
+          "original": "（1）过敏性休克：肾上腺素激动α受体，收缩小动脉和毛细血管前括约肌，降低毛细血管的通透性；",
+          "wrongDisplay": "（1）过敏性休克：肾上腺素激动α受体，收缩小动脉和毛细血管后括约肌，降低毛细血管的通透性；",
+          "correctOption": "（1）过敏性休克：肾上腺素激动α受体，收缩小动脉和毛细血管前括约肌，降低毛细血管的通透性；",
+          "wrongOptions": [
+            "（1）过敏性休克：肾上腺素激动α受体，舒张小动脉和毛细血管前括约肌，降低毛细血管的通透性；",
+            "（1）过敏性休克：肾上腺素阻断α受体，收缩小动脉和毛细血管前括约肌，降低毛细血管的通透性；",
+            "（1）过敏性休克：肾上腺素激动β受体，收缩小动脉和毛细血管前括约肌，降低毛细血管的通透性；"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s148p2",
+          "paragraph": 80,
+          "corruptNow": false,
+          "original": "激动β受体可改善心功能，缓解支气管痉挛；减少过敏介质释放，扩张冠状动脉，",
+          "wrongDisplay": "激动β1受体可改善心功能，缓解支气管痉挛；减少过敏介质释放，扩张冠状动脉，",
+          "correctOption": "激动β受体可改善心功能，缓解支气管痉挛；减少过敏介质释放，扩张冠状动脉，",
+          "wrongOptions": [
+            "激动β受体不可改善心功能，缓解支气管痉挛；减少过敏介质释放，扩张冠状动脉，",
+            "激动α受体可改善心功能，缓解支气管痉挛；减少过敏介质释放，扩张冠状动脉，",
+            "激动β受体可改善心功能，缓解支气管痉挛；减少过敏介质释放，收缩冠状动脉，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s148p3",
+          "paragraph": 80,
+          "corruptNow": false,
+          "original": "可迅速缓解过敏性休克的临床症状，挽救患者的生命，为治疗过敏性休克的首选药。",
+          "wrongDisplay": "可逐渐缓解过敏性休克的临床症状，挽救患者的生命，为治疗过敏性休克的首选药。",
+          "correctOption": "可迅速缓解过敏性休克的临床症状，挽救患者的生命，为治疗过敏性休克的首选药。",
+          "wrongOptions": [
+            "不可迅速缓解过敏性休克的临床症状，挽救患者的生命，为治疗过敏性休克的首选药。",
+            "可迅速缓解过敏性休克的临床症状，挽救患者的生命，为治疗过敏性休克的次选药。",
+            "可迅速缓解过敏性休克的临床症状，危及患者的生命，为治疗过敏性休克的首选药。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s151",
+          "paragraph": 82,
+          "corruptNow": false,
+          "original": "（2）支气管哮喘：本品由于不良反应严重，仅用于急性发作者。",
+          "wrongDisplay": "（2）支气管炎：本品由于不良反应严重，仅用于急性发作者。",
+          "correctOption": "（2）支气管哮喘：本品由于不良反应严重，仅用于急性发作者。",
+          "wrongOptions": [
+            "（2）支气管哮喘：本品由于不良反应严重，不用于急性发作者。",
+            "（2）支气管哮喘：本品由于不良反应严重，仅用于慢性发作者。",
+            "（2）支气管哮喘：本品由于不良反应轻微，仅用于急性发作者。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s152",
+          "paragraph": 83,
+          "corruptNow": true,
+          "original": "（3）血管神经性水肿及血清病：肾上腺素可迅速缓解血管神经性水肿、血清病、荨麻疹、枯草热等变态反应性疾病的症状。",
+          "wrongDisplay": "（3）血管神经性水肿及血清病：肾上腺素可缓慢缓解血管神经性水肿、血清病、荨麻疹、枯草热等变态反应性疾病的症状。",
+          "correctOption": "（3）血管神经性水肿及血清病：肾上腺素可迅速缓解血管神经性水肿、血清病、荨麻疹、枯草热等变态反应性疾病的症状。",
+          "wrongOptions": [
+            "（3）血管神经性水肿及血清病：肾上腺素不可迅速缓解血管神经性水肿、血清病、荨麻疹、枯草热等变态反应性疾病的症状。",
+            "（3）血管神经性水肿及血清病：肾上腺素可迅速加重血管神经性水肿、血清病、荨麻疹、枯草热等变态反应性疾病的症状。",
+            "（3）血管神经性水肿及血清病：肾上腺素可迅速缓解血管神经性水肿、血清病、荨麻疹、百日咳等变态反应性疾病的症状。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s154",
+          "paragraph": 85,
+          "corruptNow": false,
+          "original": "肾上腺素与局麻药配伍，可延缓局麻药的吸收，延长局麻药作用时间。",
+          "wrongDisplay": "肾上腺素与局麻药配伍，可延缓局麻药的吸收，缩短局麻药作用时间。",
+          "correctOption": "肾上腺素与局麻药配伍，可延缓局麻药的吸收，延长局麻药作用时间。",
+          "wrongOptions": [
+            "肾上腺素与局麻药配伍，不可延缓局麻药的吸收，延长局麻药作用时间。",
+            "肾上腺素与局麻药配伍，可延缓局麻药的分布，延长局麻药作用时间。",
+            "肾上腺素与局麻药配伍，可加速局麻药的吸收，延长局麻药作用时间。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s158",
+          "paragraph": 87,
+          "corruptNow": false,
+          "original": "通过促进房水流出以及使β受体介导的眼内反应脱敏感化，降低眼内压。",
+          "wrongDisplay": "仅通过促进房水流出以及使β受体介导的眼内反应脱敏感化，降低眼内压。",
+          "correctOption": "通过促进房水流出以及使β受体介导的眼内反应脱敏感化，降低眼内压。",
+          "wrongOptions": [
+            "通过促进房水流出以及使α受体介导的眼内反应脱敏感化，降低眼内压。",
+            "通过促进房水流出以及使β受体介导的眼内反应敏感化，降低眼内压。",
+            "通过促进房水流出以及使β受体介导的眼内反应脱敏感化，升高眼内压。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s160",
+          "paragraph": 89,
+          "corruptNow": false,
+          "original": "主要不良反应为心悸、烦躁、头痛和血压升高等。",
+          "wrongDisplay": "主要不良反应非心悸、烦躁、头痛和血压升高等。",
+          "correctOption": "主要不良反应为心悸、烦躁、头痛和血压升高等。",
+          "wrongOptions": [
+            "主要不良反应为心悸、烦躁、头痛和血压降低等。",
+            "主要不良反应为腹泻、烦躁、头痛和血压升高等。",
+            "次要不良反应为心悸、烦躁、头痛和血压升高等。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s161",
+          "paragraph": 89,
+          "corruptNow": true,
+          "original": "剂量过大时，α受体过度兴奋使血压骤升，有发生脑出血的危险，故老年人慎用。",
+          "wrongDisplay": "剂量过大时，α受体过度兴奋使血压骤升，有发生脑出血的危险，故老年人禁用。",
+          "correctOption": "剂量过大时，α受体过度兴奋使血压骤升，有发生脑出血的危险，故老年人慎用。",
+          "wrongOptions": [
+            "剂量过大时，α受体过度兴奋使血压骤升，有发生脑出血的危险，故儿童慎用。",
+            "剂量过大时，α受体过度兴奋使血压骤升，有发生脑梗死的危险，故老年人慎用。",
+            "剂量过大时，α受体过度兴奋使血压骤降，有发生脑出血的危险，故老年人慎用。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s162",
+          "paragraph": 89,
+          "corruptNow": false,
+          "original": "当β受体兴奋过强时，可使心肌耗氧量增加，引起心肌缺血和心律失常，甚至心室纤颤，故应严格掌握剂量。",
+          "wrongDisplay": "当β受体兴奋过弱时，可使心肌耗氧量增加，引起心肌缺血和心律失常，甚至心室纤颤，故应严格掌握剂量。",
+          "correctOption": "当β受体兴奋过强时，可使心肌耗氧量增加，引起心肌缺血和心律失常，甚至心室纤颤，故应严格掌握剂量。",
+          "wrongOptions": [
+            "当α受体兴奋过强时，可使心肌耗氧量增加，引起心肌缺血和心律失常，甚至心室纤颤，故应严格掌握剂量。",
+            "当β受体兴奋过强时，可使心肌耗氧量减少，引起心肌缺血和心律失常，甚至心室纤颤，故应严格掌握剂量。",
+            "当β受体兴奋过强时，可使心肌耗氧量增加，引起心肌缺血和心律失常，甚至心室纤颤，故应随意掌握剂量。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s163",
+          "paragraph": 89,
+          "corruptNow": false,
+          "original": "禁用于高血压、脑动脉硬化、器质性心脏病、糖尿病和甲状腺功能亢进症等。",
+          "wrongDisplay": "禁用于高血压、脑动脉硬化、功能性心脏病、糖尿病和甲状腺功能亢进症等。",
+          "correctOption": "禁用于高血压、脑动脉硬化、器质性心脏病、糖尿病和甲状腺功能亢进症等。",
+          "wrongOptions": [
+            "可用于高血压、脑动脉硬化、器质性心脏病、糖尿病和甲状腺功能亢进症等。",
+            "禁用于高血压、脑动脉硬化、器质性心脏病、糖尿病和甲状腺功能减退症等。",
+            "禁用于高血压、脑动脉硬化、器质性心脏病、低血糖和甲状腺功能亢进症等。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s167",
+          "paragraph": 93,
+          "corruptNow": false,
+          "original": "多巴胺主要激动α、β和外周的多巴胺受体，并促进神经末梢释放NA。",
+          "wrongDisplay": "多巴胺主要激动α、β和中枢的多巴胺受体，并促进神经末梢释放NA。",
+          "correctOption": "多巴胺主要激动α、β和外周的多巴胺受体，并促进神经末梢释放NA。",
+          "wrongOptions": [
+            "多巴胺主要阻断α、β和外周的多巴胺受体，并促进神经末梢释放NA。",
+            "多巴胺主要激动α、β和外周的多巴胺受体，并抑制神经末梢释放NA。",
+            "多巴胺主要激动α、β和外周的M胆碱受体，并促进神经末梢释放NA。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s169p2",
+          "paragraph": 95,
+          "corruptNow": true,
+          "original": "低浓度时主要与位于肾脏、肠系膜和冠脉的多巴胺受体（D1）结合，",
+          "wrongDisplay": "低浓度时主要不与位于肾脏、肠系膜和冠脉的多巴胺受体（D1）结合，",
+          "correctOption": "低浓度时主要与位于肾脏、肠系膜和冠脉的多巴胺受体（D1）结合，",
+          "wrongOptions": [
+            "低浓度时主要与位于肾脏、肠系膜和冠脉的多巴胺受体（D2）结合，",
+            "低浓度时主要与位于肝脏、肠系膜和冠脉的多巴胺受体（D1）结合，",
+            "高浓度时主要与位于肾脏、肠系膜和冠脉的多巴胺受体（D1）结合，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s169p3",
+          "paragraph": 95,
+          "corruptNow": false,
+          "original": "通过激活腺苷酸环化酶，使细胞内cAMP水平提高而导致血管舒张。",
+          "wrongDisplay": "通过激活腺苷酸环化酶，使细胞内cAMP水平降低而导致血管舒张。",
+          "correctOption": "通过激活腺苷酸环化酶，使细胞内cAMP水平提高而导致血管舒张。",
+          "wrongOptions": [
+            "通过抑制腺苷酸环化酶，使细胞内cAMP水平提高而导致血管舒张。",
+            "通过激活磷酸二酯酶，使细胞内cAMP水平提高而导致血管舒张。",
+            "通过激活腺苷酸环化酶，使细胞外cAMP水平提高而导致血管舒张。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s170",
+          "paragraph": 95,
+          "corruptNow": false,
+          "original": "高浓度的多巴胺可作用于心脏β1受体，使心肌收缩力增强，心排出量增加。",
+          "wrongDisplay": "高浓度的多巴胺不可作用于心脏β1受体，使心肌收缩力增强，心排出量增加。",
+          "correctOption": "高浓度的多巴胺可作用于心脏β1受体，使心肌收缩力增强，心排出量增加。",
+          "wrongOptions": [
+            "低浓度的多巴胺可作用于心脏β1受体，使心肌收缩力增强，心排出量增加。",
+            "高浓度的多巴胺可作用于心脏α1受体，使心肌收缩力增强，心排出量增加。",
+            "高浓度的多巴胺可作用于心脏β1受体，使心肌收缩力减弱，心排出量增加。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s172",
+          "paragraph": 97,
+          "corruptNow": false,
+          "original": "多巴胺在高剂量可增加收缩压，但对舒张压无明显影响或轻微增加，脉压差增大。",
+          "wrongDisplay": "多巴胺在高剂量可增加收缩压，但对舒张压无明显影响或显著增加，脉压差增大。",
+          "correctOption": "多巴胺在高剂量可增加收缩压，但对舒张压无明显影响或轻微增加，脉压差增大。",
+          "wrongOptions": [
+            "多巴胺在高剂量可增加舒张压，但对舒张压无明显影响或轻微增加，脉压差增大。",
+            "多巴胺在高剂量不增加收缩压，但对舒张压无明显影响或轻微增加，脉压差增大。",
+            "多巴胺在高剂量可增加收缩压，但对舒张压无明显影响或轻微增加，脉压差减小。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s173",
+          "paragraph": 97,
+          "corruptNow": true,
+          "original": "由于心排出量增加，而肾和肠系膜血管阻力下降，其他血管阻力基本不变，总外周阻力变化不大。",
+          "wrongDisplay": "由于心排出量增加，而肾和肠系膜血管阻力下降，全部血管阻力基本不变，总外周阻力变化不大。",
+          "correctOption": "由于心排出量增加，而肾和肠系膜血管阻力下降，其他血管阻力基本不变，总外周阻力变化不大。",
+          "wrongOptions": [
+            "由于心排出量增加，而肾和肠系膜血管阻力上升，其他血管阻力基本不变，总外周阻力变化不大。",
+            "由于心排出量增加，而肾和肠系膜血管阻力下降，其他血管阻力基本不变，总外周阻力变化很大。",
+            "由于心排出量增加，而肾和肠系膜血管阻力下降，其他血管阻力基本不变，肾血管阻力变化不大。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s174p1",
+          "paragraph": 97,
+          "corruptNow": false,
+          "original": "继续增加给药浓度，多巴胺可激动血管的α受体，",
+          "wrongDisplay": "继续增加给药浓度，多巴胺可激动心脏的α受体，",
+          "correctOption": "继续增加给药浓度，多巴胺可激动血管的α受体，",
+          "wrongOptions": [
+            "继续减少给药浓度，多巴胺可激动血管的α受体，",
+            "继续增加给药浓度，多巴胺不可激动血管的α受体，",
+            "继续增加给药浓度，多巴胺可激动血管的β受体，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-05-s174p3",
+          "paragraph": 97,
+          "corruptNow": false,
+          "original": "这一作用可被α受体阻断药所拮抗。",
+          "wrongDisplay": "这一作用可被α受体阻断药所激动。",
+          "correctOption": "这一作用可被α受体阻断药所拮抗。",
+          "wrongOptions": [
+            "这一作用不被α受体阻断药所拮抗。",
+            "这一作用可被β受体阻断药所拮抗。",
+            "全部作用可被α受体阻断药所拮抗。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adrenergic-agonists-06",
+      "title": "多巴胺（二）与麻黄碱（一）",
+      "order": 6,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "adrenergic-agonists-06-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "adrenergic-agonists-06-s176",
+            "adrenergic-agonists-06-s177",
+            "adrenergic-agonists-06-s178",
+            "adrenergic-agonists-06-s181",
+            "adrenergic-agonists-06-s182",
+            "adrenergic-agonists-06-s189",
+            "adrenergic-agonists-06-s191",
+            "adrenergic-agonists-06-s192",
+            "adrenergic-agonists-06-s193",
+            "adrenergic-agonists-06-s194",
+            "adrenergic-agonists-06-s195"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "adrenergic-agonists-06-s202p2",
+            "adrenergic-agonists-06-s202p3",
+            "adrenergic-agonists-06-s203p1",
+            "adrenergic-agonists-06-s203p2",
+            "adrenergic-agonists-06-s203p3",
+            "adrenergic-agonists-06-s205",
+            "adrenergic-agonists-06-s206",
+            "adrenergic-agonists-06-s207",
+            "adrenergic-agonists-06-s209",
+            "adrenergic-agonists-06-s211"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "adrenergic-agonists-06-s176",
+          "paragraph": 99,
+          "corruptNow": true,
+          "original": "多巴胺在低浓度时作用于D1受体，舒张肾血管，使肾血流量增加，肾小球的滤过率也增加。",
+          "wrongDisplay": "多巴胺在低浓度时作用于D1受体，舒张肾血管，使肾血流量增加，肾小管的滤过率也增加。",
+          "correctOption": "多巴胺在低浓度时作用于D1受体，舒张肾血管，使肾血流量增加，肾小球的滤过率也增加。",
+          "wrongOptions": [
+            "多巴胺在低浓度时作用于D2受体，舒张肾血管，使肾血流量增加，肾小球的滤过率也增加。",
+            "多巴胺在低浓度时作用于D1受体，收缩肾血管，使肾血流量增加，肾小球的滤过率也增加。",
+            "多巴胺在高浓度时作用于D1受体，舒张肾血管，使肾血流量增加，肾小球的滤过率也增加。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s177",
+          "paragraph": 99,
+          "corruptNow": false,
+          "original": "同时多巴胺具有排钠利尿作用，可能是多巴胺直接对肾小管D1受体的作用。",
+          "wrongDisplay": "同时多巴胺具有保钠利尿作用，可能是多巴胺直接对肾小管D1受体的作用。",
+          "correctOption": "同时多巴胺具有排钠利尿作用，可能是多巴胺直接对肾小管D1受体的作用。",
+          "wrongOptions": [
+            "同时多巴胺具有排钠利尿作用，一定是多巴胺直接对肾小管D1受体的作用。",
+            "同时多巴胺具有排钠利尿作用，可能是多巴胺直接对肾小球D1受体的作用。",
+            "同时多巴胺具有排钠利尿作用，可能是多巴胺直接对肾小管D2受体的作用。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s178",
+          "paragraph": 99,
+          "corruptNow": false,
+          "original": "大剂量时兴奋肾血管的α受体，可使肾血管明显收缩。",
+          "wrongDisplay": "大剂量时抑制肾血管的α受体，可使肾血管明显收缩。",
+          "correctOption": "大剂量时兴奋肾血管的α受体，可使肾血管明显收缩。",
+          "wrongOptions": [
+            "小剂量时兴奋肾血管的α受体，可使肾血管明显收缩。",
+            "大剂量时兴奋肾血管的β受体，可使肾血管明显收缩。",
+            "大剂量时兴奋肾血管的α受体，可使肾血管明显舒张。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s181",
+          "paragraph": 101,
+          "corruptNow": false,
+          "original": "一般用静脉滴注给药，在体内迅速经MAO和COMT代谢灭活，故作用时间短暂。",
+          "wrongDisplay": "一般用静脉滴注给药，在体内缓慢经MAO和COMT代谢灭活，故作用时间短暂。",
+          "correctOption": "一般用静脉滴注给药，在体内迅速经MAO和COMT代谢灭活，故作用时间短暂。",
+          "wrongOptions": [
+            "一般用肌肉注射给药，在体内迅速经MAO和COMT代谢灭活，故作用时间短暂。",
+            "一般用静脉滴注给药，在体内迅速经PDE和COMT代谢灭活，故作用时间短暂。",
+            "一般用静脉滴注给药，在体内迅速经MAO和COMT代谢灭活，故作用时间持久。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s182",
+          "paragraph": 101,
+          "corruptNow": false,
+          "original": "因为多巴胺不易透过血脑屏障，所以外源性多巴胺无中枢作用。",
+          "wrongDisplay": "因为多巴胺不易透过胎盘屏障，所以外源性多巴胺无中枢作用。",
+          "correctOption": "因为多巴胺不易透过血脑屏障，所以外源性多巴胺无中枢作用。",
+          "wrongOptions": [
+            "因为多巴胺易透过血脑屏障，所以外源性多巴胺无中枢作用。",
+            "因为多巴胺不易透过血脑屏障，所以外源性多巴胺有中枢作用。",
+            "因为多巴胺不易透过血脑屏障，所以内源性多巴胺无中枢作用。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s189",
+          "paragraph": 104,
+          "corruptNow": true,
+          "original": "对急性心功能不全，具有改善血流动力学的作用。",
+          "wrongDisplay": "对急性肝功能不全，具有改善血流动力学的作用。",
+          "correctOption": "对急性心功能不全，具有改善血流动力学的作用。",
+          "wrongOptions": [
+            "对急性心功能不全，不具有改善血流动力学的作用。",
+            "对急性心功能不全，具有恶化血流动力学的作用。",
+            "对慢性心功能不全，具有改善血流动力学的作用。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s191",
+          "paragraph": 106,
+          "corruptNow": false,
+          "original": "一般较轻，偶见恶心、呕吐。",
+          "wrongDisplay": "个别较轻，偶见恶心、呕吐。",
+          "correctOption": "一般较轻，偶见恶心、呕吐。",
+          "wrongOptions": [
+            "一般较轻，未见恶心、呕吐。",
+            "一般较重，偶见恶心、呕吐。",
+            "一般较轻，偶见腹泻、呕吐。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s192",
+          "paragraph": 106,
+          "corruptNow": false,
+          "original": "如剂量过大或滴注太快可出现心动过速、心律失常和肾血管收缩导致肾功能下降等，一旦发生，应减慢滴注速度或停药。",
+          "wrongDisplay": "如剂量过大或滴注太快可出现心动过速、心律失常和肾血管收缩导致肾功能下降等，一旦发生，不应减慢滴注速度或停药。",
+          "correctOption": "如剂量过大或滴注太快可出现心动过速、心律失常和肾血管收缩导致肾功能下降等，一旦发生，应减慢滴注速度或停药。",
+          "wrongOptions": [
+            "如剂量过小或滴注太快可出现心动过速、心律失常和肾血管收缩导致肾功能下降等，一旦发生，应减慢滴注速度或停药。",
+            "如剂量过大或滴注太慢可出现心动过速、心律失常和肾血管收缩导致肾功能下降等，一旦发生，应减慢滴注速度或停药。",
+            "如剂量过大或滴注太快可出现心动过速、心律失常和肾血管收缩导致肾功能下降等，一旦发生，应加快滴注速度或停药。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s193",
+          "paragraph": 106,
+          "corruptNow": false,
+          "original": "如仍不消失，可用酚妥拉明拮抗。",
+          "wrongDisplay": "如仍不消失，须用酚妥拉明拮抗。",
+          "correctOption": "如仍不消失，可用酚妥拉明拮抗。",
+          "wrongOptions": [
+            "如仍不消失，可用普萘洛尔拮抗。",
+            "如仍不消失，禁用酚妥拉明拮抗。",
+            "如已消失，可用酚妥拉明拮抗。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s194",
+          "paragraph": 107,
+          "corruptNow": true,
+          "original": "与单胺氧化酶抑制剂或三环类抗抑郁药合用时，多巴胺剂量应酌减。",
+          "wrongDisplay": "与单胺氧化酶抑制剂或三环类抗抑郁药合用时，多巴胺剂量应酌增。",
+          "correctOption": "与单胺氧化酶抑制剂或三环类抗抑郁药合用时，多巴胺剂量应酌减。",
+          "wrongOptions": [
+            "与单胺氧化酶抑制剂或四环类抗抑郁药合用时，多巴胺剂量应酌减。",
+            "与单胺氧化酶抑制剂或三环类抗精神病药合用时，多巴胺剂量应酌减。",
+            "与单胺氧化酶抑制剂或三环类抗抑郁药合用时，多巴胺剂量不应酌减。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s195",
+          "paragraph": 107,
+          "corruptNow": false,
+          "original": "室性心律失常、闭塞性血管病、心肌梗死、动脉硬化和高血压患者慎用。",
+          "wrongDisplay": "房性心律失常、闭塞性血管病、心肌梗死、动脉硬化和高血压患者慎用。",
+          "correctOption": "室性心律失常、闭塞性血管病、心肌梗死、动脉硬化和高血压患者慎用。",
+          "wrongOptions": [
+            "室性心律失常、闭塞性血管病、心肌梗死、动脉硬化和高血压患者禁用。",
+            "室性心律失常、扩张性血管病、心肌梗死、动脉硬化和高血压患者慎用。",
+            "室性心律失常、闭塞性血管病、心肌梗死、动脉硬化和低血压患者慎用。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s202p2",
+          "paragraph": 111,
+          "corruptNow": false,
+          "original": "它的直接作用在不同组织可表现为激动α1、α2、β1和β2受体，",
+          "wrongDisplay": "它的间接作用在不同组织可表现为激动α1、α2、β1和β2受体，",
+          "correctOption": "它的直接作用在不同组织可表现为激动α1、α2、β1和β2受体，",
+          "wrongOptions": [
+            "它的直接作用在不同组织可表现为激动α3、α2、β1和β2受体，",
+            "它的直接作用在不同组织可表现为阻断α1、α2、β1和β2受体，",
+            "它的直接作用在同一组织可表现为激动α1、α2、β1和β2受体，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s202p3",
+          "paragraph": 111,
+          "corruptNow": false,
+          "original": "另外可促进肾上腺素能神经末梢释放去甲肾上腺素而发挥间接作用。",
+          "wrongDisplay": "另外可促进肾上腺素能神经中枢释放去甲肾上腺素而发挥间接作用。",
+          "correctOption": "另外可促进肾上腺素能神经末梢释放去甲肾上腺素而发挥间接作用。",
+          "wrongOptions": [
+            "另外可抑制肾上腺素能神经末梢释放去甲肾上腺素而发挥间接作用。",
+            "另外可促进肾上腺素能神经末梢释放肾上腺素而发挥间接作用。",
+            "另外不促进肾上腺素能神经末梢释放去甲肾上腺素而发挥间接作用。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s203p1",
+          "paragraph": 111,
+          "corruptNow": true,
+          "original": "与肾上腺素比较，麻黄碱具有下列特点：",
+          "wrongDisplay": "与肾上腺素比较，麻黄碱具有全部特点：",
+          "correctOption": "与肾上腺素比较，麻黄碱具有下列特点：",
+          "wrongOptions": [
+            "与肾上腺素相同，麻黄碱具有下列特点：",
+            "与肾上腺素比较，麻黄碱不具有下列特点：",
+            "与去甲肾上腺素比较，麻黄碱具有下列特点："
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s203p2",
+          "paragraph": 111,
+          "corruptNow": false,
+          "original": "①化学性质稳定，口服有效；②拟肾上腺素作用弱而持久；",
+          "wrongDisplay": "①化学性质稳定，舌下有效；②拟肾上腺素作用弱而持久；",
+          "correctOption": "①化学性质稳定，口服有效；②拟肾上腺素作用弱而持久；",
+          "wrongOptions": [
+            "①化学性质稳定，口服有效；②拟肾上腺素作用强而持久；",
+            "①化学性质稳定，口服有效；②拟肾上腺素作用弱而短暂；",
+            "①化学性质不稳定，口服有效；②拟肾上腺素作用弱而持久；"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s203p3",
+          "paragraph": 111,
+          "corruptNow": false,
+          "original": "③中枢兴奋作用较显著；④易产生快速耐受性。",
+          "wrongDisplay": "③外周兴奋作用较显著；④易产生快速耐受性。",
+          "correctOption": "③中枢兴奋作用较显著；④易产生快速耐受性。",
+          "wrongOptions": [
+            "③中枢兴奋作用较显著；④不易产生快速耐受性。",
+            "③中枢兴奋作用较轻微；④易产生快速耐受性。",
+            "③中枢抑制作用较显著；④易产生快速耐受性。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s205",
+          "paragraph": 113,
+          "corruptNow": false,
+          "original": "兴奋心脏，使心肌收缩力加强、心输出量增加。",
+          "wrongDisplay": "兴奋心脏，使心肌收缩力加强、回心血量增加。",
+          "correctOption": "兴奋心脏，使心肌收缩力加强、心输出量增加。",
+          "wrongOptions": [
+            "抑制心脏，使心肌收缩力加强、心输出量增加。",
+            "兴奋心脏，使心肌收缩力减弱、心输出量增加。",
+            "兴奋心脏，使心房收缩力加强、心输出量增加。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s206",
+          "paragraph": 113,
+          "corruptNow": true,
+          "original": "在整体情况下由于血压升高，反射性减慢心率，此作用可抵消其直接加快心率的作用，故心率变化不大。",
+          "wrongDisplay": "在离体情况下由于血压升高，反射性减慢心率，此作用可抵消其直接加快心率的作用，故心率变化不大。",
+          "correctOption": "在整体情况下由于血压升高，反射性减慢心率，此作用可抵消其直接加快心率的作用，故心率变化不大。",
+          "wrongOptions": [
+            "在整体情况下由于血压降低，反射性减慢心率，此作用可抵消其直接加快心率的作用，故心率变化不大。",
+            "在整体情况下由于血压升高，反射性减慢心率，此作用不可抵消其直接加快心率的作用，故心率变化不大。",
+            "在整体情况下由于血压升高，反射性减慢心率，此作用可抵消其直接加快心率的作用，故心率变化很大。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s207",
+          "paragraph": 113,
+          "corruptNow": false,
+          "original": "麻黄碱的升压作用出现缓慢，但维持时间较长。",
+          "wrongDisplay": "肾上腺素的升压作用出现缓慢，但维持时间较长。",
+          "correctOption": "麻黄碱的升压作用出现缓慢，但维持时间较长。",
+          "wrongOptions": [
+            "麻黄碱的降压作用出现缓慢，但维持时间较长。",
+            "麻黄碱的升压作用出现迅速，但维持时间较长。",
+            "麻黄碱的升压作用出现缓慢，但维持时间较短。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s209",
+          "paragraph": 115,
+          "corruptNow": false,
+          "original": "松弛支气管平滑肌作用较肾上腺素弱，起效慢，作用持久。",
+          "wrongDisplay": "松弛支气管平滑肌作用较肾上腺素弱，起效慢，作用不持久。",
+          "correctOption": "松弛支气管平滑肌作用较肾上腺素弱，起效慢，作用持久。",
+          "wrongOptions": [
+            "收缩支气管平滑肌作用较肾上腺素弱，起效慢，作用持久。",
+            "松弛支气管平滑肌作用较肾上腺素强，起效慢，作用持久。",
+            "松弛支气管平滑肌作用较肾上腺素弱，起效快，作用持久。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-06-s211",
+          "paragraph": 117,
+          "corruptNow": false,
+          "original": "具有较显著的中枢兴奋作用，较大剂量可兴奋大脑和皮层下中枢，引起精神兴奋、不安和失眠等。",
+          "wrongDisplay": "具有较显著的中枢兴奋作用，较小剂量可兴奋大脑和皮层下中枢，引起精神兴奋、不安和失眠等。",
+          "correctOption": "具有较显著的中枢兴奋作用，较大剂量可兴奋大脑和皮层下中枢，引起精神兴奋、不安和失眠等。",
+          "wrongOptions": [
+            "具有较轻微的中枢兴奋作用，较大剂量可兴奋大脑和皮层下中枢，引起精神兴奋、不安和失眠等。",
+            "具有较显著的中枢兴奋作用，较大剂量不兴奋大脑和皮层下中枢，引起精神兴奋、不安和失眠等。",
+            "具有较显著的中枢兴奋作用，较大剂量可兴奋大脑和皮层下中枢，引起精神兴奋、不安和嗜睡等。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adrenergic-agonists-07",
+      "title": "麻黄碱（二）与异丙肾上腺素（一）",
+      "order": 7,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "adrenergic-agonists-07-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "adrenergic-agonists-07-s213p1",
+            "adrenergic-agonists-07-s213p2",
+            "adrenergic-agonists-07-s216",
+            "adrenergic-agonists-07-s220",
+            "adrenergic-agonists-07-s223",
+            "adrenergic-agonists-07-s224",
+            "adrenergic-agonists-07-s225",
+            "adrenergic-agonists-07-s226",
+            "adrenergic-agonists-07-s228",
+            "adrenergic-agonists-07-s229",
+            "adrenergic-agonists-07-s232",
+            "adrenergic-agonists-07-s233"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "adrenergic-agonists-07-s236p3",
+            "adrenergic-agonists-07-s237",
+            "adrenergic-agonists-07-s239",
+            "adrenergic-agonists-07-s240",
+            "adrenergic-agonists-07-s242",
+            "adrenergic-agonists-07-s243",
+            "adrenergic-agonists-07-s244",
+            "adrenergic-agonists-07-s246p3",
+            "adrenergic-agonists-07-s248",
+            "adrenergic-agonists-07-s251",
+            "adrenergic-agonists-07-s252p1",
+            "adrenergic-agonists-07-s252p2",
+            "adrenergic-agonists-07-s252p3"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "adrenergic-agonists-07-s213p1",
+          "paragraph": 119,
+          "corruptNow": true,
+          "original": "麻黄碱短期内反复给药，作用逐渐减弱，",
+          "wrongDisplay": "麻黄碱短期内反复给药，作用从不减弱，",
+          "correctOption": "麻黄碱短期内反复给药，作用逐渐减弱，",
+          "wrongOptions": [
+            "麻黄碱短期内反复给药，作用逐渐增强，",
+            "麻黄碱短期内单次给药，作用逐渐减弱，",
+            "阿托品短期内反复给药，作用逐渐减弱，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s213p2",
+          "paragraph": 119,
+          "corruptNow": false,
+          "original": "称为快速耐受性（tachyphylaxis），也称脱敏（desensitization）。",
+          "wrongDisplay": "称为缓慢耐受性（tachyphylaxis），也称脱敏（desensitization）。",
+          "correctOption": "称为快速耐受性（tachyphylaxis），也称脱敏（desensitization）。",
+          "wrongOptions": [
+            "并非快速耐受性（tachyphylaxis），也称脱敏（desensitization）。",
+            "称为交叉耐受性（tachyphylaxis），也称脱敏（desensitization）。",
+            "称为快速耐受性（tachyphylaxis），也称增敏（desensitization）。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s216",
+          "paragraph": 119,
+          "corruptNow": false,
+          "original": "麻黄碱的快速耐受性产生的机制，一般认为有受体逐渐饱和与递质逐渐耗损两种因素。",
+          "wrongDisplay": "麻黄碱的快速耐受性产生的机制，一般认为有受体逐渐饱和与受体逐渐耗损两种因素。",
+          "correctOption": "麻黄碱的快速耐受性产生的机制，一般认为有受体逐渐饱和与递质逐渐耗损两种因素。",
+          "wrongOptions": [
+            "麻黄碱的快速耐受性产生的机制，一般认为有受体逐渐饱和与递质逐渐合成两种因素。",
+            "麻黄碱的快速耐受性产生的机制，一般认为有受体逐渐饱和与递质逐渐耗损三种因素。",
+            "麻黄碱的快速耐受性产生的部位，一般认为有受体逐渐饱和与递质逐渐耗损两种因素。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s220",
+          "paragraph": 121,
+          "corruptNow": false,
+          "original": "小部分在体内经脱胺氧化而被代谢，大部分以原形经肾排泄，消除缓慢，故作用较肾上腺素持久。",
+          "wrongDisplay": "约一半在体内经脱胺氧化而被代谢，大部分以原形经肾排泄，消除缓慢，故作用较肾上腺素持久。",
+          "correctOption": "小部分在体内经脱胺氧化而被代谢，大部分以原形经肾排泄，消除缓慢，故作用较肾上腺素持久。",
+          "wrongOptions": [
+            "小部分在体内经脱胺氧化而被代谢，大部分以原形经肝排泄，消除缓慢，故作用较肾上腺素持久。",
+            "小部分在体内经脱胺氧化而被代谢，大部分以原形经肾排泄，消除迅速，故作用较肾上腺素持久。",
+            "小部分在体内经脱胺氧化而被代谢，大部分以代谢物经肾排泄，消除缓慢，故作用较肾上腺素持久。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s223",
+          "paragraph": 123,
+          "corruptNow": false,
+          "original": "1. 用于预防支气管哮喘发作和轻症的治疗，对于重症急性发作疗效较差。",
+          "wrongDisplay": "1. 用于预防支气管哮喘发作和轻症的治疗，对于重症急性发作疗效较好。",
+          "correctOption": "1. 用于预防支气管哮喘发作和轻症的治疗，对于重症急性发作疗效较差。",
+          "wrongOptions": [
+            "1. 用于预防支气管哮喘发作和重症的治疗，对于重症急性发作疗效较差。",
+            "1. 用于预防支气管哮喘发作和轻症的治疗，对于轻症急性发作疗效较差。",
+            "1. 用于预防支气管扩张发作和轻症的治疗，对于重症急性发作疗效较差。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s224",
+          "paragraph": 124,
+          "corruptNow": true,
+          "original": "2. 消除鼻黏膜膜充血所引起的鼻塞，常用0.5%～1.0%溶液滴鼻，可明显改善黏膜肿胀。",
+          "wrongDisplay": "2. 消除鼻黏膜膜充血所引起的鼻出血，常用0.5%～1.0%溶液滴鼻，可明显改善黏膜肿胀。",
+          "correctOption": "2. 消除鼻黏膜膜充血所引起的鼻塞，常用0.5%～1.0%溶液滴鼻，可明显改善黏膜肿胀。",
+          "wrongOptions": [
+            "2. 消除鼻黏膜膜充血所引起的鼻塞，常用0.5%～1.0%溶液口服，可明显改善黏膜肿胀。",
+            "2. 消除鼻黏膜膜充血所引起的鼻塞，常用0.5%～1.0%溶液滴鼻，可明显加重黏膜肿胀。",
+            "2. 消除鼻黏膜膜充血所引起的鼻塞，禁用0.5%～1.0%溶液滴鼻，可明显改善黏膜肿胀。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s225",
+          "paragraph": 125,
+          "corruptNow": false,
+          "original": "3. 防治某些低血压状态，如用于防治硬膜外和蛛网膜下腔麻醉所引起的低血压。",
+          "wrongDisplay": "3. 防治某些低血压状态，如用于防治硬膜外和蛛网膜下腔引起麻醉的低血压。",
+          "correctOption": "3. 防治某些低血压状态，如用于防治硬膜外和蛛网膜下腔麻醉所引起的低血压。",
+          "wrongOptions": [
+            "3. 防治某些高血压状态，如用于防治硬膜外和蛛网膜下腔麻醉所引起的低血压。",
+            "3. 防治某些低血压状态，如用于防治硬膜外和蛛网膜下腔镇痛所引起的低血压。",
+            "3. 防治某些低血压状态，不用于防治硬膜外和蛛网膜下腔麻醉所引起的低血压。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s226",
+          "paragraph": 126,
+          "corruptNow": false,
+          "original": "4. 缓解荨麻疹和血管神经性水肿的皮肤黏膜症状。",
+          "wrongDisplay": "4. 缓解荨麻疹和血管神经性水肿的关节症状。",
+          "correctOption": "4. 缓解荨麻疹和血管神经性水肿的皮肤黏膜症状。",
+          "wrongOptions": [
+            "4. 加重荨麻疹和血管神经性水肿的皮肤黏膜症状。",
+            "4. 缓解湿疹和血管神经性水肿的皮肤黏膜症状。",
+            "4. 不缓解荨麻疹和血管神经性水肿的皮肤黏膜症状。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s228",
+          "paragraph": 128,
+          "corruptNow": false,
+          "original": "有时出现中枢兴奋所致的不安、失眠等，晚间服用宜加镇静催眠药防止失眠。",
+          "wrongDisplay": "有时出现中枢兴奋所致的不安、失眠等，晚间服用宜加兴奋药防止失眠。",
+          "correctOption": "有时出现中枢兴奋所致的不安、失眠等，晚间服用宜加镇静催眠药防止失眠。",
+          "wrongOptions": [
+            "有时出现中枢抑制所致的不安、失眠等，晚间服用宜加镇静催眠药防止失眠。",
+            "有时出现中枢兴奋所致的不安、失眠等，晨间服用宜加镇静催眠药防止失眠。",
+            "有时出现中枢兴奋所致的不安、失眠等，晚间服用禁用镇静催眠药防止失眠。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s229",
+          "paragraph": 128,
+          "corruptNow": true,
+          "original": "连续滴鼻治疗过久，可产生反跳性鼻黏膜充血或萎缩。",
+          "wrongDisplay": "连续滴鼻治疗过久，可产生过敏性鼻黏膜充血或萎缩。",
+          "correctOption": "连续滴鼻治疗过久，可产生反跳性鼻黏膜充血或萎缩。",
+          "wrongOptions": [
+            "连续口服治疗过久，可产生反跳性鼻黏膜充血或萎缩。",
+            "连续滴鼻治疗过久，可产生反跳性鼻黏膜充血或肥厚。",
+            "连续滴鼻治疗过久，不产生反跳性鼻黏膜充血或萎缩。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s232",
+          "paragraph": 130,
+          "corruptNow": false,
+          "original": "伪麻黄碱（pseudoephedrine）是麻黄碱的立体异构物，作用与麻黄碱相似，但升压作用和中枢作用较弱。",
+          "wrongDisplay": "伪麻黄碱（pseudoephedrine）是麻黄碱的立体异构物，作用与麻黄碱不同，但升压作用和中枢作用较弱。",
+          "correctOption": "伪麻黄碱（pseudoephedrine）是麻黄碱的立体异构物，作用与麻黄碱相似，但升压作用和中枢作用较弱。",
+          "wrongOptions": [
+            "伪麻黄碱（pseudoephedrine）是麻黄碱的代谢产物，作用与麻黄碱相似，但升压作用和中枢作用较弱。",
+            "伪麻黄碱（pseudoephedrine）是麻黄碱的立体异构物，作用与麻黄碱相似，但降压作用和中枢作用较弱。",
+            "伪麻黄碱（pseudoephedrine）是麻黄碱的立体异构物，作用与麻黄碱相似，但升压作用和中枢作用较强。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s233",
+          "paragraph": 130,
+          "corruptNow": false,
+          "original": "口服易吸收，不易被MAO代谢，大部分以原形经肾排泄，t1/2约数小时，主要用于鼻黏膜充血。",
+          "wrongDisplay": "口服易吸收，极易被MAO代谢，大部分以原形经肾排泄，t1/2约数小时，主要用于鼻黏膜充血。",
+          "correctOption": "口服易吸收，不易被MAO代谢，大部分以原形经肾排泄，t1/2约数小时，主要用于鼻黏膜充血。",
+          "wrongOptions": [
+            "口服易吸收，不易被MAO代谢，大部分以原形经肝排泄，t1/2约数小时，主要用于鼻黏膜充血。",
+            "口服易吸收，不易被MAO代谢，大部分以原形经肾排泄，t1/2约数天，主要用于鼻黏膜充血。",
+            "口服易吸收，不易被MAO代谢，小部分以原形经肾排泄，t1/2约数小时，主要用于鼻黏膜充血。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s236p3",
+          "paragraph": 132,
+          "corruptNow": false,
+          "original": "通过直接作用于肾上腺素受体和间接促进递质释放两种机制发挥作用。",
+          "wrongDisplay": "通过直接作用于肾上腺素受体和间接促进递质释放两种机制不起作用。",
+          "correctOption": "通过直接作用于肾上腺素受体和间接促进递质释放两种机制发挥作用。",
+          "wrongOptions": [
+            "通过直接作用于肾上腺素受体和间接抑制递质释放两种机制发挥作用。",
+            "通过直接作用于肾上腺素受体和间接促进递质释放三种机制发挥作用。",
+            "通过直接作用于胆碱受体和间接促进递质释放两种机制发挥作用。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s237",
+          "paragraph": 132,
+          "corruptNow": true,
+          "original": "本药能加强心肌收缩力，增加心排出量，略增加外周血管阻力，使收缩压和舒张压升高。",
+          "wrongDisplay": "本药不加强心肌收缩力，增加心排出量，略增加外周血管阻力，使收缩压和舒张压升高。",
+          "correctOption": "本药能加强心肌收缩力，增加心排出量，略增加外周血管阻力，使收缩压和舒张压升高。",
+          "wrongOptions": [
+            "本药能减弱心肌收缩力，增加心排出量，略增加外周血管阻力，使收缩压和舒张压升高。",
+            "本药能加强骨骼肌收缩力，增加心排出量，略增加外周血管阻力，使收缩压和舒张压升高。",
+            "本药能加强心肌收缩力，增加心排出量，明显增加外周血管阻力，使收缩压和舒张压升高。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s239",
+          "paragraph": 132,
+          "corruptNow": false,
+          "original": "加快心率的作用不明显，较少引起心律失常。",
+          "wrongDisplay": "加快心率的作用不明显，从不引起心律失常。",
+          "correctOption": "加快心率的作用不明显，较少引起心律失常。",
+          "wrongOptions": [
+            "加快心率的作用很明显，较少引起心律失常。",
+            "加快心率的作用不明显，较多引起心律失常。",
+            "减慢心率的作用不明显，较少引起心律失常。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s240",
+          "paragraph": 132,
+          "corruptNow": false,
+          "original": "与麻黄碱相似，也具有中枢兴奋作用。",
+          "wrongDisplay": "与麻黄碱相反，也具有中枢兴奋作用。",
+          "correctOption": "与麻黄碱相似，也具有中枢兴奋作用。",
+          "wrongOptions": [
+            "与麻黄碱相似，也具有中枢抑制作用。",
+            "与麻黄碱相似，也缺乏中枢兴奋作用。",
+            "与阿托品相似，也具有中枢兴奋作用。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s242",
+          "paragraph": 133,
+          "corruptNow": false,
+          "original": "主要用于腰麻时预防血压下降；也可用于心源性休克或其他低血压，此外尚可用0.5%溶液滴鼻治疗鼻炎。",
+          "wrongDisplay": "主要用于腰麻时预防血压下降；也可用于心源性休克或其他低血压，此外尚可用0.5%溶液口服治疗鼻炎。",
+          "correctOption": "主要用于腰麻时预防血压下降；也可用于心源性休克或其他低血压，此外尚可用0.5%溶液滴鼻治疗鼻炎。",
+          "wrongOptions": [
+            "主要用于腰麻时预防血压下降；也可用于过敏性休克或其他低血压，此外尚可用0.5%溶液滴鼻治疗鼻炎。",
+            "主要用于腰麻时预防血压下降；也可用于心源性休克或其他低血压，此外尚可用5%溶液滴鼻治疗鼻炎。",
+            "主要用于腰麻时预防血压下降；也可用于心源性休克或其他低血压，此外不可用0.5%溶液滴鼻治疗鼻炎。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s243",
+          "paragraph": 133,
+          "corruptNow": true,
+          "original": "本药可产生中枢兴奋症状，特别是过量时，可出现焦虑、精神兴奋；也可致血压过高和心律失常等。",
+          "wrongDisplay": "本药可产生中枢兴奋症状，特别是过量时，可出现抑郁、精神兴奋；也可致血压过高和心律失常等。",
+          "correctOption": "本药可产生中枢兴奋症状，特别是过量时，可出现焦虑、精神兴奋；也可致血压过高和心律失常等。",
+          "wrongOptions": [
+            "本药可产生中枢抑制症状，特别是过量时，可出现焦虑、精神兴奋；也可致血压过高和心律失常等。",
+            "本药可产生中枢兴奋症状，特别是少量时，可出现焦虑、精神兴奋；也可致血压过高和心律失常等。",
+            "本药可产生中枢兴奋症状，特别是过量时，可出现焦虑、精神兴奋；也不致血压过高和心律失常等。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s244",
+          "paragraph": 133,
+          "corruptNow": false,
+          "original": "甲状腺功能亢进患者禁用，失血性休克慎用。",
+          "wrongDisplay": "甲状腺功能亢进患者可用，失血性休克慎用。",
+          "correctOption": "甲状腺功能亢进患者禁用，失血性休克慎用。",
+          "wrongOptions": [
+            "甲状腺功能减退患者禁用，失血性休克慎用。",
+            "甲状腺功能亢进患者慎用，失血性休克慎用。",
+            "甲状腺功能亢进患者禁用，感染性休克慎用。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s246p3",
+          "paragraph": 136,
+          "corruptNow": false,
+          "original": "化学结构是去甲肾上腺素氨基上的氢原子被异丙基所取代，是经典的β1、β2受体激动剂。",
+          "wrongDisplay": "化学结构是去甲肾上腺素氨基上的氢原子被异丙基所取代，非经典的β1、β2受体激动剂。",
+          "correctOption": "化学结构是去甲肾上腺素氨基上的氢原子被异丙基所取代，是经典的β1、β2受体激动剂。",
+          "wrongOptions": [
+            "化学结构是去甲肾上腺素氨基上的氢原子被异丙基所取代，是经典的β1、β2受体阻断剂。",
+            "化学结构是去甲肾上腺素氨基上的氧原子被异丙基所取代，是经典的β1、β2受体激动剂。",
+            "化学结构是去甲肾上腺素氨基上的氢原子被异丙基所取代，是新型的β1、β2受体激动剂。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s248",
+          "paragraph": 138,
+          "corruptNow": false,
+          "original": "主要激动β受体，对β1和β2受体选择性很低。",
+          "wrongDisplay": "主要激动β受体，对β1和β2受体选择性不低。",
+          "correctOption": "主要激动β受体，对β1和β2受体选择性很低。",
+          "wrongOptions": [
+            "主要阻断β受体，对β1和β2受体选择性很低。",
+            "主要激动β受体，对β1和β2受体选择性很高。",
+            "主要激动β受体，对β1和β2受体亲和力很低。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s251",
+          "paragraph": 140,
+          "corruptNow": true,
+          "original": "对心脏β1受体具有强大的激动作用，表现为正性肌力和正性频率作用，缩短收缩期和舒张期。",
+          "wrongDisplay": "对心脏β1受体具有强大的激动作用，不表现正性肌力和正性频率作用，缩短收缩期和舒张期。",
+          "correctOption": "对心脏β1受体具有强大的激动作用，表现为正性肌力和正性频率作用，缩短收缩期和舒张期。",
+          "wrongOptions": [
+            "对心脏β1受体具有微弱的激动作用，表现为正性肌力和正性频率作用，缩短收缩期和舒张期。",
+            "对心脏β1受体具有强大的激动作用，表现为负性肌力和正性频率作用，缩短收缩期和舒张期。",
+            "对心脏α受体具有强大的激动作用，表现为正性肌力和正性频率作用，缩短收缩期和舒张期。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s252p1",
+          "paragraph": 140,
+          "corruptNow": false,
+          "original": "与肾上腺素相比，异丙肾上腺素加快心率、加速传导的作用较强，",
+          "wrongDisplay": "与肾上腺素相比，异丙肾上腺素加快心率、加速传导的作用不强，",
+          "correctOption": "与肾上腺素相比，异丙肾上腺素加快心率、加速传导的作用较强，",
+          "wrongOptions": [
+            "与肾上腺素相比，异丙肾上腺素加快心率、加速传导的作用较弱，",
+            "与肾上腺素相比，异丙肾上腺素减慢心率、加速传导的作用较强，",
+            "与肾上腺素相比，去甲肾上腺素加快心率、加速传导的作用较强，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s252p2",
+          "paragraph": 140,
+          "corruptNow": false,
+          "original": "心肌耗氧量明显增加，对窦房结有显著兴奋作用，",
+          "wrongDisplay": "心肌耗氧量轻度增加，对窦房结有显著兴奋作用，",
+          "correctOption": "心肌耗氧量明显增加，对窦房结有显著兴奋作用，",
+          "wrongOptions": [
+            "骨骼肌耗氧量明显增加，对窦房结有显著兴奋作用，",
+            "心肌耗氧量明显减少，对窦房结有显著兴奋作用，",
+            "心肌耗氧量明显增加，对窦房结无显著兴奋作用，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-07-s252p3",
+          "paragraph": 140,
+          "corruptNow": false,
+          "original": "也能引起心律失常，但较少产生心室颤动。",
+          "wrongDisplay": "不能引起心律失常，但较少产生心室颤动。",
+          "correctOption": "也能引起心律失常，但较少产生心室颤动。",
+          "wrongOptions": [
+            "也能消除心律失常，但较少产生心室颤动。",
+            "也能引起心律失常，但较多产生心室颤动。",
+            "也能引起心律失常，但较少产生心房颤动。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adrenergic-agonists-08",
+      "title": "异丙肾上腺素（二）与多巴酚丁胺（一）",
+      "order": 8,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "adrenergic-agonists-08-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "adrenergic-agonists-08-s254p1",
+            "adrenergic-agonists-08-s254p2",
+            "adrenergic-agonists-08-s255p1",
+            "adrenergic-agonists-08-s255p2",
+            "adrenergic-agonists-08-s255p3",
+            "adrenergic-agonists-08-s257",
+            "adrenergic-agonists-08-s258",
+            "adrenergic-agonists-08-s261",
+            "adrenergic-agonists-08-s262",
+            "adrenergic-agonists-08-s264p1",
+            "adrenergic-agonists-08-s264p2",
+            "adrenergic-agonists-08-s265",
+            "adrenergic-agonists-08-s266"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "adrenergic-agonists-08-s269",
+            "adrenergic-agonists-08-s270p1",
+            "adrenergic-agonists-08-s270p2",
+            "adrenergic-agonists-08-s272",
+            "adrenergic-agonists-08-s274",
+            "adrenergic-agonists-08-s276",
+            "adrenergic-agonists-08-s281p1",
+            "adrenergic-agonists-08-s281p2",
+            "adrenergic-agonists-08-s281p3",
+            "adrenergic-agonists-08-s282",
+            "adrenergic-agonists-08-s284"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "adrenergic-agonists-08-s254p1",
+          "paragraph": 142,
+          "corruptNow": true,
+          "original": "对血管有舒张作用，主要是激动β2受体使骨骼肌血管舒张，",
+          "wrongDisplay": "对血管有舒张作用，主要是激动β2受体使肾血管舒张，",
+          "correctOption": "对血管有舒张作用，主要是激动β2受体使骨骼肌血管舒张，",
+          "wrongOptions": [
+            "对血管有收缩作用，主要是激动β2受体使骨骼肌血管舒张，",
+            "对血管有舒张作用，主要是激动α受体使骨骼肌血管舒张，",
+            "对血管有舒张作用，不是激动β2受体使骨骼肌血管舒张，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s254p2",
+          "paragraph": 142,
+          "corruptNow": false,
+          "original": "对肾血管和肠系膜血管舒张作用较弱，",
+          "wrongDisplay": "对肾血管和肠系膜血管舒张作用不弱，",
+          "correctOption": "对肾血管和肠系膜血管舒张作用较弱，",
+          "wrongOptions": [
+            "对肾血管和肠系膜血管舒张作用较强，",
+            "对肾血管和肠系膜血管收缩作用较弱，",
+            "对冠脉血管和肠系膜血管舒张作用较弱，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s255p1",
+          "paragraph": 142,
+          "corruptNow": false,
+          "original": "由于心脏兴奋和外周血管舒张，使收缩压升高而舒张压略下降（图10-1），",
+          "wrongDisplay": "由于心脏兴奋和冠脉血管舒张，使收缩压升高而舒张压略下降（图10-1），",
+          "correctOption": "由于心脏兴奋和外周血管舒张，使收缩压升高而舒张压略下降（图10-1），",
+          "wrongOptions": [
+            "由于心脏兴奋和外周血管舒张，使收缩压降低而舒张压略下降（图10-1），",
+            "由于心脏兴奋和外周血管舒张，使收缩压升高而舒张压明显下降（图10-1），",
+            "由于心脏抑制和外周血管舒张，使收缩压升高而舒张压略下降（图10-1），"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s255p2",
+          "paragraph": 142,
+          "corruptNow": false,
+          "original": "此时冠脉流量增加；但如静脉注射给药，则可引起舒张压明显下降，",
+          "wrongDisplay": "此时冠脉流量增加；但如静脉注射给药，则不引起舒张压明显下降，",
+          "correctOption": "此时冠脉流量增加；但如静脉注射给药，则可引起舒张压明显下降，",
+          "wrongOptions": [
+            "此时冠脉流量减少；但如静脉注射给药，则可引起舒张压明显下降，",
+            "此时冠脉流量增加；但如口服给药，则可引起舒张压明显下降，",
+            "此时外周阻力增加；但如静脉注射给药，则可引起舒张压明显下降，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s255p3",
+          "paragraph": 142,
+          "corruptNow": true,
+          "original": "降低了冠状血管的灌注压，冠脉有效血流量不增加。",
+          "wrongDisplay": "降低了冠状血管的灌注压，全身有效血流量不增加。",
+          "correctOption": "降低了冠状血管的灌注压，冠脉有效血流量不增加。",
+          "wrongOptions": [
+            "升高了冠状血管的灌注压，冠脉有效血流量不增加。",
+            "降低了冠状血管的灌注压，冠脉有效血流量增加。",
+            "降低了肺血管的灌注压，冠脉有效血流量不增加。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s257",
+          "paragraph": 144,
+          "corruptNow": false,
+          "original": "可激动β2受体，舒张支气管平滑肌，作用比肾上腺素略强，并具有抑制组胺等过敏性物质释放的作用。",
+          "wrongDisplay": "不激动β2受体，舒张支气管平滑肌，作用比肾上腺素略强，并具有抑制组胺等过敏性物质释放的作用。",
+          "correctOption": "可激动β2受体，舒张支气管平滑肌，作用比肾上腺素略强，并具有抑制组胺等过敏性物质释放的作用。",
+          "wrongOptions": [
+            "可激动β2受体，舒张支气管平滑肌，作用比肾上腺素略弱，并具有抑制组胺等过敏性物质释放的作用。",
+            "可激动β1受体，舒张支气管平滑肌，作用比肾上腺素略强，并具有抑制组胺等过敏性物质释放的作用。",
+            "可激动β2受体，舒张支气管平滑肌，作用比肾上腺素略强，并具有促进组胺等过敏性物质释放的作用。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s258",
+          "paragraph": 144,
+          "corruptNow": false,
+          "original": "但对支气管黏膜的血管无收缩作用，故消除黏膜水肿的作用不如肾上腺素。",
+          "wrongDisplay": "但对支气管黏膜的血管无收缩作用，故消除支气管痉挛的作用不如肾上腺素。",
+          "correctOption": "但对支气管黏膜的血管无收缩作用，故消除黏膜水肿的作用不如肾上腺素。",
+          "wrongOptions": [
+            "但对支气管黏膜的血管有收缩作用，故消除黏膜水肿的作用不如肾上腺素。",
+            "但对支气管黏膜的血管无收缩作用，故消除黏膜水肿的作用强于肾上腺素。",
+            "但对支气管黏膜的血管无收缩作用，故加重黏膜水肿的作用不如肾上腺素。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s261",
+          "paragraph": 146,
+          "corruptNow": false,
+          "original": "能增加肝糖原、肌糖原分解，增加组织耗氧量。",
+          "wrongDisplay": "仅增加肝糖原、肌糖原分解，增加组织耗氧量。",
+          "correctOption": "能增加肝糖原、肌糖原分解，增加组织耗氧量。",
+          "wrongOptions": [
+            "能增加肝糖原、肌糖原合成，增加组织耗氧量。",
+            "不增加肝糖原、肌糖原分解，增加组织耗氧量。",
+            "能增加肝糖原、肌蛋白分解，增加组织耗氧量。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s262",
+          "paragraph": 146,
+          "corruptNow": true,
+          "original": "其升高血中游离脂肪酸作用与肾上腺素相似，而升高血糖作用较弱。",
+          "wrongDisplay": "其升高血中游离脂肪酸作用与肾上腺素相似，而升高血糖作用不弱。",
+          "correctOption": "其升高血中游离脂肪酸作用与肾上腺素相似，而升高血糖作用较弱。",
+          "wrongOptions": [
+            "其升高血中游离脂肪酸作用与肾上腺素相反，而升高血糖作用较弱。",
+            "其升高血中游离脂肪酸作用与肾上腺素相似，而降低血糖作用较弱。",
+            "其升高血中游离氨基酸作用与肾上腺素相似，而升高血糖作用较弱。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s264p1",
+          "paragraph": 148,
+          "corruptNow": false,
+          "original": "口服易在肠黏膜与硫酸基结合而失效；气雾剂吸入给药，吸收较快；",
+          "wrongDisplay": "口服易在胃黏膜与硫酸基结合而失效；气雾剂吸入给药，吸收较快；",
+          "correctOption": "口服易在肠黏膜与硫酸基结合而失效；气雾剂吸入给药，吸收较快；",
+          "wrongOptions": [
+            "口服易在肠黏膜与硫酸基结合而起效；气雾剂吸入给药，吸收较快；",
+            "注射易在肠黏膜与硫酸基结合而失效；气雾剂吸入给药，吸收较快；",
+            "口服易在肠黏膜与硫酸基结合而失效；气雾剂吸入给药，吸收较慢；"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s264p2",
+          "paragraph": 148,
+          "corruptNow": false,
+          "original": "舌下含药因能舒张局部血管，少量可从黏膜下的舌下静脉丛迅速吸收。",
+          "wrongDisplay": "舌下含药因能舒张局部血管，少量可从黏膜下的舌下静脉丛迅速代谢。",
+          "correctOption": "舌下含药因能舒张局部血管，少量可从黏膜下的舌下静脉丛迅速吸收。",
+          "wrongOptions": [
+            "舌下含药因能收缩局部血管，少量可从黏膜下的舌下静脉丛迅速吸收。",
+            "舌下含药因能舒张局部血管，大量可从黏膜下的舌下静脉丛迅速吸收。",
+            "舌下含药因能舒张局部血管，少量可从黏膜下的舌下静脉丛缓慢吸收。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s265",
+          "paragraph": 148,
+          "corruptNow": false,
+          "original": "吸收后主要在肝及其他组织中被COMT所代谢。",
+          "wrongDisplay": "吸收前主要在肝及其他组织中被COMT所代谢。",
+          "correctOption": "吸收后主要在肝及其他组织中被COMT所代谢。",
+          "wrongOptions": [
+            "吸收后主要在肝及其他组织中被MAO所代谢。",
+            "吸收后主要在肾及其他组织中被COMT所代谢。",
+            "吸收后几乎不在肝及其他组织中被COMT所代谢。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s266",
+          "paragraph": 148,
+          "corruptNow": true,
+          "original": "异丙肾上腺素较少被MAO代谢，也较少被去甲肾上腺素能神经所摄取，因此其作用维持时间较肾上腺素略长。",
+          "wrongDisplay": "异丙肾上腺素较少被MAO代谢，也较多被去甲肾上腺素能神经所摄取，因此其作用维持时间较肾上腺素略长。",
+          "correctOption": "异丙肾上腺素较少被MAO代谢，也较少被去甲肾上腺素能神经所摄取，因此其作用维持时间较肾上腺素略长。",
+          "wrongOptions": [
+            "异丙肾上腺素较少被COMT代谢，也较少被去甲肾上腺素能神经所摄取，因此其作用维持时间较肾上腺素略长。",
+            "异丙肾上腺素较少被MAO代谢，也较少被去甲肾上腺素能神经所释放，因此其作用维持时间较肾上腺素略长。",
+            "异丙肾上腺素较少被MAO代谢，也较少被去甲肾上腺素能神经所摄取，因此其作用维持时间较肾上腺素略短。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s269",
+          "paragraph": 151,
+          "corruptNow": false,
+          "original": "异丙肾上腺素对停搏的心脏具有起搏作用，使心脏恢复跳动。",
+          "wrongDisplay": "异丙肾上腺素对停搏的心脏具有起搏作用，使冠脉恢复跳动。",
+          "correctOption": "异丙肾上腺素对停搏的心脏具有起搏作用，使心脏恢复跳动。",
+          "wrongOptions": [
+            "异丙肾上腺素对停搏的心脏具有抑制作用，使心脏恢复跳动。",
+            "异丙肾上腺素对停搏的心脏缺乏起搏作用，使心脏恢复跳动。",
+            "多巴酚丁胺对停搏的心脏具有起搏作用，使心脏恢复跳动。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s270p1",
+          "paragraph": 151,
+          "corruptNow": false,
+          "original": "适用于心室自身节律缓慢，高度房室传导阻滞或窦房结功能衰竭而并发的心脏骤停，",
+          "wrongDisplay": "适用于心室自身节律缓慢，高度室内传导阻滞或窦房结功能衰竭而并发的心脏骤停，",
+          "correctOption": "适用于心室自身节律缓慢，高度房室传导阻滞或窦房结功能衰竭而并发的心脏骤停，",
+          "wrongOptions": [
+            "适用于心室自身节律过快，高度房室传导阻滞或窦房结功能衰竭而并发的心脏骤停，",
+            "适用于心室自身节律缓慢，轻度房室传导阻滞或窦房结功能衰竭而并发的心脏骤停，",
+            "禁用于心室自身节律缓慢，高度房室传导阻滞或窦房结功能衰竭而并发的心脏骤停，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s270p2",
+          "paragraph": 151,
+          "corruptNow": false,
+          "original": "常与去甲肾上腺素或间羟胺合用作心室内注射。",
+          "wrongDisplay": "常与去甲肾上腺素或间羟胺合用作心包内注射。",
+          "correctOption": "常与去甲肾上腺素或间羟胺合用作心室内注射。",
+          "wrongOptions": [
+            "常与去甲肾上腺素或多巴胺合用作心室内注射。",
+            "禁与去甲肾上腺素或间羟胺合用作心室内注射。",
+            "常与去甲肾上腺素或间羟胺单用作心室内注射。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s272",
+          "paragraph": 153,
+          "corruptNow": true,
+          "original": "舌下含药或静脉滴注给药，治疗Ⅱ度、Ⅲ度房室传导阻滞。",
+          "wrongDisplay": "舌下含药或心室内注射给药，治疗Ⅱ度、Ⅲ度房室传导阻滞。",
+          "correctOption": "舌下含药或静脉滴注给药，治疗Ⅱ度、Ⅲ度房室传导阻滞。",
+          "wrongOptions": [
+            "口服给药或静脉滴注给药，治疗Ⅱ度、Ⅲ度房室传导阻滞。",
+            "舌下含药或静脉滴注给药，治疗Ⅰ度、Ⅲ度房室传导阻滞。",
+            "舌下含药或静脉滴注给药，不治疗Ⅱ度、Ⅲ度房室传导阻滞。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s274",
+          "paragraph": 155,
+          "corruptNow": false,
+          "original": "用于控制支气管哮喘急性发作，舌下或喷雾给药，疗效快而强。",
+          "wrongDisplay": "不用于控制支气管哮喘急性发作，舌下或喷雾给药，疗效快而强。",
+          "correctOption": "用于控制支气管哮喘急性发作，舌下或喷雾给药，疗效快而强。",
+          "wrongOptions": [
+            "用于控制支气管哮喘慢性发作，舌下或喷雾给药，疗效快而强。",
+            "用于控制支气管哮喘急性发作，口服或喷雾给药，疗效快而强。",
+            "用于控制支气管哮喘急性发作，舌下或喷雾给药，疗效慢而弱。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s276",
+          "paragraph": 157,
+          "corruptNow": false,
+          "original": "适用于中心静脉压高、心输出量低的感染性休克，但要注意补液及心脏毒性。",
+          "wrongDisplay": "适用于外周静脉压高、心输出量低的感染性休克，但要注意补液及心脏毒性。",
+          "correctOption": "适用于中心静脉压高、心输出量低的感染性休克，但要注意补液及心脏毒性。",
+          "wrongOptions": [
+            "适用于中心静脉压低、心输出量低的感染性休克，但要注意补液及心脏毒性。",
+            "适用于中心静脉压高、心输出量低的心源性休克，但要注意补液及心脏毒性。",
+            "适用于中心静脉压高、心输出量低的感染性休克，但不必注意补液及心脏毒性。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s281p1",
+          "paragraph": 159,
+          "corruptNow": false,
+          "original": "在支气管哮喘患者，已具缺氧状态，加之气雾剂剂量不易掌握，",
+          "wrongDisplay": "在支气管哮喘患者，未有缺氧状态，加之气雾剂剂量不易掌握，",
+          "correctOption": "在支气管哮喘患者，已具缺氧状态，加之气雾剂剂量不易掌握，",
+          "wrongOptions": [
+            "在支气管哮喘健康人，已具缺氧状态，加之气雾剂剂量不易掌握，",
+            "在支气管哮喘患者，已具缺氧状态，加之气雾剂剂量易于掌握，",
+            "在支气管哮喘患者，已具缺氧状态，加之片剂剂量不易掌握，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s281p2",
+          "paragraph": 159,
+          "corruptNow": true,
+          "original": "如剂量过大，可致心肌耗氧量增加，引起心律失常，",
+          "wrongDisplay": "如剂量过大，不致心肌耗氧量增加，引起心律失常，",
+          "correctOption": "如剂量过大，可致心肌耗氧量增加，引起心律失常，",
+          "wrongOptions": [
+            "如剂量过小，可致心肌耗氧量增加，引起心律失常，",
+            "如剂量过大，可致心肌耗氧量减少，引起心律失常，",
+            "如剂量过大，可致骨骼肌耗氧量增加，引起心律失常，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s281p3",
+          "paragraph": 159,
+          "corruptNow": false,
+          "original": "甚至产生危险的心动过速及心室颤动。",
+          "wrongDisplay": "甚至避免危险的心动过速及心室颤动。",
+          "correctOption": "甚至产生危险的心动过速及心室颤动。",
+          "wrongOptions": [
+            "甚至产生危险的心动过缓及心室颤动。",
+            "甚至产生危险的心动过速及心房颤动。",
+            "甚至产生安全的心动过速及心室颤动。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s282",
+          "paragraph": 159,
+          "corruptNow": false,
+          "original": "禁用于冠心病、心肌炎和甲状腺功能亢进症等。",
+          "wrongDisplay": "可用于冠心病、心肌炎和甲状腺功能亢进症等。",
+          "correctOption": "禁用于冠心病、心肌炎和甲状腺功能亢进症等。",
+          "wrongOptions": [
+            "慎用于冠心病、心肌炎和甲状腺功能亢进症等。",
+            "禁用于冠心病、心肌炎和甲状腺功能减退症等。",
+            "禁用于冠心病、心包炎和甲状腺功能亢进症等。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-08-s284",
+          "paragraph": 161,
+          "corruptNow": false,
+          "original": "多巴酚丁胺（dobutamine）为人工合成品，其化学结构和体内过程与多巴胺相似，口服无效，仅供静脉注射给药。",
+          "wrongDisplay": "多巴酚丁胺（dobutamine）为人工合成品，其化学结构和体内过程与多巴胺相似，口服无效，仅供皮下注射给药。",
+          "correctOption": "多巴酚丁胺（dobutamine）为人工合成品，其化学结构和体内过程与多巴胺相似，口服无效，仅供静脉注射给药。",
+          "wrongOptions": [
+            "多巴酚丁胺（dobutamine）为人工合成品，其化学结构和体内过程与多巴胺相似，口服有效，仅供静脉注射给药。",
+            "多巴酚丁胺（dobutamine）为天然提取品，其化学结构和体内过程与多巴胺相似，口服无效，仅供静脉注射给药。",
+            "多巴酚丁胺（dobutamine）为人工合成品，其化学结构和体内过程与多巴胺相反，口服无效，仅供静脉注射给药。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adrenergic-agonists-09",
+      "title": "多巴酚丁胺（二）",
+      "order": 9,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "adrenergic-agonists-09-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "adrenergic-agonists-09-s287",
+            "adrenergic-agonists-09-s288",
+            "adrenergic-agonists-09-s289",
+            "adrenergic-agonists-09-s290",
+            "adrenergic-agonists-09-s292",
+            "adrenergic-agonists-09-s293",
+            "adrenergic-agonists-09-s294",
+            "adrenergic-agonists-09-s296p1",
+            "adrenergic-agonists-09-s296p2",
+            "adrenergic-agonists-09-s296p3",
+            "adrenergic-agonists-09-s298",
+            "adrenergic-agonists-09-s300"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "adrenergic-agonists-09-s287",
+          "paragraph": 164,
+          "corruptNow": true,
+          "original": "多巴酚丁胺是含有右旋多巴酚丁胺和左旋多巴酚丁胺的消旋体。",
+          "wrongDisplay": "多巴酚丁胺是含有右旋多巴酚丁胺和左旋多巴酚丁胺的3:1混合体。",
+          "correctOption": "多巴酚丁胺是含有右旋多巴酚丁胺和左旋多巴酚丁胺的消旋体。",
+          "wrongOptions": [
+            "多巴酚丁胺是含有左旋多巴酚丁胺和左旋多巴酚丁胺的消旋体。",
+            "多巴酚丁胺不是含有右旋多巴酚丁胺和左旋多巴酚丁胺的消旋体。",
+            "多巴酚丁胺是含有右旋多巴酚丁胺和左旋多巴酚丁胺的单一构型。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-09-s288",
+          "paragraph": 164,
+          "corruptNow": false,
+          "original": "前者阻断α1受体，后者激动α1受体，对α受体的作用因此而抵消。",
+          "wrongDisplay": "前者阻断α1受体，后者激动α1受体，对α受体的作用并非因此抵消。",
+          "correctOption": "前者阻断α1受体，后者激动α1受体，对α受体的作用因此而抵消。",
+          "wrongOptions": [
+            "后者阻断α1受体，后者激动α1受体，对α受体的作用因此而抵消。",
+            "前者激活α1受体，后者激动α1受体，对α受体的作用因此而抵消。",
+            "前者阻断α1受体，后者激动α1受体，对α受体的作用因此而叠加。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-09-s289",
+          "paragraph": 164,
+          "corruptNow": false,
+          "original": "两者都激动β受体，但前者激动β受体作用为后者的10倍。",
+          "wrongDisplay": "两者都阻断β受体，但前者激动β受体作用为后者的10倍。",
+          "correctOption": "两者都激动β受体，但前者激动β受体作用为后者的10倍。",
+          "wrongOptions": [
+            "两者都激动β受体，但前者激动β受体作用为后者的2倍。",
+            "两者都激动β受体，但后者激动β受体作用为后者的10倍。",
+            "两者都不激动β受体，但前者激动β受体作用为后者的10倍。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-09-s290",
+          "paragraph": 164,
+          "corruptNow": false,
+          "original": "消旋多巴酚丁胺的作用是两者的综合结果，主要表现激动β1受体。",
+          "wrongDisplay": "消旋多巴酚丁胺的作用是两者的综合结果，唯一表现激动β1受体。",
+          "correctOption": "消旋多巴酚丁胺的作用是两者的综合结果，主要表现激动β1受体。",
+          "wrongOptions": [
+            "左旋多巴酚丁胺的作用是两者的综合结果，主要表现激动β1受体。",
+            "消旋多巴酚丁胺的作用不是两者的综合结果，主要表现激动β1受体。",
+            "消旋多巴酚丁胺的作用是两者的综合结果，主要表现阻断β1受体。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-09-s292",
+          "paragraph": 165,
+          "corruptNow": true,
+          "original": "很少增加心肌耗氧量，也较少引起心动过速；静滴速度过快或浓度过高时，则引起心率加快。",
+          "wrongDisplay": "很少增加心肌耗氧量，也较少引起心动过速；口服速度过快或浓度过高时，则引起心率加快。",
+          "correctOption": "很少增加心肌耗氧量，也较少引起心动过速；静滴速度过快或浓度过高时，则引起心率加快。",
+          "wrongOptions": [
+            "明显增加心肌耗氧量，也较少引起心动过速；静滴速度过快或浓度过高时，则引起心率加快。",
+            "很少增加心肌耗氧量，也较少引起心动过速；静滴速度过快或浓度过高时，则不引起心率加快。",
+            "很少增加心肌耗氧量，也较少引起心动过速；静滴速度过快或浓度过高时，则引起心率减慢。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-09-s293",
+          "paragraph": 165,
+          "corruptNow": false,
+          "original": "这可能由于外周阻力变化不大和心脏β1受体激动时正性肌力作用的参与。",
+          "wrongDisplay": "这不可能由于外周阻力变化不大和心脏β1受体激动时正性肌力作用的参与。",
+          "correctOption": "这可能由于外周阻力变化不大和心脏β1受体激动时正性肌力作用的参与。",
+          "wrongOptions": [
+            "这可能由于外周阻力变化很大和心脏β1受体激动时正性肌力作用的参与。",
+            "这可能由于外周阻力变化不大和心脏β1受体阻断时正性肌力作用的参与。",
+            "这可能由于外周阻力变化不大和心脏α1受体激动时正性肌力作用的参与。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-09-s294",
+          "paragraph": 165,
+          "corruptNow": false,
+          "original": "而外周阻力的稳定又可能是因为α1受体介导的血管收缩作用与β2受体介导的血管舒张作用相抵消所致。",
+          "wrongDisplay": "而外周阻力的稳定又不可能是因为α1受体介导的血管收缩作用与β2受体介导的血管舒张作用相抵消所致。",
+          "correctOption": "而外周阻力的稳定又可能是因为α1受体介导的血管收缩作用与β2受体介导的血管舒张作用相抵消所致。",
+          "wrongOptions": [
+            "而外周阻力的稳定又可能是因为β2受体介导的血管收缩作用与β2受体介导的血管舒张作用相抵消所致。",
+            "而外周阻力的稳定又可能是因为α1受体介导的血管舒张作用与β2受体介导的血管舒张作用相抵消所致。",
+            "而外周阻力的不稳定又可能是因为α1受体介导的血管收缩作用与β2受体介导的血管舒张作用相抵消所致。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-09-s296p1",
+          "paragraph": 167,
+          "corruptNow": false,
+          "original": "主要用于治疗心肌梗死并发心力衰竭，多巴酚丁胺可增加心肌收缩力，",
+          "wrongDisplay": "主要用于治疗心肌梗死并发心力衰竭，多巴酚丁胺不可增加心肌收缩力，",
+          "correctOption": "主要用于治疗心肌梗死并发心力衰竭，多巴酚丁胺可增加心肌收缩力，",
+          "wrongOptions": [
+            "仅用于治疗心肌梗死并发心力衰竭，多巴酚丁胺可增加心肌收缩力，",
+            "主要用于治疗心绞痛并发心力衰竭，多巴酚丁胺可增加心肌收缩力，",
+            "主要用于治疗心肌梗死并发心力衰竭，多巴酚丁胺可降低心肌收缩力，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-09-s296p2",
+          "paragraph": 167,
+          "corruptNow": true,
+          "original": "增加心输出量和降低肺毛细血管楔压，并使左室充盈压明显降低，使心功能改善，",
+          "wrongDisplay": "增加心输出量和降低肺毛细血管楔压，并使左室充盈压明显降低，使心功能完全恢复，",
+          "correctOption": "增加心输出量和降低肺毛细血管楔压，并使左室充盈压明显降低，使心功能改善，",
+          "wrongOptions": [
+            "降低心输出量和降低肺毛细血管楔压，并使左室充盈压明显降低，使心功能改善，",
+            "增加心输出量和降低肺毛细血管楔压，并不使左室充盈压明显降低，使心功能改善，",
+            "增加心输出量和降低肺毛细血管楔压，并使右室充盈压明显降低，使心功能改善，"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-09-s296p3",
+          "paragraph": 167,
+          "corruptNow": false,
+          "original": "继发地促进排钠、排水、增加尿量，有利于消除水肿。",
+          "wrongDisplay": "继发地促进排钠、排水、增加尿量，有利于消除脱水。",
+          "correctOption": "继发地促进排钠、排水、增加尿量，有利于消除水肿。",
+          "wrongOptions": [
+            "继发地促进排钠、排水、减少尿量，有利于消除水肿。",
+            "继发地促进排钠、排水、增加尿量，不利于消除水肿。",
+            "继发地促进保钠、排水、增加尿量，有利于消除水肿。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-09-s298",
+          "paragraph": 169,
+          "corruptNow": false,
+          "original": "用药期间可引起血压升高、心悸、头痛、气短等不良反应。",
+          "wrongDisplay": "用药期间可引起血压升高、心悸、头痛、气短等治疗作用。",
+          "correctOption": "用药期间可引起血压升高、心悸、头痛、气短等不良反应。",
+          "wrongOptions": [
+            "用药期间不引起血压升高、心悸、头痛、气短等不良反应。",
+            "停药期间可引起血压升高、心悸、头痛、气短等不良反应。",
+            "用药期间必定引起血压升高、心悸、头痛、气短等不良反应。"
+          ]
+        },
+        {
+          "id": "adrenergic-agonists-09-s300",
+          "paragraph": 169,
+          "corruptNow": false,
+          "original": "梗阻型肥厚性心肌病患者禁用，因其可促进房室传导。",
+          "wrongDisplay": "扩张型心肌病患者禁用，因其可促进房室传导。",
+          "correctOption": "梗阻型肥厚性心肌病患者禁用，因其可促进房室传导。",
+          "wrongOptions": [
+            "梗阻型肥厚性心肌病患者禁用，因其可阻滞房室传导。",
+            "梗阻型肥厚性心肌病患者首选，因其可促进房室传导。",
+            "梗阻型肥厚性心肌病患者禁用，因其不促进房室传导。"
+          ]
+        }
+      ]
+    }
+  ]
+}

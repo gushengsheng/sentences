@@ -149,6 +149,9 @@ export interface MatchState {
   lastGrant: Record<Side, number>;
   /** 信息栏快照：只在回合结束时更新，显示上一回合的状态 */
   ledger: Record<Side, { correct: number; wrong: number }>;
+  /** 最近一次动作事件，供棋盘反馈 */
+  eventSeq: number;
+  lastEvent: { kind: 'convert'; unitId: string; side: Side } | null;
   ended: boolean;
   winner: Side | null;
   finalIncome: Record<Side, number> | null;
@@ -270,6 +273,8 @@ export function createMatch(
     pendingAp: { A: 1, B: 1 },
     lastGrant: { A: 0, B: 0 },
     ledger: { A: { correct: 0, wrong: 0 }, B: { correct: 0, wrong: 0 } },
+    eventSeq: 0,
+    lastEvent: null,
     ended: false,
     winner: null,
     finalIncome: null,
@@ -360,11 +365,13 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       const cell = s.cells[action.unitId];
       if (!cell) return { state, error: '句子不存在' };
       if (cell.owner === null) return { state, error: '该句子无主' };
-      if (cell.owner === s.turn) return { state, error: '不能转化己方句子' };
+      if (cell.owner === s.turn) return { state, error: '不能进攻己方句子' };
       if (s.ap[s.turn] < 2) return { state, error: 'AP 不足' };
       s.ap[s.turn] -= 2;
       cell.owner = null;
-      s.log.push(`${s.turn} 转化 ${action.unitId}`);
+      s.log.push(`${s.turn} 进攻 ${action.unitId}`);
+      s.eventSeq += 1;
+      s.lastEvent = { kind: 'convert', unitId: action.unitId, side: s.turn };
       return { state: s };
     }
 

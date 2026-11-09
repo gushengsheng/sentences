@@ -315,6 +315,7 @@ export default function App() {
           rounds={screen.rounds}
           mode={screen.mode}
           aiSpeed={screen.aiSpeed ?? 550}
+          settings={settings}
           presetId={screen.presetId}
           presetBId={screen.presetB ?? screen.presetId}
           custom={custom}

@@ -37,7 +37,8 @@ function validateFragment(frag, tag) {
     const opts = [u.correctOption, ...(u.wrongOptions ?? [])];
     const optSet = new Set(opts);
     if (optSet.size !== 4) fail(`${t}：4 个选项不唯一`);
-    if (optSet.has(u.original)) fail(`${t}：原文与某个选项重复`);
+    // 允许 correctOption === original；只拦「原文混入错误选项」
+    if ((u.wrongOptions ?? []).includes(u.original)) fail(`${t}：原文混入错误选项`);
     if (optSet.has(u.wrongDisplay)) fail(`${t}：wrongDisplay 与某个选项重复`);
     if (u.original === u.wrongDisplay) fail(`${t}：原文与篡改版相同`);
 

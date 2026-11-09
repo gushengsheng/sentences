@@ -469,6 +469,33 @@ export function SettingsScreen({
           />
         </label>
 
+        <label className="field row">
+          <span>棋盘闪光</span>
+          <input
+            type="checkbox"
+            checked={settings.flashBoard}
+            onChange={(e) => onChange({ ...settings, flashBoard: e.target.checked })}
+          />
+        </label>
+
+        <label className="field row">
+          <span>回合横幅</span>
+          <input
+            type="checkbox"
+            checked={settings.turnBanner}
+            onChange={(e) => onChange({ ...settings, turnBanner: e.target.checked })}
+          />
+        </label>
+
+        <label className="field row">
+          <span>震动反馈</span>
+          <input
+            type="checkbox"
+            checked={settings.vibrate}
+            onChange={(e) => onChange({ ...settings, vibrate: e.target.checked })}
+          />
+        </label>
+
         <div className="divider" />
 
         <div className="field row">

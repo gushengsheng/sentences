@@ -12,7 +12,7 @@ import {
   type Side,
 } from './engine';
 import { decideNext, newAiMemory, presetById, type AiConfig } from './ai';
-import { clearSave, ratingFor, writeSave, type Difficulty } from './store';
+import { clearSave, ratingFor, writeSave, type Difficulty, type Settings } from './store';
 
 interface GameProps {
   book: Book;
@@ -21,6 +21,7 @@ interface GameProps {
   rounds: number;
   mode: 'ai' | 'hotseat' | 'spectate';
   aiSpeed: number;
+  settings: Settings;
   presetId: string;
   presetBId: string;
   custom: AiConfig;
@@ -43,7 +44,7 @@ function randomSeed() {
 }
 
 export default function Game(props: GameProps) {
-  const { book, chapter, fragmentId, rounds, mode, aiSpeed, presetId, presetBId, custom, difficulty, initialState, onExit, onFinish } =
+  const { book, chapter, fragmentId, rounds, mode, aiSpeed, settings, presetId, presetBId, custom, difficulty, initialState, onExit, onFinish } =
     props;
 
   const meta = useMemo(
@@ -65,6 +66,10 @@ export default function Game(props: GameProps) {
   const [toast, setToast] = useState<string | null>(null);
   const [flash, setFlash] = useState<{ ok: boolean } | null>(null);
   const [quake, setQuake] = useState<{ title: string; sub: string } | null>(null);
+  const [picked, setPicked] = useState<{ id: string; ok: boolean } | null>(null);
+  const [flashUnit, setFlashUnit] = useState<{ id: string; ok: boolean } | null>(null);
+  const [banner, setBanner] = useState<string | null>(null);
+  const bannerShown = useRef(false);
   const lastPulse = useRef(0);
 
   const memA = useRef(newAiMemory());
@@ -125,6 +130,24 @@ export default function Game(props: GameProps) {
     return () => window.clearTimeout(timer);
   }, [match, mode, configA, configB, aiSpeed, presetId, presetBId, custom, quake]);
 
+  // 被进攻时棋盘红闪
+  useEffect(() => {
+    if (!settings.flashBoard) return;
+    const evt = match.lastEvent;
+    if (!evt || evt.kind !== 'convert') return;
+    setFlashUnit({ id: evt.unitId, ok: false });
+    const t = window.setTimeout(() => setFlashUnit(null), 900);
+    return () => window.clearTimeout(t);
+  }, [match.eventSeq, settings.flashBoard]);
+
+  // 第 1 回合横幅
+  useEffect(() => {
+    if (!settings.turnBanner || bannerShown.current) return;
+    if (match.round !== 1) return;
+    bannerShown.current = true;
+    showBanner(1);
+  }, [match.round, settings.turnBanner]);
+
   const pages = match.pages ?? [];
   const page = pages[Math.min(pageIdx, Math.max(0, pages.length - 1))];
 
@@ -144,6 +167,16 @@ export default function Game(props: GameProps) {
     if (mode === 'hotseat') return s === 'A' ? '甲方' : '乙方';
     if (mode === 'spectate') return s === 'A' ? '甲·AI' : '乙·AI';
     return s === 'A' ? '你' : '电脑';
+  }
+
+  function closeModal() {
+    setPicked(null);
+    setModalUnit(null);
+  }
+
+  function showBanner(round: number) {
+    setBanner('第 ' + round + ' 回合');
+    window.setTimeout(() => setBanner(null), 1100);
   }
 
   function notify(msg: string) {
@@ -168,6 +201,7 @@ export default function Game(props: GameProps) {
     reported.current = false;
     memA.current = newAiMemory();
     memB.current = newAiMemory();
+    bannerShown.current = false;
     setMatch(createMatch(chapter, fragmentId, rounds, randomSeed(), meta));
     setPageIdx(0);
     setSelected(null);
@@ -217,6 +251,8 @@ export default function Game(props: GameProps) {
         </div>
       </header>
 
+      {banner && <div className="round-banner">{banner}</div>}
+
       <main className="board">
         {paragraphs.map((g) => (
           <p className="para" key={g.paragraph}>
@@ -245,6 +281,7 @@ export default function Game(props: GameProps) {
                 'owned',
                 cell.owner ? cell.owner.toLowerCase() : 'blank',
                 selected === id ? 'selected' : '',
+                flashUnit && flashUnit.id === id ? (flashUnit.ok ? 'flash-ok' : 'flash-bad') : '',
               ]
                 .filter(Boolean)
                 .join(' ');
@@ -310,7 +347,10 @@ export default function Game(props: GameProps) {
                 <button
                   className="primary"
                   disabled={match.ap[match.turn] < 1}
-                  onClick={() => setModalUnit(selected)}
+                  onClick={() => {
+                    setPicked(null);
+                    setModalUnit(selected);
+                  }}
                 >
                   修正 · 1 AP
                 </button>
@@ -333,7 +373,7 @@ export default function Game(props: GameProps) {
                   setSelected(null);
                 }}
               >
-                转化 · 2 AP
+                进攻 · 2 AP
               </button>
             )}
           </div>
@@ -377,22 +417,42 @@ export default function Game(props: GameProps) {
       </footer>
 
       {modalUnit && (
-        <div className="overlay" onClick={() => setModalUnit(null)}>
+        <div className="overlay" onClick={closeModal}>
           <div className="modal" onClick={(e) => e.stopPropagation()}>
             <h3>修正</h3>
             <p className="muted">选出忠实于原文的那一句。选错会让这句变成错误。</p>
-            {match.units[modalUnit].options.map((o) => (
-              <button
-                key={o.id}
-                className="option"
-                onClick={() => {
-                  run({ kind: 'correct', unitId: modalUnit, optionId: o.id });
-                  setModalUnit(null);
-                }}
-              >
-                {o.text}
-              </button>
-            ))}
+            {match.units[modalUnit].options.map((o) => {
+              const mark = picked && picked.id === o.id ? (picked.ok ? 'ok' : 'bad') : '';
+              return (
+                <button
+                  key={o.id}
+                  className={'option ' + mark}
+                  disabled={!!picked}
+                  onClick={() => {
+                    const r = apply(match, { kind: 'correct', unitId: modalUnit, optionId: o.id });
+                    if (r.error) {
+                      notify(r.error);
+                      return;
+                    }
+                    setMatch({ ...match });
+                    setPicked({ id: o.id, ok: !!r.correctResult });
+                    setFlash({ ok: !!r.correctResult });
+                    setFlashUnit({ id: modalUnit, ok: !!r.correctResult });
+                    window.setTimeout(() => setFlashUnit(null), 900);
+                    if (settings.vibrate && typeof navigator !== 'undefined' && navigator.vibrate) {
+                      navigator.vibrate(r.correctResult ? 20 : 60);
+                    }
+                    window.setTimeout(() => {
+                      setFlash(null);
+                      setPicked(null);
+                      setModalUnit(null);
+                    }, 750);
+                  }}
+                >
+                  {o.text}
+                </button>
+              );
+            })}
           </div>
         </div>
       )}
@@ -406,7 +466,7 @@ export default function Game(props: GameProps) {
       {toast && <div className="toast">{toast}</div>}
 
       {quake && (
-        <div className="overlay quake-overlay" onClick={() => setQuake(null)}>
+        <div className="overlay quake-overlay" onClick={() => { setQuake(null); if (settings.turnBanner) showBanner(match.round); }}>
           <div className="cataclysm">
             <h2>{quake.title}</h2>
             <p>{quake.sub}</p>
