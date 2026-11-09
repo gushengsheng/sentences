@@ -66,7 +66,7 @@ export default function Game(props: GameProps) {
   useEffect(() => {
     if (match.ended) return;
     writeSave({
-      schemaVersion: 2,
+      schemaVersion: 3,
       bookId: match.bookId,
       chapterId: match.chapterId,
       fragmentId: match.fragmentId,
@@ -150,8 +150,8 @@ export default function Game(props: GameProps) {
     setModalUnit(null);
   }
 
-  const currentTally = tally(match, match.turn);
-  const currentIncome = incomeOf(match, match.turn);
+  const ledger = match.ledger[match.turn];
+  const currentIncome = match.lastGrant[match.turn];
   const pulse = nextPulseRound(match);
 
   function clickCell(id: string) {
@@ -329,8 +329,8 @@ export default function Game(props: GameProps) {
 
         <div className="hud-right">
           <div className="ledger">
-            <span>正确 {currentTally.correct}</span>
-            <span>错误 {currentTally.wrong}</span>
+            <span>上回合 正确 {ledger.correct}</span>
+            <span>错误 {ledger.wrong}</span>
             <span className="income">
               → 收入 <b>{currentIncome}</b>
             </span>

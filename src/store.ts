@@ -169,7 +169,7 @@ export function recordResult(
 // ---------- 对局存档 ----------
 
 export interface SaveFile {
-  schemaVersion: 2;
+  schemaVersion: 3;
   bookId: string;
   chapterId: string;
   fragmentId: string;
@@ -188,7 +188,7 @@ export function loadSave(): SaveFile | null {
     const raw = localStorage.getItem(SAVE_KEY);
     if (!raw) return null;
     const data = JSON.parse(raw) as SaveFile;
-    if (data.schemaVersion !== 2 || !data.state) return null;
+    if (data.schemaVersion !== 3 || !data.state) return null;
     return data;
   } catch {
     return null;

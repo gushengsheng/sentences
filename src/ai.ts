@@ -118,19 +118,32 @@ export function decideNext(
       const filtered = owned.filter((id) => !memory.confirmed.has(id));
       if (filtered.length > 0) pool = filtered;
     }
-    const id = pick(pool, rng);
-    const unit = state.units[id];
-    const opt = pickOption(unit, cfg.accuracy, rng);
+    let chosen: { id: string; opt: Option } | null = null;
+    for (let tries = 0; tries < 3; tries++) {
+      const id = pick(pool, rng);
+      const unit = state.units[id];
+      const readIt = rng() < cfg.accuracy;
+      // 高策略：读得出来且本来就是对的，换一个再试，别浪费 AP
+      if (cfg.strategy >= 0.5 && readIt && unit.correct) continue;
+      const opt =
+        cfg.strategy >= 0.5 && readIt
+          ? unit.options.find((o) => o.isCorrect) ?? unit.options[0]
+          : pickOption(unit, cfg.accuracy, rng);
+      chosen = { id, opt };
+      break;
+    }
 
     // 一次修正的收益要乘以“还能保持几轮”。脉冲就在本轮结束时，先不动。
     const r = roundsToNextPulse(state);
     const pulseFactor = 0.5 + 0.5 * Math.min(1, r / 2);
     const timing = 1 - cfg.strategy * (1 - pulseFactor);
 
-    cands.push({
-      action: { kind: 'correct', unitId: id, optionId: opt.id },
-      score: cfg.accuracy * 0.9 * timing,
-    });
+    if (chosen) {
+      cands.push({
+        action: { kind: 'correct', unitId: chosen.id, optionId: chosen.opt.id },
+        score: cfg.accuracy * 0.9 * timing,
+      });
+    }
   }
 
   // 2) 转化：读得懂时只拆“正确的”句子，读不懂才盲目拆
@@ -138,7 +151,9 @@ export function decideNext(
     const id = pick(enemy, rng);
     const unit = state.units[id];
     const read = rng() < cfg.accuracy;
-    const worthConverting = !read || unit.correct;
+    // 高策略：没读出来就不拆，避免帮对方消掉罚金
+    const worthConverting =
+      cfg.strategy >= 0.5 ? read && unit.correct : !read || unit.correct;
     if (worthConverting) {
       cands.push({
         action: { kind: 'convert', unitId: id },

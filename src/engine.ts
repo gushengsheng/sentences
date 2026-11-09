@@ -143,6 +143,12 @@ export interface MatchState {
   turn: Side;
   first: Side;
   ap: Record<Side, number>;
+  /** 回合结束时按当时状态算好的下一回合 AP，在回合开始时发放 */
+  pendingAp: Record<Side, number>;
+  /** 本回合实际发放的 AP（信息栏用） */
+  lastGrant: Record<Side, number>;
+  /** 信息栏快照：只在回合结束时更新，显示上一回合的状态 */
+  ledger: Record<Side, { correct: number; wrong: number }>;
   ended: boolean;
   winner: Side | null;
   finalIncome: Record<Side, number> | null;
@@ -261,6 +267,9 @@ export function createMatch(
     turn: first,
     first,
     ap: { A: 0, B: 0 },
+    pendingAp: { A: 1, B: 1 },
+    lastGrant: { A: 0, B: 0 },
+    ledger: { A: { correct: 0, wrong: 0 }, B: { correct: 0, wrong: 0 } },
     ended: false,
     winner: null,
     finalIncome: null,
@@ -268,7 +277,10 @@ export function createMatch(
     seed,
     log: [],
   };
-  state.ap[first] += incomeOf(state, first);
+  const startIncome = incomeOf(state, first);
+  state.pendingAp = { A: startIncome, B: startIncome };
+  state.ap[first] += startIncome;
+  state.lastGrant[first] = startIncome;
   return state;
 }
 
@@ -368,15 +380,25 @@ export function apply(state: MatchState, action: Action): ApplyResult {
     case 'endTurn': {
       if (s.turn === 'A') {
         s.ap.A = 0; // 不结转
+        const ta = tally(s, 'A');
+        s.ledger.A = { correct: ta.correct, wrong: ta.wrong };
         s.turn = 'B';
-        s.ap.B += incomeOf(s, 'B');
+        s.ap.B += s.pendingAp.B;
+        s.lastGrant.B = s.pendingAp.B;
         s.log.push('A 结束回合');
         return { state: s };
       }
 
       s.ap.B = 0;
+      const tb = tally(s, 'B');
+      s.ledger.B = { correct: tb.correct, wrong: tb.wrong };
       const completed = s.round;
       s.log.push('B 结束回合');
+
+      // 先按本回合结束时的状态算好下一回合的 AP，再腐化
+      s.pendingAp.A = incomeOf(s, 'A');
+      s.pendingAp.B = incomeOf(s, 'B');
+
       s.round += 1;
 
       if (completed % 3 === 0) {
@@ -401,7 +423,8 @@ export function apply(state: MatchState, action: Action): ApplyResult {
         finish(s);
       } else {
         s.turn = 'A';
-        s.ap.A += incomeOf(s, 'A');
+        s.ap.A += s.pendingAp.A;
+        s.lastGrant.A = s.pendingAp.A;
       }
       return { state: s };
     }
