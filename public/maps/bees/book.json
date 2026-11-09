@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "id": "bees",
+  "title": "蜜蜂与蜂群",
+  "author": "",
+  "contentVersion": 1,
+  "contentNote": "v1 迁移内容；部分篡改可能未按 v2 词级规则生成",
+  "chapters": [
+    {
+      "id": "bee",
+      "title": "蜜蜂与蜂群",
+      "order": 1,
+      "file": "01-bee.json"
+    }
+  ]
+}

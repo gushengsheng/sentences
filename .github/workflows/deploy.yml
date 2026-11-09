@@ -1,0 +1,56 @@
+# 推送到 main 自动构建并发布到 GitHub Pages。
+#
+# 关键点：
+#   - npm ci 用的是仓库里的 package-lock.json，package.json 改了锁文件也要一起提交
+#   - 构建时注入 GH_REPO / GITHUB_ACTIONS，vite.config.ts 才会把 base 设成 /<repo>/，
+#     否则部署到 https://<user>.github.io/<repo>/ 会白屏
+#   - configure-pages 的 enablement: true 会在首次运行时自动把 Pages 源切到 GitHub Actions，
+#     不用去 Settings 里手点（公开仓库前提下）
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install
+        run: npm ci
+      - name: Build
+        run: npm run build
+        env:
+          GH_REPO: ${{ github.event.repository.name }}
+          GITHUB_ACTIONS: true
+      - uses: actions/configure-pages@v6
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

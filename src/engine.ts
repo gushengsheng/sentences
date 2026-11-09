@@ -1,0 +1,435 @@
+// sentences · 规则引擎 v2
+// 纯函数风格，不依赖 DOM。apply 原地修改 state（见 apply 前的注释）。
+
+export type Side = 'A' | 'B';
+
+// ---------- 内容模型 ----------
+
+export interface Option {
+  id: string;
+  text: string;
+  isCorrect: boolean;
+}
+
+/** 句子定义：棋盘上的最小判定单位 */
+export interface UnitDef {
+  id: string;
+  paragraph: number;
+  /** 原文原句：句子正确时棋盘上显示它 */
+  original: string;
+  /** 错误时棋盘上显示的篡改版（也是腐化脉冲改写用的文本） */
+  wrongDisplay: string;
+  /** 4 选 1 里的忠实项（与原文不同措辞） */
+  correctOption: string;
+  /** 4 选 1 里的 3 个篡改项 */
+  wrongOptions: [string, string, string];
+  /** 开局是否就是错的 */
+  corruptNow: boolean;
+}
+
+/** 渲染分页 */
+export interface PageDef {
+  id: string;
+  title?: string;
+  unitIds: string[];
+}
+
+/** 知识碎片 = 一局。字段与 v1 的 MapDef 完全一致。 */
+export interface FragmentDef {
+  id: string;
+  title: string;
+  order: number;
+  recommendedRounds: number;
+  units: UnitDef[];
+  pages?: PageDef[];
+}
+
+/** v1 的旧名字，保留做别名 */
+export type MapDef = FragmentDef;
+
+/** 书的目录项：指向一个章节文件 */
+export interface ChapterRef {
+  id: string;
+  title: string;
+  order: number;
+  /** 相对书目录的文件名，例如 01-anticholinergic.json */
+  file: string;
+}
+
+/** 章节：一组知识碎片 */
+export interface Chapter {
+  id: string;
+  title?: string;
+  fragments: FragmentDef[];
+}
+
+/** 书：v2 的顶层 */
+export interface Book {
+  id: string;
+  title: string;
+  author?: string;
+  /** 内容格式版本；v1 旧内容记为 1，不假装合规 */
+  contentVersion?: number;
+  /** 内容说明，例如“旧版整句改写，未按词级规则重生成” */
+  contentNote?: string;
+  chapters: ChapterRef[];
+}
+
+/** v1 地图包（schemaVersion 1）：读取时迁移成单章书 */
+export interface MapPack {
+  schemaVersion: 1;
+  id: string;
+  title: string;
+  source?: string;
+  description?: string;
+  maps: FragmentDef[];
+}
+
+// ---------- v1 → v2 迁移 ----------
+
+/** 旧地图包 → 章节 */
+export function chapterFromPack(pack: MapPack): Chapter {
+  return { id: pack.id, title: pack.title, fragments: pack.maps };
+}
+
+/** 旧地图包 → 只有单章的书（书标题可用目录名，缺省沿用包标题） */
+export function bookFromPack(pack: MapPack, bookTitle?: string): Book {
+  return {
+    id: pack.id,
+    title: bookTitle && bookTitle.trim() ? bookTitle : pack.title,
+    chapters: [{ id: pack.id, title: pack.title, order: 1, file: '' }],
+  };
+}
+
+/** 任意书 JSON：schemaVersion 1 的地图包转成单章书，v2 原样返回 */
+export function normalizeBook(raw: Book | MapPack): Book {
+  if ('maps' in raw) return bookFromPack(raw);
+  return raw;
+}
+
+/** 任意章节 JSON：v1 地图包也能当成章节读 */
+export function normalizeChapter(raw: Chapter | MapPack): Chapter {
+  if ('maps' in raw) return chapterFromPack(raw);
+  return raw;
+}
+
+// ---------- 运行态 ----------
+
+export interface UnitState extends UnitDef {
+  correct: boolean;
+  text: string;
+  options: Option[];
+}
+
+export interface Cell {
+  owner: Side | null;
+  revealed: boolean;
+}
+
+export interface MatchState {
+  bookId: string;
+  bookTitle: string;
+  chapterId: string;
+  chapterTitle: string;
+  fragmentId: string;
+  fragmentTitle: string;
+  pages: PageDef[];
+  order: string[];
+  units: Record<string, UnitState>;
+  cells: Record<string, Cell>;
+  round: number;
+  /** 0 = 不限 */
+  rounds: number;
+  turn: Side;
+  first: Side;
+  ap: Record<Side, number>;
+  ended: boolean;
+  winner: Side | null;
+  finalIncome: Record<Side, number> | null;
+  pulseIndex: number;
+  seed: number;
+  log: string[];
+}
+
+/** 对局上下文：书与章节的显示信息，缺省时退回章节自身的 id/title */
+export interface MatchMeta {
+  bookId: string;
+  bookTitle: string;
+  chapterId: string;
+  chapterTitle: string;
+}
+
+// ---------- 随机数 ----------
+
+function mulberry32(a: number) {
+  return function () {
+    a |= 0;
+    a = (a + 0x6d2b79f5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function shuffle<T>(arr: T[], rng: () => number): T[] {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+// ---------- 收入 ----------
+
+export function tally(state: MatchState, side: Side) {
+  let correct = 0;
+  let wrong = 0;
+  for (const id of state.order) {
+    if (state.cells[id].owner !== side) continue;
+    if (state.units[id].correct) correct++;
+    else wrong++;
+  }
+  return { correct, wrong, owned: correct + wrong };
+}
+
+/** 规则 §2.5：max(1, 1 + 正确数 − 错误数) */
+export function incomeOf(state: MatchState, side: Side): number {
+  const { correct, wrong } = tally(state, side);
+  return Math.max(1, 1 + correct - wrong);
+}
+
+// ---------- 建立对局 ----------
+
+export function createMatch(
+  chapter: Chapter,
+  fragmentId: string,
+  rounds: number,
+  seed: number,
+  meta?: Partial<MatchMeta>,
+): MatchState {
+  const fragment = chapter.fragments.find((f) => f.id === fragmentId) ?? chapter.fragments[0];
+  if (!fragment) throw new Error(`知识碎片不存在：${fragmentId}`);
+
+  const rng = mulberry32(seed);
+  const first: Side = rng() < 0.5 ? 'A' : 'B';
+
+  const units: Record<string, UnitState> = {};
+  const cells: Record<string, Cell> = {};
+  const order: string[] = [];
+
+  for (const def of fragment.units) {
+    const options: Option[] = shuffle(
+      [
+        { id: `${def.id}-c`, text: def.correctOption, isCorrect: true },
+        { id: `${def.id}-w1`, text: def.wrongOptions[0], isCorrect: false },
+        { id: `${def.id}-w2`, text: def.wrongOptions[1], isCorrect: false },
+        { id: `${def.id}-w3`, text: def.wrongOptions[2], isCorrect: false },
+      ],
+      rng,
+    );
+    units[def.id] = {
+      ...def,
+      correct: !def.corruptNow,
+      text: def.corruptNow ? def.wrongDisplay : def.original,
+      options,
+    };
+    cells[def.id] = { owner: null, revealed: false };
+    order.push(def.id);
+  }
+
+  const pages: PageDef[] =
+    fragment.pages && fragment.pages.length > 0
+      ? fragment.pages
+      : [{ id: `${fragment.id}-p1`, title: fragment.title, unitIds: [...order] }];
+
+  const chapterId = meta?.chapterId ?? chapter.id;
+  const chapterTitle = meta?.chapterTitle ?? chapter.title ?? chapter.id;
+
+  const state: MatchState = {
+    bookId: meta?.bookId ?? chapterId,
+    bookTitle: meta?.bookTitle ?? chapterTitle,
+    chapterId,
+    chapterTitle,
+    fragmentId: fragment.id,
+    fragmentTitle: fragment.title,
+    pages,
+    order,
+    units,
+    cells,
+    round: 1,
+    rounds,
+    turn: first,
+    first,
+    ap: { A: 0, B: 0 },
+    ended: false,
+    winner: null,
+    finalIncome: null,
+    pulseIndex: 0,
+    seed,
+    log: [],
+  };
+  state.ap[first] += incomeOf(state, first);
+  return state;
+}
+
+// ---------- 动作 ----------
+
+export type Action =
+  | { kind: 'claim'; unitId: string }
+  | { kind: 'correct'; unitId: string; optionId: string }
+  | { kind: 'convert'; unitId: string }
+  | { kind: 'abandon'; unitId: string }
+  | { kind: 'endTurn' };
+
+export interface ApplyResult {
+  state: MatchState;
+  error?: string;
+  correctResult?: boolean;
+}
+
+// 注意：apply 会**原地修改** state，并返回同一个对象。
+// 所有前置校验都在修改之前完成，失败时 state 不会被改动。
+// React 侧需要 setMatch({ ...match }) 触发重渲染；回放时从新状态重放即可。
+
+function finish(s: MatchState) {
+  s.ended = true;
+  const a = incomeOf(s, 'A');
+  const b = incomeOf(s, 'B');
+  s.finalIncome = { A: a, B: b };
+  s.winner = a > b ? 'A' : b > a ? 'B' : s.first;
+  s.log.push(`对局结束 A=${a} B=${b}`);
+}
+
+function boardFull(s: MatchState): boolean {
+  return s.order.every((id) => s.cells[id].owner !== null);
+}
+
+export function apply(state: MatchState, action: Action): ApplyResult {
+  if (state.ended) return { state, error: '对局已结束' };
+  const s = state;
+
+  switch (action.kind) {
+    case 'claim': {
+      const cell = s.cells[action.unitId];
+      if (!cell) return { state, error: '句子不存在' };
+      if (cell.owner !== null) return { state, error: '该句子已有归属' };
+      if (s.ap[s.turn] < 1) return { state, error: 'AP 不足' };
+      s.ap[s.turn] -= 1;
+      cell.owner = s.turn;
+      cell.revealed = true;
+      s.log.push(`${s.turn} 占领 ${action.unitId}`);
+      if (boardFull(s) && s.rounds === 0) finish(s);
+      return { state: s };
+    }
+
+    case 'correct': {
+      const cell = s.cells[action.unitId];
+      const unit = s.units[action.unitId];
+      if (!cell || !unit) return { state, error: '句子不存在' };
+      if (cell.owner !== s.turn) return { state, error: '只能修正己方句子' };
+      if (s.ap[s.turn] < 1) return { state, error: 'AP 不足' };
+      const opt = unit.options.find((o) => o.id === action.optionId);
+      if (!opt) return { state, error: '选项不存在' };
+
+      s.ap[s.turn] -= 1;
+      if (opt.isCorrect) {
+        unit.correct = true;
+        unit.text = unit.original;
+        s.log.push(`${s.turn} 修正成功 ${action.unitId}`);
+        return { state: s, correctResult: true };
+      }
+      unit.correct = false;
+      unit.text = opt.text;
+      s.log.push(`${s.turn} 修正失败 ${action.unitId}`);
+      return { state: s, correctResult: false };
+    }
+
+    case 'convert': {
+      const cell = s.cells[action.unitId];
+      if (!cell) return { state, error: '句子不存在' };
+      if (cell.owner === null) return { state, error: '该句子无主' };
+      if (cell.owner === s.turn) return { state, error: '不能转化己方句子' };
+      if (s.ap[s.turn] < 2) return { state, error: 'AP 不足' };
+      s.ap[s.turn] -= 2;
+      cell.owner = null;
+      s.log.push(`${s.turn} 转化 ${action.unitId}`);
+      return { state: s };
+    }
+
+    case 'abandon': {
+      const cell = s.cells[action.unitId];
+      if (!cell) return { state, error: '句子不存在' };
+      if (cell.owner !== s.turn) return { state, error: '只能放弃己方句子' };
+      cell.owner = null;
+      s.log.push(`${s.turn} 放弃 ${action.unitId}`);
+      return { state: s };
+    }
+
+    case 'endTurn': {
+      if (s.turn === 'A') {
+        s.ap.A = 0; // 不结转
+        s.turn = 'B';
+        s.ap.B += incomeOf(s, 'B');
+        s.log.push('A 结束回合');
+        return { state: s };
+      }
+
+      s.ap.B = 0;
+      const completed = s.round;
+      s.log.push('B 结束回合');
+      s.round += 1;
+
+      if (completed % 3 === 0) {
+        const rng = mulberry32((s.seed ^ (s.pulseIndex * 2654435761)) >>> 0);
+        s.pulseIndex += 1;
+        for (const side of ['A', 'B'] as Side[]) {
+          for (const id of s.order) {
+            const cell = s.cells[id];
+            if (cell.owner !== side) continue;
+            const unit = s.units[id];
+            if (!unit.correct) continue;
+            if (rng() < 0.25) {
+              unit.correct = false;
+              unit.text = unit.wrongDisplay;
+            }
+          }
+        }
+        s.log.push(`第 ${completed} 轮结束：腐化脉冲`);
+      }
+
+      if (s.rounds > 0 && completed >= s.rounds) {
+        finish(s);
+      } else {
+        s.turn = 'A';
+        s.ap.A += incomeOf(s, 'A');
+      }
+      return { state: s };
+    }
+  }
+}
+
+// ---------- 辅助 ----------
+
+export function canClaim(state: MatchState, unitId: string): boolean {
+  return state.ap[state.turn] >= 1 && state.cells[unitId]?.owner === null;
+}
+
+export function canConvert(state: MatchState, unitId: string): boolean {
+  const cell = state.cells[unitId];
+  return state.ap[state.turn] >= 2 && !!cell && cell.owner !== null && cell.owner !== state.turn;
+}
+
+export function canAbandon(state: MatchState, unitId: string): boolean {
+  return state.cells[unitId]?.owner === state.turn;
+}
+
+export function canCorrect(state: MatchState, unitId: string): boolean {
+  return state.ap[state.turn] >= 1 && state.cells[unitId]?.owner === state.turn;
+}
+
+/** 下一次腐化脉冲所在轮次；已过或轮数不限时返回 null */
+export function nextPulseRound(state: MatchState): number | null {
+  const r = Math.ceil(state.round / 3) * 3;
+  if (state.rounds === 0) return r;
+  return r <= state.rounds ? r : null;
+}

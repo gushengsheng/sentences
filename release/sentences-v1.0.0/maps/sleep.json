@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "id": "sleep",
+  "title": "睡眠与节律",
+  "source": "examples/sleep.txt",
+  "maps": [
+    {
+      "id": "sleep-01",
+      "title": "第一战区 · 睡眠与生理",
+      "order": 1,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "sleep-01-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "s01",
+            "s02",
+            "s03",
+            "s04",
+            "s05",
+            "s06",
+            "s07",
+            "s08",
+            "s09",
+            "s10",
+            "s11",
+            "s12"
+          ]
+        },
+        {
+          "id": "sleep-01-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "s13",
+            "s14",
+            "s15",
+            "s16",
+            "s17",
+            "s18",
+            "s19",
+            "s20",
+            "s21",
+            "s22",
+            "s23",
+            "s24"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "s01",
+          "paragraph": 1,
+          "corruptNow": true,
+          "original": "成年人通常需要每天七到九小时的睡眠。",
+          "wrongDisplay": "成年人通常需要每天七到九小时的午睡。",
+          "correctOption": "成人每天的睡眠时间一般在七到九个小时。",
+          "wrongOptions": [
+            "成年人通常需要每天十到十二小时的睡眠。",
+            "未成年人通常需要每天七到九小时的睡眠。",
+            "成年人通常不需要每天七到九小时的睡眠。"
+          ]
+        },
+        {
+          "id": "s02",
+          "paragraph": 1,
+          "corruptNow": false,
+          "original": "睡眠不足会削弱注意力和反应速度。",
+          "wrongDisplay": "睡眠不足会提高注意力和反应速度。",
+          "correctOption": "睡不够会让人注意力下降、反应变慢。",
+          "wrongOptions": [
+            "睡眠不足不会削弱注意力和反应速度。",
+            "注意力不足会削弱睡眠和反应速度。",
+            "睡眠不足只会削弱反应速度，不影响注意力。"
+          ]
+        },
+        {
+          "id": "s03",
+          "paragraph": 1,
+          "corruptNow": false,
+          "original": "睡眠分为快速眼动睡眠和非快速眼动睡眠两类。",
+          "wrongDisplay": "睡眠分为浅睡和深睡两个阶段。",
+          "correctOption": "睡眠可以分成快速眼动和非快速眼动两种。",
+          "wrongOptions": [
+            "睡眠分为快速眼动、非快速眼动和浅睡三类。",
+            "睡眠只有快速眼动睡眠一类。",
+            "睡眠分为快速眼动睡眠和深度眼动睡眠两类。"
+          ]
+        },
+        {
+          "id": "s04",
+          "paragraph": 1,
+          "corruptNow": true,
+          "original": "非快速眼动睡眠又可以分成浅睡和深睡。",
+          "wrongDisplay": "非快速眼动睡眠不能再细分。",
+          "correctOption": "非快速眼动睡眠还能再细分为浅睡与深睡。",
+          "wrongOptions": [
+            "非快速眼动睡眠不会再细分。",
+            "非快速眼动睡眠可以分成浅睡、中睡和深睡三种。",
+            "浅睡和深睡又可以分成非快速眼动睡眠。"
+          ]
+        },
+        {
+          "id": "s05",
+          "paragraph": 1,
+          "corruptNow": false,
+          "original": "深睡阶段生长激素的分泌达到高峰。",
+          "wrongDisplay": "深睡阶段生长激素的分泌降到最低。",
+          "correctOption": "人进入深睡时，生长激素分泌最多。",
+          "wrongOptions": [
+            "深睡阶段生长激素停止分泌。",
+            "浅睡阶段生长激素的分泌达到高峰。",
+            "生长激素的分泌会让深睡阶段达到高峰。"
+          ]
+        },
+        {
+          "id": "s06",
+          "paragraph": 1,
+          "corruptNow": false,
+          "original": "快速眼动睡眠时，大脑活动接近清醒状态。",
+          "wrongDisplay": "快速眼动睡眠时，大脑几乎停止工作。",
+          "correctOption": "进入快速眼动睡眠后，大脑的活跃程度跟醒着差不多。",
+          "wrongOptions": [
+            "快速眼动睡眠时，大脑活动完全停止。",
+            "快速眼动睡眠时，只有大脑活动接近清醒状态，身体也一样。",
+            "非快速眼动睡眠时，大脑活动接近清醒状态。"
+          ]
+        },
+        {
+          "id": "s07",
+          "paragraph": 2,
+          "corruptNow": true,
+          "original": "大多数梦境发生在快速眼动睡眠阶段。",
+          "wrongDisplay": "大多数梦境发生在深睡阶段。",
+          "correctOption": "人做的梦大多出现在快速眼动睡眠里。",
+          "wrongOptions": [
+            "所有梦境都发生在快速眼动睡眠阶段。",
+            "梦境不会发生在快速眼动睡眠阶段。",
+            "大多数梦境发生在入睡后的头十分钟。"
+          ]
+        },
+        {
+          "id": "s08",
+          "paragraph": 2,
+          "corruptNow": false,
+          "original": "一个完整的睡眠周期大约九十分钟。",
+          "wrongDisplay": "一个完整的睡眠周期大约九十秒。",
+          "correctOption": "一个睡眠周期差不多九十分钟。",
+          "wrongOptions": [
+            "一个完整的睡眠周期大约九个小时。",
+            "一个完整的睡眠周期约九十分钟，但每个人都完全一样。",
+            "一个完整的清醒周期大约九十分钟。"
+          ]
+        },
+        {
+          "id": "s09",
+          "paragraph": 2,
+          "corruptNow": false,
+          "original": "一夜通常会经历四到六个睡眠周期。",
+          "wrongDisplay": "一夜通常会经历一到两个睡眠周期。",
+          "correctOption": "一晚上一般会走完四到六个睡眠周期。",
+          "wrongOptions": [
+            "一夜通常会经历四十到六十个睡眠周期。",
+            "一夜通常不会经历完整的睡眠周期。",
+            "一夜通常只会经历一个睡眠周期。"
+          ]
+        },
+        {
+          "id": "s10",
+          "paragraph": 2,
+          "corruptNow": false,
+          "original": "睡眠有助于把白天的经历转化为长期记忆。",
+          "wrongDisplay": "睡眠会阻碍白天的经历转化为长期记忆。",
+          "correctOption": "睡觉能帮人把白天的经历存成长期记忆。",
+          "wrongOptions": [
+            "睡眠不利于把白天的经历转化为长期记忆。",
+            "长期记忆有助于把白天的睡眠转化为经历。",
+            "睡眠只能把白天的经历转化为短期记忆。"
+          ]
+        },
+        {
+          "id": "s11",
+          "paragraph": 2,
+          "corruptNow": true,
+          "original": "咖啡因的半衰期大约是五小时。",
+          "wrongDisplay": "咖啡因的半衰期大约是五十分钟。",
+          "correctOption": "咖啡因在体内减半大约需要五小时。",
+          "wrongOptions": [
+            "咖啡因的半衰期大约是五十小时。",
+            "咖啡因的半衰期大约是五个月。",
+            "半衰期的咖啡因大约是五小时。"
+          ]
+        },
+        {
+          "id": "s12",
+          "paragraph": 2,
+          "corruptNow": false,
+          "original": "下午摄入咖啡因可能影响夜间入睡。",
+          "wrongDisplay": "夜间入睡会影响下午摄入咖啡因。",
+          "correctOption": "下午喝咖啡可能让人晚上更难睡着。",
+          "wrongOptions": [
+            "下午摄入咖啡因不会影响夜间入睡。",
+            "早晨摄入咖啡因可能影响夜间入睡。",
+            "下午摄入咖啡因一定会导致整夜失眠。"
+          ]
+        },
+        {
+          "id": "s13",
+          "paragraph": 3,
+          "corruptNow": false,
+          "original": "褪黑素在黑暗环境中分泌增加。",
+          "wrongDisplay": "褪黑素在明亮环境中分泌增加。",
+          "correctOption": "环境变暗时，身体会分泌更多褪黑素。",
+          "wrongOptions": [
+            "褪黑素在黑暗环境中分泌减少。",
+            "黑暗环境在褪黑素的分泌中增加。",
+            "褪黑素在白天分泌增加。"
+          ]
+        },
+        {
+          "id": "s14",
+          "paragraph": 3,
+          "corruptNow": false,
+          "original": "蓝光会抑制褪黑素的分泌。",
+          "wrongDisplay": "蓝光会促进褪黑素的分泌。",
+          "correctOption": "蓝光会让褪黑素分泌变少。",
+          "wrongOptions": [
+            "蓝光不会影响褪黑素的分泌。",
+            "褪黑素会抑制蓝光的分泌。",
+            "只有蓝光能促进褪黑素的分泌。"
+          ]
+        },
+        {
+          "id": "s15",
+          "paragraph": 3,
+          "corruptNow": false,
+          "original": "睡前一小时避免强光有助于入睡。",
+          "wrongDisplay": "睡前一小时多接触强光有助于入睡。",
+          "correctOption": "睡前一小时别接触强光，会更容易睡着。",
+          "wrongOptions": [
+            "睡前一小时接触强光有助于入睡。",
+            "起床后一小时避免强光有助于入睡。",
+            "睡前一小时避免强光一定会让人立刻入睡。"
+          ]
+        },
+        {
+          "id": "s16",
+          "paragraph": 3,
+          "corruptNow": false,
+          "original": "午睡二十分钟左右可以恢复警觉性。",
+          "wrongDisplay": "午睡两小时左右可以恢复警觉性。",
+          "correctOption": "小睡二十分钟上下，能让人重新清醒。",
+          "wrongOptions": [
+            "午睡两分钟左右可以恢复警觉性。",
+            "午睡不能恢复警觉性。",
+            "午睡越久越能恢复警觉性。"
+          ]
+        },
+        {
+          "id": "s17",
+          "paragraph": 3,
+          "corruptNow": true,
+          "original": "午睡超过三十分钟容易进入深睡，醒来反而更困。",
+          "wrongDisplay": "午睡超过三十分钟不会进入深睡，醒来更清醒。",
+          "correctOption": "午睡一旦超过半小时，人就容易睡进深睡，醒了更难受。",
+          "wrongOptions": [
+            "午睡超过三十分钟容易进入浅睡，醒来更清醒。",
+            "午睡超过三小时容易进入深睡，醒来反而更困。",
+            "午睡进入深睡会导致睡眠超过三十分钟。"
+          ]
+        },
+        {
+          "id": "s18",
+          "paragraph": 3,
+          "corruptNow": false,
+          "original": "睡眠不足会降低免疫力。",
+          "wrongDisplay": "睡眠不足会增强免疫力。",
+          "correctOption": "睡不够会让免疫系统变弱。",
+          "wrongOptions": [
+            "睡眠不足不会影响免疫力。",
+            "免疫力不足会降低睡眠。",
+            "睡眠不足只会降低免疫力，不影响其他。"
+          ]
+        },
+        {
+          "id": "s19",
+          "paragraph": 4,
+          "corruptNow": false,
+          "original": "长期睡眠不足与心血管疾病风险升高有关。",
+          "wrongDisplay": "长期睡眠不足会降低心血管疾病风险。",
+          "correctOption": "长期睡不够的人，得心血管病的风险更高。",
+          "wrongOptions": [
+            "长期睡眠不足与心血管疾病风险无关。",
+            "偶尔一次睡眠不足就会显著升高心血管疾病风险。",
+            "心血管疾病会导致长期睡眠不足，二者无关。"
+          ]
+        },
+        {
+          "id": "s20",
+          "paragraph": 4,
+          "corruptNow": false,
+          "original": "睡眠时体温会略微下降。",
+          "wrongDisplay": "睡眠时体温会略微上升。",
+          "correctOption": "睡着以后，人的体温会稍微低一点。",
+          "wrongOptions": [
+            "睡眠时体温保持不变。",
+            "睡眠时体温会大幅下降。",
+            "醒来时体温会略微下降。"
+          ]
+        },
+        {
+          "id": "s21",
+          "paragraph": 4,
+          "corruptNow": false,
+          "original": "卧室温度偏高会干扰睡眠。",
+          "wrongDisplay": "卧室温度偏低会干扰睡眠。",
+          "correctOption": "卧室太热会影响睡眠质量。",
+          "wrongOptions": [
+            "卧室温度偏高不会干扰睡眠。",
+            "卧室温度偏高是干扰睡眠的唯一原因。",
+            "睡眠会干扰卧室温度。"
+          ]
+        },
+        {
+          "id": "s22",
+          "paragraph": 4,
+          "corruptNow": true,
+          "original": "规律作息比周末补觉更能维持睡眠质量。",
+          "wrongDisplay": "周末补觉比规律作息更能维持睡眠质量。",
+          "correctOption": "每天按时睡，比周末猛补觉更能保住睡眠质量。",
+          "wrongOptions": [
+            "规律作息和周末补觉对睡眠质量没有区别。",
+            "规律作息是维持睡眠质量的唯一办法。",
+            "睡眠质量比规律作息更能维持周末补觉。"
+          ]
+        },
+        {
+          "id": "s23",
+          "paragraph": 4,
+          "corruptNow": false,
+          "original": "睡眠剥夺后补觉不能完全恢复认知表现。",
+          "wrongDisplay": "睡眠剥夺后补觉不能恢复认知表现。",
+          "correctOption": "熬过夜之后再补觉，认知能力也回不到原来的水平。",
+          "wrongOptions": [
+            "睡眠剥夺后补觉可以完全恢复认知表现。",
+            "睡眠剥夺后补觉只能恢复部分认知表现，不能恢复记忆。",
+            "睡眠剥夺前补觉不能完全恢复认知表现。"
+          ]
+        },
+        {
+          "id": "s24",
+          "paragraph": 4,
+          "corruptNow": false,
+          "original": "打鼾可能是睡眠呼吸暂停的信号。",
+          "wrongDisplay": "打鼾一定意味着睡眠呼吸暂停。",
+          "correctOption": "打呼噜有可能是睡眠呼吸暂停的迹象。",
+          "wrongOptions": [
+            "打鼾与睡眠呼吸暂停无关。",
+            "打鼾一定是睡眠呼吸暂停。",
+            "睡眠呼吸暂停一定会导致打鼾。"
+          ]
+        }
+      ]
+    }
+  ]
+}

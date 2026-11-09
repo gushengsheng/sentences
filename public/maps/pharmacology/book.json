@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "id": "pharmacology",
+  "title": "药理学",
+  "author": "",
+  "contentVersion": 1,
+  "contentNote": "v1 迁移内容；部分篡改可能未按 v2 词级规则生成",
+  "chapters": [
+    {
+      "id": "anticholinergic",
+      "title": "胆碱受体阻断药",
+      "order": 1,
+      "file": "01-anticholinergic.json"
+    }
+  ]
+}

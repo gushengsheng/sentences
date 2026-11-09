@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 1,
+  "id": "bee",
+  "title": "蜜蜂与蜂群",
+  "source": "M0 测试文本",
+  "description": "两个战区，用于验证地图包、分页与知识连续性。",
+  "maps": [
+    {
+      "id": "bee-01",
+      "title": "第一战区 · 蜂群与语言",
+      "order": 1,
+      "recommendedRounds": 9,
+      "pages": [
+        { "id": "bee-01-p1", "title": "第 1 页", "unitIds": ["u01", "u02", "u03", "u04", "u05", "u06", "u07", "u08"] },
+        { "id": "bee-01-p2", "title": "第 2 页", "unitIds": ["u09", "u10", "u11", "u12", "u13", "u14", "u15", "u16"] }
+      ],
+      "units": [
+        {
+          "id": "u01",
+          "paragraph": 1,
+          "corruptNow": true,
+          "original": "蜜蜂是社会性昆虫，一个蜂群通常由一只蜂王、少量雄蜂和数万只工蜂组成。",
+          "wrongDisplay": "蜜蜂是独居昆虫，每只个体都独自筑巢觅食。",
+          "correctOption": "蜂群里有一位蜂王、若干雄蜂和大量工蜂。",
+          "wrongOptions": [
+            "蜂群里有两只蜂王、少量雄蜂和数万只工蜂。",
+            "蜂群由一只蜂王、数万只雄蜂和少量工蜂组成。",
+            "蜂群里只有蜂王和雄蜂两类个体。"
+          ]
+        },
+        {
+          "id": "u02",
+          "paragraph": 1,
+          "corruptNow": false,
+          "original": "蜂王是蜂群里唯一生殖器官发育完全的雌蜂。",
+          "wrongDisplay": "蜂王是蜂群里唯一生殖器官发育完全的雄蜂。",
+          "correctOption": "整个蜂群中，只有蜂王的生殖器官发育完全。",
+          "wrongOptions": [
+            "工蜂和蜂王的生殖器官都发育完全。",
+            "蜂王是蜂群里唯一的雄蜂。",
+            "蜂王的生殖器官并不发育。"
+          ]
+        },
+        {
+          "id": "u03",
+          "paragraph": 1,
+          "corruptNow": false,
+          "original": "工蜂也是雌性个体，但生殖器官发育不完全。",
+          "wrongDisplay": "工蜂是雄性个体，生殖器官发育完全。",
+          "correctOption": "工蜂是雌性，只是生殖能力没有发育好。",
+          "wrongOptions": [
+            "工蜂是雌性，生殖器官发育完全。",
+            "工蜂是雄性，没有生殖器官。",
+            "工蜂和蜂王一样，都是发育完全的雌性。"
+          ]
+        },
+        {
+          "id": "u04",
+          "paragraph": 1,
+          "corruptNow": true,
+          "original": "工蜂的寿命随季节变化：夏季约三十到四十天，冬季可达数月。",
+          "wrongDisplay": "工蜂的寿命固定为三十天，不随季节变化。",
+          "correctOption": "夏天的工蜂只能活一个多月，冬天能活好几个月。",
+          "wrongOptions": [
+            "工蜂夏季约三百到四百天，冬季可达数年。",
+            "工蜂冬季只能活三十天，夏季可达数月。",
+            "工蜂寿命约为三年，与季节无关。"
+          ]
+        },
+        {
+          "id": "u05",
+          "paragraph": 2,
+          "corruptNow": false,
+          "original": "雄蜂不采蜜也不筑巢，唯一职能是与新蜂王交配。",
+          "wrongDisplay": "雄蜂负责采蜜和筑巢，不与蜂王交配。",
+          "correctOption": "雄蜂一生只做一件事：与蜂王交配。",
+          "wrongOptions": [
+            "雄蜂负责守卫蜂巢，偶尔参与交配。",
+            "雄蜂和工蜂一样采蜜，交配由蜂王独自完成。",
+            "雄蜂唯一的职能是抚养幼虫。"
+          ]
+        },
+        {
+          "id": "u06",
+          "paragraph": 2,
+          "corruptNow": false,
+          "original": "雄蜂交配完成后很快就会死亡。",
+          "wrongDisplay": "雄蜂交配完成后会返回蜂巢继续生活多年。",
+          "correctOption": "交配一结束，雄蜂的寿命也就到头了。",
+          "wrongOptions": [
+            "雄蜂交配后会被工蜂赶走，但还能活一个冬天。",
+            "雄蜂交配后要独自越冬，第二年才死亡。",
+            "雄蜂交配后寿命不受影响。"
+          ]
+        },
+        {
+          "id": "u07",
+          "paragraph": 2,
+          "corruptNow": false,
+          "original": "蜜蜂用摇摆舞向同伴传递蜜源的方向和距离。",
+          "wrongDisplay": "蜜蜂用摇摆舞传递巢内温度，与蜜源位置无关。",
+          "correctOption": "摇摆舞是蜜蜂告诉同伴去哪儿采蜜的方式。",
+          "wrongOptions": [
+            "蜜蜂用摇摆舞只传递方向，不传递距离。",
+            "蜜蜂用圆舞传递蜜源方向，摇摆舞只表示危险。",
+            "摇摆舞是蜜蜂之间争夺蜂王地位的方式。"
+          ]
+        },
+        {
+          "id": "u08",
+          "paragraph": 3,
+          "corruptNow": false,
+          "original": "舞蹈中直线部分相对重力方向的角度，对应太阳与蜜源的夹角。",
+          "wrongDisplay": "舞蹈中直线部分始终指向正北方，与太阳无关。",
+          "correctOption": "舞步的直线方向与重力方向的夹角，就是太阳和蜜源的夹角。",
+          "wrongOptions": [
+            "舞步的直线方向始终指向蜂巢入口。",
+            "舞步的直线方向对应太阳与蜂巢的夹角。",
+            "舞步的角度表示蜜源的含糖量。"
+          ]
+        },
+        {
+          "id": "u09",
+          "paragraph": 3,
+          "corruptNow": true,
+          "original": "摇摆持续的时间越长，表示蜜源距离越远。",
+          "wrongDisplay": "摇摆持续的时间越长，表示蜜源距离越近。",
+          "correctOption": "摇摆得越久，说明蜜源离得越远。",
+          "wrongOptions": [
+            "摇摆时间的长短与距离无关，只表示蜜源数量。",
+            "摇摆越久，说明蜜源含糖量越高。",
+            "摇摆时间只表示蜜源的方位。"
+          ]
+        },
+        {
+          "id": "u10",
+          "paragraph": 3,
+          "corruptNow": false,
+          "original": "蜜蜂能看见紫外线，但看不见红色。",
+          "wrongDisplay": "蜜蜂能看见红色，但看不见紫外线。",
+          "correctOption": "蜜蜂的视觉能感知紫外光，却对红色不敏感。",
+          "wrongOptions": [
+            "蜜蜂能看见红色和紫外线，但看不见绿色。",
+            "蜜蜂只能看见红色，看不见其他颜色。",
+            "蜜蜂的视觉与人类完全相同。"
+          ]
+        },
+        {
+          "id": "u11",
+          "paragraph": 4,
+          "corruptNow": false,
+          "original": "一朵花的花蜜含糖量通常在百分之二十到四十之间。",
+          "wrongDisplay": "一朵花的花蜜含糖量通常在百分之二到四之间。",
+          "correctOption": "花蜜里的糖分大约占两成到四成。",
+          "wrongOptions": [
+            "花蜜的含糖量通常在百分之六十到八十之间。",
+            "花蜜几乎不含糖，主要是水分。",
+            "花蜜含糖量固定为百分之五十。"
+          ]
+        },
+        {
+          "id": "u12",
+          "paragraph": 4,
+          "corruptNow": false,
+          "original": "工蜂采回花蜜后，会通过反刍把花蜜交给内勤蜂。",
+          "wrongDisplay": "工蜂采回花蜜后直接存入蜂巢，不经过其他蜜蜂。",
+          "correctOption": "外勤蜂回巢后，把花蜜吐出来交给内勤蜂。",
+          "wrongOptions": [
+            "工蜂把花蜜交给雄蜂，由雄蜂加工。",
+            "工蜂把花蜜储存在自己的胃里过冬。",
+            "花蜜由蜂王亲自采集并加工。"
+          ]
+        },
+        {
+          "id": "u13",
+          "paragraph": 4,
+          "corruptNow": true,
+          "original": "内勤蜂反复吞吐并扇动翅膀，让花蜜水分蒸发、浓度升高。",
+          "wrongDisplay": "内勤蜂往花蜜里加水，让它变得稀薄。",
+          "correctOption": "内勤蜂靠反复吞吐和扇风，把花蜜里的水吹掉。",
+          "wrongOptions": [
+            "内勤蜂用加热的方式把花蜜煮沸。",
+            "内勤蜂把花蜜埋在土里发酵。",
+            "花蜜不需要任何加工就能变成蜂蜜。"
+          ]
+        },
+        {
+          "id": "u14",
+          "paragraph": 4,
+          "corruptNow": false,
+          "original": "当花蜜含水量降到约百分之十八时，才成为蜂蜜。",
+          "wrongDisplay": "当花蜜含水量升到约百分之八十时，才成为蜂蜜。",
+          "correctOption": "水分降到一成八左右，花蜜才算酿成蜂蜜。",
+          "wrongOptions": [
+            "含水量降到百分之五十左右，花蜜就成为蜂蜜。",
+            "含水量必须降到零，花蜜才会变成蜂蜜。",
+            "含水量与是否成为蜂蜜无关。"
+          ]
+        },
+        {
+          "id": "u15",
+          "paragraph": 4,
+          "corruptNow": false,
+          "original": "蜂蜜的低含水量和酸性环境，抑制了多数微生物的生长。",
+          "wrongDisplay": "蜂蜜的高含水量和碱性环境，抑制了多数微生物的生长。",
+          "correctOption": "水分少、偏酸，让蜂蜜里大多数微生物活不下去。",
+          "wrongOptions": [
+            "蜂蜜靠高温杀菌，与含水量无关。",
+            "蜂蜜里的糖分能杀死所有微生物。",
+            "蜂蜜是中性环境，微生物可以自由繁殖。"
+          ]
+        },
+        {
+          "id": "u16",
+          "paragraph": 4,
+          "corruptNow": false,
+          "original": "蜜蜂为大约三分之一的农作物提供授粉服务。",
+          "wrongDisplay": "蜜蜂只为大约百分之三的农作物授粉。",
+          "correctOption": "人类种植的作物里，约三分之一靠蜜蜂授粉。",
+          "wrongOptions": [
+            "蜜蜂为全部农作物提供授粉服务。",
+            "蜜蜂不参与农作物授粉，只采蜜。",
+            "蜜蜂只为果树授粉，不涉及粮食作物。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bee-02",
+      "title": "第二战区 · 巢内与发育",
+      "order": 2,
+      "recommendedRounds": 9,
+      "pages": [
+        { "id": "bee-02-p1", "title": "第 1 页", "unitIds": ["v01", "v02", "v03", "v04", "v05", "v06", "v07", "v08"] },
+        { "id": "bee-02-p2", "title": "第 2 页", "unitIds": ["v09", "v10", "v11", "v12", "v13", "v14", "v15", "v16"] }
+      ],
+      "units": [
+        {
+          "id": "v01",
+          "paragraph": 1,
+          "corruptNow": false,
+          "original": "蜂巢由工蜂分泌的蜂蜡筑成，内部整齐排列着六边形巢房。",
+          "wrongDisplay": "蜂巢由雄蜂分泌的蜂蜡筑成，内部是六边形的巢房。",
+          "correctOption": "蜂巢是工蜂用自己分泌的蜂蜡搭起来的，巢房呈六边形。",
+          "wrongOptions": [
+            "蜂巢由蜂王分泌的蜂蜡筑成。",
+            "蜂巢由工蜂采集的树脂筑成。",
+            "蜂巢内部是圆形巢房。"
+          ]
+        },
+        {
+          "id": "v02",
+          "paragraph": 1,
+          "corruptNow": false,
+          "original": "六边形结构能用最少的蜂蜡围出最大的空间。",
+          "wrongDisplay": "六边形结构能用最多的蜂蜡围出最小的空间。",
+          "correctOption": "用同样多的蜂蜡，六边形能围出更大的空间。",
+          "wrongOptions": [
+            "六边形结构最费蜂蜡。",
+            "圆形结构最省蜂蜡。",
+            "巢房形状与蜂蜡用量无关。"
+          ]
+        },
+        {
+          "id": "v03",
+          "paragraph": 1,
+          "corruptNow": true,
+          "original": "蜂巢里的巢房分为储蜜区和育虫区。",
+          "wrongDisplay": "蜂巢里所有巢房都只用来储蜜。",
+          "correctOption": "巢房一部分存蜜，一部分用来抚育幼虫。",
+          "wrongOptions": [
+            "巢房只用来抚育幼虫。",
+            "巢房只用来储存花粉。",
+            "蜂巢里没有分区。"
+          ]
+        },
+        {
+          "id": "v04",
+          "paragraph": 1,
+          "corruptNow": false,
+          "original": "蜂王在巢房里产卵，一天最多可产两千枚左右。",
+          "wrongDisplay": "蜂王在巢房里产卵，一天最多可产二十枚左右。",
+          "correctOption": "蜂王一天能产大约两千枚卵。",
+          "wrongOptions": [
+            "蜂王一天产卵不超过两百枚。",
+            "蜂王一年才产两千枚卵。",
+            "蜂王不产卵，由工蜂代产。"
+          ]
+        },
+        {
+          "id": "v05",
+          "paragraph": 2,
+          "corruptNow": false,
+          "original": "卵孵化成幼虫后，由内勤蜂喂食蜂王浆和花粉。",
+          "wrongDisplay": "卵孵化成幼虫后，由外勤蜂喂食蜂蜜和水。",
+          "correctOption": "幼虫由内勤蜂用蜂王浆和花粉喂养。",
+          "wrongOptions": [
+            "幼虫由蜂王亲自喂养。",
+            "幼虫自己啃食蜂蜡。",
+            "幼虫只喝水。"
+          ]
+        },
+        {
+          "id": "v06",
+          "paragraph": 2,
+          "corruptNow": false,
+          "original": "幼虫化蛹前，工蜂会用蜂蜡把巢房封口。",
+          "wrongDisplay": "幼虫化蛹前，工蜂会打开巢房让空气流通。",
+          "correctOption": "化蛹之前，工蜂拿蜂蜡把巢房封上。",
+          "wrongOptions": [
+            "幼虫化蛹前会自己封口。",
+            "巢房从不封口。",
+            "封口用的是树脂。"
+          ]
+        },
+        {
+          "id": "v07",
+          "paragraph": 2,
+          "corruptNow": false,
+          "original": "从卵到成虫，工蜂大约需要二十一天。",
+          "wrongDisplay": "从卵到成虫，工蜂大约需要两天。",
+          "correctOption": "工蜂从卵发育成成虫约需三周。",
+          "wrongOptions": [
+            "工蜂从卵到成虫约需两百天。",
+            "工蜂从卵到成虫约需两个月。",
+            "工蜂的发育期与温度无关。"
+          ]
+        },
+        {
+          "id": "v08",
+          "paragraph": 2,
+          "corruptNow": false,
+          "original": "蜂王从卵到成虫大约需要十六天。",
+          "wrongDisplay": "蜂王从卵到成虫大约需要六十天。",
+          "correctOption": "蜂王发育成成虫约需十六天。",
+          "wrongOptions": [
+            "蜂王发育期比工蜂长。",
+            "蜂王从卵到成虫约需三十天。",
+            "蜂王不经过蛹期。"
+          ]
+        },
+        {
+          "id": "v09",
+          "paragraph": 3,
+          "corruptNow": true,
+          "original": "雄蜂的发育期最长，约二十四天。",
+          "wrongDisplay": "雄蜂的发育期最短，约十四天。",
+          "correctOption": "三种蜂里，雄蜂从卵到成虫花的时间最长。",
+          "wrongOptions": [
+            "雄蜂发育期最短。",
+            "雄蜂发育期与工蜂相同。",
+            "雄蜂不经过幼虫期。"
+          ]
+        },
+        {
+          "id": "v10",
+          "paragraph": 3,
+          "corruptNow": false,
+          "original": "工蜂的工种随日龄变化，年轻时做内勤，年长后转外勤。",
+          "wrongDisplay": "工蜂的工种从出生就固定，终生不变。",
+          "correctOption": "工蜂先干巢内的活，长大些再出巢采集。",
+          "wrongOptions": [
+            "工蜂一辈子只做外勤。",
+            "工蜂先做外勤后做内勤。",
+            "工种由蜂王随机分配。"
+          ]
+        },
+        {
+          "id": "v11",
+          "paragraph": 3,
+          "corruptNow": false,
+          "original": "内勤蜂负责清理巢房、喂养幼虫和酿蜜。",
+          "wrongDisplay": "内勤蜂负责外出采集花蜜和花粉。",
+          "correctOption": "巢内的清洁、育幼、酿蜜都由内勤蜂承担。",
+          "wrongOptions": [
+            "内勤蜂只负责守卫巢口。",
+            "内勤蜂负责产卵。",
+            "内勤蜂不参与酿蜜。"
+          ]
+        },
+        {
+          "id": "v12",
+          "paragraph": 3,
+          "corruptNow": false,
+          "original": "外勤蜂负责采集花蜜、花粉和水。",
+          "wrongDisplay": "外勤蜂负责在巢内喂养幼虫。",
+          "correctOption": "出巢采集花蜜、花粉和水的是外勤蜂。",
+          "wrongOptions": [
+            "外勤蜂只采集花粉。",
+            "外勤蜂负责产卵。",
+            "外勤蜂整天守在巢口。"
+          ]
+        },
+        {
+          "id": "v13",
+          "paragraph": 4,
+          "corruptNow": false,
+          "original": "蜜蜂用信息素标记蜂巢入口和危险位置。",
+          "wrongDisplay": "蜜蜂用声音标记蜂巢入口和危险位置。",
+          "correctOption": "蜜蜂靠气味给巢口和危险地点做记号。",
+          "wrongOptions": [
+            "蜜蜂靠视觉记住巢口位置。",
+            "蜜蜂不标记巢口。",
+            "蜜蜂用信息素标记蜜源，不标记巢口。"
+          ]
+        },
+        {
+          "id": "v14",
+          "paragraph": 4,
+          "corruptNow": true,
+          "original": "蜂群失王后，工蜂会把三日龄以内的幼虫改造成新蜂王。",
+          "wrongDisplay": "蜂群失王后，工蜂会把所有幼虫都改造成新蜂王。",
+          "correctOption": "失去蜂王后，三天以内的幼虫可以被培养成新王。",
+          "wrongOptions": [
+            "失王后蜂群必然灭亡。",
+            "失王后雄蜂会变成蜂王。",
+            "失王后工蜂会产下受精卵。"
+          ]
+        },
+        {
+          "id": "v15",
+          "paragraph": 4,
+          "corruptNow": false,
+          "original": "分蜂时，老蜂王会带走蜂群中约一半的工蜂。",
+          "wrongDisplay": "分蜂时，新蜂王会带走蜂群中约一半的工蜂。",
+          "correctOption": "分家时离开的是老蜂王，带走的工蜂约占一半。",
+          "wrongOptions": [
+            "分蜂时老蜂王独自离开。",
+            "分蜂时全部工蜂都离开。",
+            "分蜂时雄蜂带走一半工蜂。"
+          ]
+        },
+        {
+          "id": "v16",
+          "paragraph": 4,
+          "corruptNow": false,
+          "original": "新蜂王出房后，会破坏其他尚未出房的王台。",
+          "wrongDisplay": "新蜂王出房后，会照顾其他尚未出房的王台。",
+          "correctOption": "新蜂王羽化后，会把别的王台咬坏。",
+          "wrongOptions": [
+            "新蜂王会喂养其他王台。",
+            "新蜂王出房后立即分蜂。",
+            "王台由工蜂主动打开。"
+          ]
+        }
+      ]
+    }
+  ]
+}

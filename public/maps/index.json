@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "books": [
+    {
+      "id": "bees",
+      "title": "蜜蜂与蜂群",
+      "dir": "bees",
+      "file": "bees/book.json",
+      "chapters": 1,
+      "fragments": 2
+    },
+    {
+      "id": "sleep",
+      "title": "睡眠与节律",
+      "dir": "sleep",
+      "file": "sleep/book.json",
+      "chapters": 1,
+      "fragments": 1
+    },
+    {
+      "id": "pharmacology",
+      "title": "药理学",
+      "dir": "pharmacology",
+      "file": "pharmacology/book.json",
+      "chapters": 1,
+      "fragments": 7
+    }
+  ]
+}
