@@ -4,8 +4,9 @@
 #   - npm ci 用的是仓库里的 package-lock.json，package.json 改了锁文件也要一起提交
 #   - 构建时注入 GH_REPO / GITHUB_ACTIONS，vite.config.ts 才会把 base 设成 /<repo>/，
 #     否则部署到 https://<user>.github.io/<repo>/ 会白屏
-#   - configure-pages 的 enablement: true 会在首次运行时自动把 Pages 源切到 GitHub Actions，
-#     不用去 Settings 里手点（公开仓库前提下）
+#   - Pages 的源要手动开一次：Settings → Pages → Source 选 "GitHub Actions"。
+#     不要用 configure-pages 的 enablement: true 去自动开——那需要 admin 级 token，
+#     个人账号下常报 "Resource not accessible by integration" 直接失败。
 name: Deploy to GitHub Pages
 
 on:
@@ -39,8 +40,6 @@ jobs:
           GH_REPO: ${{ github.event.repository.name }}
           GITHUB_ACTIONS: true
       - uses: actions/configure-pages@v6
-        with:
-          enablement: true
       - uses: actions/upload-pages-artifact@v5
         with:
           path: dist

@@ -92,7 +92,7 @@ git push -u origin main
 
 `vite.config.ts` 靠这两个变量把 `base` 设成 `/<仓库名>/`，所以**仓库叫什么名字都不用手改配置**。反过来说：**所有运行时 fetch 都必须经过 `assetUrl()` 拼 `import.meta.env.BASE_URL`**，写死 `/maps/...` 会在子路径下 404。
 
-workflow 里 `actions/configure-pages` 带了 `enablement: true`，首次运行会自动把 Pages 源切成 GitHub Actions；如果没切成功，去 Settings → Pages → Source 手动选一次 GitHub Actions。
+**Pages 的源必须手动开一次**：仓库 Settings → Pages → Build and deployment → Source 选 **GitHub Actions**。别指望 workflow 自动开：`configure-pages` 的 `enablement: true` 需要 admin 级 token，个人账号下会报 `Resource not accessible by integration`，整个 build 直接挂。开一次之后就不用再管了。
 
 ### 日常更新地图
 
