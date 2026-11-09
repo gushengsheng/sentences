@@ -1508,3 +1508,34 @@ button {
   75% { opacity: 1; }
   100% { opacity: 0; }
 }
+
+/* 浅色系反馈：提高对比度 */
+[data-theme='light'] .unit.owned.flash-ok {
+  background: #b7e4c7;
+  outline: 2px solid #146c3a;
+  box-shadow: 0 0 0 3px rgba(20, 108, 58, 0.22);
+}
+[data-theme='light'] .unit.owned.flash-bad {
+  background: #f6c3bc;
+  outline: 2px solid #9b2b1f;
+  box-shadow: 0 0 0 3px rgba(155, 43, 31, 0.22);
+}
+[data-theme='light'] .option.ok {
+  background: #c9ecd7;
+  border: 2px solid #176c3c;
+  color: #0b3f23;
+  font-weight: 600;
+}
+[data-theme='light'] .option.bad {
+  background: #f8cfc9;
+  border: 2px solid #9b2b1f;
+  color: #61150e;
+  font-weight: 600;
+}
+[data-theme='light'] .round-banner {
+  background: #ffffff;
+  border: 2px solid #000000;
+  color: #000000;
+  font-weight: 600;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+}
