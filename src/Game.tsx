@@ -30,6 +30,14 @@ interface GameProps {
   onFinish: (result: { won: boolean; margin: number }) => void;
 }
 
+const CATACLYSMS = [
+  { title: '腐化', sub: '侵蚀与重塑' },
+  { title: '分裂', sub: '一种神经官能症' },
+  { title: '休克', sub: '衰亡的旅程' },
+  { title: '静默', sub: '无人认领的句子' },
+  { title: '潮汐', sub: '覆巢之下' },
+];
+
 function randomSeed() {
   return Math.floor(Math.random() * 1_000_000_000);
 }
@@ -56,6 +64,8 @@ export default function Game(props: GameProps) {
   const [modalUnit, setModalUnit] = useState<string | null>(null);
   const [toast, setToast] = useState<string | null>(null);
   const [flash, setFlash] = useState<{ ok: boolean } | null>(null);
+  const [quake, setQuake] = useState<{ title: string; sub: string } | null>(null);
+  const lastPulse = useRef(0);
 
   const memA = useRef(newAiMemory());
   const memB = useRef(newAiMemory());
@@ -95,6 +105,13 @@ export default function Game(props: GameProps) {
   }, [match, onFinish]);
 
   useEffect(() => {
+    if (match.pulseIndex <= lastPulse.current) return;
+    lastPulse.current = match.pulseIndex;
+    setQuake(CATACLYSMS[Math.floor(Math.random() * CATACLYSMS.length)]);
+  }, [match.pulseIndex]);
+
+  useEffect(() => {
+    if (quake) return;
     if (match.ended || mode === 'hotseat') return;
     if (mode === 'ai' && match.turn !== 'B') return;
     const timer = window.setTimeout(() => {
@@ -106,7 +123,7 @@ export default function Game(props: GameProps) {
       setMatch({ ...match });
     }, mode === 'spectate' ? aiSpeed : 550);
     return () => window.clearTimeout(timer);
-  }, [match, mode, configA, configB, aiSpeed, presetId, presetBId, custom]);
+  }, [match, mode, configA, configB, aiSpeed, presetId, presetBId, custom, quake]);
 
   const pages = match.pages ?? [];
   const page = pages[Math.min(pageIdx, Math.max(0, pages.length - 1))];
@@ -387,6 +404,16 @@ export default function Game(props: GameProps) {
       )}
 
       {toast && <div className="toast">{toast}</div>}
+
+      {quake && (
+        <div className="overlay quake-overlay" onClick={() => setQuake(null)}>
+          <div className="cataclysm">
+            <h2>{quake.title}</h2>
+            <p>{quake.sub}</p>
+            <span className="muted">点击继续</span>
+          </div>
+        </div>
+      )}
 
       {match.ended && (
         <div className="overlay">

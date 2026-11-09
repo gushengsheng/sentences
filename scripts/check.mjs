@@ -105,7 +105,7 @@ for (const rounds of [6, 9, 12]) {
   }
   ok(s.ended, `${rounds} 轮对局应结束`);
   ok(s.winner === 'A' || s.winner === 'B', '应有胜者');
-  ok(s.pulseIndex === Math.floor(rounds / 3), `${rounds} 轮应有 ${Math.floor(rounds / 3)} 次脉冲`);
+  ok(s.pulseIndex === Math.floor((rounds - 1) / 3), `${rounds} 轮应有 ${Math.floor((rounds - 1) / 3)} 次脉冲`);
   ok(s.bookId === book.id && s.chapterId === chapter.id, '对局上下文应为书/章节');
 }
 

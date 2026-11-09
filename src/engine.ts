@@ -380,6 +380,10 @@ export function apply(state: MatchState, action: Action): ApplyResult {
     case 'endTurn': {
       if (s.turn === 'A') {
         s.ap.A = 0; // 不结转
+        // 账本与下一回合 AP 都在自己回合结束时定格
+        const ta = tally(s, 'A');
+        s.ledger.A = { correct: ta.correct, wrong: ta.wrong };
+        s.pendingAp.A = incomeOf(s, 'A');
         s.turn = 'B';
         s.ap.B += s.pendingAp.B;
         s.lastGrant.B = s.pendingAp.B;
@@ -388,19 +392,22 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       }
 
       s.ap.B = 0;
-      // 账本与下一轮 AP 在同一时刻、同一状态上拍快照，保证信息栏能对上收入
-      const ta = tally(s, 'A');
       const tb = tally(s, 'B');
-      s.ledger.A = { correct: ta.correct, wrong: ta.wrong };
       s.ledger.B = { correct: tb.correct, wrong: tb.wrong };
+      s.pendingAp.B = incomeOf(s, 'B');
       const completed = s.round;
       s.log.push('B 结束回合');
 
-      // 先按本回合结束时的状态算好下一回合的 AP，再腐化
-      s.pendingAp.A = incomeOf(s, 'A');
-      s.pendingAp.B = incomeOf(s, 'B');
+      // 终局在灾变之前结算：最后一轮结束后的那一次腐化不会发生
+      if (s.rounds > 0 && completed >= s.rounds) {
+        finish(s);
+        return { state: s };
+      }
 
       s.round += 1;
+      s.turn = 'A';
+      s.ap.A += s.pendingAp.A;
+      s.lastGrant.A = s.pendingAp.A;
 
       if (completed % 3 === 0) {
         const rng = mulberry32((s.seed ^ (s.pulseIndex * 2654435761)) >>> 0);
@@ -420,18 +427,10 @@ export function apply(state: MatchState, action: Action): ApplyResult {
         s.log.push(`第 ${completed} 轮结束：腐化脉冲`);
       }
 
-      if (s.rounds > 0 && completed >= s.rounds) {
-        finish(s);
-      } else {
-        s.turn = 'A';
-        s.ap.A += s.pendingAp.A;
-        s.lastGrant.A = s.pendingAp.A;
-      }
       return { state: s };
     }
   }
 }
-
 // ---------- 辅助 ----------
 
 export function canClaim(state: MatchState, unitId: string): boolean {

@@ -1420,3 +1420,27 @@ button {
   line-height: 2.15;
   font-size: 1.02rem;
 }
+
+.quake-overlay {
+  background: rgba(3, 4, 6, 0.88);
+  z-index: 60;
+}
+.cataclysm {
+  text-align: center;
+  padding: 38px 72px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.65);
+}
+.cataclysm h2 {
+  margin: 0 0 10px;
+  font-size: 2.4rem;
+  letter-spacing: 0.45em;
+  text-indent: 0.45em;
+}
+.cataclysm p {
+  margin: 0 0 18px;
+  letter-spacing: 0.22em;
+  opacity: 0.72;
+}
