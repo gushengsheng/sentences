@@ -49,6 +49,8 @@ type Screen =
       rounds: number;
       mode: Mode;
       presetId: string;
+      presetB?: string;
+      aiSpeed?: number;
       difficulty: Difficulty;
       initialState?: MatchState;
       nonce: number;
@@ -174,6 +176,8 @@ export default function App() {
         rounds: save.rounds,
         mode: save.mode,
         presetId: save.presetId,
+        presetB: save.presetB,
+        aiSpeed: save.aiSpeed,
         difficulty: save.difficulty ?? 'normal',
         initialState: save.state,
         nonce: Date.now(),
@@ -310,8 +314,9 @@ export default function App() {
           fragmentId={screen.fragmentId}
           rounds={screen.rounds}
           mode={screen.mode}
-          aiSpeed={settings.aiSpeed}
+          aiSpeed={screen.aiSpeed ?? 550}
           presetId={screen.presetId}
+          presetBId={screen.presetB ?? screen.presetId}
           custom={custom}
           difficulty={screen.difficulty}
           initialState={screen.initialState}
@@ -398,6 +403,8 @@ export default function App() {
       rounds: cfg.rounds,
       mode: cfg.mode,
       presetId: cfg.presetId,
+      presetB: cfg.presetB,
+      aiSpeed: cfg.aiSpeed,
       difficulty: cfg.difficulty,
       nonce: Date.now(),
     });

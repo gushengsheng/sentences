@@ -215,6 +215,8 @@ export function FragmentsScreen({
 export interface SetupResult {
   mode: Mode;
   presetId: string;
+  presetB: string;
+  aiSpeed: number;
   custom: AiConfig;
   rounds: number;
   difficulty: Difficulty;
@@ -231,6 +233,8 @@ interface SetupProps {
 export function SetupScreen({ book, chapter, fragment, onBack, onStart }: SetupProps) {
   const [mode, setMode] = useState<Mode>('ai');
   const [presetId, setPresetId] = useState('normal');
+  const [presetB, setPresetB] = useState('normal');
+  const [aiSpeed, setAiSpeed] = useState(550);
   const [custom, setCustom] = useState<AiConfig>(() => ({ ...presetById('normal') }));
   const [rounds, setRounds] = useState(fragment.recommendedRounds || 12);
 
@@ -285,6 +289,31 @@ export function SetupScreen({ book, chapter, fragment, onBack, onStart }: SetupP
           </label>
         )}
 
+        {mode === 'spectate' && (
+          <>
+            <label className="field">
+              <span>甲方 AI</span>
+              <select value={presetId} onChange={(e) => setPresetId(e.target.value)}>
+                {AI_PRESETS.map((p) => (
+                  <option key={p.id} value={p.id}>
+                    {p.name}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label className="field">
+              <span>乙方 AI</span>
+              <select value={presetB} onChange={(e) => setPresetB(e.target.value)}>
+                {AI_PRESETS.map((p) => (
+                  <option key={p.id} value={p.id}>
+                    {p.name}
+                  </option>
+                ))}
+              </select>
+            </label>
+          </>
+        )}
+
         {mode === 'ai' && presetId === 'custom' && (
           <div className="sliders">
             <label>
@@ -323,6 +352,22 @@ export function SetupScreen({ book, chapter, fragment, onBack, onStart }: SetupP
           </div>
         )}
 
+        {mode === 'spectate' && (
+          <label className="field slider-field">
+            <span>
+              响应速度 <b>{aiSpeed} ms</b>
+            </span>
+            <input
+              type="range"
+              min="150"
+              max="2000"
+              step="50"
+              value={aiSpeed}
+              onChange={(e) => setAiSpeed(Number(e.target.value))}
+            />
+          </label>
+        )}
+
         <label className="field slider-field">
           <span>
             回合数 <b>{rounds === 0 ? '不限' : rounds}</b>
@@ -342,7 +387,7 @@ export function SetupScreen({ book, chapter, fragment, onBack, onStart }: SetupP
 
         <button
           className="menu-btn primary"
-          onClick={() => onStart({ mode, presetId, custom, rounds, difficulty })}
+          onClick={() => onStart({ mode, presetId, presetB, aiSpeed, custom, rounds, difficulty })}
         >
           开始对局
         </button>
@@ -421,20 +466,6 @@ export function SettingsScreen({
             type="checkbox"
             checked={settings.animation}
             onChange={(e) => onChange({ ...settings, animation: e.target.checked })}
-          />
-        </label>
-
-        <label className="field row">
-          <span>
-            AI 行动速度 <b>{settings.aiSpeed} ms</b>
-          </span>
-          <input
-            type="range"
-            min="150"
-            max="2000"
-            step="50"
-            value={settings.aiSpeed}
-            onChange={(e) => onChange({ ...settings, aiSpeed: Number(e.target.value) })}
           />
         </label>
 

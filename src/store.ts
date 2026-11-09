@@ -9,8 +9,6 @@ export interface Settings {
   uiScale: number; // 0.85–1.4
   animation: boolean;
   theme: 'dark' | 'light';
-  /** AI 每步之间的间隔（毫秒），看海模式也用它 */
-  aiSpeed: number;
 }
 
 const SETTINGS_KEY = 'sentences.settings.v1';
@@ -20,7 +18,6 @@ const DEFAULT_SETTINGS: Settings = {
   uiScale: 1,
   animation: true,
   theme: 'dark',
-  aiSpeed: 550,
 };
 
 export function loadSettings(): Settings {
@@ -179,6 +176,9 @@ export interface SaveFile {
   rounds: number;
   mode: 'ai' | 'hotseat' | 'spectate';
   presetId: string;
+  presetB?: string;
+  /** 仅看海模式使用 */
+  aiSpeed?: number;
   difficulty?: Difficulty;
   state: MatchState;
   savedAt: number;

@@ -22,6 +22,7 @@ interface GameProps {
   mode: 'ai' | 'hotseat' | 'spectate';
   aiSpeed: number;
   presetId: string;
+  presetBId: string;
   custom: AiConfig;
   difficulty: Difficulty;
   initialState?: MatchState;
@@ -34,7 +35,7 @@ function randomSeed() {
 }
 
 export default function Game(props: GameProps) {
-  const { book, chapter, fragmentId, rounds, mode, aiSpeed, presetId, custom, difficulty, initialState, onExit, onFinish } =
+  const { book, chapter, fragmentId, rounds, mode, aiSpeed, presetId, presetBId, custom, difficulty, initialState, onExit, onFinish } =
     props;
 
   const meta = useMemo(
@@ -60,7 +61,8 @@ export default function Game(props: GameProps) {
   const memB = useRef(newAiMemory());
   const reported = useRef(false);
 
-  const aiConfig: AiConfig = presetId === 'custom' ? custom : presetById(presetId);
+  const configA: AiConfig = presetId === 'custom' ? custom : presetById(presetId);
+  const configB: AiConfig = presetBId === 'custom' ? custom : presetById(presetBId);
   const humanTurn = mode !== 'spectate' && (mode === 'hotseat' || match.turn === 'A');
   const thinking = !match.ended && (mode === 'spectate' || (mode === 'ai' && match.turn === 'B'));
 
@@ -74,6 +76,8 @@ export default function Game(props: GameProps) {
       rounds,
       mode,
       presetId,
+      presetB: presetBId,
+      aiSpeed: mode === 'spectate' ? aiSpeed : undefined,
       difficulty,
       state: match,
       savedAt: Date.now(),
@@ -95,14 +99,14 @@ export default function Game(props: GameProps) {
     if (mode === 'ai' && match.turn !== 'B') return;
     const timer = window.setTimeout(() => {
       const mem = match.turn === 'A' ? memA.current : memB.current;
-      const action = decideNext(match, aiConfig, Math.random, mem);
+      const action = decideNext(match, match.turn === 'A' ? configA : configB, Math.random, mem);
       const r = apply(match, action);
       if (r.error) apply(match, { kind: 'endTurn' });
       else if (action.kind === 'correct' && r.correctResult) mem.confirmed.add(action.unitId);
       setMatch({ ...match });
-    }, aiSpeed);
+    }, mode === 'spectate' ? aiSpeed : 550);
     return () => window.clearTimeout(timer);
-  }, [match, mode, aiConfig, aiSpeed, presetId, custom]);
+  }, [match, mode, configA, configB, aiSpeed, presetId, presetBId, custom]);
 
   const pages = match.pages ?? [];
   const page = pages[Math.min(pageIdx, Math.max(0, pages.length - 1))];
@@ -187,7 +191,7 @@ export default function Game(props: GameProps) {
         </div>
         <div className="top-actions">
           <span className="muted">
-            {mode === 'ai' ? `人机 · ${presetById(presetId).name}` : mode === 'spectate' ? `看海 · ${presetById(presetId).name}` : '双人'} ·{' '}
+            {mode === 'ai' ? `人机 · ${presetById(presetId).name}` : mode === 'spectate' ? `看海 · ${presetById(presetId).name} vs ${presetById(presetBId).name}` : '双人'} ·{' '}
             {rounds === 0 ? '不限轮' : `${rounds} 轮`}
           </span>
           <button className="ghost" onClick={restart}>
