@@ -158,7 +158,8 @@ export default function Game(props: GameProps) {
     const humanAttack = mode !== 'spectate' && (mode === 'hotseat' || evt.side === 'A');
     const v = mode === 'hotseat' ? match.turn : mode === 'ai' ? 'A' : null;
     if (v && evt.from === v) notify('被进攻');
-    setFlashUnit({ id: evt.unitId, kind: humanAttack ? 'attack' : 'attack-foe' });
+    // 只有自己进攻才闪；对方进攻自己的句子保持原样，只给底部提示
+    if (humanAttack) setFlashUnit({ id: evt.unitId, kind: 'attack' });
     const t = window.setTimeout(() => setFlashUnit(null), 900);
     if (!humanAttack) return () => window.clearTimeout(t);
 
@@ -217,7 +218,7 @@ export default function Game(props: GameProps) {
     const target = pages.findIndex((p) => p.unitIds.includes(evt.unitId));
     if (target < 0 || target === cur) return;
     setAwayDot({ side: target < cur ? 'left' : 'right', color: evt.side === 'A' ? 'a' : 'b' });
-    const t = window.setTimeout(() => setAwayDot(null), 2400);
+    const t = window.setTimeout(() => setAwayDot(null), 1200);
     return () => window.clearTimeout(t);
   }, [match.eventSeq, pageIdx, pages, mode]);
 
