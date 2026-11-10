@@ -408,6 +408,7 @@ export default function Game(props: GameProps) {
                 flashUnit && flashUnit.id === id ? `flash-${flashUnit.kind}` : '',
                 reviewing ? (unit.correct ? 'review-right' : 'review-wrong') : '',
                 cell.owner === viewer && cell.shieldedBy === viewer ? 'shielded' : '',
+                cell.owner !== null && viewer ? (cell.owner === viewer ? 'mine' : 'theirs') : '',
                 cell.owner === viewer && fadingShields.includes(id) ? 'shielded shield-fade' : '',
               ]
                 .filter(Boolean)

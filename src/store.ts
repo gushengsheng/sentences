@@ -8,7 +8,7 @@ import type { MatchState } from './engine';
 export interface Settings {
   uiScale: number; // 0.85–1.4
   animation: boolean;
-  theme: 'dark' | 'light';
+  theme: 'dark' | 'light' | 'mono';
   /** 棋盘闪光：修正 / 被进攻时高亮那一句 */
   flashBoard: boolean;
   /** 回合横幅：只在第 1 回合和灾变后出现 */

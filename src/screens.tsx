@@ -461,10 +461,13 @@ export function SettingsScreen({
           <span>配色</span>
           <select
             value={settings.theme}
-            onChange={(e) => onChange({ ...settings, theme: e.target.value as 'dark' | 'light' })}
+            onChange={(e) =>
+              onChange({ ...settings, theme: e.target.value as 'dark' | 'light' | 'mono' })
+            }
           >
             <option value="dark">深色</option>
             <option value="light">浅色（墨水屏）</option>
+            <option value="mono">黑白（磨砂）</option>
           </select>
         </label>
 

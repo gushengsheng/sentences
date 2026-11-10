@@ -82,7 +82,7 @@ export default function App() {
     const s = loadSettings();
     // 预览用：?theme=light / ?theme=dark 覆盖本次初始配色
     const q = new URLSearchParams(window.location.search).get('theme');
-    return q === 'light' || q === 'dark' ? { ...s, theme: q } : s;
+    return q === 'light' || q === 'dark' || q === 'mono' ? { ...s, theme: q } : s;
   });
   const [save, setSave] = useState<SaveFile | null>(() => loadSave());
   const [error, setError] = useState<string | null>(null);
