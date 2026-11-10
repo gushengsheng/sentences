@@ -67,7 +67,7 @@ export default function Game(props: GameProps) {
   const [flash, setFlash] = useState<{ ok: boolean } | null>(null);
   const [quake, setQuake] = useState<{ title: string; sub: string } | null>(null);
   const [picked, setPicked] = useState<{ id: string; ok: boolean } | null>(null);
-  const [flashUnit, setFlashUnit] = useState<{ id: string; kind: 'ok' | 'bad' | 'attack' | 'shield' } | null>(null);
+  const [flashUnit, setFlashUnit] = useState<{ id: string; kind: 'ok' | 'bad' | 'attack' | 'attack-foe' | 'shield' } | null>(null);
   const [dim, setDim] = useState(false);
   const [banner, setBanner] = useState<string | null>(null);
   const bannerShown = useRef(false);
@@ -138,15 +138,18 @@ export default function Game(props: GameProps) {
     if (!settings.flashBoard) return;
     const evt = match.lastEvent;
     if (!evt || evt.kind !== 'convert') return;
-    setFlashUnit({ id: evt.unitId, kind: 'attack' });
+    // 只在“自己进攻”时出刀光和暗场；对方进攻只红闪
+    const humanAttack = mode !== 'spectate' && (mode === 'hotseat' || evt.side === 'A');
+    setFlashUnit({ id: evt.unitId, kind: humanAttack ? 'attack' : 'attack-foe' });
+    const t = window.setTimeout(() => setFlashUnit(null), 900);
+    if (!humanAttack) return () => window.clearTimeout(t);
     setDim(true);
     const dimT = window.setTimeout(() => setDim(false), 420);
-    const t = window.setTimeout(() => setFlashUnit(null), 900);
     return () => {
       window.clearTimeout(t);
       window.clearTimeout(dimT);
     };
-  }, [match.eventSeq, settings.flashBoard]);
+  }, [match.eventSeq, settings.flashBoard, mode]);
 
   // 第 1 回合横幅
   useEffect(() => {
@@ -341,7 +344,7 @@ export default function Game(props: GameProps) {
                 selected === id ? 'selected' : '',
                 flashUnit && flashUnit.id === id ? `flash-${flashUnit.kind}` : '',
                 reviewing ? (unit.correct ? 'review-right' : 'review-wrong') : '',
-                cell.owner === match.turn && cell.shielded === match.round ? 'shielded' : '',
+                cell.owner === match.turn && cell.shieldedBy === match.turn ? 'shielded' : '',
               ]
                 .filter(Boolean)
                 .join(' ');
@@ -415,7 +418,7 @@ export default function Game(props: GameProps) {
                 <button
                   disabled={
                     match.ap[match.turn] < 1 ||
-                    match.cells[selected].shielded === match.round
+                    match.cells[selected].shieldedBy === match.turn
                   }
                   onClick={() => run({ kind: 'protect', unitId: selected })}
                 >

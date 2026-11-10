@@ -84,8 +84,8 @@ export interface UnitState extends UnitDef {
 export interface Cell {
   owner: Side | null;
   revealed: boolean;
-  /** 护盾生效的回合号；=== 当前回合时不能被进攻 */
-  shielded?: number;
+  /** 护盾的主人；护盾在对方的回合生效，到自己下个回合开始时清除 */
+  shieldedBy?: Side;
 }
 
 export interface MatchState {
@@ -283,6 +283,13 @@ export interface ApplyResult {
 // 所有前置校验都在修改之前完成，失败时 state 不会被改动。
 // React 侧需要 setMatch({ ...match }) 触发重渲染；回放时从新状态重放即可。
 
+/** 自己的回合开始时，清掉自己上一轮放的护盾 */
+function clearShields(s: MatchState, side: Side) {
+  for (const id of s.order) {
+    if (s.cells[id].shieldedBy === side) s.cells[id].shieldedBy = undefined;
+  }
+}
+
 function finish(s: MatchState) {
   s.ended = true;
   const ta = tally(s, 'A');
@@ -342,12 +349,12 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       if (cell.owner === s.turn) return { state, error: '不能进攻己方句子' };
       if (s.ap[s.turn] < 2) return { state, error: 'AP 不足' };
       s.ap[s.turn] -= 2;
-      if (cell.shielded === s.round) {
+      if (cell.shieldedBy && cell.shieldedBy !== s.turn) {
         // 撞到隐藏护盾：AP 白花，护盾不破
         return { state: s, blocked: true };
       }
       cell.owner = s.turn;
-      cell.shielded = undefined;
+      cell.shieldedBy = undefined;
       s.eventSeq += 1;
       s.lastEvent = { kind: 'convert', unitId: action.unitId, side: s.turn };
       return { state: s };
@@ -357,10 +364,10 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       const cell = s.cells[action.unitId];
       if (!cell) return { state, error: '句子不存在' };
       if (cell.owner !== s.turn) return { state, error: '只能保护己方句子' };
-      if (cell.shielded === s.round) return { state, error: '这一回合已经保护过了' };
+      if (cell.shieldedBy === s.turn) return { state, error: '这一回合已经保护过了' };
       if (s.ap[s.turn] < 1) return { state, error: 'AP 不足' };
       s.ap[s.turn] -= 1;
-      cell.shielded = s.round;
+      cell.shieldedBy = s.turn;
       return { state: s };
     }
 
@@ -374,6 +381,7 @@ export function apply(state: MatchState, action: Action): ApplyResult {
         s.turn = 'B';
         s.ap.B += s.pendingAp.B;
         s.lastGrant.B = s.pendingAp.B;
+        clearShields(s, 'B');
         return { state: s };
       }
 
@@ -393,6 +401,7 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       s.turn = 'A';
       s.ap.A += s.pendingAp.A;
       s.lastGrant.A = s.pendingAp.A;
+      clearShields(s, 'A');
 
       if (completed % 3 === 0) {
         const rng = mulberry32((s.seed ^ (s.pulseIndex * 2654435761)) >>> 0);

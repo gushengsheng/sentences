@@ -1871,3 +1871,20 @@ button {
 .unit.flash-attack {
   z-index: 60;
 }
+
+/* 对方进攻：只红闪，不出刀光 */
+.unit.flash-attack-foe {
+  background: rgba(200, 70, 60, 0.42) !important;
+  outline: none !important;
+}
+[data-theme='light'] .unit.flash-attack-foe {
+  background: #f6d6d1 !important;
+}
+
+/* 刀光时长改回 0.45s，浅色主题用深色刀光 */
+.unit.flash-attack::before {
+  animation: slashSweep 0.45s ease-out forwards;
+}
+[data-theme='light'] .unit.flash-attack::before {
+  background: linear-gradient(90deg, transparent, #4a1208, #a3342c, #d9603b, #4a1208, transparent);
+}

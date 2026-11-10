@@ -174,7 +174,7 @@ export function decideNext(
   // 2.5) 保护：有富余 AP 时罩住一句正确的
   if (ap >= 1 && owned.length > 0 && cfg.strategy >= 0.3) {
     const protectable = owned.filter(
-      (id) => state.cells[id].shielded !== state.round && state.units[id].correct,
+      (id) => state.cells[id].shieldedBy !== state.turn && state.units[id].correct,
     );
     if (protectable.length > 0) {
       cands.push({
