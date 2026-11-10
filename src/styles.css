@@ -2121,26 +2121,29 @@ button {
   animation: shieldPulseFlash 0.9s ease-out;
 }
 
-/* 占领：文字从左往右显影 */
-@keyframes claimReveal {
-  0% { opacity: 0; clip-path: inset(0 100% 0 0); transform: translateY(2px); }
-  55% { opacity: 1; }
-  100% { opacity: 1; clip-path: inset(0 0 0 0); transform: translateY(0); }
+/* 占领：闪一下 */
+@keyframes claimFlash {
+  0% { background-color: rgba(255, 255, 255, 0.3); }
+  100% { background-color: transparent; }
 }
-.unit.claim-reveal {
-  animation: claimReveal 0.4s ease-out;
+.unit.claim-flash {
+  animation: claimFlash 0.45s ease-out;
 }
 
 /* 进攻：命中震颤 */
 @keyframes hitShake {
-  0%, 100% { transform: translateX(0); }
-  15% { transform: translateX(-2px); }
-  35% { transform: translateX(2px); }
-  55% { transform: translateX(-1.5px); }
-  75% { transform: translateX(1.5px); }
+  0%, 100% { left: 0; }
+  12% { left: -4px; }
+  30% { left: 4px; }
+  48% { left: -3px; }
+  66% { left: 3px; }
+  84% { left: -1px; }
 }
 .unit.hit-shake {
-  animation: hitShake 0.17s linear;
+  position: relative;
+  left: 0;
+  z-index: 61;
+  animation: hitShake 0.24s linear;
 }
 
 /* 斩痕：刀光扫过后的细线 */

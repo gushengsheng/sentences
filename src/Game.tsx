@@ -177,7 +177,7 @@ export default function Game(props: GameProps) {
     // 双方进攻都闪；自己进攻用刀光，对方进攻只红闪
     setFlashUnit({ id: evt.unitId, kind: humanAttack ? 'attack' : 'attack-foe' });
     setHitUnit(evt.unitId);
-    window.setTimeout(() => setHitUnit(null), 170);
+    window.setTimeout(() => setHitUnit(null), 280);
     window.clearTimeout(flashT.current);
     flashT.current = window.setTimeout(() => setFlashUnit(null), 900);
 
@@ -424,7 +424,7 @@ export default function Game(props: GameProps) {
                 reviewing ? (unit.correct ? 'review-right' : 'review-wrong') : '',
                 cell.owner === viewer && cell.shieldedBy === viewer ? 'shielded' : '',
                 cell.owner !== null && viewer ? (cell.owner === viewer ? 'mine' : 'theirs') : '',
-                revealUnit === id ? 'claim-reveal' : '',
+                revealUnit === id ? 'claim-flash' : '',
                 hitUnit === id ? 'hit-shake' : '',
                 cell.owner === viewer && fadingShields.includes(id) ? 'shielded shield-fade' : '',
               ]
