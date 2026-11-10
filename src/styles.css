@@ -2001,7 +2001,7 @@ button {
   box-shadow: inset 0 -2px 0 #5c5c5c;
 }
 [data-theme='mono'] .unit.mine {
-  background-color: rgba(255, 255, 255, 0.16) !important;
+  background-color: rgba(255, 255, 255, 0.16);
   background-image: linear-gradient(#ededed, #ededed);
   background-repeat: no-repeat;
   background-position: 0 100%;
@@ -2009,7 +2009,7 @@ button {
   font-weight: 700;
 }
 [data-theme='mono'] .unit.theirs {
-  background-color: rgba(255, 255, 255, 0.035) !important;
+  background-color: rgba(255, 255, 255, 0.035);
   background-image: linear-gradient(#575757, #575757);
   background-repeat: no-repeat;
   background-position: 0 100%;
