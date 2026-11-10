@@ -92,6 +92,15 @@ export function decideNext(
 
   if (ap < 1) return { kind: 'endTurn' };
 
+  // 阶段：前期扩张 → 灾难后修正 → 空地占完就进攻
+  const postPulse = state.round > 1 && state.round % 3 === 1;
+  const late = free.length <= 3;
+  // 只有最高策略 AI 才会执行阶段性打法
+  const phaseAI = cfg.strategy >= 0.9;
+  const fixBoost = phaseAI && postPulse ? 1.8 : 1;
+  const atkBoost = phaseAI ? (late ? 1.6 : 0.8) : 1;
+  const claimBoost = phaseAI ? (late ? 0.5 : 1) * (postPulse ? 0.6 : 1) : 1;
+
   // 脉冲之后清空“已确认”记忆：被洗过的句子不再可信
   if (memory && cfg.strategy >= 0.5) {
     const epoch = Math.floor((state.round - 1) / 3);
@@ -112,7 +121,7 @@ export function decideNext(
   const cands: Cand[] = [];
 
   // 1) 修正：c + w > 1 才值得动手；脉冲越近越不值得
-  if (ap >= 1 && owned.length > 0 && wrong > 0 && cfg.accuracy + w > 1) {
+  if (ap >= 1 && owned.length > 0 && wrong > 0 && ((phaseAI && postPulse) || cfg.accuracy + w > 1)) {
     let pool = owned;
     if (memory && cfg.strategy >= 0.5) {
       const filtered = owned.filter((id) => !memory.confirmed.has(id));
@@ -141,7 +150,7 @@ export function decideNext(
     if (chosen) {
       cands.push({
         action: { kind: 'correct', unitId: chosen.id, optionId: chosen.opt.id },
-        score: cfg.accuracy * 0.9 * timing,
+        score: cfg.accuracy * 0.9 * timing * fixBoost,
       });
     }
   }
@@ -157,7 +166,7 @@ export function decideNext(
     if (worthConverting) {
       cands.push({
         action: { kind: 'convert', unitId: id },
-        score: cfg.attack * cfg.accuracy * 0.5 * (1 - cfg.strategy * 0.2),
+        score: cfg.attack * cfg.accuracy * 0.5 * (1 - cfg.strategy * 0.2) * atkBoost,
       });
     }
   }
@@ -182,7 +191,7 @@ export function decideNext(
     const id = pick(free, rng);
     cands.push({
       action: { kind: 'claim', unitId: id },
-      score: cfg.expand * 0.5 * urgency,
+      score: cfg.expand * 0.5 * urgency * claimBoost,
     });
   }
 
