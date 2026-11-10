@@ -1910,3 +1910,33 @@ button {
   from { opacity: 1; }
   to { opacity: 0; }
 }
+
+/* 刀光：独立覆盖层，位置由 JS 的并集矩形决定 */
+.slash-line {
+  position: fixed;
+  height: 6px;
+  z-index: 70;
+  pointer-events: none;
+  border-radius: 3px;
+  background: linear-gradient(90deg, transparent, #ffe0d6, #e04a30, #ff8a70, transparent);
+  transform: rotate(-16deg) scaleX(0);
+  transform-origin: center;
+  animation: slashSweep 0.45s ease-out forwards;
+}
+[data-theme='light'] .slash-line {
+  background: linear-gradient(90deg, transparent, #4a1208, #a3342c, #d9603b, #4a1208, transparent);
+}
+.unit.flash-attack::before {
+  display: none;
+}
+
+/* 刀光容器：裁剪在句块矩形内，避免划过邻近句子 */
+.slash-box {
+  position: fixed;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 70;
+}
+.slash-line {
+  position: absolute;
+}

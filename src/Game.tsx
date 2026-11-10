@@ -70,6 +70,7 @@ export default function Game(props: GameProps) {
   const [flashUnit, setFlashUnit] = useState<{ id: string; kind: 'ok' | 'bad' | 'attack' | 'attack-foe' | 'shield' } | null>(null);
   const [dim, setDim] = useState(false);
   const [fadingShields, setFadingShields] = useState<string[]>([]);
+  const [slash, setSlash] = useState<{ left: number; top: number; width: number; height: number } | null>(null);
   const [banner, setBanner] = useState<string | null>(null);
   const bannerShown = useRef(false);
   const [reviewing, setReviewing] = useState(false);
@@ -144,11 +145,28 @@ export default function Game(props: GameProps) {
     setFlashUnit({ id: evt.unitId, kind: humanAttack ? 'attack' : 'attack-foe' });
     const t = window.setTimeout(() => setFlashUnit(null), 900);
     if (!humanAttack) return () => window.clearTimeout(t);
+
+    // 刀光：量出这句所有行盒的并集矩形，画成独立覆盖层
+    let slashT = 0;
+    const el = document.querySelector(`[data-unit="${evt.unitId}"]`);
+    if (el) {
+      const rects = Array.from(el.getClientRects());
+      if (rects.length > 0) {
+        const left = Math.min(...rects.map((r) => r.left));
+        const right = Math.max(...rects.map((r) => r.right));
+        const top = Math.min(...rects.map((r) => r.top));
+        const bottom = Math.max(...rects.map((r) => r.bottom));
+        setSlash({ left, top, width: right - left, height: bottom - top });
+        slashT = window.setTimeout(() => setSlash(null), 600);
+      }
+    }
+
     setDim(true);
     const dimT = window.setTimeout(() => setDim(false), 420);
     return () => {
       window.clearTimeout(t);
       window.clearTimeout(dimT);
+      window.clearTimeout(slashT);
     };
   }, [match.eventSeq, settings.flashBoard, mode]);
 
@@ -364,6 +382,7 @@ export default function Game(props: GameProps) {
               return (
                 <span
                   key={id}
+                  data-unit={id}
                   className={cls}
                   role="button"
                   tabIndex={0}
@@ -540,6 +559,27 @@ export default function Game(props: GameProps) {
       {toast && <div className="toast">{toast}</div>}
 
       <div className={dim ? 'dim-overlay on' : 'dim-overlay'} />
+
+      {slash && (
+        <div
+          className="slash-box"
+          style={{
+            left: slash.left,
+            top: slash.top,
+            width: slash.width,
+            height: slash.height,
+          }}
+        >
+          <div
+            className="slash-line"
+            style={{
+              left: slash.width / 2 - (Math.hypot(slash.width, slash.height) * 1.1) / 2,
+              top: slash.height / 2 - 3,
+              width: Math.hypot(slash.width, slash.height) * 1.1,
+            }}
+          />
+        </div>
+      )}
 
       {quake && (
         <div className="overlay quake-overlay" onClick={() => { setQuake(null); if (settings.turnBanner) showBanner(match.round); }}>
