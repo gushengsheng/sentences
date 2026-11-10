@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 2,
+  "id": "pharmacology-script",
+  "title": "药理学（脚本版）",
+  "author": "杨宝峰",
+  "contentVersion": 2,
+  "contentNote": "脚本版：单字找茬模式；表格为图片，仅表题被跳过；长句按标点切分，短句同小节内拼接。",
+  "chapters": [
+    {
+      "id": "chapter-01",
+      "title": "药理学总论——绪言",
+      "order": 1,
+      "file": "01-chapter.json"
+    },
+    {
+      "id": "chapter-02",
+      "title": "药物代谢动力学",
+      "order": 2,
+      "file": "02-chapter.json"
+    },
+    {
+      "id": "chapter-03",
+      "title": "药物效应动力学",
+      "order": 3,
+      "file": "03-chapter.json"
+    },
+    {
+      "id": "chapter-04",
+      "title": "影响药物效应的因素",
+      "order": 4,
+      "file": "04-chapter.json"
+    },
+    {
+      "id": "chapter-05",
+      "title": "传出神经系统药理概论",
+      "order": 5,
+      "file": "05-chapter.json"
+    },
+    {
+      "id": "chapter-06",
+      "title": "胆碱受体激动药",
+      "order": 6,
+      "file": "06-chapter.json"
+    },
+    {
+      "id": "chapter-07",
+      "title": "抗胆碱酯酶药和胆碱酯酶复活药",
+      "order": 7,
+      "file": "07-chapter.json"
+    },
+    {
+      "id": "chapter-08",
+      "title": "胆碱受体阻断药（Ⅰ）——M胆碱受体阻断药",
+      "order": 8,
+      "file": "08-chapter.json"
+    },
+    {
+      "id": "chapter-09",
+      "title": "胆碱受体阻断药（Ⅱ）——N胆碱受体阻断药",
+      "order": 9,
+      "file": "09-chapter.json"
+    },
+    {
+      "id": "chapter-10",
+      "title": "肾上腺素受体激动药",
+      "order": 10,
+      "file": "10-chapter.json"
+    },
+    {
+      "id": "chapter-11",
+      "title": "肾上腺素受体阻断药",
+      "order": 11,
+      "file": "11-chapter.json"
+    },
+    {
+      "id": "chapter-12",
+      "title": "中枢神经系统药理学概论",
+      "order": 12,
+      "file": "12-chapter.json"
+    },
+    {
+      "id": "chapter-13",
+      "title": "全身麻醉药",
+      "order": 13,
+      "file": "13-chapter.json"
+    },
+    {
+      "id": "chapter-14",
+      "title": "局部麻醉药",
+      "order": 14,
+      "file": "14-chapter.json"
+    },
+    {
+      "id": "chapter-15",
+      "title": "镇静催眠药",
+      "order": 15,
+      "file": "15-chapter.json"
+    },
+    {
+      "id": "chapter-16",
+      "title": "抗癫痫药和抗惊厥药",
+      "order": 16,
+      "file": "16-chapter.json"
+    },
+    {
+      "id": "chapter-17",
+      "title": "治疗中枢神经系统退行性疾病药",
+      "order": 17,
+      "file": "17-chapter.json"
+    },
+    {
+      "id": "chapter-18",
+      "title": "抗精神失常药",
+      "order": 18,
+      "file": "18-chapter.json"
+    },
+    {
+      "id": "chapter-19",
+      "title": "镇 痛 药",
+      "order": 19,
+      "file": "19-chapter.json"
+    },
+    {
+      "id": "chapter-20",
+      "title": "解热镇痛抗炎药",
+      "order": 20,
+      "file": "20-chapter.json"
+    },
+    {
+      "id": "chapter-21",
+      "title": "离子通道概论及钙通道阻滞药",
+      "order": 21,
+      "file": "21-chapter.json"
+    },
+    {
+      "id": "chapter-22",
+      "title": "抗心律失常药",
+      "order": 22,
+      "file": "22-chapter.json"
+    },
+    {
+      "id": "chapter-23",
+      "title": "肾素—血管紧张素系统药理",
+      "order": 23,
+      "file": "23-chapter.json"
+    },
+    {
+      "id": "chapter-24",
+      "title": "利 尿 药",
+      "order": 24,
+      "file": "24-chapter.json"
+    },
+    {
+      "id": "chapter-25",
+      "title": "抗高血压药",
+      "order": 25,
+      "file": "25-chapter.json"
+    },
+    {
+      "id": "chapter-26",
+      "title": "治疗心力衰竭的药物",
+      "order": 26,
+      "file": "26-chapter.json"
+    },
+    {
+      "id": "chapter-27",
+      "title": "调血脂药与抗动脉粥样硬化药",
+      "order": 27,
+      "file": "27-chapter.json"
+    },
+    {
+      "id": "chapter-28",
+      "title": "抗心绞痛药",
+      "order": 28,
+      "file": "28-chapter.json"
+    },
+    {
+      "id": "chapter-29",
+      "title": "作用于血液及造血器官的药物",
+      "order": 29,
+      "file": "29-chapter.json"
+    },
+    {
+      "id": "chapter-30",
+      "title": "影响自体活性物质的药物",
+      "order": 30,
+      "file": "30-chapter.json"
+    },
+    {
+      "id": "chapter-31",
+      "title": "作用于呼吸系统的药物",
+      "order": 31,
+      "file": "31-chapter.json"
+    },
+    {
+      "id": "chapter-32",
+      "title": "作用于消化系统的药物",
+      "order": 32,
+      "file": "32-chapter.json"
+    },
+    {
+      "id": "chapter-33",
+      "title": "子宫平滑肌兴奋药和抑制药",
+      "order": 33,
+      "file": "33-chapter.json"
+    },
+    {
+      "id": "chapter-34",
+      "title": "性激素类药及避孕药",
+      "order": 34,
+      "file": "34-chapter.json"
+    },
+    {
+      "id": "chapter-35",
+      "title": "肾上腺皮质激素类药物",
+      "order": 35,
+      "file": "35-chapter.json"
+    },
+    {
+      "id": "chapter-36",
+      "title": "甲状腺激素及抗甲状腺药",
+      "order": 36,
+      "file": "36-chapter.json"
+    },
+    {
+      "id": "chapter-37",
+      "title": "胰岛素及其他降血糖药",
+      "order": 37,
+      "file": "37-chapter.json"
+    },
+    {
+      "id": "chapter-38",
+      "title": "抗菌药物概论",
+      "order": 38,
+      "file": "38-chapter.json"
+    },
+    {
+      "id": "chapter-39",
+      "title": "β-内酰胺类抗生素",
+      "order": 39,
+      "file": "39-chapter.json"
+    },
+    {
+      "id": "chapter-40",
+      "title": "大环内酯类、林可霉素类及多肽类抗生素",
+      "order": 40,
+      "file": "40-chapter.json"
+    },
+    {
+      "id": "chapter-41",
+      "title": "氨基糖苷类抗生素",
+      "order": 41,
+      "file": "41-chapter.json"
+    },
+    {
+      "id": "chapter-42",
+      "title": "四环素类及氯霉素类",
+      "order": 42,
+      "file": "42-chapter.json"
+    },
+    {
+      "id": "chapter-43",
+      "title": "人工合成抗菌药",
+      "order": 43,
+      "file": "43-chapter.json"
+    },
+    {
+      "id": "chapter-44",
+      "title": "抗病毒药和抗真菌药",
+      "order": 44,
+      "file": "44-chapter.json"
+    },
+    {
+      "id": "chapter-45",
+      "title": "抗结核病药及抗麻风病药",
+      "order": 45,
+      "file": "45-chapter.json"
+    },
+    {
+      "id": "chapter-46",
+      "title": "抗寄生虫药",
+      "order": 46,
+      "file": "46-chapter.json"
+    },
+    {
+      "id": "chapter-47",
+      "title": "抗恶性肿瘤药",
+      "order": 47,
+      "file": "47-chapter.json"
+    },
+    {
+      "id": "chapter-48",
+      "title": "影响免疫功能的药物",
+      "order": 48,
+      "file": "48-chapter.json"
+    }
+  ]
+}

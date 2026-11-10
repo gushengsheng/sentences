@@ -45,6 +45,24 @@
       "fragments": 19
     },
     {
+      "id": "pharmacology-script",
+      "title": "药理学（脚本版）",
+      "author": "杨宝峰",
+      "dir": "pharmacology-script",
+      "file": "pharmacology-script/book.json",
+      "chapters": 48,
+      "fragments": 495
+    },
+    {
+      "id": "heart-failure-script",
+      "title": "治疗心力衰竭的药物（脚本版）",
+      "author": "杨宝峰",
+      "dir": "heart-failure-script",
+      "file": "heart-failure-script/book.json",
+      "chapters": 1,
+      "fragments": 15
+    },
+    {
       "id": "muscarinic",
       "title": "M胆碱受体激动药与阻断药",
       "author": "杨宝峰",
