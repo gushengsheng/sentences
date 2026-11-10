@@ -55,7 +55,7 @@ type Screen =
       initialState?: MatchState;
       nonce: number;
     }
-  | { name: 'reading'; bookId?: string }
+  | { name: 'reading'; bookId?: string; chapterId?: string }
   | { name: 'settings' };
 
 function Loading({ text }: { text: string }) {
@@ -152,20 +152,17 @@ export default function App() {
       return;
     }
     try {
-      const bundle = await ensureBundle(bookId);
-      const missing = bundle.book.chapters.filter((c) => !bundle.chapters[c.id]);
-      if (missing.length > 0) {
-        const chapters = { ...bundle.chapters };
-        await Promise.all(
-          missing.map(async (c) => {
-            chapters[c.id] = await source.loadChapter(bookId, c.id);
-          }),
-        );
-        const updated = { ...bundle, chapters };
-        bundleRef.current[bookId] = updated;
-        setBundles({ ...bundleRef.current });
-      }
+      await ensureBundle(bookId);
       setScreen({ name: 'reading', bookId });
+    } catch (e) {
+      setError(String((e as Error)?.message ?? e));
+    }
+  }
+
+  async function openReadingChapter(bookId: string, chapterId: string) {
+    try {
+      await ensureChapter(bookId, chapterId);
+      setScreen({ name: 'reading', bookId, chapterId });
     } catch (e) {
       setError(String((e as Error)?.message ?? e));
     }
@@ -410,6 +407,7 @@ export default function App() {
           <ReadingScreen
             summaries={summaries}
             onSelect={(id) => void openReading(id ?? undefined)}
+            onOpenChapter={() => {}}
             onBack={() => setScreen({ name: 'menu' })}
           />
         );
@@ -421,11 +419,19 @@ export default function App() {
         );
         return <Loading text="载入书…" />;
       }
+      if (screen.chapterId && !bundle.chapters[screen.chapterId]) {
+        void ensureChapter(bid, screen.chapterId).catch((e: unknown) =>
+          setError(String((e as Error)?.message ?? e)),
+        );
+        return <Loading text="载入章节…" />;
+      }
       return (
         <ReadingScreen
           summaries={summaries}
           bundle={bundle}
+          chapterId={screen.chapterId}
           onSelect={(id) => void openReading(id ?? undefined)}
+          onOpenChapter={(id) => void openReadingChapter(bid, id)}
           onBack={() => setScreen({ name: 'menu' })}
         />
       );

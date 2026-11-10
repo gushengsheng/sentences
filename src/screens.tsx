@@ -544,11 +544,20 @@ export function SettingsScreen({
 interface ReadingProps {
   summaries: BookSummary[];
   bundle?: BookBundle;
+  chapterId?: string;
   onSelect: (bookId: string | null) => void;
+  onOpenChapter: (chapterId: string) => void;
   onBack: () => void;
 }
 
-export function ReadingScreen({ summaries, bundle, onSelect, onBack }: ReadingProps) {
+export function ReadingScreen({
+  summaries,
+  bundle,
+  chapterId,
+  onSelect,
+  onOpenChapter,
+  onBack,
+}: ReadingProps) {
   if (!bundle) {
     return (
       <div className="screen">
@@ -578,46 +587,75 @@ export function ReadingScreen({ summaries, bundle, onSelect, onBack }: ReadingPr
   const { book, chapters } = bundle;
   const refs = [...book.chapters].sort((a, b) => a.order - b.order);
 
+  if (!chapterId) {
+    return (
+      <div className="screen">
+        <header className="screen-head">
+          <button className="back" onClick={() => onSelect(null)}>
+            ← 返回
+          </button>
+          <h2>{book.title}</h2>
+        </header>
+        <p className="muted reading-hint">选一章，按正确原文复习。</p>
+        <div className="cards">
+          {refs.map((ref) => {
+            const meta = bundle.summary.chapterMeta?.find((m) => m.id === ref.id);
+            const count = meta?.fragments ?? chapters[ref.id]?.fragments.length ?? 0;
+            return (
+              <button key={ref.id} className="card" onClick={() => onOpenChapter(ref.id)}>
+                <div className="card-title">
+                  {String(ref.order).padStart(2, '0')} · {ref.title}
+                </div>
+                <div className="card-meta">{count} 个知识碎片</div>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+    );
+  }
+
+  const ref = book.chapters.find((c) => c.id === chapterId);
+  const chapter = chapters[chapterId];
+  if (!ref || !chapter) {
+    return (
+      <div className="screen center">
+        <p className="muted">载入章节…</p>
+      </div>
+    );
+  }
+
   return (
     <div className="screen">
       <header className="screen-head">
-        <button className="back" onClick={() => onSelect(null)}>
+        <button className="back" onClick={() => onSelect(book.id)}>
           ← 返回
         </button>
-        <h2>{book.title}</h2>
+        <h2>{ref.title}</h2>
       </header>
 
       <div className="reading">
-        {refs.map((ref) => {
-          const chapter = chapters[ref.id];
-          if (!chapter) return null;
-          return (
-            <div key={ref.id}>
-              <h2 className="reading-chapter">{ref.title}</h2>
-              {[...chapter.fragments]
-                .sort((a, b) => a.order - b.order)
-                .map((f) => {
-                  const paragraphs: { p: number; text: string }[] = [];
-                  for (const u of f.units) {
-                    if (u.carried) continue; // 复制来的句子，上一碎片已经展示过
-                    const last = paragraphs[paragraphs.length - 1];
-                    if (last && last.p === u.paragraph) last.text += u.original;
-                    else paragraphs.push({ p: u.paragraph, text: u.original });
-                  }
-                  return (
-                    <section key={f.id}>
-                      <h3>
-                        {String(f.order).padStart(2, '0')} · {f.title}
-                      </h3>
-                      {paragraphs.map((pg) => (
-                        <p key={pg.p}>{pg.text}</p>
-                      ))}
-                    </section>
-                  );
-                })}
-            </div>
-          );
-        })}
+        {[...chapter.fragments]
+          .sort((a, b) => a.order - b.order)
+          .map((f) => {
+            const paragraphs: { p: number; text: string }[] = [];
+            for (const u of f.units) {
+              if (u.carried) continue;
+              const last = paragraphs[paragraphs.length - 1];
+              if (last && last.p === u.paragraph) last.text += u.original;
+              else paragraphs.push({ p: u.paragraph, text: u.original });
+            }
+            return (
+              <section key={f.id}>
+                <h3>
+                  {String(f.order).padStart(2, '0')} · {f.title}
+                </h3>
+                {paragraphs.map((pg) => (
+                  <p key={pg.p}>{pg.text}</p>
+                ))}
+              </section>
+            );
+          })}
       </div>
     </div>
   );
