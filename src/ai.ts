@@ -87,9 +87,7 @@ export function decideNext(
   const free = state.order.filter((id) => state.cells[id].owner === null);
   const enemy = state.order.filter((id) => {
     const o = state.cells[id].owner;
-    if (o === null || o === side) return false;
-    // 带护盾的格子打不动，直接排除
-    return state.cells[id].shielded !== state.round;
+    return o !== null && o !== side;
   });
 
   if (ap < 1) return { kind: 'endTurn' };

@@ -275,6 +275,8 @@ export interface ApplyResult {
   state: MatchState;
   error?: string;
   correctResult?: boolean;
+  /** 撞上隐藏护盾：AP 已扣，目标未变 */
+  blocked?: boolean;
 }
 
 // 注意：apply 会**原地修改** state，并返回同一个对象。
@@ -338,9 +340,12 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       if (!cell) return { state, error: '句子不存在' };
       if (cell.owner === null) return { state, error: '该句子无主' };
       if (cell.owner === s.turn) return { state, error: '不能进攻己方句子' };
-      if (cell.shielded === s.round) return { state, error: '目标已被保护' };
       if (s.ap[s.turn] < 2) return { state, error: 'AP 不足' };
       s.ap[s.turn] -= 2;
+      if (cell.shielded === s.round) {
+        // 撞到隐藏护盾：AP 白花，护盾不破
+        return { state: s, blocked: true };
+      }
       cell.owner = s.turn;
       cell.shielded = undefined;
       s.eventSeq += 1;

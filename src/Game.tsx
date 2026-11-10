@@ -193,6 +193,7 @@ export default function Game(props: GameProps) {
       return;
     }
     setMatch({ ...match });
+    if (r.blocked) notify('对方有护盾');
     if (r.correctResult !== undefined) {
       setFlash({ ok: r.correctResult });
       window.setTimeout(() => setFlash(null), 800);
@@ -324,7 +325,7 @@ export default function Game(props: GameProps) {
                 selected === id ? 'selected' : '',
                 flashUnit && flashUnit.id === id ? (flashUnit.ok ? 'flash-ok' : 'flash-bad') : '',
                 reviewing ? (unit.correct ? 'review-right' : 'review-wrong') : '',
-                cell.shielded === match.round ? 'shielded' : '',
+                cell.owner === match.turn && cell.shielded === match.round ? 'shielded' : '',
               ]
                 .filter(Boolean)
                 .join(' ');
@@ -409,16 +410,13 @@ export default function Game(props: GameProps) {
             {match.cells[selected].owner !== match.turn && (
               <button
                 className="primary"
-                disabled={
-                  match.ap[match.turn] < 2 ||
-                  match.cells[selected].shielded === match.round
-                }
+                disabled={match.ap[match.turn] < 2}
                 onClick={() => {
                   run({ kind: 'convert', unitId: selected });
                   setSelected(null);
                 }}
               >
-                {match.cells[selected].shielded === match.round ? '已被保护' : '进攻 · 2 AP'}
+                进攻 · 2 AP
               </button>
             )}
           </div>

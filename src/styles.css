@@ -1632,3 +1632,28 @@ button {
   box-shadow: 0 0 0 2px rgba(111, 74, 0, 0.28);
   animation: none;
 }
+
+.unit.shielded {
+  position: relative;
+  outline: 2px solid #d9a441;
+  outline-offset: 2px;
+  animation: none;
+}
+.unit.shielded::after {
+  content: '';
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  background: #d9a441;
+  box-shadow: 0 0 0 2px var(--bg);
+}
+[data-theme='light'] .unit.shielded {
+  outline: 3px solid #6f4a00;
+}
+[data-theme='light'] .unit.shielded::after {
+  background: #6f4a00;
+  box-shadow: 0 0 0 2px #ffffff;
+}
