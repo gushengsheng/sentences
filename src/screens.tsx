@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { AI_PRESETS, presetById, type AiConfig } from './ai';
 import type { Book, Chapter, FragmentDef } from './engine';
 import type { BookBundle, BookSummary } from './mapsource';
-import type { Difficulty, Progress, Settings } from './store';
+import { ratingAtLeast, type Difficulty, type Progress, type Settings } from './store';
 
 export type Mode = 'ai' | 'hotseat' | 'spectate';
 
@@ -187,7 +187,8 @@ export function FragmentsScreen({
           const rec = progress[`${book.id}::${chapter.id}::${f.id}`];
           // 顺序解锁：前一个碎片没通关就锁着，必须从第一个开始
           const prev = ordered[i - 1];
-          const prevCleared = !prev || !!progress[`${book.id}::${chapter.id}::${prev.id}`]?.rating;
+          const prevCleared =
+            !prev || ratingAtLeast(progress[`${book.id}::${chapter.id}::${prev.id}`]?.rating, '良好');
           const locked = i > 0 && !prevCleared;
 
           return (
@@ -196,7 +197,7 @@ export function FragmentsScreen({
               className={`card ${locked ? 'locked' : ''}`}
               disabled={locked}
               onClick={() => onPlay(f.id)}
-              title={locked ? '先通关上一关' : undefined}
+              title={locked ? '上一关需达到「良好」以上' : undefined}
             >
               <div className="card-row">
                 <span className="card-title">

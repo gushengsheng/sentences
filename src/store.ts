@@ -89,6 +89,13 @@ export function recordKey(bookId: string, chapterId: string, fragmentId: string)
   return `${bookId}::${chapterId}::${fragmentId}`;
 }
 
+const RATING_RANK: Record<Rating, number> = { 及格: 1, 良好: 2, 优秀: 3, 完美: 4 };
+
+/** 进度里的评级是否达到某个门槛 */
+export function ratingAtLeast(r: Rating | null | undefined, min: Rating): boolean {
+  return !!r && RATING_RANK[r] >= RATING_RANK[min];
+}
+
 export function ratingFor(d: Difficulty): Rating {
   if (d === 'master') return '完美';
   if (d === 'hard') return '优秀';
