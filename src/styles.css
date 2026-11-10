@@ -2122,12 +2122,16 @@ button {
 }
 
 /* 占领：闪一下 */
-@keyframes claimFlash {
-  0% { background-color: rgba(255, 255, 255, 0.55); }
-  100% { background-color: transparent; }
-}
 .unit.claim-flash {
+  --claim-alpha: 0.26;
   animation: claimFlash 0.35s ease-out;
+}
+[data-theme='mono'] .unit.claim-flash {
+  --claim-alpha: 0.34;
+}
+@keyframes claimFlash {
+  0% { background-color: rgba(255, 255, 255, var(--claim-alpha)); }
+  100% { background-color: transparent; }
 }
 
 /* 进攻：命中震颤 */
