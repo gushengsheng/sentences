@@ -1686,3 +1686,31 @@ button {
 .unit.selected {
   outline-style: dashed;
 }
+
+/* 护盾：冰蓝屏障色，和金色选中态区分 */
+.unit.shielded {
+  position: relative;
+  outline: 2px solid #a5d8f3;
+  outline-offset: 2px;
+  animation: none;
+  box-shadow: 0 0 8px rgba(165, 216, 243, 0.25);
+}
+.unit.shielded::after {
+  content: '';
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 11px;
+  height: 11px;
+  border-radius: 3px;
+  background: #a5d8f3;
+  box-shadow: 0 0 0 2px var(--bg);
+}
+[data-theme='light'] .unit.shielded {
+  outline-color: #2c6e91;
+  box-shadow: 0 0 0 2px rgba(44, 110, 145, 0.22);
+}
+[data-theme='light'] .unit.shielded::after {
+  background: #2c6e91;
+  box-shadow: 0 0 0 2px #ffffff;
+}
