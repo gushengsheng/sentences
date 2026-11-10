@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "id": "guide",
+  "title": "新手指南",
+  "author": "",
+  "contentVersion": 1,
+  "contentNote": "游戏的玩法与规则说明，可当新手关。",
+  "chapters": [
+    {
+      "id": "rules",
+      "title": "游戏玩法",
+      "order": 1,
+      "file": "01-rules.json"
+    }
+  ]
+}

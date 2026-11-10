@@ -2,15 +2,6 @@
   "schemaVersion": 2,
   "books": [
     {
-      "id": "psychotropic",
-      "title": "精神药物",
-      "author": "杨宝峰",
-      "dir": "psychotropic",
-      "file": "psychotropic/book.json",
-      "chapters": 1,
-      "fragments": 11
-    },
-    {
       "id": "bees",
       "title": "蜜蜂与蜂群",
       "dir": "bees",
@@ -19,30 +10,12 @@
       "fragments": 2
     },
     {
-      "id": "adrenergic",
-      "title": "肾上腺素受体激动药",
-      "author": "杨宝峰",
-      "dir": "adrenergic",
-      "file": "adrenergic/book.json",
-      "chapters": 1,
-      "fragments": 9
-    },
-    {
-      "id": "sleep",
-      "title": "睡眠与节律",
-      "dir": "sleep",
-      "file": "sleep/book.json",
+      "id": "guide",
+      "title": "新手指南",
+      "dir": "guide",
+      "file": "guide/book.json",
       "chapters": 1,
       "fragments": 1
-    },
-    {
-      "id": "pharmacology",
-      "title": "药理学",
-      "author": "杨宝峰",
-      "dir": "pharmacology",
-      "file": "pharmacology/book.json",
-      "chapters": 4,
-      "fragments": 19
     },
     {
       "id": "pharmacology-script",
@@ -54,22 +27,13 @@
       "fragments": 495
     },
     {
-      "id": "heart-failure-script",
-      "title": "治疗心力衰竭的药物（脚本版）",
+      "id": "pharmacology-ai",
+      "title": "药理学（AI 版）",
       "author": "杨宝峰",
-      "dir": "heart-failure-script",
-      "file": "heart-failure-script/book.json",
-      "chapters": 1,
-      "fragments": 15
-    },
-    {
-      "id": "muscarinic",
-      "title": "M胆碱受体激动药与阻断药",
-      "author": "杨宝峰",
-      "dir": "muscarinic",
-      "file": "muscarinic/book.json",
-      "chapters": 2,
-      "fragments": 12
+      "dir": "pharmacology-ai",
+      "file": "pharmacology-ai/book.json",
+      "chapters": 8,
+      "fragments": 51
     }
   ]
 }

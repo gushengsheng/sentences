@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 2,
+  "id": "pharmacology-ai",
+  "title": "药理学（AI 版）",
+  "author": "杨宝峰",
+  "contentVersion": 2,
+  "contentNote": "由四本 AI 生成的书合并：总论、药动学、药效学、影响药物效应的因素、精神药物、肾上腺素受体激动药、M 胆碱受体激动药与阻断药。",
+  "chapters": [
+    {
+      "id": "introduction",
+      "title": "药理学总论——绪言",
+      "order": 1,
+      "file": "01-introduction.json"
+    },
+    {
+      "id": "pharmacokinetics",
+      "title": "药物代谢动力学",
+      "order": 2,
+      "file": "02-pharmacokinetics.json"
+    },
+    {
+      "id": "pharmacodynamics",
+      "title": "药物效应动力学",
+      "order": 3,
+      "file": "03-pharmacodynamics.json"
+    },
+    {
+      "id": "drug-response-factors",
+      "title": "影响药物效应的因素",
+      "order": 4,
+      "file": "04-drug-response-factors.json"
+    },
+    {
+      "id": "antipsychotics",
+      "title": "抗精神失常药",
+      "order": 5,
+      "file": "05-antipsychotics.json"
+    },
+    {
+      "id": "adrenergic-agonists",
+      "title": "肾上腺素受体激动药",
+      "order": 6,
+      "file": "06-adrenergic-agonists.json"
+    },
+    {
+      "id": "m-agonists",
+      "title": "M胆碱受体激动药",
+      "order": 7,
+      "file": "07-m-agonists.json"
+    },
+    {
+      "id": "m-antagonists",
+      "title": "M胆碱受体阻断药",
+      "order": 8,
+      "file": "08-m-antagonists.json"
+    }
+  ]
+}
