@@ -8,8 +8,6 @@ export interface AiConfig {
   expand: number; // 0–1：占领倾向
   attack: number; // 0–1：转化倾向
   strategy: number; // 0–1：记忆 + 脉冲时机的运用程度
-  /** 实验用：转化动作的额外权重，默认 0。正式预设不使用。 */
-  convertBonus?: number;
 }
 
 export interface AiPreset extends AiConfig {
@@ -159,8 +157,7 @@ export function decideNext(
     if (worthConverting) {
       cands.push({
         action: { kind: 'convert', unitId: id },
-        score:
-          cfg.attack * cfg.accuracy * 0.5 * (1 - cfg.strategy * 0.2) * (1 + (cfg.convertBonus ?? 0)),
+        score: cfg.attack * cfg.accuracy * 0.5 * (1 - cfg.strategy * 0.2),
       });
     }
   }

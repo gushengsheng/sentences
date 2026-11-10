@@ -2,14 +2,7 @@
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
-import {
-  createMatch,
-  apply,
-  incomeOf,
-  tally,
-  normalizeBook,
-  normalizeChapter,
-} from '../src/engine.ts';
+import { createMatch, apply, incomeOf, tally } from '../src/engine.ts';
 import { validateFile } from './validate-map.mjs';
 
 let failures = 0;
@@ -107,20 +100,6 @@ for (const rounds of [6, 9, 12]) {
   ok(s.winner === 'A' || s.winner === 'B', '应有胜者');
   ok(s.pulseIndex === Math.floor((rounds - 1) / 3), `${rounds} 轮应有 ${Math.floor((rounds - 1) / 3)} 次脉冲`);
   ok(s.bookId === book.id && s.chapterId === chapter.id, '对局上下文应为书/章节');
-}
-
-// --- v1 迁移兼容 ---
-{
-  const legacy = {
-    schemaVersion: 1,
-    id: 'legacy-book',
-    title: '旧书',
-    maps: chapter.fragments,
-  };
-  const b = normalizeBook(legacy);
-  ok(b.chapters.length === 1, 'v1 包应迁移成单章书');
-  const c = normalizeChapter(legacy);
-  ok(c.fragments.length === chapter.fragments.length, 'v1 包应迁移成章节');
 }
 
 console.log(failures === 0 ? 'ALL OK' : `${failures} FAILURES`);

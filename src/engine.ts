@@ -71,44 +71,6 @@ export interface Book {
   chapters: ChapterRef[];
 }
 
-/** v1 地图包（schemaVersion 1）：读取时迁移成单章书 */
-export interface MapPack {
-  schemaVersion: 1;
-  id: string;
-  title: string;
-  source?: string;
-  description?: string;
-  maps: FragmentDef[];
-}
-
-// ---------- v1 → v2 迁移 ----------
-
-/** 旧地图包 → 章节 */
-export function chapterFromPack(pack: MapPack): Chapter {
-  return { id: pack.id, title: pack.title, fragments: pack.maps };
-}
-
-/** 旧地图包 → 只有单章的书（书标题可用目录名，缺省沿用包标题） */
-export function bookFromPack(pack: MapPack, bookTitle?: string): Book {
-  return {
-    id: pack.id,
-    title: bookTitle && bookTitle.trim() ? bookTitle : pack.title,
-    chapters: [{ id: pack.id, title: pack.title, order: 1, file: '' }],
-  };
-}
-
-/** 任意书 JSON：schemaVersion 1 的地图包转成单章书，v2 原样返回 */
-export function normalizeBook(raw: Book | MapPack): Book {
-  if ('maps' in raw) return bookFromPack(raw);
-  return raw;
-}
-
-/** 任意章节 JSON：v1 地图包也能当成章节读 */
-export function normalizeChapter(raw: Chapter | MapPack): Chapter {
-  if ('maps' in raw) return chapterFromPack(raw);
-  return raw;
-}
-
 // ---------- 运行态 ----------
 
 export interface UnitState extends UnitDef {
@@ -153,7 +115,6 @@ export interface MatchState {
   finalIncome: Record<Side, number> | null;
   pulseIndex: number;
   seed: number;
-  log: string[];
 }
 
 /** 对局上下文：书与章节的显示信息，缺省时退回章节自身的 id/title */
@@ -288,7 +249,6 @@ export function createMatch(
     finalIncome: null,
     pulseIndex: 0,
     seed,
-    log: [],
   };
   const startIncome = incomeOf(state, first);
   state.pendingAp = { A: startIncome, B: startIncome };
@@ -322,7 +282,6 @@ function finish(s: MatchState) {
   const b = incomeOf(s, 'B');
   s.finalIncome = { A: a, B: b };
   s.winner = a > b ? 'A' : b > a ? 'B' : s.first;
-  s.log.push(`对局结束 A=${a} B=${b}`);
 }
 
 function boardFull(s: MatchState): boolean {
@@ -342,7 +301,6 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       s.ap[s.turn] -= 1;
       cell.owner = s.turn;
       cell.revealed = true;
-      s.log.push(`${s.turn} 占领 ${action.unitId}`);
       if (boardFull(s) && s.rounds === 0) finish(s);
       return { state: s };
     }
@@ -360,12 +318,10 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       if (opt.isCorrect) {
         unit.correct = true;
         unit.text = unit.original;
-        s.log.push(`${s.turn} 修正成功 ${action.unitId}`);
         return { state: s, correctResult: true };
       }
       unit.correct = false;
       unit.text = opt.text;
-      s.log.push(`${s.turn} 修正失败 ${action.unitId}`);
       return { state: s, correctResult: false };
     }
 
@@ -377,7 +333,6 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       if (s.ap[s.turn] < 2) return { state, error: 'AP 不足' };
       s.ap[s.turn] -= 2;
       cell.owner = null;
-      s.log.push(`${s.turn} 进攻 ${action.unitId}`);
       s.eventSeq += 1;
       s.lastEvent = { kind: 'convert', unitId: action.unitId, side: s.turn };
       return { state: s };
@@ -388,7 +343,6 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       if (!cell) return { state, error: '句子不存在' };
       if (cell.owner !== s.turn) return { state, error: '只能放弃己方句子' };
       cell.owner = null;
-      s.log.push(`${s.turn} 放弃 ${action.unitId}`);
       return { state: s };
     }
 
@@ -402,7 +356,6 @@ export function apply(state: MatchState, action: Action): ApplyResult {
         s.turn = 'B';
         s.ap.B += s.pendingAp.B;
         s.lastGrant.B = s.pendingAp.B;
-        s.log.push('A 结束回合');
         return { state: s };
       }
 
@@ -411,7 +364,6 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       s.ledger.B = { correct: tb.correct, wrong: tb.wrong };
       s.pendingAp.B = incomeOf(s, 'B');
       const completed = s.round;
-      s.log.push('B 结束回合');
 
       // 终局在灾变之前结算：最后一轮结束后的那一次腐化不会发生
       if (s.rounds > 0 && completed >= s.rounds) {
@@ -439,7 +391,6 @@ export function apply(state: MatchState, action: Action): ApplyResult {
             }
           }
         }
-        s.log.push(`第 ${completed} 轮结束：腐化脉冲`);
       }
 
       return { state: s };
@@ -448,24 +399,6 @@ export function apply(state: MatchState, action: Action): ApplyResult {
 }
 // ---------- 辅助 ----------
 
-export function canClaim(state: MatchState, unitId: string): boolean {
-  return state.ap[state.turn] >= 1 && state.cells[unitId]?.owner === null;
-}
-
-export function canConvert(state: MatchState, unitId: string): boolean {
-  const cell = state.cells[unitId];
-  return state.ap[state.turn] >= 2 && !!cell && cell.owner !== null && cell.owner !== state.turn;
-}
-
-export function canAbandon(state: MatchState, unitId: string): boolean {
-  return state.cells[unitId]?.owner === state.turn;
-}
-
-export function canCorrect(state: MatchState, unitId: string): boolean {
-  return state.ap[state.turn] >= 1 && state.cells[unitId]?.owner === state.turn;
-}
-
-/** 下一次腐化脉冲所在轮次；已过或轮数不限时返回 null */
 export function nextPulseRound(state: MatchState): number | null {
   const r = Math.ceil(state.round / 3) * 3;
   if (state.rounds === 0) return r;
