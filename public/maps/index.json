@@ -43,6 +43,15 @@
       "file": "pharmacology/book.json",
       "chapters": 4,
       "fragments": 19
+    },
+    {
+      "id": "muscarinic",
+      "title": "M胆碱受体激动药与阻断药",
+      "author": "杨宝峰",
+      "dir": "muscarinic",
+      "file": "muscarinic/book.json",
+      "chapters": 2,
+      "fragments": 12
     }
   ]
 }
