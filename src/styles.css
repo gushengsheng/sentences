@@ -1940,3 +1940,21 @@ button {
 .slash-line {
   position: absolute;
 }
+
+/* 刀光沿句块对角线：长度和角度都跟盒子走 */
+.slash-line {
+  transform: rotate(var(--slash-angle, -16deg)) scaleX(0);
+  transform-origin: left center;
+  animation: slashSweepDiag 0.5s ease-out forwards;
+}
+@keyframes slashSweepDiag {
+  0% { transform: rotate(var(--slash-angle, -16deg)) scaleX(0); opacity: 0; }
+  15% { opacity: 1; }
+  60% { transform: rotate(var(--slash-angle, -16deg)) scaleX(1); opacity: 1; }
+  100% { transform: rotate(var(--slash-angle, -16deg)) scaleX(1); opacity: 0; }
+}
+
+/* 旋转以盒子中心为原点，端点正好落在对角 */
+.slash-line {
+  transform-origin: center center;
+}

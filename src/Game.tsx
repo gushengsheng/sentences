@@ -573,9 +573,10 @@ export default function Game(props: GameProps) {
           <div
             className="slash-line"
             style={{
-              left: slash.width / 2 - (Math.hypot(slash.width, slash.height) * 1.1) / 2,
+              left: slash.width / 2 - Math.hypot(slash.width, slash.height) / 2,
               top: slash.height / 2 - 3,
-              width: Math.hypot(slash.width, slash.height) * 1.1,
+              width: Math.hypot(slash.width, slash.height),
+              ['--slash-angle' as string]: `-${(Math.atan2(slash.height, slash.width) * 180) / Math.PI}deg`,
             }}
           />
         </div>
