@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { AI_PRESETS, presetById, type AiConfig } from './ai';
 import type { Book, Chapter, FragmentDef } from './engine';
 import type { BookBundle, BookSummary } from './mapsource';
@@ -544,20 +544,19 @@ export function SettingsScreen({
 interface ReadingProps {
   summaries: BookSummary[];
   bundle?: BookBundle;
-  chapterId?: string;
   onSelect: (bookId: string | null) => void;
-  onOpenChapter: (chapterId: string) => void;
   onBack: () => void;
 }
 
-export function ReadingScreen({
-  summaries,
-  bundle,
-  chapterId,
-  onSelect,
-  onOpenChapter,
-  onBack,
-}: ReadingProps) {
+export function ReadingScreen({ summaries, bundle, onSelect, onBack }: ReadingProps) {
+  const [openIds, setOpenIds] = useState<Set<string>>(new Set());
+
+  useEffect(() => {
+    if (!bundle) return;
+    const first = [...bundle.book.chapters].sort((a, b) => a.order - b.order)[0];
+    setOpenIds(first ? new Set([first.id]) : new Set());
+  }, [bundle?.book.id]);
+
   if (!bundle) {
     return (
       <div className="screen">
@@ -587,75 +586,62 @@ export function ReadingScreen({
   const { book, chapters } = bundle;
   const refs = [...book.chapters].sort((a, b) => a.order - b.order);
 
-  if (!chapterId) {
-    return (
-      <div className="screen">
-        <header className="screen-head">
-          <button className="back" onClick={() => onSelect(null)}>
-            ← 返回
-          </button>
-          <h2>{book.title}</h2>
-        </header>
-        <p className="muted reading-hint">选一章，按正确原文复习。</p>
-        <div className="cards">
-          {refs.map((ref) => {
-            const meta = bundle.summary.chapterMeta?.find((m) => m.id === ref.id);
-            const count = meta?.fragments ?? chapters[ref.id]?.fragments.length ?? 0;
-            return (
-              <button key={ref.id} className="card" onClick={() => onOpenChapter(ref.id)}>
-                <div className="card-title">
-                  {String(ref.order).padStart(2, '0')} · {ref.title}
-                </div>
-                <div className="card-meta">{count} 个知识碎片</div>
-              </button>
-            );
-          })}
-        </div>
-      </div>
-    );
-  }
-
-  const ref = book.chapters.find((c) => c.id === chapterId);
-  const chapter = chapters[chapterId];
-  if (!ref || !chapter) {
-    return (
-      <div className="screen center">
-        <p className="muted">载入章节…</p>
-      </div>
-    );
+  function toggle(id: string) {
+    setOpenIds((cur) => {
+      const next = new Set(cur);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
   }
 
   return (
     <div className="screen">
       <header className="screen-head">
-        <button className="back" onClick={() => onSelect(book.id)}>
+        <button className="back" onClick={() => onSelect(null)}>
           ← 返回
         </button>
-        <h2>{ref.title}</h2>
+        <h2>{book.title}</h2>
       </header>
 
       <div className="reading">
-        {[...chapter.fragments]
-          .sort((a, b) => a.order - b.order)
-          .map((f) => {
-            const paragraphs: { p: number; text: string }[] = [];
-            for (const u of f.units) {
-              if (u.carried) continue;
-              const last = paragraphs[paragraphs.length - 1];
-              if (last && last.p === u.paragraph) last.text += u.original;
-              else paragraphs.push({ p: u.paragraph, text: u.original });
-            }
-            return (
-              <section key={f.id}>
-                <h3>
-                  {String(f.order).padStart(2, '0')} · {f.title}
-                </h3>
-                {paragraphs.map((pg) => (
-                  <p key={pg.p}>{pg.text}</p>
-                ))}
-              </section>
-            );
-          })}
+        {refs.map((ref) => {
+          const chapter = chapters[ref.id];
+          const open = openIds.has(ref.id);
+          return (
+            <div key={ref.id} className="reading-block">
+              <button className="reading-chapter" onClick={() => toggle(ref.id)}>
+                <span>{ref.title}</span>
+                <span className="reading-toggle">{open ? '收起' : '展开'}</span>
+              </button>
+              {open && chapter && (
+                <div className="reading-body">
+                  {[...chapter.fragments]
+                    .sort((a, b) => a.order - b.order)
+                    .map((f) => {
+                      const paragraphs: { p: number; text: string }[] = [];
+                      for (const u of f.units) {
+                        if (u.carried) continue;
+                        const last = paragraphs[paragraphs.length - 1];
+                        if (last && last.p === u.paragraph) last.text += u.original;
+                        else paragraphs.push({ p: u.paragraph, text: u.original });
+                      }
+                      return (
+                        <section key={f.id}>
+                          <h3>
+                            {String(f.order).padStart(2, '0')} · {f.title}
+                          </h3>
+                          {paragraphs.map((pg) => (
+                            <p key={pg.p}>{pg.text}</p>
+                          ))}
+                        </section>
+                      );
+                    })}
+                </div>
+              )}
+            </div>
+          );
+        })}
       </div>
     </div>
   );

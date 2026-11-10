@@ -2164,3 +2164,27 @@ button {
   letter-spacing: 3px;
   color: var(--muted);
 }
+
+/* 文章回顾：章节折叠 */
+.reading-chapter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--line);
+  padding: 12px 0;
+  margin: 18px 0 10px;
+  color: var(--text);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+.reading-toggle {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: var(--muted);
+}
