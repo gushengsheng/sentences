@@ -16,7 +16,7 @@ node skills/sentences-map-forge/scripts/split.mjs \
   .work/<bookId>/01-<chapter>/sentences.json
 ```
 
-看输出里的 `high / medium / low` 数量；`low` 句跳过。
+看输出里的 `high / medium / low` 数量；`low` 句与相邻句合并，不丢。
 
 ## 2. 拼接碎片 + 独立性审查
 
@@ -40,7 +40,7 @@ node skills/sentences-map-forge/scripts/validate-content.mjs \
   .work/<bookId>/01-<chapter>/sentences.json
 ```
 
-必须 PASS。失败就改；连续两次失败丢弃该句子并记录。
+必须 PASS。失败就改；连续两次失败就与相邻句合并后重生成，**不许丢弃**。
 
 ## 5. 语义判定
 
@@ -79,4 +79,4 @@ node scripts/index-books.mjs
 
 ## 9. 报告
 
-书 / 章节数 / 碎片数 / 每碎片句子数 / 页数 / 错误密度 / PASS/FAIL / warning / 丢弃句子编号。
+书 / 章节数 / 碎片数 / 每碎片句子数 / 页数 / PASS/FAIL / warning / 合并处理的句子编号。

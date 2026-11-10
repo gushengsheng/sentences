@@ -12,7 +12,7 @@
 // 与 v1 的区别：
 // - 只在 。！？ 处断句，不再在逗号/分号处把完整句切碎
 // - 识别 Markdown / “第X章/节”标题，单独放进 headings
-// - 给每句标 high / medium / low，low 句默认不做句子
+// - 给每句标 high / medium / low；low 句不单独成单元，后续与相邻句合并
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { dirname } from 'node:path';
 
