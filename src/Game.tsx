@@ -72,6 +72,9 @@ export default function Game(props: GameProps) {
   const [fadingShields, setFadingShields] = useState<string[]>([]);
   const [slash, setSlash] = useState<{ left: number; top: number; width: number; height: number } | null>(null);
   const [awayDot, setAwayDot] = useState<{ side: 'left' | 'right'; color: 'a' | 'b' } | null>(null);
+  const flashT = useRef(0);
+  const dimT = useRef(0);
+  const slashT = useRef(0);
   const [banner, setBanner] = useState<string | null>(null);
   const bannerShown = useRef(false);
   const [reviewing, setReviewing] = useState(false);
@@ -145,8 +148,8 @@ export default function Game(props: GameProps) {
     if (match.cells[evt.unitId]?.owner !== v) return;
     if (settings.flashBoard) setFlashUnit({ id: evt.unitId, kind: 'shield' });
     notify('你的护盾挡下了一次进攻');
-    const t = window.setTimeout(() => setFlashUnit(null), 900);
-    return () => window.clearTimeout(t);
+    window.clearTimeout(flashT.current);
+    flashT.current = window.setTimeout(() => setFlashUnit(null), 900);
   }, [match.eventSeq, mode, settings.flashBoard]);
 
   // 被进攻时棋盘红闪
@@ -154,17 +157,18 @@ export default function Game(props: GameProps) {
     if (!settings.flashBoard) return;
     const evt = match.lastEvent;
     if (!evt || evt.kind !== 'convert') return;
-    // 只在“自己进攻”时出刀光和暗场；对方进攻只红闪
     const humanAttack = mode !== 'spectate' && (mode === 'hotseat' || evt.side === 'A');
     const v = mode === 'hotseat' ? match.turn : mode === 'ai' ? 'A' : null;
     if (v && evt.from === v) notify('被进攻');
-    // 只有自己进攻才闪；对方进攻自己的句子保持原样，只给底部提示
-    if (humanAttack) setFlashUnit({ id: evt.unitId, kind: 'attack' });
-    const t = window.setTimeout(() => setFlashUnit(null), 900);
-    if (!humanAttack) return () => window.clearTimeout(t);
+
+    // 双方进攻都闪；自己进攻用刀光，对方进攻只红闪
+    setFlashUnit({ id: evt.unitId, kind: humanAttack ? 'attack' : 'attack-foe' });
+    window.clearTimeout(flashT.current);
+    flashT.current = window.setTimeout(() => setFlashUnit(null), 900);
+
+    if (!humanAttack) return;
 
     // 刀光：量出这句所有行盒的并集矩形，画成独立覆盖层
-    let slashT = 0;
     const el = document.querySelector(`[data-unit="${evt.unitId}"]`);
     if (el) {
       const rects = Array.from(el.getClientRects());
@@ -174,17 +178,14 @@ export default function Game(props: GameProps) {
         const top = Math.min(...rects.map((r) => r.top));
         const bottom = Math.max(...rects.map((r) => r.bottom));
         setSlash({ left, top, width: right - left, height: bottom - top });
-        slashT = window.setTimeout(() => setSlash(null), 600);
+        window.clearTimeout(slashT.current);
+        slashT.current = window.setTimeout(() => setSlash(null), 600);
       }
     }
 
     setDim(true);
-    const dimT = window.setTimeout(() => setDim(false), 420);
-    return () => {
-      window.clearTimeout(t);
-      window.clearTimeout(dimT);
-      window.clearTimeout(slashT);
-    };
+    window.clearTimeout(dimT.current);
+    dimT.current = window.setTimeout(() => setDim(false), 420);
   }, [match.eventSeq, settings.flashBoard, mode]);
 
   // 第 1 回合横幅
@@ -266,12 +267,14 @@ export default function Game(props: GameProps) {
       notify('对方有护盾');
       if (settings.flashBoard && action.kind === 'convert') {
         setFlashUnit({ id: action.unitId, kind: 'shield' });
-        window.setTimeout(() => setFlashUnit(null), 900);
+        window.clearTimeout(flashT.current);
+        flashT.current = window.setTimeout(() => setFlashUnit(null), 900);
       }
     }
     if (action.kind === 'protect' && settings.flashBoard) {
       setFlashUnit({ id: action.unitId, kind: 'shield' });
-      window.setTimeout(() => setFlashUnit(null), 900);
+      window.clearTimeout(flashT.current);
+      flashT.current = window.setTimeout(() => setFlashUnit(null), 900);
     }
     if (r.correctResult !== undefined) {
       setFlash({ ok: r.correctResult });
