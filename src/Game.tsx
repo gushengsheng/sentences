@@ -71,7 +71,6 @@ export default function Game(props: GameProps) {
   const [banner, setBanner] = useState<string | null>(null);
   const bannerShown = useRef(false);
   const [reviewing, setReviewing] = useState(false);
-  const [panelMore, setPanelMore] = useState(false);
   const [reviewCell, setReviewCell] = useState<string | null>(null);
   const lastPulse = useRef(0);
 
@@ -233,7 +232,6 @@ export default function Game(props: GameProps) {
       run({ kind: 'claim', unitId: id });
       return;
     }
-    setPanelMore(false);
     setSelected((cur) => (cur === id ? null : id));
   }
 
@@ -398,33 +396,14 @@ export default function Game(props: GameProps) {
                   修正 · 1 AP
                 </button>
                 <button
-                  className="ghost more-btn"
-                  title="更多操作"
-                  onClick={() => setPanelMore((v) => !v)}
+                  disabled={
+                    match.ap[match.turn] < 1 ||
+                    match.cells[selected].shielded === match.round
+                  }
+                  onClick={() => run({ kind: 'protect', unitId: selected })}
                 >
-                  {panelMore ? '收起' : '⋯'}
+                  保护 · 1 AP
                 </button>
-                {panelMore && (
-                  <>
-                    <button
-                      disabled={
-                        match.ap[match.turn] < 1 ||
-                        match.cells[selected].shielded === match.round
-                      }
-                      onClick={() => run({ kind: 'protect', unitId: selected })}
-                    >
-                      保护 · 1 AP
-                    </button>
-                    <button
-                      onClick={() => {
-                        run({ kind: 'abandon', unitId: selected });
-                        setSelected(null);
-                      }}
-                    >
-                      放弃 · 0 AP
-                    </button>
-                  </>
-                )}
               </>
             )}
             {match.cells[selected].owner !== match.turn && (

@@ -1616,3 +1616,19 @@ button {
   min-width: 40px;
   padding: 8px 10px;
 }
+
+@keyframes shieldPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(217, 164, 65, 0.45); }
+  50% { box-shadow: 0 0 0 5px rgba(217, 164, 65, 0); }
+}
+.unit.shielded {
+  outline: 2px solid #d9a441;
+  outline-offset: 1px;
+  animation: shieldPulse 1.8s ease-in-out infinite;
+}
+[data-theme='light'] .unit.shielded {
+  outline: 3px solid #6f4a00;
+  outline-offset: 1px;
+  box-shadow: 0 0 0 2px rgba(111, 74, 0, 0.28);
+  animation: none;
+}

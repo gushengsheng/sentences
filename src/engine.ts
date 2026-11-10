@@ -268,7 +268,6 @@ export type Action =
   | { kind: 'claim'; unitId: string }
   | { kind: 'correct'; unitId: string; optionId: string }
   | { kind: 'convert'; unitId: string }
-  | { kind: 'abandon'; unitId: string }
   | { kind: 'protect'; unitId: string }
   | { kind: 'endTurn' };
 
@@ -357,14 +356,6 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       if (s.ap[s.turn] < 1) return { state, error: 'AP 不足' };
       s.ap[s.turn] -= 1;
       cell.shielded = s.round;
-      return { state: s };
-    }
-
-    case 'abandon': {
-      const cell = s.cells[action.unitId];
-      if (!cell) return { state, error: '句子不存在' };
-      if (cell.owner !== s.turn) return { state, error: '只能放弃己方句子' };
-      cell.owner = null;
       return { state: s };
     }
 
