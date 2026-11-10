@@ -185,18 +185,25 @@ export function FragmentsScreen({
       <div className="cards">
         {ordered.map((f, i) => {
           const rec = progress[`${book.id}::${chapter.id}::${f.id}`];
+          // 顺序解锁：前一个碎片没通关就锁着，必须从第一个开始
+          const prev = ordered[i - 1];
+          const prevCleared = !prev || !!progress[`${book.id}::${chapter.id}::${prev.id}`]?.rating;
+          const locked = i > 0 && !prevCleared;
 
           return (
             <button
               key={f.id}
-              className="card"
+              className={`card ${locked ? 'locked' : ''}`}
+              disabled={locked}
               onClick={() => onPlay(f.id)}
+              title={locked ? '先通关上一关' : undefined}
             >
               <div className="card-row">
                 <span className="card-title">
                   {String(i + 1).padStart(2, '0')} · {f.title}
                 </span>
                 {rec?.rating && <span className="badge">{rec.rating}</span>}
+                {locked && <span className="badge dim">未解锁</span>}
               </div>
               <div className="card-meta">
                 {f.units.length} 句 · {f.pages?.length ?? 1} 页 · 推荐 {f.recommendedRounds} 轮
