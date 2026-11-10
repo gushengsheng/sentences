@@ -61,6 +61,7 @@ interface Unit {
   paragraph: number;
   original: string;        // 忠实项就是它
   wrongOptions: [string, string, string];
+  carried?: boolean;       // 从上一碎片复制来的上下文句，回顾时跳过
 }
 ```
 

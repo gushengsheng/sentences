@@ -19,6 +19,8 @@ export interface UnitDef {
   original: string;
   /** 3 段篡改；错误时随机显示其中一段 */
   wrongOptions: [string, string, string];
+  /** 独立性审查时从上一碎片复制过来的句子：对局照常显示，回顾里跳过 */
+  carried?: boolean;
 }
 
 /** 渲染分页 */

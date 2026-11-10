@@ -103,11 +103,12 @@ meta.chapters.forEach((ch, ci) => {
       console.error(`碎片 ${frag.id}：units 为空`);
       process.exit(1);
     }
-    units = units.map(({ id, paragraph, original, wrongOptions }) => ({
+    units = units.map(({ id, paragraph, original, wrongOptions, carried }) => ({
       id,
       paragraph,
       original,
       wrongOptions,
+      ...(carried ? { carried: true } : {}),
     }));
 
     const pages = frag.pagesFile

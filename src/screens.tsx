@@ -587,6 +587,7 @@ export function ReadingScreen({ summaries, bundle, onSelect, onBack }: ReadingPr
                 .map((f) => {
                   const paragraphs: { p: number; text: string }[] = [];
                   for (const u of f.units) {
+                    if (u.carried) continue; // 复制来的句子，上一碎片已经展示过
                     const last = paragraphs[paragraphs.length - 1];
                     if (last && last.p === u.paragraph) last.text += u.original;
                     else paragraphs.push({ p: u.paragraph, text: u.original });
