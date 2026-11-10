@@ -1,4 +1,4 @@
-// 碎片规划：把保留句按段落边界切成 25–30 句元一片
+// 碎片规划：把保留句按段落边界切成 25–30 句子一片
 // 用法：node chunk-fragments.mjs <sentences.json> <keep-ids.json> <chapterId> <out.json> [--min=25] [--max=30]
 import fs from 'node:fs';
 

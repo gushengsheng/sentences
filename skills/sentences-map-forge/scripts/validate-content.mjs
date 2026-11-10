@@ -94,7 +94,7 @@ for (const u of units) {
   }
 }
 
-console.log("句元 " + units.length);
+console.log("句子 " + units.length);
 if (problems.length) {
   console.error("FAIL（" + problems.length + " 个问题）");
   for (const p of problems.slice(0, 60)) console.error(" -", p);

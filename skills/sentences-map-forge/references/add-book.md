@@ -11,7 +11,7 @@
 ## 1. 切句
 
 ```bash
-node skills/juyuan-map-forge/scripts/split.mjs \
+node skills/sentences-map-forge/scripts/split.mjs \
   .work/<bookId>/chapters/01-<chapter>.txt \
   .work/<bookId>/01-<chapter>/sentences.json
 ```
@@ -20,9 +20,9 @@ node skills/juyuan-map-forge/scripts/split.mjs \
 
 ## 2. 规划碎片
 
-- 每个碎片 18–30 个句子，1–3 页。
+- 每个碎片 25–30 个句子，1–3 页。
 - 在标题/段落边界切；不要把一个知识块切两半。
-- 一章 <15 句 → 一个碎片；>40 句 → 按小节拆 2–4 个碎片。
+- 一章不足 25 句 → 整章一个碎片；超过 60 句 → 按小节拆 2–4 个。
 - 碎片 id：`<chapterId>-NN`。
 
 把规划写进 `.work/<bookId>/plan.json`，再生成。
@@ -37,7 +37,7 @@ node skills/juyuan-map-forge/scripts/split.mjs \
 ## 4. 内容校验
 
 ```bash
-node skills/juyuan-map-forge/scripts/validate-content.mjs \
+node skills/sentences-map-forge/scripts/validate-content.mjs \
   .work/<bookId>/01-<chapter>/units.json \
   .work/<bookId>/01-<chapter>/sentences.json
 ```
@@ -55,7 +55,7 @@ node skills/juyuan-map-forge/scripts/validate-content.mjs \
 ## 6. 分页
 
 ```bash
-node skills/juyuan-map-forge/scripts/paginate.mjs \
+node skills/sentences-map-forge/scripts/paginate.mjs \
   .work/<bookId>/01-<chapter>/units.json \
   .work/<bookId>/01-<chapter>/pages.json 12
 ```
@@ -65,7 +65,7 @@ node skills/juyuan-map-forge/scripts/paginate.mjs \
 复制 `references/book-meta.example.json`，改成你的书、章、碎片、文件路径，然后：
 
 ```bash
-node skills/juyuan-map-forge/scripts/build-book.mjs .work/<bookId>/meta.json
+node skills/sentences-map-forge/scripts/build-book.mjs .work/<bookId>/meta.json
 ```
 
 会写 `public/maps/<bookId>/book.json` + 章节文件，并自动跑 `scripts/index-books.mjs`。

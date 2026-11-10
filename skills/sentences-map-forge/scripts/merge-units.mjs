@@ -12,11 +12,11 @@ for (const file of inputs) {
   const data = JSON.parse(readFileSync(file, 'utf8'));
   const arr = Array.isArray(data) ? data : data.units;
   if (!Array.isArray(arr)) {
-    console.error(`${file}: 不是句元数组`);
+    console.error(`${file}: 不是句子数组`);
     process.exit(1);
   }
   all.push(...arr);
 }
 
 writeFileSync(out, JSON.stringify(all, null, 2) + '\n', 'utf8');
-console.log(`合并 ${inputs.length} 个分片，共 ${all.length} 个句元 → ${out}`);
+console.log(`合并 ${inputs.length} 个分片，共 ${all.length} 个句子 → ${out}`);

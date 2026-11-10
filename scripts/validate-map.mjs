@@ -36,7 +36,7 @@ function validateFragment(frag, tag) {
   }
   const ids = new Set();
   for (const u of frag.units) {
-    if (ids.has(u.id)) fail(tag + "：句元 id 重复 " + u.id);
+    if (ids.has(u.id)) fail(tag + "：句子 id 重复 " + u.id);
     ids.add(u.id);
     validateUnit(u, tag + "/" + (u.id || "?"));
   }
@@ -45,12 +45,12 @@ function validateFragment(frag, tag) {
     for (const p of frag.pages) {
       if (!Array.isArray(p.unitIds) || p.unitIds.length === 0) { fail(tag + "/" + p.id + "：页为空"); continue; }
       for (const id of p.unitIds) {
-        if (!ids.has(id)) fail(tag + "/" + p.id + "：引用了不存在的句元 " + id);
-        if (covered.has(id)) fail(tag + "/" + p.id + "：句元 " + id + " 被多页覆盖");
+        if (!ids.has(id)) fail(tag + "/" + p.id + "：引用了不存在的句子 " + id);
+        if (covered.has(id)) fail(tag + "/" + p.id + "：句子 " + id + " 被多页覆盖");
         covered.add(id);
       }
     }
-    for (const id of ids) if (!covered.has(id)) fail(tag + "：句元 " + id + " 没有归入任何页");
+    for (const id of ids) if (!covered.has(id)) fail(tag + "：句子 " + id + " 没有归入任何页");
   }
   return { units: frag.units.length };
 }
@@ -123,7 +123,7 @@ if (isMain) {
   const file = process.argv[2];
   if (!file) { console.error("用法：node scripts/validate-map.mjs <book.json | 章节.json | v1包.json>"); process.exit(2); }
   const res = validateFile(file);
-  for (const s of res.stats) console.log("  " + s.mapId + ": " + s.fragments + " 个碎片, " + s.units + " 个句元");
+  for (const s of res.stats) console.log("  " + s.mapId + ": " + s.fragments + " 个碎片, " + s.units + " 个句子");
   for (const w of res.warnings) console.warn("WARN ", w);
   for (const e of res.errors) console.error("ERROR", e);
   console.log(res.ok ? "PASS (" + res.warnings.length + " warnings)" : "FAIL (" + res.errors.length + " errors)");

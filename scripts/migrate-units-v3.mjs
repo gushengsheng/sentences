@@ -1,4 +1,4 @@
-// 旧句元 → v3：wrongOptions = [wrongDisplay, 旧w2, 旧w3]
+// 旧句子 → v3：wrongOptions = [wrongDisplay, 旧w2, 旧w3]
 import { readFileSync, writeFileSync, readdirSync, statSync } from "node:fs";
 import { join } from "node:path";
 
@@ -54,4 +54,4 @@ function migrate(file) {
 }
 
 walk(root);
-console.log(`完成：${files} 个文件，${units} 个句元`);
+console.log(`完成：${files} 个文件，${units} 个句子`);

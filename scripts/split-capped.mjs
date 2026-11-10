@@ -1,6 +1,6 @@
 // 限长切句：整句超上限时，优先在 ；：， 处切开
 // 用法：node split-capped.mjs <文本.txt> <输出.json> [--max=55] [--min=12]
-// 输出结构与 juyuan-map-forge/scripts/split.mjs 一致
+// 输出结构与 sentences-map-forge/scripts/split.mjs 一致
 import fs from 'node:fs';
 import path from 'node:path';
 

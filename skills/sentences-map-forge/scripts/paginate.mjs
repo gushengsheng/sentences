@@ -1,4 +1,4 @@
-// DP 分页：句元数组 → 页数组
+// DP 分页：句子数组 → 页数组
 // 用法：node paginate.mjs <units.json> <pages.json> [target=12]
 import { readFileSync, writeFileSync } from 'node:fs';
 

@@ -1,4 +1,4 @@
-# sentences v2 数据结构
+﻿# sentences 数据结构
 
 ## 层级
 
@@ -6,25 +6,24 @@
 Book（书）
 └─ Chapter（章节）
    └─ Fragment（知识碎片 = 一局）
-      └─ Unit（句子 = 棋盘格子）
+      └─ Unit（句子 = 棋盘格子，界面里叫「领地」）
 ```
 
-- **书**：一本书一个目录，`maps/<book>/book.json`。
-- **章节**：一个章节一个文件，`maps/<book>/NN-<chapter>.json`，文件里装多个知识碎片。
-- **知识碎片**：原 v1 的 `MapDef`，仍含 `pages` 与 `units`，是真正开一局的对象。
-- **句子**：原 v1 的 `UnitDef`，字段不变。
-  - 游戏界面里把它叫作**领地**（“你的领地”），两者是同一个东西。
+- **书**：一个目录，`public/maps/<book>/book.json`。
+- **章节**：一个文件，`public/maps/<book>/NN-<chapter>.json`，内含多个碎片。
+- **知识碎片**：开一局的对象，含 `pages` 与 `units`。
+- **句子**：棋盘上的判定单位。界面里叫「领地」，代码里是 `Unit`。
 
-## Book
+## 类型
 
 ```ts
 interface Book {
   schemaVersion: 2;
-  id: string;            // 英文小写 slug，同时是目录名
-  title: string;         // 中文书名
+  id: string;              // 英文 kebab-case，同时是目录名
+  title: string;
   author?: string;
-  contentVersion?: number; // 2 = 按词级规则生成；1 = 旧内容迁移
-  contentNote?: string;    // 旧内容必须说明“可能不合规”
+  contentVersion?: number; // 2 = 按本规则生成；1 = 旧内容迁移
+  contentNote?: string;
   chapters: ChapterRef[];
 }
 
@@ -32,40 +31,35 @@ interface ChapterRef {
   id: string;
   title: string;
   order: number;
-  file: string;          // NN-<chapter>.json
+  file: string;            // NN-<chapter>.json
 }
-```
 
-## Chapter 文件
-
-```ts
 interface Chapter {
   id: string;
   title: string;
-  density?: number;   // 开局错误比例，缺省 0.25
+  density?: number;        // 开局错误比例，缺省 0.25
   fragments: Fragment[];
 }
 
 interface Fragment {
-  id: string;                 // <chapterId>-NN
-  title: string;              // 中文小标题
+  id: string;              // <chapterId>-NN
+  title: string;
   order: number;
-  recommendedRounds: number;  // 默认 12
+  recommendedRounds: number; // 默认 12
   pages?: Page[];
   units: Unit[];
 }
 
 interface Page {
-  id: string;                 // <fragmentId>-pN
+  id: string;              // <fragmentId>-pN
   title: string;
   unitIds: string[];
 }
 
-// 界面上叫「领地」，代码里是 Unit
 interface Unit {
-  id: string;                 // <fragmentId>-sNN
+  id: string;              // <fragmentId>-sNN
   paragraph: number;
-  original: string;
+  original: string;        // 忠实项就是它
   wrongOptions: [string, string, string];
 }
 ```
@@ -74,26 +68,26 @@ interface Unit {
 
 | 对象 | 规则 | 例 |
 |---|---|---|
-| 书目录 / book.id | 英文小写 kebab-case | `pharmacology` |
-| 章节文件 | `NN-<chapter>.json`，两位序号 | `01-anticholinergic.json` |
-| 章节 id | 英文小写 kebab-case | `anticholinergic` |
+| 书目录 / book.id | 小写 kebab-case | `pharmacology` |
+| 章节文件 | `NN-<chapter>.json` | `01-anticholinergic.json` |
+| 章节 id | 小写 kebab-case | `anticholinergic` |
 | 碎片 id | `<chapterId>-NN` | `anticholinergic-01` |
 | 句子 id | `<fragmentId>-sNN` | `anticholinergic-01-s01` |
 | 页 id | `<fragmentId>-pN` | `anticholinergic-01-p1` |
 
-文件名一律英文；中文标题只写在 JSON 内容里。
+文件名一律英文，中文标题写在 JSON 内容里。
 
 ## 硬性约束
 
-1. `schemaVersion === 2`（书）。
+1. `schemaVersion === 2`。
 2. 章节文件必须被 `book.json` 的 `chapters[].file` 引用，且存在。
-3. 章节内 `fragments` 非空；碎片 `id` 在章节内唯一；句子 `id` 在碎片内唯一。
-4. 四选一 = `original` + 3 段篡改，4 段两两不同，恰好 1 个忠实于原文。
-5. 每段篡改相对 `original` 只有 1 段连续差异，不跨标点，差异段 ≤ 12 字。
+3. `fragments` 非空；碎片 id 在章节内唯一；句子 id 在碎片内唯一。
+4. 4 段文本（`original` + 3 段篡改）两两不同。
+5. 每段篡改相对 `original` 只有 1 段连续差异，不跨 `，。；：、`，差异段 ≤ 12 字。
 6. 4 段文本最大/最小长度比 ≤ 1.3。
-7. 不写 `wrongDisplay` / `correctOption` / `corruptNow`；开局随机与显示随机都由引擎负责。
+7. 不写开局状态字段（哪句错、错时显示哪段，都由引擎随机）。
 8. `density` 若存在，必须 0 < density ≤ 0.5。
-10. `pages` 若存在，必须完整覆盖且不重叠；页长 10–16，目标 12。
+9. `pages` 若存在，必须完整覆盖且不重叠，页长 10–16。
 
 ## 示例
 
@@ -118,6 +112,7 @@ interface Unit {
 {
   "id": "anticholinergic",
   "title": "胆碱受体阻断药",
+  "density": 0.25,
   "fragments": [
     {
       "id": "anticholinergic-01",

@@ -1,4 +1,4 @@
-// 组装 sentences v2：书 → 章节 → 知识碎片 → 句元
+// 组装 sentences v2：书 → 章节 → 知识碎片 → 句子
 // 用法：node build-book.mjs <meta.json> [--out=<dir>]
 //
 // meta.json：
@@ -155,7 +155,7 @@ const bookJson = {
 };
 writeFileSync(join(bookDir, 'book.json'), JSON.stringify(bookJson, null, 2) + '\n', 'utf8');
 
-console.log(`写入 ${bookDir}/book.json（${chapterRefs.length} 章，${totalFragments} 个碎片，${totalUnits} 个句元）`);
+console.log(`写入 ${bookDir}/book.json（${chapterRefs.length} 章，${totalFragments} 个碎片，${totalUnits} 个句子）`);
 
 if (OUT === 'public/maps') {
   const r = spawnSync(process.execPath, ['scripts/index-books.mjs'], { stdio: 'inherit' });

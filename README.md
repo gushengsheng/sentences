@@ -108,7 +108,7 @@ github:https://github.com/gushengsheng/sentences
 
 欢迎进行书籍内容补充！
 
-不用写代码，也不用懂 JSON。项目自带一个「地图锻造」skill（`skills/juyuan-map-forge/`）：你把书的原文交给它，它负责切句、拆知识碎片、写四选一、校验是否合规、分页，最后生成地图文件。
+不用写代码，也不用懂 JSON。项目自带一个「地图锻造」skill（`skills/sentences-map-forge/`）：你把书的原文交给它，它负责切句、拆知识碎片、写四选一、校验是否合规、分页，最后生成地图文件。
 
 完整字段、加章节流程、上线命令见 [docs/开发文档.md](docs/开发文档.md)。
 
