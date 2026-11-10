@@ -155,6 +155,8 @@ export default function Game(props: GameProps) {
     if (!evt || evt.kind !== 'convert') return;
     // 只在“自己进攻”时出刀光和暗场；对方进攻只红闪
     const humanAttack = mode !== 'spectate' && (mode === 'hotseat' || evt.side === 'A');
+    const v = mode === 'hotseat' ? match.turn : mode === 'ai' ? 'A' : null;
+    if (v && evt.from === v) notify('一句领地被对方夺走');
     setFlashUnit({ id: evt.unitId, kind: humanAttack ? 'attack' : 'attack-foe' });
     const t = window.setTimeout(() => setFlashUnit(null), 900);
     if (!humanAttack) return () => window.clearTimeout(t);

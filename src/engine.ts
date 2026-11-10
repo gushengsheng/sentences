@@ -116,7 +116,10 @@ export interface MatchState {
   /** 刚刚消失的护盾格子，供 UI 做淡出 */
   shieldCleared?: string[];
   shieldClearSeq?: number;
-  lastEvent: { kind: 'convert' | 'blocked'; unitId: string; side: Side } | null;
+  lastEvent:
+    | { kind: 'convert'; unitId: string; side: Side; from?: Side }
+    | { kind: 'blocked'; unitId: string; side: Side }
+    | null;
   ended: boolean;
   winner: Side | null;
   /** 终局分数 = 正确 - 错误，可为负 */
@@ -360,6 +363,7 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       if (cell.owner === s.turn) return { state, error: '不能进攻己方句子' };
       if (s.ap[s.turn] < 2) return { state, error: 'AP 不足' };
       s.ap[s.turn] -= 2;
+      const prevOwner = cell.owner;
       if (cell.shieldedBy && cell.shieldedBy !== s.turn) {
         // 撞到隐藏护盾：AP 白花，护盾不破
         s.eventSeq += 1;
@@ -369,7 +373,7 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       cell.owner = s.turn;
       cell.shieldedBy = undefined;
       s.eventSeq += 1;
-      s.lastEvent = { kind: 'convert', unitId: action.unitId, side: s.turn };
+      s.lastEvent = { kind: 'convert', unitId: action.unitId, side: s.turn, from: prevOwner };
       return { state: s };
     }
 
