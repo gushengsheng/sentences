@@ -183,7 +183,7 @@ export function createMatch(
   const cells: Record<string, Cell> = {};
   const order: string[] = [];
 
-  // 开局随机挑 density 比例的句元变错
+  // 开局随机挑 density 比例的句子变错
   const density = chapter.density ?? 0.25;
   const corruptCount = Math.max(0, Math.min(fragment.units.length, Math.round(fragment.units.length * density)));
   const corruptIds = new Set(
@@ -365,7 +365,7 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       s.pendingAp.B = incomeOf(s, 'B');
       const completed = s.round;
 
-      // 终局在灾变之前结算：最后一轮结束后的那一次腐化不会发生
+      // 终局在灾难之前结算：最后一轮结束后的那一次灾难不会发生
       if (s.rounds > 0 && completed >= s.rounds) {
         finish(s);
         return { state: s };

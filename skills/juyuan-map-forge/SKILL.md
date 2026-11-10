@@ -1,6 +1,6 @@
 ---
 name: juyuan-map-forge
-description: 把医学/教材文本锻造成 sentences v2 的三级地图：书（Book）→章节（Chapter）→知识碎片（Fragment）→句元（Unit）。负责切句、碎片规划、词级四选一生成、单段 diff 校验、语义判定、DP 分页，输出 public/maps/<book>/book.json 与 NN-<chapter>.json，并自动生成 index.json。用户说“把这本书/这一章做成地图 / 新增一本书 / 做个知识碎片”时使用。
+description: 把医学/教材文本锻造成 sentences v2 的三级地图：书（Book）→章节（Chapter）→知识碎片（Fragment）→句子（Unit）。负责切句、碎片规划、词级四选一生成、单段 diff 校验、语义判定、DP 分页，输出 public/maps/<book>/book.json 与 NN-<chapter>.json，并自动生成 index.json。用户说“把这本书/这一章做成地图 / 新增一本书 / 做个知识碎片”时使用。
 ---
 
 # sentences v2 地图锻造炉
@@ -15,12 +15,12 @@ public/maps/
     NN-<chapter>.json         ← 一章，内含多个知识碎片
 ```
 
-层级：**书 → 章节 → 知识碎片（= 一局）→ 句元（棋盘格子）**。
+层级：**书 → 章节 → 知识碎片（= 一局）→ 句子（棋盘格子）**。
 
 - 书：一本书一个目录。
 - 章节：教材的一章/一节；一章一个文件。
-- 知识碎片：原 v1 的「一局」，含 `pages` 与 `units`，18–30 个句元。
-- 句元：原 v1 的 `UnitDef`，字段不变。
+- 知识碎片：原 v1 的「一局」，含 `pages` 与 `units`，18–30 个句子。
+- 句子：原 v1 的 `UnitDef`，字段不变。
 
 ## 内容类型（不要混）
 
@@ -51,7 +51,7 @@ public/maps/
 | 章节文件 | `NN-<chapter>.json` | `01-anticholinergic.json` |
 | 章节 id | 英文小写 kebab-case | `anticholinergic` |
 | 碎片 id | `<chapterId>-NN` | `anticholinergic-01` |
-| 句元 id | `<fragmentId>-sNN` | `anticholinergic-01-s01` |
+| 句子 id | `<fragmentId>-sNN` | `anticholinergic-01-s01` |
 | 页 id | `<fragmentId>-pN` | `anticholinergic-01-p1` |
 
 文件名一律英文；中文标题只写在 JSON 内容里。
@@ -89,13 +89,13 @@ node skills/juyuan-map-forge/scripts/split.mjs \
 
 - `high`：≥18 字、完整句末标点、无碎片特征 → 正常生成。
 - `medium`：12–17 字，或“其/也/但/这…”开头 → 可生成，人工留意。
-- `low`：<12 字、无句末标点 → **跳过，不做句元**。
+- `low`：<12 字、无句末标点 → **跳过，不做句子**。
 
 ### 2. 规划知识碎片
 
 原则：
 
-- 一个碎片 **18–30 个句元**，1–3 页，目标页长 12。
+- 一个碎片 **18–30 个句子**，1–3 页，目标页长 12。
 - 在标题/段落边界切；不要把同一小节硬拆两半。
 - 一章 <15 句 → 整章一个碎片；>40 句 → 按小节拆 2–4 个碎片。
 - 标题取小节标题；没有标题就取该碎片首句的主题词。
@@ -107,7 +107,7 @@ node skills/juyuan-map-forge/scripts/split.mjs \
 
 **分批**：每批 6–8 句，不要一次丢 30 句。用 `references/prompt-generate.md`。
 
-每个句元字段：
+每个句子字段：
 
 ```json
 {
@@ -138,11 +138,11 @@ node skills/juyuan-map-forge/scripts/validate-content.mjs \
   .work/<bookId>/01-<chapter>/sentences.json
 ```
 
-必须 `PASS`。失败项按 `references/prompt-generate.md` 的重生成策略处理；连续两次失败就丢弃该句元。
+必须 `PASS`。失败项按 `references/prompt-generate.md` 的重生成策略处理；连续两次失败就丢弃该句子。
 
 ### 5. 语义判定
 
-对每个句元用 `references/prompt-judge.md` 起独立判定：
+对每个句子用 `references/prompt-judge.md` 起独立判定：
 
 - 恰好 1 个 `faithful`；
 - 每个非正确项只有 1 处差异、可命名；
@@ -213,7 +213,7 @@ node scripts/index-books.mjs
 
 ### 9. 报告
 
-汇报：书、章节数、碎片数、每碎片句元数、页数、错误密度、PASS/FAIL、全部 warning、被丢弃的句元编号、人工抽检建议。
+汇报：书、章节数、碎片数、每碎片句子数、页数、错误密度、PASS/FAIL、全部 warning、被丢弃的句子编号、人工抽检建议。
 
 ## 新增一本书（SOP）
 

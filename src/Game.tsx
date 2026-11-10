@@ -373,9 +373,7 @@ export default function Game(props: GameProps) {
         <div className="panel">
           <div className="panel-head">
             <span>
-              {match.cells[selected].owner === match.turn
-                ? '己方句元'
-                : `对方句元 · ${sideName(match.cells[selected].owner as Side)}`}
+              {`${sideName(match.cells[selected].owner as Side)}的领地`}
             </span>
             <button className="x" onClick={() => setSelected(null)}>
               ×
@@ -429,7 +427,7 @@ export default function Game(props: GameProps) {
             第 {match.rounds === 0 ? match.round : Math.min(match.round, match.rounds)} /{' '}
             {match.rounds === 0 ? '不限' : match.rounds} 轮
           </span>
-          {pulse !== null && <span className="muted pulse-hint">腐化 · 第 {pulse} 轮末</span>}
+          {pulse !== null && <span className="muted pulse-hint">灾难 · 第 {pulse} 轮末</span>}
         </div>
 
         <div className="hud-right">

@@ -6,13 +6,14 @@
 Book（书）
 └─ Chapter（章节）
    └─ Fragment（知识碎片 = 一局）
-      └─ Unit（句元 = 棋盘格子）
+      └─ Unit（句子 = 棋盘格子）
 ```
 
 - **书**：一本书一个目录，`maps/<book>/book.json`。
 - **章节**：一个章节一个文件，`maps/<book>/NN-<chapter>.json`，文件里装多个知识碎片。
 - **知识碎片**：原 v1 的 `MapDef`，仍含 `pages` 与 `units`，是真正开一局的对象。
-- **句元**：原 v1 的 `UnitDef`，字段不变。
+- **句子**：原 v1 的 `UnitDef`，字段不变。
+  - 游戏界面里把它叫作**领地**（“你的领地”），两者是同一个东西。
 
 ## Book
 
@@ -60,6 +61,7 @@ interface Page {
   unitIds: string[];
 }
 
+// 界面上叫「领地」，代码里是 Unit
 interface Unit {
   id: string;                 // <fragmentId>-sNN
   paragraph: number;
@@ -76,7 +78,7 @@ interface Unit {
 | 章节文件 | `NN-<chapter>.json`，两位序号 | `01-anticholinergic.json` |
 | 章节 id | 英文小写 kebab-case | `anticholinergic` |
 | 碎片 id | `<chapterId>-NN` | `anticholinergic-01` |
-| 句元 id | `<fragmentId>-sNN` | `anticholinergic-01-s01` |
+| 句子 id | `<fragmentId>-sNN` | `anticholinergic-01-s01` |
 | 页 id | `<fragmentId>-pN` | `anticholinergic-01-p1` |
 
 文件名一律英文；中文标题只写在 JSON 内容里。
@@ -85,7 +87,7 @@ interface Unit {
 
 1. `schemaVersion === 2`（书）。
 2. 章节文件必须被 `book.json` 的 `chapters[].file` 引用，且存在。
-3. 章节内 `fragments` 非空；碎片 `id` 在章节内唯一；句元 `id` 在碎片内唯一。
+3. 章节内 `fragments` 非空；碎片 `id` 在章节内唯一；句子 `id` 在碎片内唯一。
 4. 四选一 = `original` + 3 段篡改，4 段两两不同，恰好 1 个忠实于原文。
 5. 每段篡改相对 `original` 只有 1 段连续差异，不跨标点，差异段 ≤ 12 字。
 6. 4 段文本最大/最小长度比 ≤ 1.3。

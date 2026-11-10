@@ -381,7 +381,7 @@ export function SetupScreen({ book, chapter, fragment, onBack, onStart }: SetupP
             onChange={(e) => setRounds(Number(e.target.value))}
           />
           <span className="muted hint">
-            0 = 不限，打到棋盘占满或一方无法行动。每 3 轮一次腐化。
+            0 = 不限，打到棋盘占满或一方无法行动。每 3 轮一次灾难。
           </span>
         </label>
 

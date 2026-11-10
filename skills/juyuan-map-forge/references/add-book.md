@@ -20,18 +20,18 @@ node skills/juyuan-map-forge/scripts/split.mjs \
 
 ## 2. 规划碎片
 
-- 每个碎片 18–30 个句元，1–3 页。
+- 每个碎片 18–30 个句子，1–3 页。
 - 在标题/段落边界切；不要把一个知识块切两半。
 - 一章 <15 句 → 一个碎片；>40 句 → 按小节拆 2–4 个碎片。
 - 碎片 id：`<chapterId>-NN`。
 
 把规划写进 `.work/<bookId>/plan.json`，再生成。
 
-## 3. 生成句元
+## 3. 生成句子
 
 - 每批 6–8 句，按 `references/prompt-generate.md`。
 - 每片写 `units-1.json`、`units-2.json`…；用 `merge-units.mjs` 合并成 `units.json`。
-- 每个句元 3 个算子互异。
+- 每个句子 3 个算子互异。
 - `id` = `<fragmentId>-sNN`；`paragraph` 照抄。
 
 ## 4. 内容校验
@@ -42,7 +42,7 @@ node skills/juyuan-map-forge/scripts/validate-content.mjs \
   .work/<bookId>/01-<chapter>/sentences.json
 ```
 
-必须 PASS。失败就改；连续两次失败丢弃该句元并记录。
+必须 PASS。失败就改；连续两次失败丢弃该句子并记录。
 
 ## 5. 语义判定
 
@@ -81,4 +81,4 @@ node scripts/index-books.mjs
 
 ## 9. 报告
 
-书 / 章节数 / 碎片数 / 每碎片句元数 / 页数 / 错误密度 / PASS/FAIL / warning / 丢弃句元编号。
+书 / 章节数 / 碎片数 / 每碎片句子数 / 页数 / 错误密度 / PASS/FAIL / warning / 丢弃句子编号。

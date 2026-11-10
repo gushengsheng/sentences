@@ -29,7 +29,7 @@ export function presetById(id: string): AiPreset {
 // ---------- AI 记忆 ----------
 
 export interface AiMemory {
-  /** 已确认正确的句子。脉冲之后清空，因为可能被重新腐化。 */
+  /** 已确认正确的句子。脉冲之后清空，因为可能再次变错。 */
   confirmed: Set<string>;
   /** 已经历的脉冲纪元，用来判断是否需要清空记忆 */
   pulseEpoch: number;
@@ -64,7 +64,7 @@ function pickOption(unit: { options: Option[] }, accuracy: number, rng: Rng): Op
   return pick(unit.options, rng);
 }
 
-/** 距离下次腐化脉冲还有几轮（脉冲发生在第 3、6、9…轮末） */
+/** 距离下次灾难脉冲还有几轮（脉冲发生在第 3、6、9…轮末） */
 function roundsToNextPulse(state: MatchState): number {
   const next = Math.ceil(state.round / 3) * 3;
   return Math.max(0, next - state.round);

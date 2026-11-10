@@ -18,7 +18,6 @@ export interface Settings {
 }
 
 const SETTINGS_KEY = 'sentences.settings.v1';
-const LEGACY_SETTINGS_KEY = 'juyuan.settings.v1';
 
 const DEFAULT_SETTINGS: Settings = {
   uiScale: 1,
@@ -31,7 +30,7 @@ const DEFAULT_SETTINGS: Settings = {
 
 export function loadSettings(): Settings {
   try {
-    const raw = localStorage.getItem(SETTINGS_KEY) ?? localStorage.getItem(LEGACY_SETTINGS_KEY);
+    const raw = localStorage.getItem(SETTINGS_KEY);
     if (!raw) return { ...DEFAULT_SETTINGS };
     return { ...DEFAULT_SETTINGS, ...JSON.parse(raw) };
   } catch {
@@ -69,48 +68,10 @@ export interface ClearRecord {
 export type Progress = Record<string, ClearRecord>;
 
 const PROGRESS_KEY = 'sentences.progress.v1';
-const LEGACY_PROGRESS_KEY = 'juyuan.progress.v1';
-
-interface LegacyRecord {
-  packId?: string;
-  mapId?: string;
-  bestDifficulty?: Difficulty | null;
-  bestMargin?: number;
-  rating?: Rating | null;
-  plays?: number;
-  wins?: number;
-  updatedAt?: number;
-}
-
-/** v1 进度（packId/mapId）→ v2（bookId/chapterId/fragmentId） */
-function migrateLegacy(legacy: Record<string, LegacyRecord>): Progress {
-  const out: Progress = {};
-  for (const rec of Object.values(legacy)) {
-    if (!rec?.packId || !rec?.mapId) continue;
-    const bookId = rec.packId;
-    const chapterId = rec.packId;
-    out[recordKey(bookId, chapterId, rec.mapId)] = {
-      bookId,
-      chapterId,
-      fragmentId: rec.mapId,
-      bestDifficulty: rec.bestDifficulty ?? null,
-      bestMargin: rec.bestMargin ?? 0,
-      rating: rec.rating ?? null,
-      plays: rec.plays ?? 0,
-      wins: rec.wins ?? 0,
-      updatedAt: rec.updatedAt ?? 0,
-    };
-  }
-  return out;
-}
-
 export function loadProgress(): Progress {
   try {
     const raw = localStorage.getItem(PROGRESS_KEY);
-    if (raw) return JSON.parse(raw) as Progress;
-    const legacyRaw = localStorage.getItem(LEGACY_PROGRESS_KEY);
-    if (!legacyRaw) return {};
-    return migrateLegacy(JSON.parse(legacyRaw) as Record<string, LegacyRecord>);
+    return raw ? (JSON.parse(raw) as Progress) : {};
   } catch {
     return {};
   }
