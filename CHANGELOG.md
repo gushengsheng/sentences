@@ -1,5 +1,36 @@
 # 更新记录
 
+## v2.1.0 — 2026-11-10
+
+句元模型简化 + 开局随机化。**规则数值未改。**
+
+**数据**
+- 句元只剩 4 段文本：`original` + `wrongOptions[3]`
+- 删除 `wrongDisplay` / `correctOption` / `corruptNow`
+- 忠实项就是 `original`；棋盘错误时随机显示三段篡改之一
+- 章节新增可选 `density`（开局错误比例，缺省 0.25）
+
+**引擎**
+- 开局随机抽 `density` 比例的句元变错，每局不同
+- 选项 = `[original, ...wrongOptions]` 打乱，棋盘文本永远在选项里
+- 修正时棋盘显示所选那一项；腐化脉冲随机挑一段篡改
+- 引擎内没有密度参数，只读章节文件
+
+**迁移**
+- 913 个句元机械转换：`wrongOptions = [旧 wrongDisplay, 旧 w2, 旧 w3]`
+- 旧 `w1`、`correctOption`、`corruptNow` 丢弃，内容不重新生成
+
+**skill**
+- 生成量从 6 段/句降到 4 段/句
+- `build-book.mjs`、`validate-content.mjs` 同步
+
+**清理**
+- 删除 `.work/`（7.8 MB）、`lexicon/`（673 KB）、`examples/`
+- 删除 `设计思路.md`、`v2-简报.md`、`diag*.mjs`、`validate-local.mjs`
+- `docs/` 只保留 5 张截图 + 开发文档
+
+---
+
 ## v2.0.0 — 2026-11-09
 
 结构与部署版本。**核心规则、数值、AI 参数一律未改。**
