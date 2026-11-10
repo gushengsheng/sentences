@@ -3,7 +3,7 @@
 //   导航请求 → 网络优先（有网就拿最新 HTML），断网回退缓存
 //   其他同源 GET → 缓存优先 + 后台更新（stale-while-revalidate）
 // 预缓存逐项写入，单项失败不影响其他。
-const VERSION = 'v2';
+const VERSION = 'v3';
 const CACHE = 'sentences-' + VERSION;
 const BASE = self.registration.scope;
 
@@ -72,7 +72,8 @@ self.addEventListener('fetch', function (event) {
   if (req.mode === 'navigate') {
     event.respondWith((async function () {
       try {
-        const res = await fetch(req);
+        // no-store：GitHub Pages 给 HTML 发了 max-age=600，不绕过 HTTP 缓存就会拿到 10 分钟前的页面
+        const res = await fetch(req, { cache: 'no-store' });
         const cache = await caches.open(CACHE);
         cache.put(req, res.clone());
         return res;
