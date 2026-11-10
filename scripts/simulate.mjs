@@ -5,7 +5,7 @@ import { join } from "node:path";
 import { createMatch, apply } from "../src/engine.ts";
 import { decideNext, makeRng, newAiMemory, presetById } from "../src/ai.ts";
 
-const bookPath = fileURLToPath(new URL("../public/maps/pharmacology/book.json", import.meta.url));
+const bookPath = fileURLToPath(new URL("../public/maps/pharmacology-ai/book.json", import.meta.url));
 const book = JSON.parse(readFileSync(bookPath, "utf8"));
 const chapter = JSON.parse(readFileSync(join(bookPath, "..", book.chapters[0].file), "utf8"));
 const meta = { bookId: book.id, bookTitle: book.title, chapterId: chapter.id, chapterTitle: chapter.title || "" };

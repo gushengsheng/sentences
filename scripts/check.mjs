@@ -13,7 +13,7 @@ function ok(cond, msg) {
   }
 }
 
-const bookPath = fileURLToPath(new URL('../public/maps/pharmacology/book.json', import.meta.url));
+const bookPath = fileURLToPath(new URL('../public/maps/pharmacology-ai/book.json', import.meta.url));
 const book = JSON.parse(readFileSync(bookPath, 'utf8').replace(/^\uFEFF/, ''));
 const chapterPath = join(bookPath, '..', book.chapters[0].file);
 const chapter = JSON.parse(readFileSync(chapterPath, 'utf8').replace(/^\uFEFF/, ''));
