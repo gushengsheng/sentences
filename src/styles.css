@@ -2115,3 +2115,8 @@ button {
   55% { box-shadow: 0 0 0 12px rgba(var(--flash-color), 0); }
   100% { box-shadow: 0 0 0 0 rgba(var(--flash-color), 0); }
 }
+
+/* 浅色：覆盖 .unit.shielded 的 animation:none，让保护波纹能播 */
+[data-theme='light'] .unit.flash-shield {
+  animation: shieldPulseFlash 0.9s ease-out;
+}
