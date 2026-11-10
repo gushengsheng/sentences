@@ -2172,3 +2172,11 @@ button {
 [data-theme='mono'] .slash-scar {
   background: linear-gradient(90deg, transparent, #ededed, transparent);
 }
+
+.settings-group {
+  margin: 2px 0 6px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: var(--muted);
+}

@@ -471,6 +471,9 @@ export function SettingsScreen({
           </select>
         </label>
 
+        <div className="divider" />
+        <h3 className="settings-group">动画</h3>
+
         <label className="field row">
           <span>动画反馈</span>
           <input
