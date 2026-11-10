@@ -114,7 +114,8 @@ export interface MatchState {
   lastEvent: { kind: 'convert'; unitId: string; side: Side } | null;
   ended: boolean;
   winner: Side | null;
-  finalIncome: Record<Side, number> | null;
+  /** 终局分数 = 正确 - 错误，可为负 */
+  finalScore: Record<Side, number> | null;
   pulseIndex: number;
   seed: number;
 }
@@ -248,7 +249,7 @@ export function createMatch(
     lastEvent: null,
     ended: false,
     winner: null,
-    finalIncome: null,
+    finalScore: null,
     pulseIndex: 0,
     seed,
   };
@@ -280,10 +281,13 @@ export interface ApplyResult {
 
 function finish(s: MatchState) {
   s.ended = true;
-  const a = incomeOf(s, 'A');
-  const b = incomeOf(s, 'B');
-  s.finalIncome = { A: a, B: b };
-  s.winner = a > b ? 'A' : b > a ? 'B' : s.first;
+  const ta = tally(s, 'A');
+  const tb = tally(s, 'B');
+  const a = ta.correct - ta.wrong;
+  const b = tb.correct - tb.wrong;
+  s.finalScore = { A: a, B: b };
+  // 平局不判任何人胜：主界面也据此不记「已通关」
+  s.winner = a > b ? 'A' : b > a ? 'B' : null;
 }
 
 function boardFull(s: MatchState): boolean {

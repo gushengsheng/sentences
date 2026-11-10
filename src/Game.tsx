@@ -107,7 +107,7 @@ export default function Game(props: GameProps) {
     clearSave();
     onFinish({
       won: match.winner === 'A',
-      margin: (match.finalIncome?.A ?? 0) - (match.finalIncome?.B ?? 0),
+      margin: (match.finalScore?.A ?? 0) - (match.finalScore?.B ?? 0),
     });
   }, [match, onFinish]);
 
@@ -236,6 +236,7 @@ export default function Game(props: GameProps) {
   }
 
   const won = match.ended && match.winner === 'A';
+  const draw = match.ended && match.winner === null;
   const breadcrumb = [match.bookTitle, match.chapterTitle, match.fragmentTitle]
     .filter((v, i, arr) => !!v && arr.indexOf(v) === i)
     .join(' · ');
@@ -518,13 +519,15 @@ export default function Game(props: GameProps) {
         <div className="overlay">
           <div className="modal result">
             <h2>
-              {mode === 'spectate'
-                ? match.winner === 'A'
-                  ? '甲·AI 获胜'
-                  : '乙·AI 获胜'
-                : won
-                  ? '你拿下了这个知识碎片'
-                  : '这个知识碎片失守了'}
+              {draw
+                ? '平局'
+                : mode === 'spectate'
+                  ? match.winner === 'A'
+                    ? '甲·AI 获胜'
+                    : '乙·AI 获胜'
+                  : won
+                    ? '你拿下了这个知识碎片'
+                    : '这个知识碎片失守了'}
             </h2>
             {won && mode !== 'spectate' && <p className="rating">{ratingFor(difficulty)}</p>}
             <table>
@@ -533,18 +536,19 @@ export default function Game(props: GameProps) {
                   <th />
                   <th>正确</th>
                   <th>错误</th>
-                  <th>收入</th>
+                  <th>得分</th>
                 </tr>
               </thead>
               <tbody>
                 {(['A', 'B'] as Side[]).map((side) => {
                   const t = tally(match, side);
+                  const score = match.finalScore ? match.finalScore[side] : t.correct - t.wrong;
                   return (
                     <tr key={side} className={match.winner === side ? 'win' : ''}>
                       <td>{sideName(side)}</td>
                       <td>{t.correct}</td>
                       <td>{t.wrong}</td>
-                      <td>{match.finalIncome ? match.finalIncome[side] : incomeOf(match, side)}</td>
+                      <td>{score > 0 ? '+' + score : score}</td>
                     </tr>
                   );
                 })}

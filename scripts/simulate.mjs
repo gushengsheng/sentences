@@ -38,30 +38,31 @@ function playGame(seed, cfgA, cfgB) {
 function runPairing(idA, idB) {
   const cfgA = presetById(idA);
   const cfgB = presetById(idB);
-  let winA = 0, winB = 0, marginSum = 0, roundsSum = 0;
+  let winA = 0, winB = 0, draw = 0, marginSum = 0, roundsSum = 0;
   for (let i = 0; i < GAMES; i++) {
     const seed = 10000 + i;
     const swapped = i % 2 === 1;
     const cfgOnA = swapped ? cfgB : cfgA;
     const cfgOnB = swapped ? cfgA : cfgB;
     const s = playGame(seed, cfgOnA, cfgOnB);
-    const margin = (s.finalIncome?.A ?? 0) - (s.finalIncome?.B ?? 0);
+    const margin = (s.finalScore?.A ?? 0) - (s.finalScore?.B ?? 0);
     marginSum += swapped ? -margin : margin;
     roundsSum += Math.max(0, s.round - 1);
-    if (idA === idB) { if (s.winner === "A") winA++; else winB++; }
+    if (s.winner === null) draw++;
+    else if (idA === idB) { if (s.winner === "A") winA++; else winB++; }
     else {
       const winnerCfgId = s.winner === "A" ? cfgOnA.id : cfgOnB.id;
       if (winnerCfgId === idA) winA++; else winB++;
     }
   }
-  return { pairing: idA + " vs " + idB, rateA: ((winA / GAMES) * 100).toFixed(1), rateB: ((winB / GAMES) * 100).toFixed(1), avgMargin: (marginSum / GAMES).toFixed(2), avgRounds: (roundsSum / GAMES).toFixed(1) };
+  return { pairing: idA + " vs " + idB, rateA: ((winA / GAMES) * 100).toFixed(1), rateB: ((winB / GAMES) * 100).toFixed(1), rateDraw: ((draw / GAMES) * 100).toFixed(1), avgMargin: (marginSum / GAMES).toFixed(2), avgRounds: (roundsSum / GAMES).toFixed(1) };
 }
 
 const PAIRS = [["master","normal"],["hard","normal"],["normal","beginner"],["master","hard"],["beginner","beginner"]];
 console.log("局数/配对 " + GAMES + "，轮数 " + ROUNDS + "\n");
-console.log("配对".padEnd(22), "A胜%", "B胜%", "平均分差", "平均轮");
-console.log("-".repeat(62));
+console.log("配对".padEnd(22), "A胜%", "B胜%", "平局%", "平均分差", "平均轮");
+console.log("-".repeat(70));
 for (const [a, b] of PAIRS) {
   const r = runPairing(a, b);
-  console.log(r.pairing.padEnd(22), r.rateA.padStart(6), r.rateB.padStart(6), r.avgMargin.padStart(8), r.avgRounds.padStart(6));
+  console.log(r.pairing.padEnd(22), r.rateA.padStart(6), r.rateB.padStart(6), r.rateDraw.padStart(6), r.avgMargin.padStart(8), r.avgRounds.padStart(6));
 }
