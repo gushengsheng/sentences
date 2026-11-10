@@ -68,6 +68,7 @@ export default function Game(props: GameProps) {
   const [quake, setQuake] = useState<{ title: string; sub: string } | null>(null);
   const [picked, setPicked] = useState<{ id: string; ok: boolean } | null>(null);
   const [flashUnit, setFlashUnit] = useState<{ id: string; kind: 'ok' | 'bad' | 'attack' | 'shield' } | null>(null);
+  const [dim, setDim] = useState(false);
   const [banner, setBanner] = useState<string | null>(null);
   const bannerShown = useRef(false);
   const [reviewing, setReviewing] = useState(false);
@@ -138,8 +139,13 @@ export default function Game(props: GameProps) {
     const evt = match.lastEvent;
     if (!evt || evt.kind !== 'convert') return;
     setFlashUnit({ id: evt.unitId, kind: 'attack' });
+    setDim(true);
+    const dimT = window.setTimeout(() => setDim(false), 420);
     const t = window.setTimeout(() => setFlashUnit(null), 900);
-    return () => window.clearTimeout(t);
+    return () => {
+      window.clearTimeout(t);
+      window.clearTimeout(dimT);
+    };
   }, [match.eventSeq, settings.flashBoard]);
 
   // 第 1 回合横幅
@@ -517,6 +523,8 @@ export default function Game(props: GameProps) {
       )}
 
       {toast && <div className="toast">{toast}</div>}
+
+      <div className={dim ? 'dim-overlay on' : 'dim-overlay'} />
 
       {quake && (
         <div className="overlay quake-overlay" onClick={() => { setQuake(null); if (settings.turnBanner) showBanner(match.round); }}>
