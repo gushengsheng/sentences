@@ -20,9 +20,7 @@ function validateUnit(u, tag) {
   for (const k of LEGACY) {
     if (k in u) warn(tag + "：残留旧字段 " + k + "（请运行迁移脚本）");
   }
-  if (/^(该|其|它|他|此|这|那|上述|前述|本品|本药|此类|该类|此种|这种)/.test(u.original ?? "")) {
-    warn(tag + "：句子以指代词开头，缺上下文（应并回上一句）");
-  }
+
   const texts = [u.original, ...(Array.isArray(u.wrongOptions) ? u.wrongOptions : [])].filter(isStr);
   if (new Set(texts).size !== texts.length) fail(tag + "：4 段文本不唯一");
   if (texts.length === 4) {

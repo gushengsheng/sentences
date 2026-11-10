@@ -18,24 +18,12 @@ node skills/sentences-map-forge/scripts/split.mjs \
 
 看输出里的 `high / medium / low` 数量；`low` 句跳过。
 
-## 2. 规划碎片
+## 2. 拼接碎片 + 独立性审查
 
-先跑规划脚本出初稿：
-
-```bash
-node skills/sentences-map-forge/scripts/plan-fragments.mjs \
-  .work/<bookId>/01-<chapter>/sentences.json \
-  .work/<bookId>/01-<chapter>/plan.json
-```
-
-再人工按知识块修正：
-
-- 一个药 / 一类受体 / 一个临床应用 = 一个碎片
-- 12–35 句都接受；超过 35 句按“机制 → 效应 → 应用 → 不良反应”分层
-- 不足 12 句与相邻同主题合并
-- **同一个知识点不允许横跨两个碎片**
-- 碎片第一句必须自带主语
-- 碎片 id：`<chapterId>-NN`，标题用知识块名
+- 按自然段落/小节拼碎片，大致 20–30 句一片，不用卡死。
+- 逐片检查第一句能否独立成立；不独立（开头是“该药 / 其 / 它”）就把上一片末尾相关句子复制到本片开头。
+- 允许少量重复。
+- 碎片 id：`<chapterId>-NN`。
 
 ## 3. 生成句子
 

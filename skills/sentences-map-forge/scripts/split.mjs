@@ -112,7 +112,7 @@ const blocks = text
   .filter(Boolean);
 
 const headings = [];
-let sentences = [];
+const sentences = [];
 let index = 0;
 
 blocks.forEach((raw, bi) => {
@@ -137,26 +137,6 @@ blocks.forEach((raw, bi) => {
   }
 });
 
-// 指代合并：以“该/其/它/此/这/上述…”开头的句子并与上一句（跨段也并），
-// 否则切开后主语留在上一句或上一段，玩家无法判断这句话在说什么。
-const MERGE_START = /^(该|其|它|他|此|这|那|上述|前述|本品|本药|此类|该类|此种|这种)/;
-const merged = [];
-for (const sentence of sentences) {
-  const prev = merged[merged.length - 1];
-  if (prev && MERGE_START.test(sentence.text)) {
-    prev.text = prev.text + sentence.text;
-    const g = grade(prev.text);
-    prev.quality = g.quality;
-    prev.reasons = [...new Set([...prev.reasons, ...g.reasons])];
-    continue;
-  }
-  merged.push(sentence);
-}
-merged.forEach((sentence, i) => {
-  sentence.id = "s" + String(i + 1).padStart(2, "0");
-  sentence.index = i;
-});
-sentences = merged;
 
 mkdirSync(dirname(out), { recursive: true });
 const payload = {
