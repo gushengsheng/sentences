@@ -144,13 +144,13 @@ export default function Game(props: GameProps) {
   // 自己占领：文字显影
   useEffect(() => {
     const evt = match.lastEvent;
-    if (!evt || evt.kind !== 'claim') return;
+    if (!evt || evt.kind !== 'claim' || !settings.claimFlash) return;
     const v = mode === 'hotseat' ? match.turn : mode === 'ai' ? 'A' : null;
     if (!v || evt.side !== v) return;
     setRevealUnit(evt.unitId);
     const t = window.setTimeout(() => setRevealUnit(null), 430);
     return () => window.clearTimeout(t);
-  }, [match.eventSeq, mode]);
+  }, [match.eventSeq, mode, settings.claimFlash]);
 
   // 对方进攻被护盾挡下：防守方也收到提示和闪光
   useEffect(() => {
@@ -176,8 +176,10 @@ export default function Game(props: GameProps) {
 
     // 双方进攻都闪；自己进攻用刀光，对方进攻只红闪
     setFlashUnit({ id: evt.unitId, kind: humanAttack ? 'attack' : 'attack-foe' });
-    setHitUnit(evt.unitId);
-    window.setTimeout(() => setHitUnit(null), 280);
+    if (settings.attackShake) {
+      setHitUnit(evt.unitId);
+      window.setTimeout(() => setHitUnit(null), 280);
+    }
     window.clearTimeout(flashT.current);
     flashT.current = window.setTimeout(() => setFlashUnit(null), 900);
 
@@ -584,9 +586,6 @@ export default function Game(props: GameProps) {
                     setFlash({ ok: !!r.correctResult });
                     setFlashUnit({ id: modalUnit, kind: r.correctResult ? 'ok' : 'bad' });
                     window.setTimeout(() => setFlashUnit(null), 900);
-                    if (settings.vibrate && typeof navigator !== 'undefined' && navigator.vibrate) {
-                      navigator.vibrate(r.correctResult ? 20 : 60);
-                    }
                     window.setTimeout(() => {
                       setFlash(null);
                       setPicked(null);

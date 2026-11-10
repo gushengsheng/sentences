@@ -499,11 +499,20 @@ export function SettingsScreen({
         </label>
 
         <label className="field row">
-          <span>震动反馈</span>
+          <span>占领闪光</span>
           <input
             type="checkbox"
-            checked={settings.vibrate}
-            onChange={(e) => onChange({ ...settings, vibrate: e.target.checked })}
+            checked={settings.claimFlash}
+            onChange={(e) => onChange({ ...settings, claimFlash: e.target.checked })}
+          />
+        </label>
+
+        <label className="field row">
+          <span>进攻震颤</span>
+          <input
+            type="checkbox"
+            checked={settings.attackShake}
+            onChange={(e) => onChange({ ...settings, attackShake: e.target.checked })}
           />
         </label>
 

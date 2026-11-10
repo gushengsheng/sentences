@@ -14,7 +14,10 @@ export interface Settings {
   /** 回合横幅：只在第 1 回合和灾变后出现 */
   turnBanner: boolean;
   /** 手机震动反馈 */
-  vibrate: boolean;
+  /** 占领时闪一下 */
+  claimFlash: boolean;
+  /** 进攻时目标震颤 */
+  attackShake: boolean;
 }
 
 const SETTINGS_KEY = 'sentences.settings.v1';
@@ -25,7 +28,8 @@ const DEFAULT_SETTINGS: Settings = {
   theme: 'dark',
   flashBoard: true,
   turnBanner: true,
-  vibrate: true,
+  claimFlash: true,
+  attackShake: true,
 };
 
 export function loadSettings(): Settings {
