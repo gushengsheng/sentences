@@ -2061,3 +2061,32 @@ button {
   border-color: #444 !important;
   color: #f0f0f0 !important;
 }
+
+/* 保护闪光：更亮的底色 + 向外扩散的波纹 */
+.unit.flash-shield {
+  --flash-color: 165, 216, 243;
+  background: rgba(165, 216, 243, 0.62) !important;
+  outline: none !important;
+  animation: shieldPulseFlash 0.9s ease-out;
+}
+[data-theme='light'] .unit.flash-shield {
+  --flash-color: 107, 79, 158;
+  background: #cfc0e8 !important;
+}
+[data-theme='mono'] .unit.flash-shield {
+  --flash-color: 255, 255, 255;
+  background: rgba(255, 255, 255, 0.4) !important;
+}
+@keyframes shieldPulseFlash {
+  0% { box-shadow: 0 0 0 0 rgba(var(--flash-color), 0.85); }
+  55% { box-shadow: 0 0 0 9px rgba(var(--flash-color), 0); }
+  100% { box-shadow: 0 0 0 0 rgba(var(--flash-color), 0); }
+}
+/* 黑白主题：护盾本身也去色 */
+[data-theme='mono'] .unit.shielded {
+  --shield-color: #ededed;
+  outline-color: #ededed;
+}
+[data-theme='mono'] .unit.shielded::after {
+  background: #ededed;
+}
