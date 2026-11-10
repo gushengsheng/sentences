@@ -121,13 +121,11 @@ export function ChaptersScreen({ bundle, progress, onOpen, onBack }: ChapterList
 
       <div className="cards">
         {refs.map((ref) => {
-          const chapter = chapters[ref.id];
-          const fragments = chapter?.fragments.length ?? 0;
-          const done = chapter
-            ? chapter.fragments.filter(
-                (f) => progress[`${book.id}::${ref.id}::${f.id}`]?.rating,
-              ).length
-            : 0;
+          const meta = bundle.summary.chapterMeta?.find((x) => x.id === ref.id);
+          const fragments = meta?.fragments ?? chapters[ref.id]?.fragments.length ?? 0;
+          const done = Object.keys(progress).filter(
+            (k) => k.startsWith(`${book.id}::${ref.id}::`) && progress[k]?.rating,
+          ).length;
               return (
             <button
               key={ref.id}

@@ -124,6 +124,53 @@ export default function App() {
     return p;
   }
 
+  async function ensureChapter(bookId: string, chapterId: string): Promise<BookBundle> {
+    const bundle = await ensureBundle(bookId);
+    if (bundle.chapters[chapterId]) return bundle;
+    const chapter = await source.loadChapter(bookId, chapterId);
+    const updated: BookBundle = {
+      ...bundle,
+      chapters: { ...bundle.chapters, [chapterId]: chapter },
+    };
+    bundleRef.current[bookId] = updated;
+    setBundles({ ...bundleRef.current });
+    return updated;
+  }
+
+  async function openChapter(bookId: string, chapterId: string) {
+    try {
+      await ensureChapter(bookId, chapterId);
+      setScreen({ name: 'fragments', bookId, chapterId });
+    } catch (e) {
+      setError(String((e as Error)?.message ?? e));
+    }
+  }
+
+  async function openReading(bookId?: string) {
+    if (!bookId) {
+      setScreen({ name: 'reading' });
+      return;
+    }
+    try {
+      const bundle = await ensureBundle(bookId);
+      const missing = bundle.book.chapters.filter((c) => !bundle.chapters[c.id]);
+      if (missing.length > 0) {
+        const chapters = { ...bundle.chapters };
+        await Promise.all(
+          missing.map(async (c) => {
+            chapters[c.id] = await source.loadChapter(bookId, c.id);
+          }),
+        );
+        const updated = { ...bundle, chapters };
+        bundleRef.current[bookId] = updated;
+        setBundles({ ...bundleRef.current });
+      }
+      setScreen({ name: 'reading', bookId });
+    } catch (e) {
+      setError(String((e as Error)?.message ?? e));
+    }
+  }
+
   // 调试入口：?debug=game&book=&chapter=&fragment= 直接进对局（用于无头测试）
   useEffect(() => {
     if (!summaries) return;
@@ -136,7 +183,8 @@ export default function App() {
       const chapter =
         bundle.book.chapters.find((c) => c.id === q.get('chapter')) ?? bundle.book.chapters[0];
       if (!chapter) return;
-      const loaded = bundle.chapters[chapter.id];
+      const withChapter = await ensureChapter(summary.id, chapter.id);
+      const loaded = withChapter.chapters[chapter.id];
       const fragment =
         loaded?.fragments.find((f) => f.id === q.get('fragment')) ?? loaded?.fragments[0];
       if (!fragment) return;
@@ -171,6 +219,7 @@ export default function App() {
     if (!save) return;
     try {
       await ensureBundle(save.bookId);
+      await ensureChapter(save.bookId, save.chapterId);
       setScreen({
         name: 'game',
         bookId: save.bookId,
@@ -245,9 +294,7 @@ export default function App() {
         <ChaptersScreen
           bundle={bundle}
           progress={progress}
-          onOpen={(chapterId) =>
-            setScreen({ name: 'fragments', bookId: screen.bookId, chapterId })
-          }
+          onOpen={(chapterId) => void openChapter(screen.bookId, chapterId)}
           onBack={() => setScreen({ name: 'books' })}
         />
       );
@@ -257,7 +304,7 @@ export default function App() {
       const bundle = bundles[screen.bookId];
       const chapter = bundle?.chapters[screen.chapterId];
       if (!bundle || !chapter) {
-        void ensureBundle(screen.bookId).catch((e: unknown) =>
+        void ensureChapter(screen.bookId, screen.chapterId).catch((e: unknown) =>
           setError(String((e as Error)?.message ?? e)),
         );
         return <Loading text="载入章节…" />;
@@ -285,6 +332,9 @@ export default function App() {
       const chapter = bundle?.chapters[screen.chapterId];
       const fragment = chapter?.fragments.find((f) => f.id === screen.fragmentId);
       if (!bundle || !chapter || !fragment) {
+        void ensureChapter(screen.bookId, screen.chapterId).catch((e: unknown) =>
+          setError(String((e as Error)?.message ?? e)),
+        );
         return <Loading text="载入中…" />;
       }
       return (
@@ -359,7 +409,7 @@ export default function App() {
         return (
           <ReadingScreen
             summaries={summaries}
-            onSelect={(id) => setScreen({ name: 'reading', bookId: id ?? undefined })}
+            onSelect={(id) => void openReading(id ?? undefined)}
             onBack={() => setScreen({ name: 'menu' })}
           />
         );
@@ -375,7 +425,7 @@ export default function App() {
         <ReadingScreen
           summaries={summaries}
           bundle={bundle}
-          onSelect={(id) => setScreen({ name: 'reading', bookId: id ?? undefined })}
+          onSelect={(id) => void openReading(id ?? undefined)}
           onBack={() => setScreen({ name: 'menu' })}
         />
       );

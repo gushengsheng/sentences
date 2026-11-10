@@ -11,6 +11,8 @@ export interface BookSummary {
   file: string;
   chapters: number;
   fragments: number;
+  /** 每章的碎片数，供列表页显示；章节内容按需加载 */
+  chapterMeta?: { id: string; title?: string; order: number; fragments: number }[];
 }
 
 export interface MapSource {
@@ -90,11 +92,6 @@ export interface BookBundle {
 
 export async function loadBookBundle(source: MapSource, summary: BookSummary): Promise<BookBundle> {
   const book = await source.loadBook(summary.id);
-  const chapters: Record<string, Chapter> = {};
-  await Promise.all(
-    book.chapters.map(async (ref) => {
-      chapters[ref.id] = await source.loadChapter(summary.id, ref.id);
-    }),
-  );
-  return { summary, book, chapters };
+  // 章节内容按需加载：大书（脚本版 48 章）一次性拉全会卡死移动端
+  return { summary, book, chapters: {} };
 }

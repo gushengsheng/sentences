@@ -29,6 +29,7 @@ for (const dir of dirs.sort()) {
 
   let fragmentCount = 0;
   let broken = false;
+  const chapterMeta = [];
   for (const ref of book.chapters ?? []) {
     const chapterPath = join(mapsDir, dir, ref.file);
     if (!existsSync(chapterPath)) {
@@ -38,7 +39,9 @@ for (const dir of dirs.sort()) {
     }
     try {
       const chapter = JSON.parse(readFileSync(chapterPath, 'utf8').replace(/^\uFEFF/, ''));
-      fragmentCount += chapter.fragments?.length ?? 0;
+      const count = chapter.fragments?.length ?? 0;
+      fragmentCount += count;
+      chapterMeta.push({ id: ref.id, title: ref.title, order: ref.order, fragments: count });
     } catch (e) {
       console.error(`跳过 ${dir}：${ref.file} 解析失败 ${e.message}`);
       broken = true;
@@ -55,6 +58,7 @@ for (const dir of dirs.sort()) {
     file: `${dir}/book.json`,
     chapters: (book.chapters ?? []).length,
     fragments: fragmentCount,
+    chapterMeta,
   });
 }
 
