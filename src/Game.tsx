@@ -71,6 +71,7 @@ export default function Game(props: GameProps) {
   const [dim, setDim] = useState(false);
   const [fadingShields, setFadingShields] = useState<string[]>([]);
   const [slash, setSlash] = useState<{ left: number; top: number; width: number; height: number } | null>(null);
+  const [awayDot, setAwayDot] = useState<{ side: 'left' | 'right'; color: 'a' | 'b' } | null>(null);
   const [banner, setBanner] = useState<string | null>(null);
   const bannerShown = useRef(false);
   const [reviewing, setReviewing] = useState(false);
@@ -205,6 +206,20 @@ export default function Game(props: GameProps) {
 
   const pages = match.pages ?? [];
   const page = pages[Math.min(pageIdx, Math.max(0, pages.length - 1))];
+
+  // 对方在别的页操作时，侧边亮一个点
+  useEffect(() => {
+    const evt = match.lastEvent;
+    if (!evt) return;
+    const v = mode === 'hotseat' ? match.turn : mode === 'ai' ? 'A' : null;
+    if (!v || evt.side === v) return;
+    const cur = Math.min(pageIdx, Math.max(0, pages.length - 1));
+    const target = pages.findIndex((p) => p.unitIds.includes(evt.unitId));
+    if (target < 0 || target === cur) return;
+    setAwayDot({ side: target < cur ? 'left' : 'right', color: evt.side === 'A' ? 'a' : 'b' });
+    const t = window.setTimeout(() => setAwayDot(null), 2400);
+    return () => window.clearTimeout(t);
+  }, [match.eventSeq, pageIdx, pages, mode]);
 
   const paragraphs = useMemo(() => {
     if (!page) return [] as { paragraph: number; ids: string[] }[];
@@ -574,6 +589,8 @@ export default function Game(props: GameProps) {
       {toast && <div className="toast">{toast}</div>}
 
       <div className={dim ? 'dim-overlay on' : 'dim-overlay'} />
+
+      {awayDot && <div className={`away-dot ${awayDot.side} ${awayDot.color}`} />}
 
       {slash && (
         <div

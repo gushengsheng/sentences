@@ -1958,3 +1958,23 @@ button {
 .slash-line {
   transform-origin: center center;
 }
+
+/* 对方在另一页操作：侧边小圆点 */
+.away-dot {
+  position: fixed;
+  top: 46%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  z-index: 35;
+  pointer-events: none;
+  animation: dotPulse 1.2s ease-in-out infinite;
+}
+.away-dot.left { left: 10px; }
+.away-dot.right { right: 10px; }
+.away-dot.a { background: var(--a); box-shadow: 0 0 8px var(--a); }
+.away-dot.b { background: var(--b); box-shadow: 0 0 8px var(--b); }
+@keyframes dotPulse {
+  0%, 100% { opacity: 0.45; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.15); }
+}

@@ -119,6 +119,9 @@ export interface MatchState {
   lastEvent:
     | { kind: 'convert'; unitId: string; side: Side; from?: Side }
     | { kind: 'blocked'; unitId: string; side: Side }
+    | { kind: 'claim'; unitId: string; side: Side }
+    | { kind: 'correct'; unitId: string; side: Side }
+    | { kind: 'protect'; unitId: string; side: Side }
     | null;
   ended: boolean;
   winner: Side | null;
@@ -332,6 +335,8 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       s.ap[s.turn] -= 1;
       cell.owner = s.turn;
       cell.revealed = true;
+      s.eventSeq += 1;
+      s.lastEvent = { kind: 'claim', unitId: action.unitId, side: s.turn };
       if (boardFull(s) && s.rounds === 0) finish(s);
       return { state: s };
     }
@@ -346,6 +351,8 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       if (!opt) return { state, error: '选项不存在' };
 
       s.ap[s.turn] -= 1;
+      s.eventSeq += 1;
+      s.lastEvent = { kind: 'correct', unitId: action.unitId, side: s.turn };
       if (opt.isCorrect) {
         unit.correct = true;
         unit.text = unit.original;
@@ -385,6 +392,8 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       if (s.ap[s.turn] < 1) return { state, error: 'AP 不足' };
       s.ap[s.turn] -= 1;
       cell.shieldedBy = s.turn;
+      s.eventSeq += 1;
+      s.lastEvent = { kind: 'protect', unitId: action.unitId, side: s.turn };
       return { state: s };
     }
 
