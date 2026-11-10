@@ -31,7 +31,7 @@ node skills/juyuan-map-forge/scripts/split.mjs \
 
 - 每批 6–8 句，按 `references/prompt-generate.md`。
 - 每片写 `units-1.json`、`units-2.json`…；用 `merge-units.mjs` 合并成 `units.json`。
-- 每个句元 4 个算子互异；`corruptNow` 约 25%，连续不超过 2。
+- 每个句元 3 个算子互异。
 - `id` = `<fragmentId>-sNN`；`paragraph` 照抄。
 
 ## 4. 内容校验

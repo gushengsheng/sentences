@@ -41,6 +41,7 @@ interface ChapterRef {
 interface Chapter {
   id: string;
   title: string;
+  density?: number;   // 开局错误比例，缺省 0.25
   fragments: Fragment[];
 }
 
@@ -63,10 +64,7 @@ interface Unit {
   id: string;                 // <fragmentId>-sNN
   paragraph: number;
   original: string;
-  wrongDisplay: string;
-  correctOption: string;
   wrongOptions: [string, string, string];
-  corruptNow: boolean;
 }
 ```
 
@@ -88,12 +86,11 @@ interface Unit {
 1. `schemaVersion === 2`（书）。
 2. 章节文件必须被 `book.json` 的 `chapters[].file` 引用，且存在。
 3. 章节内 `fragments` 非空；碎片 `id` 在章节内唯一；句元 `id` 在碎片内唯一。
-4. 四个选项两两不同，且恰好 1 个忠实于原文。
-5. `original`、`wrongDisplay` 不得等于任何选项；`original !== wrongDisplay`。
-6. 5 个生成文本（correctOption + 3 wrongOptions + wrongDisplay）两两不同。
-7. 6 个文本（含 original）最大/最小长度比 ≤ 1.3。
-8. `wrongOptions` + `wrongDisplay` 相对 `original` 只有 1 段连续差异，不跨标点，差异段 ≤ 12 字。
-9. 错误密度 15%–35%；连续 `corruptNow` 不超过 2。
+4. 四选一 = `original` + 3 段篡改，4 段两两不同，恰好 1 个忠实于原文。
+5. 每段篡改相对 `original` 只有 1 段连续差异，不跨标点，差异段 ≤ 12 字。
+6. 4 段文本最大/最小长度比 ≤ 1.3。
+7. 不写 `wrongDisplay` / `correctOption` / `corruptNow`；开局随机与显示随机都由引擎负责。
+8. `density` 若存在，必须 0 < density ≤ 0.5。
 10. `pages` 若存在，必须完整覆盖且不重叠；页长 10–16，目标 12。
 
 ## 示例
@@ -132,10 +129,7 @@ interface Unit {
         {
           "id": "anticholinergic-01-s01",
           "paragraph": 1,
-          "corruptNow": false,
           "original": "能与胆碱受体结合不产生或产生微弱拟胆碱作用，却能妨碍乙酰胆碱或胆碱受体激动药与胆碱受体的结合，",
-          "wrongDisplay": "均能与胆碱受体结合不产生或产生微弱拟胆碱作用，却能妨碍乙酰胆碱或胆碱受体激动药与胆碱受体的结合，",
-          "correctOption": "能与胆碱受体结合不产生或产生轻微拟胆碱作用，却能妨碍乙酰胆碱或胆碱受体激动药与胆碱受体的结合，",
           "wrongOptions": [
             "能与胆碱受体结合不产生或产生微弱拟胆碱作用，却能妨碍去甲肾上腺素或胆碱受体激动药与胆碱受体的结合，",
             "能与胆碱受体结合不产生或产生微弱拟胆碱作用，却不能妨碍乙酰胆碱或胆碱受体激动药与胆碱受体的结合，",

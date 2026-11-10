@@ -103,17 +103,12 @@ meta.chapters.forEach((ch, ci) => {
       console.error(`碎片 ${frag.id}：units 为空`);
       process.exit(1);
     }
-    units = units.map(
-      ({ id, paragraph, original, wrongDisplay, correctOption, wrongOptions, corruptNow }) => ({
-        id,
-        paragraph,
-        corruptNow,
-        original,
-        wrongDisplay,
-        correctOption,
-        wrongOptions,
-      }),
-    );
+    units = units.map(({ id, paragraph, original, wrongOptions }) => ({
+      id,
+      paragraph,
+      original,
+      wrongOptions,
+    }));
 
     const pages = frag.pagesFile
       ? JSON.parse(readFileSync(frag.pagesFile, 'utf8'))

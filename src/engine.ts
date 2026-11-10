@@ -15,16 +15,10 @@ export interface Option {
 export interface UnitDef {
   id: string;
   paragraph: number;
-  /** 原文原句：句子正确时棋盘上显示它 */
+  /** 原文：正确时棋盘显示它，也是 4 选项里的忠实项 */
   original: string;
-  /** 错误时棋盘上显示的篡改版（也是腐化脉冲改写用的文本） */
-  wrongDisplay: string;
-  /** 4 选 1 里的忠实项（与原文不同措辞） */
-  correctOption: string;
-  /** 4 选 1 里的 3 个篡改项 */
+  /** 3 段篡改；错误时随机显示其中一段 */
   wrongOptions: [string, string, string];
-  /** 开局是否就是错的 */
-  corruptNow: boolean;
 }
 
 /** 渲染分页 */
@@ -60,6 +54,8 @@ export interface ChapterRef {
 export interface Chapter {
   id: string;
   title?: string;
+  /** 开局错误比例，缺省 0.25；只有章节作者指定 */
+  density?: number;
   fragments: FragmentDef[];
 }
 
@@ -226,20 +222,32 @@ export function createMatch(
   const cells: Record<string, Cell> = {};
   const order: string[] = [];
 
+  // 开局随机挑 density 比例的句元变错
+  const density = chapter.density ?? 0.25;
+  const corruptCount = Math.max(0, Math.min(fragment.units.length, Math.round(fragment.units.length * density)));
+  const corruptIds = new Set(
+    shuffle([...fragment.units.map((u) => u.id)], rng).slice(0, corruptCount),
+  );
+
   for (const def of fragment.units) {
     const options: Option[] = shuffle(
       [
-        { id: `${def.id}-c`, text: def.correctOption, isCorrect: true },
+        { id: `${def.id}-c`, text: def.original, isCorrect: true },
         { id: `${def.id}-w1`, text: def.wrongOptions[0], isCorrect: false },
         { id: `${def.id}-w2`, text: def.wrongOptions[1], isCorrect: false },
         { id: `${def.id}-w3`, text: def.wrongOptions[2], isCorrect: false },
       ],
       rng,
     );
+    const corrupted = corruptIds.has(def.id);
+    const shown = def.wrongOptions[Math.floor(rng() * def.wrongOptions.length)] ?? def.wrongOptions[0];
     units[def.id] = {
-      ...def,
-      correct: !def.corruptNow,
-      text: def.corruptNow ? def.wrongDisplay : def.original,
+      id: def.id,
+      paragraph: def.paragraph,
+      original: def.original,
+      wrongOptions: def.wrongOptions,
+      correct: !corrupted,
+      text: corrupted ? shown : def.original,
       options,
     };
     cells[def.id] = { owner: null, revealed: false };
@@ -427,7 +435,7 @@ export function apply(state: MatchState, action: Action): ApplyResult {
             if (!unit.correct) continue;
             if (rng() < 0.25) {
               unit.correct = false;
-              unit.text = unit.wrongDisplay;
+              unit.text = unit.wrongOptions[Math.floor(rng() * unit.wrongOptions.length)];
             }
           }
         }

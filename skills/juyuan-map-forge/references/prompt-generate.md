@@ -17,12 +17,10 @@
 ## 对每一句输出
 
 - `original`：原句，**逐字复制**，标点都不许改。
-- `correctOption`：最小同义改写。只换 1–3 个同义词，保持语序和分句不变；不得等于 `original`。
-- `wrongOptions`：3 个篡改版，每个只改 1 处，3 个算子互不相同。
-- `wrongDisplay`：第 5 个文本，只改 1 处，算子和上面 3 个都不同。
-- `errorOps`：对应 `wrongOptions` 的 3 个算子。
-- `errorOpDisplay`：`wrongDisplay` 的算子。
-- `corruptNow`：本批约 25% 为 true，均匀分布，连续 true 不超过 2。
+- `wrongOptions`：3 段篡改，每段只改 1 处，3 个算子互不相同。
+- `errorOps`：对应 3 段篡改的算子。
+
+不需要输出 `correctOption`（忠实项就是 `original`），也不需要 `wrongDisplay` / `corruptNow`（由引擎随机）。
 
 ## 词级篡改的硬定义
 
@@ -71,18 +69,14 @@
   {
     "id": "s01",
     "paragraph": 1,
-    "corruptNow": false,
     "original": "……",
-    "wrongDisplay": "……",
-    "correctOption": "……",
     "wrongOptions": ["……", "……", "……"],
-    "errorOps": ["number", "negation", "scope"],
-    "errorOpDisplay": "time"
+    "errorOps": ["number", "negation", "scope"]
   }
 ]
 ```
 
-`errorOps` / `errorOpDisplay` 只用于内容校验和报告，`build-book` 会剥掉。
+`errorOps` 只用于内容校验和报告，`build-book` 会剥掉。
 
 ## 重生成策略
 

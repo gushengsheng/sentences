@@ -35,13 +35,13 @@ public/maps/
 
 1. **只做词级替换**：限定/范围、判断/否定、数字、名词/专名、方向、主客、时间、程度、情态、单位、人群、给药途径、部位/侧别、比较词。
 2. 篡改文本与 `original` 的字符 diff **只能有 1 段连续差异**，且不跨 `，。；：、`，差异段 ≤ 12 字。
-3. **一个选项只改一处**；`wrongDisplay` 也只改一个要素。
-4. 四选一**恰好 1 个 faithful**（`correctOption`）。
+3. **一个选项只改一处**。
+4. 四选一 = `original` + 3 段篡改，**恰好 1 个忠实项**（就是 `original`）。
 5. 禁止：因果倒置、`只有…才 / 如果…就`、语序对调、增删分句、改标点、一个选项改两处。
-6. `correctOption` 仍允许同义改写；建议最小改写（1–3 个同义词）。
-7. `original`、`wrongDisplay` 不得等于任何选项；5 个生成文本两两不同。
-8. 6 个文本长度比 ≤ 1.3；错误密度 15%–35%。
-9. 不引入原文之外的人名、数字、事件。
+6. 4 段文本（`original` + 3 段篡改）两两不同。
+7. 4 段文本最大/最小长度比 ≤ 1.3。
+8. 不引入原文之外的人名、数字、事件。
+9. 开局哪些句是错的、错误显示哪一段，由引擎随机；内容里**不写** `corruptNow`。
 
 ## 命名
 
@@ -113,19 +113,14 @@ node skills/juyuan-map-forge/scripts/split.mjs \
 {
   "id": "anticholinergic-01-s01",
   "paragraph": 1,
-  "corruptNow": false,
   "original": "原句逐字",
-  "wrongDisplay": "备用篡改",
-  "correctOption": "最小改写",
   "wrongOptions": ["错1", "错2", "错3"],
-  "errorOps": ["name", "negation", "direction"],
-  "errorOpDisplay": "time"
+  "errorOps": ["name", "negation", "direction"]
 }
 ```
 
 - `id` 用 `<fragmentId>-sNN`；`paragraph` 照抄 sentences。
-- 4 个算子互异，来自 `references/error-ops.md` 的 14 类。
-- `corruptNow` 约 25%，均匀分布，连续不超过 2。
+- 3 个算子互异，来自 `references/error-ops.md` 的 14 类。
 - 每 6–8 句写一个分片，最后合并；不要一次写整个碎片。
 
 ```bash

@@ -42,6 +42,6 @@ D. {{opt4}}
 - 差异必须能落到以下算子之一：
   `scope` / `negation` / `number` / `name` / `direction` / `subject-object` /
   `time` / `degree` / `modality` / `unit` / `population` / `route` / `position` / `comparator`
-- `correctOption` 允许同义改写；只要求语义等价，不要求字面接近。
+- 忠实项就是 `original`；`wrongOptions` 的 3 段必须都是篡改。
 - 注意：`degree` 必须是“明显→轻微 / 远大于→略大于”这种翻转结论的改法；`小→极小`、`较弱→更弱` 视为 vague。
 - 注意：`modality` 必须是“可→必须 / 可能→一定”这种许可/确定性改变；`一般→必然` 若两者都成立，视为 vague。
