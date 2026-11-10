@@ -108,7 +108,7 @@ github:https://github.com/gushengsheng/sentences
 
 欢迎进行书籍内容补充！
 
-不用写代码，也不用懂 JSON。项目自带一个「地图锻造」skill（`skills/sentences-map-forge/`）：你把书的原文交给它，它负责切句、拆知识碎片、写四选一、校验是否合规、分页，最后生成地图文件。
+不用写代码，也不用懂 JSON。项目自带一个「地图锻造」skill（`skills/sentences-map-forge/`）：你把书的原文交给它，自动生成地图文件。
 
 完整字段、加章节流程、上线命令见 [docs/开发文档.md](docs/开发文档.md)。
 
@@ -126,13 +126,6 @@ github:https://github.com/gushengsheng/sentences
 
 ## PWA（离线可用）
 
-已内置 `public/manifest.webmanifest` 与 `public/sw.js`。
-
 - 首次联网访问后，页面、脚本、样式、以及**全部书和章节**都会进入缓存，之后断网也能开局
-- 之后新增的书，第一次打开时才会被缓存，之后再离线也能看
 - 手机上「添加到主屏幕」即像 App 一样全屏打开
-- 导航请求走网络优先，并用 `cache: 'no-store'` **绕过 HTTP 缓存**：GitHub Pages 给 HTML 发的是 `max-age=600`，不绕过就会拿到 10 分钟前的页面
-- 预缓存**逐项写入**，某一项 404 不会导致整体失败
-- 图标在 `public/icons/`，缓存名 `sentences-v3`
 
-> service worker 只在生产构建（`npm run build` + 静态服务）下注册，开发服务器不注册。
