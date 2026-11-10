@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --bg: #0e1014;
   --panel: #171b22;
   --line: #262c36;
@@ -1562,4 +1562,48 @@ button {
 }
 [data-theme='light'] .unit.owned.review-right {
   outline-color: rgba(23, 108, 60, 0.45);
+}
+
+/* 按钮对比度：深色 */
+.field button {
+  background: #23252c;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 5px 14px;
+  color: var(--text);
+  font-size: 13px;
+}
+.field button:hover {
+  border-color: #4a5262;
+}
+/* .field button 是 (0,1,1)，会盖掉 .danger 的 (0,1,0)，这里补回来 */
+.field button.danger {
+  color: #e9a2a2;
+}
+.result-actions button {
+  color: var(--text);
+}
+
+/* 按钮对比度：浅色 */
+[data-theme='light'] .field button {
+  background: #eae7dd;
+  border-color: #9a9a9a;
+  color: #000000;
+}
+[data-theme='light'] .field button:hover {
+  border-color: #767676;
+}
+[data-theme='light'] .result-actions button {
+  background: #eae7dd;
+  border-color: #9a9a9a;
+  color: #000000;
+}
+[data-theme='light'] .result-actions .primary {
+  background: #e6e1d3 !important;
+  border-color: #8a8a8a !important;
+  color: #000000;
+}
+[data-theme='light'] .danger {
+  color: #8f1a04;
+  border-color: #b0897f !important;
 }
