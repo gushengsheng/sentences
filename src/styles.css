@@ -1773,3 +1773,44 @@ button {
   background: #6b4f9e;
   box-shadow: 0 0 0 2px #ffffff;
 }
+
+/* 护盾闪光：保护成功 / 撞上护盾 */
+.unit.flash-shield {
+  outline: 2px solid #a5d8f3;
+  background: rgba(165, 216, 243, 0.3);
+  transition: background 0.15s ease;
+}
+[data-theme='light'] .unit.flash-shield {
+  background: #e4ddf2;
+  outline-color: #6b4f9e;
+}
+
+/* 进攻成功：红闪 + 斜向刀光 */
+.unit.flash-attack {
+  outline: 2px solid #b4453f;
+  background: rgba(180, 69, 63, 0.28);
+  position: relative;
+}
+.unit.flash-attack::before {
+  content: '';
+  position: absolute;
+  left: -4%;
+  top: 50%;
+  width: 108%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.95), #d9603b, transparent);
+  transform-origin: left center;
+  transform: rotate(-14deg) scaleX(0);
+  animation: slashSweep 0.45s ease-out forwards;
+  pointer-events: none;
+  z-index: 2;
+}
+@keyframes slashSweep {
+  0% { transform: rotate(-14deg) scaleX(0); opacity: 1; }
+  70% { transform: rotate(-14deg) scaleX(1); opacity: 1; }
+  100% { transform: rotate(-14deg) scaleX(1); opacity: 0; }
+}
+[data-theme='light'] .unit.flash-attack {
+  background: #f6d6d1;
+  outline-color: #a3342c;
+}

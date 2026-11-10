@@ -67,7 +67,7 @@ export default function Game(props: GameProps) {
   const [flash, setFlash] = useState<{ ok: boolean } | null>(null);
   const [quake, setQuake] = useState<{ title: string; sub: string } | null>(null);
   const [picked, setPicked] = useState<{ id: string; ok: boolean } | null>(null);
-  const [flashUnit, setFlashUnit] = useState<{ id: string; ok: boolean } | null>(null);
+  const [flashUnit, setFlashUnit] = useState<{ id: string; kind: 'ok' | 'bad' | 'attack' | 'shield' } | null>(null);
   const [banner, setBanner] = useState<string | null>(null);
   const bannerShown = useRef(false);
   const [reviewing, setReviewing] = useState(false);
@@ -137,7 +137,7 @@ export default function Game(props: GameProps) {
     if (!settings.flashBoard) return;
     const evt = match.lastEvent;
     if (!evt || evt.kind !== 'convert') return;
-    setFlashUnit({ id: evt.unitId, ok: false });
+    setFlashUnit({ id: evt.unitId, kind: 'attack' });
     const t = window.setTimeout(() => setFlashUnit(null), 900);
     return () => window.clearTimeout(t);
   }, [match.eventSeq, settings.flashBoard]);
@@ -193,7 +193,17 @@ export default function Game(props: GameProps) {
       return;
     }
     setMatch({ ...match });
-    if (r.blocked) notify('对方有护盾');
+    if (r.blocked) {
+      notify('对方有护盾');
+      if (settings.flashBoard && action.kind === 'convert') {
+        setFlashUnit({ id: action.unitId, kind: 'shield' });
+        window.setTimeout(() => setFlashUnit(null), 900);
+      }
+    }
+    if (action.kind === 'protect' && settings.flashBoard) {
+      setFlashUnit({ id: action.unitId, kind: 'shield' });
+      window.setTimeout(() => setFlashUnit(null), 900);
+    }
     if (r.correctResult !== undefined) {
       setFlash({ ok: r.correctResult });
       window.setTimeout(() => setFlash(null), 800);
@@ -323,7 +333,7 @@ export default function Game(props: GameProps) {
                 'owned',
                 cell.owner ? cell.owner.toLowerCase() : 'blank',
                 selected === id ? 'selected' : '',
-                flashUnit && flashUnit.id === id ? (flashUnit.ok ? 'flash-ok' : 'flash-bad') : '',
+                flashUnit && flashUnit.id === id ? `flash-${flashUnit.kind}` : '',
                 reviewing ? (unit.correct ? 'review-right' : 'review-wrong') : '',
                 cell.owner === match.turn && cell.shielded === match.round ? 'shielded' : '',
               ]
@@ -480,7 +490,7 @@ export default function Game(props: GameProps) {
                     setMatch({ ...match });
                     setPicked({ id: o.id, ok: !!r.correctResult });
                     setFlash({ ok: !!r.correctResult });
-                    setFlashUnit({ id: modalUnit, ok: !!r.correctResult });
+                    setFlashUnit({ id: modalUnit, kind: r.correctResult ? 'ok' : 'bad' });
                     window.setTimeout(() => setFlashUnit(null), 900);
                     if (settings.vibrate && typeof navigator !== 'undefined' && navigator.vibrate) {
                       navigator.vibrate(r.correctResult ? 20 : 60);
