@@ -1748,3 +1748,28 @@ button {
   background: #c8960c;
   box-shadow: 0 0 0 2px #ffffff;
 }
+
+/* 浅色主题：主按钮墨紫，深色主题不动 */
+[data-theme='light'] .panel-actions .primary {
+  background: #6b4f9e !important;
+  border-color: #4f3a78 !important;
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+/* 主按钮回退到浅色金色层级（之前误改成紫色） */
+[data-theme='light'] .panel-actions .primary {
+  background: #f4e7c4 !important;
+  border-color: #b8892b !important;
+  color: #4a3400 !important;
+}
+
+/* 浅色主题护盾：墨紫粗线 + 墨紫角标；深色主题保持冰蓝 */
+[data-theme='light'] .unit.shielded {
+  outline: 3px solid #6b4f9e;
+  box-shadow: 0 0 0 2px rgba(107, 79, 158, 0.18);
+}
+[data-theme='light'] .unit.shielded::after {
+  background: #6b4f9e;
+  box-shadow: 0 0 0 2px #ffffff;
+}
