@@ -508,15 +508,6 @@ export function SettingsScreen({
           />
         </label>
 
-        <label className="field row">
-          <span>进攻震颤</span>
-          <input
-            type="checkbox"
-            checked={settings.attackShake}
-            onChange={(e) => onChange({ ...settings, attackShake: e.target.checked })}
-          />
-        </label>
-
         <div className="divider" />
 
         <div className="field row">

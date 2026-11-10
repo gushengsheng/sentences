@@ -16,8 +16,7 @@ export interface Settings {
   /** 手机震动反馈 */
   /** 占领时闪一下 */
   claimFlash: boolean;
-  /** 进攻时目标震颤 */
-  attackShake: boolean;
+
 }
 
 const SETTINGS_KEY = 'sentences.settings.v1';
@@ -29,7 +28,6 @@ const DEFAULT_SETTINGS: Settings = {
   flashBoard: true,
   turnBanner: true,
   claimFlash: true,
-  attackShake: true,
 };
 
 export function loadSettings(): Settings {

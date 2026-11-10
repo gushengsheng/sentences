@@ -2134,22 +2134,6 @@ button {
   100% { background-color: transparent; }
 }
 
-/* 进攻：命中震颤 */
-@keyframes hitShake {
-  0%, 100% { left: 0; }
-  12% { left: -4px; }
-  30% { left: 4px; }
-  48% { left: -3px; }
-  66% { left: 3px; }
-  84% { left: -1px; }
-}
-.unit.hit-shake {
-  position: relative;
-  left: 0;
-  z-index: 61;
-  animation: hitShake 0.24s linear;
-}
-
 /* 斩痕：刀光扫过后的细线 */
 .slash-scar {
   position: absolute;
