@@ -1719,3 +1719,32 @@ button {
 .unit.selected {
   outline-style: solid;
 }
+
+/* 面板主按钮：金色边框，和“保护”拉开层级 */
+.panel-actions .primary {
+  background: rgba(232, 196, 106, 0.12) !important;
+  border-color: #b8892b !important;
+  color: var(--gold) !important;
+  font-weight: 600;
+}
+[data-theme='light'] .panel-actions .primary {
+  background: #f4e7c4 !important;
+  border-color: #b8892b !important;
+  color: #4a3400 !important;
+}
+
+/* 护盾角标统一左上 */
+.unit.shielded::after {
+  left: -6px;
+  right: auto;
+}
+
+/* 浅色主题：护盾改金黄色粗线 */
+[data-theme='light'] .unit.shielded {
+  outline: 3px solid #c8960c;
+  box-shadow: 0 0 0 2px rgba(200, 150, 12, 0.18);
+}
+[data-theme='light'] .unit.shielded::after {
+  background: #c8960c;
+  box-shadow: 0 0 0 2px #ffffff;
+}
