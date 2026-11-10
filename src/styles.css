@@ -1714,3 +1714,8 @@ button {
   background: #2c6e91;
   box-shadow: 0 0 0 2px #ffffff;
 }
+
+/* 选中态恢复实线：墨水屏上虚线看不清 */
+.unit.selected {
+  outline-style: solid;
+}
