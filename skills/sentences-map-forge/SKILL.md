@@ -72,11 +72,24 @@ node skills/sentences-map-forge/scripts/split.mjs \
 
 ### 3. 规划碎片
 
-- 每碎片 **25–30 句**，1–3 页。
-- 在标题/段落边界切，不把同一小节拆两半。
-- 一章不足 25 句 → 整章一个碎片；超过 60 句 → 按小节拆 2–4 个。
-- 碎片 id = `<chapterId>-NN`，顺序 = 阅读顺序。
-- 规划写进 `.work/<bookId>/plan.json` 再生成。
+碎片是一个**完整知识块**，不是句数切片。
+
+1. 先跑规划脚本，以标题/段落为边界出初稿：
+
+```bash
+node skills/sentences-map-forge/scripts/plan-fragments.mjs \
+  .work/<bookId>/01-<chapter>/sentences.json \
+  .work/<bookId>/01-<chapter>/plan.json
+```
+
+2. 人工过一遍初稿，按知识块修正：
+   - 一个药 / 一类受体 / 一个临床应用 = 一个碎片
+   - **12–35 句都接受**；超过 35 句按“机制 → 效应 → 应用 → 不良反应”分层
+   - 不足 12 句与相邻同主题合并
+   - **同一个知识点不允许横跨两个碎片**
+3. 碎片第一句必须自带主语，不能以“该药 / 其 / 它”开头。
+4. 碎片 id = `<chapterId>-NN`（脚本初稿的 `frag-NN` 是占位，定稿要改）；标题用知识块名，不用序号。
+5. 规划定稿后再生成。
 
 ### 4. 生成四选一
 
