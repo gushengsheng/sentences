@@ -1607,3 +1607,12 @@ button {
   color: #8f1a04;
   border-color: #b0897f !important;
 }
+
+.unit.shielded {
+  outline: 2px solid #d9a441;
+  outline-offset: 1px;
+}
+.panel-actions .more-btn {
+  min-width: 40px;
+  padding: 8px 10px;
+}

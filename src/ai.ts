@@ -87,7 +87,9 @@ export function decideNext(
   const free = state.order.filter((id) => state.cells[id].owner === null);
   const enemy = state.order.filter((id) => {
     const o = state.cells[id].owner;
-    return o !== null && o !== side;
+    if (o === null || o === side) return false;
+    // 带护盾的格子打不动，直接排除
+    return state.cells[id].shielded !== state.round;
   });
 
   if (ap < 1) return { kind: 'endTurn' };
@@ -158,6 +160,19 @@ export function decideNext(
       cands.push({
         action: { kind: 'convert', unitId: id },
         score: cfg.attack * cfg.accuracy * 0.5 * (1 - cfg.strategy * 0.2),
+      });
+    }
+  }
+
+  // 2.5) 保护：有富余 AP 时罩住一句正确的
+  if (ap >= 1 && owned.length > 0 && cfg.strategy >= 0.3) {
+    const protectable = owned.filter(
+      (id) => state.cells[id].shielded !== state.round && state.units[id].correct,
+    );
+    if (protectable.length > 0) {
+      cands.push({
+        action: { kind: 'protect', unitId: pick(protectable, rng) },
+        score: 0.25 * cfg.strategy,
       });
     }
   }

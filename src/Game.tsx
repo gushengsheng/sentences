@@ -71,6 +71,7 @@ export default function Game(props: GameProps) {
   const [banner, setBanner] = useState<string | null>(null);
   const bannerShown = useRef(false);
   const [reviewing, setReviewing] = useState(false);
+  const [panelMore, setPanelMore] = useState(false);
   const [reviewCell, setReviewCell] = useState<string | null>(null);
   const lastPulse = useRef(0);
 
@@ -232,6 +233,7 @@ export default function Game(props: GameProps) {
       run({ kind: 'claim', unitId: id });
       return;
     }
+    setPanelMore(false);
     setSelected((cur) => (cur === id ? null : id));
   }
 
@@ -324,6 +326,7 @@ export default function Game(props: GameProps) {
                 selected === id ? 'selected' : '',
                 flashUnit && flashUnit.id === id ? (flashUnit.ok ? 'flash-ok' : 'flash-bad') : '',
                 reviewing ? (unit.correct ? 'review-right' : 'review-wrong') : '',
+                cell.shielded === match.round ? 'shielded' : '',
               ]
                 .filter(Boolean)
                 .join(' ');
@@ -395,25 +398,48 @@ export default function Game(props: GameProps) {
                   修正 · 1 AP
                 </button>
                 <button
-                  onClick={() => {
-                    run({ kind: 'abandon', unitId: selected });
-                    setSelected(null);
-                  }}
+                  className="ghost more-btn"
+                  title="更多操作"
+                  onClick={() => setPanelMore((v) => !v)}
                 >
-                  放弃 · 0 AP
+                  {panelMore ? '收起' : '⋯'}
                 </button>
+                {panelMore && (
+                  <>
+                    <button
+                      disabled={
+                        match.ap[match.turn] < 1 ||
+                        match.cells[selected].shielded === match.round
+                      }
+                      onClick={() => run({ kind: 'protect', unitId: selected })}
+                    >
+                      保护 · 1 AP
+                    </button>
+                    <button
+                      onClick={() => {
+                        run({ kind: 'abandon', unitId: selected });
+                        setSelected(null);
+                      }}
+                    >
+                      放弃 · 0 AP
+                    </button>
+                  </>
+                )}
               </>
             )}
             {match.cells[selected].owner !== match.turn && (
               <button
                 className="primary"
-                disabled={match.ap[match.turn] < 2}
+                disabled={
+                  match.ap[match.turn] < 2 ||
+                  match.cells[selected].shielded === match.round
+                }
                 onClick={() => {
                   run({ kind: 'convert', unitId: selected });
                   setSelected(null);
                 }}
               >
-                进攻 · 2 AP
+                {match.cells[selected].shielded === match.round ? '已被保护' : '进攻 · 2 AP'}
               </button>
             )}
           </div>

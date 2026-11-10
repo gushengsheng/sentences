@@ -84,6 +84,8 @@ export interface UnitState extends UnitDef {
 export interface Cell {
   owner: Side | null;
   revealed: boolean;
+  /** 护盾生效的回合号；=== 当前回合时不能被进攻 */
+  shielded?: number;
 }
 
 export interface MatchState {
@@ -267,6 +269,7 @@ export type Action =
   | { kind: 'correct'; unitId: string; optionId: string }
   | { kind: 'convert'; unitId: string }
   | { kind: 'abandon'; unitId: string }
+  | { kind: 'protect'; unitId: string }
   | { kind: 'endTurn' };
 
 export interface ApplyResult {
@@ -336,11 +339,24 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       if (!cell) return { state, error: '句子不存在' };
       if (cell.owner === null) return { state, error: '该句子无主' };
       if (cell.owner === s.turn) return { state, error: '不能进攻己方句子' };
+      if (cell.shielded === s.round) return { state, error: '目标已被保护' };
       if (s.ap[s.turn] < 2) return { state, error: 'AP 不足' };
       s.ap[s.turn] -= 2;
-      cell.owner = null;
+      cell.owner = s.turn;
+      cell.shielded = undefined;
       s.eventSeq += 1;
       s.lastEvent = { kind: 'convert', unitId: action.unitId, side: s.turn };
+      return { state: s };
+    }
+
+    case 'protect': {
+      const cell = s.cells[action.unitId];
+      if (!cell) return { state, error: '句子不存在' };
+      if (cell.owner !== s.turn) return { state, error: '只能保护己方句子' };
+      if (cell.shielded === s.round) return { state, error: '这一回合已经保护过了' };
+      if (s.ap[s.turn] < 1) return { state, error: 'AP 不足' };
+      s.ap[s.turn] -= 1;
+      cell.shielded = s.round;
       return { state: s };
     }
 
