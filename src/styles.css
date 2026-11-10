@@ -1539,3 +1539,27 @@ button {
   font-weight: 600;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
 }
+
+.review-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 20px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--line);
+}
+.unit.owned.review-wrong {
+  outline: 2px dashed #b4453f;
+  background: rgba(180, 69, 63, 0.16);
+}
+.unit.owned.review-right {
+  outline: 1px solid rgba(63, 154, 92, 0.35);
+}
+[data-theme='light'] .unit.owned.review-wrong {
+  background: #fbe2dd;
+  outline-color: #9b2b1f;
+}
+[data-theme='light'] .unit.owned.review-right {
+  outline-color: rgba(23, 108, 60, 0.45);
+}

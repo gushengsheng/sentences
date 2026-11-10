@@ -70,6 +70,8 @@ export default function Game(props: GameProps) {
   const [flashUnit, setFlashUnit] = useState<{ id: string; ok: boolean } | null>(null);
   const [banner, setBanner] = useState<string | null>(null);
   const bannerShown = useRef(false);
+  const [reviewing, setReviewing] = useState(false);
+  const [reviewCell, setReviewCell] = useState<string | null>(null);
   const lastPulse = useRef(0);
 
   const memA = useRef(newAiMemory());
@@ -203,6 +205,8 @@ export default function Game(props: GameProps) {
     memB.current = newAiMemory();
     bannerShown.current = false;
     setMatch(createMatch(chapter, fragmentId, rounds, randomSeed(), meta));
+    setReviewing(false);
+    setReviewCell(null);
     setPageIdx(0);
     setSelected(null);
     setModalUnit(null);
@@ -213,6 +217,11 @@ export default function Game(props: GameProps) {
   const pulse = nextPulseRound(match);
 
   function clickCell(id: string) {
+    if (reviewing) {
+      if (!match.cells[id]?.revealed) return;
+      setReviewCell((cur) => (cur === id ? null : id));
+      return;
+    }
     if (!humanTurn || match.ended) return;
     const cell = match.cells[id];
     if (cell.owner === null) {
@@ -253,6 +262,37 @@ export default function Game(props: GameProps) {
 
       {banner && <div className="round-banner">{banner}</div>}
 
+      {reviewing && reviewCell && (
+        <div className="panel">
+          <div className="panel-head">
+            <span>原文对照</span>
+            <button className="x" onClick={() => setReviewCell(null)}>
+              ×
+            </button>
+          </div>
+          <p className="panel-text muted">棋盘上：{match.units[reviewCell].text}</p>
+          <p className="panel-text">原文：{match.units[reviewCell].original}</p>
+        </div>
+      )}
+
+      {reviewing && (
+        <div className="review-bar">
+          <span>
+            回顾 · 错误{' '}
+            {match.order.filter((id) => match.cells[id].revealed && !match.units[id].correct).length} 句
+          </span>
+          <button
+            className="ghost"
+            onClick={() => {
+              setReviewing(false);
+              setReviewCell(null);
+            }}
+          >
+            返回结算
+          </button>
+        </div>
+      )}
+
       <main className="board">
         {paragraphs.map((g) => (
           <p className="para" key={g.paragraph}>
@@ -282,6 +322,7 @@ export default function Game(props: GameProps) {
                 cell.owner ? cell.owner.toLowerCase() : 'blank',
                 selected === id ? 'selected' : '',
                 flashUnit && flashUnit.id === id ? (flashUnit.ok ? 'flash-ok' : 'flash-bad') : '',
+                reviewing ? (unit.correct ? 'review-right' : 'review-wrong') : '',
               ]
                 .filter(Boolean)
                 .join(' ');
@@ -475,7 +516,7 @@ export default function Game(props: GameProps) {
         </div>
       )}
 
-      {match.ended && (
+      {match.ended && !reviewing && (
         <div className="overlay">
           <div className="modal result">
             <h2>
@@ -514,6 +555,14 @@ export default function Game(props: GameProps) {
             <div className="result-actions">
               <button className="primary" onClick={restart}>
                 再来一局
+              </button>
+              <button
+                onClick={() => {
+                  setReviewing(true);
+                  setReviewCell(null);
+                }}
+              >
+                查看回顾
               </button>
               <button onClick={onExit}>返回知识碎片</button>
             </div>
