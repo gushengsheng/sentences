@@ -2188,3 +2188,19 @@ button {
   letter-spacing: 1px;
   color: var(--muted);
 }
+
+/* 浅色主题：占领闪光按归属方上色 */
+[data-theme='light'] .unit.owned.a.claim-flash {
+  animation: claimFlashLightA 0.42s ease-out;
+}
+[data-theme='light'] .unit.owned.b.claim-flash {
+  animation: claimFlashLightB 0.42s ease-out;
+}
+@keyframes claimFlashLightA {
+  0% { background-color: #e8997c; }
+  100% { background-color: #f0c3b5; }
+}
+@keyframes claimFlashLightB {
+  0% { background-color: #95b8e2; }
+  100% { background-color: #b0c9e6; }
+}
