@@ -146,7 +146,10 @@ export default function App() {
         chapterId: chapter.id,
         fragmentId: fragment.id,
         rounds: fragment.recommendedRounds ?? 12,
-        mode: 'ai',
+        mode:
+          q.get('mode') === 'hotseat' || q.get('mode') === 'spectate'
+            ? (q.get('mode') as 'hotseat' | 'spectate')
+            : 'ai',
         presetId: 'normal',
         difficulty: 'normal',
         nonce: Date.now(),

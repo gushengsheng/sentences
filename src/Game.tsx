@@ -135,6 +135,19 @@ export default function Game(props: GameProps) {
     return () => window.clearTimeout(timer);
   }, [match, mode, configA, configB, aiSpeed, presetId, presetBId, custom, quake]);
 
+  // 对方进攻被护盾挡下：防守方也收到提示和闪光
+  useEffect(() => {
+    const evt = match.lastEvent;
+    if (!evt || evt.kind !== 'blocked') return;
+    const v = mode === 'hotseat' ? match.turn : mode === 'ai' ? 'A' : null;
+    if (!v || evt.side === v) return;
+    if (match.cells[evt.unitId]?.owner !== v) return;
+    if (settings.flashBoard) setFlashUnit({ id: evt.unitId, kind: 'shield' });
+    notify('你的护盾挡下了一次进攻');
+    const t = window.setTimeout(() => setFlashUnit(null), 900);
+    return () => window.clearTimeout(t);
+  }, [match.eventSeq, mode, settings.flashBoard]);
+
   // 被进攻时棋盘红闪
   useEffect(() => {
     if (!settings.flashBoard) return;

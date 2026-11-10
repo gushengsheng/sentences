@@ -116,7 +116,7 @@ export interface MatchState {
   /** 刚刚消失的护盾格子，供 UI 做淡出 */
   shieldCleared?: string[];
   shieldClearSeq?: number;
-  lastEvent: { kind: 'convert'; unitId: string; side: Side } | null;
+  lastEvent: { kind: 'convert' | 'blocked'; unitId: string; side: Side } | null;
   ended: boolean;
   winner: Side | null;
   /** 终局分数 = 正确 - 错误，可为负 */
@@ -362,6 +362,8 @@ export function apply(state: MatchState, action: Action): ApplyResult {
       s.ap[s.turn] -= 2;
       if (cell.shieldedBy && cell.shieldedBy !== s.turn) {
         // 撞到隐藏护盾：AP 白花，护盾不破
+        s.eventSeq += 1;
+        s.lastEvent = { kind: 'blocked', unitId: action.unitId, side: s.turn };
         return { state: s, blocked: true };
       }
       cell.owner = s.turn;
