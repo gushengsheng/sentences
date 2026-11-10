@@ -2120,3 +2120,48 @@ button {
 [data-theme='light'] .unit.flash-shield {
   animation: shieldPulseFlash 0.9s ease-out;
 }
+
+/* 占领：文字从左往右显影 */
+@keyframes claimReveal {
+  0% { opacity: 0; clip-path: inset(0 100% 0 0); transform: translateY(2px); }
+  55% { opacity: 1; }
+  100% { opacity: 1; clip-path: inset(0 0 0 0); transform: translateY(0); }
+}
+.unit.claim-reveal {
+  animation: claimReveal 0.4s ease-out;
+}
+
+/* 进攻：命中震颤 */
+@keyframes hitShake {
+  0%, 100% { transform: translateX(0); }
+  15% { transform: translateX(-2px); }
+  35% { transform: translateX(2px); }
+  55% { transform: translateX(-1.5px); }
+  75% { transform: translateX(1.5px); }
+}
+.unit.hit-shake {
+  animation: hitShake 0.17s linear;
+}
+
+/* 斩痕：刀光扫过后的细线 */
+.slash-scar {
+  position: absolute;
+  height: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.9), #d9603b, transparent);
+  transform: rotate(var(--slash-angle, -16deg));
+  opacity: 0;
+  animation: scarFade 0.95s ease-out forwards;
+  pointer-events: none;
+}
+@keyframes scarFade {
+  0%, 42% { opacity: 0; }
+  55% { opacity: 0.9; }
+  100% { opacity: 0; }
+}
+[data-theme='light'] .slash-scar {
+  background: linear-gradient(90deg, transparent, #a3342c, #4a1208, transparent);
+}
+[data-theme='mono'] .slash-scar {
+  background: linear-gradient(90deg, transparent, #ededed, transparent);
+}

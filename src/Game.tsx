@@ -72,6 +72,8 @@ export default function Game(props: GameProps) {
   const [fadingShields, setFadingShields] = useState<string[]>([]);
   const [slash, setSlash] = useState<{ left: number; top: number; width: number; height: number } | null>(null);
   const [awayDot, setAwayDot] = useState<{ side: 'left' | 'right'; color: 'a' | 'b' } | null>(null);
+  const [revealUnit, setRevealUnit] = useState<string | null>(null);
+  const [hitUnit, setHitUnit] = useState<string | null>(null);
   const flashT = useRef(0);
   const dimT = useRef(0);
   const slashT = useRef(0);
@@ -139,6 +141,17 @@ export default function Game(props: GameProps) {
     return () => window.clearTimeout(timer);
   }, [match, mode, configA, configB, aiSpeed, presetId, presetBId, custom, quake]);
 
+  // 自己占领：文字显影
+  useEffect(() => {
+    const evt = match.lastEvent;
+    if (!evt || evt.kind !== 'claim') return;
+    const v = mode === 'hotseat' ? match.turn : mode === 'ai' ? 'A' : null;
+    if (!v || evt.side !== v) return;
+    setRevealUnit(evt.unitId);
+    const t = window.setTimeout(() => setRevealUnit(null), 430);
+    return () => window.clearTimeout(t);
+  }, [match.eventSeq, mode]);
+
   // 对方进攻被护盾挡下：防守方也收到提示和闪光
   useEffect(() => {
     const evt = match.lastEvent;
@@ -163,6 +176,8 @@ export default function Game(props: GameProps) {
 
     // 双方进攻都闪；自己进攻用刀光，对方进攻只红闪
     setFlashUnit({ id: evt.unitId, kind: humanAttack ? 'attack' : 'attack-foe' });
+    setHitUnit(evt.unitId);
+    window.setTimeout(() => setHitUnit(null), 170);
     window.clearTimeout(flashT.current);
     flashT.current = window.setTimeout(() => setFlashUnit(null), 900);
 
@@ -179,7 +194,7 @@ export default function Game(props: GameProps) {
         const bottom = Math.max(...rects.map((r) => r.bottom));
         setSlash({ left, top, width: right - left, height: bottom - top });
         window.clearTimeout(slashT.current);
-        slashT.current = window.setTimeout(() => setSlash(null), 600);
+        slashT.current = window.setTimeout(() => setSlash(null), 950);
       }
     }
 
@@ -409,6 +424,8 @@ export default function Game(props: GameProps) {
                 reviewing ? (unit.correct ? 'review-right' : 'review-wrong') : '',
                 cell.owner === viewer && cell.shieldedBy === viewer ? 'shielded' : '',
                 cell.owner !== null && viewer ? (cell.owner === viewer ? 'mine' : 'theirs') : '',
+                revealUnit === id ? 'claim-reveal' : '',
+                hitUnit === id ? 'hit-shake' : '',
                 cell.owner === viewer && fadingShields.includes(id) ? 'shielded shield-fade' : '',
               ]
                 .filter(Boolean)
@@ -597,27 +614,32 @@ export default function Game(props: GameProps) {
 
       {awayDot && <div className={`away-dot ${awayDot.side} ${awayDot.color}`} />}
 
-      {slash && (
-        <div
-          className="slash-box"
-          style={{
-            left: slash.left,
-            top: slash.top,
-            width: slash.width,
-            height: slash.height,
-          }}
-        >
+      {slash && (() => {
+        const len = Math.hypot(slash.width, slash.height);
+        const angle = (Math.atan2(slash.height, slash.width) * 180) / Math.PI;
+        const left = slash.width / 2 - len / 2;
+        const angleStyle = { ['--slash-angle' as string]: `-${angle}deg` };
+        return (
           <div
-            className="slash-line"
+            className="slash-box"
             style={{
-              left: slash.width / 2 - Math.hypot(slash.width, slash.height) / 2,
-              top: slash.height / 2 - 3,
-              width: Math.hypot(slash.width, slash.height),
-              ['--slash-angle' as string]: `-${(Math.atan2(slash.height, slash.width) * 180) / Math.PI}deg`,
+              left: slash.left,
+              top: slash.top,
+              width: slash.width,
+              height: slash.height,
             }}
-          />
-        </div>
-      )}
+          >
+            <div
+              className="slash-line"
+              style={{ left, top: slash.height / 2 - 3, width: len, ...angleStyle }}
+            />
+            <div
+              className="slash-scar"
+              style={{ left, top: slash.height / 2 - 1, width: len, ...angleStyle }}
+            />
+          </div>
+        );
+      })()}
 
       {quake && (
         <div className="overlay quake-overlay" onClick={() => { setQuake(null); if (settings.turnBanner) showBanner(match.round); }}>
