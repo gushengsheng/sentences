@@ -1888,3 +1888,25 @@ button {
 [data-theme='light'] .unit.flash-attack::before {
   background: linear-gradient(90deg, transparent, #4a1208, #a3342c, #d9603b, #4a1208, transparent);
 }
+
+/* 护盾消失：边框与角标淡出 */
+.unit.shielded {
+  --shield-color: #a5d8f3;
+}
+[data-theme='light'] .unit.shielded {
+  --shield-color: #6b4f9e;
+}
+.unit.shielded.shield-fade {
+  animation: ringFade 0.65s ease forwards;
+}
+.unit.shielded.shield-fade::after {
+  animation: badgeFade 0.65s ease forwards;
+}
+@keyframes ringFade {
+  from { outline-color: var(--shield-color, #a5d8f3); }
+  to { outline-color: transparent; }
+}
+@keyframes badgeFade {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}

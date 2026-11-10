@@ -113,6 +113,9 @@ export interface MatchState {
   ledger: Record<Side, { correct: number; wrong: number }>;
   /** 最近一次动作事件，供棋盘反馈 */
   eventSeq: number;
+  /** 刚刚消失的护盾格子，供 UI 做淡出 */
+  shieldCleared?: string[];
+  shieldClearSeq?: number;
   lastEvent: { kind: 'convert'; unitId: string; side: Side } | null;
   ended: boolean;
   winner: Side | null;
@@ -285,8 +288,16 @@ export interface ApplyResult {
 
 /** 自己的回合开始时，清掉自己上一轮放的护盾 */
 function clearShields(s: MatchState, side: Side) {
+  const cleared: string[] = [];
   for (const id of s.order) {
-    if (s.cells[id].shieldedBy === side) s.cells[id].shieldedBy = undefined;
+    if (s.cells[id].shieldedBy === side) {
+      s.cells[id].shieldedBy = undefined;
+      cleared.push(id);
+    }
+  }
+  if (cleared.length > 0) {
+    s.shieldCleared = cleared;
+    s.shieldClearSeq = (s.shieldClearSeq ?? 0) + 1;
   }
 }
 

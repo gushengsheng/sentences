@@ -69,6 +69,7 @@ export default function Game(props: GameProps) {
   const [picked, setPicked] = useState<{ id: string; ok: boolean } | null>(null);
   const [flashUnit, setFlashUnit] = useState<{ id: string; kind: 'ok' | 'bad' | 'attack' | 'attack-foe' | 'shield' } | null>(null);
   const [dim, setDim] = useState(false);
+  const [fadingShields, setFadingShields] = useState<string[]>([]);
   const [banner, setBanner] = useState<string | null>(null);
   const bannerShown = useRef(false);
   const [reviewing, setReviewing] = useState(false);
@@ -158,6 +159,16 @@ export default function Game(props: GameProps) {
     bannerShown.current = true;
     showBanner(1);
   }, [match.round, settings.turnBanner]);
+
+  // 谁能在屏幕上看到自己的护盾：热座看当前玩家，人机只看 A，观战都不看
+  const viewer: Side | null = mode === 'hotseat' ? match.turn : mode === 'ai' ? 'A' : null;
+
+  useEffect(() => {
+    if (!match.shieldCleared || match.shieldCleared.length === 0) return;
+    setFadingShields(match.shieldCleared);
+    const t = window.setTimeout(() => setFadingShields([]), 700);
+    return () => window.clearTimeout(t);
+  }, [match.shieldClearSeq]);
 
   const pages = match.pages ?? [];
   const page = pages[Math.min(pageIdx, Math.max(0, pages.length - 1))];
@@ -344,7 +355,8 @@ export default function Game(props: GameProps) {
                 selected === id ? 'selected' : '',
                 flashUnit && flashUnit.id === id ? `flash-${flashUnit.kind}` : '',
                 reviewing ? (unit.correct ? 'review-right' : 'review-wrong') : '',
-                cell.owner === match.turn && cell.shieldedBy === match.turn ? 'shielded' : '',
+                cell.owner === viewer && cell.shieldedBy === viewer ? 'shielded' : '',
+                cell.owner === viewer && fadingShields.includes(id) ? 'shielded shield-fade' : '',
               ]
                 .filter(Boolean)
                 .join(' ');
