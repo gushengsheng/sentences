@@ -472,7 +472,7 @@ export default function Game(props: GameProps) {
         ))}
       </main>
 
-      {pages.length > 1 && (!settings.hideBottombar || chromeOpen) && (
+      {pages.length > 1 && (
         <nav className="pager">
           <button
             className="page-btn"
@@ -584,30 +584,8 @@ export default function Game(props: GameProps) {
       )}
 
       {settings.hideBottombar && !chromeOpen && (
-        <div className="float-bar">
-          {pages.length > 1 && (
-            <button
-              className="float-page left"
-              disabled={pageIdx <= 0}
-              onClick={() => setPageIdx((i) => Math.max(0, i - 1))}
-              aria-label="上一页"
-            >
-              ‹
-            </button>
-          )}
-          <div className="float-ap">
-            AP <b>{match.ap[match.turn]}</b>
-          </div>
-          {pages.length > 1 && (
-            <button
-              className="float-page right"
-              disabled={pageIdx >= pages.length - 1}
-              onClick={() => setPageIdx((i) => Math.min(pages.length - 1, i + 1))}
-              aria-label="下一页"
-            >
-              ›
-            </button>
-          )}
+        <div className="float-ap">
+          AP <b>{match.ap[match.turn]}</b>
         </div>
       )}
 

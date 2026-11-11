@@ -2214,30 +2214,7 @@ button {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* 底栏隐藏时的悬浮翻页与 AP */
-.float-page {
-  position: fixed;
-  bottom: 18px;
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  background: rgba(23, 27, 34, 0.55);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  color: var(--text);
-  font-size: 20px;
-  line-height: 1;
-  z-index: 28;
-  backdrop-filter: blur(4px);
-}
-.float-page:disabled {
-  opacity: 0.35;
-}
-.float-page.left {
-  left: 12px;
-}
-.float-page.right {
-  right: 12px;
-}
+/* 底栏隐藏时的悬浮 AP */
 .float-ap {
   position: fixed;
   right: 62px;
@@ -2260,7 +2237,6 @@ button {
   color: var(--gold);
   font-size: 16px;
 }
-[data-theme='light'] .float-page,
 [data-theme='light'] .float-ap {
   background: rgba(255, 255, 255, 0.72);
   border-color: rgba(0, 0, 0, 0.15);
@@ -2269,7 +2245,6 @@ button {
 [data-theme='light'] .float-ap b {
   color: #7a5a00;
 }
-[data-theme='mono'] .float-page,
 [data-theme='mono'] .float-ap {
   background: rgba(20, 20, 20, 0.72);
   border-color: rgba(255, 255, 255, 0.25);
