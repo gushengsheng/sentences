@@ -17,6 +17,8 @@ export interface Settings {
   pagerMode: 'buttons' | 'edge';
   /** 快速结束回合时，若还有 AP 先确认 */
   confirmApEnd: boolean;
+  /** 快捷操作：双击进攻/保护，长按修正 */
+  quickActions: boolean;
   /** 棋盘闪光：修正 / 被进攻时高亮那一句 */
   flashBoard: boolean;
   /** 回合横幅：只在第 1 回合和灾变后出现 */
@@ -37,6 +39,7 @@ const DEFAULT_SETTINGS: Settings = {
   hideBottombar: false,
   pagerMode: 'buttons',
   confirmApEnd: true,
+  quickActions: false,
   flashBoard: true,
   turnBanner: true,
   claimFlash: true,

@@ -509,6 +509,15 @@ export function SettingsScreen({
           />
         </label>
 
+        <label className="field row">
+          <span>快捷操作（双击进攻/保护，长按修正）</span>
+          <input
+            type="checkbox"
+            checked={settings.quickActions}
+            onChange={(e) => onChange({ ...settings, quickActions: e.target.checked })}
+          />
+        </label>
+
         <div className="divider" />
         <h3 className="settings-group">动画</h3>
 

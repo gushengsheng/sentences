@@ -92,6 +92,8 @@ export default function Game(props: GameProps) {
   const [revealUnit, setRevealUnit] = useState<string | null>(null);
   const flashT = useRef(0);
   const lastTap = useRef(0);
+  const longPressT = useRef(0);
+  const longPressId = useRef<string | null>(null);
   const blankToggleT = useRef(0);
   const [confirmEnd, setConfirmEnd] = useState(false);
   const dimT = useRef(0);
@@ -334,6 +336,39 @@ export default function Game(props: GameProps) {
     }
   }
 
+  function startLongPress(id: string) {
+    if (!settings.quickActions || !humanTurn || match.ended) return;
+    const cell = match.cells[id];
+    if (!cell || cell.owner !== match.turn) return;
+    if (match.ap[match.turn] < 1) return;
+    window.clearTimeout(longPressT.current);
+    longPressId.current = id;
+    longPressT.current = window.setTimeout(() => {
+      if (longPressId.current !== id) return;
+      longPressId.current = null;
+      setPicked(null);
+      setModalUnit(id);
+    }, 450);
+  }
+
+  function cancelLongPress() {
+    window.clearTimeout(longPressT.current);
+    longPressId.current = null;
+  }
+
+  function quickAction(id: string) {
+    if (!settings.quickActions || !humanTurn || match.ended || modalUnit || quake || confirmEnd) return;
+    const cell = match.cells[id];
+    if (!cell) return;
+    if (cell.owner === match.turn) {
+      if (match.ap[match.turn] < 1 || cell.shieldedBy === match.turn) return;
+      run({ kind: 'protect', unitId: id });
+    } else if (cell.owner !== null) {
+      if (match.ap[match.turn] < 2) return;
+      run({ kind: 'convert', unitId: id });
+    }
+  }
+
   function quickEndTurn() {
     if (!humanTurn || match.ended || modalUnit || quake || reviewing || confirmEnd) return;
     if (match.ap[match.turn] > 0 && settings.confirmApEnd) {
@@ -536,6 +571,11 @@ export default function Game(props: GameProps) {
                   tabIndex={0}
                   aria-disabled={!humanTurn || match.ended}
                   onClick={() => clickCell(id)}
+                  onDoubleClick={() => quickAction(id)}
+                  onPointerDown={() => startLongPress(id)}
+                  onPointerUp={cancelLongPress}
+                  onPointerLeave={cancelLongPress}
+                  onPointerCancel={cancelLongPress}
                   onKeyDown={(e) => {
                     if (e.key === 'Enter' || e.key === ' ') clickCell(id);
                   }}
@@ -639,6 +679,10 @@ export default function Game(props: GameProps) {
             setSelected(null);
           }}
         />
+      )}
+
+      {thinking && settings.hideBottombar && !chromeOpen && (
+        <div className="ai-thinking">AI 思考中</div>
       )}
 
       {settings.hideBottombar && !chromeOpen && (
