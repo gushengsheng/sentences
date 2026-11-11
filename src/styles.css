@@ -2039,3 +2039,11 @@ button {
   border-color: rgba(255, 255, 255, 0.25);
   color: #ededed;
 }
+
+/* 对局棋盘：禁止长按选中文字 */
+.board,
+.board * {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
