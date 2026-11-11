@@ -410,8 +410,8 @@ export default function Game(props: GameProps) {
           }
         }
         if (!settings.hideTopbar && !settings.hideBottombar) return;
-        // 顶栏 / 底栏 / 翻页器里的按钮要能正常点，并重置自动收起计时
-        if (target.closest('.topbar, .hud, .pager')) {
+        // 顶栏 / 底栏 / 翻页器 / 弹窗里的点击不参与边框显隐
+        if (target.closest('.topbar, .hud, .pager, .overlay')) {
           setChromeTick((v) => v + 1);
           return;
         }
