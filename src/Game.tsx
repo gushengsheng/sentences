@@ -358,7 +358,7 @@ export default function Game(props: GameProps) {
 
   return (
     <div
-      className="app"
+      className={`app${settings.hideBottombar && !chromeOpen ? ' chrome-hide-bottom' : ''}`}
       onContextMenu={(e) => {
         e.preventDefault();
         quickEndTurn();

@@ -2253,3 +2253,13 @@ button {
 [data-theme='mono'] .float-ap b {
   color: #ffffff;
 }
+
+/* 手机：翻页器位置微调；底栏隐藏时贴底 */
+@media (max-width: 720px) {
+  .pager {
+    bottom: 132px;
+  }
+  .app.chrome-hide-bottom .pager {
+    bottom: 24px;
+  }
+}

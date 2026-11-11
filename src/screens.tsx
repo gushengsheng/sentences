@@ -479,7 +479,7 @@ export function SettingsScreen({
         </label>
 
         <label className="field row">
-          <span>隐藏下边框（含翻页器）</span>
+          <span>隐藏下边框</span>
           <input
             type="checkbox"
             checked={settings.hideBottombar}
