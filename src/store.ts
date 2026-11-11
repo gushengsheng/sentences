@@ -15,6 +15,8 @@ export interface Settings {
   hideBottombar: boolean;
   /** 翻页方式：按钮 / 手势 */
   pagerMode: 'buttons' | 'edge';
+  /** 快速结束回合时，若还有 AP 先确认 */
+  confirmApEnd: boolean;
   /** 棋盘闪光：修正 / 被进攻时高亮那一句 */
   flashBoard: boolean;
   /** 回合横幅：只在第 1 回合和灾变后出现 */
@@ -34,6 +36,7 @@ const DEFAULT_SETTINGS: Settings = {
   hideTopbar: false,
   hideBottombar: false,
   pagerMode: 'buttons',
+  confirmApEnd: true,
   flashBoard: true,
   turnBanner: true,
   claimFlash: true,

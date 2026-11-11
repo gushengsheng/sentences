@@ -500,6 +500,15 @@ export function SettingsScreen({
           </select>
         </label>
 
+        <label className="field row">
+          <span>AP剩余确认</span>
+          <input
+            type="checkbox"
+            checked={settings.confirmApEnd}
+            onChange={(e) => onChange({ ...settings, confirmApEnd: e.target.checked })}
+          />
+        </label>
+
         <div className="divider" />
         <h3 className="settings-group">动画</h3>
 

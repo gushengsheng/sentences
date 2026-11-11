@@ -336,7 +336,7 @@ export default function Game(props: GameProps) {
 
   function quickEndTurn() {
     if (!humanTurn || match.ended || modalUnit || quake || reviewing || confirmEnd) return;
-    if (match.ap[match.turn] > 0) {
+    if (match.ap[match.turn] > 0 && settings.confirmApEnd) {
       setConfirmEnd(true);
       return;
     }
