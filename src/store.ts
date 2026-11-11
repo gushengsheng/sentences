@@ -13,6 +13,8 @@ export interface Settings {
   hideTopbar: boolean;
   /** 隐藏下边框（含翻页器） */
   hideBottombar: boolean;
+  /** 翻页方式：按钮 / 手势 */
+  pagerMode: 'buttons' | 'gesture';
   /** 棋盘闪光：修正 / 被进攻时高亮那一句 */
   flashBoard: boolean;
   /** 回合横幅：只在第 1 回合和灾变后出现 */
@@ -31,6 +33,7 @@ const DEFAULT_SETTINGS: Settings = {
   theme: 'dark',
   hideTopbar: false,
   hideBottombar: false,
+  pagerMode: 'buttons',
   flashBoard: true,
   turnBanner: true,
   claimFlash: true,
