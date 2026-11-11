@@ -1,0 +1,318 @@
+{
+  "id": "advanced",
+  "title": "第 8 章：进阶",
+  "fragments": [
+    {
+      "id": "advanced-01",
+      "title": "目录安排",
+      "order": 1,
+      "recommendedRounds": 10,
+      "pages": [
+        {
+          "id": "advanced-01-p1",
+          "title": "目录安排",
+          "unitIds": [
+            "advanced-01-s01",
+            "advanced-01-s02",
+            "advanced-01-s03",
+            "advanced-01-s04",
+            "advanced-01-s05",
+            "advanced-01-s06",
+            "advanced-01-s07",
+            "advanced-01-s08"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "advanced-01-s01",
+          "paragraph": 1,
+          "original": "src 放前端源码，规则、AI 和界面都在这里。",
+          "wrongOptions": [
+            "src 放后端源码，规则、AI 和界面都在这里。",
+            "public 放前端源码，规则、AI 和界面都在这里。",
+            "src 放构建产物，规则、AI 和界面都在这里。"
+          ]
+        },
+        {
+          "id": "advanced-01-s02",
+          "paragraph": 2,
+          "original": "规则引擎是 engine.ts，AI 是 ai.ts，界面在 screens 与 Game。",
+          "wrongOptions": [
+            "规则引擎是 engine.ts，AI 是 ai.ts，界面在 App 与 Game。",
+            "规则引擎是 engine.ts，AI 是 store.ts，界面在 screens 与 Game。",
+            "规则引擎是 engine.ts，AI 是 ai.ts，界面在 mapsource 与 Game。"
+          ]
+        },
+        {
+          "id": "advanced-01-s03",
+          "paragraph": 3,
+          "original": "src/game 放对局组件，比如结算弹窗。",
+          "wrongOptions": [
+            "src/game 放地图数据，比如结算弹窗。",
+            "src/game 放规则引擎，比如结算弹窗。",
+            "public/game 放对局组件，比如结算弹窗。"
+          ]
+        },
+        {
+          "id": "advanced-01-s04",
+          "paragraph": 4,
+          "original": "public/maps 放地图，一本书一个目录。",
+          "wrongOptions": [
+            "public/maps 放地图，一个章节一个目录。",
+            "public/maps 放地图，一个碎片一个目录。",
+            "src/maps 放地图，一本书一个目录。"
+          ]
+        },
+        {
+          "id": "advanced-01-s05",
+          "paragraph": 5,
+          "original": "scripts 放构建前的生成与检查脚本。",
+          "wrongOptions": [
+            "scripts 放运行时的生成与检查脚本。",
+            "scripts 放界面组件的检查脚本。",
+            "skills 放构建前的生成与检查脚本。"
+          ]
+        },
+        {
+          "id": "advanced-01-s06",
+          "paragraph": 6,
+          "original": ".github/workflows 放自动发布流程，推 main 就跑。",
+          "wrongOptions": [
+            ".github/workflows 放本地开发服务器，推 main 就跑。",
+            ".github/workflows 放玩家存档，推 main 就跑。",
+            "docs/workflows 放自动发布流程，推 main 就跑。"
+          ]
+        },
+        {
+          "id": "advanced-01-s07",
+          "paragraph": 7,
+          "original": "skills 放给 AI 用的说明，地图锻造就在里面。",
+          "wrongOptions": [
+            "skills 放地图数据，地图锻造就在里面。",
+            "skills 放界面样式，地图锻造就在里面。",
+            "source 放给 AI 用的说明，地图锻造就在里面。"
+          ]
+        },
+        {
+          "id": "advanced-01-s08",
+          "paragraph": 8,
+          "original": "docs 放截图和开发文档，不参与打包。",
+          "wrongOptions": [
+            "docs 放源码和开发文档，不参与打包。",
+            "docs 放地图和开发文档，不参与打包。",
+            "dist 放截图和开发文档，不参与打包。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced-02",
+      "title": "用 AI 改游戏",
+      "order": 2,
+      "recommendedRounds": 10,
+      "pages": [
+        {
+          "id": "advanced-02-p1",
+          "title": "用 AI 改游戏",
+          "unitIds": [
+            "advanced-02-s01",
+            "advanced-02-s02",
+            "advanced-02-s03",
+            "advanced-02-s04",
+            "advanced-02-s05",
+            "advanced-02-s06",
+            "advanced-02-s07",
+            "advanced-02-s08"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "advanced-02-s01",
+          "paragraph": 1,
+          "original": "让 AI 动手前，先让它读 README 和 docs 里的开发文档。",
+          "wrongOptions": [
+            "让 AI 动手前，先让它读 README 和 docs 里的开发说明。",
+            "让 AI 动手前，再让它读 README 和 docs 里的开发文档。",
+            "让 AI 动手前，先让它读 README 和 public 里的开发文档。"
+          ]
+        },
+        {
+          "id": "advanced-02-s02",
+          "paragraph": 2,
+          "original": "改完要跑 typecheck、check 和 build 三件套，缺一不可。",
+          "wrongOptions": [
+            "改完要跑 typecheck、check 和 build 三件套，跑一件也行。",
+            "改完只跑 typecheck、check 和 build 三件套，缺一不可。",
+            "改完要跑 typecheck、check 和 build 三件套，缺两不可。"
+          ]
+        },
+        {
+          "id": "advanced-02-s03",
+          "paragraph": 3,
+          "original": "一次只改一件事，改完立刻提交。",
+          "wrongOptions": [
+            "一次只改一件事，改完不要提交。",
+            "一次多改一件事，改完立刻提交。",
+            "一次只改一件事，改完立刻保存。"
+          ]
+        },
+        {
+          "id": "advanced-02-s04",
+          "paragraph": 4,
+          "original": "数值和规则要自己定，AI 只负责实现和验证。",
+          "wrongOptions": [
+            "数值和规则要自己定，AI 只负责实现和检查。",
+            "数值和规则交给 AI 定，AI 只负责实现和验证。",
+            "界面和规则要自己定，AI 只负责实现和验证。"
+          ]
+        },
+        {
+          "id": "advanced-02-s05",
+          "paragraph": 5,
+          "original": "让 AI 说清楚改了哪几个文件，以及为什么改。",
+          "wrongOptions": [
+            "让 AI 说清楚改了哪几个文件，以及改了什么。",
+            "让 AI 说清楚改了哪些文件，以及为什么改。",
+            "让 AI 说清楚改了哪几个文件，不用说明原因。"
+          ]
+        },
+        {
+          "id": "advanced-02-s06",
+          "paragraph": 6,
+          "original": "界面改动要在手机上看一遍，不能只看电脑。",
+          "wrongOptions": [
+            "界面改动要在手机上看一遍，不用看电脑。",
+            "界面改动要在电脑上看一遍，不能只看电脑。",
+            "界面改动要在手机上看一遍，不能只看屏幕。"
+          ]
+        },
+        {
+          "id": "advanced-02-s07",
+          "paragraph": 7,
+          "original": "不要手改 dist，它是构建产物，下次构建会被覆盖。",
+          "wrongOptions": [
+            "不要手改 dist，它是源码，下次构建会被覆盖。",
+            "不要手改 dist，它是构建产物，下次构建不会覆盖。",
+            "可以直接手改 dist，它是构建产物，下次构建会被覆盖。"
+          ]
+        },
+        {
+          "id": "advanced-02-s08",
+          "paragraph": 8,
+          "original": "提交前先看清改了哪些文件，再决定 add 什么。",
+          "wrongOptions": [
+            "提交前先挑清改了哪些文件，再决定 add 什么。",
+            "提交前先看清改了哪些文件，再决定 add 哪些。",
+            "提交前先看清改了哪些文件，再决定 push 什么。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced-03",
+      "title": "用 AI 做细腻地图",
+      "order": 3,
+      "recommendedRounds": 10,
+      "pages": [
+        {
+          "id": "advanced-03-p1",
+          "title": "用 AI 做细腻地图",
+          "unitIds": [
+            "advanced-03-s01",
+            "advanced-03-s02",
+            "advanced-03-s03",
+            "advanced-03-s04",
+            "advanced-03-s05",
+            "advanced-03-s06",
+            "advanced-03-s07",
+            "advanced-03-s08"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "advanced-03-s01",
+          "paragraph": 1,
+          "original": "地图锻造 skill 在 skills 目录，把书的原文交给它就行。",
+          "wrongOptions": [
+            "地图锻造 skill 在 public/maps 目录，把书的原文交给它就行。",
+            "地图锻造 skill 在 scripts 目录，把书的原文交给它就行。",
+            "地图锻造 skill 在 docs 目录，把书的原文交给它就行。"
+          ]
+        },
+        {
+          "id": "advanced-03-s02",
+          "paragraph": 2,
+          "original": "切句上限是 55 字，超长句让 AI 在标点后给语义切点。",
+          "wrongOptions": [
+            "切句上限是 45 字，超长句让 AI 在标点后给语义切点。",
+            "切句上限是 65 字，超长句让 AI 在标点后给语义切点。",
+            "切句上限是 55 字，超长句让 AI 在句中随意给切点。"
+          ]
+        },
+        {
+          "id": "advanced-03-s03",
+          "paragraph": 3,
+          "original": "一个知识碎片放 25 到 30 句，太多会读不完。",
+          "wrongOptions": [
+            "一个知识碎片放 15 到 20 句，太多会读不完。",
+            "一个知识碎片放 40 到 50 句，太多会读不完。",
+            "一个知识碎片放 25 到 30 句，太少会读不完。"
+          ]
+        },
+        {
+          "id": "advanced-03-s04",
+          "paragraph": 4,
+          "original": "每段篡改只改一处，差异越短越像真的。",
+          "wrongOptions": [
+            "每段篡改可以改两处，差异越短越像真的。",
+            "每段篡改只改一处，差异越长越像真的。",
+            "每段篡改只改一句，差异越短越像真的。"
+          ]
+        },
+        {
+          "id": "advanced-03-s05",
+          "paragraph": 5,
+          "original": "每段篡改不许跨标点，也不许调换语序。",
+          "wrongOptions": [
+            "每段篡改可以跨标点，也不许调换语序。",
+            "每段篡改不许跨标点，但可以调换语序。",
+            "每段篡改不许跨标点，也不许减少语序。"
+          ]
+        },
+        {
+          "id": "advanced-03-s06",
+          "paragraph": 6,
+          "original": "生成完要跑内容校验，PASS 才能进地图。",
+          "wrongOptions": [
+            "生成完要跑结构校验，PASS 才能进地图。",
+            "生成完要跑内容校验，FAIL 才能进地图。",
+            "生成完不用跑内容校验，PASS 才能进地图。"
+          ]
+        },
+        {
+          "id": "advanced-03-s07",
+          "paragraph": 7,
+          "original": "独立性审查会从上一碎片复制一句话补上下文，标记为 carried。",
+          "wrongOptions": [
+            "独立性审查会从上一碎片复制两句话补上下文，标记为 carried。",
+            "独立性审查会从下一碎片复制一句话补上下文，标记为 carried。",
+            "独立性审查会从上一碎片复制一句话补上下文，标记为 copied。"
+          ]
+        },
+        {
+          "id": "advanced-03-s08",
+          "paragraph": 8,
+          "original": "已经生成的内容不重做，新内容只加进新章节。",
+          "wrongOptions": [
+            "已经生成的内容全部重做，新内容只加进新章节。",
+            "已经生成的内容不重做，新内容只加进旧章节。",
+            "已经生成的内容不重做，旧内容只加进新章节。"
+          ]
+        }
+      ]
+    }
+  ]
+}

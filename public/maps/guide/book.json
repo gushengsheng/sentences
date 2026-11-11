@@ -3,14 +3,56 @@
   "id": "guide",
   "title": "新手指南",
   "author": "",
-  "contentVersion": 1,
-  "contentNote": "游戏的玩法与规则说明，可当新手关。",
+  "contentVersion": 3,
+  "contentNote": "完整教程：8 章 14 个碎片，从规则概览到进阶（目录、用 AI 改游戏与做地图）。",
   "chapters": [
     {
       "id": "rules",
-      "title": "游戏玩法",
+      "title": "第 1 章：初始概览",
       "order": 1,
       "file": "01-rules.json"
+    },
+    {
+      "id": "basics",
+      "title": "第 2 章：看懂棋盘",
+      "order": 2,
+      "file": "02-basics.json"
+    },
+    {
+      "id": "tactics",
+      "title": "第 3 章：打与算",
+      "order": 3,
+      "file": "03-tactics.json"
+    },
+    {
+      "id": "hazards",
+      "title": "第 4 章：灾难与终局",
+      "order": 4,
+      "file": "04-hazards.json"
+    },
+    {
+      "id": "controls",
+      "title": "第 5 章：操作与阅读",
+      "order": 5,
+      "file": "05-controls.json"
+    },
+    {
+      "id": "ai",
+      "title": "第 6 章：选对手",
+      "order": 6,
+      "file": "06-ai.json"
+    },
+    {
+      "id": "strategy",
+      "title": "第 7 章：策略",
+      "order": 7,
+      "file": "07-strategy.json"
+    },
+    {
+      "id": "advanced",
+      "title": "第 8 章：进阶",
+      "order": 8,
+      "file": "08-advanced.json"
     }
   ]
 }

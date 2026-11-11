@@ -22,14 +22,56 @@
       "title": "新手指南",
       "dir": "guide",
       "file": "guide/book.json",
-      "chapters": 1,
-      "fragments": 1,
+      "chapters": 8,
+      "fragments": 14,
       "chapterMeta": [
         {
           "id": "rules",
-          "title": "游戏玩法",
+          "title": "第 1 章：初始概览",
           "order": 1,
+          "fragments": 2
+        },
+        {
+          "id": "basics",
+          "title": "第 2 章：看懂棋盘",
+          "order": 2,
+          "fragments": 2
+        },
+        {
+          "id": "tactics",
+          "title": "第 3 章：打与算",
+          "order": 3,
+          "fragments": 2
+        },
+        {
+          "id": "hazards",
+          "title": "第 4 章：灾难与终局",
+          "order": 4,
           "fragments": 1
+        },
+        {
+          "id": "controls",
+          "title": "第 5 章：操作与阅读",
+          "order": 5,
+          "fragments": 1
+        },
+        {
+          "id": "ai",
+          "title": "第 6 章：选对手",
+          "order": 6,
+          "fragments": 1
+        },
+        {
+          "id": "strategy",
+          "title": "第 7 章：策略",
+          "order": 7,
+          "fragments": 2
+        },
+        {
+          "id": "advanced",
+          "title": "第 8 章：进阶",
+          "order": 8,
+          "fragments": 3
         }
       ]
     },
