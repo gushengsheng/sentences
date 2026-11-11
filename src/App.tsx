@@ -25,7 +25,6 @@ import {
   loadProgress,
   loadSave,
   loadSettings,
-  recordKey,
   recordResult,
   saveProgress,
   saveSettings,

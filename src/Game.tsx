@@ -2,7 +2,6 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import {
   apply,
   createMatch,
-  incomeOf,
   nextPulseRound,
   tally,
   type Action,
