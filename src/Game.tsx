@@ -82,7 +82,7 @@ export default function Game(props: GameProps) {
   useEffect(() => {
     if (!chromeOpen) return;
     if (!settings.hideTopbar && !settings.hideBottombar) return;
-    const t = window.setTimeout(() => setChromeOpen(false), 6000);
+    const t = window.setTimeout(() => setChromeOpen(false), 3000);
     return () => window.clearTimeout(t);
   }, [chromeOpen, chromeTick, settings.hideTopbar, settings.hideBottombar]);
   const [fadingShields, setFadingShields] = useState<string[]>([]);
@@ -238,6 +238,28 @@ export default function Game(props: GameProps) {
   }, [match.shieldClearSeq]);
 
   const pages = match.pages ?? [];
+
+  // 键盘翻页：←/A 上一页，→/D 下一页
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      const tag = (e.target as HTMLElement | null)?.tagName ?? '';
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+      const count = pages.length;
+      if (count < 2) return;
+      if (e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'A') {
+        e.preventDefault();
+        setPageIdx((i) => Math.max(0, i - 1));
+        setChromeTick((v) => v + 1);
+      } else if (e.key === 'ArrowRight' || e.key === 'd' || e.key === 'D') {
+        e.preventDefault();
+        setPageIdx((i) => Math.min(count - 1, i + 1));
+        setChromeTick((v) => v + 1);
+      }
+    }
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [pages.length]);
   const page = pages[Math.min(pageIdx, Math.max(0, pages.length - 1))];
 
   // 对方在别的页操作时，侧边亮一个点
