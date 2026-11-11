@@ -249,7 +249,7 @@ export function SetupScreen({ book, chapter, fragment, onBack, onStart }: SetupP
 
   return (
     <div className="screen">
-      <header className="screen-head">
+      <header className="screen-head narrow">
         <button className="back" onClick={onBack}>
           ← 返回
         </button>
@@ -433,7 +433,7 @@ export function SettingsScreen({
 
   return (
     <div className="screen">
-      <header className="screen-head">
+      <header className="screen-head narrow">
         <button className="back" onClick={onBack}>
           ← 返回
         </button>

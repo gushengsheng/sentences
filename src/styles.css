@@ -670,6 +670,7 @@ button {
   flex-direction: column;
   gap: 18px;
   max-width: 560px;
+  margin: 0 auto;
 }
 
 .setup-map {
@@ -2004,4 +2005,10 @@ button {
   .app.chrome-hide-bottom .pager {
     bottom: 24px;
   }
+}
+
+.screen-head.narrow {
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
 }
