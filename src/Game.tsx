@@ -72,10 +72,19 @@ export default function Game(props: GameProps) {
   const [chromeOpen, setChromeOpen] = useState(
     () => !(settings.hideTopbar || settings.hideBottombar),
   );
+  const [chromeTick, setChromeTick] = useState(0);
 
   useEffect(() => {
     setChromeOpen(!(settings.hideTopbar || settings.hideBottombar));
   }, [settings.hideTopbar, settings.hideBottombar]);
+
+  // 边框浮出后长时间不操作，自动收起
+  useEffect(() => {
+    if (!chromeOpen) return;
+    if (!settings.hideTopbar && !settings.hideBottombar) return;
+    const t = window.setTimeout(() => setChromeOpen(false), 6000);
+    return () => window.clearTimeout(t);
+  }, [chromeOpen, chromeTick, settings.hideTopbar, settings.hideBottombar]);
   const [fadingShields, setFadingShields] = useState<string[]>([]);
   const [slash, setSlash] = useState<{ left: number; top: number; width: number; height: number } | null>(null);
   const [awayDot, setAwayDot] = useState<{ side: 'left' | 'right'; color: 'a' | 'b' } | null>(null);
@@ -365,31 +374,28 @@ export default function Game(props: GameProps) {
       }}
       onClickCapture={(e) => {
         const target = e.target as HTMLElement;
-        // 边缘点击翻页：文本列的左右两侧
+        // 边缘点击翻页：屏幕左右两侧 44px 的空白窄边
         if (
           settings.pagerMode === 'edge' &&
           pages.length > 1 &&
           !target.closest('.unit, button, a, .panel, .topbar, .hud, .pager')
         ) {
-          const para = document.querySelector('.para');
-          const board = document.querySelector('.board');
-          if (para && board) {
-            const pr = para.getBoundingClientRect();
-            const br = board.getBoundingClientRect();
-            const inBoardY = e.clientY >= br.top && e.clientY <= br.bottom;
-            if (inBoardY && e.clientX < pr.left) {
-              setPageIdx((i) => Math.max(0, i - 1));
-              return;
-            }
-            if (inBoardY && e.clientX > pr.right) {
-              setPageIdx((i) => Math.min(pages.length - 1, i + 1));
-              return;
-            }
+          const w = window.innerWidth;
+          if (e.clientX < 44) {
+            setPageIdx((i) => Math.max(0, i - 1));
+            return;
+          }
+          if (e.clientX > w - 44) {
+            setPageIdx((i) => Math.min(pages.length - 1, i + 1));
+            return;
           }
         }
         if (!settings.hideTopbar && !settings.hideBottombar) return;
-        // 顶栏 / 底栏 / 翻页器里的按钮要能正常点
-        if (target.closest('.topbar, .hud, .pager')) return;
+        // 顶栏 / 底栏 / 翻页器里的按钮要能正常点，并重置自动收起计时
+        if (target.closest('.topbar, .hud, .pager')) {
+          setChromeTick((v) => v + 1);
+          return;
+        }
         // 句子、面板等交互元素：收起
         if (target.closest('.unit, button, a, .panel')) {
           setChromeOpen(false);
