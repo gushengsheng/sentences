@@ -250,11 +250,9 @@ export default function Game(props: GameProps) {
       if (e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'A') {
         e.preventDefault();
         setPageIdx((i) => Math.max(0, i - 1));
-        setChromeTick((v) => v + 1);
       } else if (e.key === 'ArrowRight' || e.key === 'd' || e.key === 'D') {
         e.preventDefault();
         setPageIdx((i) => Math.min(count - 1, i + 1));
-        setChromeTick((v) => v + 1);
       }
     }
     window.addEventListener('keydown', onKey);
