@@ -82,6 +82,8 @@ export default function Game(props: GameProps) {
   const [revealUnit, setRevealUnit] = useState<string | null>(null);
   const flashT = useRef(0);
   const lastTap = useRef(0);
+  const blankToggleT = useRef(0);
+  const [confirmEnd, setConfirmEnd] = useState(false);
   const dimT = useRef(0);
   const slashT = useRef(0);
   const [banner, setBanner] = useState<string | null>(null);
@@ -302,6 +304,16 @@ export default function Game(props: GameProps) {
     }
   }
 
+  function quickEndTurn() {
+    if (!humanTurn || match.ended || modalUnit || quake || reviewing || confirmEnd) return;
+    if (match.ap[match.turn] > 0) {
+      setConfirmEnd(true);
+      return;
+    }
+    run({ kind: 'endTurn' });
+    setSelected(null);
+  }
+
   function restart() {
     reported.current = false;
     memA.current = newAiMemory();
@@ -349,10 +361,7 @@ export default function Game(props: GameProps) {
       className="app"
       onContextMenu={(e) => {
         e.preventDefault();
-        if (humanTurn && !match.ended && !modalUnit && !quake && !reviewing) {
-          run({ kind: 'endTurn' });
-          setSelected(null);
-        }
+        quickEndTurn();
       }}
       onClickCapture={(e) => {
         if (!settings.hideTopbar && !settings.hideBottombar) return;
@@ -364,8 +373,9 @@ export default function Game(props: GameProps) {
           setChromeOpen(false);
           return;
         }
-        // 其余位置（页面空白、段落间隙、棋盘外）：开关
-        setChromeOpen((v) => !v);
+        // 其余位置（页面空白、段落间隙、棋盘外）：延时切换，给双击留判断时间
+        window.clearTimeout(blankToggleT.current);
+        blankToggleT.current = window.setTimeout(() => setChromeOpen((v) => !v), 280);
       }}
     >
       {(!settings.hideTopbar || chromeOpen) && (
@@ -431,10 +441,8 @@ export default function Game(props: GameProps) {
             !target.closest('.unit, button, a, .panel')
           ) {
             lastTap.current = 0;
-            if (humanTurn && !match.ended && !modalUnit && !quake && !reviewing) {
-              run({ kind: 'endTurn' });
-              setSelected(null);
-            }
+            window.clearTimeout(blankToggleT.current);
+            quickEndTurn();
           } else {
             lastTap.current = now;
           }
@@ -612,6 +620,28 @@ export default function Game(props: GameProps) {
       {settings.hideBottombar && !chromeOpen && (
         <div className="float-ap">
           AP <b>{match.ap[match.turn]}</b>
+        </div>
+      )}
+
+      {confirmEnd && (
+        <div className="overlay" onClick={() => setConfirmEnd(false)}>
+          <div className="modal" onClick={(e) => e.stopPropagation()}>
+            <h3>还有 AP 剩余</h3>
+            <p className="muted">确定进入下一回合吗？</p>
+            <div className="result-actions">
+              <button onClick={() => setConfirmEnd(false)}>取消</button>
+              <button
+                className="primary"
+                onClick={() => {
+                  setConfirmEnd(false);
+                  run({ kind: 'endTurn' });
+                  setSelected(null);
+                }}
+              >
+                进入下一回合
+              </button>
+            </div>
+          </div>
         </div>
       )}
 
