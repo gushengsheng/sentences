@@ -81,6 +81,7 @@ export default function Game(props: GameProps) {
   const [awayDot, setAwayDot] = useState<{ side: 'left' | 'right'; color: 'a' | 'b' } | null>(null);
   const [revealUnit, setRevealUnit] = useState<string | null>(null);
   const flashT = useRef(0);
+  const lastTap = useRef(0);
   const dimT = useRef(0);
   const slashT = useRef(0);
   const [banner, setBanner] = useState<string | null>(null);
@@ -346,6 +347,13 @@ export default function Game(props: GameProps) {
   return (
     <div
       className="app"
+      onContextMenu={(e) => {
+        e.preventDefault();
+        if (humanTurn && !match.ended && !modalUnit && !quake && !reviewing) {
+          run({ kind: 'endTurn' });
+          setSelected(null);
+        }
+      }}
       onClickCapture={(e) => {
         if (!settings.hideTopbar && !settings.hideBottombar) return;
         const target = e.target as HTMLElement;
@@ -413,7 +421,25 @@ export default function Game(props: GameProps) {
         </div>
       )}
 
-      <main className="board">
+      <main
+        className="board"
+        onClick={(e) => {
+          const now = Date.now();
+          const target = e.target as HTMLElement;
+          if (
+            now - lastTap.current < 320 &&
+            !target.closest('.unit, button, a, .panel')
+          ) {
+            lastTap.current = 0;
+            if (humanTurn && !match.ended && !modalUnit && !quake && !reviewing) {
+              run({ kind: 'endTurn' });
+              setSelected(null);
+            }
+          } else {
+            lastTap.current = now;
+          }
+        }}
+      >
         {paragraphs.map((g) => (
           <p className="para" key={g.paragraph}>
             {g.ids.map((id) => {
