@@ -470,11 +470,20 @@ export function SettingsScreen({
         </label>
 
         <label className="field row">
-          <span>全屏模式</span>
+          <span>隐藏上边框</span>
           <input
             type="checkbox"
-            checked={settings.fullscreen}
-            onChange={(e) => onChange({ ...settings, fullscreen: e.target.checked })}
+            checked={settings.hideTopbar}
+            onChange={(e) => onChange({ ...settings, hideTopbar: e.target.checked })}
+          />
+        </label>
+
+        <label className="field row">
+          <span>隐藏下边框（含翻页器）</span>
+          <input
+            type="checkbox"
+            checked={settings.hideBottombar}
+            onChange={(e) => onChange({ ...settings, hideBottombar: e.target.checked })}
           />
         </label>
 

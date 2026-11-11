@@ -69,11 +69,13 @@ export default function Game(props: GameProps) {
   const [picked, setPicked] = useState<{ id: string; ok: boolean } | null>(null);
   const [flashUnit, setFlashUnit] = useState<{ id: string; kind: 'ok' | 'bad' | 'attack' | 'attack-foe' | 'shield' } | null>(null);
   const [dim, setDim] = useState(false);
-  const [topbarOpen, setTopbarOpen] = useState(() => !settings.fullscreen);
+  const [chromeOpen, setChromeOpen] = useState(
+    () => !(settings.hideTopbar || settings.hideBottombar),
+  );
 
   useEffect(() => {
-    setTopbarOpen(!settings.fullscreen);
-  }, [settings.fullscreen]);
+    setChromeOpen(!(settings.hideTopbar || settings.hideBottombar));
+  }, [settings.hideTopbar, settings.hideBottombar]);
   const [fadingShields, setFadingShields] = useState<string[]>([]);
   const [slash, setSlash] = useState<{ left: number; top: number; width: number; height: number } | null>(null);
   const [awayDot, setAwayDot] = useState<{ side: 'left' | 'right'; color: 'a' | 'b' } | null>(null);
@@ -345,20 +347,20 @@ export default function Game(props: GameProps) {
     <div
       className="app"
       onClickCapture={(e) => {
-        if (!settings.fullscreen) return;
+        if (!settings.hideTopbar && !settings.hideBottombar) return;
         const target = e.target as HTMLElement;
-        // 顶栏上的按钮照常工作，不要抢它的点击
-        if (target.closest('.topbar')) return;
-        // 任何交互元素都算“非空白”：句子、按钮、翻页器、面板、底栏
-        if (target.closest('.unit, button, a, .pager, .panel, .hud')) {
-          setTopbarOpen(false);
+        // 顶栏 / 底栏 / 翻页器里的按钮要能正常点
+        if (target.closest('.topbar, .hud, .pager')) return;
+        // 句子、面板等交互元素：收起
+        if (target.closest('.unit, button, a, .panel')) {
+          setChromeOpen(false);
           return;
         }
-        // 其余位置（页面空白、段落间隙、棋盘外）都算空白
-        setTopbarOpen((v) => !v);
+        // 其余位置（页面空白、段落间隙、棋盘外）：开关
+        setChromeOpen((v) => !v);
       }}
     >
-      {(!settings.fullscreen || topbarOpen) && (
+      {(!settings.hideTopbar || chromeOpen) && (
       <header className="topbar">
         <div className="brand">
           <button className="back" onClick={onExit}>
@@ -470,7 +472,7 @@ export default function Game(props: GameProps) {
         ))}
       </main>
 
-      {pages.length > 1 && (
+      {pages.length > 1 && (!settings.hideBottombar || chromeOpen) && (
         <nav className="pager">
           <button
             className="page-btn"
@@ -543,6 +545,7 @@ export default function Game(props: GameProps) {
         </div>
       )}
 
+      {(!settings.hideBottombar || chromeOpen) && (
       <footer className="hud">
         <div className="hud-left">
           <span className={`turn-chip ${match.turn.toLowerCase()}`}>{sideName(match.turn)}</span>
@@ -578,6 +581,7 @@ export default function Game(props: GameProps) {
           </button>
         </div>
       </footer>
+      )}
 
       {modalUnit && (
         <div className="overlay" onClick={closeModal}>
