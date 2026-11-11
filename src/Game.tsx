@@ -348,7 +348,7 @@ export default function Game(props: GameProps) {
         if (!settings.fullscreen) return;
         const target = e.target as HTMLElement;
         const onBlankBoard = !!target.closest('.board') && !target.closest('.unit');
-        setTopbarOpen(onBlankBoard);
+        setTopbarOpen((v) => (onBlankBoard ? !v : false));
       }}
     >
       {(!settings.fullscreen || topbarOpen) && (
