@@ -342,7 +342,15 @@ export default function Game(props: GameProps) {
     .join(' · ');
 
   return (
-    <div className="app">
+    <div
+      className="app"
+      onClickCapture={(e) => {
+        if (!settings.fullscreen) return;
+        const target = e.target as HTMLElement;
+        const onBlankBoard = !!target.closest('.board') && !target.closest('.unit');
+        setTopbarOpen(onBlankBoard);
+      }}
+    >
       {(!settings.fullscreen || topbarOpen) && (
       <header className="topbar">
         <div className="brand">
@@ -396,15 +404,7 @@ export default function Game(props: GameProps) {
         </div>
       )}
 
-      <main
-        className="board"
-        onClick={(e) => {
-          if (!settings.fullscreen) return;
-          const target = e.target as HTMLElement;
-          if (target.closest('.unit, button, a')) return;
-          setTopbarOpen((v) => !v);
-        }}
-      >
+      <main className="board">
         {paragraphs.map((g) => (
           <p className="para" key={g.paragraph}>
             {g.ids.map((id) => {
