@@ -12,6 +12,7 @@ import {
 } from './engine';
 import { decideNext, newAiMemory, presetById, type AiConfig } from './ai';
 import { clearSave, ratingFor, writeSave, type Difficulty, type Settings } from './store';
+import { Hud, Topbar } from './game/Chrome';
 
 interface GameProps {
   book: Book;
@@ -426,23 +427,18 @@ export default function Game(props: GameProps) {
       }}
     >
       {(!settings.hideTopbar || chromeOpen) && (
-      <header className="topbar">
-        <div className="brand">
-          <button className="back" onClick={onExit}>
-            ← 返回
-          </button>
-          <span className="brand-sub">{breadcrumb}</span>
-        </div>
-        <div className="top-actions">
-          <span className="muted">
-            {mode === 'ai' ? `人机 · ${presetById(presetId).name}` : mode === 'spectate' ? `看海 · ${presetById(presetId).name} vs ${presetById(presetBId).name}` : '双人'} ·{' '}
-            {rounds === 0 ? '不限轮' : `${rounds} 轮`}
-          </span>
-          <button className="ghost" onClick={restart}>
-            重开
-          </button>
-        </div>
-      </header>
+        <Topbar
+          breadcrumb={breadcrumb}
+          modeText={
+            mode === 'ai'
+              ? `人机 · ${presetById(presetId).name}`
+              : mode === 'spectate'
+                ? `看海 · ${presetById(presetId).name} vs ${presetById(presetBId).name}`
+                : '双人'
+          }
+          onExit={onExit}
+          onRestart={restart}
+        />
       )}
 
       {banner && <div className="round-banner">{banner}</div>}
@@ -627,41 +623,23 @@ export default function Game(props: GameProps) {
       )}
 
       {(!settings.hideBottombar || chromeOpen) && (
-      <footer className="hud">
-        <div className="hud-left">
-          <span className={`turn-chip ${match.turn.toLowerCase()}`}>{sideName(match.turn)}</span>
-          {thinking && <span className="thinking">思考中…</span>}
-          <span className="muted">
-            第 {match.rounds === 0 ? match.round : Math.min(match.round, match.rounds)} /{' '}
-            {match.rounds === 0 ? '不限' : match.rounds} 轮
-          </span>
-          {pulse !== null && <span className="muted pulse-hint">灾难 · 第 {pulse} 轮末</span>}
-        </div>
-
-        <div className="hud-right">
-          <div className="ledger">
-            <span>上回合 正确 {ledger.correct}</span>
-            <span>错误 {ledger.wrong}</span>
-            <span className="income">
-              → 收入 <b>{currentIncome}</b>
-            </span>
-          </div>
-          <div className="ap-box">
-            <span className="ap-label">AP</span>
-            <span className="ap-value">{match.ap[match.turn]}</span>
-          </div>
-          <button
-            className="end-turn"
-            disabled={!humanTurn || match.ended}
-            onClick={() => {
-              run({ kind: 'endTurn' });
-              setSelected(null);
-            }}
-          >
-            结束回合
-          </button>
-        </div>
-      </footer>
+        <Hud
+          turn={match.turn}
+          turnLabel={sideName(match.turn)}
+          thinking={thinking}
+          round={match.rounds === 0 ? match.round : Math.min(match.round, match.rounds)}
+          rounds={match.rounds}
+          pulse={pulse}
+          correct={ledger.correct}
+          wrong={ledger.wrong}
+          income={currentIncome}
+          ap={match.ap[match.turn]}
+          canEnd={humanTurn && !match.ended}
+          onEndTurn={() => {
+            run({ kind: 'endTurn' });
+            setSelected(null);
+          }}
+        />
       )}
 
       {settings.hideBottombar && !chromeOpen && (
