@@ -83,7 +83,6 @@ export default function Game(props: GameProps) {
   const flashT = useRef(0);
   const lastTap = useRef(0);
   const blankToggleT = useRef(0);
-  const swipeStart = useRef<{ x: number; y: number; t: number } | null>(null);
   const [confirmEnd, setConfirmEnd] = useState(false);
   const dimT = useRef(0);
   const slashT = useRef(0);
@@ -365,8 +364,24 @@ export default function Game(props: GameProps) {
         quickEndTurn();
       }}
       onClickCapture={(e) => {
-        if (!settings.hideTopbar && !settings.hideBottombar) return;
         const target = e.target as HTMLElement;
+        // 边缘点击翻页：左右各 44px 的空白窄边
+        if (
+          settings.pagerMode === 'edge' &&
+          pages.length > 1 &&
+          !target.closest('.unit, button, a, .panel, .topbar, .hud, .pager')
+        ) {
+          const w = window.innerWidth;
+          if (e.clientX < 44) {
+            setPageIdx((i) => Math.max(0, i - 1));
+            return;
+          }
+          if (e.clientX > w - 44) {
+            setPageIdx((i) => Math.min(pages.length - 1, i + 1));
+            return;
+          }
+        }
+        if (!settings.hideTopbar && !settings.hideBottombar) return;
         // 顶栏 / 底栏 / 翻页器里的按钮要能正常点
         if (target.closest('.topbar, .hud, .pager')) return;
         // 句子、面板等交互元素：收起
@@ -434,20 +449,6 @@ export default function Game(props: GameProps) {
 
       <main
         className="board"
-        onPointerDown={(e) => {
-          swipeStart.current = { x: e.clientX, y: e.clientY, t: Date.now() };
-        }}
-        onPointerUp={(e) => {
-          if (settings.pagerMode !== 'gesture' || pages.length < 2 || !swipeStart.current) return;
-          const dx = e.clientX - swipeStart.current.x;
-          const dy = e.clientY - swipeStart.current.y;
-          const dt = Date.now() - swipeStart.current.t;
-          swipeStart.current = null;
-          if (dt < 700 && Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.4) {
-            if (dx < 0) setPageIdx((i) => Math.min(pages.length - 1, i + 1));
-            else setPageIdx((i) => Math.max(0, i - 1));
-          }
-        }}
         onClick={(e) => {
           const now = Date.now();
           const target = e.target as HTMLElement;

@@ -14,7 +14,7 @@ export interface Settings {
   /** 隐藏下边框（含翻页器） */
   hideBottombar: boolean;
   /** 翻页方式：按钮 / 手势 */
-  pagerMode: 'buttons' | 'gesture';
+  pagerMode: 'buttons' | 'edge';
   /** 棋盘闪光：修正 / 被进攻时高亮那一句 */
   flashBoard: boolean;
   /** 回合横幅：只在第 1 回合和灾变后出现 */
@@ -43,7 +43,11 @@ export function loadSettings(): Settings {
   try {
     const raw = localStorage.getItem(SETTINGS_KEY);
     if (!raw) return { ...DEFAULT_SETTINGS };
-    return { ...DEFAULT_SETTINGS, ...JSON.parse(raw) };
+    const merged = { ...DEFAULT_SETTINGS, ...JSON.parse(raw) } as Settings;
+    if (merged.pagerMode !== 'buttons' && merged.pagerMode !== 'edge') {
+      merged.pagerMode = 'buttons';
+    }
+    return merged;
   } catch {
     return { ...DEFAULT_SETTINGS };
   }

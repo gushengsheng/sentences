@@ -479,25 +479,25 @@ export function SettingsScreen({
         </label>
 
         <label className="field row">
-          <span>翻页方式</span>
-          <select
-            value={settings.pagerMode}
-            onChange={(e) =>
-              onChange({ ...settings, pagerMode: e.target.value as 'buttons' | 'gesture' })
-            }
-          >
-            <option value="buttons">翻页器</option>
-            <option value="gesture">手势滑动</option>
-          </select>
-        </label>
-
-        <label className="field row">
           <span>隐藏下边框</span>
           <input
             type="checkbox"
             checked={settings.hideBottombar}
             onChange={(e) => onChange({ ...settings, hideBottombar: e.target.checked })}
           />
+        </label>
+
+        <label className="field row">
+          <span>翻页方式</span>
+          <select
+            value={settings.pagerMode}
+            onChange={(e) =>
+              onChange({ ...settings, pagerMode: e.target.value as 'buttons' | 'edge' })
+            }
+          >
+            <option value="buttons">翻页器</option>
+            <option value="edge">边缘点击</option>
+          </select>
         </label>
 
         <div className="divider" />
