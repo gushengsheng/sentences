@@ -347,8 +347,15 @@ export default function Game(props: GameProps) {
       onClickCapture={(e) => {
         if (!settings.fullscreen) return;
         const target = e.target as HTMLElement;
-        const onBlankBoard = !!target.closest('.board') && !target.closest('.unit');
-        setTopbarOpen((v) => (onBlankBoard ? !v : false));
+        // 顶栏上的按钮照常工作，不要抢它的点击
+        if (target.closest('.topbar')) return;
+        // 任何交互元素都算“非空白”：句子、按钮、翻页器、面板、底栏
+        if (target.closest('.unit, button, a, .pager, .panel, .hud')) {
+          setTopbarOpen(false);
+          return;
+        }
+        // 其余位置（页面空白、段落间隙、棋盘外）都算空白
+        setTopbarOpen((v) => !v);
       }}
     >
       {(!settings.fullscreen || topbarOpen) && (
