@@ -424,6 +424,8 @@ export default function Game(props: GameProps) {
       className={`app${settings.hideBottombar && !chromeOpen ? ' chrome-hide-bottom' : ''}`}
       onContextMenu={(e) => {
         e.preventDefault();
+        // 触屏长按也会产生 contextmenu（button 为 0），只认真正的右键
+        if (e.button !== 2) return;
         quickEndTurn();
       }}
       onClickCapture={(e) => {
