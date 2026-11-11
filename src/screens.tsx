@@ -469,6 +469,15 @@ export function SettingsScreen({
           </select>
         </label>
 
+        <label className="field row">
+          <span>全屏模式</span>
+          <input
+            type="checkbox"
+            checked={settings.fullscreen}
+            onChange={(e) => onChange({ ...settings, fullscreen: e.target.checked })}
+          />
+        </label>
+
         <div className="divider" />
         <h3 className="settings-group">动画</h3>
 

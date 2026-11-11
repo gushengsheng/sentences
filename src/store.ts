@@ -9,6 +9,8 @@ export interface Settings {
   uiScale: number; // 0.85–1.4
   animation: boolean;
   theme: 'dark' | 'light' | 'mono';
+  /** 全屏模式：隐藏顶栏，点棋盘空白唤出 */
+  fullscreen: boolean;
   /** 棋盘闪光：修正 / 被进攻时高亮那一句 */
   flashBoard: boolean;
   /** 回合横幅：只在第 1 回合和灾变后出现 */
@@ -25,6 +27,7 @@ const DEFAULT_SETTINGS: Settings = {
   uiScale: 1,
   animation: true,
   theme: 'dark',
+  fullscreen: false,
   flashBoard: true,
   turnBanner: true,
   claimFlash: true,

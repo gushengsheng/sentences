@@ -69,6 +69,11 @@ export default function Game(props: GameProps) {
   const [picked, setPicked] = useState<{ id: string; ok: boolean } | null>(null);
   const [flashUnit, setFlashUnit] = useState<{ id: string; kind: 'ok' | 'bad' | 'attack' | 'attack-foe' | 'shield' } | null>(null);
   const [dim, setDim] = useState(false);
+  const [topbarOpen, setTopbarOpen] = useState(() => !settings.fullscreen);
+
+  useEffect(() => {
+    setTopbarOpen(!settings.fullscreen);
+  }, [settings.fullscreen]);
   const [fadingShields, setFadingShields] = useState<string[]>([]);
   const [slash, setSlash] = useState<{ left: number; top: number; width: number; height: number } | null>(null);
   const [awayDot, setAwayDot] = useState<{ side: 'left' | 'right'; color: 'a' | 'b' } | null>(null);
@@ -338,6 +343,7 @@ export default function Game(props: GameProps) {
 
   return (
     <div className="app">
+      {(!settings.fullscreen || topbarOpen) && (
       <header className="topbar">
         <div className="brand">
           <button className="back" onClick={onExit}>
@@ -355,6 +361,7 @@ export default function Game(props: GameProps) {
           </button>
         </div>
       </header>
+      )}
 
       {banner && <div className="round-banner">{banner}</div>}
 
@@ -389,7 +396,15 @@ export default function Game(props: GameProps) {
         </div>
       )}
 
-      <main className="board">
+      <main
+        className="board"
+        onClick={(e) => {
+          if (!settings.fullscreen) return;
+          const target = e.target as HTMLElement;
+          if (target.closest('.unit, button, a')) return;
+          setTopbarOpen((v) => !v);
+        }}
+      >
         {paragraphs.map((g) => (
           <p className="para" key={g.paragraph}>
             {g.ids.map((id) => {

@@ -2204,3 +2204,12 @@ button {
   0% { background-color: #95b8e2; }
   100% { background-color: #b0c9e6; }
 }
+
+/* 全屏模式：顶栏浮出 */
+.topbar {
+  animation: topbarIn 0.18s ease-out;
+}
+@keyframes topbarIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
