@@ -3,7 +3,6 @@ import {
   apply,
   createMatch,
   nextPulseRound,
-  tally,
   type Action,
   type Book,
   type Chapter,
@@ -11,8 +10,10 @@ import {
   type Side,
 } from './engine';
 import { decideNext, newAiMemory, presetById, type AiConfig } from './ai';
-import { clearSave, ratingFor, writeSave, type Difficulty, type Settings } from './store';
+import { clearSave, writeSave, type Difficulty, type Settings } from './store';
 import { Hud, Topbar } from './game/Chrome';
+import { CorrectionModal } from './game/CorrectionModal';
+import { ResultModal } from './game/ResultModal';
 
 interface GameProps {
   book: Book;
@@ -379,8 +380,6 @@ export default function Game(props: GameProps) {
     setSelected((cur) => (cur === id ? null : id));
   }
 
-  const won = match.ended && match.winner === 'A';
-  const draw = match.ended && match.winner === null;
   const breadcrumb = [match.bookTitle, match.chapterTitle, match.fragmentTitle]
     .filter((v, i, arr) => !!v && arr.indexOf(v) === i)
     .join(' · ');
@@ -671,41 +670,28 @@ export default function Game(props: GameProps) {
       )}
 
       {modalUnit && (
-        <div className="overlay" onClick={closeModal}>
-          <div className="modal" onClick={(e) => e.stopPropagation()}>
-            <h3>修正</h3>
-            <p className="muted">选出忠实于原文的那一句。选错会让这句变成错误。</p>
-            {match.units[modalUnit].options.map((o) => {
-              const mark = picked && picked.id === o.id ? (picked.ok ? 'ok' : 'bad') : '';
-              return (
-                <button
-                  key={o.id}
-                  className={'option ' + mark}
-                  disabled={!!picked}
-                  onClick={() => {
-                    const r = apply(match, { kind: 'correct', unitId: modalUnit, optionId: o.id });
-                    if (r.error) {
-                      notify(r.error);
-                      return;
-                    }
-                    setMatch({ ...match });
-                    setPicked({ id: o.id, ok: !!r.correctResult });
-                    setFlash({ ok: !!r.correctResult });
-                    setFlashUnit({ id: modalUnit, kind: r.correctResult ? 'ok' : 'bad' });
-                    window.setTimeout(() => setFlashUnit(null), 900);
-                    window.setTimeout(() => {
-                      setFlash(null);
-                      setPicked(null);
-                      setModalUnit(null);
-                    }, 750);
-                  }}
-                >
-                  {o.text}
-                </button>
-              );
-            })}
-          </div>
-        </div>
+        <CorrectionModal
+          options={match.units[modalUnit].options}
+          picked={picked}
+          onClose={closeModal}
+          onPick={(optionId) => {
+            const r = apply(match, { kind: 'correct', unitId: modalUnit, optionId });
+            if (r.error) {
+              notify(r.error);
+              return;
+            }
+            setMatch({ ...match });
+            setPicked({ id: optionId, ok: !!r.correctResult });
+            setFlash({ ok: !!r.correctResult });
+            setFlashUnit({ id: modalUnit, kind: r.correctResult ? 'ok' : 'bad' });
+            window.setTimeout(() => setFlashUnit(null), 900);
+            window.setTimeout(() => {
+              setFlash(null);
+              setPicked(null);
+              setModalUnit(null);
+            }, 750);
+          }}
+        />
       )}
 
       {flash && (
@@ -758,60 +744,17 @@ export default function Game(props: GameProps) {
       )}
 
       {match.ended && !reviewing && (
-        <div className="overlay">
-          <div className="modal result">
-            <h2>
-              {draw
-                ? '平局'
-                : mode === 'spectate'
-                  ? match.winner === 'A'
-                    ? '甲·AI 获胜'
-                    : '乙·AI 获胜'
-                  : won
-                    ? '你拿下了这个知识碎片'
-                    : '这个知识碎片失守了'}
-            </h2>
-            {won && mode !== 'spectate' && <p className="rating">{ratingFor(difficulty)}</p>}
-            <table>
-              <thead>
-                <tr>
-                  <th />
-                  <th>正确</th>
-                  <th>错误</th>
-                  <th>得分</th>
-                </tr>
-              </thead>
-              <tbody>
-                {(['A', 'B'] as Side[]).map((side) => {
-                  const t = tally(match, side);
-                  const score = match.finalScore ? match.finalScore[side] : t.correct - t.wrong;
-                  return (
-                    <tr key={side} className={match.winner === side ? 'win' : ''}>
-                      <td>{sideName(side)}</td>
-                      <td>{t.correct}</td>
-                      <td>{t.wrong}</td>
-                      <td>{score > 0 ? '+' + score : score}</td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-            <div className="result-actions">
-              <button className="primary" onClick={restart}>
-                再来一局
-              </button>
-              <button
-                onClick={() => {
-                  setReviewing(true);
-                  setReviewCell(null);
-                }}
-              >
-                查看回顾
-              </button>
-              <button onClick={onExit}>返回知识碎片</button>
-            </div>
-          </div>
-        </div>
+        <ResultModal
+          match={match}
+          mode={mode}
+          difficulty={difficulty}
+          onRestart={restart}
+          onReview={() => {
+            setReviewing(true);
+            setReviewCell(null);
+          }}
+          onExit={onExit}
+        />
       )}
     </div>
   );
