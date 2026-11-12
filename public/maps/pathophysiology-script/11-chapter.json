@@ -1,0 +1,4150 @@
+{
+  "id": "chapter-11",
+  "title": "细胞增殖和凋亡异常",
+  "fragments": [
+    {
+      "id": "chapter-11-01",
+      "title": "概述 与 细胞增殖异常与疾病（1）",
+      "order": 1,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-11-01-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-11-01-s01",
+            "chapter-11-01-s02",
+            "chapter-11-01-s03",
+            "chapter-11-01-s04",
+            "chapter-11-01-s05",
+            "chapter-11-01-s06",
+            "chapter-11-01-s07",
+            "chapter-11-01-s08",
+            "chapter-11-01-s09",
+            "chapter-11-01-s10",
+            "chapter-11-01-s11",
+            "chapter-11-01-s12"
+          ]
+        },
+        {
+          "id": "chapter-11-01-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-11-01-s13",
+            "chapter-11-01-s14",
+            "chapter-11-01-s15",
+            "chapter-11-01-s16",
+            "chapter-11-01-s17",
+            "chapter-11-01-s18",
+            "chapter-11-01-s19",
+            "chapter-11-01-s20",
+            "chapter-11-01-s21",
+            "chapter-11-01-s22",
+            "chapter-11-01-s23",
+            "chapter-11-01-s24"
+          ]
+        },
+        {
+          "id": "chapter-11-01-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-11-01-s25",
+            "chapter-11-01-s26",
+            "chapter-11-01-s27",
+            "chapter-11-01-s28",
+            "chapter-11-01-s29",
+            "chapter-11-01-s30",
+            "chapter-11-01-s31"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-11-01-s01",
+          "paragraph": 3,
+          "original": "生物从组织到器官的结构形成和功能执行取决细胞数量和质量。",
+          "wrongOptions": [
+            "生物从组织到器定的结构形成和功能执行取决细胞数量和质量。",
+            "生物从组织到器官灼结构形成和功能执行取决细胞数量和质量。",
+            "生物从组织到器官的结构形戊和功能执行取决细胞数量和质量。"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s02",
+          "paragraph": 3,
+          "original": "细胞通过分裂增加其数量，通过分化形成特定形态、结构和生理功能的子代细胞，通过凋亡清除突变或受损细胞，",
+          "wrongOptions": [
+            "细胞通过分裂增加具数量，通过分化形成特定形态、结构和生理功能的子代细胞，通过凋亡清除突变或受损细胞，",
+            "细胞通过分裂增加其数量，通过分化形成特容形态、结构和生理功能的子代细胞，通过凋亡清除突变或受损细胞，",
+            "细胞通过分裂增加其数量，通过分化形成特定形态、结构和生理功能的子代细胞，通过凋亡清除穿变或受损细胞，"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s03",
+          "paragraph": 3,
+          "original": "以保证细胞的数量和质量。细胞增殖、分化或凋亡的调控错综复杂，既受细胞外信号的影响，又依靠细胞内级联反应，",
+          "wrongOptions": [
+            "以保证细胞的数量和质量。细胞增殖、分化或凋亢的调控错综复杂，既受细胞外信号的影响，又依靠细胞内级联反应，",
+            "以保证细疱的数量和质量。细胞增殖、分化或凋亡的调控错综复杂，既受细胞外信号的影响，又依靠细胞内级联反应，",
+            "以保证细胞的数量和质量。细胞增殖、分化或凋亡的调控错综复杂，既受细胞外信号的影响，又依靠细胞肉级联反应，"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s04",
+          "paragraph": 3,
+          "original": "是多阶段和多因素参与的有序调控过程，如果其中任一环节或多环节发生障碍，均可使特定细胞、组织和器官的结构、",
+          "wrongOptions": [
+            "是多阶段和多因素参与的有序周控过程，如果其中任一环节或多环节发生障碍，均可使特定细胞、组织和器官的结构、",
+            "是多阶段和多因素参与的有序调控过程，如果其中任一环节或多环节发生障碍，场可使特定细胞、组织和器官的结构、",
+            "是多阶段和多因素参与的有序调控过程，如果其中任一环节或多环节发生障碍，均司使特定细胞、组织和器官的结构、"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s05",
+          "paragraph": 3,
+          "original": "功能和代谢异常，导致或促进疾病的发生和发展，甚至影响疾病的预后和治疗。本章节主要讨论细胞增殖和凋亡异常与疾病。",
+          "wrongOptions": [
+            "功能和代谢异常，导致或促进疾病的发牛和发展，甚至影响疾病的预后和治疗。本章节主要讨论细胞增殖和凋亡异常与疾病。",
+            "功能和代谢异常，导致或促进疾病的发生和发展，甚至影响疾病的预后和治疗。本章节主要讨论细胞增殖和凋亡异常兴疾病。",
+            "功能和代谢异常，导致或促进疾病的发生和发展，甚至影响疾病的预后和治疗。未章节主要讨论细胞增殖和凋亡异常与疾病。"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s06",
+          "paragraph": 2,
+          "original": "细胞增殖（cell proliferation）是指细胞分裂及再生的过程，细胞通过分裂进行增殖，",
+          "wrongOptions": [
+            "细胞增殖（cell proliferation）是指细胞分裂及再牛的过程，细胞通过分裂进行增殖，",
+            "细胞增殖（cell proliferation）是指细胞分裂及再生的过程，细胞涌过分裂进行增殖，",
+            "细胞增殖（cell proliferation）是指细胞允裂及再生的过程，细胞通过分裂进行增殖，"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s07",
+          "paragraph": 2,
+          "original": "将遗传信息传给子代，保持物种的延续性和数量的增多。",
+          "wrongOptions": [
+            "将遗传信息传给子代，保持物种的延续快和数量的增多。",
+            "将遗传信息转给子代，保持物种的延续性和数量的增多。",
+            "将遗传信息传恰子代，保持物种的延续性和数量的增多。"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s08",
+          "paragraph": 2,
+          "original": "细胞增殖是通过细胞周期实现的，细胞周期是多阶段和多因素参与的有序调节过程，",
+          "wrongOptions": [
+            "细胞增殖是通过细胞周期实现的，细胞周期是多阶杀和多因素参与的有序调节过程，",
+            "细胞增殖是通过细胞周期实现的，细胞周期定多阶段和多因素参与的有序调节过程，",
+            "细胞增殖是通过细胞周期实现的，细胞周期是多阶段和外因素参与的有序调节过程，"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s09",
+          "paragraph": 2,
+          "original": "以使各类细胞可依机体需要进行增殖或处于静止状态，否则可导致和促进疾病。",
+          "wrongOptions": [
+            "以使各类细胞可依机体需要维行增殖或处于静止状态，否则可导致和促进疾病。",
+            "以使各类细胞可依机体需要进行增植或处于静止状态，否则可导致和促进疾病。",
+            "以使各类细胞可依机体需要进行增殖或处于静止状态，否则可导致和段进疾病。"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s10",
+          "paragraph": 4,
+          "original": "细胞周期（cell cycle）或称细胞增殖周期是指细胞从上次分裂结束到下一次分裂终了的间隔时间或过程。",
+          "wrongOptions": [
+            "细胞周期（cell cycle）或称细胞增殖周期是指细胞从上次分裂结束到下一次分裂终了约间隔时间或过程。",
+            "细胞周期（cell cycle）或移细胞增殖周期是指细胞从上次分裂结束到下一次分裂终了的间隔时间或过程。",
+            "细胞周期（cell cycle）或称细胞增殖周期是指细胞从上次分裂结束到了一次分裂终了的间隔时间或过程。"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s11",
+          "paragraph": 4,
+          "original": "细胞周期的分类依根据不同而异。",
+          "wrongOptions": [
+            "细胞周斯的分类依根据不同而异。",
+            "细胞周期约分类依根据不同而异。",
+            "细胞周期的公类依根据不同而异。"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s12",
+          "paragraph": 4,
+          "original": "根据细胞的时相特点可将其分为四个阶段，即G1期（first gap phase，DNA合成前期）、",
+          "wrongOptions": [
+            "根据细胞的时相特点可将其分为四个阶段，即G1期（first gap phase，DNA召成前期）、",
+            "根据细胞的时相特点可将其分为匹个阶段，即G1期（first gap phase，DNA合成前期）、",
+            "根据细胞的时相特点可将其公为四个阶段，即G1期（first gap phase，DNA合成前期）、"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s13",
+          "paragraph": 4,
+          "original": "S期（synthetic phase，DNA合成期）、G2期（second gap phase，",
+          "wrongOptions": [
+            "S期（synthetic phase，DNA合成期）、G2斯（second gap phase，",
+            "S期（synthetic phase，DNA合威期）、G2期（second gap phase，",
+            "S期（synthetic phase，DNA合成斯）、G2期（second gap phase，"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s14",
+          "paragraph": 4,
+          "original": "DNA合成后期）和M期（mitotic phase，有丝分裂期）。",
+          "wrongOptions": [
+            "DNA合成候期）和M期（mitotic phase，有丝分裂期）。",
+            "DNA合成后斯）和M期（mitotic phase，有丝分裂期）。",
+            "DNA合成后期）和M斯（mitotic phase，有丝分裂期）。"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s15",
+          "paragraph": 4,
+          "original": "其中在S期细胞进行DNA倍增和染色体复制，最为关键。",
+          "wrongOptions": [
+            "其中在S斯细胞进行DNA倍增和染色体复制，最为关键。",
+            "其中在S期细胞进衍DNA倍增和染色体复制，最为关键。",
+            "其中在S期细胞进行DNA倍增和染色脏复制，最为关键。"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s16",
+          "paragraph": 4,
+          "original": "但并非机体的所有细胞均处于增殖状态，根据细胞的增殖特性可将其分为以下三种。",
+          "wrongOptions": [
+            "但并非机髓的所有细胞均处于增殖状态，根据细胞的增殖特性可将其分为以下三种。",
+            "但并非机体的所有细疱均处于增殖状态，根据细胞的增殖特性可将其分为以下三种。",
+            "但并非机体的所有细胞均处于增殖状态，根据细胞的层殖特性可将其分为以下三种。"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s17",
+          "paragraph": 6,
+          "original": "也称连续分裂细胞。这些细胞按G1→S→G2→M四个阶段循环，连续运转。",
+          "wrongOptions": [
+            "也称连续分裂细胞。信些细胞按G1→S→G2→M四个阶段循环，连续运转。",
+            "也称连续分裂细胞。这紫细胞按G1→S→G2→M四个阶段循环，连续运转。",
+            "也称连续分裂纪胞。这些细胞按G1→S→G2→M四个阶段循环，连续运转。"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s18",
+          "paragraph": 6,
+          "original": "如表皮细胞和骨髓细胞等，它们负责组织的生长和修复。",
+          "wrongOptions": [
+            "如表皮纪胞和骨髓细胞等，它们负责组织的生长和修复。",
+            "如表皮细胞和骨髓细胞等，它们责责组织的生长和修复。",
+            "如表皮细胞和骨髓细疱等，它们负责组织的生长和修复。"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s19",
+          "paragraph": 6,
+          "original": "周期性细胞始终处于增殖和死亡的动态平衡中，不断地增殖以补充衰老脱落或死亡的细胞，",
+          "wrongOptions": [
+            "周期性细胞始终处于增殖和死亡的动态平衡中，不断地增殖以辅充衰老脱落或死亡的细胞，",
+            "周期性细泡始终处于增殖和死亡的动态平衡中，不断地增殖以补充衰老脱落或死亡的细胞，",
+            "周期性细胞始终处于增殖和死亡的动态平衡中，不断地增殖以补凶衰老脱落或死亡的细胞，"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s20",
+          "paragraph": 6,
+          "original": "这种更新称为稳态更新（steady-state renewing）。",
+          "wrongOptions": [
+            "这种更新称为稳态歪新（steady-state renewing）。",
+            "这种更新称为稳能更新（steady-state renewing）。",
+            "这种更新称为程态更新（steady-state renewing）。"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s21",
+          "paragraph": 8,
+          "original": "也称休眠细胞。",
+          "wrongOptions": [
+            "乙称休眠细胞。",
+            "也称俗眠细胞。",
+            "也称休眠细鲍。"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s22",
+          "paragraph": 8,
+          "original": "这些细胞暂时脱离细胞周期，不进行增殖，仅在需要替换损伤或死亡细胞时接受适当刺激才可重新进入细胞周期，",
+          "wrongOptions": [
+            "这些细胞暂时脱离细胞周期，不进行增殖，仅在需要替换损伤或死亡细胞时接转适当刺激才可重新进入细胞周期，",
+            "这些细胞暂时脱离细孢周期，不进行增殖，仅在需要替换损伤或死亡细胞时接受适当刺激才可重新进入细胞周期，",
+            "这些细胞暂时脱离细胞周斯，不进行增殖，仅在需要替换损伤或死亡细胞时接受适当刺激才可重新进入细胞周期，"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s23",
+          "paragraph": 8,
+          "original": "如肝和肾细胞等。G0期细胞在遭遇损伤或应激等因素的作用后可返回细胞周期，进行细胞增殖，",
+          "wrongOptions": [
+            "如肝和紧细胞等。G0期细胞在遭遇损伤或应激等因素的作用后可返回细胞周期，进行细胞增殖，",
+            "如肝和肾细胞等。G0期细胞在遭遇损伤成应激等因素的作用后可返回细胞周期，进行细胞增殖，",
+            "如肝和肾细胞等。G0期细胞在遭遇损伤或应激等因素的作用候可返回细胞周期，进行细胞增殖，"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s24",
+          "paragraph": 8,
+          "original": "这种更新称为条件性更新（conditional renewing）。",
+          "wrongOptions": [
+            "这种更新移为条件性更新（conditional renewing）。",
+            "这种更新称为样件性更新（conditional renewing）。",
+            "这种更新称乌条件性更新（conditional renewing）。"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s25",
+          "paragraph": 10,
+          "original": "也称不分裂细胞。",
+          "wrongOptions": [
+            "也称不分裂纪胞。",
+            "也称不分烈细胞。",
+            "乙称不分裂细胞。"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s26",
+          "paragraph": 10,
+          "original": "一般情况下这些细胞不可逆地脱离细胞周期、丧失增殖能力而完全停止分裂，但仍具有生理功能，如神经细胞和心肌细胞等。",
+          "wrongOptions": [
+            "一般情况下这些细胞不可逆地脱离细胞周期、丧失增殖能力而完全伯止分裂，但仍具有生理功能，如神经细胞和心肌细胞等。",
+            "一般情况下这些细胞不可逆地脱离细胞周期、丧失增殖能力而完全停止分裂，但仍具有生归功能，如神经细胞和心肌细胞等。",
+            "一般情况下这些细胞不可逆地脱离细胞周期、丧失增殖能力而完全停止分裂，但仍具有生理功能，如神经细胞和已肌细胞等。"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s27",
+          "paragraph": 10,
+          "original": "然而最近有迹象表明这些细胞亦可在某特定条件下返回细胞周期，恢复增殖能力。",
+          "wrongOptions": [
+            "然而最近左迹象表明这些细胞亦可在某特定条件下返回细胞周期，恢复增殖能力。",
+            "然而最近有迹象表明这些细胞亦可型某特定条件下返回细胞周期，恢复增殖能力。",
+            "然而最近有迹象表明这些细胞亦可在某特定条件子返回细胞周期，恢复增殖能力。"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s28",
+          "paragraph": 11,
+          "original": "细胞周期的特点：①单向性：即细胞增殖过程只能沿G1→S→G2→M方向前进而不能逆行；②阶段性：",
+          "wrongOptions": [
+            "细胞周期的特点：①单向性：即细胞增殖过程各能沿G1→S→G2→M方向前进而不能逆行；②阶段性：",
+            "细胞周期的待点：①单向性：即细胞增殖过程只能沿G1→S→G2→M方向前进而不能逆行；②阶段性：",
+            "细胞周期的特点：①单向性：即细胞增值过程只能沿G1→S→G2→M方向前进而不能逆行；②阶段性："
+          ]
+        },
+        {
+          "id": "chapter-11-01-s29",
+          "paragraph": 11,
+          "original": "各期细胞形态和代谢特点有明显差异，若受不利因素影响细胞可在某时相发生停滞，",
+          "wrongOptions": [
+            "各期细胞形态和代谢特点有明显差异，右受不利因素影响细胞可在某时相发生停滞，",
+            "各期细胞形态和代谢特点有明显差异，若受不利因素影响细胞可在某待相发生停滞，",
+            "各期细胞形态和代谢特点有明显差异，若受不利因累影响细胞可在某时相发生停滞，"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s30",
+          "paragraph": 11,
+          "original": "待生长条件适合后又可重新活跃进入下一时相；③检查点：各时相交叉处存在着相应的检查点（check point），",
+          "wrongOptions": [
+            "待生长条件适合后又可重亲活跃进入下一时相；③检查点：各时相交叉处存在着相应的检查点（check point），",
+            "待生长条件适合后又可重新活跃进入下一时相；③检查点：各持相交叉处存在着相应的检查点（check point），",
+            "待生长条件适合后又可量新活跃进入下一时相；③检查点：各时相交叉处存在着相应的检查点（check point），"
+          ]
+        },
+        {
+          "id": "chapter-11-01-s31",
+          "paragraph": 11,
+          "original": "对细胞的下一步增殖趋势起定向作用；④细胞微环境：细胞周期是否顺利推进与细胞外信号和条件等密切相关。",
+          "wrongOptions": [
+            "对细胞的下一步增殖趋势起定向作用；④细胞微环境：细胞周期是否项利推进与细胞外信号和条件等密切相关。",
+            "对细胞的下一岁增殖趋势起定向作用；④细胞微环境：细胞周期是否顺利推进与细胞外信号和条件等密切相关。",
+            "对细胞的下一步增殖趋势起定向作用；④细胞微环境：细胞周期是否顺切推进与细胞外信号和条件等密切相关。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-11-02",
+      "title": "细胞增殖异常与疾病（2）",
+      "order": 2,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-11-02-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-11-02-s01",
+            "chapter-11-02-s02",
+            "chapter-11-02-s03",
+            "chapter-11-02-s04",
+            "chapter-11-02-s05",
+            "chapter-11-02-s06",
+            "chapter-11-02-s07",
+            "chapter-11-02-s08",
+            "chapter-11-02-s09",
+            "chapter-11-02-s10",
+            "chapter-11-02-s11",
+            "chapter-11-02-s12"
+          ]
+        },
+        {
+          "id": "chapter-11-02-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-11-02-s13",
+            "chapter-11-02-s14",
+            "chapter-11-02-s15",
+            "chapter-11-02-s16",
+            "chapter-11-02-s17",
+            "chapter-11-02-s18",
+            "chapter-11-02-s19",
+            "chapter-11-02-s20",
+            "chapter-11-02-s21",
+            "chapter-11-02-s22",
+            "chapter-11-02-s23",
+            "chapter-11-02-s24"
+          ]
+        },
+        {
+          "id": "chapter-11-02-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-11-02-s25",
+            "chapter-11-02-s26"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-11-02-s01",
+          "paragraph": 13,
+          "original": "细胞周期的调控包括细胞周期的自身调控及细胞外信号对细胞周期的调控。",
+          "wrongOptions": [
+            "细胞周斯的调控包括细胞周期的自身调控及细胞外信号对细胞周期的调控。",
+            "细胞周期的调控包括细胞周期的自身调控及细胞外信号对纪胞周期的调控。",
+            "细胞周期的调控包甜细胞周期的自身调控及细胞外信号对细胞周期的调控。"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s02",
+          "paragraph": 15,
+          "original": "细胞周期的自身调控主要靠细胞周期驱动力量（周期素和周期素依赖性激酶）、",
+          "wrongOptions": [
+            "细胞周斯的自身调控主要靠细胞周期驱动力量（周期素和周期素依赖性激酶）、",
+            "细胞周期的自身调控主要靠细孢周期驱动力量（周期素和周期素依赖性激酶）、",
+            "细胞周期的自身调控主要靠细胞周期驱动力量（周期素和周期素仍赖性激酶）、"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s03",
+          "paragraph": 15,
+          "original": "抑制力量和检查点等协同作用而实现（图11-1）。",
+          "wrongOptions": [
+            "抑制力量和检查点等协同凭用而实现（图11-1）。",
+            "抑制力量和检查点等协同作用而实现（圆11-1）。",
+            "抑制力量和碱查点等协同作用而实现（图11-1）。"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s04",
+          "paragraph": 18,
+          "original": "为细胞周期运转的驱动力量之一，cyclin家族至少包括11种，共16个成员，即cyclinA、",
+          "wrongOptions": [
+            "为细胞周期运转的驱动力量乏一，cyclin家族至少包括11种，共16个成员，即cyclinA、",
+            "为细胞周期运转的呕动力量之一，cyclin家族至少包括11种，共16个成员，即cyclinA、",
+            "为细胞周期运转的驱动力量之一，cyclin家族至少包括11钟，共16个成员，即cyclinA、"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s05",
+          "paragraph": 18,
+          "original": "Cyclin可分为三大类，即G1期、S期和G2／M期的cyclin，各成员可在细胞间期连续合成、",
+          "wrongOptions": [
+            "Cyclin可分为三大类，即G1期、S期和G2／M期的cyclin，各成员可土细胞间期连续合成、",
+            "Cyclin可分为三大类，即G1期、S期和G2／M斯的cyclin，各成员可在细胞间期连续合成、",
+            "Cyclin可分为三大类，即G1期、S期和G2／M期的cyclin，各成员可在终胞间期连续合成、"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s06",
+          "paragraph": 18,
+          "original": "不断累积和降解而使其活性出现周期性变化，但高表达的相应期各不相同（彩图11-2\"）。",
+          "wrongOptions": [
+            "不断累积和降解而使其活性出现周期性变化，但高表达的相应期各不相同（彩围11-2\"）。",
+            "不断累积和降解而使其活性出现周期性变化，但高表达的相应期各不相问（彩图11-2\"）。",
+            "不断累积和降触而使其活性出现周期性变化，但高表达的相应期各不相同（彩图11-2\"）。"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s07",
+          "paragraph": 18,
+          "original": "Cyclin作为调节亚基，需与催化亚基周期素依赖性激酶（cyclin dependent kinase，",
+          "wrongOptions": [
+            "Cyclin框为调节亚基，需与催化亚基周期素依赖性激酶（cyclin dependent kinase，",
+            "Cyclin作为调节亚铵，需与催化亚基周期素依赖性激酶（cyclin dependent kinase，",
+            "Cyclin作为调节亚基，需与催化亚基周期素依赖怕激酶（cyclin dependent kinase，"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s08",
+          "paragraph": 18,
+          "original": "CDK）结合形成复合物，激活相应CDK和加强CDK对特定底物的作用，驱动周期前行（表11-1）。",
+          "wrongOptions": [
+            "CDK）结合形成复合物，激活相应CDK和加强CDK对特定底物的作用，驱动周斯前行（表11-1）。",
+            "CDK）结合研成复合物，激活相应CDK和加强CDK对特定底物的作用，驱动周期前行（表11-1）。",
+            "CDK）结台形成复合物，激活相应CDK和加强CDK对特定底物的作用，驱动周期前行（表11-1）。"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s09",
+          "paragraph": 20,
+          "original": "Cyclin在细胞周期自始至终以恒定的速度产生，有丝分裂时消失是因为降解大于合成，",
+          "wrongOptions": [
+            "Cyclin在细胞周斯自始至终以恒定的速度产生，有丝分裂时消失是因为降解大于合成，",
+            "Cyclin在细胞凋期自始至终以恒定的速度产生，有丝分裂时消失是因为降解大于合成，",
+            "Cyclin在细胞周期自始至终以慢定的速度产生，有丝分裂时消失是因为降解大于合成，"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s10",
+          "paragraph": 20,
+          "original": "在间期时累积是由于合成大于降解。",
+          "wrongOptions": [
+            "在间期时累积是由于召成大于降解。",
+            "在间期时累积是由族合成大于降解。",
+            "在间期时紧积是由于合成大于降解。"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s11",
+          "paragraph": 20,
+          "original": "虽然各类细胞CDK的表达在细胞周期各期是稳定的，但由于cyclin周期性波动，以致CDK的活性呈周期性变化。",
+          "wrongOptions": [
+            "虽然各类细胞CDK的表达在细胞周期各期是稳定的，但由于cyclin周期性波动，以致CDK灼活性呈周期性变化。",
+            "虽然各类细胞CDK的表达在细胞问期各期是稳定的，但由于cyclin周期性波动，以致CDK的活性呈周期性变化。",
+            "虽然各类细胞CDK的表达在细胞周期各期是稳定的，但甲于cyclin周期性波动，以致CDK的活性呈周期性变化。"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s12",
+          "paragraph": 21,
+          "original": "另外，增殖细胞核抗原（proliferating cell nuclear antigen，",
+          "wrongOptions": [
+            "另外，增殖细疱核抗原（proliferating cell nuclear antigen，",
+            "另外，层殖细胞核抗原（proliferating cell nuclear antigen，",
+            "另外，增殖细胞该抗原（proliferating cell nuclear antigen，"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s13",
+          "paragraph": 21,
+          "original": "PCNA）也是一种细胞周期相关蛋白，它不与CDK结合，而是作为DNA聚合酶的附属蛋白，",
+          "wrongOptions": [
+            "PCNA）也是一种细胞周期相关蛋白，它不兴CDK结合，而是作为DNA聚合酶的附属蛋白，",
+            "PCNA）也是一种细胞周期相关蛋白，它不与CDK结合，而是作为DNA聚合酶灼附属蛋白，",
+            "PCNA）也是一种细胞周期相关蛋白，它不与CDK拮合，而是作为DNA聚合酶的附属蛋白，"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s14",
+          "paragraph": 21,
+          "original": "促进DNA聚合酶延伸DNA，在S期浓度最高，故常作为S期标志物之一。",
+          "wrongOptions": [
+            "促进DNA声合酶延伸DNA，在S期浓度最高，故常作为S期标志物之一。",
+            "促进DNA聚合酶延伸DNA，在S期浓度最高，效常作为S期标志物之一。",
+            "促进DNA聚合酶延伸DNA，在S期浓度最高，故常作为S期标志特之一。"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s15",
+          "paragraph": 23,
+          "original": "为细胞周期运转的驱动力量之一，是一组丝氨酸／苏氨酸（serine／threonine，",
+          "wrongOptions": [
+            "为细胞周期运转的驱动力量之一，是一组丝氨酸／苏案酸（serine／threonine，",
+            "为细胞周期运转的驱动力量乏一，是一组丝氨酸／苏氨酸（serine／threonine，",
+            "为细胞周期运轻的驱动力量之一，是一组丝氨酸／苏氨酸（serine／threonine，"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s16",
+          "paragraph": 23,
+          "original": "Ser／Thr）蛋白激酶家族，已发现至少9个成员，包括CDK1～9。",
+          "wrongOptions": [
+            "Ser／Thr）蛋白激酶家族，已发现至尖9个成员，包括CDK1～9。",
+            "Ser／Thr）蛋百激酶家族，已发现至少9个成员，包括CDK1～9。",
+            "Ser／Thr）蛋白激涨家族，已发现至少9个成员，包括CDK1～9。"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s17",
+          "paragraph": 24,
+          "original": "CDK激活依赖于与cyclin的结合和其分子中某些氨基酸残基的磷酸化状态。",
+          "wrongOptions": [
+            "CDK激活依赖于与cyclin的结合利其分子中某些氨基酸残基的磷酸化状态。",
+            "CDK激活依赖于臼cyclin的结合和其分子中某些氨基酸残基的磷酸化状态。",
+            "CDK激活依漱于与cyclin的结合和其分子中某些氨基酸残基的磷酸化状态。"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s18",
+          "paragraph": 24,
+          "original": "只有当cyclin浓度升高达到阈值时，为CDK提供足量的调节亚基，使CDK可通过其催化亚基与相应调节亚基结合，",
+          "wrongOptions": [
+            "只有当cyclin浓度升高达到阈值时，为CDK提供足量约调节亚基，使CDK可通过其催化亚基与相应调节亚基结合，",
+            "只有当cyclin浓度升高达到阈值时，为CDK提供足量的调节亚基，使CDK可通过其催化亚基与休应调节亚基结合，",
+            "只有当cyclin浓度升高达到阈值特，为CDK提供足量的调节亚基，使CDK可通过其催化亚基与相应调节亚基结合，"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s19",
+          "paragraph": 24,
+          "original": "形成cyclin／CDK复合体；",
+          "wrongOptions": [
+            "形戊cyclin／CDK复合体；",
+            "形成cyclin／CDK复会体；",
+            "形成cyclin／CDK复合脏；"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s20",
+          "paragraph": 24,
+          "original": "通过相互作用使CDK分子中的活化部位磷酸化和抑制部位去磷酸化而使CDK部分活化，",
+          "wrongOptions": [
+            "通过相互作用使CDK分子中的括化部位磷酸化和抑制部位去磷酸化而使CDK部分活化，",
+            "通过相互作用使CDK分十中的活化部位磷酸化和抑制部位去磷酸化而使CDK部分活化，",
+            "通过相互作用使CDK分子中的活匙部位磷酸化和抑制部位去磷酸化而使CDK部分活化，"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s21",
+          "paragraph": 24,
+          "original": "然后再经CDK活化激酶（CDK-activating kinase，CAK）的作用，",
+          "wrongOptions": [
+            "然后再经CDK括化激酶（CDK-activating kinase，CAK）的作用，",
+            "然后再经CDK活化派酶（CDK-activating kinase，CAK）的作用，",
+            "然后再经CDK活化激酶（CDK-activating kinase，CAK）约作用，"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s22",
+          "paragraph": 24,
+          "original": "CDK分子中活化部位氨基酸残基进一步磷酸化，CDK才被完全活化。",
+          "wrongOptions": [
+            "CDK分子中活化部位氨基酸残基进一步磷酸化，CDK才被完主活化。",
+            "CDK分子中活化部位胺基酸残基进一步磷酸化，CDK才被完全活化。",
+            "CDK允子中活化部位氨基酸残基进一步磷酸化，CDK才被完全活化。"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s23",
+          "paragraph": 25,
+          "original": "CDK的灭活，除泛素（ubiquitin）化降解外，CDK抑制因子可特异抑制CDK活性（彩图11-3）。",
+          "wrongOptions": [
+            "CDK的灭活，除泛素（ubiquitin）化降解外，CDK抑制困子可特异抑制CDK活性（彩图11-3）。",
+            "CDK的灭活，除泛素（ubiquitin）北降解外，CDK抑制因子可特异抑制CDK活性（彩图11-3）。",
+            "CDK的灭活，除泛素（ubiquitin）化降解外，CDK抑制因子可特异抑制CDK活性（菜图11-3）。"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s24",
+          "paragraph": 27,
+          "original": "CKI是特异抑制CDK的蛋白，包括Ink4和Kip家族。",
+          "wrongOptions": [
+            "CKI是特异抑制CDK灼蛋白，包括Ink4和Kip家族。",
+            "CKI是特异抑制CDK的予白，包括Ink4和Kip家族。",
+            "CKI是持异抑制CDK的蛋白，包括Ink4和Kip家族。"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s25",
+          "paragraph": 27,
+          "original": "①Ink4（Inhibitors of kinase4）家族：包括p16Ink4a、p15Ink4b、",
+          "wrongOptions": [
+            "①Ink4（Inhibitors of kinase4）家族：匀括p16Ink4a、p15Ink4b、",
+            "①Ink4（Inhibitors of kinase4）家旋：包括p16Ink4a、p15Ink4b、",
+            "①Ink4（Inhibitors of kinase4）家族：包甜p16Ink4a、p15Ink4b、"
+          ]
+        },
+        {
+          "id": "chapter-11-02-s26",
+          "paragraph": 27,
+          "original": "Ink4家族可特异与CDK4／6结合并抑制其活性，",
+          "wrongOptions": [
+            "Ink4家族可特异与CDK4／6结合并抑制见活性，",
+            "Ink4家族可特异与CDK4／6结召并抑制其活性，",
+            "Ink4家族可持异与CDK4／6结合并抑制其活性，"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-11-03",
+      "title": "细胞增殖异常与疾病（3）",
+      "order": 3,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-11-03-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-11-03-s01",
+            "chapter-11-03-s02",
+            "chapter-11-03-s03",
+            "chapter-11-03-s04",
+            "chapter-11-03-s05",
+            "chapter-11-03-s06",
+            "chapter-11-03-s07",
+            "chapter-11-03-s08",
+            "chapter-11-03-s09",
+            "chapter-11-03-s10",
+            "chapter-11-03-s11",
+            "chapter-11-03-s12"
+          ]
+        },
+        {
+          "id": "chapter-11-03-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-11-03-s13",
+            "chapter-11-03-s14",
+            "chapter-11-03-s15",
+            "chapter-11-03-s16",
+            "chapter-11-03-s17",
+            "chapter-11-03-s18",
+            "chapter-11-03-s19",
+            "chapter-11-03-s20",
+            "chapter-11-03-s21",
+            "chapter-11-03-s22",
+            "chapter-11-03-s23",
+            "chapter-11-03-s24"
+          ]
+        },
+        {
+          "id": "chapter-11-03-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-11-03-s25",
+            "chapter-11-03-s26"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-11-03-s01",
+          "paragraph": 27,
+          "original": "①Ink4（Inhibitors of kinase4）家族：包括p16Ink4a、p15Ink4b、",
+          "wrongOptions": [
+            "①Ink4（Inhibitors of kinase4）家族：包甜p16Ink4a、p15Ink4b、",
+            "①Ink4（Inhibitors of kinase4）家族：匀括p16Ink4a、p15Ink4b、",
+            "①Ink4（Inhibitors of kinase4）容族：包括p16Ink4a、p15Ink4b、"
+          ],
+          "carried": true
+        },
+        {
+          "id": "chapter-11-03-s02",
+          "paragraph": 27,
+          "original": "如p16Ink4a通过与cyclinD竞争结合CDK4或CDK6，",
+          "wrongOptions": [
+            "如p16Ink4a通过与cyclinD竞争拮合CDK4或CDK6，",
+            "如p16Ink4a通过与cyclinD竞献结合CDK4或CDK6，",
+            "如p16Ink4a通过与cyclinD竞争结合CDK4成CDK6，"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s03",
+          "paragraph": 27,
+          "original": "抑制cyclinD／CDK4或CDK6复合物的形成和活性，减少pRb磷酸化，",
+          "wrongOptions": [
+            "抑制cyclinD／CDK4或CDK6复合物的妍成和活性，减少pRb磷酸化，",
+            "抑制cyclinD／CDK4或CDK6复合物的形成和活性，减尖pRb磷酸化，",
+            "抑制cyclinD／CDK4成CDK6复合物的形成和活性，减少pRb磷酸化，"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s04",
+          "paragraph": 27,
+          "original": "增加游离E2F-1与去磷酸化pRb结合，使细胞阻滞于G1期。",
+          "wrongOptions": [
+            "增加游离E2F-1与去磷酸化pRb结合，使纪胞阻滞于G1期。",
+            "增加游离E2F-1与去磷俊化pRb结合，使细胞阻滞于G1期。",
+            "增加游离E2F-1与去磷酸化pRb结召，使细胞阻滞于G1期。"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s05",
+          "paragraph": 27,
+          "original": "这种负反馈调节确保DNA稳定，若细胞运转机器“刹车”失灵，将导致肿瘤发生。",
+          "wrongOptions": [
+            "这种负反馈调节确保DNA稳定，若细胞运转机器“刹束”失灵，将导致肿瘤发生。",
+            "这种负叉馈调节确保DNA稳定，若细胞运转机器“刹车”失灵，将导致肿瘤发生。",
+            "这种负反馈调节确保DNA稳定，若细胞浑转机器“刹车”失灵，将导致肿瘤发生。"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s06",
+          "paragraph": 27,
+          "original": "或称Cip（cdk-interacting protein1）或Wafl（wild-type p53 acti",
+          "wrongOptions": [
+            "或称Cip（cdk-interacting protein1）我Wafl（wild-type p53 acti",
+            "或移Cip（cdk-interacting protein1）或Wafl（wild-type p53 acti",
+            "我称Cip（cdk-interacting protein1）或Wafl（wild-type p53 acti"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s07",
+          "paragraph": 27,
+          "original": "vated fragment1）家族，包括p21kip1、p27kip1和p57kip2等。",
+          "wrongOptions": [
+            "vated fragment1）家族，匀括p21kip1、p27kip1和p57kip2等。",
+            "vated fragment1）家族，包甜p21kip1、p27kip1和p57kip2等。",
+            "vated fragment1）家族，包括p21kip1、p27kip1利p57kip2等。"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s08",
+          "paragraph": 27,
+          "original": "Kip家族可广谱抑制CDK活性，如p21kipl可通过N-末端分别与cyclinD／CDK4、",
+          "wrongOptions": [
+            "Kip家族司广谱抑制CDK活性，如p21kipl可通过N-末端分别与cyclinD／CDK4、",
+            "Kip家族可广谱抑制CDK活性，如p21kipl可通过N-末端分别兴cyclinD／CDK4、",
+            "Kip家旅可广谱抑制CDK活性，如p21kipl可通过N-末端分别与cyclinD／CDK4、"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s09",
+          "paragraph": 27,
+          "original": "cyclinA／CDK2和cyclinE／CDK2结合并抑制其活性，减少pRb磷酸化，引起G1期阻滞促进修复，",
+          "wrongOptions": [
+            "cyclinA／CDK2和cyclinE／CDK2结合并抑制其活性，减少pRb磷酸化，弹起G1期阻滞促进修复，",
+            "cyclinA／CDK2和cyclinE／CDK2结合并抑制其活性，减尖pRb磷酸化，引起G1期阻滞促进修复，",
+            "cyclinA／CDK2和cyclinE／CDK2结合并抑制其活快，减少pRb磷酸化，引起G1期阻滞促进修复，"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s10",
+          "paragraph": 27,
+          "original": "以消除DNA损伤引发的肿瘤。在生物进化过程中，",
+          "wrongOptions": [
+            "以消除DNA损伤引登的肿瘤。在生物进化过程中，",
+            "以消除DNA损伤引发的肿瘤。土生物进化过程中，",
+            "以消除DNA损伤引发的肿瘤。在生物推化过程中，"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s11",
+          "paragraph": 29,
+          "original": "细胞为了保证细胞周期中DNA复制和染色体分配质量等而发展出了一套可对细胞周期发生的重要事件及出现的故障加以检测",
+          "wrongOptions": [
+            "细胞为了保证细胞周期中DNA复制和染色体分配质量第而发展出了一套可对细胞周期发生的重要事件及出现的故障加以检测",
+            "细胞为了保证细胞周期中DNA复制和染色体分配质量等而发展出了一套可对细胞周期发生的量要事件及出现的故障加以检测",
+            "细胞为了保证细胞周期中DNA复制和染色体分配质量等而发展出了一套可对细胞周期发生的重要事件及出现的故障助以检测"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s12",
+          "paragraph": 29,
+          "original": "的检查机制，",
+          "wrongOptions": [
+            "灼检查机制，",
+            "的检查机前，",
+            "的检森机制，"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s13",
+          "paragraph": 29,
+          "original": "通常称为细胞周期检查点。细胞周期检查点是一类负反馈调节机制。",
+          "wrongOptions": [
+            "通常称为细胞周期检查点。细胞周期检查点是一类贵反馈调节机制。",
+            "通常称为细胞周期检查点。细胞稠期检查点是一类负反馈调节机制。",
+            "通常称为细胞周期检查黏。细胞周期检查点是一类负反馈调节机制。"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s14",
+          "paragraph": 29,
+          "original": "细胞周期检查点由探测器、传感器和效应器三部分组成，分别负责检测质量、传递信号、",
+          "wrongOptions": [
+            "细胞周期检查点由探测器、传感器和效应器三部分组威，分别负责检测质量、传递信号、",
+            "细胞周期检查粘由探测器、传感器和效应器三部分组成，分别负责检测质量、传递信号、",
+            "细胞周期检查点由探测器、传应器和效应器三部分组成，分别负责检测质量、传递信号、"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s15",
+          "paragraph": 29,
+          "original": "中断细胞周期并启动修复机制等功能。",
+          "wrongOptions": [
+            "中断细胞合期并启动修复机制等功能。",
+            "中断细胞周期并启动修复机分等功能。",
+            "中断细胞周期并启动修复机制策功能。"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s16",
+          "paragraph": 29,
+          "original": "细胞周期检查点包括四种，即DNA损伤检查点、DNA复制检查点、染色体分离检查点和纺锤体组装检查点，",
+          "wrongOptions": [
+            "细胞周期检查点包括四种，即DNA损伤检查点、DNA复分检查点、染色体分离检查点和纺锤体组装检查点，",
+            "细胞周期检查点包括四种，即DNA损伤检查点、DNA复制检查点、染色体分离检查点和芳锤体组装检查点，",
+            "细胞周期检查点包括四种，即DNA损伤检查点、DNA复制检查点、染色体分离检查点和纺锤体组壮检查点，"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s17",
+          "paragraph": 29,
+          "original": "各检查点所处位置和功能各异，其中DNA损伤检查点和DNA复制检查点备受关注。",
+          "wrongOptions": [
+            "各检查点所处位置和功能各异，其中DNA损伤检查点和DNA复制检查黏备受关注。",
+            "各检查点所处位置和功能各异，其中DNA损伤敛查点和DNA复制检查点备受关注。",
+            "各检查点所处位置和功熊各异，其中DNA损伤检查点和DNA复制检查点备受关注。"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s18",
+          "paragraph": 29,
+          "original": "如①当位于G1／S交界处的DNA损伤检查点探测和获得DNA受损信号，则由效应器中断细胞周期进程，",
+          "wrongOptions": [
+            "如①当位于G1／S交界处的DNA此伤检查点探测和获得DNA受损信号，则由效应器中断细胞周期进程，",
+            "如①当位于G1／S交界处的DNA损伤检查点探测和获得DNA受损信号，则由效应器回断细胞周期进程，",
+            "如①当位于G1／S交界处的DNA损伤检查点探测和获得DNA受损信伟，则由效应器中断细胞周期进程，"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s19",
+          "paragraph": 29,
+          "original": "将细胞阻滞在G1期，并启动DNA修复，以保证DNA的质；②位于S／G2交界处的DNA复制检查点，",
+          "wrongOptions": [
+            "将细胞阻滞在G1期，并启动DNA修复，以保澄DNA的质；②位于S／G2交界处的DNA复制检查点，",
+            "将细胞阻滞在G1期，并启种DNA修复，以保证DNA的质；②位于S／G2交界处的DNA复制检查点，",
+            "将细胞粗滞在G1期，并启动DNA修复，以保证DNA的质；②位于S／G2交界处的DNA复制检查点，"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s20",
+          "paragraph": 29,
+          "original": "当DNA复制量不足时细胞将阻滞在S期，以保证DNA的量，使细胞周期精确和有序进行。",
+          "wrongOptions": [
+            "当DNA复制量不足时细胞将阻滞在S期，以保证DNA的量，使细孢周期精确和有序进行。",
+            "当DNA复制量不足持细胞将阻滞在S期，以保证DNA的量，使细胞周期精确和有序进行。",
+            "当DNA复制量不足时细胞将阻滞在S期，以保证DNA的量，使终胞周期精确和有序进行。"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s21",
+          "paragraph": 29,
+          "original": "由此可见细胞周期检查点功能障碍，将使细胞增殖的质和量异常，甚至促进或导致疾病。",
+          "wrongOptions": [
+            "由此可见细胞周期检查点功能障碍，将使细胞增殖的质和量异常，甚至促进或道致疾病。",
+            "由此可见细胞周期检查点功能障碍，将佳细胞增殖的质和量异常，甚至促进或导致疾病。",
+            "由此可见细胞周期检查点功能障碍，将使细胞增殖的质和量异常，甚至母进或导致疾病。"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s22",
+          "paragraph": 31,
+          "original": "细胞外信号分为增殖信号和抑制信号。增殖信号包括生长因子、丝裂原、分化诱导剂等。",
+          "wrongOptions": [
+            "细胞外信号分为增殖信号和抑制信号。增殖信号包甜生长因子、丝裂原、分化诱导剂等。",
+            "细胞外信号分为增殖信号和抑制信号。增殖做号包括生长因子、丝裂原、分化诱导剂等。",
+            "细胞外信号分为增殖信纵和抑制信号。增殖信号包括生长因子、丝裂原、分化诱导剂等。"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s23",
+          "paragraph": 31,
+          "original": "如表皮生长因子（epidermal growth factor，EGF）可与细胞膜EGF受体结合，",
+          "wrongOptions": [
+            "如表皮生丧因子（epidermal growth factor，EGF）可与细胞膜EGF受体结合，",
+            "如表皮生长因子（epidermal growth factor，EGF）可与细胞膜EGF受髓结合，",
+            "如表皮生长因子（epidermal growth factor，EGF）可与细胞膜EGF瘤体结合，"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s24",
+          "paragraph": 31,
+          "original": "启动胞内的信号转导，促进cyclinD合成，并抑制CKI合成，cyclinD与相应CDK结合，",
+          "wrongOptions": [
+            "启动胞内的信号转导，促进cyclinD合成，并抑制CKI合威，cyclinD与相应CDK结合，",
+            "启动胞内的信号转导，促进cyclinD合成，并抑制CKI合成，cyclinD与相慧CDK结合，",
+            "启动胞内的信号转导，促进cyclinD合成，并抑制CKI合成，cyclinD与想应CDK结合，"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s25",
+          "paragraph": 31,
+          "original": "使pRb磷酸化而丧失抑制E2F的作用，游离的E2F激活DNA合成基因，促使G0进入G1期。",
+          "wrongOptions": [
+            "使pRb磷酸化而丧失抑制E2F的作粗，游离的E2F激活DNA合成基因，促使G0进入G1期。",
+            "使pRb磷酸化而丧失抑制E2F的作用，连离的E2F激活DNA合成基因，促使G0进入G1期。",
+            "使pRb磷酸化并丧失抑制E2F的作用，游离的E2F激活DNA合成基因，促使G0进入G1期。"
+          ]
+        },
+        {
+          "id": "chapter-11-03-s26",
+          "paragraph": 31,
+          "original": "抑制信号如转化生长因子β（transforming growth factor-β，",
+          "wrongOptions": [
+            "抑制信号如转北生长因子β（transforming growth factor-β，",
+            "抑制信号如轮化生长因子β（transforming growth factor-β，",
+            "抑制信号如转化生丧因子β（transforming growth factor-β，"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-11-04",
+      "title": "细胞增殖异常与疾病（4）",
+      "order": 4,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-11-04-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-11-04-s01",
+            "chapter-11-04-s02",
+            "chapter-11-04-s03",
+            "chapter-11-04-s04",
+            "chapter-11-04-s05",
+            "chapter-11-04-s06",
+            "chapter-11-04-s07",
+            "chapter-11-04-s08",
+            "chapter-11-04-s09",
+            "chapter-11-04-s10",
+            "chapter-11-04-s11",
+            "chapter-11-04-s12"
+          ]
+        },
+        {
+          "id": "chapter-11-04-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-11-04-s13",
+            "chapter-11-04-s14",
+            "chapter-11-04-s15",
+            "chapter-11-04-s16",
+            "chapter-11-04-s17",
+            "chapter-11-04-s18",
+            "chapter-11-04-s19",
+            "chapter-11-04-s20",
+            "chapter-11-04-s21",
+            "chapter-11-04-s22",
+            "chapter-11-04-s23",
+            "chapter-11-04-s24"
+          ]
+        },
+        {
+          "id": "chapter-11-04-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-11-04-s25"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-11-04-s01",
+          "paragraph": 31,
+          "original": "TGF-β）可与细胞膜TGF-β受体结合，启动胞内信号通路调控cyclin和CDK等的表达，",
+          "wrongOptions": [
+            "TGF-β）可与细胞膜TGF-β受体结合，启动胞内信号通路调控cyclin利CDK等的表达，",
+            "TGF-β）司与细胞膜TGF-β受体结合，启动胞内信号通路调控cyclin和CDK等的表达，",
+            "TGF-β）可与纪胞膜TGF-β受体结合，启动胞内信号通路调控cyclin和CDK等的表达，"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s02",
+          "paragraph": 31,
+          "original": "在G1期表现为抑制CDK4表达，诱导p21kip1、p27kip1和p15Ink4b等CKI产生，",
+          "wrongOptions": [
+            "在G1期制现为抑制CDK4表达，诱导p21kip1、p27kip1和p15Ink4b等CKI产生，",
+            "在G1期表现为抑制CDK4表达，透导p21kip1、p27kip1和p15Ink4b等CKI产生，",
+            "在G1期表理为抑制CDK4表达，诱导p21kip1、p27kip1和p15Ink4b等CKI产生，"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s03",
+          "paragraph": 31,
+          "original": "而使G1期细胞阻滞。细胞周期调控是细胞对不同信号进行整合后依靠细胞内级联反应完成的，",
+          "wrongOptions": [
+            "而使G1期细胞阻滞。细胞周期周控是细胞对不同信号进行整合后依靠细胞内级联反应完成的，",
+            "而使G1期细胞阻滞。细胞周期调控是细胞对不同信号推行整合后依靠细胞内级联反应完成的，",
+            "而使G1期纪胞阻滞。细胞周期调控是细胞对不同信号进行整合后依靠细胞内级联反应完成的，"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s04",
+          "paragraph": 33,
+          "original": "包括细胞周期的驱动力量（cyclin和CDK）、抑制力量和检查点等，",
+          "wrongOptions": [
+            "包括细胞周期的驱动力量（cyclin利CDK）、抑制力量和检查点等，",
+            "包括细胞周期的驱动力量（cyclin和CDK）、抑制力查和检查点等，",
+            "包括细鲍周期的驱动力量（cyclin和CDK）、抑制力量和检查点等，"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s05",
+          "paragraph": 33,
+          "original": "其任一环节发生异常均可使细胞增殖过度或缺陷导致或促进疾病。",
+          "wrongOptions": [
+            "其任一环节发生异常均可使细胞增殖过度或缺陷导致或促维疾病。",
+            "其任一环节发生异常均可使细胞增殖过度成缺陷导致或促进疾病。",
+            "其任一环节发生异常均可使细胞增殖过度或缺陷导致成促进疾病。"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s06",
+          "paragraph": 35,
+          "original": "细胞增殖过度可导致疾病，如肿瘤、肝肺肾纤维化、前列腺肥大、原发性血小板增多症、家族性红细胞增多症、银屑病、",
+          "wrongOptions": [
+            "细胞增殖过度可导致疾病，如肿瘤、肝肺肾纤维化、前列腺肥大、原发性血小板增多症、家族性虹细胞增多症、银屑病、",
+            "细胞增殖过度可导致疾病，如肿瘤、肝肺肾纤维化、前列腺肥大、原发性血子板增多症、家族性红细胞增多症、银屑病、",
+            "细胞增殖进度可导致疾病，如肿瘤、肝肺肾纤维化、前列腺肥大、原发性血小板增多症、家族性红细胞增多症、银屑病、"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s07",
+          "paragraph": 35,
+          "original": "类风湿关节炎、肾小管间质性病变和动脉粥样硬化等。下面以肿瘤为例阐述细胞周期调控异常与癌细胞恶性增殖的关系。",
+          "wrongOptions": [
+            "类风湿关节炎、肾小管间质性病变和动脉粥样硬化等。下面以肿瘤为例阐述细胞周期调控异常与症细胞恶性增殖的关系。",
+            "类风湿关节炎、肾小管间质性病变和动脉粥样硬化第。下面以肿瘤为例阐述细胞周期调控异常与癌细胞恶性增殖的关系。",
+            "类风湿关节炎、肾小管间质性病变和动脉粥样硬化等。下面以肿瘤为例阐述细胞周斯调控异常与癌细胞恶性增殖的关系。"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s08",
+          "paragraph": 37,
+          "original": "肿瘤发生与细胞周期驱动力量cyclin（主要是cyclinD、E）过表达有关。",
+          "wrongOptions": [
+            "肿瘤发生兴细胞周期驱动力量cyclin（主要是cyclinD、E）过表达有关。",
+            "肿瘤发生与终胞周期驱动力量cyclin（主要是cyclinD、E）过表达有关。",
+            "肿瘤发牛与细胞周期驱动力量cyclin（主要是cyclinD、E）过表达有关。"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s09",
+          "paragraph": 37,
+          "original": "如在人乳腺癌细胞或组织中cyclinE呈高表达；在B细胞淋巴瘤、乳腺癌、胃肠癌、",
+          "wrongOptions": [
+            "如在人乳腺癌细胞或组织中cyclinE呈高表达；在B细疱淋巴瘤、乳腺癌、胃肠癌、",
+            "如在人乳腺癌细胞或组织中cyclinE呈高表达；在B细胞淋巴瘤、乳线癌、胃肠癌、",
+            "如在人乳腺癌细胞或组织中cyclinE呈高表达；在B细胞淋巴瘤、乳腺癌、累肠癌、"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s10",
+          "paragraph": 37,
+          "original": "甲状旁腺癌和食管癌细胞或组织中cyclinD1呈过表达。",
+          "wrongOptions": [
+            "甲状旁线癌和食管癌细胞或组织中cyclinD1呈过表达。",
+            "甲状旁腺癌和食管癌细鲍或组织中cyclinD1呈过表达。",
+            "甲状旁腺癌和食管癌终胞或组织中cyclinD1呈过表达。"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s11",
+          "paragraph": 37,
+          "original": "Cyclin过表达与基因扩增、染色体倒位和染色体易位有关。",
+          "wrongOptions": [
+            "Cyclin过表达与基因扩增、染色脏倒位和染色体易位有关。",
+            "Cyclin过表达与基因扩增、染兔体倒位和染色体易位有关。",
+            "Cyclin过表达兴基因扩增、染色体倒位和染色体易位有关。"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s12",
+          "paragraph": 37,
+          "original": "CyclinD1对正常和癌细胞G1期至关重要，如过表达cyclinD1使细胞易被转化；",
+          "wrongOptions": [
+            "CyclinD1对正常和癌细胞G1期至关重要，扣过表达cyclinD1使细胞易被转化；",
+            "CyclinD1对止常和癌细胞G1期至关重要，如过表达cyclinD1使细胞易被转化；",
+            "CyclinD1对正常和癌细胞G1期至关重要，如过表进cyclinD1使细胞易被转化；"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s13",
+          "paragraph": 37,
+          "original": "cyclinD1与癌基因C-myc协同作用能诱导转基因小鼠发生B淋巴瘤等。",
+          "wrongOptions": [
+            "cyclinD1与癌基因C-myc协同作用能诱导较基因小鼠发生B淋巴瘤等。",
+            "cyclinD1与癌基因C-myc协同作用能诱导转基因小鼠发生B彬巴瘤等。",
+            "cyclinD1与癌基因C-myc协同作用能诱导转基困小鼠发生B淋巴瘤等。"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s14",
+          "paragraph": 39,
+          "original": "多种癌细胞或组织CDK常呈过表达，且与肿瘤发生、发展、转移和浸润等相关。",
+          "wrongOptions": [
+            "多种癌细胞或组织CDK掌呈过表达，且与肿瘤发生、发展、转移和浸润等相关。",
+            "多种癌细胞或组织CDK常呈过制达，且与肿瘤发生、发展、转移和浸润等相关。",
+            "多种癌细胞或组织CDK常呈过表达，且与肿瘤发生、发展、转移念浸润等相关。"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s15",
+          "paragraph": 39,
+          "original": "如在小细胞肺癌、鳞癌和不同分化胃癌组织CDK1呈过表达，并与胃癌发生中早期分子事件相关；",
+          "wrongOptions": [
+            "如在小细饱肺癌、鳞癌和不同分化胃癌组织CDK1呈过表达，并与胃癌发生中早期分子事件相关；",
+            "如在小细胞肺癌、鳞癌和不同分化胃癌组织CDK1呈过表达，并与胃痛发生中早期分子事件相关；",
+            "如在小细胞肺癌、鳞癌和不同分化胃病组织CDK1呈过表达，并与胃癌发生中早期分子事件相关；"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s16",
+          "paragraph": 39,
+          "original": "如在G1／S期过表达的CDK4可使pRb磷酸化，并与E2F分离而解除pRb对细胞生长的负调控，导致宫颈癌等；",
+          "wrongOptions": [
+            "如在G1／S期过表达的CDK4可使pRb磷酸化，并与E2F公离而解除pRb对细胞生长的负调控，导致宫颈癌等；",
+            "如在G1／S期过表达的CDK4可使pRb磷酸化，并与E2F分离而解除pRb对细胞生长的负调控，导致宫径癌等；",
+            "如在G1／S期过表达的CDK4可使pRb磷酸化，并与E2F分离并解除pRb对细胞生长的负调控，导致宫颈癌等；"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s17",
+          "paragraph": 39,
+          "original": "采用TGF-β处理人角化细胞可通过降低CDK4mRNA表达介导人角化细胞增殖的抑制；",
+          "wrongOptions": [
+            "采用TGF-β处理人用化细胞可通过降低CDK4mRNA表达介导人角化细胞增殖的抑制；",
+            "采用TGF-β处跨人角化细胞可通过降低CDK4mRNA表达介导人角化细胞增殖的抑制；",
+            "采用TGF-β处理人角化细胞可通过降低CDK4mRNA表达介导人角化细胞层殖的抑制；"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s18",
+          "paragraph": 39,
+          "original": "高浓度CDK4可对抗p15作用而促增殖。CKI通过直接特异抑制CDK活性，影响细胞周期运转。",
+          "wrongOptions": [
+            "高浓度CDK4可对抗p15作用并促增殖。CKI通过直接特异抑制CDK活性，影响细胞周期运转。",
+            "高浓度CDK4可射抗p15作用而促增殖。CKI通过直接特异抑制CDK活性，影响细胞周期运转。",
+            "高浓度CDK4可对抗p15作用而促增殖。CKI通过目接特异抑制CDK活性，影响细胞周期运转。"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s19",
+          "paragraph": 41,
+          "original": "在多种肿瘤细胞或组织呈现CKI表达不足或突变，包括InK4和Kip失活或（和）含量减少。",
+          "wrongOptions": [
+            "在多种肿瘤细胞或组织呈现CKI表达不足或突变，包括InK4和Kip夫活或（和）含量减少。",
+            "在多种肿瘤细胞或组织呈现CKI表进不足或突变，包括InK4和Kip失活或（和）含量减少。",
+            "在多种肿瘤细胞或组织呈现CKI表达不足或突变，包甜InK4和Kip失活或（和）含量减少。"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s20",
+          "paragraph": 43,
+          "original": "InK4家族包括p16Ink4a、p15Ink4b、p18Ink4c和p19Ink4d等，",
+          "wrongOptions": [
+            "InK4家族包括p16Ink4a、p15Ink4b、p18Ink4c利p19Ink4d等，",
+            "InK4家族匀括p16Ink4a、p15Ink4b、p18Ink4c和p19Ink4d等，",
+            "InK4家施包括p16Ink4a、p15Ink4b、p18Ink4c和p19Ink4d等，"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s21",
+          "paragraph": 43,
+          "original": "InK4可直接与cyclinD1竞争G1期激酶CDK4／6，抑制其对pRb的磷酸化作用，",
+          "wrongOptions": [
+            "InK4可直接与cyclinD1端争G1期激酶CDK4／6，抑制其对pRb的磷酸化作用，",
+            "InK4可直接与cyclinD1竞争G1期激缺CDK4／6，抑制其对pRb的磷酸化作用，",
+            "InK4司直接与cyclinD1竞争G1期激酶CDK4／6，抑制其对pRb的磷酸化作用，"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s22",
+          "paragraph": 43,
+          "original": "抑制E2F-1基因的转录；也可间接地抑制DNA合成的多种生化反应，导致细胞周期调控紊乱，诱发多种肿瘤。",
+          "wrongOptions": [
+            "抑制E2F-1基因的转录；也可间接地抑制DNA合成的多种生化反应，导致细胞周期稠控紊乱，诱发多种肿瘤。",
+            "抑制E2F-1基因的转录；也可间接地抑制DNA合成的多种生化反应，导致细孢周期调控紊乱，诱发多种肿瘤。",
+            "抑制E2F-1基因的转录；也可间接地抑制DNA合成的多种生化反慧，导致细胞周期调控紊乱，诱发多种肿瘤。"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s23",
+          "paragraph": 43,
+          "original": "如p16Ink4a常因纯合性缺失、CpG岛高度甲基化或染色体异位使基因失活，致p16Ink4a低表达，",
+          "wrongOptions": [
+            "如p16Ink4a常因纯合性缺失、CpG岛高度甲基化或染色体异位使基因失活，臻p16Ink4a低表达，",
+            "如p16Ink4a常因纯台性缺失、CpG岛高度甲基化或染色体异位使基因失活，致p16Ink4a低表达，",
+            "如p16Ink4a常因纯合性缺失、CpG岛高度甲基化或染色髓异位使基因失活，致p16Ink4a低表达，"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s24",
+          "paragraph": 43,
+          "original": "后者与多种癌（如黑色素瘤、急性白血病、胰腺癌、非小细胞肺癌、胶质瘤、食管癌、",
+          "wrongOptions": [
+            "后者与多种癌（如黑色素瘤、急性白血病、胰腺癌、非小细胞肺癌、胶质瘤、良管癌、",
+            "后者与多种癌（如黑色素瘤、急怕白血病、胰腺癌、非小细胞肺癌、胶质瘤、食管癌、",
+            "后者与多种癌（如黑色紊瘤、急性白血病、胰腺癌、非小细胞肺癌、胶质瘤、食管癌、"
+          ]
+        },
+        {
+          "id": "chapter-11-04-s25",
+          "paragraph": 43,
+          "original": "乳腺癌和直肠癌）发生发展及预后相关。Kip家族包括p21kip1、p27kip1和p57kip2等，",
+          "wrongOptions": [
+            "乳腺癌和直肠癌）发生发展及预后相关。Kip家族匀括p21kip1、p27kip1和p57kip2等，",
+            "乳腺癌和直肠癌）发生发展及预后休关。Kip家族包括p21kip1、p27kip1和p57kip2等，",
+            "乳腺癌和直杨癌）发生发展及预后相关。Kip家族包括p21kip1、p27kip1和p57kip2等，"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-11-05",
+      "title": "细胞增殖异常与疾病（5）",
+      "order": 5,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-11-05-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-11-05-s01",
+            "chapter-11-05-s02",
+            "chapter-11-05-s03",
+            "chapter-11-05-s04",
+            "chapter-11-05-s05",
+            "chapter-11-05-s06",
+            "chapter-11-05-s07",
+            "chapter-11-05-s08",
+            "chapter-11-05-s09",
+            "chapter-11-05-s10",
+            "chapter-11-05-s11",
+            "chapter-11-05-s12"
+          ]
+        },
+        {
+          "id": "chapter-11-05-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-11-05-s13",
+            "chapter-11-05-s14",
+            "chapter-11-05-s15",
+            "chapter-11-05-s16",
+            "chapter-11-05-s17",
+            "chapter-11-05-s18",
+            "chapter-11-05-s19",
+            "chapter-11-05-s20",
+            "chapter-11-05-s21",
+            "chapter-11-05-s22",
+            "chapter-11-05-s23",
+            "chapter-11-05-s24"
+          ]
+        },
+        {
+          "id": "chapter-11-05-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-11-05-s25",
+            "chapter-11-05-s26"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-11-05-s01",
+          "paragraph": 43,
+          "original": "乳腺癌和直肠癌）发生发展及预后相关。Kip家族包括p21kip1、p27kip1和p57kip2等，",
+          "wrongOptions": [
+            "乳腺癌和直肠癌）发生发展及预后相关。Kip家族匀括p21kip1、p27kip1和p57kip2等，",
+            "乳腺癌和直肠癌）发生发尼及预后相关。Kip家族包括p21kip1、p27kip1和p57kip2等，",
+            "乳腺癌和直肠癌）发生发展及预后相关。Kip家旁包括p21kip1、p27kip1和p57kip2等，"
+          ],
+          "carried": true
+        },
+        {
+          "id": "chapter-11-05-s02",
+          "paragraph": 45,
+          "original": "可广谱抑制CDK（包括CDK2／3／4／6等）活性，在肿瘤发生等方面起着重要作用。",
+          "wrongOptions": [
+            "可广谱抑利CDK（包括CDK2／3／4／6等）活性，在肿瘤发生等方面起着重要作用。",
+            "可广谱抑制CDK（包括CDK2／3／4／6等）话性，在肿瘤发生等方面起着重要作用。",
+            "可广谱抑制CDK（包括CDK2／3／4／6等）活性，在肿馏发生等方面起着重要作用。"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s03",
+          "paragraph": 45,
+          "original": "如p21kip1低表达或缺失可使细胞从正常增生转为过度增生，甚至导致肝癌、骨肉瘤和黑色素瘤等的发生。",
+          "wrongOptions": [
+            "如p21kip1低表这或缺失可使细胞从正常增生转为过度增生，甚至导致肝癌、骨肉瘤和黑色素瘤等的发生。",
+            "如p21kip1低表达或缺失可使细胞从正常增生轻为过度增生，甚至导致肝癌、骨肉瘤和黑色素瘤等的发生。",
+            "如p21kip1低表达或缺失可使细胞从正常增生转为过度增生，甚至导致肝癌、骨肉瘤和黑色素馏等的发生。"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s04",
+          "paragraph": 45,
+          "original": "P27kip1的低表达常与肿瘤发生、分化、分级和预后等相关，在多种人癌组织或细胞中p27kip1常表达降低，",
+          "wrongOptions": [
+            "P27kip1的低表达常与肿瘤发生、分化、分级和预后等相关，在多种人癌组织或细胞串p27kip1常表达降低，",
+            "P27kip1的低装达常与肿瘤发生、分化、分级和预后等相关，在多种人癌组织或细胞中p27kip1常表达降低，",
+            "P27kip1的低表达常与肿瘤癸生、分化、分级和预后等相关，在多种人癌组织或细胞中p27kip1常表达降低，"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s05",
+          "paragraph": 45,
+          "original": "如乳腺癌、大肠癌、肺癌、前列腺癌、胃癌和卵巢癌等；并发现p27kip1表达越低，肿瘤分化越差、分级越高，",
+          "wrongOptions": [
+            "如乳腺癌、犬肠癌、肺癌、前列腺癌、胃癌和卵巢癌等；并发现p27kip1表达越低，肿瘤分化越差、分级越高，",
+            "如乳腺癌、大肠癌、肺癌、前列腺癌、胃癌和印巢癌等；并发现p27kip1表达越低，肿瘤分化越差、分级越高，",
+            "如乳腺癌、大肠癌、肺癌、前列腺癌、胃癌和卵巢癌等；并发理p27kip1表达越低，肿瘤分化越差、分级越高，"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s06",
+          "paragraph": 45,
+          "original": "预后越差。细胞周期主要的检查点是DNA损伤和复制检查点，分别位于G1／S和G2／M交界处，",
+          "wrongOptions": [
+            "预后越差。细胞同期主要的检查点是DNA损伤和复制检查点，分别位于G1／S和G2／M交界处，",
+            "预后越差。细胞周期主要的检查点是DNA损伤和复制检森点，分别位于G1／S和G2／M交界处，",
+            "预后越差。细胞周期主要的检查点是DNA损伤和复制检查点，公别位于G1／S和G2／M交界处，"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s07",
+          "paragraph": 47,
+          "original": "当其探测到DNA损伤或DNA复制量异常时，即可终止细胞周期进程，",
+          "wrongOptions": [
+            "当其探测到DNA损伤或DNA复制量异常特，即可终止细胞周期进程，",
+            "当其探测到DNA损伤或DNA腹制量异常时，即可终止细胞周期进程，",
+            "当其探测到DNA损伤或DNA复前量异常时，即可终止细胞周期进程，"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s08",
+          "paragraph": 47,
+          "original": "可见在检查点的正确调控下细胞周期得以精确和有序地进行。",
+          "wrongOptions": [
+            "可见在检查点的正确调腔下细胞周期得以精确和有序地进行。",
+            "可见在敛查点的正确调控下细胞周期得以精确和有序地进行。",
+            "可见在检查点的正确调控下细胞周期得保精确和有序地进行。"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s09",
+          "paragraph": 47,
+          "original": "检查点主要靠蛋白分子发挥调控作用，如p53为DNA损伤检查点的主要分子，当DNA损伤时，",
+          "wrongOptions": [
+            "检查点主要靠蛋白分子发挥调控作用，如p53为DNA损伤检查贴的主要分子，当DNA损伤时，",
+            "检查点主安靠蛋白分子发挥调控作用，如p53为DNA损伤检查点的主要分子，当DNA损伤时，",
+            "检查点主要靠蛋白分子发挥调控作酚，如p53为DNA损伤检查点的主要分子，当DNA损伤时，"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s10",
+          "paragraph": 47,
+          "original": "p53可使细胞停滞在G1期进行修复，减少携带损伤DNA细胞的增殖；如修复失败，p53则过度表达，",
+          "wrongOptions": [
+            "p53可使细胞停滞在G1期进行修复，减少携带损伤DNA细胞的增殖；如候复失败，p53则过度表达，",
+            "p53可使细胞停滞在G1期进行修复，减少携带损伤DNA细胞的增殖；如修复失败，p53则道度表达，",
+            "p53可伦细胞停滞在G1期进行修复，减少携带损伤DNA细胞的增殖；如修复失败，p53则过度表达，"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s11",
+          "paragraph": 47,
+          "original": "直接激活bax凋亡基因或下调bcl-2抗凋亡基因表达而诱导细胞凋亡，以消除癌前病变细胞不恰当地进入S期，",
+          "wrongOptions": [
+            "直接激活bax凋亡基因或下调bcl-2抗凋亡基因表达而诱导细胞凋亡，以消除癌前病变细胞不给当地进入S期，",
+            "直接激活bax凋亡基因或下调bcl-2映凋亡基因表达而诱导细胞凋亡，以消除癌前病变细胞不恰当地进入S期，",
+            "直接激活bax凋亡基因或下调bcl-2抗凋亡基因表达而诱导细胞凋亡，以消除癌前病变细胞不恰掌地进入S期，"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s12",
+          "paragraph": 47,
+          "original": "避免癌症发生和发展。",
+          "wrongOptions": [
+            "避免癌症发生利发展。",
+            "避免癌疾发生和发展。",
+            "避免癌症发牛和发展。"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s13",
+          "paragraph": 47,
+          "original": "P53基因是人癌突变率最高的基因，如Li-Fraumeni癌症综合征患者正因为遗传一个突变的p53基因，",
+          "wrongOptions": [
+            "P53基因是人癌突变率最高的基因，如Li-Fraumeni癌症综合症患者正因为遗传一个突变的p53基因，",
+            "P53基因定人癌突变率最高的基因，如Li-Fraumeni癌症综合征患者正因为遗传一个突变的p53基因，",
+            "P53基因是人癌突变率最高的基因，如Li-Fraumeni癌症棕合征患者正因为遗传一个突变的p53基因，"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s14",
+          "paragraph": 47,
+          "original": "极易在30岁前患各种癌症；若p53缺失可使细胞易于产生药物诱导的基因扩增和细胞分裂，并降低染色体准确度；",
+          "wrongOptions": [
+            "极易在30岁前患各种癌症；若p53缺失可使细胞易于嚼生药物诱导的基因扩增和细胞分裂，并降低染色体准确度；",
+            "极易在30岁前患各种癌征；若p53缺失可使细胞易于产生药物诱导的基因扩增和细胞分裂，并降低染色体准确度；",
+            "极易在30岁前患各种癌症；若p53缺失可使细胞易于产生药物诱导的操因扩增和细胞分裂，并降低染色体准确度；"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s15",
+          "paragraph": 47,
+          "original": "缺失p53时一个细胞周期中可产生多个中心粒，使有丝分裂时染色体分离异常，导致染色体数目和DNA倍数改变，",
+          "wrongOptions": [
+            "缺失p53时一个细胞周期中可产生多个中心粒，使有丝分裂时染色体分璃异常，导致染色体数目和DNA倍数改变，",
+            "缺失p53时三个细胞周期中可产生多个中心粒，使有丝分裂时染色体分离异常，导致染色体数目和DNA倍数改变，",
+            "缺失p53时一个细胞周期中可产生多个中心粒，使有丝分裂时染色体允离异常，导致染色体数目和DNA倍数改变，"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s16",
+          "paragraph": 47,
+          "original": "最终演变成癌细胞，亦可促进肿瘤侵袭及转移或增加化疗抵抗。",
+          "wrongOptions": [
+            "最终演变成癌细胞，亦可促进肿瘤何袭及转移或增加化疗抵抗。",
+            "最终演变成癌细胞，亦可促进肿瘤侵袭及转移成增加化疗抵抗。",
+            "最终演变戊癌细胞，亦可促进肿瘤侵袭及转移或增加化疗抵抗。"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s17",
+          "paragraph": 49,
+          "original": "细胞增殖缺陷可导致许多疾病，如糖尿病肾病、再生障碍性贫血和神经退行性疾病等。",
+          "wrongOptions": [
+            "细胞增殖缺陷可导致计多疾病，如糖尿病肾病、再生障碍性贫血和神经退行性疾病等。",
+            "细胞增殖缺陷可导致许多疾病，如糖尿病肾病、再生障碍怕贫血和神经退行性疾病等。",
+            "细胞增殖缺陷可导致许多疾病，如糖尿痛肾病、再生障碍性贫血和神经退行性疾病等。"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s18",
+          "paragraph": 49,
+          "original": "下面以糖尿病肾病为例简述细胞周期调控异常与糖尿病时肾脏细胞增殖缺陷的关系。",
+          "wrongOptions": [
+            "下面以糖屑病肾病为例简述细胞周期调控异常与糖尿病时肾脏细胞增殖缺陷的关系。",
+            "下面以糖尿病肾病为例简述细胞周期调控异常与糖尿病时肾脏细胞增植缺陷的关系。",
+            "下面以糖尿病肾病为例简述细胞周期调控异常与糖尿病时肾脏细胞增殖缺陷灼关系。"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s19",
+          "paragraph": 50,
+          "original": "糖尿病肾病是糖尿病的慢性肾脏并发症，主要是由于肾小球硬化导致肾功能减退。",
+          "wrongOptions": [
+            "糖尿病肾病是糖尿病的慢性肾脏并发症，主要是由于肾十球硬化导致肾功能减退。",
+            "糖尿病肾病是糖尿病的慢性肾脏瓶发症，主要是由于肾小球硬化导致肾功能减退。",
+            "糖尿病肾病是糖尿病的慢性肾胆并发症，主要是由于肾小球硬化导致肾功能减退。"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s20",
+          "paragraph": 50,
+          "original": "在糖尿病实验模型中，虽未见G1／S期cyclin和CDK2及CDK4的改变，但研究发现肾小球p27表达增高，",
+          "wrongOptions": [
+            "在糖尿病实验模型中，虽未见G1／S期cyclin和CDK2及CDK4的改变，但研究发理肾小球p27表达增高，",
+            "在糖尿病实验模型中，虽未见G1／S期cyclin和CDK2及CDK4的改变，但研究发现肾小救p27表达增高，",
+            "在糖尿病实验模型中，虽未见G1／S期cyclin和CDK2及CDK4的改变，但研究发现坚小球p27表达增高，"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s21",
+          "paragraph": 50,
+          "original": "如利用p27反义寡核苷酸处理可促进高糖环境中系膜细胞的增殖，",
+          "wrongOptions": [
+            "如利用p27反义寡核苷酸虚理可促进高糖环境中系膜细胞的增殖，",
+            "如利用p27反义寡刻苷酸处理可促进高糖环境中系膜细胞的增殖，",
+            "如利用p27反义寡核苷酸处理可促唯高糖环境中系膜细胞的增殖，"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s22",
+          "paragraph": 50,
+          "original": "高血糖或糖基化产物可促进体内TGF-β1及受体表达，TGF-β1又作用于细胞周期调控蛋白，",
+          "wrongOptions": [
+            "高血糖或糖基化产物可促进体内TGF-β1及受体表达，TGF-β1又作用于细胞同期调控蛋白，",
+            "高血糖或糖基化产物可促进体内TGF-β1及受体表达，TGF-β1又作用于细胞周斯调控蛋白，",
+            "高血糖或糖基化产物可促进体内TGF-β1及受体表达，TGF-β1又作用于纪胞周期调控蛋白，"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s23",
+          "paragraph": 50,
+          "original": "使pRb处于低磷酸化状态。故认为糖尿病肾病是由于p27过表达和pRb低磷酸化状态协同作用，抑制肾小管上皮细胞、",
+          "wrongOptions": [
+            "使pRb处于低磷酸化状态。故认为糖尿病坚病是由于p27过表达和pRb低磷酸化状态协同作用，抑制肾小管上皮细胞、",
+            "使pRb处于低磷酸化状态。故认为糖尿病肾病是由于p27过表达和pRb低磷酸化状态博同作用，抑制肾小管上皮细胞、",
+            "使pRb处于低磷酸化状态。故认为糖尿病肾病是由于p27蜗表达和pRb低磷酸化状态协同作用，抑制肾小管上皮细胞、"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s24",
+          "paragraph": 50,
+          "original": "系膜细胞或血管内皮细胞的增殖所致，至于确切的机制有待探讨。",
+          "wrongOptions": [
+            "系膜细胞或血管内皮细胞的增殖所致，至于确切的机制有必探讨。",
+            "系膜细胞或血管内皮细胞的增植所致，至于确切的机制有待探讨。",
+            "系膜细胞或血管内皮细胞的增殖所致，至于确切的机制友待探讨。"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s25",
+          "paragraph": 52,
+          "original": "细胞周期及其调控正如一台高度自动化的机器，一经启动就按编好的程序有序地进行。",
+          "wrongOptions": [
+            "细胞周期及其调控正如一台亮度自动化的机器，一经启动就按编好的程序有序地进行。",
+            "细胞周期及其调控正如一台高度自动匙的机器，一经启动就按编好的程序有序地进行。",
+            "细胞周期及其调控正如一台高度自动化的机器，一经启动就按编好的程度有序地进行。"
+          ]
+        },
+        {
+          "id": "chapter-11-05-s26",
+          "paragraph": 52,
+          "original": "若细胞自动程序、检查机制或信息传递通路等任一环节出现故障，都可使细胞周期失控，导致各种异常。",
+          "wrongOptions": [
+            "若细胞自动程序、检查机制或信息传递通路等任一环节出现效障，都可使细胞周期失控，导致各种异常。",
+            "若细胞自动程序、检查机制或信息传递通路等任一环节出现故障，都可使终胞周期失控，导致各种异常。",
+            "若细胞自动程序、检查机制或信息转递通路等任一环节出现故障，都可使细胞周期失控，导致各种异常。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-11-06",
+      "title": "细胞增殖异常与疾病（6）",
+      "order": 6,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-11-06-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-11-06-s01",
+            "chapter-11-06-s02",
+            "chapter-11-06-s03",
+            "chapter-11-06-s04",
+            "chapter-11-06-s05",
+            "chapter-11-06-s06",
+            "chapter-11-06-s07",
+            "chapter-11-06-s08",
+            "chapter-11-06-s09",
+            "chapter-11-06-s10",
+            "chapter-11-06-s11",
+            "chapter-11-06-s12"
+          ]
+        },
+        {
+          "id": "chapter-11-06-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-11-06-s13",
+            "chapter-11-06-s14",
+            "chapter-11-06-s15",
+            "chapter-11-06-s16",
+            "chapter-11-06-s17",
+            "chapter-11-06-s18",
+            "chapter-11-06-s19",
+            "chapter-11-06-s20",
+            "chapter-11-06-s21",
+            "chapter-11-06-s22",
+            "chapter-11-06-s23",
+            "chapter-11-06-s24"
+          ]
+        },
+        {
+          "id": "chapter-11-06-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-11-06-s25",
+            "chapter-11-06-s26"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-11-06-s01",
+          "paragraph": 52,
+          "original": "若细胞自动程序、检查机制或信息传递通路等任一环节出现故障，都可使细胞周期失控，导致各种异常。",
+          "wrongOptions": [
+            "若细胞自动程序、检查机制或信息传递通路等任一环节出现故障，都可使细胞周斯失控，导致各种异常。",
+            "若细胞自动程序、检查机制或信息传递通路等任一环节出现效障，都可使细胞周期失控，导致各种异常。",
+            "若细胞自动程序、检查机制或信息传递通路等任一环节出现故障，都司使细胞周期失控，导致各种异常。"
+          ],
+          "carried": true
+        },
+        {
+          "id": "chapter-11-06-s02",
+          "paragraph": 52,
+          "original": "其中最常见为肿瘤，将以癌为例探讨调控细胞周期与疾病防治。抑制促增殖信号或（和）提高抑增殖信号可防治癌症。",
+          "wrongOptions": [
+            "其中最常见为肿瘤，将以癌为例探讨调控细胞周期与疾病肪治。抑制促增殖信号或（和）提高抑增殖信号可防治癌症。",
+            "其中最常见为肿瘤，将以癌为例探讨调控细胞周期兴疾病防治。抑制促增殖信号或（和）提高抑增殖信号可防治癌症。",
+            "其中最常见为肿瘤，将以癌为例探讨调控细胞周期与疾病防治。抑制促增殖信号或（和）提高抑增值信号可防治癌症。"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s03",
+          "paragraph": 54,
+          "original": "如促增殖信号EGF可与EGFR结合激活受体酪氨酸激酶系统，通过Ras和Akt等途径激活NF-кβ，",
+          "wrongOptions": [
+            "如促增殖信号EGF可与EGFR结合激活受体酪氨酸激酶系统，通过Ras和Akt等途径派活NF-кβ，",
+            "如促增殖信号EGF可与EGFR结合激活受体客氨酸激酶系统，通过Ras和Akt等途径激活NF-кβ，",
+            "如促增殖信号EGF可与EGFR结合激括受体酪氨酸激酶系统，通过Ras和Akt等途径激活NF-кβ，"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s04",
+          "paragraph": 54,
+          "original": "提高CDK2激酶活性和使cyclinD1过表达，促肿瘤细胞的增殖，",
+          "wrongOptions": [
+            "提高CDK2激酶括性和使cyclinD1过表达，促肿瘤细胞的增殖，",
+            "提高CDK2激酶活性和使cyclinD1过表达，促肿馏细胞的增殖，",
+            "提高CDK2激酶活性和伦cyclinD1过表达，促肿瘤细胞的增殖，"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s05",
+          "paragraph": 54,
+          "original": "这对乳腺癌等尤其是非激素依赖型乳腺癌发生和发展至关重要。",
+          "wrongOptions": [
+            "这对乳腺癌等尤其是非激素依赖型干腺癌发生和发展至关重要。",
+            "这对乳腺癌第尤其是非激素依赖型乳腺癌发生和发展至关重要。",
+            "这对乳腺癌等尤其是比激素依赖型乳腺癌发生和发展至关重要。"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s06",
+          "paragraph": 54,
+          "original": "采用抑制剂降低EGF含量或采用抗EGFR单抗抑制EGF与EGFR结合可使细胞增殖减弱，",
+          "wrongOptions": [
+            "采用抑制剂降低EGF含量或采用抗EGFR单噬抑制EGF与EGFR结合可使细胞增殖减弱，",
+            "采用抑制剂降低EGF含量或采用抗EGFR单抗抑制EGF与EGFR结合可便细胞增殖减弱，",
+            "采用抑制剂降低EGF含量或采用抗EGFR章抗抑制EGF与EGFR结合可使细胞增殖减弱，"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s07",
+          "paragraph": 54,
+          "original": "以降低促增殖信号治疗癌症。抑制癌症发生发展中增高的细胞周期驱动力量cyclin和CDK可防治癌症。",
+          "wrongOptions": [
+            "以降低促增殖信号治疗癌症。抑制癌症发生发展中增高的细饱周期驱动力量cyclin和CDK可防治癌症。",
+            "以降低促增殖使号治疗癌症。抑制癌症发生发展中增高的细胞周期驱动力量cyclin和CDK可防治癌症。",
+            "以降低促增殖信号治疗癌症。抑制癌症发生发展中增高的细胞周期驱动风量cyclin和CDK可防治癌症。"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s08",
+          "paragraph": 56,
+          "original": "如体内外实验发现注射抗cyclinD1抗体或反义寡核苷酸可抑制肺癌细胞由G1向S期过渡，并逆转转化细胞的形态；",
+          "wrongOptions": [
+            "如体内外实验发现注射抗cyclinD1抗脏或反义寡核苷酸可抑制肺癌细胞由G1向S期过渡，并逆转转化细胞的形态；",
+            "如体内外实验发现注射抗cyclinD1抗体或反义寡核苷酸可抑制肺癌细胞由G1向S期过渡，并逆转转化细胞灼形态；",
+            "如体内外实验发现注射抗cyclinD1抗体或反义寡核苷峻可抑制肺癌细胞由G1向S期过渡，并逆转转化细胞的形态；"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s09",
+          "paragraph": 56,
+          "original": "广谱CDK抑制剂flavopiridol可抑制CDK1、CDK2、CDK4和CDK6，",
+          "wrongOptions": [
+            "广谱CDK抑制剂flavopiridol可昂制CDK1、CDK2、CDK4和CDK6，",
+            "广谱CDK抑制济flavopiridol可抑制CDK1、CDK2、CDK4和CDK6，",
+            "广谱CDK抑前剂flavopiridol可抑制CDK1、CDK2、CDK4和CDK6，"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s10",
+          "paragraph": 56,
+          "original": "使细胞发生G1／S和G2／M期阻滞；抗癌药（如CNDAC）可激活Chk1，",
+          "wrongOptions": [
+            "使细胞发生G1／S和G2／M期阻滞；抗癌药（如CNDAC）可激括Chk1，",
+            "使细胞发生G1／S和G2／M期阻滞；从癌药（如CNDAC）可激活Chk1，",
+            "使细胞发生G1／S和G2／M期阻滞；抗癌药（扣CNDAC）可激活Chk1，"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s11",
+          "paragraph": 56,
+          "original": "通过灭活磷酸酯酶（如CDC25C）而增强CDK1抑制性位点的磷酸化，引起G2期阻滞，以减少癌细胞增殖。",
+          "wrongOptions": [
+            "通过灭活磷酸酯酶（如CDC25C）而增强CDK1抑制性位点的磷酸化，引起G2斯阻滞，以减少癌细胞增殖。",
+            "通过灭活磷酸酯酶（如CDC25C）而增强CDK1抑制性拉点的磷酸化，引起G2期阻滞，以减少癌细胞增殖。",
+            "通过灭活磷酸酯酶（如CDC25C）而增强CDK1抑制性位点灼磷酸化，引起G2期阻滞，以减少癌细胞增殖。"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s12",
+          "paragraph": 58,
+          "original": "增加癌症发生发展中低表达CKI的量和提高其活性可防治癌症。",
+          "wrongOptions": [
+            "增加癌症发生发展中低表达CKI的量和提高其活性可防始癌症。",
+            "增加癌症发生发展中低表达CKI的量和提高其活性古防治癌症。",
+            "增加癌症发生发尼中低表达CKI的量和提高其活性可防治癌症。"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s13",
+          "paragraph": 58,
+          "original": "如将野生型CKI（如p16、p21kip1、p27kip1）基因导入可使癌细胞阻滞于G0／G1；",
+          "wrongOptions": [
+            "如将野生型CKI（如p16、p21kip1、p27kip1）基因导入司使癌细胞阻滞于G0／G1；",
+            "如将野生型CKI（如p16、p21kip1、p27kip1）基因导入可使癌细胞阻济于G0／G1；",
+            "如将野生型CKI（如p16、p21kip1、p27kip1）基因射入可使癌细胞阻滞于G0／G1；"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s14",
+          "paragraph": 58,
+          "original": "p27转染可抑制人乳腺癌和鼻咽癌细胞生长，逆转恶性表型，减少非整倍体细胞，并使G2／M细胞增多；",
+          "wrongOptions": [
+            "p27转染可抑制人乳腺癌和鼻咽癌细胞生丧，逆转恶性表型，减少非整倍体细胞，并使G2／M细胞增多；",
+            "p27转染可抑制人乳腺癌和鼻咽癌细胞牛长，逆转恶性表型，减少非整倍体细胞，并使G2／M细胞增多；",
+            "p27转染可抑制人干腺癌和鼻咽癌细胞生长，逆转恶性表型，减少非整倍体细胞，并使G2／M细胞增多；"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s15",
+          "paragraph": 58,
+          "original": "将p21cDNA转染可抑制人甲状腺、脑、肺和直肠癌等多种癌细胞生长和增强其对化疗的敏感性；",
+          "wrongOptions": [
+            "将p21cDNA转染可抑到人甲状腺、脑、肺和直肠癌等多种癌细胞生长和增强其对化疗的敏感性；",
+            "将p21cDNA转染可抑制人甲状腺、脑、肺和直场癌等多种癌细胞生长和增强其对化疗的敏感性；",
+            "将p21cDNA转染可抑制人甲状腺、脑、肺利直肠癌等多种癌细胞生长和增强其对化疗的敏感性；"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s16",
+          "paragraph": 58,
+          "original": "采用TGF-β或cAMP处理骨髓瘤细胞、电离辐射处理成纤维细胞瘤或1，25-（OH）2VD3处理Hela细胞，",
+          "wrongOptions": [
+            "采用TGF-β或cAMP处理骨髓瘤细胞、电离辐射处理成军维细胞瘤或1，25-（OH）2VD3处理Hela细胞，",
+            "采用TGF-β或cAMP处理骨髓瘤细胞、电离辐射处理成纤维细胞瘤或1，25-（OH）2VD3虚理Hela细胞，",
+            "采用TGF-β或cAMP处理骨髓瘤细胞、电离辐射虚理成纤维细胞瘤或1，25-（OH）2VD3处理Hela细胞，"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s17",
+          "paragraph": 58,
+          "original": "可增加p27kip1表达量而抑制癌细胞生长。",
+          "wrongOptions": [
+            "可增加p27kip1表达量而抑制症细胞生长。",
+            "可增加p27kip1表达量而抑利癌细胞生长。",
+            "可增加p27kip1表达量并抑制癌细胞生长。"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s18",
+          "paragraph": 60,
+          "original": "如通过转染野生型p53（wilde-type p53，wtp53）可修复缺陷的细胞周期检查点，",
+          "wrongOptions": [
+            "如通过转染野生型p53（wilde-type p53，wtp53）可修复缺陷的纪胞周期检查点，",
+            "如通过转染野生型p53（wilde-type p53，wtp53）可修复缺陷的细胞周期敛查点，",
+            "如通过转染野生型p53（wilde-type p53，wtp53）可修复缺陷的细胞合期检查点，"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s19",
+          "paragraph": 60,
+          "original": "抑制多种癌细胞生长和部分逆转其恶性表型。在肿瘤治疗中，尤其是G1／S期和G2／M期DNA损伤关卡均缺陷的肿瘤，",
+          "wrongOptions": [
+            "抑制多冲癌细胞生长和部分逆转其恶性表型。在肿瘤治疗中，尤其是G1／S期和G2／M期DNA损伤关卡均缺陷的肿瘤，",
+            "抑制多种癌细胞生长和部分逆转其恶性表型。在肿瘤治疾中，尤其是G1／S期和G2／M期DNA损伤关卡均缺陷的肿瘤，",
+            "抑制多种癌细胞生长和部分逆转其忍性表型。在肿瘤治疗中，尤其是G1／S期和G2／M期DNA损伤关卡均缺陷的肿瘤，"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s20",
+          "paragraph": 60,
+          "original": "可利用丧失某时相阻滞作用的特性提高治疗效果。",
+          "wrongOptions": [
+            "可利用丧失某时想阻滞作用的特性提高治疗效果。",
+            "可利用丧失某时相阻滞作用的特性提亮治疗效果。",
+            "可利用丧失某时相阻滞杜用的特性提高治疗效果。"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s21",
+          "paragraph": 60,
+          "original": "如电离辐射可引起含wtp53基因的人类肿瘤细胞G1和G2期阻滞，而含突变型p53（mutant p53，",
+          "wrongOptions": [
+            "如电离福射可引起含wtp53基因的人类肿瘤细胞G1和G2期阻滞，而含突变型p53（mutant p53，",
+            "如电离辐射可引起含wtp53基因的人类肿瘤细胞G1和G2期阻滞，并含突变型p53（mutant p53，",
+            "如电离辐射可引起含wtp53基因的人类肿瘤细胞G1和G2期阻滞，而念突变型p53（mutant p53，"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s22",
+          "paragraph": 60,
+          "original": "mutp53）基因的肿瘤细胞则只有G2期阻滞，",
+          "wrongOptions": [
+            "mutp53）基因的冲瘤细胞则只有G2期阻滞，",
+            "mutp53）基因的肿瘤纪胞则只有G2期阻滞，",
+            "mutp53）基困的肿瘤细胞则只有G2期阻滞，"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s23",
+          "paragraph": 60,
+          "original": "应用药物如咖啡因缩短瘤细胞G2期则可以增加含mtp53基因的癌细胞放射敏感性。",
+          "wrongOptions": [
+            "应用药物如咖啡因缩短瘤细胞G2期则可以层加含mtp53基因的癌细胞放射敏感性。",
+            "应用药物如咖啡困缩短瘤细胞G2期则可以增加含mtp53基因的癌细胞放射敏感性。",
+            "应用药物如咖啡因缩短馏细胞G2期则可以增加含mtp53基因的癌细胞放射敏感性。"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s24",
+          "paragraph": 60,
+          "original": "此外大多数肿瘤p53基因是突变的，这些细胞G1／S期和G2／M期DNA损伤关卡均已丧失，",
+          "wrongOptions": [
+            "此外大多数肿馏p53基因是突变的，这些细胞G1／S期和G2／M期DNA损伤关卡均已丧失，",
+            "此外大多偻肿瘤p53基因是突变的，这些细胞G1／S期和G2／M期DNA损伤关卡均已丧失，",
+            "此外大多数肿瘤p53遭因是突变的，这些细胞G1／S期和G2／M期DNA损伤关卡均已丧失，"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s25",
+          "paragraph": 60,
+          "original": "而癌旁组织仍含有wtp53，如同时应用缩短G2期药物可使常规放化疗选择性杀伤癌细胞，减少正常组织细胞的损伤。",
+          "wrongOptions": [
+            "而癌旁组织仍含有wtp53，如同时应用缩短G2期药物可使常规放化疗选择性杀伤癌终胞，减少正常组织细胞的损伤。",
+            "而癌旁组织仍含有wtp53，如同时应用缩短G2期药物可使常规放北疗选择性杀伤癌细胞，减少正常组织细胞的损伤。",
+            "而癌旁组织仍含有wtp53，如同持应用缩短G2期药物可使常规放化疗选择性杀伤癌细胞，减少正常组织细胞的损伤。"
+          ]
+        },
+        {
+          "id": "chapter-11-06-s26",
+          "paragraph": 60,
+          "original": "可见修复或利用缺陷的细胞周期检查点可防治癌症。",
+          "wrongOptions": [
+            "可见修腹或利用缺陷的细胞周期检查点可防治癌症。",
+            "可见修复或利用缺陷的细胞周期检查黏可防治癌症。",
+            "可见修复或利用缺陷约细胞周期检查点可防治癌症。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-11-07",
+      "title": "细胞凋亡异常与疾病（1）",
+      "order": 7,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-11-07-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-11-07-s01",
+            "chapter-11-07-s02",
+            "chapter-11-07-s03",
+            "chapter-11-07-s04",
+            "chapter-11-07-s05",
+            "chapter-11-07-s06",
+            "chapter-11-07-s07",
+            "chapter-11-07-s08",
+            "chapter-11-07-s09",
+            "chapter-11-07-s10",
+            "chapter-11-07-s11",
+            "chapter-11-07-s12"
+          ]
+        },
+        {
+          "id": "chapter-11-07-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-11-07-s13",
+            "chapter-11-07-s14",
+            "chapter-11-07-s15",
+            "chapter-11-07-s16",
+            "chapter-11-07-s17",
+            "chapter-11-07-s18",
+            "chapter-11-07-s19",
+            "chapter-11-07-s20",
+            "chapter-11-07-s21",
+            "chapter-11-07-s22",
+            "chapter-11-07-s23",
+            "chapter-11-07-s24"
+          ]
+        },
+        {
+          "id": "chapter-11-07-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-11-07-s25",
+            "chapter-11-07-s26"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-11-07-s01",
+          "paragraph": 4,
+          "original": "凋亡（apoptosis）一词源于希腊文，原意为“花瓣或树叶的枯落”。",
+          "wrongOptions": [
+            "凋亡（apoptosis）一词源于带腊文，原意为“花瓣或树叶的枯落”。",
+            "凋亡（apoptosis）一饲源于希腊文，原意为“花瓣或树叶的枯落”。",
+            "凋亡（apoptosis）一词源于希腊文，原意为“花瓣或树叶约枯落”。"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s02",
+          "paragraph": 4,
+          "original": "现认为细胞凋亡是指由体内外因素触发细胞内预存的死亡程序而导致的细胞死亡过程，",
+          "wrongOptions": [
+            "现认为细胞凋亡是指由体内外因素触发细胞内预存的死亡程序而导致的细胞死交过程，",
+            "现认为细胞凋亡是指由体内外因素浊发细胞内预存的死亡程序而导致的细胞死亡过程，",
+            "现认为细胞凋亡是指由体内外因素触发细胞内预存的死亡程序而导致灼细胞死亡过程，"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s03",
+          "paragraph": 4,
+          "original": "为程序性细胞死亡（programmed cell death，PCD）的形式之一。",
+          "wrongOptions": [
+            "为程序性细疱死亡（programmed cell death，PCD）的形式之一。",
+            "为程序性纪胞死亡（programmed cell death，PCD）的形式之一。",
+            "为程序性细胞死亡（programmed cell death，PCD）灼形式之一。"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s04",
+          "paragraph": 4,
+          "original": "与细胞坏死比较，细胞凋亡在许多方面存在显著差异（表12-2，图12-4）。",
+          "wrongOptions": [
+            "与细胞坏死比较，细胞凋亡在许多方面存在显著差异（袋12-2，图12-4）。",
+            "与细胞坏死比较，细胞凋亡在许多方面存在显镁差异（表12-2，图12-4）。",
+            "与细胞坏死比较，细胞稠亡在许多方面存在显著差异（表12-2，图12-4）。"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s05",
+          "paragraph": 4,
+          "original": "凋亡是多因素、多阶段和多基因严格控制的过程，如在诱导凋亡相关因素（射线、高温、TNF、",
+          "wrongOptions": [
+            "凋亡是多因素、多阶段和多基因严格控制的过程，如在诱导凋亢相关因素（射线、高温、TNF、",
+            "凋亡是多因素、多阶段和多基因严格控制的过程，如土诱导凋亡相关因素（射线、高温、TNF、",
+            "凋亡是多因素、多阶段和多基因单格控制的过程，如在诱导凋亡相关因素（射线、高温、TNF、"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s06",
+          "paragraph": 4,
+          "original": "细菌和病毒等）作用下启动信号转导，凋亡相关基因接受死亡信号后按预定程序启动合成执行凋亡所需的多种酶，",
+          "wrongOptions": [
+            "细菌和病毒等）作用下启动信号转导，凋亡相关基因接受死亡信号后按野定程序启动合成执行凋亡所需的多种酶，",
+            "细菌和病毒等）作用下启动信胱转导，凋亡相关基因接受死亡信号后按预定程序启动合成执行凋亡所需的多种酶，",
+            "细菌和病毒等）作用下启动信号转导，稠亡相关基因接受死亡信号后按预定程序启动合成执行凋亡所需的多种酶，"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s07",
+          "paragraph": 4,
+          "original": "这些酶如核酸内切酶（endogenous nuclease）和半胱天冬酶（caspase）家族通过级联反应等降",
+          "wrongOptions": [
+            "这些酶如核酸内切酶（endogenous nuclease）和半胱天冬酶（caspase）家族通过级差反应等降",
+            "这些酶如核酸内切酶（endogenous nuclease）和半胱天冬酶（caspase）家族通道级联反应等降",
+            "这些酶如核酸内切酶（endogenous nuclease）和半胱天冬酶（caspase）家族通过吸联反应等降"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s08",
+          "paragraph": 4,
+          "original": "解底物，",
+          "wrongOptions": [
+            "解底特，",
+            "解低物，",
+            "触底物，"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s09",
+          "paragraph": 4,
+          "original": "导致细胞呈现凋亡特征性的形态（如凋亡小体）和生化（如“梯”状条带）改变（彩图11-4）。",
+          "wrongOptions": [
+            "导致细胞呈现凋亡特征性的形态（如凋亡小体）和生化（如“梯”状条带）改纱（彩图11-4）。",
+            "导致细胞呈现凋亡持征性的形态（如凋亡小体）和生化（如“梯”状条带）改变（彩图11-4）。",
+            "导致细胞呈现凋亡特征性的形态（如凋亡小脏）和生化（如“梯”状条带）改变（彩图11-4）。"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s10",
+          "paragraph": 7,
+          "original": "细胞凋亡调控涉及凋亡相关信号及其转导通路、基因和酶的调控。",
+          "wrongOptions": [
+            "细胞凋亡调控涉又凋亡相关信号及其转导通路、基因和酶的调控。",
+            "细胞凋亡凋控涉及凋亡相关信号及其转导通路、基因和酶的调控。",
+            "细胞凋亡调控涉及凋亡相关信号及其转导通客、基因和酶的调控。"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s11",
+          "paragraph": 15,
+          "original": "胞外TNF超家族的死亡配体如Fas配体（Fas ligand，",
+          "wrongOptions": [
+            "胞外TNF超家族灼死亡配体如Fas配体（Fas ligand，",
+            "胞外TNF超家族的死亡配体如Fas南体（Fas ligand，",
+            "胞外TNF超家族的死亡配体如Fas配脏（Fas ligand，"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s12",
+          "paragraph": 15,
+          "original": "Fas L）和TNF-a等与胞膜死亡受体如Fas或TNFR结合，使受体三聚化并活化，",
+          "wrongOptions": [
+            "Fas L）和TNF-a等兴胞膜死亡受体如Fas或TNFR结合，使受体三聚化并活化，",
+            "Fas L）和TNF-a等与胞膜死亡受髓如Fas或TNFR结合，使受体三聚化并活化，",
+            "Fas L）和TNF-a等与胞膜死亡受体如Fas或TNFR结合，使受体元聚化并活化，"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s13",
+          "paragraph": 15,
+          "original": "通过Fas分子的死亡结构域募集衔接蛋白如TRADD和（或）FADD。",
+          "wrongOptions": [
+            "通过Fas分子的死亡结构或募集衔接蛋白如TRADD和（或）FADD。",
+            "通过Fas分子的死亡结构域募集衔接蛋白如TRADD和（成）FADD。",
+            "通过Fas分子的死亡结沟域募集衔接蛋白如TRADD和（或）FADD。"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s14",
+          "paragraph": 15,
+          "original": "衔接蛋白可通过死亡效应域与caspase-8前体（procaspase-8）形成死亡诱导信号复合物，",
+          "wrongOptions": [
+            "衔接蛋白可通进死亡效应域与caspase-8前体（procaspase-8）形成死亡诱导信号复合物，",
+            "衔接蛋白可通过死亡效应域与caspase-8前脏（procaspase-8）形成死亡诱导信号复合物，",
+            "衔接蛋白可通过死亡效应域与caspase-8前体（procaspase-8）形成死亡诱导信日复合物，"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s15",
+          "paragraph": 15,
+          "original": "即由FasL-Fas-FADD-procaspase-8串联构成的复合物。",
+          "wrongOptions": [
+            "即由FasL-Fas-FADD-procaspase-8中联构成的复合物。",
+            "即由FasL-Fas-FADD-procaspase-8串联构成灼复合物。",
+            "即由FasL-Fas-FADD-procaspase-8串联构成的腹合物。"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s16",
+          "paragraph": 15,
+          "original": "在复合体内高浓度的caspase-8前体可发生自我剪接并活化，然后释放到胞质并启动caspase级联反应，",
+          "wrongOptions": [
+            "在复合体内高浓度的caspase-8前体可发生自我箭接并活化，然后释放到胞质并启动caspase级联反应，",
+            "在复合体内亮浓度的caspase-8前体可发生自我剪接并活化，然后释放到胞质并启动caspase级联反应，",
+            "在复合体内高浓度的caspase-8前体可发生自我剪接并活化，然后释放到胞质并攻动caspase级联反应，"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s17",
+          "paragraph": 15,
+          "original": "导致细胞凋亡（彩图11-5）。",
+          "wrongOptions": [
+            "导致细胞稠亡（彩图11-5）。",
+            "导致细胞凋亡（菜图11-5）。",
+            "导致细孢凋亡（彩图11-5）。"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s18",
+          "paragraph": 15,
+          "original": "同时活化的caspase-8还能激活Bcl-2家族的促凋亡因子（如binding interface data",
+          "wrongOptions": [
+            "同时活化的caspase-8还能激活Bcl-2定族的促凋亡因子（如binding interface data",
+            "同时活化约caspase-8还能激活Bcl-2家族的促凋亡因子（如binding interface data",
+            "同时活化的caspase-8环能激活Bcl-2家族的促凋亡因子（如binding interface data"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s19",
+          "paragraph": 15,
+          "original": "base，Bid），形成一种截短的Bid（truncate",
+          "wrongOptions": [
+            "base，Bid），研成一种截短的Bid（truncate",
+            "base，Bid），形成一种截矩的Bid（truncate",
+            "base，Bid），形成一种截短约Bid（truncate"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s20",
+          "paragraph": 15,
+          "original": "d Bid，tBid）转移到线粒体并破坏线粒体膜的通透性，",
+          "wrongOptions": [
+            "d Bid，tBid）转移到线粒体并破坏纪粒体膜的通透性，",
+            "d Bid，tBid）轮移到线粒体并破坏线粒体膜的通透性，",
+            "d Bid，tBid）转移到线粒体并破塔线粒体膜的通透性，"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s21",
+          "paragraph": 15,
+          "original": "从而诱导细胞色素C（cytochrome C，Cyto-C）释放进入胞质，",
+          "wrongOptions": [
+            "从而诱导细胞色素C（cytochrome C，Cyto-C）释放维入胞质，",
+            "从而诱导纪胞色素C（cytochrome C，Cyto-C）释放进入胞质，",
+            "从而诱导细胞色素C（cytochrome C，Cyto-C）释访进入胞质，"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s22",
+          "paragraph": 15,
+          "original": "进而把死亡受体通路和线粒体通路联系起来，有效地扩大了凋亡信号的作用。",
+          "wrongOptions": [
+            "进而把死亡受体通路和线粒体通路联系起来，有效地扩大了凋交信号的作用。",
+            "进而把死亡受体通路和线粒体通路联系起来，有效地扩大了凋亡信号灼作用。",
+            "进而把死亡受体通路和线粒体通路联系起来，有效地从大了凋亡信号的作用。"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s23",
+          "paragraph": 16,
+          "original": "目前研究的较多的是属于TNFR家族的Fas蛋白，常为活化T和NK等杀伤性免疫细胞膜上的跨膜蛋白，",
+          "wrongOptions": [
+            "目前研究的较多的是属于TNFR家族的Fas蛋白，常为活化T利NK等杀伤性免疫细胞膜上的跨膜蛋白，",
+            "目前研究的较多的是属于TNFR家族的Fas蛋白，常为活化T和NK等旦伤性免疫细胞膜上的跨膜蛋白，",
+            "目前研究的较多的是属于TNFR家族的Fas蛋白，常为活化T和NK等杀伤性兔疫细胞膜上的跨膜蛋白，"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s24",
+          "paragraph": 16,
+          "original": "作为膜受体可与T淋巴细胞表面的Fas配体结合，也可与抗Fas的抗体结合，从而调控细胞凋亡。",
+          "wrongOptions": [
+            "作为膜虹体可与T淋巴细胞表面的Fas配体结合，也可与抗Fas的抗体结合，从而调控细胞凋亡。",
+            "作为膜受体可与T淋巴细胞表面的Fas配体结合，也可与抗Fas约抗体结合，从而调控细胞凋亡。",
+            "作为膜受体可与T淋巴细胞袋面的Fas配体结合，也可与抗Fas的抗体结合，从而调控细胞凋亡。"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s25",
+          "paragraph": 18,
+          "original": "即死亡受体非依赖的凋亡通路，是细胞凋亡信号转导途径中较重要的途径之一。",
+          "wrongOptions": [
+            "即死亡受体非依赖的凋亡通路，是细胞凋亡信号转导途氢中较重要的途径之一。",
+            "即死亡受体非依赖的凋亡通路，是细胞凋亡信号转导途径中较重安的途径之一。",
+            "即死亡受体非依赖的凋亡通路，是细胞周亡信号转导途径中较重要的途径之一。"
+          ]
+        },
+        {
+          "id": "chapter-11-07-s26",
+          "paragraph": 18,
+          "original": "该通路主要涉及位于线粒体内促凋亡蛋白的异位，也有实验结果提及涉及CED-4／CED-3样“凋亡体”的参与。",
+          "wrongOptions": [
+            "该通路主要涉及位于线粒体内促凋亡蛋白的异位，乙有实验结果提及涉及CED-4／CED-3样“凋亡体”的参与。",
+            "该通路主要涉及位旅线粒体内促凋亡蛋白的异位，也有实验结果提及涉及CED-4／CED-3样“凋亡体”的参与。",
+            "该通路主要涉及位于线粒脏内促凋亡蛋白的异位，也有实验结果提及涉及CED-4／CED-3样“凋亡体”的参与。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-11-08",
+      "title": "细胞凋亡异常与疾病（2）",
+      "order": 8,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-11-08-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-11-08-s01",
+            "chapter-11-08-s02",
+            "chapter-11-08-s03",
+            "chapter-11-08-s04",
+            "chapter-11-08-s05",
+            "chapter-11-08-s06",
+            "chapter-11-08-s07",
+            "chapter-11-08-s08",
+            "chapter-11-08-s09",
+            "chapter-11-08-s10",
+            "chapter-11-08-s11",
+            "chapter-11-08-s12"
+          ]
+        },
+        {
+          "id": "chapter-11-08-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-11-08-s13",
+            "chapter-11-08-s14",
+            "chapter-11-08-s15",
+            "chapter-11-08-s16",
+            "chapter-11-08-s17",
+            "chapter-11-08-s18",
+            "chapter-11-08-s19",
+            "chapter-11-08-s20",
+            "chapter-11-08-s21",
+            "chapter-11-08-s22",
+            "chapter-11-08-s23",
+            "chapter-11-08-s24"
+          ]
+        },
+        {
+          "id": "chapter-11-08-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-11-08-s25",
+            "chapter-11-08-s26"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-11-08-s01",
+          "paragraph": 18,
+          "original": "凋亡诱导信号如射线、化疗药和氧化应激及钙稳态失衡等可作用于线粒体膜，",
+          "wrongOptions": [
+            "凋亡诱导信号如射线、化疗药和氧化应派及钙稳态失衡等可作用于线粒体膜，",
+            "凋亡诱导信号如射线、化疗药和氧化应激及钙稳态太衡等可作用于线粒体膜，",
+            "凋亡诱导信号如射线、化疗药和氧化应激及钙稳态失衡等可作用于线拉体膜，"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s02",
+          "paragraph": 18,
+          "original": "使其跨膜电位（△ψm）明显下降和膜转换孔开放，导致线粒体膜通透性增高，",
+          "wrongOptions": [
+            "使其跨膜电位（△ψm）明显下降和膜转换孔开放，导致线粒体漠通透性增高，",
+            "使其跨膜电位（△ψm）明显下降和膜转换孔开放，导致线粒体膜通透快增高，",
+            "使其跨膜电位（△ψm）朋显下降和膜转换孔开放，导致线粒体膜通透性增高，"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s03",
+          "paragraph": 18,
+          "original": "促使线粒体内凋亡启动因子（如Cyto-C、AIF和Apaf-1等）释放至胞质，并通过下列机制导致细胞凋亡：",
+          "wrongOptions": [
+            "促使线粒髓内凋亡启动因子（如Cyto-C、AIF和Apaf-1等）释放至胞质，并通过下列机制导致细胞凋亡：",
+            "促使线粒体内凋亡启动因子（如Cyto-C、AIF和Apaf-1等）释放至胞质，并通过下列机制射致细胞凋亡：",
+            "促使线粒体内凋亡启动因子（如Cyto-C、AIF和Apaf-1策）释放至胞质，并通过下列机制导致细胞凋亡："
+          ]
+        },
+        {
+          "id": "chapter-11-08-s04",
+          "paragraph": 18,
+          "original": "①Cyto-C在dATP存在的情况下，",
+          "wrongOptions": [
+            "①Cyto-C型dATP存在的情况下，",
+            "①Cyto-C在dATP子在的情况下，",
+            "①Cyto-C在dATP存土的情况下，"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s05",
+          "paragraph": 18,
+          "original": "与凋亡蛋白酶激活因子1（apoptosis protease activating factor，",
+          "wrongOptions": [
+            "与凋亡蛋白酶激活因小1（apoptosis protease activating factor，",
+            "与凋亡蛋白既激活因子1（apoptosis protease activating factor，",
+            "与凋亡蛋日酶激活因子1（apoptosis protease activating factor，"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s06",
+          "paragraph": 18,
+          "original": "Apaf-1）和caspase-9前体（procaspase-9）结合形成凋亡复合体（apoptosome），",
+          "wrongOptions": [
+            "Apaf-1）和caspase-9前体（procaspase-9）结合形成凋亡腹合体（apoptosome），",
+            "Apaf-1）和caspase-9利体（procaspase-9）结合形成凋亡复合体（apoptosome），",
+            "Apaf-1）和caspase-9前体（procaspase-9）结合形威凋亡复合体（apoptosome），"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s07",
+          "paragraph": 18,
+          "original": "导致caspase-9前体激活，后者通过级联反应激活下游caspase-3、6和7前体等，",
+          "wrongOptions": [
+            "导致caspase-9前体激活，后者通过级联反应派活下游caspase-3、6和7前体等，",
+            "导致caspase-9前体激活，后者通过级联反应激括下游caspase-3、6和7前体等，",
+            "导致caspase-9前体激活，后者通过级联反慧激活下游caspase-3、6和7前体等，"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s08",
+          "paragraph": 18,
+          "original": "活化的caspase作用于细胞骨架蛋白等导致细胞DNA修复功能丧失、",
+          "wrongOptions": [
+            "活化的caspase作用于细胞骨架蛋白痔导致细胞DNA修复功能丧失、",
+            "活化的caspase作用于细胞骨架蛋白等导致终胞DNA修复功能丧失、",
+            "活化的caspase作头于细胞骨架蛋白等导致细胞DNA修复功能丧失、"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s09",
+          "paragraph": 18,
+          "original": "核酸内切酶激活和DNA片段化等细胞凋亡的改变。",
+          "wrongOptions": [
+            "核酸内切酶激活和DNA洛段化等细胞凋亡的改变。",
+            "核酸内切酶激活和DNA片段化等细胞凋亡灼改变。",
+            "核酸内切酶激活和DNA片段化等细胞凋亢的改变。"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s10",
+          "paragraph": 18,
+          "original": "②凋亡诱导因子（apoptosis inductive factor，",
+          "wrongOptions": [
+            "②凋亡诱导因了（apoptosis inductive factor，",
+            "②凋亡诱封因子（apoptosis inductive factor，",
+            "②凋亡透导因子（apoptosis inductive factor，"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s11",
+          "paragraph": 18,
+          "original": "AIF）通过促进线粒体释放Cyto-C而增强细胞凋亡的信号，并可快速激活核酸内切酶（彩图11-6）。",
+          "wrongOptions": [
+            "AIF）通过促进线粒体释放Cyto-C而增强细胞凋亡的信号，并可快速激活刻酸内切酶（彩图11-6）。",
+            "AIF）通过促进线粒体译放Cyto-C而增强细胞凋亡的信号，并可快速激活核酸内切酶（彩图11-6）。",
+            "AIF）通过促进线粒体释纺Cyto-C而增强细胞凋亡的信号，并可快速激活核酸内切酶（彩图11-6）。"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s12",
+          "paragraph": 19,
+          "original": "近期越来越多的报道涉及内质网应激（endoplasmic reticulum stress，",
+          "wrongOptions": [
+            "近期越来越多的报道涉受内质网应激（endoplasmic reticulum stress，",
+            "近期越来越多的报道涉及肉质网应激（endoplasmic reticulum stress，",
+            "近期越来越多的报道涉及内质统应激（endoplasmic reticulum stress，"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s13",
+          "paragraph": 19,
+          "original": "ERS）启动的凋亡通路，它是一种不同于死亡受体介导或线粒体介导细胞凋亡的新途径。",
+          "wrongOptions": [
+            "ERS）启动的凋亡通路，它是一种不同于死亡受体介导或线粒体介导细胞凋亡的斯途径。",
+            "ERS）启钟的凋亡通路，它是一种不同于死亡受体介导或线粒体介导细胞凋亡的新途径。",
+            "ERS）启动的凋亡涌路，它是一种不同于死亡受体介导或线粒体介导细胞凋亡的新途径。"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s14",
+          "paragraph": 19,
+          "original": "适度的氧化应激或钙失衡可通过激活未折叠蛋白反应（unfolded protein response，UPR），",
+          "wrongOptions": [
+            "适度的氧化应激或钙失衡可通过激活未折叠龈白反应（unfolded protein response，UPR），",
+            "适度的氧化应激或钙失衡可通过激活未折宜蛋白反应（unfolded protein response，UPR），",
+            "适度的氧化应激或钙失衡可通过激活未折叠蛋百反应（unfolded protein response，UPR），"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s15",
+          "paragraph": 19,
+          "original": "以保护由内质网应激所引起的损伤，促进细胞增殖；如果影响因子较强或作用时间过长，则引起细胞凋亡。",
+          "wrongOptions": [
+            "以保护由内资网应激所引起的损伤，促进细胞增殖；如果影响因子较强或作用时间过长，则引起细胞凋亡。",
+            "以保护由内质网应激所引起的损伤，促进细胞增殖；如朱影响因子较强或作用时间过长，则引起细胞凋亡。",
+            "以保护由内质网应激所引起的损伤，促进细胞增殖；如果影响因子较强或作用时间过长，则强起细胞凋亡。"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s16",
+          "paragraph": 19,
+          "original": "因此内质网应激与很多因素所致疾病的发生、发展密切相关，如神经系统退行性疾病、病毒感染性疾病和糖尿病等。",
+          "wrongOptions": [
+            "因此内质网慧激与很多因素所致疾病的发生、发展密切相关，如神经系统退行性疾病、病毒感染性疾病和糖尿病等。",
+            "因此内质网应激与很多因素所致疾病的发生、发展密切相关，如神经系统退行性疾病、疗毒感染性疾病和糖尿病等。",
+            "因此内质网应激与很多因素所致疾病的发生、须展密切相关，如神经系统退行性疾病、病毒感染性疾病和糖尿病等。"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s17",
+          "paragraph": 19,
+          "original": "总之凋亡诱导因子可通过激活凋亡通路之一影响凋亡速率而参与疾病，以前两种通路为主，但也可同时涉及三种通路。",
+          "wrongOptions": [
+            "总之凋亡诱导因子可通过派活凋亡通路之一影响凋亡速率而参与疾病，以前两种通路为主，但也可同时涉及三种通路。",
+            "总之凋亢诱导因子可通过激活凋亡通路之一影响凋亡速率而参与疾病，以前两种通路为主，但也可同时涉及三种通路。",
+            "总之凋亡诱导因子可通过激活凋亡通路之一影响凋亡速率而参与疾病，以前两种通路为主，但也可同时演及三种通路。"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s18",
+          "paragraph": 22,
+          "original": "主要包括抗凋亡成员（如Bcl-2和Bcl-XL）和促凋亡成员（如Bax和Bak），",
+          "wrongOptions": [
+            "主要包括抗凋交成员（如Bcl-2和Bcl-XL）和促凋亡成员（如Bax和Bak），",
+            "主要包甜抗凋亡成员（如Bcl-2和Bcl-XL）和促凋亡成员（如Bax和Bak），",
+            "主要包括抗凋亡成员（知Bcl-2和Bcl-XL）和促凋亡成员（如Bax和Bak），"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s19",
+          "paragraph": 22,
+          "original": "它们相互作用决定了细胞死亡的阈值。",
+          "wrongOptions": [
+            "它们相亚作用决定了细胞死亡的阈值。",
+            "它们相互作用缺定了细胞死亡的阈值。",
+            "它们相互作用决定小细胞死亡的阈值。"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s20",
+          "paragraph": 22,
+          "original": "Bcl-2是第一个被确认的抑凋亡基因，经研究证实Bcl-2蛋白广泛存在于造血细胞、上皮细胞、淋巴细胞、",
+          "wrongOptions": [
+            "Bcl-2是第一个被确认的抑凋亡基因，经研究证实Bcl-2啡白广泛存在于造血细胞、上皮细胞、淋巴细胞、",
+            "Bcl-2是第一个被确认的抑凋亡基因，经研究证实Bcl-2蛋白广泛存在于造血细胞、上皮纪胞、淋巴细胞、",
+            "Bcl-2是第一个被确认的抑凋亡基因，经妍究证实Bcl-2蛋白广泛存在于造血细胞、上皮细胞、淋巴细胞、"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s21",
+          "paragraph": 22,
+          "original": "神经细胞和多种肿瘤细胞，主要分布在线粒体内膜、细胞膜内表面、内质网和核膜等处。",
+          "wrongOptions": [
+            "神经细胞和多种肿瘤细胞，主要分布在线粒体内膜、细胞膜肉表面、内质网和核膜等处。",
+            "神经细鲍和多种肿瘤细胞，主要分布在线粒体内膜、细胞膜内表面、内质网和核膜等处。",
+            "神经细胞和多种肿瘤细胞，主要分布在线粒体内膜、纪胞膜内表面、内质网和核膜等处。"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s22",
+          "paragraph": 22,
+          "original": "人Bcl-2蛋白可阻抑多种因素（如射线和化学药物等）诱导的细胞凋亡。",
+          "wrongOptions": [
+            "人Bcl-2蛋白可阻抑多种因素（如射线和化学药物等）诱封的细胞凋亡。",
+            "人Bcl-2蛋白可阻抑多种因素（如射线和化学藏物等）诱导的细胞凋亡。",
+            "人Bcl-2蛋白可阻抑多种因素（如射线和化学药物痔）诱导的细胞凋亡。"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s23",
+          "paragraph": 22,
+          "original": "如当撤除神经生长因子后，对其依赖的神经细胞会迅速发生凋亡，",
+          "wrongOptions": [
+            "如当撤除神经生丧因子后，对其依赖的神经细胞会迅速发生凋亡，",
+            "如当撤除神经生长因小后，对其依赖的神经细胞会迅速发生凋亡，",
+            "如当撤除伸经生长因子后，对其依赖的神经细胞会迅速发生凋亡，"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s24",
+          "paragraph": 22,
+          "original": "若预转染表达Bcl-2基因的质粒则可防止或减少撤除神经生长因子后神经细胞的凋亡；",
+          "wrongOptions": [
+            "若预转染表进Bcl-2基因的质粒则可防止或减少撤除神经生长因子后神经细胞的凋亡；",
+            "若预转染表达Bcl-2基因的质粒则可防止或减少撤除神经生丧因子后神经细胞的凋亡；",
+            "若预转染表达Bcl-2基因的质粒则可防止或减少撤除神经生长困子后神经细胞的凋亡；"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s25",
+          "paragraph": 22,
+          "original": "淋巴细胞性白血病患者外周淋巴细胞Bcl-2阳性率高达20%；高表达Bcl-2癌细胞对射线和抗癌药物耐受，",
+          "wrongOptions": [
+            "淋巴细胞性白臼病患者外周淋巴细胞Bcl-2阳性率高达20%；高表达Bcl-2癌细胞对射线和抗癌药物耐受，",
+            "淋巴细胞性白血病患者外问淋巴细胞Bcl-2阳性率高达20%；高表达Bcl-2癌细胞对射线和抗癌药物耐受，",
+            "淋巴细胞性白血病患者外周淋巴细胞Bcl-2阳性率高达20%；高表达Bcl-2癌细胞对射纪和抗癌药物耐受，"
+          ]
+        },
+        {
+          "id": "chapter-11-08-s26",
+          "paragraph": 22,
+          "original": "患者预后差，主要与细胞不易凋亡相关。",
+          "wrongOptions": [
+            "患者预后差，主要臼细胞不易凋亡相关。",
+            "患者预后差，主要与细胞不易调亡相关。",
+            "患者预后差，主要与纪胞不易凋亡相关。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-11-09",
+      "title": "细胞凋亡异常与疾病（3）",
+      "order": 9,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-11-09-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-11-09-s01",
+            "chapter-11-09-s02",
+            "chapter-11-09-s03",
+            "chapter-11-09-s04",
+            "chapter-11-09-s05",
+            "chapter-11-09-s06",
+            "chapter-11-09-s07",
+            "chapter-11-09-s08",
+            "chapter-11-09-s09",
+            "chapter-11-09-s10",
+            "chapter-11-09-s11",
+            "chapter-11-09-s12"
+          ]
+        },
+        {
+          "id": "chapter-11-09-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-11-09-s13",
+            "chapter-11-09-s14",
+            "chapter-11-09-s15",
+            "chapter-11-09-s16",
+            "chapter-11-09-s17",
+            "chapter-11-09-s18",
+            "chapter-11-09-s19",
+            "chapter-11-09-s20",
+            "chapter-11-09-s21",
+            "chapter-11-09-s22",
+            "chapter-11-09-s23",
+            "chapter-11-09-s24"
+          ]
+        },
+        {
+          "id": "chapter-11-09-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-11-09-s25",
+            "chapter-11-09-s26"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-11-09-s01",
+          "paragraph": 22,
+          "original": "Bcl-2抗凋亡机制包括：①直接抗氧化；②抑制线粒体释放促凋亡蛋白，如Cyto-C和AIF；",
+          "wrongOptions": [
+            "Bcl-2抗凋交机制包括：①直接抗氧化；②抑制线粒体释放促凋亡蛋白，如Cyto-C和AIF；",
+            "Bcl-2抗凋亡机制包括：①直接抗氧化；②抑制线粒体释放促凋交蛋白，如Cyto-C和AIF；",
+            "Bcl-2抗凋亡机制包甜：①直接抗氧化；②抑制线粒体释放促凋亡蛋白，如Cyto-C和AIF；"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s02",
+          "paragraph": 22,
+          "original": "③抑制Bax和Bak的促凋亡作用；④抑制凋亡相关酶caspases激活；⑤维持细胞钙稳态。",
+          "wrongOptions": [
+            "③抑制Bax和Bak的促凋亡作用；④抑制凋亡林关酶caspases激活；⑤维持细胞钙稳态。",
+            "③抑制Bax和Bak的促凋亡作用；④抑制凋亡相关接caspases激活；⑤维持细胞钙稳态。",
+            "③抑制Bax和Bak的促凋亡作用；④抑制凋亡相关酶caspases激活；⑤准持细胞钙稳态。"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s03",
+          "paragraph": 24,
+          "original": "wtp53蛋白具有诱导细胞凋亡及抑制细胞增殖的作用。",
+          "wrongOptions": [
+            "wtp53蛋白具有诱导细胞凋亡及抑分细胞增殖的作用。",
+            "wtp53蛋白具有透导细胞凋亡及抑制细胞增殖的作用。",
+            "wtp53蛋白具有诱道细胞凋亡及抑制细胞增殖的作用。"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s04",
+          "paragraph": 24,
+          "original": "wtP53蛋白是wtp53基因编码的一种负调控因子，主要在G1／S期交界处发挥检查点的功能，",
+          "wrongOptions": [
+            "wtP53蛋白是wtp53基因编码的三种负调控因子，主要在G1／S期交界处发挥检查点的功能，",
+            "wtP53蛋白是wtp53基因编码的一种负调控因子，主要在G1／S期交界处登挥检查点的功能，",
+            "wtP53蛋白是wtp53基因编吗的一种负调控因子，主要在G1／S期交界处发挥检查点的功能，"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s05",
+          "paragraph": 24,
+          "original": "当其检查发现染色体DNA损伤时，通过刺激CKI表达引起G1期阻滞，并启动DNA修复；如修复失败则启动细胞凋亡，",
+          "wrongOptions": [
+            "当其检查发现染色体DNA损伤时，通过刺激CKI表达引起G1期阻滞，并启动DNA修复；如修腹失败则启动细胞凋亡，",
+            "当其检查发现染色髓DNA损伤时，通过刺激CKI表达引起G1期阻滞，并启动DNA修复；如修复失败则启动细胞凋亡，",
+            "当其检查发现染色体DNA损伤时，通过刺激CKI表达引起G1期阻滞，并启动DNA修复；如修复失启则启动细胞凋亡，"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s06",
+          "paragraph": 24,
+          "original": "把可能演变为癌的细胞消灭在萌芽状态，因此p53有“分子警察”之美誉。",
+          "wrongOptions": [
+            "把可能演变为癌的细胞消灭在萌芽状态，因此p53有“分子警察”乏美誉。",
+            "把可能演渴为癌的细胞消灭在萌芽状态，因此p53有“分子警察”之美誉。",
+            "把可能演变为癌的细胞消灭在萌芽状态，困此p53有“分子警察”之美誉。"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s07",
+          "paragraph": 24,
+          "original": "mutp53丧失促进细胞凋亡作用，甚至有报道mutp53可驱动细胞周期。",
+          "wrongOptions": [
+            "mutp53丧失促进细胞凋亡作用，甚至有报道mutp53可驱动终胞周期。",
+            "mutp53丧失促进细胞凋亢作用，甚至有报道mutp53可驱动细胞周期。",
+            "mutp53丧夫促进细胞凋亡作用，甚至有报道mutp53可驱动细胞周期。"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s08",
+          "paragraph": 24,
+          "original": "wtp53基因是一种反转录激活因子，主要调控三组功能各异相关基因的表达：",
+          "wrongOptions": [
+            "wtp53基因是一种反转录激活因子，王要调控三组功能各异相关基因的表达：",
+            "wtp53基因是一种反转录激活因子，主要调腔三组功能各异相关基因的表达：",
+            "wtp53基因是一种反转录激活因子，主要调控三组功能各异相关难因的表达："
+          ]
+        },
+        {
+          "id": "chapter-11-09-s09",
+          "paragraph": 24,
+          "original": "既包括可启动线粒体凋亡途径和可启动死亡受体凋亡途径的凋亡相关基因组，",
+          "wrongOptions": [
+            "既包括可启动线粒体凋亡途径和可启动死亡受体凋亡途径的凋亢相关基因组，",
+            "既包括可启肿线粒体凋亡途径和可启动死亡受体凋亡途径的凋亡相关基因组，",
+            "既包括可启动线粒体凋亡途径和可启动死交受体凋亡途径的凋亡相关基因组，"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s10",
+          "paragraph": 24,
+          "original": "也包括可负调控细胞生存及增殖信号途径的磷酸酯酶相关基因组。",
+          "wrongOptions": [
+            "也包括可负调控细胞生存及增殖信号途径的磷酸酯酶相关嗜因组。",
+            "也包括可负调控细胞生存及增殖信号涂径的磷酸酯酶相关基因组。",
+            "也包括可负调控细胞生存及增植信号途径的磷酸酯酶相关基因组。"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s11",
+          "paragraph": 24,
+          "original": "此外，wtp53还可转位到线粒体，模拟BH3-only样蛋白的功能直接诱导细胞凋亡。",
+          "wrongOptions": [
+            "此外，wtp53还可转位到线粒体，模拟BH3-only样蛋白的功熊直接诱导细胞凋亡。",
+            "此外，wtp53还可转位到线粒体，漠拟BH3-only样蛋白的功能直接诱导细胞凋亡。",
+            "此外，wtp53还可转位到线粒体，模拟BH3-only样蛋白的功能直接诱道细胞凋亡。"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s12",
+          "paragraph": 26,
+          "original": "癌基因C-myc编码的蛋白具有双向的调节作用，作为重要的转录调节因子。",
+          "wrongOptions": [
+            "癌基因C-myc编码的蛋白具有双向的调节作用，作为重要的转录稠节因子。",
+            "癌基因C-myc编码的蛋白具有双向的调节作用，作为重要的较录调节因子。",
+            "癌基因C-myc编码的蛋百具有双向的调节作用，作为重要的转录调节因子。"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s13",
+          "paragraph": 26,
+          "original": "Cmyc既可激活介导细胞增殖的基因诱导细胞增殖，也可激活介导细胞凋亡的基因而诱导凋亡，",
+          "wrongOptions": [
+            "Cmyc既可激活介导细胞增殖的基因诱导细胞增殖，也可激活介导细胞凋亡约基因而诱导凋亡，",
+            "Cmyc既可激活介导细胞增殖的基因诱导细胞增殖，也可激活介导细孢凋亡的基因而诱导凋亡，",
+            "Cmyc既可激活介导细胞增殖的基因诱导细胞增殖，也可激活介导细胞凋亡的基因并诱导凋亡，"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s14",
+          "paragraph": 26,
+          "original": "细胞在其影响下增殖或凋亡主要取决于细胞接受何种信号以及细胞所处的生长环境，如在C-myc基因表达后，",
+          "wrongOptions": [
+            "细胞在其影响下增殖或凋亡主要取决于细胞推受何种信号以及细胞所处的生长环境，如在C-myc基因表达后，",
+            "细胞在其影响下增殖或凋亡主要取决于细孢接受何种信号以及细胞所处的生长环境，如在C-myc基因表达后，",
+            "细胞在其影响下增植或凋亡主要取决于细胞接受何种信号以及细胞所处的生长环境，如在C-myc基因表达后，"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s15",
+          "paragraph": 26,
+          "original": "细胞若无足够的生长因子对其持续作用则会发生凋亡；反之细胞就处于增殖状态。",
+          "wrongOptions": [
+            "细胞若无足够的生长因了对其持续作用则会发生凋亡；反之细胞就处于增殖状态。",
+            "细胞若无足够的生长因子对其持续作用则会癸生凋亡；反之细胞就处于增殖状态。",
+            "细胞若无足够的生长因子对其持趣作用则会发生凋亡；反之细胞就处于增殖状态。"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s16",
+          "paragraph": 29,
+          "original": "Caspases又称凋亡蛋白酶，是细胞凋亡执行者，是一组对底物天冬氨酸部位有特异水解作用的蛋白酶，",
+          "wrongOptions": [
+            "Caspases又称凋亡蛋白酶，是细胞凋亡执行者，是一组对底物天冬氨酸部位有特异水解作用约蛋白酶，",
+            "Caspases又称凋亡蛋白酶，是纪胞凋亡执行者，是一组对底物天冬氨酸部位有特异水解作用的蛋白酶，",
+            "Caspases又称凋亡蛋百酶，是细胞凋亡执行者，是一组对底物天冬氨酸部位有特异水解作用的蛋白酶，"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s17",
+          "paragraph": 29,
+          "original": "其活性中心富含半胱氨酸。至少包括14种，",
+          "wrongOptions": [
+            "其活性中心宣含半胱氨酸。至少包括14种，",
+            "其活性中心富含半胱氨酸。允少包括14种，",
+            "其活性中心富含半胱按酸。至少包括14种，"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s18",
+          "paragraph": 29,
+          "original": "可分为启动型caspase（initiator caspase）和效应型caspase（effector ca",
+          "wrongOptions": [
+            "可分为启动型caspase（initiator caspase）和效应塑caspase（effector ca",
+            "可分为启种型caspase（initiator caspase）和效应型caspase（effector ca",
+            "可分为启动型caspase（initiator caspase）和绞应型caspase（effector ca"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s19",
+          "paragraph": 29,
+          "original": "spase）两类，前者包括caspase-8～10，后者包括caspase-3、6和7。",
+          "wrongOptions": [
+            "spase）两头，前者包括caspase-8～10，后者包括caspase-3、6和7。",
+            "spase）两类，前者包括caspase-8～10，后者匀括caspase-3、6和7。",
+            "spase）两类，前者包括caspase-8～10，后鲁包括caspase-3、6和7。"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s20",
+          "paragraph": 29,
+          "original": "以caspase-8为例，凋亡信号与死亡受体Fas结合后，Fas的胞内死亡结构域DD与接头蛋白FADD结合，",
+          "wrongOptions": [
+            "以caspase-8为例，凋亡信号与死亡笑体Fas结合后，Fas的胞内死亡结构域DD与接头蛋白FADD结合，",
+            "以caspase-8为例，凋亡信号与死亡受体Fas结合后，Fas的胞内死亡结构域DD与接头隔白FADD结合，",
+            "以caspase-8为例，凋亡信号与死亡受体Fas结合候，Fas的胞内死亡结构域DD与接头蛋白FADD结合，"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s21",
+          "paragraph": 29,
+          "original": "后者再募集caspase-8前体，",
+          "wrongOptions": [
+            "后者西募集caspase-8前体，",
+            "后者再募集caspase-8利体，",
+            "后者再膜集caspase-8前体，"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s22",
+          "paragraph": 29,
+          "original": "在FasL-Fas-FADD-procaspase-8串联构成的复合体内高浓度的caspase-8前体可通过自",
+          "wrongOptions": [
+            "在FasL-Fas-FADD-procaspase-8串联构成的复合体内高浓度的caspase-8前体司通过自",
+            "在FasL-Fas-FADD-procaspase-8串联构成的复合体内高浓度约caspase-8前体可通过自",
+            "在FasL-Fas-FADD-procaspase-8串联构成的复合体内亮浓度的caspase-8前体可通过自"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s23",
+          "paragraph": 29,
+          "original": "身催化功能，",
+          "wrongOptions": [
+            "身亿化功能，",
+            "身催北功能，",
+            "才催化功能，"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s24",
+          "paragraph": 29,
+          "original": "在局部形成高浓度的启动型caspase-8，并进一步活化其他效应型caspase（如caspase3、",
+          "wrongOptions": [
+            "在局部形成高浓度约启动型caspase-8，并进一步活化其他效应型caspase（如caspase3、",
+            "在局部形成高浓度的启动型caspase-8，并进一步活化其他效慧型caspase（如caspase3、",
+            "在局部形成高浓度的启动型caspase-8，并进一步活化其他败应型caspase（如caspase3、"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s25",
+          "paragraph": 29,
+          "original": "6和7）引起细胞凋亡。在细胞凋亡过程中Caspase可发挥多种功能，包括：①灭活凋亡抑制蛋白（如Bcl-2）；",
+          "wrongOptions": [
+            "6和7）引起细胞凋亡。在细胞凋亡过程中Caspase可发挥多种功能，包括：①灭活凋亡抑制蛋白（扣Bcl-2）；",
+            "6和7）引起细胞凋亡。在细胞凋亡过程中Caspase可发挥多种功能，包括：①灭活凋亡昂制蛋白（如Bcl-2）；",
+            "6和7）引起细胞凋亡。在细胞稠亡过程中Caspase可发挥多种功能，包括：①灭活凋亡抑制蛋白（如Bcl-2）；"
+          ]
+        },
+        {
+          "id": "chapter-11-09-s26",
+          "paragraph": 29,
+          "original": "②直接作用于细胞结构并使之解体，如使板层结构的主要成分（lamins）崩解引发染色质浓缩；",
+          "wrongOptions": [
+            "②直接作用于细胞结构并使之解体，如使板层结构的主安成分（lamins）崩解引发染色质浓缩；",
+            "②直接作用于细胞结构并使之解体，如使板层结沟的主要成分（lamins）崩解引发染色质浓缩；",
+            "②直接作用于细胞结构并使之解体，如使区层结构的主要成分（lamins）崩解引发染色质浓缩；"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-11-10",
+      "title": "细胞凋亡异常与疾病（4）",
+      "order": 10,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-11-10-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-11-10-s01",
+            "chapter-11-10-s02",
+            "chapter-11-10-s03",
+            "chapter-11-10-s04",
+            "chapter-11-10-s05",
+            "chapter-11-10-s06",
+            "chapter-11-10-s07",
+            "chapter-11-10-s08",
+            "chapter-11-10-s09",
+            "chapter-11-10-s10",
+            "chapter-11-10-s11",
+            "chapter-11-10-s12"
+          ]
+        },
+        {
+          "id": "chapter-11-10-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-11-10-s13",
+            "chapter-11-10-s14",
+            "chapter-11-10-s15",
+            "chapter-11-10-s16",
+            "chapter-11-10-s17",
+            "chapter-11-10-s18",
+            "chapter-11-10-s19",
+            "chapter-11-10-s20",
+            "chapter-11-10-s21",
+            "chapter-11-10-s22",
+            "chapter-11-10-s23",
+            "chapter-11-10-s24"
+          ]
+        },
+        {
+          "id": "chapter-11-10-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-11-10-s25",
+            "chapter-11-10-s26",
+            "chapter-11-10-s27"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-11-10-s01",
+          "paragraph": 29,
+          "original": "②直接作用于细胞结构并使之解体，如使板层结构的主要成分（lamins）崩解引发染色质浓缩；",
+          "wrongOptions": [
+            "②直接作用于纪胞结构并使之解体，如使板层结构的主要成分（lamins）崩解引发染色质浓缩；",
+            "②直接作用于细胞结构并使之解体，如使板层结构的主要成分（lamins）崩解强发染色质浓缩；",
+            "②直接作用于细胞结构并使之解体，如使板层结构的主要成允（lamins）崩解引发染色质浓缩；"
+          ],
+          "carried": true
+        },
+        {
+          "id": "chapter-11-10-s02",
+          "paragraph": 29,
+          "original": "③分解与细胞骨架构成相关的蛋白；④瓦解核结构成核碎片等，以导致凋亡细胞特征性的形态学改变（图12-4），",
+          "wrongOptions": [
+            "③分解与细胞骨架构成相关的蛋白；④凡解核结构成核碎片等，以导致凋亡细胞特征性的形态学改变（图12-4），",
+            "③分解与终胞骨架构成相关的蛋白；④瓦解核结构成核碎片等，以导致凋亡细胞特征性的形态学改变（图12-4），",
+            "③分解与细胞骨架构成相关的蛋白；④瓦解该结构成核碎片等，以导致凋亡细胞特征性的形态学改变（图12-4），"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s03",
+          "paragraph": 29,
+          "original": "如细胞膜表面微绒毛消失及空泡化（blebbing）；细胞体积缩小呈现固缩（condensation）；",
+          "wrongOptions": [
+            "如细胞膜表面微绒毛消失及空泡化（blebbing）；细胞脏积缩小呈现固缩（condensation）；",
+            "如细胞膜表面微绒毛消失及空泡化（blebbing）；细胞体积缩十呈现固缩（condensation）；",
+            "如细胞膜表曲微绒毛消失及空泡化（blebbing）；细胞体积缩小呈现固缩（condensation）；"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s04",
+          "paragraph": 29,
+          "original": "核质高度浓缩并融合成团，染色质集中分布在核膜的边缘而呈新月形或马蹄形分布，",
+          "wrongOptions": [
+            "核质高度浓缩并融合成团，染色质集中分布在核膜的边缘而呈新有形或马蹄形分布，",
+            "核质高度浓缩并融合成团，染色质集中分布在核膜的边缘而呈新月形或马蹄妍分布，",
+            "核质高度浓缩并融合成团，染色质集中分布在核膜的边缘而呈新月形我马蹄形分布，"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s05",
+          "paragraph": 29,
+          "original": "即染色质边集（margination）；因胞膜皱缩内陷，分割包裹胞质或（和）核碎片，",
+          "wrongOptions": [
+            "即染色质边集（margination）；因胞膜皱缩内陷，分割包裸胞质或（和）核碎片，",
+            "即染色质边集（margination）；因胞膜皱缩内陷，公割包裹胞质或（和）核碎片，",
+            "即染色质边集（margination）；因胞膜皱缩内陷，分割包裹胞质成（和）核碎片，"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s06",
+          "paragraph": 29,
+          "original": "形成泡状小体即凋亡小体（apoptosis body）等。",
+          "wrongOptions": [
+            "形成泡状子体即凋亡小体（apoptosis body）等。",
+            "形成泡状小髓即凋亡小体（apoptosis body）等。",
+            "形成泡状小体即凋亡小脏（apoptosis body）等。"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s07",
+          "paragraph": 31,
+          "original": "正常情况下多种内源性核酸内切酶是以无活性的酶原形式存在胞核内，因而不出现DNA断裂。",
+          "wrongOptions": [
+            "正常情况下多种内源性核酸内切酶是以无活性的酶原形式存型胞核内，因而不出现DNA断裂。",
+            "正常情况下多种内源性核酸内切酶是以无活性的酶厚形式存在胞核内，因而不出现DNA断裂。",
+            "正常情况下多种内源性核酸内切酶是以无话性的酶原形式存在胞核内，因而不出现DNA断裂。"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s08",
+          "paragraph": 31,
+          "original": "内源性核酸内切酶多数为Ca2＋／Mg2＋依赖的，但Zn2＋可抑制其活性。",
+          "wrongOptions": [
+            "内源性核酸内切酶矽数为Ca2＋／Mg2＋依赖的，但Zn2＋可抑制其活性。",
+            "内源性核酸内切酶多数鸟Ca2＋／Mg2＋依赖的，但Zn2＋可抑制其活性。",
+            "内源性核酸内切酶多数为Ca2＋／Mg2＋依赖的，但Zn2＋可抑前其活性。"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s09",
+          "paragraph": 31,
+          "original": "凋亡诱导因素可通过启动信号转导，调控胞内某些成分（如Ca2＋）激活内源性核酸内切酶，",
+          "wrongOptions": [
+            "凋亡诱导因素可通过启动何号转导，调控胞内某些成分（如Ca2＋）激活内源性核酸内切酶，",
+            "凋亡诱导因素可通过启动信号较导，调控胞内某些成分（如Ca2＋）激活内源性核酸内切酶，",
+            "凋亡诱导因素可通过启动信号转导，调控胞内某些成允（如Ca2＋）激活内源性核酸内切酶，"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s10",
+          "paragraph": 31,
+          "original": "活化的内源性核酸内切酶可作用于核小体连接区，使其断裂成核小体倍数大小即180～200bp的片段，",
+          "wrongOptions": [
+            "活化的内源性核酸内切酶可作用于核小体连接区，使其断裂成核小体倍数大小印180～200bp的片段，",
+            "活化的内源性核酸内切酶可作用于核小体连接区，使其断裂威核小体倍数大小即180～200bp的片段，",
+            "活化的内源性核酸内切酶可作用于核小体连接匹，使其断裂成核小体倍数大小即180～200bp的片段，"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s11",
+          "paragraph": 31,
+          "original": "这些片段在琼脂糖凝胶电泳中可呈特征性的“梯”状（ladder pattern）条带，",
+          "wrongOptions": [
+            "这些片段土琼脂糖凝胶电泳中可呈特征性的“梯”状（ladder pattern）条带，",
+            "这些片段在琼脂糖凝胶雷泳中可呈特征性的“梯”状（ladder pattern）条带，",
+            "这些片段在琼脂糖凝胶电流中可呈特征性的“梯”状（ladder pattern）条带，"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s12",
+          "paragraph": 31,
+          "original": "这是判断凋亡发生的特征性生化指标。",
+          "wrongOptions": [
+            "这是判断凋亢发生的特征性生化指标。",
+            "这是判断凋亡发牛的特征性生化指标。",
+            "这是判断稠亡发生的特征性生化指标。"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s13",
+          "paragraph": 33,
+          "original": "据报道组织型转谷氨酰胺酶（tissue-type transglutaminase）亦与凋亡小体的形成有关。",
+          "wrongOptions": [
+            "据报道组织型转谷氨酰胺酶（tissue-type transglutaminase）亦与凋亡小体约形成有关。",
+            "据报道组织型转谷氨酰按酶（tissue-type transglutaminase）亦与凋亡小体的形成有关。",
+            "据报道组织型转谷氨酰胺酶（tissue-type transglutaminase）亨与凋亡小体的形成有关。"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s14",
+          "paragraph": 33,
+          "original": "它通过催化γ谷氨酰与ε赖氨基交联形成稳定的构架，使内容物保留在凋亡小体内。",
+          "wrongOptions": [
+            "它通过催化γ谷氨酰与ε赖氨基交联形成稳定的构架，使内客物保留在凋亡小体内。",
+            "它通过催化γ谷氨酰与ε赖氨基交联形戊稳定的构架，使内容物保留在凋亡小体内。",
+            "它通过催化γ谷氨酰与ε漱氨基交联形成稳定的构架，使内容物保留在凋亡小体内。"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s15",
+          "paragraph": 33,
+          "original": "另外在胞质Ca2＋增加时，亦能活化定位于胞质的需钙蛋白酶（calpains），",
+          "wrongOptions": [
+            "另外在胞质Ca2＋增加时，亦能活化定位于胞质的需钙蛋白这（calpains），",
+            "另外在胞质Ca2＋增加时，亦能活化定位于胞质的需钙难白酶（calpains），",
+            "另外在胞质Ca2＋增加时，亦能活化定位于胞质的需钉蛋白酶（calpains），"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s16",
+          "paragraph": 33,
+          "original": "以参与酶的活化和膜的再塑等凋亡过程。细胞凋亡有重要的生理和病理意义。",
+          "wrongOptions": [
+            "以参与酶的活化和膜的再塑等凋亢过程。细胞凋亡有重要的生理和病理意义。",
+            "以参与酶的活化和膜的再塑等凋亡过程。细胞凋亡有重要灼生理和病理意义。",
+            "以参与酶的活化和膜的再塑等凋亡过程。细胞凋交有重要的生理和病理意义。"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s17",
+          "paragraph": 35,
+          "original": "适度的凋亡具有重要作用：①确保正常生长发育：如人胚胎肢芽发育过程中指（趾）间组织，通过凋亡而被逐渐消除，",
+          "wrongOptions": [
+            "适度的凋亡具有重要作用：①确保正常生长发育：如入胚胎肢芽发育过程中指（趾）间组织，通过凋亡而被逐渐消除，",
+            "适度的凋亡具有重要作用：①确保正常生长发育：如人胚胎肢芽发育过程中指（趾）间组织，涌过凋亡而被逐渐消除，",
+            "适度的凋亡具有重要作用：①确保正常牛长发育：如人胚胎肢芽发育过程中指（趾）间组织，通过凋亡而被逐渐消除，"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s18",
+          "paragraph": 35,
+          "original": "形成指（趾）间隙；②维持内环境稳定：如清除针对自身抗原的T淋巴细胞，以维持免疫系统功能的稳定；",
+          "wrongOptions": [
+            "形成指（趾）间隙；②维持内环境稳定：如清除针对自身倦原的T淋巴细胞，以维持免疫系统功能的稳定；",
+            "形成指（趾）间隙；②维持内环境稳定：如清除针对自身抗原约T淋巴细胞，以维持免疫系统功能的稳定；",
+            "形成指（趾）间隙；②维持内环境稳定：如清除针对自身抗原的T淋巴纪胞，以维持免疫系统功能的稳定；"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s19",
+          "paragraph": 35,
+          "original": "③发挥积极的防御功能：受病毒感染细胞（如HIV感染的细胞）发生凋亡，阻止病毒的复制。",
+          "wrongOptions": [
+            "③发挥积极的防御功能：受病毒感染细胞（如HIV感染的细胞）登生凋亡，阻止病毒的复制。",
+            "③发挥积极的防御功熊：受病毒感染细胞（如HIV感染的细胞）发生凋亡，阻止病毒的复制。",
+            "③发挥积极的防御功能：受病毒感染细胞（如HIV感柔的细胞）发生凋亡，阻止病毒的复制。"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s20",
+          "paragraph": 35,
+          "original": "由此可见适度适时凋亡是维持细胞群体数量稳态的重要手段，否则将影响正常生长、发育、促进衰老，甚至导致各种疾病，",
+          "wrongOptions": [
+            "由此可见适度适时凋亡是维持终胞群体数量稳态的重要手段，否则将影响正常生长、发育、促进衰老，甚至导致各种疾病，",
+            "由此可见摘度适时凋亡是维持细胞群体数量稳态的重要手段，否则将影响正常生长、发育、促进衰老，甚至导致各种疾病，",
+            "由此可觉适度适时凋亡是维持细胞群体数量稳态的重要手段，否则将影响正常生长、发育、促进衰老，甚至导致各种疾病，"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s21",
+          "paragraph": 35,
+          "original": "包括凋亡不足或（和）过度相关性疾病。细胞凋亡不足与多种疾病密切相关，包括肿瘤、自身免疫病和病毒感染性疾病等。",
+          "wrongOptions": [
+            "包括凋亡不足成（和）过度相关性疾病。细胞凋亡不足与多种疾病密切相关，包括肿瘤、自身免疫病和病毒感染性疾病等。",
+            "包括凋亡不足或（和）过度相关性疾病。细胞凋亡不足与多种疾病密切相关，包括肿瘤、自身免疫病和病毒感染怕疾病等。",
+            "包括凋亡不足或（和）过度相关性疾病。细胞凋亡不足与多种疾病密切相关，包括肿瘤、自身免疫病和病毒感染性疗病等。"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s22",
+          "paragraph": 37,
+          "original": "其共同特点是细胞凋亡不足，细胞群体稳态被破坏，导致病变细胞异常增多，病变组织器官体积增大，功能异常。",
+          "wrongOptions": [
+            "其共同特点是细胞凋亡不足，细胞群体稳熊被破坏，导致病变细胞异常增多，病变组织器官体积增大，功能异常。",
+            "其共同特点是细胞凋亡不足，细胞群体稳态被破坏，导致病变纪胞异常增多，病变组织器官体积增大，功能异常。",
+            "其共同特点是细胞凋亡不足，细胞群脏稳态被破坏，导致病变细胞异常增多，病变组织器官体积增大，功能异常。"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s23",
+          "paragraph": 37,
+          "original": "其中最常见为肿瘤，如p53基因突变导致细胞凋亡减弱，显著增加肺非小细胞肺癌发生率；",
+          "wrongOptions": [
+            "其中最常见为肿瘤，如p53基因突变导致细胞凋亡减弱，显著增加肺非小细疱肺癌发生率；",
+            "其中最常见为肿瘤，如p53基因突窗导致细胞凋亡减弱，显著增加肺非小细胞肺癌发生率；",
+            "其中最常见为肿瘤，如p53基因突变导致细胞凋亡减弱，显著增加肺非小细胞肺症发生率；"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s24",
+          "paragraph": 37,
+          "original": "Bcl-2的高表达与B细胞淋巴瘤、神经母细胞瘤、白血病、前列腺癌和结肠癌等预后不良相关；",
+          "wrongOptions": [
+            "Bcl-2的高表达与B细胞淋巴瘤、神经母细胞瘤、白血病、前列腺癌和结杨癌等预后不良相关；",
+            "Bcl-2的高表达与B细胞淋巴瘤、神经母细胞瘤、百血病、前列腺癌和结肠癌等预后不良相关；",
+            "Bcl-2的高表达与B细胞淋巴瘤、神经母细胞瘤、白血病、前列腺疗和结肠癌等预后不良相关；"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s25",
+          "paragraph": 37,
+          "original": "高度恶性的皮肤基底细胞癌和Bowen瘤组织细胞凋亡减少与肿瘤的浸润和转移相关。",
+          "wrongOptions": [
+            "高度恶怕的皮肤基底细胞癌和Bowen瘤组织细胞凋亡减少与肿瘤的浸润和转移相关。",
+            "高度恶性的皮肤基底细胞癌和Bowen瘤组织细胞凋亡减少与肿瘤的浸油和转移相关。",
+            "高度恶性的皮臂基底细胞癌和Bowen瘤组织细胞凋亡减少与肿瘤的浸润和转移相关。"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s26",
+          "paragraph": 37,
+          "original": "其机制虽未阐明，但多数学者认为肿瘤细胞凋亡不足的相关机制涉及多方面。",
+          "wrongOptions": [
+            "其机制虽未阐明，但多数学者认为钟瘤细胞凋亡不足的相关机制涉及多方面。",
+            "其机制虽未阐明，但多偻学者认为肿瘤细胞凋亡不足的相关机制涉及多方面。",
+            "其机制虽未阐明，但多数学者认为肿馏细胞凋亡不足的相关机制涉及多方面。"
+          ]
+        },
+        {
+          "id": "chapter-11-10-s27",
+          "paragraph": 39,
+          "original": "包括促凋亡（如TNF和Fas）和抑凋亡信号（如EGF）的异常。",
+          "wrongOptions": [
+            "包括促凋亡（如TNF和Fas）利抑凋亡信号（如EGF）的异常。",
+            "包括促凋亡（如TNF和Fas）和抑凋亡信号（知EGF）的异常。",
+            "包括促凋亡（如TNF和Fas）和抑凋亡信号（如EGF）灼异常。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-11-11",
+      "title": "细胞凋亡异常与疾病（5）",
+      "order": 11,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-11-11-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-11-11-s01",
+            "chapter-11-11-s02",
+            "chapter-11-11-s03",
+            "chapter-11-11-s04",
+            "chapter-11-11-s05",
+            "chapter-11-11-s06",
+            "chapter-11-11-s07",
+            "chapter-11-11-s08",
+            "chapter-11-11-s09",
+            "chapter-11-11-s10",
+            "chapter-11-11-s11",
+            "chapter-11-11-s12"
+          ]
+        },
+        {
+          "id": "chapter-11-11-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-11-11-s13",
+            "chapter-11-11-s14",
+            "chapter-11-11-s15",
+            "chapter-11-11-s16",
+            "chapter-11-11-s17",
+            "chapter-11-11-s18",
+            "chapter-11-11-s19",
+            "chapter-11-11-s20",
+            "chapter-11-11-s21",
+            "chapter-11-11-s22",
+            "chapter-11-11-s23",
+            "chapter-11-11-s24"
+          ]
+        },
+        {
+          "id": "chapter-11-11-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-11-11-s25",
+            "chapter-11-11-s26"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-11-11-s01",
+          "paragraph": 39,
+          "original": "包括促凋亡（如TNF和Fas）和抑凋亡信号（如EGF）的异常。",
+          "wrongOptions": [
+            "包括促凋亡（如TNF和Fas）和抑凋亡信号（如EGF）灼异常。",
+            "包括促凋亡（如TNF和Fas）和昂凋亡信号（如EGF）的异常。",
+            "包括促凋亡（如TNF和Fas）和抑凋亡何号（如EGF）的异常。"
+          ],
+          "carried": true
+        },
+        {
+          "id": "chapter-11-11-s02",
+          "paragraph": 39,
+          "original": "如乳腺癌组织或细胞胞外抑凋亡信号EGF上调，可与膜上EGF受体结合，激活胞内PI3KAKT通路，",
+          "wrongOptions": [
+            "如乳腺癌组织或细胞胞外抑凋亡信号EGF上调，可与膜上EGF受体拮合，激活胞内PI3KAKT通路，",
+            "如乳腺癌组织或细胞胞外抑凋亡信返EGF上调，可与膜上EGF受体结合，激活胞内PI3KAKT通路，",
+            "如乳腺癌组织或细胞胞外抑凋亡信号EGF上调，可与膜上EGF受体结合，激活疱内PI3KAKT通路，"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s03",
+          "paragraph": 39,
+          "original": "导致核内p27和p53下调，使得癌细胞凋亡减少及增殖过度；与此同时促凋亡信号TNF下调，不足以启动癌细胞凋亡，",
+          "wrongOptions": [
+            "导致核内p27和p53下调，使得癌细胞凋亡减少及增殖过度；与此同时促凋亡信号TNF下调，不足以敌动癌细胞凋亡，",
+            "导致核内p27和p53下调，使得癌细胞凋亡减少及增殖过度；与此同时促凋亡信号TNF下调，不足代启动癌细胞凋亡，",
+            "导致核内p27和p53下调，使得癌细胞周亡减少及增殖过度；与此同时促凋亡信号TNF下调，不足以启动癌细胞凋亡，"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s04",
+          "paragraph": 39,
+          "original": "共同导致和促进乳腺癌的发生和发展。",
+          "wrongOptions": [
+            "共同导致和促进乳腺癌的发牛和发展。",
+            "共同导致和状进乳腺癌的发生和发展。",
+            "共同导致和促进乳腺癌约发生和发展。"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s05",
+          "paragraph": 41,
+          "original": "包括死亡受体和线粒体介导的相关信号转导通路异常，最常见的是Fas信号转导通路的异常。",
+          "wrongOptions": [
+            "包括死亡受体和线粒体介导的相关信号转导通洛异常，最常见的是Fas信号转导通路的异常。",
+            "包括死亡受体和线粒体介导的相关信号转导通路异常，最常见的是Fas信号转导通路约异常。",
+            "包括死亡受体和线粒体介导的相关信号转导通路异常，最掌见的是Fas信号转导通路的异常。"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s06",
+          "paragraph": 41,
+          "original": "如与癌旁正常乳腺组织相比，36例乳腺癌组织中Fas受体低表达，癌细胞凋亡率降低；",
+          "wrongOptions": [
+            "如与癌旁正常乳腺组织相比，36例乳腺癌组织中Fas受体低表达，癌纪胞凋亡率降低；",
+            "如与癌旁正常乳腺组织相比，36例乳腺癌组引中Fas受体低表达，癌细胞凋亡率降低；",
+            "如与癌旁正常乳腺组织相比，36例乳腺癌组织中Fas受体低表达，病细胞凋亡率降低；"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s07",
+          "paragraph": 41,
+          "original": "腋淋巴结转移的乳腺癌组织Fas的表达量明显低于无腋淋巴结转移者；",
+          "wrongOptions": [
+            "腋淋巴结转移的乳腺癌组织Fas灼表达量明显低于无腋淋巴结转移者；",
+            "腋淋巴结转移的乳腺癌组直Fas的表达量明显低于无腋淋巴结转移者；",
+            "腋淋巴结转移的乳腺癌组织Fas的表道量明显低于无腋淋巴结转移者；"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s08",
+          "paragraph": 41,
+          "original": "乳腺癌组织中Fas表达量与癌细胞凋亡率呈显著正相关，提示Fas信号转导通路的异常与乳腺癌的发生和发展密切相关。",
+          "wrongOptions": [
+            "乳腺癌组织中Fas表达量与癌细胞凋亡率呈显著正相关，提示Fas何号转导通路的异常与乳腺癌的发生和发展密切相关。",
+            "乳腺癌组织中Fas表达量与癌细胞凋亡率醚显著正相关，提示Fas信号转导通路的异常与乳腺癌的发生和发展密切相关。",
+            "乳腺癌组织中Fas表达量与癌细胞凋亡率呈显著正相关，提示Fas信号转导通路的异掌与乳腺癌的发生和发展密切相关。"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s09",
+          "paragraph": 43,
+          "original": "包括抑凋亡基因和促凋亡基因的异常，其中Bcl-2和p53备受关注。",
+          "wrongOptions": [
+            "包括抑凋亡基因和促凋亡基因的异常，其中Bcl-2和p53备绒关注。",
+            "包括抑凋亡基因和促凋亡量因的异常，其中Bcl-2和p53备受关注。",
+            "包括抑凋亡基因和促凋亡基因的龚常，其中Bcl-2和p53备受关注。"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s10",
+          "paragraph": 43,
+          "original": "多种癌组织呈p53突变或缺失，与此同时细胞凋亡减少，肿瘤发生率增高或病人预后不良；",
+          "wrongOptions": [
+            "多种癌组织呈p53突变或缺失，与此同时细胞凋亡减少，肿瘤发生率增高或痛人预后不良；",
+            "多种癌组织呈p53突变或缺失，与此同时细胞凋亡阐少，肿瘤发生率增高或病人预后不良；",
+            "多种癌组织吸p53突变或缺失，与此同时细胞凋亡减少，肿瘤发生率增高或病人预后不良；"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s11",
+          "paragraph": 43,
+          "original": "多种细胞毒因素可使Bcl-2过表达，阻遏细胞凋亡，促进癌发生和发展。",
+          "wrongOptions": [
+            "多种细胞毒因素可使Bcl-2过表达，阻遏细胞凋亡，促维癌发生和发展。",
+            "多种细胞毒因素可使Bcl-2过表这，阻遏细胞凋亡，促进癌发生和发展。",
+            "多种细鲍毒因素可使Bcl-2过表达，阻遏细胞凋亡，促进癌发生和发展。"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s12",
+          "paragraph": 43,
+          "original": "可见抑凋亡基因过表达或（和）促凋亡基因突变或缺失均可影响凋亡的速率，导致或促进肿瘤的发生、发展和影响预后等。",
+          "wrongOptions": [
+            "可见抑凋亡基因过表达或（和）促凋亡基因臭变或缺失均可影响凋亡的速率，导致或促进肿瘤的发生、发展和影响预后等。",
+            "可见抑凋亡基因过表达或（和）促凋亡基因突变或缺失均可影响凋亡的速率，导致或促进肿瘤约发生、发展和影响预后等。",
+            "可见抑凋亡基因过表达或（和）促凋亡基因突变或缺失均可影响凋亡的速率，导臻或促进肿瘤的发生、发展和影响预后等。"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s13",
+          "paragraph": 45,
+          "original": "包括caspase和核酸内切酶等活性异常。如多种癌组织和细胞Caspase酶活性的降低，且细胞凋亡减少；",
+          "wrongOptions": [
+            "包括caspase和核酸内切酶等活性异常。如多种癌组织和细胞Caspase酶活性的降抵，且细胞凋亡减少；",
+            "包括caspase和核酸内切酶等活性异常。知多种癌组织和细胞Caspase酶活性的降低，且细胞凋亡减少；",
+            "包括caspase和核酸内切酶等活性异常。如多种癌组织和细胞Caspase锚活性的降低，且细胞凋亡减少；"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s14",
+          "paragraph": 45,
+          "original": "某些抗癌药（如manumycin）或抑癌基因（如14-3-3σ）可激活甲状腺癌细胞和乳腺癌细胞中caspase",
+          "wrongOptions": [
+            "某些抗癌药（如manumycin）或抑癌基因（如14-3-3σ）可激活甲状腺疗细胞和乳腺癌细胞中caspase",
+            "某些抗癌药（如manumycin）或抑癌基因（如14-3-3σ）可激活甲状腺癌纪胞和乳腺癌细胞中caspase",
+            "某些抗癌药（如manumycin）或抑癌基因（如14-3-3σ）可激活甲状腺癌细胞和乳腺癌终胞中caspase"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s15",
+          "paragraph": 45,
+          "original": "酶的活性，",
+          "wrongOptions": [
+            "酶的括性，",
+            "酶约活性，",
+            "酶的活怕，"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s16",
+          "paragraph": 45,
+          "original": "提高细胞凋亡百分率而发挥抑癌作用。提示执行凋亡相关酶活性异常可通过调控细胞凋亡速率而影响肿瘤。",
+          "wrongOptions": [
+            "提高细胞凋亡百分率而发挥昂癌作用。提示执行凋亡相关酶活性异常可通过调控细胞凋亡速率而影响肿瘤。",
+            "提高细胞凋亡百分率而发挥抑癌作用。提示执行凋亡相关酶活性异常可通过调控细胞凋亡速卒而影响肿瘤。",
+            "提高细胞凋亡百分率而发挥抑癌作用。提示执行凋亡相关酶活性异常可通过调控细疱凋亡速率而影响肿瘤。"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s17",
+          "paragraph": 47,
+          "original": "细胞凋亡过度与多种疾病密切相关，包括免疫缺陷疾病、心血管疾病和神经元退行性疾病等。",
+          "wrongOptions": [
+            "细胞凋亡过床与多种疾病密切相关，包括免疫缺陷疾病、心血管疾病和神经元退行性疾病等。",
+            "细胞凋亡过度与多种疾病密切相关，包括免疫缺陷疾病、心血管疾病和伸经元退行性疾病等。",
+            "细胞凋亡过度与多种痛病密切相关，包括免疫缺陷疾病、心血管疾病和神经元退行性疾病等。"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s18",
+          "paragraph": 47,
+          "original": "其共同特点是细胞凋亡过度，细胞死大于生，细胞群体的稳态被破坏，导致细胞异常减少，组织器官体积变小，功能异常。",
+          "wrongOptions": [
+            "其共同特点是细胞凋亡过度，细胞死大于生，细胞群体的稳态被破均，导致细胞异常减少，组织器官体积变小，功能异常。",
+            "其共同特点是细胞凋亡过度，细胞死大于生，细胞群体的稳态被破坏，导致细胞异常减少，组织器家体积变小，功能异常。",
+            "其共同特点是细胞凋亡过度，细胞死大于生，细胞群体的种态被破坏，导致细胞异常减少，组织器官体积变小，功能异常。"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s19",
+          "paragraph": 47,
+          "original": "其中获得性免疫缺陷综合征（acquired immunodeficiency syndrome，",
+          "wrongOptions": [
+            "其中获得性免疫缺者综合征（acquired immunodeficiency syndrome，",
+            "其中获得性免疫缺陷综台征（acquired immunodeficiency syndrome，",
+            "其中获得性免病缺陷综合征（acquired immunodeficiency syndrome，"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s20",
+          "paragraph": 47,
+          "original": "AIDS）尤为典型。AIDS（也称艾滋病）是由人类免疫缺陷病毒（HIV）感染而引发的一种传染性疾病，",
+          "wrongOptions": [
+            "AIDS）尤乌典型。AIDS（也称艾滋病）是由人类免疫缺陷病毒（HIV）感染而引发的一种传染性疾病，",
+            "AIDS）尤为典型。AIDS（也称艾滋病）是由人类免疫缺陷病毒（HIV）感染而引发的一种传染怕疾病，",
+            "AIDS）尤为典型。AIDS（也称艾滋病）是由人类兔疫缺陷病毒（HIV）感染而引发的一种传染性疾病，"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s21",
+          "paragraph": 47,
+          "original": "其关键的发病机制是淋巴细胞被选择性的过度破坏，以致淋巴细胞数显著减少而导致相关免疫功能缺陷。",
+          "wrongOptions": [
+            "其关键的发病机制是淋巴细胞被选择性的过度破坏，以致淋巴细胞数预著减少而导致相关免疫功能缺陷。",
+            "其关键的发病机制是淋巴细胞被选择性的过度破坏，保致淋巴细胞数显著减少而导致相关免疫功能缺陷。",
+            "其关键约发病机制是淋巴细胞被选择性的过度破坏，以致淋巴细胞数显著减少而导致相关免疫功能缺陷。"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s22",
+          "paragraph": 47,
+          "original": "多数学者认为HIV感染的淋巴细胞凋亡过度的相关机制涉及多方面。",
+          "wrongOptions": [
+            "多数学者认为HIV感染的淋巴细胞凋亡过度的相关饥制涉及多方面。",
+            "多数学者认为HIV感染的淋巴细胞凋亢过度的相关机制涉及多方面。",
+            "多数学者认为HIV感染的淋巴细胞凋亡过度的相关机制满及多方面。"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s23",
+          "paragraph": 49,
+          "original": "HIV感染可刺激宿主淋巴细胞膜过表达gp120，gp120通过与淋巴细胞的分子结合和相互作用，",
+          "wrongOptions": [
+            "HIV感染司刺激宿主淋巴细胞膜过表达gp120，gp120通过与淋巴细胞的分子结合和相互作用，",
+            "HIV感染可刺激宿主彬巴细胞膜过表达gp120，gp120通过与淋巴细胞的分子结合和相互作用，",
+            "HIV感染可刺激宿主淋巴细胞膜过表达gp120，gp120通过与淋巴细胞的分子结合念相互作用，"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s24",
+          "paragraph": 49,
+          "original": "激活线粒体介导的通路诱导细胞凋亡。",
+          "wrongOptions": [
+            "激活线位体介导的通路诱导细胞凋亡。",
+            "激活线粒髓介导的通路诱导细胞凋亡。",
+            "激活线粒体介导的通酪诱导细胞凋亡。"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s25",
+          "paragraph": 49,
+          "original": "同时gp120和病毒蛋白（如Vpr）能使宿主细胞发生G2期阻滞，触发淋巴细胞凋亡。",
+          "wrongOptions": [
+            "同时gp120和病毒蛋白（如Vpr）能使宿主细胞发生G2期阻滞，触发淋巴细疱凋亡。",
+            "同时gp120和病毒蛋白（知Vpr）能使宿主细胞发生G2期阻滞，触发淋巴细胞凋亡。",
+            "同时gp120和病毒蛋白（如Vpr）能使宿主细胞发生G2期阻滞，触须淋巴细胞凋亡。"
+          ]
+        },
+        {
+          "id": "chapter-11-11-s26",
+          "paragraph": 51,
+          "original": "HIV感染可引起淋巴细胞的Fas基因表达上调，使其细胞膜过表达Fas配体（Fas ligand，Fas L），",
+          "wrongOptions": [
+            "HIV感染可引起淋巴纪胞的Fas基因表达上调，使其细胞膜过表达Fas配体（Fas ligand，Fas L），",
+            "HIV感染可引起淋巴细胞的Fas基因表达上调，使其细疱膜过表达Fas配体（Fas ligand，Fas L），",
+            "HIV感染可引起淋巴细胞的Fas基因表达上调，使其细胞膜过表道Fas配体（Fas ligand，Fas L），"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-11-12",
+      "title": "细胞凋亡异常与疾病（6）",
+      "order": 12,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-11-12-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-11-12-s01",
+            "chapter-11-12-s02",
+            "chapter-11-12-s03",
+            "chapter-11-12-s04",
+            "chapter-11-12-s05",
+            "chapter-11-12-s06",
+            "chapter-11-12-s07",
+            "chapter-11-12-s08",
+            "chapter-11-12-s09",
+            "chapter-11-12-s10",
+            "chapter-11-12-s11",
+            "chapter-11-12-s12"
+          ]
+        },
+        {
+          "id": "chapter-11-12-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-11-12-s13",
+            "chapter-11-12-s14",
+            "chapter-11-12-s15",
+            "chapter-11-12-s16",
+            "chapter-11-12-s17",
+            "chapter-11-12-s18",
+            "chapter-11-12-s19",
+            "chapter-11-12-s20",
+            "chapter-11-12-s21",
+            "chapter-11-12-s22",
+            "chapter-11-12-s23",
+            "chapter-11-12-s24"
+          ]
+        },
+        {
+          "id": "chapter-11-12-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-11-12-s25",
+            "chapter-11-12-s26"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-11-12-s01",
+          "paragraph": 51,
+          "original": "HIV感染可引起淋巴细胞的Fas基因表达上调，使其细胞膜过表达Fas配体（Fas ligand，Fas L），",
+          "wrongOptions": [
+            "HIV感染可引起彬巴细胞的Fas基因表达上调，使其细胞膜过表达Fas配体（Fas ligand，Fas L），",
+            "HIV感染可引起淋巴细胞的Fas基因表达上稠，使其细胞膜过表达Fas配体（Fas ligand，Fas L），",
+            "HIV感染可引起淋巴细胞的Fas基因表达上调，使其细胞膜过表达Fas钝体（Fas ligand，Fas L），"
+          ],
+          "carried": true
+        },
+        {
+          "id": "chapter-11-12-s02",
+          "paragraph": 51,
+          "original": "通过激活死亡受体即Fas介导的通路诱导细胞凋亡。",
+          "wrongOptions": [
+            "通过激活死亡受髓即Fas介导的通路诱导细胞凋亡。",
+            "通过激括死亡受体即Fas介导的通路诱导细胞凋亡。",
+            "通过激活死亡受体即Fas令导的通路诱导细胞凋亡。"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s03",
+          "paragraph": 53,
+          "original": "受HIV感染的巨噬细胞等可分泌多种细胞因子，其中TNF、IL-4及IL-10增多可诱导宿主细胞凋亡，",
+          "wrongOptions": [
+            "受HIV感染的距噬细胞等可分泌多种细胞因子，其中TNF、IL-4及IL-10增多可诱导宿主细胞凋亡，",
+            "受HIV感染的巨噬细胞等可分泌多种细胞因子，其中TNF、IL-4及IL-10增多可诱导宿主纪胞凋亡，",
+            "受HIV感染的巨噬细胞等可分铋多种细胞因子，其中TNF、IL-4及IL-10增多可诱导宿主细胞凋亡，"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s04",
+          "paragraph": 53,
+          "original": "如增多的TNF通过与TNF受体结合直接启动死亡受体介导的通路诱导细胞凋亡；",
+          "wrongOptions": [
+            "如增多的TNF通过臼TNF受体结合直接启动死亡受体介导的通路诱导细胞凋亡；",
+            "如增多的TNF通过与TNF未体结合直接启动死亡受体介导的通路诱导细胞凋亡；",
+            "如增多的TNF通过与TNF受体结合直接启动死亡受体介射的通路诱导细胞凋亡；"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s05",
+          "paragraph": 53,
+          "original": "HIV感染也可刺激淋巴细胞产生大量氧自由基，通过激活内质网应激和线粒体介导的凋亡通路触发宿主细胞凋亡。",
+          "wrongOptions": [
+            "HIV感染也可刺激淋巴细胞产生大量氧自由基，通过激活内质网应派和线粒体介导的凋亡通路触发宿主细胞凋亡。",
+            "HIV感染也可刺激淋巴细胞产生大量氧自由基，通过激活内质网应激和线粒体令导的凋亡通路触发宿主细胞凋亡。",
+            "HIV感染也可刺激淋巴细胞结生大量氧自由基，通过激活内质网应激和线粒体介导的凋亡通路触发宿主细胞凋亡。"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s06",
+          "paragraph": 53,
+          "original": "但也有相反的报道，如某些细胞因子（包括IL-2、IL-12和IFN等）的增多抑制宿主细胞凋亡。",
+          "wrongOptions": [
+            "但也有相反的报道，如某些细胞因子（匀括IL-2、IL-12和IFN等）的增多抑制宿主细胞凋亡。",
+            "但也有相反的报道，如某些细胞因子（包甜IL-2、IL-12和IFN等）的增多抑制宿主细胞凋亡。",
+            "但也有相反的报道，如钳些细胞因子（包括IL-2、IL-12和IFN等）的增多抑制宿主细胞凋亡。"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s07",
+          "paragraph": 55,
+          "original": "受HIV感染的淋巴细胞可产生反式激活蛋白（trans-activator，Tat），",
+          "wrongOptions": [
+            "受HIV感染的淋巴细胞古产生反式激活蛋白（trans-activator，Tat），",
+            "受HIV感染灼淋巴细胞可产生反式激活蛋白（trans-activator，Tat），",
+            "受HIV感染的淋巴细胞可产生反总激活蛋白（trans-activator，Tat），"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s08",
+          "paragraph": 55,
+          "original": "后者可自由通过细胞膜进入淋巴细胞，诱导细胞产生氧自由基，增强Fas表达而提高其凋亡的易感性；",
+          "wrongOptions": [
+            "后者可自由通过细胞膜进入淋巴细饱，诱导细胞产生氧自由基，增强Fas表达而提高其凋亡的易感性；",
+            "后者可自由通过细胞膜进入淋巴细胞，透导细胞产生氧自由基，增强Fas表达而提高其凋亡的易感性；",
+            "后者可自由通过细胞膜推入淋巴细胞，诱导细胞产生氧自由基，增强Fas表达而提高其凋亡的易感性；"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s09",
+          "paragraph": 55,
+          "original": "Tat还能够增强病毒复制的起始，促进mRNA的转录和翻译。但同时也能保护人T细胞、上皮细胞和神经细胞免于凋亡。",
+          "wrongOptions": [
+            "Tat还能够增强病毒腹制的起始，促进mRNA的转录和翻译。但同时也能保护人T细胞、上皮细胞和神经细胞免于凋亡。",
+            "Tat还能够增强病毒复制的起始，促进mRNA的转录和翻译。但同时也能保获人T细胞、上皮细胞和神经细胞免于凋亡。",
+            "Tat还能够增强病毒复制的起始，促进mRNA的转录和翻译。但问时也能保护人T细胞、上皮细胞和神经细胞免于凋亡。"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s10",
+          "paragraph": 55,
+          "original": "故Tat蛋白的作用是多向性的，既可诱导细胞凋亡，又可保护细胞免于凋亡，至于其机制尚未阐明。",
+          "wrongOptions": [
+            "故Tat蛋百的作用是多向性的，既可诱导细胞凋亡，又可保护细胞免于凋亡，至于其机制尚未阐明。",
+            "故Tat蛋白的作用是多向性的，既可诱导细胞凋亢，又可保护细胞免于凋亡，至于其机制尚未阐明。",
+            "故Tat蛋白的作用是多向性的，既可诱导细胞凋亡，又可保护细胞免于凋亡，至于其机利尚未阐明。"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s11",
+          "paragraph": 57,
+          "original": "HIV感染使淋巴细胞处于激活状态。",
+          "wrongOptions": [
+            "HIV感染使淋巴细胞虚于激活状态。",
+            "HIV感染伦淋巴细胞处于激活状态。",
+            "HIV感染使淋巴细疱处于激活状态。"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s12",
+          "paragraph": 57,
+          "original": "正常情况下被激活的细胞会迅速发生增殖反应，但在HIV感染时，被激活的淋巴细胞不但不增殖，反而发生凋亡。",
+          "wrongOptions": [
+            "正常情况下被激活的细胞会迅速须生增殖反应，但在HIV感染时，被激活的淋巴细胞不但不增殖，反而发生凋亡。",
+            "正常情况下被激活的细胞会迅速发生增殖反应，坦在HIV感染时，被激活的淋巴细胞不但不增殖，反而发生凋亡。",
+            "正常情况下被激活的细胞会迅速发生增殖反慧，但在HIV感染时，被激活的淋巴细胞不但不增殖，反而发生凋亡。"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s13",
+          "paragraph": 57,
+          "original": "这可能与HIV的侵袭引起淋巴细胞生长因子的生成减少有关。",
+          "wrongOptions": [
+            "这可能与HIV灼侵袭引起淋巴细胞生长因子的生成减少有关。",
+            "这可能与HIV的侵袭引起彬巴细胞生长因子的生成减少有关。",
+            "这可能与HIV的侵袭引起淋巴细胞生长因子约生成减少有关。"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s14",
+          "paragraph": 59,
+          "original": "受HIV感染的大部分淋巴细胞逐步融合形成合胞体（syncytia）或多核巨细胞，",
+          "wrongOptions": [
+            "受HIV感柔的大部分淋巴细胞逐步融合形成合胞体（syncytia）或多核巨细胞，",
+            "受HIV感染的大部分淋巴细胞退步融合形成合胞体（syncytia）或多核巨细胞，",
+            "受HIV感染的大部分淋巴细胞逐步融合形成合胞体（syncytia）或多核矩细胞，"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s15",
+          "paragraph": 59,
+          "original": "细胞融合在单个小裂解和多核细胞形成过程中均导致淋巴细胞损耗，",
+          "wrongOptions": [
+            "细胞融合在单个小裂解和多核细胞形成过程中均导致彬巴细胞损耗，",
+            "细胞融合在单伸小裂解和多核细胞形成过程中均导致淋巴细胞损耗，",
+            "细胞融合在单个小裂解和多核细胞形成过程中均导绿淋巴细胞损耗，"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s16",
+          "paragraph": 59,
+          "original": "故合胞体在形成过程中或形成后均可促发宿主细胞凋亡及解体。",
+          "wrongOptions": [
+            "故合胞体在形成过程中或形成后均可促发宿主终胞凋亡及解体。",
+            "故合胞体在形成过程中或形成后均可钉发宿主细胞凋亡及解体。",
+            "故合胞体在形成过程中成形成后均可促发宿主细胞凋亡及解体。"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s17",
+          "paragraph": 61,
+          "original": "在HIV慢性感染阶段，受感染的淋巴细胞可作为效应细胞诱导未受感染淋巴细胞凋亡。",
+          "wrongOptions": [
+            "在HIV慢性感染阶段，受感染的淋巴细胞可作为效应细胞诱导未受感染淋巴终胞凋亡。",
+            "在HIV慢性感柔阶段，受感染的淋巴细胞可作为效应细胞诱导未受感染淋巴细胞凋亡。",
+            "在HIV慢性感染阶段，受感染的淋巴终胞可作为效应细胞诱导未受感染淋巴细胞凋亡。"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s18",
+          "paragraph": 61,
+          "original": "这是慢性感染时细胞数量极度减少的原因。有报道提及效应细胞可能通过Tat蛋白诱导正常的淋巴细胞凋亡。",
+          "wrongOptions": [
+            "这是慢性感染时细胞数量极序减少的原因。有报道提及效应细胞可能通过Tat蛋白诱导正常的淋巴细胞凋亡。",
+            "这是慢性感染时细胞数量极度减少的原因。有报道提及效应细胞可能通过Tat代白诱导正常的淋巴细胞凋亡。",
+            "这是慢性感染时细胞数量极度床少的原因。有报道提及效应细胞可能通过Tat蛋白诱导正常的淋巴细胞凋亡。"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s19",
+          "paragraph": 62,
+          "original": "总之，HIV感染通过多因素和多途径诱导淋巴细胞凋亡，使淋巴细胞大量减少，它虽然导致相关免疫功能缺陷，",
+          "wrongOptions": [
+            "总之，HIV感染通过多因素和多途径诱道淋巴细胞凋亡，使淋巴细胞大量减少，它虽然导致相关免疫功能缺陷，",
+            "总之，HIV感染通过多因素和多途径诱导淋巴细胞凋亡，使淋巴细胞大量减少，它虽然导致相关兔疫功能缺陷，",
+            "总之，HIV感染通过多因素和多途径诱导淋巴细胞凋交，使淋巴细胞大量减少，它虽然导致相关免疫功能缺陷，"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s20",
+          "paragraph": 62,
+          "original": "但在一定程度上也具有保护意义，因为凋亡可使宿主细胞的DNA发生降解，从而破坏整合于其中的病毒DNA，",
+          "wrongOptions": [
+            "但在一定程度上也具有保护意义，因为凋亡可使宿主细胞的DNA发生降解，从而破坏症合于其中的病毒DNA，",
+            "但在一定程度上也具有保护意择，因为凋亡可使宿主细胞的DNA发生降解，从而破坏整合于其中的病毒DNA，",
+            "但在一定程度上也具有保护意义，因为凋亡可使寒主细胞的DNA发生降解，从而破坏整合于其中的病毒DNA，"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s21",
+          "paragraph": 62,
+          "original": "这样可有效地终止病毒DNA的复制和表达，",
+          "wrongOptions": [
+            "这样可有效地终止病毒DNA的复到和表达，",
+            "这样可有效地终止病毒DNA的复制念表达，",
+            "这样可有绞地终止病毒DNA的复制和表达，"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s22",
+          "paragraph": 62,
+          "original": "但细胞凋亡在HIV感染中的有限的保护作用不足以弥补它对整个免疫系统的打击。",
+          "wrongOptions": [
+            "但细胞凋亡在HIV感柔中的有限的保护作用不足以弥补它对整个免疫系统的打击。",
+            "但细胞凋亡在HIV感染中的有限的保护作用不足以弥补尼对整个免疫系统的打击。",
+            "但细胞凋亡在HIV感染中的有限的保护归用不足以弥补它对整个免疫系统的打击。"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s23",
+          "paragraph": 62,
+          "original": "因此在积极抗病毒治疗的同时，如何阻止免疫细胞的凋亡是AIDS病人免疫重建的关键所在。",
+          "wrongOptions": [
+            "因此在积极抗病毒治疗的同时，如何阻止免疫细胞的凋亡是AIDS病人免疫重延的关键所在。",
+            "因此在积极抗病毒治疗的同时，如何助止免疫细胞的凋亡是AIDS病人免疫重建的关键所在。",
+            "因此在积极抗病毒治疗的同时，如何阻止免疫细疱的凋亡是AIDS病人免疫重建的关键所在。"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s24",
+          "paragraph": 63,
+          "original": "另外还有细胞凋亡不足和过度共存的现象，人类组织器官通常由不同种类的细胞构成如血管则以内皮细胞和平滑肌细胞为主。",
+          "wrongOptions": [
+            "另外还有细胞凋亡不足和过度共存灼现象，人类组织器官通常由不同种类的细胞构成如血管则以内皮细胞和平滑肌细胞为主。",
+            "另外还有细胞凋亡不足和过度共存的现象，入类组织器官通常由不同种类的细胞构成如血管则以内皮细胞和平滑肌细胞为主。",
+            "另外还有细胞凋亡不足和过度共存的现象，人类组织器官通常由不同种类的细胞构成如臼管则以内皮细胞和平滑肌细胞为主。"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s25",
+          "paragraph": 63,
+          "original": "由于细胞类型的差异，在致病因素的作用下，有些细胞表现为凋亡不足，另一些细胞可表现为凋亡过度，",
+          "wrongOptions": [
+            "由于细胞类型的差异，在致病因素的作用下，有些细胞表现为凋亡不足，另一紫细胞可表现为凋亡过度，",
+            "由于细胞类型的差异，在致病因素的作用下，有些细胞表现为凋亡上足，另一些细胞可表现为凋亡过度，",
+            "由于细胞类型的差异，在致病因素的作用下，有些细胞表理为凋亡不足，另一些细胞可表现为凋亡过度，"
+          ]
+        },
+        {
+          "id": "chapter-11-12-s26",
+          "paragraph": 63,
+          "original": "因此在同一疾病或病理过程中两种情况可同时并存。",
+          "wrongOptions": [
+            "因此在同一疾病或病陵过程中两种情况可同时并存。",
+            "因此在同一疾疗或病理过程中两种情况可同时并存。",
+            "因此在同一疾病或病理过程中两冲情况可同时并存。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-11-13",
+      "title": "细胞凋亡异常与疾病（7）",
+      "order": 13,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-11-13-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-11-13-s01",
+            "chapter-11-13-s02",
+            "chapter-11-13-s03",
+            "chapter-11-13-s04",
+            "chapter-11-13-s05",
+            "chapter-11-13-s06",
+            "chapter-11-13-s07",
+            "chapter-11-13-s08",
+            "chapter-11-13-s09",
+            "chapter-11-13-s10",
+            "chapter-11-13-s11",
+            "chapter-11-13-s12"
+          ]
+        },
+        {
+          "id": "chapter-11-13-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-11-13-s13",
+            "chapter-11-13-s14",
+            "chapter-11-13-s15",
+            "chapter-11-13-s16",
+            "chapter-11-13-s17",
+            "chapter-11-13-s18",
+            "chapter-11-13-s19",
+            "chapter-11-13-s20",
+            "chapter-11-13-s21",
+            "chapter-11-13-s22",
+            "chapter-11-13-s23",
+            "chapter-11-13-s24"
+          ]
+        },
+        {
+          "id": "chapter-11-13-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-11-13-s25",
+            "chapter-11-13-s26"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-11-13-s01",
+          "paragraph": 63,
+          "original": "由于细胞类型的差异，在致病因素的作用下，有些细胞表现为凋亡不足，另一些细胞可表现为凋亡过度，",
+          "wrongOptions": [
+            "由于细胞类型的差异，在致疗因素的作用下，有些细胞表现为凋亡不足，另一些细胞可表现为凋亡过度，",
+            "由于细胞类型的差异，在致病因素的作用下，有些终胞表现为凋亡不足，另一些细胞可表现为凋亡过度，",
+            "由于细胞类型的差异，在致病因素的夫用下，有些细胞表现为凋亡不足，另一些细胞可表现为凋亡过度，"
+          ],
+          "carried": true
+        },
+        {
+          "id": "chapter-11-13-s02",
+          "paragraph": 63,
+          "original": "如血管动脉粥样硬化时，可见其内皮细胞呈现凋亡过度，而平滑肌细胞则是凋亡不足。",
+          "wrongOptions": [
+            "如血管动脉粥样硬化待，可见其内皮细胞呈现凋亡过度，而平滑肌细胞则是凋亡不足。",
+            "如血管动脉粥样硬化时，可见其内皮细胞呈理凋亡过度，而平滑肌细胞则是凋亡不足。",
+            "如血管动脉粥样硬化时，可见其内皮细胞呈现凋亡过度，而甲滑肌细胞则是凋亡不足。"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s03",
+          "paragraph": 65,
+          "original": "细胞凋亡是体内外因素触发细胞内预存的死亡程序，启动凋亡相关通路而导致的细胞死亡过程，",
+          "wrongOptions": [
+            "细胞凋亡是髓内外因素触发细胞内预存的死亡程序，启动凋亡相关通路而导致的细胞死亡过程，",
+            "细胞凋亡是体内外因素触癸细胞内预存的死亡程序，启动凋亡相关通路而导致的细胞死亡过程，",
+            "细胞凋亡是体肉外因素触发细胞内预存的死亡程序，启动凋亡相关通路而导致的细胞死亡过程，"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s04",
+          "paragraph": 65,
+          "original": "其任一环节发生障碍均可促进和导致疾病。",
+          "wrongOptions": [
+            "其任一环即发生障碍均可促进和导致疾病。",
+            "其任一环节发生障碍地可促进和导致疾病。",
+            "其任一环节登生障碍均可促进和导致疾病。"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s05",
+          "paragraph": 65,
+          "original": "目前人们正针对凋亡发生的各个环节探索调控细胞凋亡速率的方法和措施，以达到防治各种疾病的目的。",
+          "wrongOptions": [
+            "目前人闷正针对凋亡发生的各个环节探索调控细胞凋亡速率的方法和措施，以达到防治各种疾病的目的。",
+            "目前人们正针对凋亡发牛的各个环节探索调控细胞凋亡速率的方法和措施，以达到防治各种疾病的目的。",
+            "目前人们正针对凋亡发生的各伸环节探索调控细胞凋亡速率的方法和措施，以达到防治各种疾病的目的。"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s06",
+          "paragraph": 67,
+          "original": "凋亡信号是凋亡的始动环节，可尝试调控促凋亡信号或抑凋亡信号以防治凋亡不足或过度相关疾病。",
+          "wrongOptions": [
+            "凋亡信号是凋亡的始动环节，可尝试调控促凋亡信号或抑凋亡信号什防治凋亡不足或过度相关疾病。",
+            "凋亡信号是凋亡的始动环节，可念试调控促凋亡信号或抑凋亡信号以防治凋亡不足或过度相关疾病。",
+            "凋亡信号是凋亡的始动环节，可尝试调控促凋亡信号或抑凋亡信号以防治凋亡不足或过度想关疾病。"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s07",
+          "paragraph": 67,
+          "original": "如低剂量照射或补充外源性TNF等促凋亡信号诱导细胞凋亡，达到防治癌症。",
+          "wrongOptions": [
+            "如低剂查照射或补充外源性TNF等促凋亡信号诱导细胞凋亡，达到防治癌症。",
+            "如低剂量照射或补充外源性TNF等促凋亡使号诱导细胞凋亡，达到防治癌症。",
+            "如低剂量照射或补充外源性TNF等促凋亡信号诱导细胞调亡，达到防治癌症。"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s08",
+          "paragraph": 69,
+          "original": "干预凋亡信号转导通路调控凋亡速率可防治其相关疾病。",
+          "wrongOptions": [
+            "干预凋亡信号转道通路调控凋亡速率可防治其相关疾病。",
+            "干预凋亡信号较导通路调控凋亡速率可防治其相关疾病。",
+            "干预凋亡信号转导通路调控调亡速率可防治其相关疾病。"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s09",
+          "paragraph": 69,
+          "original": "如阿霉素可上调癌细胞膜Fas表达，通过启动死亡受体介导的凋亡通路诱导细胞凋亡而抑制癌细胞生长；",
+          "wrongOptions": [
+            "如阿霉素可上调癌细胞膜Fas表达，通过启动死亡受体介导的凋亡通路诱导细胞凋亡而昂制癌细胞生长；",
+            "如阿霉素可上调癌细胞膜Fas表进，通过启动死亡受体介导的凋亡通路诱导细胞凋亡而抑制癌细胞生长；",
+            "如阿霉素可上调癌细胞膜Fas表达，通过启动死亡受体介道的凋亡通路诱导细胞凋亡而抑制癌细胞生长；"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s10",
+          "paragraph": 69,
+          "original": "免疫抑制剂环胞素A（cyclosporin A）具有阻抑ΔΨm下降和防止PTP开放的作用，",
+          "wrongOptions": [
+            "免疫抑制剂环胞素A（cyclosporin A）具有祖抑ΔΨm下降和防止PTP开放的作用，",
+            "免疫抑制剂环胞素A（cyclosporin A）具有阻抑ΔΨm了降和防止PTP开放的作用，",
+            "免疫抑制剂环胞素A（cyclosporin A）具有阻抑ΔΨm下降和防止PTP开放约作用，"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s11",
+          "paragraph": 69,
+          "original": "通过抑制线粒体介导的凋亡通路抑制细胞凋亡，从而防治某些凋亡过度的疾病如AD等。",
+          "wrongOptions": [
+            "通过抑制线粒体介导的凋亡通路抑制细胞凋亡，从而防治某些凋亡过床的疾病如AD等。",
+            "通过抑制线粒脏介导的凋亡通路抑制细胞凋亡，从而防治某些凋亡过度的疾病如AD等。",
+            "通过抑制线粒体介导的凋亡通路抑制细胞凋亡，从而防抬某些凋亡过度的疾病如AD等。"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s12",
+          "paragraph": 71,
+          "original": "运用提高和降低凋亡相关基因表达的技术，通过调控凋亡速率防治疾病。",
+          "wrongOptions": [
+            "运用提高和降低凋亡相关基因表达的技术，涌过调控凋亡速率防治疾病。",
+            "运用提高念降低凋亡相关基因表达的技术，通过调控凋亡速率防治疾病。",
+            "运用提高和降低凋亡相关基因表达的枝术，通过调控凋亡速率防治疾病。"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s13",
+          "paragraph": 71,
+          "original": "如利用各种载体转染促凋亡基因如wtp53，以诱导癌细胞凋亡而发挥抑癌作用；",
+          "wrongOptions": [
+            "如利用各种载体转染促凋亡基因如wtp53，以诱导癌细胞稠亡而发挥抑癌作用；",
+            "如利用各种载体转染促凋亡基因如wtp53，以透导癌细胞凋亡而发挥抑癌作用；",
+            "如利用各种载体转染促凋亡基因如wtp53，以诱导癌细胞凋亢而发挥抑癌作用；"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s14",
+          "paragraph": 71,
+          "original": "抑凋亡基因Bcl-2的反义寡核苷酸可特异与Bcl-2 mRNA某些区段互补，",
+          "wrongOptions": [
+            "抑凋亡基因Bcl-2灼反义寡核苷酸可特异与Bcl-2 mRNA某些区段互补，",
+            "抑凋亡基因Bcl-2的反义寡核苷酸可特龚与Bcl-2 mRNA某些区段互补，",
+            "抑凋亡基因Bcl-2的反义寡核苷酸可特异与Bcl-2 mRNA某些区杀互补，"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s15",
+          "paragraph": 71,
+          "original": "形成DNA-mRNA杂交链抑制基因表达，使癌细胞凋亡明显增多，",
+          "wrongOptions": [
+            "形成DNA-mRNA杂交链抑制基因表达，使癌细鲍凋亡明显增多，",
+            "形成DNA-mRNA杂交链抑制盲因表达，使癌细胞凋亡明显增多，",
+            "形成DNA-mRNA虽交链抑制基因表达，使癌细胞凋亡明显增多，"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s16",
+          "paragraph": 71,
+          "original": "抑制抑凋亡基因Bcl-2过表达的B淋巴细胞癌的生长，或提高癌细胞对抗癌药的敏感性。",
+          "wrongOptions": [
+            "抑制抑凋亡基因Bcl-2过表达的B淋已细胞癌的生长，或提高癌细胞对抗癌药的敏感性。",
+            "抑制抑凋亡基因Bcl-2过表达的B淋巴细胞癌的生长，或提高癌细胞对抗癌药的海感性。",
+            "抑制抑凋亡基因Bcl-2过表达的B淋巴细胞癌的生长，或提高癌细胞对吉癌药的敏感性。"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s17",
+          "paragraph": 73,
+          "original": "核酸内切酶和caspase是调控细胞凋亡最为关键的酶，若抑制或提高它们的活性，",
+          "wrongOptions": [
+            "核酸内切酶和caspase是调控细胞凋交最为关键的酶，若抑制或提高它们的活性，",
+            "核酸内切酶和caspase是调控细胞凋亡最为关键的酶，若抑制或提亮它们的活性，",
+            "核酸内切酶和caspase是调控细孢凋亡最为关键的酶，若抑制或提高它们的活性，"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s18",
+          "paragraph": 73,
+          "original": "可调控细胞凋亡速率而影响相关疾病。",
+          "wrongOptions": [
+            "可调控细饱凋亡速率而影响相关疾病。",
+            "可调控细胞凋亡速率而影窥相关疾病。",
+            "可调控细胞凋亡枪率而影响相关疾病。"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s19",
+          "paragraph": 73,
+          "original": "如转染caspase酶基因可加速白血病细胞发生凋亡；或通过使用caspase抑制剂可明显减少心肌细胞凋亡，",
+          "wrongOptions": [
+            "如转染caspase酶基因可加速白臼病细胞发生凋亡；或通过使用caspase抑制剂可明显减少心肌细胞凋亡，",
+            "如转染caspase酶基因可加速白血病细胞发生凋亡；或涌过使用caspase抑制剂可明显减少心肌细胞凋亡，",
+            "如转染caspase酶基因可加速白血病细胞发生凋亢；或通过使用caspase抑制剂可明显减少心肌细胞凋亡，"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s20",
+          "paragraph": 73,
+          "original": "从而缩小心肌梗死面积和改善心肌功能。使用含锌药物可抑制核酸内切酶的活性而治疗AD和AIDS等。",
+          "wrongOptions": [
+            "从而缩小心肌梗死面积和改善心肌功能。使止含锌药物可抑制核酸内切酶的活性而治疗AD和AIDS等。",
+            "从而缩小心肌梗死曲积和改善心肌功能。使用含锌药物可抑制核酸内切酶的活性而治疗AD和AIDS等。",
+            "从而缩小心肌梗死面积和改善心肌功能。使用含锌药物可抑制核酸内切酶的活性而抬疗AD和AIDS等。"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s21",
+          "paragraph": 84,
+          "original": "1．杨惠玲．细胞增殖分化和凋亡调控异常//陈主初．病理生理学．北京：人民卫生出版社，2001：52-82．",
+          "wrongOptions": [
+            "1．杨惠玲．细胞增殖分化念凋亡调控异常//陈主初．病理生理学．北京：人民卫生出版社，2001：52-82．",
+            "1．杨惠玲．细胞增殖分化和凋亡调控异常//冻主初．病理生理学．北京：人民卫生出版社，2001：52-82．",
+            "1．杨念玲．细胞增殖分化和凋亡调控异常//陈主初．病理生理学．北京：人民卫生出版社，2001：52-82．"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s22",
+          "paragraph": 85,
+          "original": "2．杨惠玲，潘景轩，吴伟康．高级病理生理学．第2版．北京：科学出版社，2006：437-452，36-62．",
+          "wrongOptions": [
+            "2．杨惠玲，潘景轩，吴伟康．高吸病理生理学．第2版．北京：科学出版社，2006：437-452，36-62．",
+            "2．杨惠玲，潘景轩，吴卫康．高级病理生理学．第2版．北京：科学出版社，2006：437-452，36-62．",
+            "2．杨惠玲，潘景轩，吴伟康．亮级病理生理学．第2版．北京：科学出版社，2006：437-452，36-62．"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s23",
+          "paragraph": 86,
+          "original": "Chen Guoqiang．Pathophysiology．北京：科学出版社，2005：144-151．",
+          "wrongOptions": [
+            "Chen Guoqiang．Pathophysiology．北京：科学钩版社，2005：144-151．",
+            "Chen Guoqiang．Pathophysiology．北亭：科学出版社，2005：144-151．",
+            "Chen Guoqiang．Pathophysiology．北京：科学出版灶，2005：144-151．"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s24",
+          "paragraph": 88,
+          "original": "5．杨惠玲．细胞增殖和凋亡异常与疾病//吴立玲．病理生理学．第2版．北京：北京大学出版社，2011．",
+          "wrongOptions": [
+            "5．杨惠玲．细胞增殖和凋亡异常与疾病//吴立玲．病理生理学．第2版．比京：北京大学出版社，2011．",
+            "5．杨惠玲．细胞增殖和凋亡异常与疾病//吴立玲．病理牛理学．第2版．北京：北京大学出版社，2011．",
+            "5．杨惠玲．细胞增殖和凋亡异常与疾病//吴立玲．病理生番学．第2版．北京：北京大学出版社，2011．"
+          ]
+        },
+        {
+          "id": "chapter-11-13-s25",
+          "paragraph": 89,
+          "original": "6．杨惠玲．细胞增殖和凋亡异常与疾病//肖海鹏，杨惠玲．临床病理生理学（临床基础医学精读系列）．北京：",
+          "wrongOptions": [
+            "6．杨惠玲．细胞增殖和凋亡异常与疾病//肖海鹏，杨惠玲．临床病理生理学（临床基础医学精读系刺）．北京：",
+            "6．杨惠玲．细胞增殖和凋亡异常与疾病//育海鹏，杨惠玲．临床病理生理学（临床基础医学精读系列）．北京：",
+            "6．杨念玲．细胞增殖和凋亡异常与疾病//肖海鹏，杨惠玲．临床病理生理学（临床基础医学精读系列）．北京："
+          ]
+        },
+        {
+          "id": "chapter-11-13-s26",
+          "paragraph": 89,
+          "original": "人民卫生出版社，2009：93-113．",
+          "wrongOptions": [
+            "人民卫生出版灶，2009：93-113．",
+            "人民卫牛出版社，2009：93-113．",
+            "人民卫生凹版社，2009：93-113．"
+          ]
+        }
+      ]
+    }
+  ]
+}

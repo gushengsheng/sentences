@@ -2,6 +2,131 @@
   "schemaVersion": 2,
   "books": [
     {
+      "id": "pathophysiology-script",
+      "title": "病理生理学（脚本版）",
+      "author": "王建枝、殷莲华",
+      "dir": "pathophysiology-script",
+      "file": "pathophysiology-script/book.json",
+      "chapters": 19,
+      "fragments": 294,
+      "chapterMeta": [
+        {
+          "id": "chapter-01",
+          "title": "绪 论",
+          "order": 1,
+          "fragments": 5
+        },
+        {
+          "id": "chapter-02",
+          "title": "疾 病 概 论",
+          "order": 2,
+          "fragments": 12
+        },
+        {
+          "id": "chapter-03",
+          "title": "水、电解质代谢紊乱",
+          "order": 3,
+          "fragments": 25
+        },
+        {
+          "id": "chapter-04",
+          "title": "酸碱平衡和酸碱平衡紊乱",
+          "order": 4,
+          "fragments": 22
+        },
+        {
+          "id": "chapter-05",
+          "title": "糖代谢紊乱",
+          "order": 5,
+          "fragments": 15
+        },
+        {
+          "id": "chapter-06",
+          "title": "脂代谢紊乱",
+          "order": 6,
+          "fragments": 13
+        },
+        {
+          "id": "chapter-07",
+          "title": "缺 氧",
+          "order": 7,
+          "fragments": 15
+        },
+        {
+          "id": "chapter-08",
+          "title": "发 热",
+          "order": 8,
+          "fragments": 14
+        },
+        {
+          "id": "chapter-09",
+          "title": "应 激",
+          "order": 9,
+          "fragments": 16
+        },
+        {
+          "id": "chapter-10",
+          "title": "细胞信号转导异常与疾病",
+          "order": 10,
+          "fragments": 11
+        },
+        {
+          "id": "chapter-11",
+          "title": "细胞增殖和凋亡异常",
+          "order": 11,
+          "fragments": 13
+        },
+        {
+          "id": "chapter-12",
+          "title": "缺血-再灌注损伤",
+          "order": 12,
+          "fragments": 14
+        },
+        {
+          "id": "chapter-13",
+          "title": "休 克",
+          "order": 13,
+          "fragments": 20
+        },
+        {
+          "id": "chapter-14",
+          "title": "凝血与抗凝血平衡紊乱",
+          "order": 14,
+          "fragments": 12
+        },
+        {
+          "id": "chapter-15",
+          "title": "心功能不全",
+          "order": 15,
+          "fragments": 23
+        },
+        {
+          "id": "chapter-16",
+          "title": "肺功能不全",
+          "order": 16,
+          "fragments": 12
+        },
+        {
+          "id": "chapter-17",
+          "title": "肝功能不全",
+          "order": 17,
+          "fragments": 11
+        },
+        {
+          "id": "chapter-18",
+          "title": "肾功能不全",
+          "order": 18,
+          "fragments": 23
+        },
+        {
+          "id": "chapter-19",
+          "title": "脑功能不全",
+          "order": 19,
+          "fragments": 18
+        }
+      ]
+    },
+    {
       "id": "bees",
       "title": "蜜蜂与蜂群",
       "dir": "bees",
@@ -82,7 +207,7 @@
       "dir": "pharmacology-script",
       "file": "pharmacology-script/book.json",
       "chapters": 48,
-      "fragments": 495,
+      "fragments": 509,
       "chapterMeta": [
         {
           "id": "chapter-01",
@@ -100,7 +225,7 @@
           "id": "chapter-03",
           "title": "药物效应动力学",
           "order": 3,
-          "fragments": 9
+          "fragments": 11
         },
         {
           "id": "chapter-04",
@@ -112,37 +237,37 @@
           "id": "chapter-05",
           "title": "传出神经系统药理概论",
           "order": 5,
-          "fragments": 7
+          "fragments": 8
         },
         {
           "id": "chapter-06",
           "title": "胆碱受体激动药",
           "order": 6,
-          "fragments": 4
+          "fragments": 5
         },
         {
           "id": "chapter-07",
           "title": "抗胆碱酯酶药和胆碱酯酶复活药",
           "order": 7,
-          "fragments": 8
+          "fragments": 9
         },
         {
           "id": "chapter-08",
           "title": "胆碱受体阻断药（Ⅰ）——M胆碱受体阻断药",
           "order": 8,
-          "fragments": 8
+          "fragments": 9
         },
         {
           "id": "chapter-09",
           "title": "胆碱受体阻断药（Ⅱ）——N胆碱受体阻断药",
           "order": 9,
-          "fragments": 3
+          "fragments": 4
         },
         {
           "id": "chapter-10",
           "title": "肾上腺素受体激动药",
           "order": 10,
-          "fragments": 10
+          "fragments": 11
         },
         {
           "id": "chapter-11",
@@ -166,7 +291,7 @@
           "id": "chapter-14",
           "title": "局部麻醉药",
           "order": 14,
-          "fragments": 6
+          "fragments": 7
         },
         {
           "id": "chapter-15",
@@ -184,37 +309,37 @@
           "id": "chapter-17",
           "title": "治疗中枢神经系统退行性疾病药",
           "order": 17,
-          "fragments": 13
+          "fragments": 14
         },
         {
           "id": "chapter-18",
           "title": "抗精神失常药",
           "order": 18,
-          "fragments": 15
+          "fragments": 16
         },
         {
           "id": "chapter-19",
           "title": "镇 痛 药",
           "order": 19,
-          "fragments": 15
+          "fragments": 16
         },
         {
           "id": "chapter-20",
           "title": "解热镇痛抗炎药",
           "order": 20,
-          "fragments": 14
+          "fragments": 9
         },
         {
           "id": "chapter-21",
           "title": "离子通道概论及钙通道阻滞药",
           "order": 21,
-          "fragments": 10
+          "fragments": 11
         },
         {
           "id": "chapter-22",
           "title": "抗心律失常药",
           "order": 22,
-          "fragments": 10
+          "fragments": 11
         },
         {
           "id": "chapter-23",
@@ -244,19 +369,19 @@
           "id": "chapter-27",
           "title": "调血脂药与抗动脉粥样硬化药",
           "order": 27,
-          "fragments": 12
+          "fragments": 13
         },
         {
           "id": "chapter-28",
           "title": "抗心绞痛药",
           "order": 28,
-          "fragments": 7
+          "fragments": 8
         },
         {
           "id": "chapter-29",
           "title": "作用于血液及造血器官的药物",
           "order": 29,
-          "fragments": 19
+          "fragments": 20
         },
         {
           "id": "chapter-30",
@@ -322,7 +447,7 @@
           "id": "chapter-40",
           "title": "大环内酯类、林可霉素类及多肽类抗生素",
           "order": 40,
-          "fragments": 8
+          "fragments": 9
         },
         {
           "id": "chapter-41",
@@ -364,7 +489,7 @@
           "id": "chapter-47",
           "title": "抗恶性肿瘤药",
           "order": 47,
-          "fragments": 21
+          "fragments": 22
         },
         {
           "id": "chapter-48",
@@ -430,6 +555,227 @@
           "title": "M胆碱受体阻断药",
           "order": 8,
           "fragments": 8
+        }
+      ]
+    },
+    {
+      "id": "diagnostics-script",
+      "title": "诊断学（脚本版）",
+      "author": "万学红、卢雪峰",
+      "dir": "diagnostics-script",
+      "file": "diagnostics-script/book.json",
+      "chapters": 35,
+      "fragments": 528,
+      "chapterMeta": [
+        {
+          "id": "chapter-01",
+          "title": "绪 论",
+          "order": 1,
+          "fragments": 7
+        },
+        {
+          "id": "chapter-02",
+          "title": "第一篇 常见症状",
+          "order": 2,
+          "fragments": 67
+        },
+        {
+          "id": "chapter-03",
+          "title": "第二篇 问 诊 · 第一章 问诊的重要性与医德要求",
+          "order": 3,
+          "fragments": 2
+        },
+        {
+          "id": "chapter-04",
+          "title": "第二篇 问 诊 · 第二章 问诊的内容",
+          "order": 4,
+          "fragments": 6
+        },
+        {
+          "id": "chapter-05",
+          "title": "第二篇 问 诊 · 第三章 问诊的方法与技巧",
+          "order": 5,
+          "fragments": 8
+        },
+        {
+          "id": "chapter-06",
+          "title": "第三篇 体格检查 · 第一章 基本方法",
+          "order": 6,
+          "fragments": 6
+        },
+        {
+          "id": "chapter-07",
+          "title": "第三篇 体格检查 · 第二章 一般检查",
+          "order": 7,
+          "fragments": 10
+        },
+        {
+          "id": "chapter-08",
+          "title": "第三篇 体格检查 · 第三章 头部检查",
+          "order": 8,
+          "fragments": 11
+        },
+        {
+          "id": "chapter-09",
+          "title": "第三篇 体格检查 · 第四章 颈部检查",
+          "order": 9,
+          "fragments": 4
+        },
+        {
+          "id": "chapter-10",
+          "title": "第三篇 体格检查 · 第五章 胸部检查",
+          "order": 10,
+          "fragments": 43
+        },
+        {
+          "id": "chapter-11",
+          "title": "第三篇 体格检查 · 第六章 腹部检查",
+          "order": 11,
+          "fragments": 25
+        },
+        {
+          "id": "chapter-12",
+          "title": "第三篇 体格检查 · 第七章 生殖器、肛门、直肠检查",
+          "order": 12,
+          "fragments": 7
+        },
+        {
+          "id": "chapter-13",
+          "title": "第三篇 体格检查 · 第八章 脊柱与四肢检查",
+          "order": 13,
+          "fragments": 3
+        },
+        {
+          "id": "chapter-14",
+          "title": "第三篇 体格检查 · 第九章 神经系统检查",
+          "order": 14,
+          "fragments": 9
+        },
+        {
+          "id": "chapter-15",
+          "title": "第三篇 体格检查 · 第十章 全身体格检查",
+          "order": 15,
+          "fragments": 4
+        },
+        {
+          "id": "chapter-16",
+          "title": "第四篇 实验诊断 · 第一章 概 论",
+          "order": 16,
+          "fragments": 10
+        },
+        {
+          "id": "chapter-17",
+          "title": "第四篇 实验诊断 · 第二章 临床血液学检测",
+          "order": 17,
+          "fragments": 39
+        },
+        {
+          "id": "chapter-18",
+          "title": "第四篇 实验诊断 · 第三章 血栓与止血检测",
+          "order": 18,
+          "fragments": 18
+        },
+        {
+          "id": "chapter-19",
+          "title": "第四篇 实验诊断 · 第四章 排泄物、分泌物及体液检测",
+          "order": 19,
+          "fragments": 31
+        },
+        {
+          "id": "chapter-20",
+          "title": "第四篇 实验诊断 · 第五章 常用肾脏功能实验室检测",
+          "order": 20,
+          "fragments": 9
+        },
+        {
+          "id": "chapter-21",
+          "title": "第四篇 实验诊断 · 第六章 肝脏病常用实验室检测",
+          "order": 21,
+          "fragments": 22
+        },
+        {
+          "id": "chapter-22",
+          "title": "第四篇 实验诊断 · 第七章 临床常用生物化学检测",
+          "order": 22,
+          "fragments": 27
+        },
+        {
+          "id": "chapter-23",
+          "title": "第四篇 实验诊断 · 第八章 临床常用免疫学检测",
+          "order": 23,
+          "fragments": 23
+        },
+        {
+          "id": "chapter-24",
+          "title": "第四篇 实验诊断 · 第九章 临床常见病原体检测",
+          "order": 24,
+          "fragments": 33
+        },
+        {
+          "id": "chapter-25",
+          "title": "第四篇 实验诊断 · 第十章 其他检测",
+          "order": 25,
+          "fragments": 12
+        },
+        {
+          "id": "chapter-26",
+          "title": "第五篇 辅助检查 · 第一章 心 电 图",
+          "order": 26,
+          "fragments": 32
+        },
+        {
+          "id": "chapter-27",
+          "title": "第五篇 辅助检查 · 第二章 其他常用心电学检查",
+          "order": 27,
+          "fragments": 5
+        },
+        {
+          "id": "chapter-28",
+          "title": "第五篇 辅助检查 · 第三章 肺功能检查",
+          "order": 28,
+          "fragments": 19
+        },
+        {
+          "id": "chapter-29",
+          "title": "第五篇 辅助检查 · 第四章 内镜检查",
+          "order": 29,
+          "fragments": 9
+        },
+        {
+          "id": "chapter-30",
+          "title": "第六篇 病历书写 · 第一章 病历书写的基本要求",
+          "order": 30,
+          "fragments": 2
+        },
+        {
+          "id": "chapter-31",
+          "title": "第六篇 病历书写 · 第二章 病历书写格式及内容",
+          "order": 31,
+          "fragments": 13
+        },
+        {
+          "id": "chapter-32",
+          "title": "第六篇 病历书写 · 第三章 电子病历",
+          "order": 32,
+          "fragments": 2
+        },
+        {
+          "id": "chapter-33",
+          "title": "第七篇 诊断疾病的步骤和临床 · 第一章 诊断疾病的步骤",
+          "order": 33,
+          "fragments": 2
+        },
+        {
+          "id": "chapter-34",
+          "title": "第七篇 诊断疾病的步骤和临床 · 第二章 临床思维方法",
+          "order": 34,
+          "fragments": 6
+        },
+        {
+          "id": "chapter-35",
+          "title": "第七篇 诊断疾病的步骤和临床 · 第三章 临床诊断的内容",
+          "order": 35,
+          "fragments": 2
         }
       ]
     }

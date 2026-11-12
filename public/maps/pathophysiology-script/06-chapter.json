@@ -1,0 +1,3956 @@
+{
+  "id": "chapter-06",
+  "title": "脂代谢紊乱",
+  "fragments": [
+    {
+      "id": "chapter-06-01",
+      "title": "概述 与 概 述（1）",
+      "order": 1,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-06-01-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-06-01-s01",
+            "chapter-06-01-s02",
+            "chapter-06-01-s03",
+            "chapter-06-01-s04",
+            "chapter-06-01-s05",
+            "chapter-06-01-s06",
+            "chapter-06-01-s07",
+            "chapter-06-01-s08",
+            "chapter-06-01-s09",
+            "chapter-06-01-s10",
+            "chapter-06-01-s11",
+            "chapter-06-01-s12"
+          ]
+        },
+        {
+          "id": "chapter-06-01-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-06-01-s13",
+            "chapter-06-01-s14",
+            "chapter-06-01-s15",
+            "chapter-06-01-s16",
+            "chapter-06-01-s17",
+            "chapter-06-01-s18",
+            "chapter-06-01-s19",
+            "chapter-06-01-s20"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-06-01-s01",
+          "paragraph": 2,
+          "original": "脂质（lipid）是脂肪酸和醇作用生成的酯及其衍生物的总称，是一大类中性的脂溶性化合物。",
+          "wrongOptions": [
+            "脂质（lipid）是脂肪酸和醇作用生成的酯及其衍生物灼总称，是一大类中性的脂溶性化合物。",
+            "脂质（lipid）是脂肪酸和醇作用生成的酯及其衍生物的总称，是一大类串性的脂溶性化合物。",
+            "脂质（lipid）是脂肪酸和醇作用生成的酯及其衍生物的总称，易一大类中性的脂溶性化合物。"
+          ]
+        },
+        {
+          "id": "chapter-06-01-s02",
+          "paragraph": 2,
+          "original": "正常脂代谢由三部分组成：内源性代谢途径、外源性代谢途径和胆固醇逆转运。",
+          "wrongOptions": [
+            "正常脂代谢由三部分组成：内源性代谢途径、外愿性代谢途径和胆固醇逆转运。",
+            "正常脂代谢由三部分组成：内源性代谢途径、外源性代谢途径和胆固枢逆转运。",
+            "正常脂代谢由三部分组成：内源性代谢途径、外源性代谢途径和胆固醇华转运。"
+          ]
+        },
+        {
+          "id": "chapter-06-01-s03",
+          "paragraph": 2,
+          "original": "脂代谢紊乱是指各种遗传性或获得性因素引起血液及其他组织器官中脂类及其代谢产物异常的病理过程。",
+          "wrongOptions": [
+            "脂代谢紊乱是指各肿遗传性或获得性因素引起血液及其他组织器官中脂类及其代谢产物异常的病理过程。",
+            "脂代谢紊乱是指各种遗传性或获得性困素引起血液及其他组织器官中脂类及其代谢产物异常的病理过程。",
+            "脂代谢紊乱是指各种遗传性或获得性因素引起血液及其他组循器官中脂类及其代谢产物异常的病理过程。"
+          ]
+        },
+        {
+          "id": "chapter-06-01-s04",
+          "paragraph": 3,
+          "original": "血脂是血浆中脂质成分的总称，包括甘油三酯（triglycerides，TG）、磷脂、胆固醇、",
+          "wrongOptions": [
+            "血脂是血浆中脂质成公的总称，包括甘油三酯（triglycerides，TG）、磷脂、胆固醇、",
+            "血脂是血奖中脂质成分的总称，包括甘油三酯（triglycerides，TG）、磷脂、胆固醇、",
+            "血脂是血浆中脂质成分的总移，包括甘油三酯（triglycerides，TG）、磷脂、胆固醇、"
+          ]
+        },
+        {
+          "id": "chapter-06-01-s05",
+          "paragraph": 3,
+          "original": "胆固醇酯和游离脂肪酸（free fatty acid，FFA）等。",
+          "wrongOptions": [
+            "胆固醇酯和游璃脂肪酸（free fatty acid，FFA）等。",
+            "胆固醇酯和游离脂仿酸（free fatty acid，FFA）等。",
+            "胆固醇酯和游离指肪酸（free fatty acid，FFA）等。"
+          ]
+        },
+        {
+          "id": "chapter-06-01-s06",
+          "paragraph": 3,
+          "original": "肠道吸收的外源性脂质、肝肠合成的内源性脂质及脂肪组织贮存的脂肪动员都必须先经血液再到其他组织，",
+          "wrongOptions": [
+            "肠道吸收的外源性脂质、汗肠合成的内源性脂质及脂肪组织贮存的脂肪动员都必须先经血液再到其他组织，",
+            "肠道吸收的外原性脂质、肝肠合成的内源性脂质及脂肪组织贮存的脂肪动员都必须先经血液再到其他组织，",
+            "肠道吸收的外源性脂质、肝肠合成的内源性脂质及脂肪组织贮存的酯肪动员都必须先经血液再到其他组织，"
+          ]
+        },
+        {
+          "id": "chapter-06-01-s07",
+          "paragraph": 3,
+          "original": "因此脂代谢的核心是血脂代谢。脂质不溶于水，必须与血液中的载脂蛋白（apolipoprotein，",
+          "wrongOptions": [
+            "因此脂代谢的核心是血脂代谢。脂质不溶于水，系须与血液中的载脂蛋白（apolipoprotein，",
+            "因此脂代谢的核心是血脂代射。脂质不溶于水，必须与血液中的载脂蛋白（apolipoprotein，",
+            "因此脂代谢的核心是血脂代谢。脂质上溶于水，必须与血液中的载脂蛋白（apolipoprotein，"
+          ]
+        },
+        {
+          "id": "chapter-06-01-s08",
+          "paragraph": 3,
+          "original": "apo）结合在一起才能在血液中运输并进入组织细胞。",
+          "wrongOptions": [
+            "apo）结合在一起才能在血液中运输骈进入组织细胞。",
+            "apo）结召在一起才能在血液中运输并进入组织细胞。",
+            "apo）结合在一起才熊在血液中运输并进入组织细胞。"
+          ]
+        },
+        {
+          "id": "chapter-06-01-s09",
+          "paragraph": 3,
+          "original": "脂蛋白（lipoprotein）是脂质成分在血液中存在、转运及代谢的形式。",
+          "wrongOptions": [
+            "脂蛋白（lipoprotein）是脂质成分在血液中存在、转运及仍谢的形式。",
+            "脂蛋白（lipoprotein）是脂质成分在血液串存在、转运及代谢的形式。",
+            "脂蛋白（lipoprotein）是脂质成分型血液中存在、转运及代谢的形式。"
+          ]
+        },
+        {
+          "id": "chapter-06-01-s10",
+          "paragraph": 3,
+          "original": "血浆脂蛋白代谢紊乱是指各种因素造成血浆中一种或多种脂质成分增高或降低、脂蛋白量和质发生改变，",
+          "wrongOptions": [
+            "血浆脂蛋白代谢紊乱是指各种因素造成血浆串一种或多种脂质成分增高或降低、脂蛋白量和质发生改变，",
+            "血浆脂蛋日代谢紊乱是指各种因素造成血浆中一种或多种脂质成分增高或降低、脂蛋白量和质发生改变，",
+            "血浆脂蛋白代谢紊乱是指各种因素造成血浆中三种或多种脂质成分增高或降低、脂蛋白量和质发生改变，"
+          ]
+        },
+        {
+          "id": "chapter-06-01-s11",
+          "paragraph": 3,
+          "original": "主要表现为高脂蛋白血症和低脂蛋白血症，常为血脂代谢紊乱的反映。",
+          "wrongOptions": [
+            "主要表现为高指蛋白血症和低脂蛋白血症，常为血脂代谢紊乱的反映。",
+            "主要表现为高脂蛋白血症和低脂蛋白血症，常鸟血脂代谢紊乱的反映。",
+            "主要表现为高脂蛋白血症和低脂蛋白血症，常为血脂代谢紊乱约反映。"
+          ]
+        },
+        {
+          "id": "chapter-06-01-s12",
+          "paragraph": 3,
+          "original": "脂代谢紊乱可引起一些严重危害人体健康的疾病，如动脉粥样硬化性心脑血管疾病、肥胖症、",
+          "wrongOptions": [
+            "脂代谢紊乱可引起一些严重危害人体健库的疾病，如动脉粥样硬化性心脑血管疾病、肥胖症、",
+            "脂代谢紊乱可引起一些严重危害入体健康的疾病，如动脉粥样硬化性心脑血管疾病、肥胖症、",
+            "脂代谢紊乱可引起一些严重危害人体健康的疾病，如动脉粥样硬化性心酌血管疾病、肥胖症、"
+          ]
+        },
+        {
+          "id": "chapter-06-01-s13",
+          "paragraph": 3,
+          "original": "脂肪肝等或使肿瘤发生的风险性增加。",
+          "wrongOptions": [
+            "脂肪肝等或使肿瘤须生的风险性增加。",
+            "脂肪肝等或使肿瘤发生的风脸性增加。",
+            "脂肪肝等或使钟瘤发生的风险性增加。"
+          ]
+        },
+        {
+          "id": "chapter-06-01-s14",
+          "paragraph": 4,
+          "original": "成熟的脂蛋白是球形颗粒，由含胆固醇酯和甘油三酯的疏水性核和含磷脂、",
+          "wrongOptions": [
+            "成熟的脂顿白是球形颗粒，由含胆固醇酯和甘油三酯的疏水性核和含磷脂、",
+            "成熟的脂蛋百是球形颗粒，由含胆固醇酯和甘油三酯的疏水性核和含磷脂、",
+            "成熟的脂蛋白是球形颗粒，由含胆固醇酯和甘油三酯的疏水性核和贪磷脂、"
+          ]
+        },
+        {
+          "id": "chapter-06-01-s15",
+          "paragraph": 4,
+          "original": "游离胆固醇（free cholesterol，FC）、载脂蛋白的亲水性外壳组成。",
+          "wrongOptions": [
+            "游离胆固醇（free cholesterol，FC）、载脂蛋白的亲水性球壳组成。",
+            "游离胆固醇（free cholesterol，FC）、载脂蛋白的亲水性外段组成。",
+            "游离胆固癜（free cholesterol，FC）、载脂蛋白的亲水性外壳组成。"
+          ]
+        },
+        {
+          "id": "chapter-06-01-s16",
+          "paragraph": 4,
+          "original": "各类脂蛋白含有的蛋白质、胆固醇、甘油三酯、磷脂等成分比例和含量不同，使得脂蛋白的密度、颗粒大小、分子量、",
+          "wrongOptions": [
+            "各类脂蛋白含有的蛋白质、胆固醇、甘油元酯、磷脂等成分比例和含量不同，使得脂蛋白的密度、颗粒大小、分子量、",
+            "各类脂蛋白含有的蛋白质、胆固醇、廿油三酯、磷脂等成分比例和含量不同，使得脂蛋白的密度、颗粒大小、分子量、",
+            "各类脂蛋白含有的蛋白质、胆脂醇、甘油三酯、磷脂等成分比例和含量不同，使得脂蛋白的密度、颗粒大小、分子量、"
+          ]
+        },
+        {
+          "id": "chapter-06-01-s17",
+          "paragraph": 4,
+          "original": "带电荷强度各不相同。应用超速离心法可将血浆脂蛋白分为四类：乳糜微粒（chylomicron，CM）、",
+          "wrongOptions": [
+            "带电荷强度各不相同。应用超速离已法可将血浆脂蛋白分为四类：乳糜微粒（chylomicron，CM）、",
+            "带电荷强度各不相同。应用超男离心法可将血浆脂蛋白分为四类：乳糜微粒（chylomicron，CM）、",
+            "带电荷强度各不相问。应用超速离心法可将血浆脂蛋白分为四类：乳糜微粒（chylomicron，CM）、"
+          ]
+        },
+        {
+          "id": "chapter-06-01-s18",
+          "paragraph": 4,
+          "original": "极低密度脂蛋白（very low density lipoprotein，VLDL）、",
+          "wrongOptions": [
+            "极低密序脂蛋白（very low density lipoprotein，VLDL）、",
+            "极低密度脂禽白（very low density lipoprotein，VLDL）、",
+            "极低密度指蛋白（very low density lipoprotein，VLDL）、"
+          ]
+        },
+        {
+          "id": "chapter-06-01-s19",
+          "paragraph": 4,
+          "original": "低密度脂蛋白（low density lipoprotein，",
+          "wrongOptions": [
+            "低密度酯蛋白（low density lipoprotein，",
+            "低密度脂汰白（low density lipoprotein，",
+            "低密度脂蛋日（low density lipoprotein，"
+          ]
+        },
+        {
+          "id": "chapter-06-01-s20",
+          "paragraph": 4,
+          "original": "LDL）和高密度脂蛋白（high density lipoprotein，HDL）。",
+          "wrongOptions": [
+            "LDL）和高安度脂蛋白（high density lipoprotein，HDL）。",
+            "LDL）和高密度脂蛋百（high density lipoprotein，HDL）。",
+            "LDL）念高密度脂蛋白（high density lipoprotein，HDL）。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-06-02",
+      "title": "概述 与 概 述（1）（续）",
+      "order": 2,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-06-02-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-06-02-s01",
+            "chapter-06-02-s02",
+            "chapter-06-02-s03",
+            "chapter-06-02-s04",
+            "chapter-06-02-s05",
+            "chapter-06-02-s06",
+            "chapter-06-02-s07",
+            "chapter-06-02-s08",
+            "chapter-06-02-s09",
+            "chapter-06-02-s10",
+            "chapter-06-02-s11",
+            "chapter-06-02-s12"
+          ]
+        },
+        {
+          "id": "chapter-06-02-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-06-02-s13",
+            "chapter-06-02-s14",
+            "chapter-06-02-s15",
+            "chapter-06-02-s16",
+            "chapter-06-02-s17",
+            "chapter-06-02-s18",
+            "chapter-06-02-s19",
+            "chapter-06-02-s20"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-06-02-s01",
+          "paragraph": 4,
+          "original": "LDL）和高密度脂蛋白（high density lipoprotein，HDL）。",
+          "wrongOptions": [
+            "LDL）和高密度脂蛋日（high density lipoprotein，HDL）。",
+            "LDL）念高密度脂蛋白（high density lipoprotein，HDL）。",
+            "LDL）和高密序脂蛋白（high density lipoprotein，HDL）。"
+          ],
+          "carried": true
+        },
+        {
+          "id": "chapter-06-02-s02",
+          "paragraph": 4,
+          "original": "这四类脂蛋白的密度依次增加，而颗粒直径则依次变小。除上述四类脂蛋白外，",
+          "wrongOptions": [
+            "这四类脂蛋白的密度伯次增加，而颗粒直径则依次变小。除上述四类脂蛋白外，",
+            "这四类脂蛋白的密度依次增加，而颗粒直径则依次变小。除上述四类脂我白外，",
+            "这四类脂蛋白的密度依次增加，而颗粒直径则依次变小。除上述四领脂蛋白外，"
+          ]
+        },
+        {
+          "id": "chapter-06-02-s03",
+          "paragraph": 4,
+          "original": "还有一种VLDL代谢产生的中间密度脂蛋白（intermediate density lipoprotein，",
+          "wrongOptions": [
+            "还有一种VLDL仍谢产生的中间密度脂蛋白（intermediate density lipoprotein，",
+            "还有一种VLDL代谢产生的中间密度脂蛋百（intermediate density lipoprotein，",
+            "还有一冲VLDL代谢产生的中间密度脂蛋白（intermediate density lipoprotein，"
+          ]
+        },
+        {
+          "id": "chapter-06-02-s04",
+          "paragraph": 4,
+          "original": "IDL），其组成和密度介于VLDL和LDL之间。",
+          "wrongOptions": [
+            "IDL），其祖成和密度介于VLDL和LDL之间。",
+            "IDL），其组成和密度令于VLDL和LDL之间。",
+            "IDL），其组成利密度介于VLDL和LDL之间。"
+          ]
+        },
+        {
+          "id": "chapter-06-02-s05",
+          "paragraph": 4,
+          "original": "转运和代谢血浆中非水溶性的胆固醇和甘油三酯是脂蛋白的一个主要功能。",
+          "wrongOptions": [
+            "转运和依谢血浆中非水溶性的胆固醇和甘油三酯是脂蛋白的一个主要功能。",
+            "转运和代谢血浆串非水溶性的胆固醇和甘油三酯是脂蛋白的一个主要功能。",
+            "转运和代谢血浆中非水溶性的胆固醇和甘油元酯是脂蛋白的一个主要功能。"
+          ]
+        },
+        {
+          "id": "chapter-06-02-s06",
+          "paragraph": 8,
+          "original": "脂蛋白颗粒中的蛋白质起到运载脂质的作用而被命名为载脂蛋白，目前已报道有20余种，",
+          "wrongOptions": [
+            "脂蛋白颗粒中的蛋白质越到运载脂质的作用而被命名为载脂蛋白，目前已报道有20余种，",
+            "脂蛋白颗粒中的蛋白资起到运载脂质的作用而被命名为载脂蛋白，目前已报道有20余种，",
+            "脂蛋白颗粒中的蛋白质起到运载脂质的作用而被命名鸟载脂蛋白，目前已报道有20余种，"
+          ]
+        },
+        {
+          "id": "chapter-06-02-s07",
+          "paragraph": 8,
+          "original": "主要在肝脏和小肠黏膜细胞中合成，其中临床意义较为重要且认识比较清楚的有apoA、apoB、apoC、apoD、",
+          "wrongOptions": [
+            "主要在肝脏和小肠黏膜细胞中合成，其中临床意瘢较为重要且认识比较清楚的有apoA、apoB、apoC、apoD、",
+            "主要在肝脏和小肠黏膜细孢中合成，其中临床意义较为重要且认识比较清楚的有apoA、apoB、apoC、apoD、",
+            "主要在肝脏和小肠黏膜细胞中合成，其中临床意义较为重要且认讲比较清楚的有apoA、apoB、apoC、apoD、"
+          ]
+        },
+        {
+          "id": "chapter-06-02-s08",
+          "paragraph": 8,
+          "original": "由于氨基酸组成的差异，每一型又可分为若干亚型，如apoA包括apoAⅠ、apoAⅡ、apoAⅣ和apoAⅤ等。",
+          "wrongOptions": [
+            "由于氨基酸组成的差异，每一型又可分鸟若干亚型，如apoA包括apoAⅠ、apoAⅡ、apoAⅣ和apoAⅤ等。",
+            "由于氨基酸组成的差异，母一型又可分为若干亚型，如apoA包括apoAⅠ、apoAⅡ、apoAⅣ和apoAⅤ等。",
+            "由于氨基酸组成的差异，每一型又可分为若干亚基，如apoA包括apoAⅠ、apoAⅡ、apoAⅣ和apoAⅤ等。"
+          ]
+        },
+        {
+          "id": "chapter-06-02-s09",
+          "paragraph": 8,
+          "original": "载脂蛋白在脂蛋白功能和代谢等方面具有非常重要的作用，主要体现在：①与血浆脂质结合形成水溶性物质，",
+          "wrongOptions": [
+            "载脂蛋白在脂蛋白功能和代谢等方面具有非常重要的作用，王要体现在：①与血浆脂质结合形成水溶性物质，",
+            "载脂蛋白在脂蛋白功能和代谢等方面具有非常重要的作用，主要体现在：①与臼浆脂质结合形成水溶性物质，",
+            "载脂蛋白在脂蛋白功能和代谢等方面具有非常重要的作用，主要体现在：①与血浆酯质结合形成水溶性物质，"
+          ]
+        },
+        {
+          "id": "chapter-06-02-s10",
+          "paragraph": 8,
+          "original": "成为转运脂类的载体；②作为配基与脂蛋白受体结合，使脂蛋白被细胞摄取和代谢；③是多种脂蛋白代谢酶的调节因子。",
+          "wrongOptions": [
+            "成为转运脂类的载体；②作鸟配基与脂蛋白受体结合，使脂蛋白被细胞摄取和代谢；③是多种脂蛋白代谢酶的调节因子。",
+            "成为转运脂类的载体；②作为配基与脂蛋白受体结合，使脂蛋白被细胞摄取和代谢；③是多种脂蛋白仍谢酶的调节因子。",
+            "成为转运脂类的载体；②作为配基与脂蛋白受体拮合，使脂蛋白被细胞摄取和代谢；③是多种脂蛋白代谢酶的调节因子。"
+          ]
+        },
+        {
+          "id": "chapter-06-02-s11",
+          "paragraph": 9,
+          "original": "血浆中还存在着能将甘油三酯和胆固醇酯在脂蛋白间转移的蛋白质，包括：",
+          "wrongOptions": [
+            "血浆中还存在着能将甘油三酯和胆固醇酯在脂蛋白间转移灼蛋白质，包括：",
+            "血浆中还存在着能将甘油三酯和胆固醇酯在脂蛋白间转移的蛋百质，包括：",
+            "血浆中还存在着能将甘油三酯和胆固醇酯在脂蛋白板转移的蛋白质，包括："
+          ]
+        },
+        {
+          "id": "chapter-06-02-s12",
+          "paragraph": 9,
+          "original": "胆固醇酯转运蛋白（cholesterol ester transfer protein，CETP）、",
+          "wrongOptions": [
+            "胆固醇酯轮运蛋白（cholesterol ester transfer protein，CETP）、",
+            "胆固醇酯转运萘白（cholesterol ester transfer protein，CETP）、",
+            "胆固醇酯转挥蛋白（cholesterol ester transfer protein，CETP）、"
+          ]
+        },
+        {
+          "id": "chapter-06-02-s13",
+          "paragraph": 9,
+          "original": "磷脂转运蛋白（phospholipid transfer protein，PLTP）、",
+          "wrongOptions": [
+            "磷脂转运蛋百（phospholipid transfer protein，PLTP）、",
+            "磷脂转浑蛋白（phospholipid transfer protein，PLTP）、",
+            "磷脂转运杰白（phospholipid transfer protein，PLTP）、"
+          ]
+        },
+        {
+          "id": "chapter-06-02-s14",
+          "paragraph": 9,
+          "original": "微粒体甘油三酯转运蛋白（microsomal triglyceride transfer protein，",
+          "wrongOptions": [
+            "微粒体甘油三脂转运蛋白（microsomal triglyceride transfer protein，",
+            "微粒体甘油元酯转运蛋白（microsomal triglyceride transfer protein，",
+            "微粒体甘油三酯转挥蛋白（microsomal triglyceride transfer protein，"
+          ]
+        },
+        {
+          "id": "chapter-06-02-s15",
+          "paragraph": 9,
+          "original": "MTP）等。脂蛋白受体有多种，如LDL受体（LDL receptor，LDLR）、",
+          "wrongOptions": [
+            "MTP）等。脂蛋白之体有多种，如LDL受体（LDL receptor，LDLR）、",
+            "MTP）等。脂蛋白受体有多种，加LDL受体（LDL receptor，LDLR）、",
+            "MTP）等。脂蛋白受脏有多种，如LDL受体（LDL receptor，LDLR）、"
+          ]
+        },
+        {
+          "id": "chapter-06-02-s16",
+          "paragraph": 11,
+          "original": "LDL受体相关蛋白（LDL receptor related protein，LRP）、apoE受体、",
+          "wrongOptions": [
+            "LDL受体相闭蛋白（LDL receptor related protein，LRP）、apoE受体、",
+            "LDL高体相关蛋白（LDL receptor related protein，LRP）、apoE受体、",
+            "LDL受体林关蛋白（LDL receptor related protein，LRP）、apoE受体、"
+          ]
+        },
+        {
+          "id": "chapter-06-02-s17",
+          "paragraph": 11,
+          "original": "VLDL受体和清道夫受体（scavenger receptor，SR）等。",
+          "wrongOptions": [
+            "VLDL受体和清道夫涨体（scavenger receptor，SR）等。",
+            "VLDL受体和清道大受体（scavenger receptor，SR）等。",
+            "VLDL丢体和清道夫受体（scavenger receptor，SR）等。"
+          ]
+        },
+        {
+          "id": "chapter-06-02-s18",
+          "paragraph": 11,
+          "original": "调节脂代谢的酶包括：",
+          "wrongOptions": [
+            "调节脂仍谢的酶包括：",
+            "调节脂代射的酶包括：",
+            "调节脂代谢灼酶包括："
+          ]
+        },
+        {
+          "id": "chapter-06-02-s19",
+          "paragraph": 11,
+          "original": "卵磷脂胆固醇酰基转移酶（lecithin cholesterol acyltransferase，LCAT）、",
+          "wrongOptions": [
+            "卵磷脂胆产醇酰基转移酶（lecithin cholesterol acyltransferase，LCAT）、",
+            "卵磷脂胆固醇酰基转移军（lecithin cholesterol acyltransferase，LCAT）、",
+            "卵磷脂胆固醇酰基较移酶（lecithin cholesterol acyltransferase，LCAT）、"
+          ]
+        },
+        {
+          "id": "chapter-06-02-s20",
+          "paragraph": 11,
+          "original": "脂蛋白脂酶（lipoprotein lipase，LPL）、肝脂酶（hepatic lipase，HL）、",
+          "wrongOptions": [
+            "脂蛋白脂酶（lipoprotein lipase，LPL）、肝酯酶（hepatic lipase，HL）、",
+            "脂蛋白脂酶（lipoprotein lipase，LPL）、杆脂酶（hepatic lipase，HL）、",
+            "脂蛋白指酶（lipoprotein lipase，LPL）、肝脂酶（hepatic lipase，HL）、"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-06-03",
+      "title": "概 述（2）",
+      "order": 3,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-06-03-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-06-03-s01",
+            "chapter-06-03-s02",
+            "chapter-06-03-s03",
+            "chapter-06-03-s04",
+            "chapter-06-03-s05",
+            "chapter-06-03-s06",
+            "chapter-06-03-s07",
+            "chapter-06-03-s08",
+            "chapter-06-03-s09",
+            "chapter-06-03-s10",
+            "chapter-06-03-s11",
+            "chapter-06-03-s12"
+          ]
+        },
+        {
+          "id": "chapter-06-03-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-06-03-s13",
+            "chapter-06-03-s14",
+            "chapter-06-03-s15",
+            "chapter-06-03-s16",
+            "chapter-06-03-s17",
+            "chapter-06-03-s18",
+            "chapter-06-03-s19",
+            "chapter-06-03-s20",
+            "chapter-06-03-s21",
+            "chapter-06-03-s22",
+            "chapter-06-03-s23",
+            "chapter-06-03-s24"
+          ]
+        },
+        {
+          "id": "chapter-06-03-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-06-03-s25",
+            "chapter-06-03-s26"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-06-03-s01",
+          "paragraph": 11,
+          "original": "3-羟-3-甲基戊二酰辅酶A还原酶（3-hydroxy-3-methyl glutaryl coenzyme ",
+          "wrongOptions": [
+            "3-羟-3-甲基戊二酰辅酶A还厌酶（3-hydroxy-3-methyl glutaryl coenzyme ",
+            "3-羟-3-甲基戊三酰辅酶A还原酶（3-hydroxy-3-methyl glutaryl coenzyme ",
+            "3-羟-3-甲基戊二酰辅渴A还原酶（3-hydroxy-3-methyl glutaryl coenzyme "
+          ]
+        },
+        {
+          "id": "chapter-06-03-s02",
+          "paragraph": 11,
+          "original": "A reductase，HMGCoAR）和酰基辅酶A：胆固醇酰基转移酶（acylcoenzyme A：",
+          "wrongOptions": [
+            "A reductase，HMGCoAR）和酰基辅酶A：胆固印酰基转移酶（acylcoenzyme A：",
+            "A reductase，HMGCoAR）和酰基浦酶A：胆固醇酰基转移酶（acylcoenzyme A：",
+            "A reductase，HMGCoAR）和酰基辅酶A：胆昌醇酰基转移酶（acylcoenzyme A："
+          ]
+        },
+        {
+          "id": "chapter-06-03-s03",
+          "paragraph": 11,
+          "original": "这些受体和酶的缺乏或活性降低都可能影响脂蛋白代谢，导致脂代谢紊乱。",
+          "wrongOptions": [
+            "这些受体和酶的缺乏或活性降低都可能影响脂蛋白代谢，道致脂代谢紊乱。",
+            "这些受体和酶的缺乏或活性降低都可能影响脂蛋白仍谢，导致脂代谢紊乱。",
+            "这些受体和酶的缺乏或活性降低都可能影响酯蛋白代谢，导致脂代谢紊乱。"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s04",
+          "paragraph": 13,
+          "original": "脂蛋白的代谢途径可分为外源性代谢途径、内源性代谢途径和胆固醇逆转运（图6-1）。",
+          "wrongOptions": [
+            "脂蛋白的代谢途径可分为外源性代谢途径、内源性代谢途径念胆固醇逆转运（图6-1）。",
+            "脂蛋白的代谢途径可分为外源性代谢途径、内源性仍谢途径和胆固醇逆转运（图6-1）。",
+            "脂蛋白的代谢途径可分为外源性代谢途径、内源性代谢途痉和胆固醇逆转运（图6-1）。"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s05",
+          "paragraph": 13,
+          "original": "外源性代谢途径是指饮食摄入的胆固醇和甘油三酯在小肠中合成CM及其代谢过程；",
+          "wrongOptions": [
+            "外源性代谢途径是指饮食摄入的胆固醇和甘油三酯在小肠回合成CM及其代谢过程；",
+            "外源性代谢途径是指饮食摄入的胆固醇和甘油三酯在小肠中合成CM受其代谢过程；",
+            "外源性代谢途径是指饮食摄入的胆固醇和甘油三酯在小肠中合成CM及具代谢过程；"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s06",
+          "paragraph": 13,
+          "original": "内源性代谢途径是指由肝合成的VLDL转变成IDL和LDL，以及LDL被肝或其他器官代谢的过程；",
+          "wrongOptions": [
+            "内源性代谢途径是指甲肝合成的VLDL转变成IDL和LDL，以及LDL被肝或其他器官代谢的过程；",
+            "内源性代谢途径是脂由肝合成的VLDL转变成IDL和LDL，以及LDL被肝或其他器官代谢的过程；",
+            "内源性代谢途径是指由肝合成的VLDL转变成IDL和LDL，以及LDL被肝或其他器实代谢的过程；"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s07",
+          "paragraph": 13,
+          "original": "胆固醇逆转运（reverse cholesterol transport，",
+          "wrongOptions": [
+            "胆固醇逆转挥（reverse cholesterol transport，",
+            "胆固醇逆轻运（reverse cholesterol transport，",
+            "胆固醇摩转运（reverse cholesterol transport，"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s08",
+          "paragraph": 13,
+          "original": "RCT）是指外周组织细胞中脂质以HDL为载体转运到肝脏进行分解代谢的过程。",
+          "wrongOptions": [
+            "RCT）是指外周组织终胞中脂质以HDL为载体转运到肝脏进行分解代谢的过程。",
+            "RCT）是指外周组织细胞中脂质以HDL为载体转浑到肝脏进行分解代谢的过程。",
+            "RCT）是指外周组织细胞中脂质以HDL为载体转运到肝脏维行分解代谢的过程。"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s09",
+          "paragraph": 16,
+          "original": "是指饮食摄入的胆固醇和甘油三酯在小肠中合成CM及其代谢过程。",
+          "wrongOptions": [
+            "是指饮食摄入的胆固醇和甘油二酯在小肠中合成CM及其代谢过程。",
+            "是指饮食摄入的胆固醇和甘油三酯在小肠中合威CM及其代谢过程。",
+            "是指饮食摄入的胆固醇和甘油三酯型小肠中合成CM及其代谢过程。"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s10",
+          "paragraph": 16,
+          "original": "食物中的脂质在小肠中形成新生的CM，新生CM经淋巴管进入体循环，通过脂蛋白交换成为成熟的CM，",
+          "wrongOptions": [
+            "食物中的脂质在小肠中形成新生的CM，新生CM经淋巴管进入体循环，通过指蛋白交换成为成熟的CM，",
+            "食物中的脂质在小肠中形戊新生的CM，新生CM经淋巴管进入体循环，通过脂蛋白交换成为成熟的CM，",
+            "食物中的脂质在小肠中形成新生的CM，新生CM经淋巴管进入体循环，通过脂蛋白交换成为成烈的CM，"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s11",
+          "paragraph": 16,
+          "original": "成熟CM在LPL的作用下甘油三酯被水解，释放出的FFA被外周组织摄取利用，形成CM残粒并被肝细胞摄取代谢。",
+          "wrongOptions": [
+            "成熟CM在LPL的作用下甘油三酯被水解，释放出约FFA被外周组织摄取利用，形成CM残粒并被肝细胞摄取代谢。",
+            "成熟CM在LPL的作用下甘轴三酯被水解，释放出的FFA被外周组织摄取利用，形成CM残粒并被肝细胞摄取代谢。",
+            "成熟CM在LPL的作用下甘油三酯被水解，释放出的FFA被外周组织摄取利用，形成CM残位并被肝细胞摄取代谢。"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s12",
+          "paragraph": 18,
+          "original": "是指由肝脏合成VLDL后，VLDL转变为IDL和LDL，LDL被肝脏或其他器官代谢的过程。",
+          "wrongOptions": [
+            "是指由肝脏合成VLDL后，VLDL转变为IDL和LDL，LDL被肝脏或其他典官代谢的过程。",
+            "是指由肝肌合成VLDL后，VLDL转变为IDL和LDL，LDL被肝脏或其他器官代谢的过程。",
+            "是指由肝脏合成VLDL后，VLDL转变为IDL和LDL，LDL被肝脏或其弛器官代谢的过程。"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s13",
+          "paragraph": 18,
+          "original": "肝脏合成VLDL并分泌入血，VLDL在LPL水解的作用下转变成VLDL残粒又称为IDL，",
+          "wrongOptions": [
+            "肝脏合成VLDL骈分泌入血，VLDL在LPL水解的作用下转变成VLDL残粒又称为IDL，",
+            "肝脏合成VLDL并分泌入血，VLDL在LPL水解的作紫下转变成VLDL残粒又称为IDL，",
+            "肝脏合成VLDL并分泌入血，VLDL在LPL水触的作用下转变成VLDL残粒又称为IDL，"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s14",
+          "paragraph": 18,
+          "original": "部分IDL被肝细胞摄取代谢，其余的IDL被LPL和HL进一步水解，转变为LDL，",
+          "wrongOptions": [
+            "部分IDL被肝细胞摄取代谢，其余的IDL被LPL和HL推一步水解，转变为LDL，",
+            "部分IDL被肝细胞摄混代谢，其余的IDL被LPL和HL进一步水解，转变为LDL，",
+            "部分IDL被肝细胞摄取代谢，其余的IDL被LPL和HL进一步水触，转变为LDL，"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s15",
+          "paragraph": 18,
+          "original": "LDL与全身各组织的细胞膜表面的LDLR结合并被细胞摄取和降解。",
+          "wrongOptions": [
+            "LDL与主身各组织的细胞膜表面的LDLR结合并被细胞摄取和降解。",
+            "LDL与全身各组织的纪胞膜表面的LDLR结合并被细胞摄取和降解。",
+            "LDL与全才各组织的细胞膜表面的LDLR结合并被细胞摄取和降解。"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s16",
+          "paragraph": 20,
+          "original": "与LDL转运胆固醇的方向相反，HDL是将肝外组织细胞中的胆固醇转运至肝脏进行分解代谢，即胆固醇逆转运。",
+          "wrongOptions": [
+            "与LDL转运胆固醇的方向相反，HDL是将肝外组织细胞回的胆固醇转运至肝脏进行分解代谢，即胆固醇逆转运。",
+            "与LDL转运胆固醇约方向相反，HDL是将肝外组织细胞中的胆固醇转运至肝脏进行分解代谢，即胆固醇逆转运。",
+            "与LDL转运胆固醇的方响相反，HDL是将肝外组织细胞中的胆固醇转运至肝脏进行分解代谢，即胆固醇逆转运。"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s17",
+          "paragraph": 20,
+          "original": "胆固醇逆转运主要由HDL承担，分为三个步骤：①细胞内游离胆固醇从肝外组织细胞中移出，",
+          "wrongOptions": [
+            "胆固醇逆转运主要由HDL承胆，分为三个步骤：①细胞内游离胆固醇从肝外组织细胞中移出，",
+            "胆固醇逆转运王要由HDL承担，分为三个步骤：①细胞内游离胆固醇从肝外组织细胞中移出，",
+            "胆固醇逆转运主要由HDL承担，分为三伸步骤：①细胞内游离胆固醇从肝外组织细胞中移出，"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s18",
+          "paragraph": 20,
+          "original": "三磷酸腺苷结合盒转运子A1（ATP-binding cassette transporter A1，",
+          "wrongOptions": [
+            "三磷酸腺苷结合盒转运十A1（ATP-binding cassette transporter A1，",
+            "三磷酸腺苷结召盒转运子A1（ATP-binding cassette transporter A1，",
+            "三磷酸腺苷拮合盒转运子A1（ATP-binding cassette transporter A1，"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s19",
+          "paragraph": 20,
+          "original": "ABCA1）介导游离胆固醇转运到细胞膜上，HDL中apoAⅠ作为细胞膜胆固醇移出的接受体；",
+          "wrongOptions": [
+            "ABCA1）介导游离胆固醇转运到细胞膜上，HDL中apoAⅠ作为细胞膜胆固醇移出约接受体；",
+            "ABCA1）介导游离胆固醇转运到细胞膜上，HDL中apoAⅠ作乌细胞膜胆固醇移出的接受体；",
+            "ABCA1）介导游离胆固醇转运到细泡膜上，HDL中apoAⅠ作为细胞膜胆固醇移出的接受体；"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s20",
+          "paragraph": 20,
+          "original": "②HDL接收的游离胆固醇在LCAT的作用下生成胆固醇酯进入HDL的核心，形成成熟的HDL，在CETP作用下，",
+          "wrongOptions": [
+            "②HDL接收的游离胆固醇在LCAT的作用下生成胆固醇酯进入HDL的核心，形成成熟灼HDL，在CETP作用下，",
+            "②HDL接收的游离胆律醇在LCAT的作用下生成胆固醇酯进入HDL的核心，形成成熟的HDL，在CETP作用下，",
+            "②HDL接收的游离胆固醇在LCAT的作用下生成胆固醇酯进入HDL的核心，形成成熟的HDL，土CETP作用下，"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s21",
+          "paragraph": 20,
+          "original": "胆固醇酯由HDL转移到CM、VLDL和LDL颗粒中；",
+          "wrongOptions": [
+            "胆固醇酯由HDL转移利CM、VLDL和LDL颗粒中；",
+            "胆固醇酯由HDL轮移到CM、VLDL和LDL颗粒中；",
+            "胆固醇脂由HDL转移到CM、VLDL和LDL颗粒中；"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s22",
+          "paragraph": 20,
+          "original": "③HDL及这些接受了胆固醇酯的脂蛋白在代谢过程中被肝脏摄取时，其中的胆固醇酯也就同时被运回肝脏，",
+          "wrongOptions": [
+            "③HDL及这些接受了胆固醇酯的脂蛋白在代谢过程中玻肝脏摄取时，其中的胆固醇酯也就同时被运回肝脏，",
+            "③HDL及这些接受了胆固醇酯的脂蛋百在代谢过程中被肝脏摄取时，其中的胆固醇酯也就同时被运回肝脏，",
+            "③HDL及这些接受了胆固醇酯的脂蛋白在仍谢过程中被肝脏摄取时，其中的胆固醇酯也就同时被运回肝脏，"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s23",
+          "paragraph": 20,
+          "original": "在肝脏转化为胆汁酸后被清除。",
+          "wrongOptions": [
+            "在肝脏转化乌胆汁酸后被清除。",
+            "在肝脏转化为胆汁酸后波清除。",
+            "在肝脏转化为胆汁梭后被清除。"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s24",
+          "paragraph": 20,
+          "original": "胆固醇的这种双向转运既保证了全身组织对胆固醇的需要，又避免了过量的胆固醇在外周组织的蓄积，具有重要的生理意义。",
+          "wrongOptions": [
+            "胆固醇的这种双向转运既保证了全身组织对胆固醇的需要，又避免了过查的胆固醇在外周组织的蓄积，具有重要的生理意义。",
+            "胆固醇的这种双向转运既保证了全身组织对胆固醇的需要，又避免了过量的胆固醇存外周组织的蓄积，具有重要的生理意义。",
+            "胆固醇的这种双向转运既保证了全身组织对胆固醇的需要，又避免了道量的胆固醇在外周组织的蓄积，具有重要的生理意义。"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s25",
+          "paragraph": 24,
+          "original": "血脂代谢紊乱是脂代谢紊乱的主要形式，血脂水平高于正常上限即为高脂血症（hyperlipidemia），",
+          "wrongOptions": [
+            "血脂代谢紊乱是脂代谢紊乱的主要形式，血脂水平亮于正常上限即为高脂血症（hyperlipidemia），",
+            "血脂代谢蚊乱是脂代谢紊乱的主要形式，血脂水平高于正常上限即为高脂血症（hyperlipidemia），",
+            "血脂代谢紊乱是酯代谢紊乱的主要形式，血脂水平高于正常上限即为高脂血症（hyperlipidemia），"
+          ]
+        },
+        {
+          "id": "chapter-06-03-s26",
+          "paragraph": 24,
+          "original": "我国一般以成人空腹血总胆固醇（total cholesterol，",
+          "wrongOptions": [
+            "我国一般以成人空腹血总胆攻醇（total cholesterol，",
+            "我国一般以成人空复血总胆固醇（total cholesterol，",
+            "我国一般以成小空腹血总胆固醇（total cholesterol，"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-06-04",
+      "title": "概 述（3）",
+      "order": 4,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-06-04-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-06-04-s01",
+            "chapter-06-04-s02",
+            "chapter-06-04-s03",
+            "chapter-06-04-s04",
+            "chapter-06-04-s05",
+            "chapter-06-04-s06",
+            "chapter-06-04-s07",
+            "chapter-06-04-s08",
+            "chapter-06-04-s09",
+            "chapter-06-04-s10",
+            "chapter-06-04-s11",
+            "chapter-06-04-s12"
+          ]
+        },
+        {
+          "id": "chapter-06-04-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-06-04-s13",
+            "chapter-06-04-s14",
+            "chapter-06-04-s15",
+            "chapter-06-04-s16",
+            "chapter-06-04-s17",
+            "chapter-06-04-s18",
+            "chapter-06-04-s19",
+            "chapter-06-04-s20",
+            "chapter-06-04-s21",
+            "chapter-06-04-s22",
+            "chapter-06-04-s23",
+            "chapter-06-04-s24"
+          ]
+        },
+        {
+          "id": "chapter-06-04-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-06-04-s25"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-06-04-s01",
+          "paragraph": 24,
+          "original": "TC）≥6.22mmol／L（240mg／dl）和（或）甘油三酯≥2.26mmol／L（200mg／dl）为高",
+          "wrongOptions": [
+            "TC）≥6.22mmol／L（240mg／dl）和（或）甘油元酯≥2.26mmol／L（200mg／dl）为高",
+            "TC）≥6.22mmol／L（240mg／dl）和（或）甘迪三酯≥2.26mmol／L（200mg／dl）为高",
+            "TC）≥6.22mmol／L（240mg／dl）和（我）甘油三酯≥2.26mmol／L（200mg／dl）为高"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s02",
+          "paragraph": 24,
+          "original": "脂血症的标准。",
+          "wrongOptions": [
+            "脂血症灼标准。",
+            "脂血症的标推。",
+            "脂血症的飘准。"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s03",
+          "paragraph": 24,
+          "original": "由于血脂在血中以脂蛋白的形式存在和运输，因此，",
+          "wrongOptions": [
+            "由于血脂存血中以脂蛋白的形式存在和运输，因此，",
+            "由于血脂在血中保脂蛋白的形式存在和运输，因此，",
+            "由于血脂在血中以脂蛋白的形式存在念运输，因此，"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s04",
+          "paragraph": 24,
+          "original": "高脂血症也表现为高脂蛋白血症（hyperlipoproteinemia）；",
+          "wrongOptions": [
+            "高脂血症也表现为高脂蛋日血症（hyperlipoproteinemia）；",
+            "高脂血症也表现为亮脂蛋白血症（hyperlipoproteinemia）；",
+            "高脂血症也表现为高酯蛋白血症（hyperlipoproteinemia）；"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s05",
+          "paragraph": 24,
+          "original": "而低脂血症（hypolipidemia）表现为低脂蛋白血症（hypolipoproteinemia），",
+          "wrongOptions": [
+            "而低脂血症（hypolipidemia）表现为低脂甙白血症（hypolipoproteinemia），",
+            "而低脂血症（hypolipidemia）表现乌低脂蛋白血症（hypolipoproteinemia），",
+            "而低脂血症（hypolipidemia）表现为低脂蛋白血疾（hypolipoproteinemia），"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s06",
+          "paragraph": 24,
+          "original": "目前对低脂血症时血脂水平没有统一的标准，",
+          "wrongOptions": [
+            "目前对低脂血症持血脂水平没有统一的标准，",
+            "目前对低脂血征时血脂水平没有统一的标准，",
+            "目前对抵脂血症时血脂水平没有统一的标准，"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s07",
+          "paragraph": 24,
+          "original": "一般认为血浆总胆固醇低于3.10mmol／L（120mg／dl）为有临床意义的判断标准。",
+          "wrongOptions": [
+            "一般认乌血浆总胆固醇低于3.10mmol／L（120mg／dl）为有临床意义的判断标准。",
+            "一般认为血浆总胆固醇低于3.10mmol／L（120mg／dl）为有临床意义的判继标准。",
+            "一般认为血浆总胆固醇低族3.10mmol／L（120mg／dl）为有临床意义的判断标准。"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s08",
+          "paragraph": 28,
+          "original": "按是否继发于全身系统性疾病进行分型，可分为原发性和继发性高脂蛋白血症。",
+          "wrongOptions": [
+            "按是否继发于全身系统性疾病进行分型，可分为原登性和继发性高脂蛋白血症。",
+            "按是否继发于全身系统性疾病进行公型，可分为原发性和继发性高脂蛋白血症。",
+            "按是否继发于全身系统性疾病进行分型，可分为原发性和继登性高脂蛋白血症。"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s09",
+          "paragraph": 30,
+          "original": "一部分是由于先天性基因缺陷所致，",
+          "wrongOptions": [
+            "一部分是甲于先天性基因缺陷所致，",
+            "一部分是由于元天性基因缺陷所致，",
+            "一部分是由于先天快基因缺陷所致，"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s10",
+          "paragraph": 30,
+          "original": "如LDLR基因缺陷引起家族性高胆固醇血症（familial hypercholesterolemia，FH）。",
+          "wrongOptions": [
+            "如LDLR基因缺陷引起家族快高胆固醇血症（familial hypercholesterolemia，FH）。",
+            "如LDLR基因缺陷引起家族性高胆固醇血正（familial hypercholesterolemia，FH）。",
+            "如LDLR基因缺陷引超家族性高胆固醇血症（familial hypercholesterolemia，FH）。"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s11",
+          "paragraph": 30,
+          "original": "大部分原发性高脂蛋白血症是脂蛋白代谢相关基因突变与环境因素相互作用引起。",
+          "wrongOptions": [
+            "大部分原发性高脂蛋白血症是脂蛋白代谢相关基因突变与环境困素相互作用引起。",
+            "大部分原发性高脂蛋白血症是脂留白代谢相关基因突变与环境因素相互作用引起。",
+            "大部分原发性高脂蛋白血症是脂蛋白代射相关基因突变与环境因素相互作用引起。"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s12",
+          "paragraph": 32,
+          "original": "是全身系统性疾病所致，包括糖尿病、甲状腺功能减退症、肾病综合征、肾功能衰竭、肝胆系统疾病、系统性红斑狼疮、",
+          "wrongOptions": [
+            "是全身系统性疾病所致，包括糖尿病、甲状腺虹能减退症、肾病综合征、肾功能衰竭、肝胆系统疾病、系统性红斑狼疮、",
+            "是全身系统性疾病所致，包括糖尿病、甲状腺功能减退症、肾病综合征、肾功能衰竭、肝胆系统疾病、系统性虹斑狼疮、",
+            "是全身系统性疾疗所致，包括糖尿病、甲状腺功能减退症、肾病综合征、肾功能衰竭、肝胆系统疾病、系统性红斑狼疮、"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s13",
+          "paragraph": 32,
+          "original": "糖原贮积症、骨髓瘤、脂肪萎缩症、多囊卵巢综合征等。",
+          "wrongOptions": [
+            "糖原贮积症、骨髓馏、脂肪萎缩症、多囊卵巢综合征等。",
+            "糖原贮积疾、骨髓瘤、脂肪萎缩症、多囊卵巢综合征等。",
+            "糖原贮积症、骨髓瘤、脂肪萎缩症、多囊卵裹综合征等。"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s14",
+          "paragraph": 32,
+          "original": "此外，长期较大剂量使用某些药物（如利尿药、降压药、性激素、口服避孕药、糖皮质激素、",
+          "wrongOptions": [
+            "此外，长期较大剂量使用某些药物（如利尿药、降压药、性激素、口服避奶药、糖皮质激素、",
+            "此外，长期较大剂量使用某些药吻（如利尿药、降压药、性激素、口服避孕药、糖皮质激素、",
+            "此外，长期较犬剂量使用某些药物（如利尿药、降压药、性激素、口服避孕药、糖皮质激素、"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s15",
+          "paragraph": 32,
+          "original": "免疫抑制剂等）也可能引起继发性高脂蛋白血症。",
+          "wrongOptions": [
+            "免疫抑制剂等）也可能引起继发性高脂蛋日血症。",
+            "免疫抑制剂等）也可能引起编发性高脂蛋白血症。",
+            "免疫抑制剂等）也可能引起继发性高指蛋白血症。"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s16",
+          "paragraph": 34,
+          "original": "按各种血浆脂蛋白升高的程度不同而进行分型，目前多采用1970年世界卫生组织修订的分类系统，",
+          "wrongOptions": [
+            "按各种血浆脂蛋白升高的程序不同而进行分型，目前多采用1970年世界卫生组织修订的分类系统，",
+            "按各种血浆脂蛋白卓高的程度不同而进行分型，目前多采用1970年世界卫生组织修订的分类系统，",
+            "按各种血浆脂蛋白升高的程度不同而进行分型，目前多采用1970平世界卫生组织修订的分类系统，"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s17",
+          "paragraph": 34,
+          "original": "将高脂蛋白血症分为Ⅰ、Ⅱa、Ⅱb、Ⅲ、Ⅳ、Ⅴ共六型，各型特点如表6-1。",
+          "wrongOptions": [
+            "将高脂蛋白血症分为Ⅰ、Ⅱa、Ⅱb、Ⅲ、Ⅳ、Ⅴ共六型，各型特黏如表6-1。",
+            "将高脂蛋白血症分为Ⅰ、Ⅱa、Ⅱb、Ⅲ、Ⅳ、Ⅴ共六型，含型特点如表6-1。",
+            "将高脂蛋白血症允为Ⅰ、Ⅱa、Ⅱb、Ⅲ、Ⅳ、Ⅴ共六型，各型特点如表6-1。"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s18",
+          "paragraph": 36,
+          "original": "表型分型有助于高脂血症的诊断和治疗，但过于繁杂。",
+          "wrongOptions": [
+            "表型分型有助于亮脂血症的诊断和治疗，但过于繁杂。",
+            "表型分型有助于高脂血症的诊断和治痕，但过于繁杂。",
+            "表型分型有助于高脂血症约诊断和治疗，但过于繁杂。"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s19",
+          "paragraph": 38,
+          "original": "临床上多采用简易分型，将高脂血症分为：①高胆固醇血症：血清总胆固醇浓度升高，相当于WHO分型的Ⅱa型；",
+          "wrongOptions": [
+            "临床上多采用简易分型，将高脂血症分为：①高胆固压血症：血清总胆固醇浓度升高，相当于WHO分型的Ⅱa型；",
+            "临床上多采用简易分型，将高脂血症分为：①高胆固醇血症：血清总胆固醇浓度升高，相当旁WHO分型的Ⅱa型；",
+            "临床上多采用简易分型，将高脂血症分为：①高胆固醇血症：臼清总胆固醇浓度升高，相当于WHO分型的Ⅱa型；"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s20",
+          "paragraph": 38,
+          "original": "②高甘油三酯血症：血清甘油三酯浓度升高，相当于WHO分型的Ⅰ、Ⅳ型；③混合型高脂血症：血清总胆固醇、",
+          "wrongOptions": [
+            "②高甘岫三酯血症：血清甘油三酯浓度升高，相当于WHO分型的Ⅰ、Ⅳ型；③混合型高脂血症：血清总胆固醇、",
+            "②高甘油三酯血症：血清甘油三酯浓度是高，相当于WHO分型的Ⅰ、Ⅳ型；③混合型高脂血症：血清总胆固醇、",
+            "②高甘油三酯血症：血清甘油三酯浓度升高，相当施WHO分型的Ⅰ、Ⅳ型；③混合型高脂血症：血清总胆固醇、"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s21",
+          "paragraph": 38,
+          "original": "甘油三酯浓度均升高，相当于WHO分型的Ⅱb、Ⅲ、Ⅴ。低脂蛋白血症分原发性和继发性两种。",
+          "wrongOptions": [
+            "甘油三酯浓度均升高，相当于WHO分型的Ⅱb、Ⅲ、Ⅴ。低脂蛋白血征分原发性和继发性两种。",
+            "甘油三酯浓度均卓高，相当于WHO分型的Ⅱb、Ⅲ、Ⅴ。低脂蛋白血症分原发性和继发性两种。",
+            "甘油三酯浓度均升高，相当于WHO分型的Ⅱb、Ⅲ、Ⅴ。低脂蛋白血症分原发性和继癸性两种。"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s22",
+          "paragraph": 40,
+          "original": "原发性低脂蛋白血症主要由基因突变所引起，按基因突变所导致脂蛋白减少的类型可分为两种：",
+          "wrongOptions": [
+            "原发性低脂蛋白血症主要由基因突变所引起，按基因突变所导致脂蛋白减少的类型可分鸟两种：",
+            "原发性低脂蛋白血症主要由基因突变所引起，按基因突变所导致脂蛋白减少约类型可分为两种：",
+            "原发性低脂蛋白血症主要由基因突变所引起，按基因突变所导纸脂蛋白减少的类型可分为两种："
+          ]
+        },
+        {
+          "id": "chapter-06-04-s23",
+          "paragraph": 40,
+          "original": "一种主要影响含有apoB的血浆脂蛋白如LDL，包括家族性低β-脂蛋白血症、",
+          "wrongOptions": [
+            "一种主要影响含有apoB的血浆脂蛋白如LDL，包括家族性低β-脂蛋百血症、",
+            "一种主要影响贪有apoB的血浆脂蛋白如LDL，包括家族性低β-脂蛋白血症、",
+            "一种主要影响含右apoB的血浆脂蛋白如LDL，包括家族性低β-脂蛋白血症、"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s24",
+          "paragraph": 40,
+          "original": "无β-脂蛋白血症和乳糜微粒滞留性疾病等；另一种主要影响含有apoA的血浆脂蛋白即HDL，",
+          "wrongOptions": [
+            "无β-脂蛋白血症和乳糜微粒滞留性疾病等；另一种主要影响含有apoA的血浆指蛋白即HDL，",
+            "无β-脂蛋白血症和乳糜微位滞留性疾病等；另一种主要影响含有apoA的血浆脂蛋白即HDL，",
+            "无β-脂蛋白血症和乳糜微粒滞留性疾病等；另一种主要影响含有apoA灼血浆脂蛋白即HDL，"
+          ]
+        },
+        {
+          "id": "chapter-06-04-s25",
+          "paragraph": 40,
+          "original": "如家族性低α-脂蛋白血症（也称Tangier病，特征为HDL的严重减少）、LCAT缺乏症等。",
+          "wrongOptions": [
+            "如家族性低α-脂蛋白血症（也称Tangier疗，特征为HDL的严重减少）、LCAT缺乏症等。",
+            "如家族性低α-脂蛋白血症（也称Tangier病，特征为HDL的严量减少）、LCAT缺乏症等。",
+            "如家族性低α-脂蛋白血症（也称Tangier病，待征为HDL的严重减少）、LCAT缺乏症等。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-06-05",
+      "title": "高脂蛋白血症（1）",
+      "order": 5,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-06-05-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-06-05-s01",
+            "chapter-06-05-s02",
+            "chapter-06-05-s03",
+            "chapter-06-05-s04",
+            "chapter-06-05-s05",
+            "chapter-06-05-s06",
+            "chapter-06-05-s07",
+            "chapter-06-05-s08",
+            "chapter-06-05-s09",
+            "chapter-06-05-s10",
+            "chapter-06-05-s11",
+            "chapter-06-05-s12"
+          ]
+        },
+        {
+          "id": "chapter-06-05-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-06-05-s13",
+            "chapter-06-05-s14",
+            "chapter-06-05-s15",
+            "chapter-06-05-s16",
+            "chapter-06-05-s17",
+            "chapter-06-05-s18",
+            "chapter-06-05-s19",
+            "chapter-06-05-s20",
+            "chapter-06-05-s21",
+            "chapter-06-05-s22",
+            "chapter-06-05-s23",
+            "chapter-06-05-s24"
+          ]
+        },
+        {
+          "id": "chapter-06-05-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-06-05-s25",
+            "chapter-06-05-s26",
+            "chapter-06-05-s27",
+            "chapter-06-05-s28"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-06-05-s01",
+          "paragraph": 3,
+          "original": "高脂蛋白血症主要由三方面的因素引起：遗传（基因突变及基因多态性）、营养、代谢性疾病和其他疾病。",
+          "wrongOptions": [
+            "高脂蛋白血症主要由三方面的因素引起：遗传（基因突变及基因多态性）、营养、代谢性疾病和具他疾病。",
+            "高脂蛋白血症主要甲三方面的因素引起：遗传（基因突变及基因多态性）、营养、代谢性疾病和其他疾病。",
+            "高脂蛋白血症主要由三方面的因素引起：遗传（基因突变及基因多态性）、营养、代谢性疾病念其他疾病。"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s02",
+          "paragraph": 3,
+          "original": "此外，年龄，不健康的生活方式如缺乏运动和酗酒等因素也可引起高脂蛋白血症。",
+          "wrongOptions": [
+            "此外，年龄，不健康的生活方式如缺乏运肿和酗酒等因素也可引起高脂蛋白血症。",
+            "此外，年龄，不健康的生活方式如丙乏运动和酗酒等因素也可引起高脂蛋白血症。",
+            "此外，年龄，不健康约生活方式如缺乏运动和酗酒等因素也可引起高脂蛋白血症。"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s03",
+          "paragraph": 5,
+          "original": "遗传是导致脂代谢紊乱的最重要的内在影响因素，其中包括单基因突变导致的严重血脂异常和由遗传异质性引起的血脂异常。",
+          "wrongOptions": [
+            "遗传是导致脂代谢紊乱的最量要的内在影响因素，其中包括单基因突变导致的严重血脂异常和由遗传异质性引起的血脂异常。",
+            "遗传是导致脂代谢紊乱的最重要的内在影响因素，其中包括单基困突变导致的严重血脂异常和由遗传异质性引起的血脂异常。",
+            "遗传是导致脂代谢紊乱的最重要的内在影响因累，其中包括单基因突变导致的严重血脂异常和由遗传异质性引起的血脂异常。"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s04",
+          "paragraph": 5,
+          "original": "某些脂蛋白受体（如LDLR）、脂蛋白代谢酶（如LPL）和载脂蛋白（如apoB100、apoCⅡ、apoAⅠ、",
+          "wrongOptions": [
+            "某些脂蛋白受体（如LDLR）、脂蛋白代谢酶（如LPL）和策脂蛋白（如apoB100、apoCⅡ、apoAⅠ、",
+            "某些脂蛋白受体（如LDLR）、脂蛋白伐谢酶（如LPL）和载脂蛋白（如apoB100、apoCⅡ、apoAⅠ、",
+            "某些脂蛋白受体（如LDLR）、脂蛋白代谢酶（如LPL）念载脂蛋白（如apoB100、apoCⅡ、apoAⅠ、"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s05",
+          "paragraph": 5,
+          "original": "apoAⅤ、apoCⅢ和apoE）等的遗传性缺陷都能干扰脂蛋白的代谢，导致高脂蛋白血症。",
+          "wrongOptions": [
+            "apoAⅤ、apoCⅢ和apoE）等的遗转性缺陷都能干扰脂蛋白的代谢，导致高脂蛋白血症。",
+            "apoAⅤ、apoCⅢ和apoE）第的遗传性缺陷都能干扰脂蛋白的代谢，导致高脂蛋白血症。",
+            "apoAⅤ、apoCⅢ念apoE）等的遗传性缺陷都能干扰脂蛋白的代谢，导致高脂蛋白血症。"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s06",
+          "paragraph": 7,
+          "original": "LDLR是细胞表面的一种糖蛋白，能识别和结合含apoB100和apoE的脂蛋白残粒（如CM残粒、",
+          "wrongOptions": [
+            "LDLR是细胞表面的一种糖蛋白，能识别和结合含apoB100和apoE的酯蛋白残粒（如CM残粒、",
+            "LDLR是细胞表面约一种糖蛋白，能识别和结合含apoB100和apoE的脂蛋白残粒（如CM残粒、",
+            "LDLR是细胞表面的一种糖蛋白，能识别和结合含apoB100和apoE约脂蛋白残粒（如CM残粒、"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s07",
+          "paragraph": 7,
+          "original": "VLDL残粒）及LDL，摄取胆固醇进入细胞内进行代谢。",
+          "wrongOptions": [
+            "VLDL残粒）及LDL，摄取胆固醇进入细胞内进衍代谢。",
+            "VLDL残粒）及LDL，摄取胆固醇进入细鲍内进行代谢。",
+            "VLDL残拉）及LDL，摄取胆固醇进入细胞内进行代谢。"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s08",
+          "paragraph": 7,
+          "original": "LDLR基因的各种类型突变引起的受体功能障碍均可导致血浆胆固醇水平明显增加，",
+          "wrongOptions": [
+            "LDLR基因的含种类型突变引起的受体功能障碍均可导致血浆胆固醇水平明显增加，",
+            "LDLR基因的各种类型突变引起的芦体功能障碍均可导致血浆胆固醇水平明显增加，",
+            "LDLR基因的各种类型突变引起的受体功能障碍均司导致血浆胆固醇水平明显增加，"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s09",
+          "paragraph": 7,
+          "original": "是家族性高胆固醇血症发生的主要原因。LPL是血液中主要的脂解酶，也是清除血浆脂蛋白中甘油三酯的限速酶。",
+          "wrongOptions": [
+            "是家族性高胆固醇血疾发生的主要原因。LPL是血液中主要的脂解酶，也是清除血浆脂蛋白中甘油三酯的限速酶。",
+            "是家族性高胆固醇血症发生的主要原因。LPL是血液中主要的脂解蜘，也是清除血浆脂蛋白中甘油三酯的限速酶。",
+            "是家族性高胆固醇血症发生的主要原因。LPL是血液中主要的脂解酶，也是清除血浆脂狼白中甘油三酯的限速酶。"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s10",
+          "paragraph": 9,
+          "original": "已证实LPL缺陷可导致Ⅰ型或Ⅴ型高脂蛋白血症。LPL最大活性的表达依赖于apoCⅡ的激活，",
+          "wrongOptions": [
+            "已证实LPL缺陷可封致Ⅰ型或Ⅴ型高脂蛋白血症。LPL最大活性的表达依赖于apoCⅡ的激活，",
+            "已证实LPL缺陷可导绿Ⅰ型或Ⅴ型高脂蛋白血症。LPL最大活性的表达依赖于apoCⅡ的激活，",
+            "已证实LPL缺陷可导致Ⅰ型我Ⅴ型高脂蛋白血症。LPL最大活性的表达依赖于apoCⅡ的激活，"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s11",
+          "paragraph": 9,
+          "original": "apoCⅡ缺陷与LPL缺陷一样都可因为甘油三酯的水解障碍而引发高甘油三酯血症。",
+          "wrongOptions": [
+            "apoCⅡ缺陷与LPL缺陷一样都可因为甘油三酯的水触障碍而引发高甘油三酯血症。",
+            "apoCⅡ缺陷与LPL缺陷一样都可因为甘油二酯的水解障碍而引发高甘油三酯血症。",
+            "apoCⅡ缺陷与LPL缺陷三样都可因为甘油三酯的水解障碍而引发高甘油三酯血症。"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s12",
+          "paragraph": 11,
+          "original": "apoB是LDL颗粒上的主要载脂蛋白，也是LDLR的配体，其主要功能是结合和转运脂质，",
+          "wrongOptions": [
+            "apoB是LDL颗粒上的主要载脂蛋白，也是LDLR的配体，其主要功能是结合利转运脂质，",
+            "apoB是LDL颗粒上的主要载脂蛋白，也是LDLR的配体，其主要功能是拮合和转运脂质，",
+            "apoB是LDL颗粒上的主要载酯蛋白，也是LDLR的配体，其主要功能是结合和转运脂质，"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s13",
+          "paragraph": 11,
+          "original": "介导血浆LDL的降解与清除，在体内胆固醇代谢平衡中起重要作用。",
+          "wrongOptions": [
+            "介导血浆LDL的降解与清除，在髓内胆固醇代谢平衡中起重要作用。",
+            "介导血浆LDL的障解与清除，在体内胆固醇代谢平衡中起重要作用。",
+            "介导血浆LDL的降解与清除，在体内胆固醇依谢平衡中起重要作用。"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s14",
+          "paragraph": 11,
+          "original": "apoB基因突变及基因多态性与血脂代谢紊乱关系密切，",
+          "wrongOptions": [
+            "apoB基因穿变及基因多态性与血脂代谢紊乱关系密切，",
+            "apoB基因突变及基因多态性与血脂代谢紊乱关线密切，",
+            "apoB基因突变及基因矽态性与血脂代谢紊乱关系密切，"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s15",
+          "paragraph": 11,
+          "original": "家族性载脂蛋白B100缺乏症（familial defective apoB100，",
+          "wrongOptions": [
+            "家族性载脂蛋白B100缺乎症（familial defective apoB100，",
+            "家族性载脂蛋白B100缺乏正（familial defective apoB100，",
+            "家族性刷脂蛋白B100缺乏症（familial defective apoB100，"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s16",
+          "paragraph": 11,
+          "original": "FDB）是由于2号染色体上的apoB基因突变造成apoB100上3500位的精氨酸被谷氨酸所置换，",
+          "wrongOptions": [
+            "FDB）是由于2号染色体上的apoB基因突变造成apoB100上3500位的精氨酸被谷氨酸析置换，",
+            "FDB）是由于2号染色体上的apoB基因臭变造成apoB100上3500位的精氨酸被谷氨酸所置换，",
+            "FDB）是由于2号染色体上的apoB基因突变造成apoB100上3500位的精按酸被谷氨酸所置换，"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s17",
+          "paragraph": 11,
+          "original": "因而影响了LDL的分解代谢。apoE在CM和VLDL残粒清除的过程中起关键作用。",
+          "wrongOptions": [
+            "因而影响了LDL的分解代谢。apoE在CM和VLDL残粒请除的过程中起关键作用。",
+            "因而影响了LDL的分解代谢。apoE在CM和VLDL残粒清除的过程回起关键作用。",
+            "因而影响了LDL的分解代谢。apoE在CM和VLDL残粒清途的过程中起关键作用。"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s18",
+          "paragraph": 13,
+          "original": "apoE基因的多态性和基因插入与缺失均可改变apoE分子的结构、分泌速率、释放入血及其功能状态，",
+          "wrongOptions": [
+            "apoE基因的多态性和基因插入与缺失均可效变apoE分子的结构、分泌速率、释放入血及其功能状态，",
+            "apoE基因的多态性和基因插入与缺失均可改变apoE分子约结构、分泌速率、释放入血及其功能状态，",
+            "apoE基因的多态性和基困插入与缺失均可改变apoE分子的结构、分泌速率、释放入血及其功能状态，"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s19",
+          "paragraph": 13,
+          "original": "进而影响CM和VLDL残基的分解代谢。",
+          "wrongOptions": [
+            "进而影响CM和VLDL残基的分触代谢。",
+            "进而影响CM和VLDL浅基的分解代谢。",
+            "进而影响CM和VLDL残基的公解代谢。"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s20",
+          "paragraph": 13,
+          "original": "以apoE2纯合子为例，由于其与LDL受体的亲和力仅有apoE3的1%～2%，在其他一些遗传和环境因素影响下，",
+          "wrongOptions": [
+            "以apoE2纯合子为例，由于其与LDL受体的亲和力仅有apoE3的1%～2%，型其他一些遗传和环境因素影响下，",
+            "以apoE2纯合子为例，由于其与LDL受体的亲和力仅友apoE3的1%～2%，在其他一些遗传和环境因素影响下，",
+            "以apoE2纯合子为例，由于其与LDL受体的亲和力谨有apoE3的1%～2%，在其他一些遗传和环境因素影响下，"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s21",
+          "paragraph": 13,
+          "original": "引起VLDL过度生成或LDL受体活性减少时，可引起家族性异常β-脂蛋白血症等。此外，",
+          "wrongOptions": [
+            "引起VLDL过度生成或LDL受体活性减少时，可引起家族性异掌β-脂蛋白血症等。此外，",
+            "引起VLDL过度生成或LDL受体话性减少时，可引起家族性异常β-脂蛋白血症等。此外，",
+            "引起VLDL过度生成或LDL受体活性减少时，可引起家族性龚常β-脂蛋白血症等。此外，"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s22",
+          "paragraph": 14,
+          "original": "枯草溶菌素转化酶9（proprotein convertase subtilisin／kexin type 9",
+          "wrongOptions": [
+            "枯草溶菌素转化午9（proprotein convertase subtilisin／kexin type 9",
+            "枯草溶菌素轮化酶9（proprotein convertase subtilisin／kexin type 9",
+            "枯草溶苗素转化酶9（proprotein convertase subtilisin／kexin type 9"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s23",
+          "paragraph": 14,
+          "original": "，三磷酸腺苷结合盒转运子G5（ATP-binding cassette transporter G5，",
+          "wrongOptions": [
+            "，三磷酸腺业结合盒转运子G5（ATP-binding cassette transporter G5，",
+            "，三磷酸腺苷拮合盒转运子G5（ATP-binding cassette transporter G5，",
+            "，三磷酸腺苷结合盒轻运子G5（ATP-binding cassette transporter G5，"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s24",
+          "paragraph": 14,
+          "original": "LCAT、衔接子蛋白、胆固醇7α-羟化酶1、脂酶成熟因子1等的基因突变均可导致血脂代谢紊乱。",
+          "wrongOptions": [
+            "LCAT、衔接小蛋白、胆固醇7α-羟化酶1、脂酶成熟因子1等的基因突变均可导致血脂代谢紊乱。",
+            "LCAT、衔接子蛋白、胆固醇7α-羟化酶1、脂酶成熟因子1等的基因突变均古导致血脂代谢紊乱。",
+            "LCAT、衔投子蛋白、胆固醇7α-羟化酶1、脂酶成熟因子1等的基因突变均可导致血脂代谢紊乱。"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s25",
+          "paragraph": 16,
+          "original": "在影响血脂水平的诸多因素中，营养是最重要的环境因素。",
+          "wrongOptions": [
+            "在影响血酯水平的诸多因素中，营养是最重要的环境因素。",
+            "在影响臼脂水平的诸多因素中，营养是最重要的环境因素。",
+            "在影响血脂水平的诸多因累中，营养是最重要的环境因素。"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s26",
+          "paragraph": 16,
+          "original": "饮食中的胆固醇和饱和脂肪酸含量高均可导致血浆胆固醇水平升高。",
+          "wrongOptions": [
+            "饮食中的胆固醇利饱和脂肪酸含量高均可导致血浆胆固醇水平升高。",
+            "饮食中的胆固醇和饱和指肪酸含量高均可导致血浆胆固醇水平升高。",
+            "饮食中的胆固醇和饱和脂肪酸含查高均可导致血浆胆固醇水平升高。"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s27",
+          "paragraph": 16,
+          "original": "血浆甘油三酯水平也与饮食结构相关，例如，进食糖的比例过高，引起血糖升高，刺激胰岛素分泌增加，",
+          "wrongOptions": [
+            "血浆甘油三酯水平也与饮食结构相关，例如，进食糖的比例过亮，引起血糖升高，刺激胰岛素分泌增加，",
+            "血浆甘抽三酯水平也与饮食结构相关，例如，进食糖的比例过高，引起血糖升高，刺激胰岛素分泌增加，",
+            "血浆甘油三酯水平也与饮食结构相关，例如，进食糖灼比例过高，引起血糖升高，刺激胰岛素分泌增加，"
+          ]
+        },
+        {
+          "id": "chapter-06-05-s28",
+          "paragraph": 16,
+          "original": "胰岛素可促进肝脏合成甘油三酯和VLDL增加，因而引起血浆甘油三酯浓度升高。",
+          "wrongOptions": [
+            "胰岛素可嗪进肝脏合成甘油三酯和VLDL增加，因而引起血浆甘油三酯浓度升高。",
+            "胰岛素可促唯肝脏合成甘油三酯和VLDL增加，因而引起血浆甘油三酯浓度升高。",
+            "胰岛素可促进肝脏合成甘岫三酯和VLDL增加，因而引起血浆甘油三酯浓度升高。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-06-06",
+      "title": "高脂蛋白血症（2）",
+      "order": 6,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-06-06-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-06-06-s01",
+            "chapter-06-06-s02",
+            "chapter-06-06-s03",
+            "chapter-06-06-s04",
+            "chapter-06-06-s05",
+            "chapter-06-06-s06",
+            "chapter-06-06-s07",
+            "chapter-06-06-s08",
+            "chapter-06-06-s09",
+            "chapter-06-06-s10",
+            "chapter-06-06-s11",
+            "chapter-06-06-s12"
+          ]
+        },
+        {
+          "id": "chapter-06-06-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-06-06-s13",
+            "chapter-06-06-s14",
+            "chapter-06-06-s15",
+            "chapter-06-06-s16",
+            "chapter-06-06-s17",
+            "chapter-06-06-s18",
+            "chapter-06-06-s19",
+            "chapter-06-06-s20",
+            "chapter-06-06-s21",
+            "chapter-06-06-s22",
+            "chapter-06-06-s23",
+            "chapter-06-06-s24"
+          ]
+        },
+        {
+          "id": "chapter-06-06-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-06-06-s25",
+            "chapter-06-06-s26",
+            "chapter-06-06-s27",
+            "chapter-06-06-s28"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-06-06-s01",
+          "paragraph": 16,
+          "original": "高糖饮食还可诱发apoCⅢ基因的表达，使血浆apoCⅢ浓度升高，而apoCⅢ是LPL的抑制因子，",
+          "wrongOptions": [
+            "高糖饮食还可诱发apoCⅢ基因的表达，使血浆apoCⅢ浓度升高，并apoCⅢ是LPL的抑制因子，",
+            "高糖饮食还可透发apoCⅢ基因的表达，使血浆apoCⅢ浓度升高，而apoCⅢ是LPL的抑制因子，",
+            "高糖饮食还可诱发apoCⅢ基因的表达，佳血浆apoCⅢ浓度升高，而apoCⅢ是LPL的抑制因子，"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s02",
+          "paragraph": 16,
+          "original": "可造成LPL的活性降低，从而影响CM和VLDL中甘油三酯的水解，引起高甘油三酯血症。",
+          "wrongOptions": [
+            "可造成LPL的活性降低，从而影响CM念VLDL中甘油三酯的水解，引起高甘油三酯血症。",
+            "可造成LPL灼活性降低，从而影响CM和VLDL中甘油三酯的水解，引起高甘油三酯血症。",
+            "可造成LPL的活性降低，从而影响CM和VLDL中甘油三酯的北解，引起高甘油三酯血症。"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s03",
+          "paragraph": 19,
+          "original": "糖尿病患者尤其是血糖水平控制不良者常有Ⅳ型高脂蛋白血症。",
+          "wrongOptions": [
+            "糖尿病患者尤其是血糖水平控制不良鲁常有Ⅳ型高脂蛋白血症。",
+            "糖尿病患者尤其是血糖水平控制不良者常有Ⅳ塑高脂蛋白血症。",
+            "糖尿病患者犬其是血糖水平控制不良者常有Ⅳ型高脂蛋白血症。"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s04",
+          "paragraph": 19,
+          "original": "1型糖尿病由于胰岛素缺乏，LPL活性受到抑制，使CM在血浆中聚积，可伴有高甘油三酯血症。",
+          "wrongOptions": [
+            "1型糖尿病甲于胰岛素缺乏，LPL活性受到抑制，使CM在血浆中聚积，可伴有高甘油三酯血症。",
+            "1型糖屑病由于胰岛素缺乏，LPL活性受到抑制，使CM在血浆中聚积，可伴有高甘油三酯血症。",
+            "1型糖尿病由于胰岛素缺乏，LPL活怕受到抑制，使CM在血浆中聚积，可伴有高甘油三酯血症。"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s05",
+          "paragraph": 19,
+          "original": "2型糖尿病常有胰岛素抵抗，内源性胰岛素过多分泌，引起高胰岛素血症，继而减弱胰岛素对LPL的激活作用，",
+          "wrongOptions": [
+            "2型糖尿病常有胰岛素低抗，内源性胰岛素过多分泌，引起高胰岛素血症，继而减弱胰岛素对LPL的激活作用，",
+            "2型糖尿病常友胰岛素抵抗，内源性胰岛素过多分泌，引起高胰岛素血症，继而减弱胰岛素对LPL的激活作用，",
+            "2型糖尿病常有胰岛素抵抗，内源性胰岛素过多分泌，引起高胰岛素血症，继而减弱胰岛素对LPL的派活作用，"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s06",
+          "paragraph": 19,
+          "original": "引起甘油三酯水平升高。",
+          "wrongOptions": [
+            "引起甘油三酯北平升高。",
+            "引起甘油三脂水平升高。",
+            "引起甘油三酯水甲升高。"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s07",
+          "paragraph": 21,
+          "original": "肾病综合征时发生高脂蛋白血症是由于脂蛋白合成增加和降解障碍双重机制引起，主要表现为血浆VLDL和LDL升高，",
+          "wrongOptions": [
+            "肾病综合征时发生高脂蛋白血症是由旁脂蛋白合成增加和降解障碍双重机制引起，主要表现为血浆VLDL和LDL升高，",
+            "肾病综合政时发生高脂蛋白血症是由于脂蛋白合成增加和降解障碍双重机制引起，主要表现为血浆VLDL和LDL升高，",
+            "肾病综合征时登生高脂蛋白血症是由于脂蛋白合成增加和降解障碍双重机制引起，主要表现为血浆VLDL和LDL升高，"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s08",
+          "paragraph": 21,
+          "original": "呈Ⅱb或Ⅳ型高脂蛋白血症；而肾衰竭、肾移植术后的患者常出现血浆甘油三酯升高、HDL降低。",
+          "wrongOptions": [
+            "呈Ⅱb或Ⅳ型高脂蛋白血症；而肾衰竭、肾移桥术后的患者常出现血浆甘油三酯升高、HDL降低。",
+            "呈Ⅱb或Ⅳ型高脂蛋白血症；而肾衰竭、肾移植术后的患者常凸现血浆甘油三酯升高、HDL降低。",
+            "呈Ⅱb或Ⅳ型高脂蛋白血征；而肾衰竭、肾移植术后的患者常出现血浆甘油三酯升高、HDL降低。"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s09",
+          "paragraph": 23,
+          "original": "周围末梢血中的甲状腺激素水平直接影响脂质代谢的各个环节，甲状腺功能减退时，",
+          "wrongOptions": [
+            "周围末梢血中的中状腺激素水平直接影响脂质代谢的各个环节，甲状腺功能减退时，",
+            "周围末梢血中的甲状腺派素水平直接影响脂质代谢的各个环节，甲状腺功能减退时，",
+            "周围末梢血中的甲状腺激素水平直接影响脂质代谢的各个环第，甲状腺功能减退时，"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s10",
+          "paragraph": 23,
+          "original": "脂质代谢紊乱或相关因素异常主要表现为高胆固醇血症、高甘油三酯血症、高VLDL、高LDL、低LDL受体活性、",
+          "wrongOptions": [
+            "脂质代谢紊乱或相关因素异常主要表现为高胆固醇血症、高甘油三酯血症、高VLDL、高LDL、低LDL忆体活性、",
+            "脂质代谢紊乱或相关因素异常主要表现为高胆固醇血症、亮甘油三酯血症、高VLDL、高LDL、低LDL受体活性、",
+            "脂质代谢紊乱或相关因素异常主要表现为高胆固醇血症、高廿油三酯血症、高VLDL、高LDL、低LDL受体活性、"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s11",
+          "paragraph": 23,
+          "original": "低LPL活性等。",
+          "wrongOptions": [
+            "低LPL活性答。",
+            "抵LPL活性等。",
+            "低LPL括性等。"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s12",
+          "paragraph": 24,
+          "original": "血脂异常还可见于异型蛋白血症（如系统性红斑狼疮、多发性骨髓瘤）、肝胆系统疾病（如各种原因引起的胆道阻塞、",
+          "wrongOptions": [
+            "血脂异常还可见于异型蛋白血症（如系红性红斑狼疮、多发性骨髓瘤）、肝胆系统疾病（如各种原因引起的胆道阻塞、",
+            "血脂异常还可见于异型蛋白血症（如系统性红斑狼疮、矽发性骨髓瘤）、肝胆系统疾病（如各种原因引起的胆道阻塞、",
+            "血脂异常还可见于异型蛋白血症（如系统性红斑狼疮、多发性骨髓瘤）、肝胆系统疾病（如吉种原因引起的胆道阻塞、"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s13",
+          "paragraph": 24,
+          "original": "胆汁性肝硬化）、胰腺炎、糖原贮积症（Ⅰ型）等。酗酒是导致血脂异常的危险因素。",
+          "wrongOptions": [
+            "胆汁性肝硬化）、胰腺炎、导原贮积症（Ⅰ型）等。酗酒是导致血脂异常的危险因素。",
+            "胆汁性肝梗化）、胰腺炎、糖原贮积症（Ⅰ型）等。酗酒是导致血脂异常的危险因素。",
+            "胆汁性肝硬化）、胰腺炎、糖厥贮积症（Ⅰ型）等。酗酒是导致血脂异常的危险因素。"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s14",
+          "paragraph": 27,
+          "original": "酒精可增加体内脂质的合成率，降低LPL的活性，使甘油三酯分解代谢减慢，导致高甘油三酯血症。",
+          "wrongOptions": [
+            "酒精可增加体内脂资的合成率，降低LPL的活性，使甘油三酯分解代谢减慢，导致高甘油三酯血症。",
+            "酒精可增加体内脂质的合成率，降低LPL的活性，使甘油三酯分解代谢减漫，导致高甘油三酯血症。",
+            "酒精可增加体内脂质的合成率，降低LPL的活性，使甘油三酯分解依谢减慢，导致高甘油三酯血症。"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s15",
+          "paragraph": 27,
+          "original": "酗酒还会引起LDL和apoB显著升高，而HDL和apoAⅠ显著降低，导致胆固醇代谢紊乱。",
+          "wrongOptions": [
+            "酗酒还会引起LDL和apoB预著升高，而HDL和apoAⅠ显著降低，导致胆固醇代谢紊乱。",
+            "酗酒还会引起LDL和apoB显著升高，而HDL和apoAⅠ显著障低，导致胆固醇代谢紊乱。",
+            "酗酒还会引起LDL和apoB显著升高，而HDL和apoAⅠ显著降低，封致胆固醇代谢紊乱。"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s16",
+          "paragraph": 27,
+          "original": "此外，酗酒还会引起脂蛋白过氧化情况的发生，",
+          "wrongOptions": [
+            "此外，酗酒还会引起脂蛋白过氧化情况约发生，",
+            "此外，酗酒运会引起脂蛋白过氧化情况的发生，",
+            "此外，酗酒还会引起酯蛋白过氧化情况的发生，"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s17",
+          "paragraph": 27,
+          "original": "导致循环中氧化低密度脂蛋白（oxidized low density lipoprotein，",
+          "wrongOptions": [
+            "导致循环中氧化抵密度脂蛋白（oxidized low density lipoprotein，",
+            "导致循环中氧化低密度脂蛋百（oxidized low density lipoprotein，",
+            "导致循环中氧化低密床脂蛋白（oxidized low density lipoprotein，"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s18",
+          "paragraph": 27,
+          "original": "oxLDL）浓度升高。习惯于久坐不动的人血浆甘油三酯水平比坚持体育锻炼者要高。",
+          "wrongOptions": [
+            "oxLDL）浓度升高。习惯于久坐不肿的人血浆甘油三酯水平比坚持体育锻炼者要高。",
+            "oxLDL）浓度升高。习惯于久坐不动的人血浆甘油三酯水平北坚持体育锻炼者要高。",
+            "oxLDL）浓度升高。习惯于久坐不动的人血浆甘油三脂水平比坚持体育锻炼者要高。"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s19",
+          "paragraph": 29,
+          "original": "体育锻炼可增加LPL的活性，升高HDL水平特别是HDL2的水平，并降低肝脂酶活性。",
+          "wrongOptions": [
+            "体育锻炼可增加LPL的活怕，升高HDL水平特别是HDL2的水平，并降低肝脂酶活性。",
+            "体育锻炼可增加LPL的活性，陆高HDL水平特别是HDL2的水平，并降低肝脂酶活性。",
+            "体育锻炼可增加LPL的活性，升高HDL水平待别是HDL2的水平，并降低肝脂酶活性。"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s20",
+          "paragraph": 29,
+          "original": "长期坚持体育锻炼，还可以使外源性甘油三酯从血浆中清除增加。",
+          "wrongOptions": [
+            "长期坚持体育锻楝，还可以使外源性甘油三酯从血浆中清除增加。",
+            "长期坚持体育锋炼，还可以使外源性甘油三酯从血浆中清除增加。",
+            "长期坚持体育锻炼，还可以使外源性甘抽三酯从血浆中清除增加。"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s21",
+          "paragraph": 31,
+          "original": "年龄也是影响血脂水平的一个重要因素，随着年龄的增加，LPL活性减退、肝细胞表面的LDL受体的活性和数量均降低，",
+          "wrongOptions": [
+            "年龄也是影响血脂水平的一个重要因素，随着年龄的增加，LPL活性减退、肝细胞表面的LDL受体约活性和数量均降低，",
+            "年龄也是影响血脂水干的一个重要因素，随着年龄的增加，LPL活性减退、肝细胞表面的LDL受体的活性和数量均降低，",
+            "年龄也是影响血脂水平的一个重要因素，随着平龄的增加，LPL活性减退、肝细胞表面的LDL受体的活性和数量均降低，"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s22",
+          "paragraph": 31,
+          "original": "使LDL分解代谢率降低。老化的肝细胞还降低饮食诱导的apoB合成，导致血浆甘油三酯水平升高。",
+          "wrongOptions": [
+            "使LDL分解代讲率降低。老化的肝细胞还降低饮食诱导的apoB合成，导致血浆甘油三酯水平升高。",
+            "使LDL分解代谢率降低。老化的肝细胞还降低饮食诱导的apoB合成，导致臼浆甘油三酯水平升高。",
+            "使LDL分解代谢率降低。老化的肝细胞还降低饮良诱导的apoB合成，导致血浆甘油三酯水平升高。"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s23",
+          "paragraph": 32,
+          "original": "此外，长期的精神紧张、吸烟、体重增加以及药物等多种因素均可引起血脂异常。",
+          "wrongOptions": [
+            "此外，长期的精神紧张、吸烟、体量增加以及药物等多种因素均可引起血脂异常。",
+            "此外，长期的精神紧张、吸烟、体重增加以及药物等多种因素均可强起血脂异常。",
+            "此外，长期的精神紧张、吸烟、体重增加以及药吻等多种因素均可引起血脂异常。"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s24",
+          "paragraph": 34,
+          "original": "脂代谢是一个包括脂质的外源性摄取、内源性合成以及机体内脂蛋白、受体和酶相互作用的复杂过程。",
+          "wrongOptions": [
+            "脂代谢是一个包括脂质的外源性摄取、内源性合威以及机体内脂蛋白、受体和酶相互作用的复杂过程。",
+            "脂代谢是一伸包括脂质的外源性摄取、内源性合成以及机体内脂蛋白、受体和酶相互作用的复杂过程。",
+            "脂代谢是一个包括脂质的外源性竭取、内源性合成以及机体内脂蛋白、受体和酶相互作用的复杂过程。"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s25",
+          "paragraph": 34,
+          "original": "正常情况下，血脂的分解利用和吸收合成保持动态平衡，血脂含量的变动可稳定在一定的范围内。",
+          "wrongOptions": [
+            "正常情况下，血脂的分解利用和吸收合成信持动态平衡，血脂含量的变动可稳定在一定的范围内。",
+            "正常情况下，血脂的分解利用和吸收合成保持动态平衡，血脂含量灼变动可稳定在一定的范围内。",
+            "正常情况下，血脂的分解别用和吸收合成保持动态平衡，血脂含量的变动可稳定在一定的范围内。"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s26",
+          "paragraph": 34,
+          "original": "当脂质来源、脂蛋白合成与代谢及转运等过程发生障碍时，均可能导致血脂代谢紊乱。",
+          "wrongOptions": [
+            "当脂质来源、脂蛋日合成与代谢及转运等过程发生障碍时，均可能导致血脂代谢紊乱。",
+            "当脂质来源、脂蛋白合威与代谢及转运等过程发生障碍时，均可能导致血脂代谢紊乱。",
+            "当脂质来源、脂蛋白合成与代谢及转运等过程发生障碍时，均可能导致血脂伐谢紊乱。"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s27",
+          "paragraph": 35,
+          "original": "高脂蛋白血症除小部分是由全身性疾病所致外（继发性高脂蛋白血症），大部分是脂蛋白代谢相关基因突变（表6-2），",
+          "wrongOptions": [
+            "高脂蛋白血症除小部分早由全身性疾病所致外（继发性高脂蛋白血症），大部分是脂蛋白代谢相关基因突变（表6-2），",
+            "高脂蛋白血症除小部分是由全身性疾病所致外（继发性高脂蛋白血症），大部分是脂蛋白伐谢相关基因突变（表6-2），",
+            "高脂蛋白血症除小部分是由全身性疾病所致外（继发性高脂蛋白血症），大部允是脂蛋白代谢相关基因突变（表6-2），"
+          ]
+        },
+        {
+          "id": "chapter-06-06-s28",
+          "paragraph": 35,
+          "original": "或与环境因素相互作用引起（原发性高脂蛋白血症）。",
+          "wrongOptions": [
+            "或与环境因素相互作用引起（原发性亮脂蛋白血症）。",
+            "或与环境因素相互罂用引起（原发性高脂蛋白血症）。",
+            "或与环境因毒相互作用引起（原发性高脂蛋白血症）。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-06-07",
+      "title": "高脂蛋白血症（3）",
+      "order": 7,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-06-07-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-06-07-s01",
+            "chapter-06-07-s02",
+            "chapter-06-07-s03",
+            "chapter-06-07-s04",
+            "chapter-06-07-s05",
+            "chapter-06-07-s06",
+            "chapter-06-07-s07",
+            "chapter-06-07-s08",
+            "chapter-06-07-s09",
+            "chapter-06-07-s10",
+            "chapter-06-07-s11",
+            "chapter-06-07-s12"
+          ]
+        },
+        {
+          "id": "chapter-06-07-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-06-07-s13",
+            "chapter-06-07-s14",
+            "chapter-06-07-s15",
+            "chapter-06-07-s16",
+            "chapter-06-07-s17",
+            "chapter-06-07-s18",
+            "chapter-06-07-s19",
+            "chapter-06-07-s20",
+            "chapter-06-07-s21",
+            "chapter-06-07-s22",
+            "chapter-06-07-s23",
+            "chapter-06-07-s24"
+          ]
+        },
+        {
+          "id": "chapter-06-07-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-06-07-s25",
+            "chapter-06-07-s26",
+            "chapter-06-07-s27"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-06-07-s01",
+          "paragraph": 35,
+          "original": "本文按脂代谢的各个环节异常阐述高脂蛋白血症的发病机制（图6-2）。",
+          "wrongOptions": [
+            "本文按脂代谢的各个环节异常阐周高脂蛋白血症的发病机制（图6-2）。",
+            "本文按脂代讲的各个环节异常阐述高脂蛋白血症的发病机制（图6-2）。",
+            "本文按脂代谢的各个环节异常阐述高脂蛋白臼症的发病机制（图6-2）。"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s02",
+          "paragraph": 40,
+          "original": "饮食中脂质主要包括甘油三酯、胆固醇和磷脂，食物源性胆固醇占机体胆固醇来源的三分之一。",
+          "wrongOptions": [
+            "饮食中脂质主要包括甘油三酯、胆固醇和磷脂，食物源性胆固醇占机体胆固醇夹源的三分之一。",
+            "饮食中脂质主要包括甘油三酯、胆固醇和磷脂，食物源怕胆固醇占机体胆固醇来源的三分之一。",
+            "饮食中脂质主要包括甘油三酯、胆固醇和磷脂，食物原性胆固醇占机体胆固醇来源的三分之一。"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s03",
+          "paragraph": 40,
+          "original": "不同个体对食物源性脂质的摄取差别很大，从25%～75%不等。",
+          "wrongOptions": [
+            "不同个体对食物源性脂质的摄取差别很大，纵25%～75%不等。",
+            "不同个体对食物源性脂质的执取差别很大，从25%～75%不等。",
+            "不同个体对食物源性脂质的摄取差则很大，从25%～75%不等。"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s04",
+          "paragraph": 40,
+          "original": "健康年轻男、女性每天外源性胆固醇摄入量增加100mg，",
+          "wrongOptions": [
+            "健康年轻男、女性每天外源性胆固醇验入量增加100mg，",
+            "健康年轻男、女性每天外源性胆固醇摄入量层加100mg，",
+            "健康年轻男、女快每天外源性胆固醇摄入量增加100mg，"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s05",
+          "paragraph": 40,
+          "original": "血液胆固醇水平分别增加0.038mmol／L（1.47mg／dl）和0.073mmol／L（2.81mg／dl",
+          "wrongOptions": [
+            "血液胆固醇水平允别增加0.038mmol／L（1.47mg／dl）和0.073mmol／L（2.81mg／dl",
+            "血液胆固醇水平分刻增加0.038mmol／L（1.47mg／dl）和0.073mmol／L（2.81mg／dl",
+            "血液胆固醇水甲分别增加0.038mmol／L（1.47mg／dl）和0.073mmol／L（2.81mg／dl"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s06",
+          "paragraph": 40,
+          "original": "）。机体可通过调节内源性胆固醇合成减少来平衡外源性胆固醇摄取的增加。",
+          "wrongOptions": [
+            "）。机体可通过调节内源性胆固舞合成减少来平衡外源性胆固醇摄取的增加。",
+            "）。机体可通过调节内源性胆固醇召成减少来平衡外源性胆固醇摄取的增加。",
+            "）。机体可通过调节肉源性胆固醇合成减少来平衡外源性胆固醇摄取的增加。"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s07",
+          "paragraph": 40,
+          "original": "长期的高脂饮食可从三方面导致血脂增高：①促使肝脏胆固醇含量增加，LDL受体合成减少，脂质代谢减少；",
+          "wrongOptions": [
+            "长期的高脂饮良可从三方面导致血脂增高：①促使肝脏胆固醇含量增加，LDL受体合成减少，脂质代谢减少；",
+            "长期的高脂饮食可从三方面导致血脂增高：①促使肝脏胆固醇含量增加，LDL受体合成减少，脂质伐谢减少；",
+            "长期的高脂饮食可从三方面导致血脂增高：①促使肝脏胆固醇含量增加，LDL受体合成减少，酯质代谢减少；"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s08",
+          "paragraph": 40,
+          "original": "②饮食中大量甘油三酯的摄取，使得小肠经外源性途径合成CM大量增加；③促使肝脏经内源性途径合成VLDL增加。",
+          "wrongOptions": [
+            "②饮食中大量甘油三酯的摄取，使得小肠经外源性徐径合成CM大量增加；③促使肝脏经内源性途径合成VLDL增加。",
+            "②饮食中天量甘油三酯的摄取，使得小肠经外源性途径合成CM大量增加；③促使肝脏经内源性途径合成VLDL增加。",
+            "②饮食中大量甘油三酯的摄取，使得小肠经外源性途径合成CM大量层加；③促使肝脏经内源性途径合成VLDL增加。"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s09",
+          "paragraph": 42,
+          "original": "一般认为饱和脂肪酸摄入量占摄入能量的百分比每增加一个单位，",
+          "wrongOptions": [
+            "一般认为饱和脂肪酸摄入量占摄入能量的百分北每增加一个单位，",
+            "一般认为饱和脂肪酸摄入量占摄入能量的百分比每增功一个单位，",
+            "一般认为饱和脂肪酸眦入量占摄入能量的百分比每增加一个单位，"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s10",
+          "paragraph": 42,
+          "original": "血液总胆固醇含量将增加0.052mmol／L（2.01mg／dl），其中主要为LDL。",
+          "wrongOptions": [
+            "血液总胆固醇含量将增助0.052mmol／L（2.01mg／dl），其中主要为LDL。",
+            "血液总胆固醇念量将增加0.052mmol／L（2.01mg／dl），其中主要为LDL。",
+            "血液总胆固凶含量将增加0.052mmol／L（2.01mg／dl），其中主要为LDL。"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s11",
+          "paragraph": 42,
+          "original": "在饱和脂肪酸中，月桂酸（12∶0）升高胆固醇效果最明显，其次是肉豆蔻（14∶0）和棕榈酸（16∶0），",
+          "wrongOptions": [
+            "在饱和脂肪酸中，月桂酸（12∶0）陆高胆固醇效果最明显，其次是肉豆蔻（14∶0）和棕榈酸（16∶0），",
+            "在饱和脂肪酸中，月桂酸（12∶0）升高胆固醇效果最明显，其次是内豆蔻（14∶0）和棕榈酸（16∶0），",
+            "在饱和脂肪酸中，月桂酸（12∶0）升高胆固醇效果最明显，其欧是肉豆蔻（14∶0）和棕榈酸（16∶0），"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s12",
+          "paragraph": 42,
+          "original": "长链硬脂酸（18∶0）几乎没有效果。",
+          "wrongOptions": [
+            "长链硬指酸（18∶0）几乎没有效果。",
+            "长链硬脂酸（18∶0）截乎没有效果。",
+            "长链硬脂酸（18∶0）几乎没右效果。"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s13",
+          "paragraph": 42,
+          "original": "饱和脂肪酸摄入增加引起胆固醇增高的机制主要在于：①降低细胞表面LDL受体活性；②增加含apoB脂蛋白的产生。",
+          "wrongOptions": [
+            "饱和脂肪酸摄入增加引起胆固还增高的机制主要在于：①降低细胞表面LDL受体活性；②增加含apoB脂蛋白的产生。",
+            "饱和脂肪酸摄入增加引起胆固醇增高的机制主要在于：①附低细胞表面LDL受体活性；②增加含apoB脂蛋白的产生。",
+            "饱和脂肪酸摄入增加引起胆固醇增高的机制主要在于：①降低细胞表面LDL受体活性；②增加贪apoB脂蛋白的产生。"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s14",
+          "paragraph": 42,
+          "original": "饮食中胆固醇含量高和apoE4基因型有助于饱和脂肪酸的升胆固醇效果。",
+          "wrongOptions": [
+            "饮食中胆固醇含量高和apoE4基因型有助于饱和脂肪酸灼升胆固醇效果。",
+            "饮食中胆固醇含量高和apoE4基因型有助于饱和脂房酸的升胆固醇效果。",
+            "饮食中胆固醇含量高和apoE4基因型有助旋饱和脂肪酸的升胆固醇效果。"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s15",
+          "paragraph": 44,
+          "original": "肠道脂质摄取主要与肠黏膜上皮细胞表达的三种蛋白有关：",
+          "wrongOptions": [
+            "肠道脂买摄取主要与肠黏膜上皮细胞表达的三种蛋白有关：",
+            "肠道脂质摄取主要与肠黏膜上皮细胞表达的三种唑白有关：",
+            "肠道脂质摄取主要与肠黏膜上支细胞表达的三种蛋白有关："
+          ]
+        },
+        {
+          "id": "chapter-06-07-s16",
+          "paragraph": 44,
+          "original": "尼曼-匹克C1型类似蛋白1（Niemann-Pick type C1 Like 1，NPC1L1）、",
+          "wrongOptions": [
+            "尼曼-匹克C1型类似蛋日1（Niemann-Pick type C1 Like 1，NPC1L1）、",
+            "尼曼-匹兆C1型类似蛋白1（Niemann-Pick type C1 Like 1，NPC1L1）、",
+            "尼曼-匿克C1型类似蛋白1（Niemann-Pick type C1 Like 1，NPC1L1）、"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s17",
+          "paragraph": 44,
+          "original": "正常情况下，ABCG5和ABCG8能把吸收的几乎全部植物固醇重新排放回肠腔，",
+          "wrongOptions": [
+            "正常情况下，ABCG5和ABCG8能把吸收的几乃全部植物固醇重新排放回肠腔，",
+            "正常情况下，ABCG5和ABCG8熊把吸收的几乎全部植物固醇重新排放回肠腔，",
+            "正常情况下，ABCG5和ABCG8能把吸收的几乎全部植物固醇重新排放徊肠腔，"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s18",
+          "paragraph": 44,
+          "original": "使得谷固醇等植物固醇经肠道吸收很少（＜5%），并促使肝脏优先分泌植物固醇到胆汁。",
+          "wrongOptions": [
+            "使得谷固醇等植物固醇经肠道吸收很少（＜5%），并促使肝脏优先分泌植物蕈醇到胆汁。",
+            "使得谷固醇等植物米醇经肠道吸收很少（＜5%），并促使肝脏优先分泌植物固醇到胆汁。",
+            "使得谷固醇等植物固醇经肠运吸收很少（＜5%），并促使肝脏优先分泌植物固醇到胆汁。"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s19",
+          "paragraph": 44,
+          "original": "当ABCG5或ABCG8发生基因突变时，植物固醇在肠腔的吸收成倍增加，胆固醇吸收中度增加，导致谷固醇血症发生，",
+          "wrongOptions": [
+            "当ABCG5或ABCG8发生基因突变时，植物固醇在肠腔的吸收成倍增加，胆橄醇吸收中度增加，导致谷固醇血症发生，",
+            "当ABCG5或ABCG8发生基因突变时，植物固醇在肠腔的吸收戊倍增加，胆固醇吸收中度增加，导致谷固醇血症发生，",
+            "当ABCG5或ABCG8发生基因突变时，植物固醇在肠腔的吸收成倍增加，胆固醇吸收中度增加，导臻谷固醇血症发生，"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s20",
+          "paragraph": 44,
+          "original": "主要表现就是血液谷固醇含量显著增加，伴有LDL的增加。",
+          "wrongOptions": [
+            "主要表现就是血液谷固醇含量显著增功，伴有LDL的增加。",
+            "主要表现就是血液谷固醇含量显著增加，伴左LDL的增加。",
+            "主要表现就是血液谷暴醇含量显著增加，伴有LDL的增加。"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s21",
+          "paragraph": 44,
+          "original": "NPC1L1的作用是参与肠道脂质吸收，抑制肠道NPC1L1基因表达能显著降低胆固醇的吸收和血液胆固醇水平，",
+          "wrongOptions": [
+            "NPC1L1约作用是参与肠道脂质吸收，抑制肠道NPC1L1基因表达能显著降低胆固醇的吸收和血液胆固醇水平，",
+            "NPC1L1的作用是参与肠道脂质吸收，抑制肠还NPC1L1基因表达能显著降低胆固醇的吸收和血液胆固醇水平，",
+            "NPC1L1的作用是参与肠道脂质麻收，抑制肠道NPC1L1基因表达能显著降低胆固醇的吸收和血液胆固醇水平，"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s22",
+          "paragraph": 44,
+          "original": "但已报道的NPC1L1基因突变似乎对肠道胆固醇吸收影响不大，而主要是导致总胆固醇、磷脂、糖脂、",
+          "wrongOptions": [
+            "但已报道的NPC1L1基因突轭似乎对肠道胆固醇吸收影响不大，而主要是导致总胆固醇、磷脂、糖脂、",
+            "但已报道的NPC1L1基因突变似乎对肠道胆固醇吸收影响不大，而主要是导致总胆固醇、邻脂、糖脂、",
+            "但已报道的NPC1L1基因突变似乎对肠道胆固醇吸收影响干大，而主要是导致总胆固醇、磷脂、糖脂、"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s23",
+          "paragraph": 44,
+          "original": "神经鞘磷脂等脂类沉积于溶酶体。",
+          "wrongOptions": [
+            "神经鞘磷脂痔脂类沉积于溶酶体。",
+            "神经鞘磷脂等酯类沉积于溶酶体。",
+            "神经鞘鳞脂等脂类沉积于溶酶体。"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s24",
+          "paragraph": 46,
+          "original": "肝脏是内源性脂质合成的主要部位，占机体三分之二的胆固醇、甘油三酯、大部分载脂蛋白如apoB100、",
+          "wrongOptions": [
+            "肝脏是内源性脂质合成的主要部位，占机体三分之二的胆固醇、甘油三酯、大部分令脂蛋白如apoB100、",
+            "肝脏是内源性脂质合成的主要部位，占机体元分之二的胆固醇、甘油三酯、大部分载脂蛋白如apoB100、",
+            "肝脏是内源性脂质合成的主要部位，占机体三分之二的胆固醇、甘油二酯、大部分载脂蛋白如apoB100、"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s25",
+          "paragraph": 46,
+          "original": "apoC和apoE等均在肝脏合成。",
+          "wrongOptions": [
+            "apoC和apoE等均土肝脏合成。",
+            "apoC和apoE等均在杆脏合成。",
+            "apoC和apoE等均在肝肝合成。"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s26",
+          "paragraph": 46,
+          "original": "肝脏脂蛋白合成增加的机制主要包括：①摄取高糖、高饱和脂肪膳食后，肝脏胆固醇合成限速酶HMGCoAR活性增加，",
+          "wrongOptions": [
+            "肝脏脂蛋白合成增加的机制主要包括：①摄取高糖、高饱和脂肪膳食后，肝脏胆固醇合成退速酶HMGCoAR活性增加，",
+            "肝脏脂蛋白合成增加的机分主要包括：①摄取高糖、高饱和脂肪膳食后，肝脏胆固醇合成限速酶HMGCoAR活性增加，",
+            "肝脏脂蛋白合成增加的机制主要包括：①摄取高糖、高饱念脂肪膳食后，肝脏胆固醇合成限速酶HMGCoAR活性增加，"
+          ]
+        },
+        {
+          "id": "chapter-06-07-s27",
+          "paragraph": 46,
+          "original": "胆固醇合成增加；②血液中胰岛素及甲状腺素增多时，能诱导肝HMGCoAR表达增加，胆固醇合成增加；",
+          "wrongOptions": [
+            "胆固醇合成增加；②血液中胰岛素及中状腺素增多时，能诱导肝HMGCoAR表达增加，胆固醇合成增加；",
+            "胆固醇合成增加；②血液中胰岛素及甲状腺素增多时，能诱导肝HMGCoAR表道增加，胆固醇合成增加；",
+            "胆固醇合成增加；②血液中胰岛素及甲状腺素增多时，能诱导汗HMGCoAR表达增加，胆固醇合成增加；"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-06-08",
+      "title": "高脂蛋白血症（4）",
+      "order": 8,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-06-08-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-06-08-s01",
+            "chapter-06-08-s02",
+            "chapter-06-08-s03",
+            "chapter-06-08-s04",
+            "chapter-06-08-s05",
+            "chapter-06-08-s06",
+            "chapter-06-08-s07",
+            "chapter-06-08-s08",
+            "chapter-06-08-s09",
+            "chapter-06-08-s10",
+            "chapter-06-08-s11",
+            "chapter-06-08-s12"
+          ]
+        },
+        {
+          "id": "chapter-06-08-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-06-08-s13",
+            "chapter-06-08-s14",
+            "chapter-06-08-s15",
+            "chapter-06-08-s16",
+            "chapter-06-08-s17",
+            "chapter-06-08-s18",
+            "chapter-06-08-s19",
+            "chapter-06-08-s20",
+            "chapter-06-08-s21",
+            "chapter-06-08-s22",
+            "chapter-06-08-s23",
+            "chapter-06-08-s24"
+          ]
+        },
+        {
+          "id": "chapter-06-08-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-06-08-s25",
+            "chapter-06-08-s26",
+            "chapter-06-08-s27",
+            "chapter-06-08-s28"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-06-08-s01",
+          "paragraph": 46,
+          "original": "肝脏脂蛋白合成增加的机制主要包括：①摄取高糖、高饱和脂肪膳食后，肝脏胆固醇合成限速酶HMGCoAR活性增加，",
+          "wrongOptions": [
+            "肝脏脂蛋白合成增加的机制主要包括：①摄取高糖、高饱和脂肪膳食后，肝脏担固醇合成限速酶HMGCoAR活性增加，",
+            "肝脏脂蛋白合成增加的机制主要匀括：①摄取高糖、高饱和脂肪膳食后，肝脏胆固醇合成限速酶HMGCoAR活性增加，",
+            "肝脏脂蛋白合成增加的机制主安包括：①摄取高糖、高饱和脂肪膳食后，肝脏胆固醇合成限速酶HMGCoAR活性增加，"
+          ],
+          "carried": true
+        },
+        {
+          "id": "chapter-06-08-s02",
+          "paragraph": 46,
+          "original": "③血液中胰高血糖素及皮质醇减少时，其对HMGCoAR的活性抑制作用减弱，胆固醇合成增加；",
+          "wrongOptions": [
+            "③血液中旋高血糖素及皮质醇减少时，其对HMGCoAR的活性抑制作用减弱，胆固醇合成增加；",
+            "③血液中胰高血糖素及皮质醇减少待，其对HMGCoAR的活性抑制作用减弱，胆固醇合成增加；",
+            "③血液中胰高血糖素乃皮质醇减少时，其对HMGCoAR的活性抑制作用减弱，胆固醇合成增加；"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s03",
+          "paragraph": 46,
+          "original": "④肥胖或胰岛素抵抗等因素导致脂肪动员时，大量FFA释放进入血液循环，肝脏以其为底物合成VLDL增加。",
+          "wrongOptions": [
+            "④肥胖或胰岛素抵抗等因素导致脂肪动员时，大量FFA释放进入臼液循环，肝脏以其为底物合成VLDL增加。",
+            "④肥胖或胰岛素抵抗等因素导致脂肪动员时，大量FFA释放进入血液佛环，肝脏以其为底物合成VLDL增加。",
+            "④肥胖或胰岛素抵抗等因素导致脂肪动员时，大量FFA释放进入血液循环，肝肝以其为底物合成VLDL增加。"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s04",
+          "paragraph": 46,
+          "original": "近来发现肠道也是内源性脂质尤其是HDL合成的重要部位，但其在高脂蛋白血症发生中的病理生理学意义尚不清楚。",
+          "wrongOptions": [
+            "近来发现肠道也是内源性脂质尤其是HDL合成的重要部位，但具在高脂蛋白血症发生中的病理生理学意义尚不清楚。",
+            "近来发现肠道也是内源性脂质尤公是HDL合成的重要部位，但其在高脂蛋白血症发生中的病理生理学意义尚不清楚。",
+            "近来发现肠道也是内源性脂质尤其是HDL合成的重要部位，但其在高脂蛋白血症发生中的病理生涂学意义尚不清楚。"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s05",
+          "paragraph": 48,
+          "original": "血脂代谢的实质就是血液脂蛋白代谢，参与这一代谢过程的主要因素是载脂蛋白、脂蛋白受体和脂酶等。",
+          "wrongOptions": [
+            "血脂代谢的实质就是血液脂蛋白代谢，参与这一代谢过程的主要因素是载脂蛋日、脂蛋白受体和脂酶等。",
+            "血脂代谢的实质就早血液脂蛋白代谢，参与这一代谢过程的主要因素是载脂蛋白、脂蛋白受体和脂酶等。",
+            "血脂代谢的实质就是血液脂蛋白代谢，参与这一仍谢过程的主要因素是载脂蛋白、脂蛋白受体和脂酶等。"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s06",
+          "paragraph": 48,
+          "original": "遗传或环境因素对这些蛋白表达或活性的影响最终都将导致脂质转运或分解代谢障碍。",
+          "wrongOptions": [
+            "遗传或环境因素对这些蛋白表达或活性的影闸最终都将导致脂质转运或分解代谢障碍。",
+            "遗传或环境困素对这些蛋白表达或活性的影响最终都将导致脂质转运或分解代谢障碍。",
+            "遗传或环境因素对这些蛋白表达或活性的影响最终都将导致脂质转运或分触代谢障碍。"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s07",
+          "paragraph": 48,
+          "original": "脂质转运和分解代谢过程中，CM和VLDL及其受体主要转运和代谢甘油三酯，LDL及其受体主要转运和代谢胆固醇，",
+          "wrongOptions": [
+            "脂质转运和分解代谢过程中，CM和VLDL及其受髓主要转运和代谢甘油三酯，LDL及其受体主要转运和代谢胆固醇，",
+            "脂质转运和分解代谢过程中，CM和VLDL及其受体主要转运利代谢甘油三酯，LDL及其受体主要转运和代谢胆固醇，",
+            "脂质转运和分解代谢过程回，CM和VLDL及其受体主要转运和代谢甘油三酯，LDL及其受体主要转运和代谢胆固醇，"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s08",
+          "paragraph": 48,
+          "original": "HDL则在胆固醇逆转运中起着关键作用。",
+          "wrongOptions": [
+            "HDL则在胆固醇玻转运中起着关键作用。",
+            "HDL则土胆固醇逆转运中起着关键作用。",
+            "HDL刺在胆固醇逆转运中起着关键作用。"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s09",
+          "paragraph": 50,
+          "original": "虽然CM和VLDL分别在肠道和肝脏合成，并有不同的转运与代谢途径，但由于两者都富含甘油三酯，",
+          "wrongOptions": [
+            "虽然CM和VLDL分弊在肠道和肝脏合成，并有不同的转运与代谢途径，但由于两者都富含甘油三酯，",
+            "虽然CM和VLDL分别在肠道和肝脏合成，并有不同的转运与代谢徐径，但由于两者都富含甘油三酯，",
+            "虽然CM和VLDL分别在肠道和肝脏合成，并有不同的转运臼代谢途径，但由于两者都富含甘油三酯，"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s10",
+          "paragraph": 50,
+          "original": "所以在转运与分解代谢异常方面有些共同的机制。①LPL表达与活性异常。",
+          "wrongOptions": [
+            "所以在转运与分解代谢异常方面有些共同的饥制。①LPL表达与活性异常。",
+            "所以在转运与分解代谢龚常方面有些共同的机制。①LPL表达与活性异常。",
+            "所以在转运与分解代谢异常方面左些共同的机制。①LPL表达与活性异常。"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s11",
+          "paragraph": 50,
+          "original": "LPL是分解脂蛋白中所含甘油三酯的限速酶，是富含甘油三酯的CM和VLDL代谢的决定性因素。",
+          "wrongOptions": [
+            "LPL是分解脂蛋白中所含甘油三酯的限速酶，是富含甘油三酯的CM和VLDL代谢的缺定性因素。",
+            "LPL是分解脂蛋白中所含甘油三酯的限速酶，是富含甘油三脂的CM和VLDL代谢的决定性因素。",
+            "LPL是分解脂蛋白中所含甘油三酯的限速酶，是富含甘油三酯的CM和VLDL代射的决定性因素。"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s12",
+          "paragraph": 50,
+          "original": "LPL基因突变可引起LPL活性降低或不能表达正常LPL，引起CM代谢障碍，导致高甘油三酯血症出现；",
+          "wrongOptions": [
+            "LPL基因突变可引起LPL活性降低或不能表达正常LPL，引超CM代谢障碍，导致高甘油三酯血症出现；",
+            "LPL基因突变可引起LPL活性降低或不能表达正常LPL，引起CM代谢障碍，导致高甘油三酯臼症出现；",
+            "LPL基因突慎可引起LPL活性降低或不能表达正常LPL，引起CM代谢障碍，导致高甘油三酯血症出现；"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s13",
+          "paragraph": 50,
+          "original": "同时CM和VLDL代谢障碍造成磷脂和载脂蛋白向HDL转移减少，HDL生成减少，含量降低。",
+          "wrongOptions": [
+            "同时CM和VLDL代谢障碍造成磷脂和载脂蛋白向HDL轮移减少，HDL生成减少，含量降低。",
+            "同时CM和VLDL代谢障碍造成磷脂和载脂蛋白向HDL转移样少，HDL生成减少，含量降低。",
+            "同时CM和VLDL代谢障碍造成磷脂和载脂蛋白向HDL转移减小，HDL生成减少，含量降低。"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s14",
+          "paragraph": 50,
+          "original": "胰岛素是LPL活性的重要调节因素，可激活脂肪组织LPL的活性，而对骨骼肌LPL的活性有抑制作用。",
+          "wrongOptions": [
+            "胰岛素是LPL活性的重要调节因素，可激活脂肪咀织LPL的活性，而对骨骼肌LPL的活性有抑制作用。",
+            "胰岛素是LPL活性的重要调节因素，可激活脂肪组织LPL灼活性，而对骨骼肌LPL的活性有抑制作用。",
+            "胰岛素是LPL活性的重要调节因素，可激活脂纺组织LPL的活性，而对骨骼肌LPL的活性有抑制作用。"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s15",
+          "paragraph": 50,
+          "original": "胰岛素抵抗或胰岛素缺陷型糖尿病以及甲状腺功能减低时，LPL活性降低，CM和VLDL降解减少，",
+          "wrongOptions": [
+            "胰岛素抵抗或胰岛素缺陷型糖尿痛以及甲状腺功能减低时，LPL活性降低，CM和VLDL降解减少，",
+            "胰岛素抵抗或胰岛素缺陷型糖尿病代及甲状腺功能减低时，LPL活性降低，CM和VLDL降解减少，",
+            "胰岛素抵抗或九岛素缺陷型糖尿病以及甲状腺功能减低时，LPL活性降低，CM和VLDL降解减少，"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s16",
+          "paragraph": 50,
+          "original": "血浆甘油三酯水平升高。②apoCⅡ表达与活性异常。",
+          "wrongOptions": [
+            "血浆甘油三酯北平升高。②apoCⅡ表达与活性异常。",
+            "血浆甘油三酯水平升高。②apoCⅡ表达与话性异常。",
+            "血浆甘油三酯水平卒高。②apoCⅡ表达与活性异常。"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s17",
+          "paragraph": 50,
+          "original": "apoCⅡ是LPL发挥活性所必需的辅因子，apoCⅢ则对LPL活性有一定抑制作用，",
+          "wrongOptions": [
+            "apoCⅡ是LPL发挥活性所必需的辅因子，apoCⅢ则对LPL活性有三定抑制作用，",
+            "apoCⅡ是LPL发挥括性所必需的辅因子，apoCⅢ则对LPL活性有一定抑制作用，",
+            "apoCⅡ是LPL发挥活性所必需的辅因子，apoCⅢ则对LPL活性有一完抑制作用，"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s18",
+          "paragraph": 50,
+          "original": "apoCⅡ／apoCⅢ比值对LPL活性有着显著影响。",
+          "wrongOptions": [
+            "apoCⅡ／apoCⅢ比值对LPL活性有枕显著影响。",
+            "apoCⅡ／apoCⅢ比值对LPL括性有着显著影响。",
+            "apoCⅡ／apoCⅢ比值对LPL活性布着显著影响。"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s19",
+          "paragraph": 50,
+          "original": "基因突变造成apoCⅡ表达减少或功能异常，LPL不能被充分激活，CM和VLDL中甘油三酯分解受阻，",
+          "wrongOptions": [
+            "基因突变造成apoCⅡ表达减少或功能异常，LPL不熊被充分激活，CM和VLDL中甘油三酯分解受阻，",
+            "基因突降造成apoCⅡ表达减少或功能异常，LPL不能被充分激活，CM和VLDL中甘油三酯分解受阻，",
+            "基因突变造成apoCⅡ表达减少或功能异常，LPL下能被充分激活，CM和VLDL中甘油三酯分解受阻，"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s20",
+          "paragraph": 50,
+          "original": "使得CM和VLDL水平上升。",
+          "wrongOptions": [
+            "使得CM利VLDL水平上升。",
+            "使得CM和VLDL水甲上升。",
+            "使得CM和VLDL北平上升。"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s21",
+          "paragraph": 50,
+          "original": "肾病综合征时，LCAT活性降低，使HDL3向HDL2转变减少，HDL2作为apoCⅡ最有效的运输载体，",
+          "wrongOptions": [
+            "肾病综合征时，LCAT活性降低，使HDL3尚HDL2转变减少，HDL2作为apoCⅡ最有效的运输载体，",
+            "肾病综合征时，LCAT活性降低，使HDL3向HDL2转变减少，HDL2作为apoCⅡ最有效约运输载体，",
+            "肾病综合征时，LCAT活性降低，使HDL3向HDL2转变减少，HDL2作为apoCⅡ最有效的浑输载体，"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s22",
+          "paragraph": 50,
+          "original": "其水平的降低将直接导致apoCⅡ含量下降。③apoE基因多态性。",
+          "wrongOptions": [
+            "其水平的降低将看接导致apoCⅡ含量下降。③apoE基因多态性。",
+            "其水平的降低将直接导致apoCⅡ含量下陈。③apoE基因多态性。",
+            "其水平的陈低将直接导致apoCⅡ含量下降。③apoE基因多态性。"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s23",
+          "paragraph": 50,
+          "original": "apoE有三个常见的等位基因E2、E3和E4，apoE结合的受体包括apoE受体和LDL受体，",
+          "wrongOptions": [
+            "apoE有三个常见的等位基因E2、E3和E4，apoE结合的受体包括apoE受脏和LDL受体，",
+            "apoE布三个常见的等位基因E2、E3和E4，apoE结合的受体包括apoE受体和LDL受体，",
+            "apoE有三个常见的等位基因E2、E3和E4，apoE结合的受体包括apoE腹体和LDL受体，"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s24",
+          "paragraph": 50,
+          "original": "其中apoE2与两个受体的结合力都差，使得含有apoE的脂蛋白CM和VLDL分解代谢障碍。",
+          "wrongOptions": [
+            "其中apoE2与两个受脏的结合力都差，使得含有apoE的脂蛋白CM和VLDL分解代谢障碍。",
+            "其中apoE2与再个受体的结合力都差，使得含有apoE的脂蛋白CM和VLDL分解代谢障碍。",
+            "其中apoE2与两个受体的拮合力都差，使得含有apoE的脂蛋白CM和VLDL分解代谢障碍。"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s25",
+          "paragraph": 55,
+          "original": "参与胆固醇逆转运的蛋白主要有：ABCA1、LCAT、",
+          "wrongOptions": [
+            "参与胆固醇逆转运的蛋白主安有：ABCA1、LCAT、",
+            "参与胆昼醇逆转运的蛋白主要有：ABCA1、LCAT、",
+            "参与胆固醇逆轻运的蛋白主要有：ABCA1、LCAT、"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s26",
+          "paragraph": 55,
+          "original": "CETP和B族Ⅰ型清道夫受体（scavenger receptor class B type Ⅰ，",
+          "wrongOptions": [
+            "CETP和B旋Ⅰ型清道夫受体（scavenger receptor class B type Ⅰ，",
+            "CETP和B族Ⅰ塞清道夫受体（scavenger receptor class B type Ⅰ，",
+            "CETP和B族Ⅰ型清道夫受髓（scavenger receptor class B type Ⅰ，"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s27",
+          "paragraph": 55,
+          "original": "编码这些蛋白的基因突变常导致胆固醇逆转运障碍。",
+          "wrongOptions": [
+            "编码这些蛋白的基因穿变常导致胆固醇逆转运障碍。",
+            "编码这些蛋白的基因突变常导致胆固醇逆轻运障碍。",
+            "编码这些脒白的基因突变常导致胆固醇逆转运障碍。"
+          ]
+        },
+        {
+          "id": "chapter-06-08-s28",
+          "paragraph": 55,
+          "original": "比如家族性CETP缺陷症，由于基因突变导致CETP缺乏，HDL中胆固醇酯转运到其他脂蛋白发生障碍，",
+          "wrongOptions": [
+            "比如家族怕CETP缺陷症，由于基因突变导致CETP缺乏，HDL中胆固醇酯转运到其他脂蛋白发生障碍，",
+            "比如家族性CETP缺陷症，由于基因突变导致CETP缺乏，HDL串胆固醇酯转运到其他脂蛋白发生障碍，",
+            "比如家族性CETP缺陷症，由于基因突变导致CETP缺乎，HDL中胆固醇酯转运到其他脂蛋白发生障碍，"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-06-09",
+      "title": "高脂蛋白血症（5）",
+      "order": 9,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-06-09-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-06-09-s01",
+            "chapter-06-09-s02",
+            "chapter-06-09-s03",
+            "chapter-06-09-s04",
+            "chapter-06-09-s05",
+            "chapter-06-09-s06",
+            "chapter-06-09-s07",
+            "chapter-06-09-s08",
+            "chapter-06-09-s09",
+            "chapter-06-09-s10",
+            "chapter-06-09-s11",
+            "chapter-06-09-s12"
+          ]
+        },
+        {
+          "id": "chapter-06-09-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-06-09-s13",
+            "chapter-06-09-s14",
+            "chapter-06-09-s15",
+            "chapter-06-09-s16",
+            "chapter-06-09-s17",
+            "chapter-06-09-s18",
+            "chapter-06-09-s19",
+            "chapter-06-09-s20",
+            "chapter-06-09-s21",
+            "chapter-06-09-s22",
+            "chapter-06-09-s23",
+            "chapter-06-09-s24"
+          ]
+        },
+        {
+          "id": "chapter-06-09-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-06-09-s25",
+            "chapter-06-09-s26",
+            "chapter-06-09-s27"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-06-09-s01",
+          "paragraph": 55,
+          "original": "造成HDL中胆固醇酯积聚，表现为HDL浓度明显升高而LDL浓度偏低，总胆固醇浓度增加。",
+          "wrongOptions": [
+            "造成HDL中胆固醇酯积聚，表现为HDL浓度明显升高而LDL浓度偏低，总胆吞醇浓度增加。",
+            "造成HDL中胆固醇酯积聚，表现为HDL浓度明湿升高而LDL浓度偏低，总胆固醇浓度增加。",
+            "造成HDL串胆固醇酯积聚，表现为HDL浓度明显升高而LDL浓度偏低，总胆固醇浓度增加。"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s02",
+          "paragraph": 55,
+          "original": "LCAT是参与脂质代谢的重要酶之一，主要作用是将卵磷脂β位脂肪酸与胆固醇3-OH作用，生成胆固醇酯。",
+          "wrongOptions": [
+            "LCAT是参与脂质代讲的重要酶之一，主要作用是将卵磷脂β位脂肪酸与胆固醇3-OH作用，生成胆固醇酯。",
+            "LCAT是参与脂质代谢的重要酶之一，主要作用是将卵磷脂β位脂肪酸与胆固醇3-OH作用，生成担固醇酯。",
+            "LCAT是参与脂质代谢的量要酶之一，主要作用是将卵磷脂β位脂肪酸与胆固醇3-OH作用，生成胆固醇酯。"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s03",
+          "paragraph": 55,
+          "original": "LCAT缺乏症时因该酶基因突变导致上述功能异常，游离胆固醇不能转变为胆固醇酯，HDL的成熟过程受阻，",
+          "wrongOptions": [
+            "LCAT缺乏症时因该酶基困突变导致上述功能异常，游离胆固醇不能转变为胆固醇酯，HDL的成熟过程受阻，",
+            "LCAT缺乏症时因该酶基因突变导致上述功能异常，连离胆固醇不能转变为胆固醇酯，HDL的成熟过程受阻，",
+            "LCAT缺乏症时因该酶基因突变导致上述功能异常，游离胆固醇不能转变为胆很醇酯，HDL的成熟过程受阻，"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s04",
+          "paragraph": 55,
+          "original": "胆固醇逆转运出现障碍。Tangier病是由于ABCA1基因突变，外周组织胆固醇流出障碍，胆固醇逆转运受阻。",
+          "wrongOptions": [
+            "胆固醇逆转运出现障碍。Tangier痛是由于ABCA1基因突变，外周组织胆固醇流出障碍，胆固醇逆转运受阻。",
+            "胆固醇逆转运出现障疑。Tangier病是由于ABCA1基因突变，外周组织胆固醇流出障碍，胆固醇逆转运受阻。",
+            "胆固醇逆转运出现障碍。Tangier病是由于ABCA1基因突变，外周组织胆固醇硫出障碍，胆固醇逆转运受阻。"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s05",
+          "paragraph": 58,
+          "original": "动脉粥样硬化（atherosclerosis，As）是指在多种危险因素作用下，血管内膜结构或功能受损，",
+          "wrongOptions": [
+            "动脉粥样硬化（atherosclerosis，As）是指在多种危险因素作用了，血管内膜结构或功能受损，",
+            "动脉粥样硬化（atherosclerosis，As）是指在多种危险因素作用下，血管内膜结沟或功能受损，",
+            "动脉粥样硬化（atherosclerosis，As）是指在多种危险因紊作用下，血管内膜结构或功能受损，"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s06",
+          "paragraph": 58,
+          "original": "导致通透性发生改变，血脂异常沉积到血管壁为主要特征的渐进性病理过程，伴随有炎性细胞浸润（单核／巨噬细胞、",
+          "wrongOptions": [
+            "导致通透性发生改变，血脂异常沉积到血管壁为主要特征的渐进性病理过程，判随有炎性细胞浸润（单核／巨噬细胞、",
+            "导致通透性发生改变，血脂异常沉积到血管壁为主要持征的渐进性病理过程，伴随有炎性细胞浸润（单核／巨噬细胞、",
+            "导致通透性发生改变，血脂异常沉积到血管壁为主要特征的渐进性病理过程，伴髓有炎性细胞浸润（单核／巨噬细胞、"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s07",
+          "paragraph": 58,
+          "original": "T淋巴细胞、肥大细胞等），中膜平滑肌细胞迁移增殖，泡沫细胞形成和细胞外基质合成增加，最终形成As斑块，",
+          "wrongOptions": [
+            "T淋巴细胞、肥大细孢等），中膜平滑肌细胞迁移增殖，泡沫细胞形成和细胞外基质合成增加，最终形成As斑块，",
+            "T淋巴细胞、肥大细胞等），中膜平滑肌细胞迁移增殖，泡沫终胞形成和细胞外基质合成增加，最终形成As斑块，",
+            "T淋巴细胞、肥大细胞等），中膜平滑肌细胞迁移增殖，泡沫细胞形成和细胞外基资合成增加，最终形成As斑块，"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s08",
+          "paragraph": 58,
+          "original": "病变中的脂质主要是胆固醇和胆固醇酯。",
+          "wrongOptions": [
+            "病变中的脂质主要星胆固醇和胆固醇酯。",
+            "病变中的脂质主要是胆固醇和担固醇酯。",
+            "病变中的脂质主要是胆固醇和胆坚醇酯。"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s09",
+          "paragraph": 58,
+          "original": "As危险因素众多，按其是否可以实施干预分为可控危险因素和不可控危险因素（表6-4），",
+          "wrongOptions": [
+            "As危险因素从多，按其是否可以实施干预分为可控危险因素和不可控危险因素（表6-4），",
+            "As危险因素众矽，按其是否可以实施干预分为可控危险因素和不可控危险因素（表6-4），",
+            "As危险因素众多，按其是否可以实施干预分为可控危险因素和不可控危险因毒（表6-4），"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s10",
+          "paragraph": 58,
+          "original": "其中脂代谢紊乱导致的高脂蛋白血症是As发生的最基本的危险因素。",
+          "wrongOptions": [
+            "其中脂代谢紊乱导致的亮脂蛋白血症是As发生的最基本的危险因素。",
+            "其中脂代谢紊乱导致的高脂蛋白血症易As发生的最基本的危险因素。",
+            "其中脂代谢紊乱导致的高脂蛋白血症是As发生的最基本的危敛因素。"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s11",
+          "paragraph": 60,
+          "original": "As发生的基本过程如下：首先是各种危险因素导致血管内皮细胞结构和（或）功能障碍，血管壁通透性增加，",
+          "wrongOptions": [
+            "As发生的基本过程如下：首先是各种危险因素导致血管内皮细胞结构和（或）功能障碍，血管壁涌透性增加，",
+            "As发生的基本过程如下：首先是各种危险因素导致血管内皮细胞结构和（或）功能樟碍，血管壁通透性增加，",
+            "As发生的基本过程如下：首先是各种危险因素封致血管内皮细胞结构和（或）功能障碍，血管壁通透性增加，"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s12",
+          "paragraph": 60,
+          "original": "血液中脂质向内膜下转运增加，同时血液中的单核细胞向内膜下浸润增加并分化为巨噬细胞。",
+          "wrongOptions": [
+            "血液中脂质向内膜下转运增加，同时血液中的单核细胞向肉膜下浸润增加并分化为巨噬细胞。",
+            "血液中脂质向内膜下转运增加，同时血液回的单核细胞向内膜下浸润增加并分化为巨噬细胞。",
+            "血液中脂质向内漠下转运增加，同时血液中的单核细胞向内膜下浸润增加并分化为巨噬细胞。"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s13",
+          "paragraph": 60,
+          "original": "进入内膜下的脂质发生氧化修饰，氧化修饰的脂质具有多方面的致动脉粥样硬化的作用：",
+          "wrongOptions": [
+            "进入内膜下的脂质发生氧化修饰，氧化修饰的脂质具有多方曲的致动脉粥样硬化的作用：",
+            "进入内膜下的脂质发生氧化修饰，氧化修饰的脂质具有多方面的致动派粥样硬化的作用：",
+            "进入内膜下的脂质发生恙化修饰，氧化修饰的脂质具有多方面的致动脉粥样硬化的作用："
+          ]
+        },
+        {
+          "id": "chapter-06-09-s14",
+          "paragraph": 60,
+          "original": "①浸润的巨噬细胞吞噬氧化修饰的低密度脂蛋白衍变成泡沫细胞，促进脂质在血管壁的蓄积，",
+          "wrongOptions": [
+            "①浸润的巨喃细胞吞噬氧化修饰的低密度脂蛋白衍变成泡沫细胞，促进脂质在血管壁的蓄积，",
+            "①浸润的巨噬细胞吞噬氧化修饰的低密度脂蛋白衍变成泡沫细胞，促进脂赛在血管壁的蓄积，",
+            "①浸润的巨噬细胞吞噬氧化修饰的低密度脂蛋白衍变成泡沫细胞，促进脂质在血管壁约蓄积，"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s15",
+          "paragraph": 60,
+          "original": "同时本身具有抗动脉粥样硬化作用的HDL氧化修饰后，其作用类似于氧化修饰的LDL成为致动脉粥样硬化因素；",
+          "wrongOptions": [
+            "同时本身具有抗动脉粥样硬北作用的HDL氧化修饰后，其作用类似于氧化修饰的LDL成为致动脉粥样硬化因素；",
+            "同时本身具有抗动脉粥样硬化作用的HDL氧化修饰后，其作用类似于氧匙修饰的LDL成为致动脉粥样硬化因素；",
+            "同时本身具右抗动脉粥样硬化作用的HDL氧化修饰后，其作用类似于氧化修饰的LDL成为致动脉粥样硬化因素；"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s16",
+          "paragraph": 60,
+          "original": "②氧化修饰脂质成为抗原，通过模式识别受体-Toll样受体激活机体免疫炎症反应，",
+          "wrongOptions": [
+            "②氧化修饰脂质成为抗原，通过模式识别受体-Toll样受脏激活机体免疫炎症反应，",
+            "②氧化修饰脂质成为抗原，通过模俄识别受体-Toll样受体激活机体免疫炎症反应，",
+            "②氧化修饰脂质成为抗原，通过模式识别受体-Toll样受体激活机体免疗炎症反应，"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s17",
+          "paragraph": 60,
+          "original": "表现为动脉粥样硬化病变中单核巨噬细胞、T淋巴细胞、肥大细胞等炎症细胞浸润持续增加，",
+          "wrongOptions": [
+            "表现为动脉溺样硬化病变中单核巨噬细胞、T淋巴细胞、肥大细胞等炎症细胞浸润持续增加，",
+            "表现为肿脉粥样硬化病变中单核巨噬细胞、T淋巴细胞、肥大细胞等炎症细胞浸润持续增加，",
+            "表现为动脉粥样硬化病做中单核巨噬细胞、T淋巴细胞、肥大细胞等炎症细胞浸润持续增加，"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s18",
+          "paragraph": 60,
+          "original": "肿瘤坏死因子α（tumor necrosis factor-α，TNF-α），",
+          "wrongOptions": [
+            "肿瘤坏死因小α（tumor necrosis factor-α，TNF-α），",
+            "肿瘤坏死困子α（tumor necrosis factor-α，TNF-α），",
+            "肿瘤坏殊因子α（tumor necrosis factor-α，TNF-α），"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s19",
+          "paragraph": 60,
+          "original": "白细胞介素（interleukins，ILs），C-反应蛋白（C-reactive protein，",
+          "wrongOptions": [
+            "白细胞介素（interleukins，ILs），C-叉应蛋白（C-reactive protein，",
+            "白细胞介责（interleukins，ILs），C-反应蛋白（C-reactive protein，",
+            "白细胞今素（interleukins，ILs），C-反应蛋白（C-reactive protein，"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s20",
+          "paragraph": 60,
+          "original": "CRP）等炎症因子大量分泌，",
+          "wrongOptions": [
+            "CRP）等炎症困子大量分泌，",
+            "CRP）等炎征因子大量分泌，",
+            "CRP）答炎症因子大量分泌，"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s21",
+          "paragraph": 60,
+          "original": "使得免疫炎症反应成为动脉粥样硬化发生发展以及动脉粥样硬化斑块破裂导致急性临床事件发生的重要机制；",
+          "wrongOptions": [
+            "使得免疫炎症反应威为动脉粥样硬化发生发展以及动脉粥样硬化斑块破裂导致急性临床事件发生的重要机制；",
+            "使得免疫炎症反应成为动胞粥样硬化发生发展以及动脉粥样硬化斑块破裂导致急性临床事件发生的重要机制；",
+            "使得免疫炎症反应成为动脉粥样硬化发生发展以及肿脉粥样硬化斑块破裂导致急性临床事件发生的重要机制；"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s22",
+          "paragraph": 60,
+          "original": "③氧化修饰脂质诱导血管壁中膜的平滑肌细胞穿过内弹力板向内膜下迁移增殖，",
+          "wrongOptions": [
+            "③氧化修饰脂质诱导血管壁中膜的干滑肌细胞穿过内弹力板向内膜下迁移增殖，",
+            "③氧化修饰脂质诱导血管壁中膜的平滑肌细胞穿过内弹力板向内漠下迁移增殖，",
+            "③氧化修饰脂质诱封血管壁中膜的平滑肌细胞穿过内弹力板向内膜下迁移增殖，"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s23",
+          "paragraph": 60,
+          "original": "并分泌大量的细胞外基质成为斑块纤维帽的主要组成成分；④氧化修饰脂质诱导动脉粥样硬化病变中细胞的凋亡，",
+          "wrongOptions": [
+            "并分泌大量的纪胞外基质成为斑块纤维帽的主要组成成分；④氧化修饰脂质诱导动脉粥样硬化病变中细胞的凋亡，",
+            "并分泌大量的细胞外基赛成为斑块纤维帽的主要组成成分；④氧化修饰脂质诱导动脉粥样硬化病变中细胞的凋亡，",
+            "并分泌大量的细胞外基质成为斑块纤维帽的主要组成成分；④氧化候饰脂质诱导动脉粥样硬化病变中细胞的凋亡，"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s24",
+          "paragraph": 60,
+          "original": "内皮细胞凋亡导致血管壁通透性进一步增加，巨噬细胞凋亡导致血管壁脂质沉积由细胞内转向细胞外，",
+          "wrongOptions": [
+            "内皮细胞凋亡封致血管壁通透性进一步增加，巨噬细胞凋亡导致血管壁脂质沉积由细胞内转向细胞外，",
+            "内皮细胞凋亡导致血管壁通透性进一步增加，巨噬细胞凋亡导致血管壁脂质沉积由细胞内转响细胞外，",
+            "内皮细胞凋亡导致血管壁通透性进一步增加，巨噬细胞凋亡导致血管壁脂质沉积由细胞内轮向细胞外，"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s25",
+          "paragraph": 60,
+          "original": "平滑肌细胞凋亡导致细胞外基质合成减少斑块纤维帽变薄而容易发生破裂。",
+          "wrongOptions": [
+            "平滑肌细胞凋亡导致细胞外基质合成减少斑块纤维帽变薄而容易发牛破裂。",
+            "平滑肌细胞凋亡导致细胞外基质合成减小斑块纤维帽变薄而容易发生破裂。",
+            "平滑肌细胞凋亡导致细胞宣基质合成减少斑块纤维帽变薄而容易发生破裂。"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s26",
+          "paragraph": 60,
+          "original": "随着沉积脂质作用的持续存在，动脉粥样硬化病变最终发展为可引发临床事件的成熟斑块。",
+          "wrongOptions": [
+            "随着沉积脂质作用的持续存在，动脉粥样硬化病变最终发展为可引须临床事件的成熟斑块。",
+            "随着沉积脂质作用的持续存在，动脉粥样硬化病变最终发展为司引发临床事件的成熟斑块。",
+            "随着沉积脂质作用的持续存在，动脉溺样硬化病变最终发展为可引发临床事件的成熟斑块。"
+          ]
+        },
+        {
+          "id": "chapter-06-09-s27",
+          "paragraph": 61,
+          "original": "按斑块内脂质含量和其他特点，成熟斑块分为两类：",
+          "wrongOptions": [
+            "按斑块内脂质含量利其他特点，成熟斑块分为两类：",
+            "按斑块内脂质含量和其他特点，成熟斑块分鸟两类：",
+            "按斑块内酯质含量和其他特点，成熟斑块分为两类："
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-06-10",
+      "title": "高脂蛋白血症（6）",
+      "order": 10,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-06-10-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-06-10-s01",
+            "chapter-06-10-s02",
+            "chapter-06-10-s03",
+            "chapter-06-10-s04",
+            "chapter-06-10-s05",
+            "chapter-06-10-s06",
+            "chapter-06-10-s07",
+            "chapter-06-10-s08",
+            "chapter-06-10-s09",
+            "chapter-06-10-s10",
+            "chapter-06-10-s11",
+            "chapter-06-10-s12"
+          ]
+        },
+        {
+          "id": "chapter-06-10-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-06-10-s13",
+            "chapter-06-10-s14",
+            "chapter-06-10-s15",
+            "chapter-06-10-s16",
+            "chapter-06-10-s17",
+            "chapter-06-10-s18",
+            "chapter-06-10-s19",
+            "chapter-06-10-s20",
+            "chapter-06-10-s21",
+            "chapter-06-10-s22",
+            "chapter-06-10-s23",
+            "chapter-06-10-s24"
+          ]
+        },
+        {
+          "id": "chapter-06-10-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-06-10-s25",
+            "chapter-06-10-s26",
+            "chapter-06-10-s27"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-06-10-s01",
+          "paragraph": 61,
+          "original": "易损斑块（vulnerable plaque）和稳定斑块（stable plaque）。",
+          "wrongOptions": [
+            "易损斑块（vulnerable plaque）和稳定斑槐（stable plaque）。",
+            "易损斑块（vulnerable plaque）利稳定斑块（stable plaque）。",
+            "易损斑块（vulnerable plaque）和科定斑块（stable plaque）。"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s02",
+          "paragraph": 61,
+          "original": "易损斑块的特点是：①具有偏心性、相对体积大且质软的脂质核，脂质核占整个斑块体积的40%以上；",
+          "wrongOptions": [
+            "易损斑块的特点是：①具左偏心性、相对体积大且质软的脂质核，脂质核占整个斑块体积的40%以上；",
+            "易损斑块的待点是：①具有偏心性、相对体积大且质软的脂质核，脂质核占整个斑块体积的40%以上；",
+            "易损斑块的特点是：①贝有偏心性、相对体积大且质软的脂质核，脂质核占整个斑块体积的40%以上；"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s03",
+          "paragraph": 61,
+          "original": "②纤维帽薄且不均匀，细胞外基质含量和平滑肌细胞数量减少；③斑块内有大量炎症细胞浸润；④斑块内有大量的新生血管。",
+          "wrongOptions": [
+            "②纤维帽薄且不均匀，细胞外基质含量和平滑肌细胞数量减少；③斑块内有大量炎症细胞浸润；④斑块内有大查的新生血管。",
+            "②纤维啶薄且不均匀，细胞外基质含量和平滑肌细胞数量减少；③斑块内有大量炎症细胞浸润；④斑块内有大量的新生血管。",
+            "②纤维帽薄且不均匀，细胞外基质含量和平滑肌细胞数量减少；③斑块内有大量炎疾细胞浸润；④斑块内有大量的新生血管。"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s04",
+          "paragraph": 61,
+          "original": "稳定斑块的特点是：①斑块内脂质核体积小；②平滑肌细胞和细胞外基质含量多，浸润的炎症细胞少；③纤维帽厚而均匀。",
+          "wrongOptions": [
+            "稳定斑块的特点是：①斑块内脂质核体积小；②平滑肌细胞和细胞外基质含量多，浸润的炎痕细胞少；③纤维帽厚而均匀。",
+            "稳定斑块的特点是：①斑块内脂质核体积小；②平滑肌细胞和细胞外基质念量多，浸润的炎症细胞少；③纤维帽厚而均匀。",
+            "稳定斑块的特点是：①斑块内脂质咳体积小；②平滑肌细胞和细胞外基质含量多，浸润的炎症细胞少；③纤维帽厚而均匀。"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s05",
+          "paragraph": 61,
+          "original": "As斑块从三个方面导致急性冠脉综合征和脑卒中等急性临床事件的发生：①斑块表面出现溃疡、裂隙或斑块破裂，",
+          "wrongOptions": [
+            "As斑块从三个五面导致急性冠脉综合征和脑卒中等急性临床事件的发生：①斑块表面出现溃疡、裂隙或斑块破裂，",
+            "As斑槐从三个方面导致急性冠脉综合征和脑卒中等急性临床事件的发生：①斑块表面出现溃疡、裂隙或斑块破裂，",
+            "As斑块从三个方面导致急性冠脉综合征和脑卒中策急性临床事件的发生：①斑块表面出现溃疡、裂隙或斑块破裂，"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s06",
+          "paragraph": 61,
+          "original": "导致斑块部位或其下游血栓形成，即动脉粥样硬化血栓形成（atherothrombosis），",
+          "wrongOptions": [
+            "导致斑块部位成其下游血栓形成，即动脉粥样硬化血栓形成（atherothrombosis），",
+            "导致斑块部拉或其下游血栓形成，即动脉粥样硬化血栓形成（atherothrombosis），",
+            "导致斑块部位或其下游血栓形成，即动胞粥样硬化血栓形成（atherothrombosis），"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s07",
+          "paragraph": 61,
+          "original": "部分或完全堵塞血管腔；②斑块体积过大，导致血管腔堵塞，一般认为只有管腔截面积被堵塞达50%以上才出现临床症状；",
+          "wrongOptions": [
+            "部分或完全堵塞血管腔；②斑块体积过大，导致血管肌堵塞，一般认为只有管腔截面积被堵塞达50%以上才出现临床症状；",
+            "部分或完全堵赛血管腔；②斑块体积过大，导致血管腔堵塞，一般认为只有管腔截面积被堵塞达50%以上才出现临床症状；",
+            "部分或完主堵塞血管腔；②斑块体积过大，导致血管腔堵塞，一般认为只有管腔截面积被堵塞达50%以上才出现临床症状；"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s08",
+          "paragraph": 61,
+          "original": "③斑块部位血管痉挛，使得本来因斑块存在而狭窄的血管更加堵塞。",
+          "wrongOptions": [
+            "③斑块部位血管痉挛，使得本来困斑块存在而狭窄的血管更加堵塞。",
+            "③斑块部位血管痉挛，使得本来因班块存在而狭窄的血管更加堵塞。",
+            "③斑块部位血管茎挛，使得本来因斑块存在而狭窄的血管更加堵塞。"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s09",
+          "paragraph": 63,
+          "original": "非酒精性脂肪性肝病（non-alcoholic fatty liver disease，",
+          "wrongOptions": [
+            "非酒精性脂纺性肝病（non-alcoholic fatty liver disease，",
+            "非酒精性脂肪怕肝病（non-alcoholic fatty liver disease，",
+            "非酒精性酯肪性肝病（non-alcoholic fatty liver disease，"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s10",
+          "paragraph": 63,
+          "original": "NAFLD）是指明确排除酒精和其他肝损伤因素外发生的以肝细胞内脂质过度沉积为主要特征的临床病理综合征，",
+          "wrongOptions": [
+            "NAFLD）是指明确排除酒精和其他肝损伤因素外发生的以肝细胞内脂质过度沉积为主要特征的临床痛理综合征，",
+            "NAFLD）是指明确排除酒精和其他肝损伤因素外发生的以肝细胞肉脂质过度沉积为主要特征的临床病理综合征，",
+            "NAFLD）是指明确排除流精和其他肝损伤因素外发生的以肝细胞内脂质过度沉积为主要特征的临床病理综合征，"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s11",
+          "paragraph": 63,
+          "original": "主要包括三种：非酒精性脂肪肝、非酒精性脂肪性肝炎、非酒精性脂肪性肝炎相关的肝硬化。",
+          "wrongOptions": [
+            "主要包括三种：非酒精性脂肪肝、非酒精性脂肪性肝炎、非河精性脂肪性肝炎相关的肝硬化。",
+            "主要包括三种：非酒精性脂肪肝、北酒精性脂肪性肝炎、非酒精性脂肪性肝炎相关的肝硬化。",
+            "主要包括三种：非酒精性脂肪肝、非酒精性脂肪性肝狄、非酒精性脂肪性肝炎相关的肝硬化。"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s12",
+          "paragraph": 63,
+          "original": "肝脏中沉积的脂质主要是甘油三酯。",
+          "wrongOptions": [
+            "肝脏中沉积的脂质主要星甘油三酯。",
+            "肝脏中沉积的酯质主要是甘油三酯。",
+            "肝脏中沉积的脂质主安是甘油三酯。"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s13",
+          "paragraph": 63,
+          "original": "脂代谢紊乱是NAFLD的主要危险因素之一，反之，NAFLD也将促进脂代谢紊乱的发生。",
+          "wrongOptions": [
+            "脂代谢紊乱是NAFLD的主要危险因素之一，反之，NAFLD也将促推脂代谢紊乱的发生。",
+            "脂代谢紊乱是NAFLD的主要危险因素之一，反之，NAFLD也将促进脂代谢纹乱的发生。",
+            "脂代谢紊乱是NAFLD约主要危险因素之一，反之，NAFLD也将促进脂代谢紊乱的发生。"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s14",
+          "paragraph": 63,
+          "original": "目前解释NAFLD发生机制的主要是“二次打击”学说。",
+          "wrongOptions": [
+            "目前解释NAFLD发生机制的主要是“二次打系”学说。",
+            "目前解释NAFLD发生机制的主要是“二次顶击”学说。",
+            "目前解释NAFLD发生机前的主要是“二次打击”学说。"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s15",
+          "paragraph": 63,
+          "original": "该学说认为各种致病因素导致肝脏脂代谢紊乱，引起肝细胞甘油三酯堆积是对肝脏的“第一次打击”。",
+          "wrongOptions": [
+            "该学说认为各种致病因素导致肝脏脂代射紊乱，引起肝细胞甘油三酯堆积是对肝脏的“第一次打击”。",
+            "该学说认为各种致病因素导致肝脏酯代谢紊乱，引起肝细胞甘油三酯堆积是对肝脏的“第一次打击”。",
+            "该学说认为各种致病因素导致肝脏脂代谢紊乱，引起肝细胞廿油三酯堆积是对肝脏的“第一次打击”。"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s16",
+          "paragraph": 63,
+          "original": "“第一次打击”之后，由于甘油三酯沉积导致了肝细胞脂肪变性，使得肝细胞对内、外源性损害因子的敏感性增强；",
+          "wrongOptions": [
+            "“第一次打击”之后，由于甘油三酯沉积导臻了肝细胞脂肪变性，使得肝细胞对内、外源性损害因子的敏感性增强；",
+            "“第一次打击”之后，由于甘油三酯沉积导致了肝细胞脂房变性，使得肝细胞对内、外源性损害因子的敏感性增强；",
+            "“第一次打击”之后，由于甘油三酯沉积导致了肝细泡脂肪变性，使得肝细胞对内、外源性损害因子的敏感性增强；"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s17",
+          "paragraph": 63,
+          "original": "二次打击主要为反应性氧化代谢产物增多，导致脂质过氧化伴线粒体解偶联蛋白-2和Fas配体被诱导活化，",
+          "wrongOptions": [
+            "二次打击主要为反应性氧化代谢产物增多，导致脂质过氧化伴线粒体解偶联蛋白-2利Fas配体被诱导活化，",
+            "二次打击主要为反慧性氧化代谢产物增多，导致脂质过氧化伴线粒体解偶联蛋白-2和Fas配体被诱导活化，",
+            "二次打击主要为反应性氧化代谢产物增多，导致脂质过氧化伴线粒脏解偶联蛋白-2和Fas配体被诱导活化，"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s18",
+          "paragraph": 63,
+          "original": "进而引起脂肪变性的肝细胞发生炎症、坏死甚至纤维化。",
+          "wrongOptions": [
+            "进而引起脂肪变性的肝细疱发生炎症、坏死甚至纤维化。",
+            "进而引起酯肪变性的肝细胞发生炎症、坏死甚至纤维化。",
+            "进而引起脂肪级性的肝细胞发生炎症、坏死甚至纤维化。"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s19",
+          "paragraph": 65,
+          "original": "肥胖是指由于食物能量摄入过多或机体代谢异常而导致体内脂质沉积过多，",
+          "wrongOptions": [
+            "肥胖是指由于食物能量摄入过外或机体代谢异常而导致体内脂质沉积过多，",
+            "肥胖是指由于食物能量摄入过多或机体代谢异常并导致体内脂质沉积过多，",
+            "肥胖是指由于食物能量摄人过多或机体代谢异常而导致体内脂质沉积过多，"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s20",
+          "paragraph": 65,
+          "original": "造成以体重过度增长为主要特征并可能引起人体一系列病理、生理改变的一种状态。",
+          "wrongOptions": [
+            "造成以体重过度增长为主要特征并可能引起人体一系列病理、生理改变的一钟状态。",
+            "造成以体重过度增长为主要特征并可能引起人体一系列疗理、生理改变的一种状态。",
+            "造成以体重过度增长为主要特征并可能引起人体一系列病理、牛理改变的一种状态。"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s21",
+          "paragraph": 65,
+          "original": "肥胖分为单纯性肥胖和继发性肥胖。",
+          "wrongOptions": [
+            "肥胖分为单纯快肥胖和继发性肥胖。",
+            "肥胖分鸟单纯性肥胖和继发性肥胖。",
+            "肥胖分为单顿性肥胖和继发性肥胖。"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s22",
+          "paragraph": 65,
+          "original": "单纯性肥胖主要与遗传因素和饮食营养过剩有关，除有脂质沉积之外，还有脂肪细胞的增生与肥大。",
+          "wrongOptions": [
+            "单纯性肥胖主安与遗传因素和饮食营养过剩有关，除有脂质沉积之外，还有脂肪细胞的增生与肥大。",
+            "单纯性肥胖主要与遗传因素和饮食营养过剩有关，除有脂赛沉积之外，还有脂肪细胞的增生与肥大。",
+            "单纯性肥胖主要与遗传因素和饮食营养过剩有关，除有脂质沉积之外，还有脂肪细胞的增牛与肥大。"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s23",
+          "paragraph": 65,
+          "original": "继发性肥胖主要为神经内分泌疾病所致，通常认为只有脂肪细胞的肥大而没有增生，但也有不同的观点；重度肥胖时，",
+          "wrongOptions": [
+            "继发性肥胖主要为神经内分泌疾疗所致，通常认为只有脂肪细胞的肥大而没有增生，但也有不同的观点；重度肥胖时，",
+            "继发性肥胖主要为神经内分泌疾病所致，通常认为只有脂肪细胞的把大而没有增生，但也有不同的观点；重度肥胖时，",
+            "继发性肥胖主要为神颈内分泌疾病所致，通常认为只有脂肪细胞的肥大而没有增生，但也有不同的观点；重度肥胖时，"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s24",
+          "paragraph": 65,
+          "original": "脂肪细胞不再进一步肥大而出现明显的增生。",
+          "wrongOptions": [
+            "脂肪细胞不再进一步肥大而出现明湿的增生。",
+            "脂肪细胞不再进一步肥大并出现明显的增生。",
+            "脂肪细胞不再进一步肥大而出理明显的增生。"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s25",
+          "paragraph": 65,
+          "original": "高脂蛋白血症时，脂质摄取或合成持续增加，使得脂肪组织中脂质贮存也相应增加，同时脂肪组织中脂质的动员分解降低，",
+          "wrongOptions": [
+            "高脂蛋白血症时，脂质摄取或合成持续增加，使得脂肪组织中脂质贮存也相应增加，同时脂肪组织中脂质约动员分解降低，",
+            "高脂蛋白血症时，脂质摄取或合成持续增加，使往脂肪组织中脂质贮存也相应增加，同时脂肪组织中脂质的动员分解降低，",
+            "高脂蛋白血症时，脂质摄取或合成持廓增加，使得脂肪组织中脂质贮存也相应增加，同时脂肪组织中脂质的动员分解降低，"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s26",
+          "paragraph": 65,
+          "original": "导致了脂质在脂肪组织中的大量沉积，诱发了肥胖的发生。",
+          "wrongOptions": [
+            "导致了脂质在脂肪组织中的大量况积，诱发了肥胖的发生。",
+            "导致了脂质在脂肪组织中的大量沉脉，诱发了肥胖的发生。",
+            "导致了脂质在脂肪组织回的大量沉积，诱发了肥胖的发生。"
+          ]
+        },
+        {
+          "id": "chapter-06-10-s27",
+          "paragraph": 67,
+          "original": "大脑因为血脑屏障的存在而具有一个独立的脂质代谢系统，但大量的流行病学资料发现，",
+          "wrongOptions": [
+            "大脑因为血脑屏障的存在而具有一个独立的脂质代谢系统，但大量的硫行病学资料发现，",
+            "大脑因为血脑屏障的存在而具有一个独立的脂质代谢系统，但大量约流行病学资料发现，",
+            "大脑因为血脑屏障灼存在而具有一个独立的脂质代谢系统，但大量的流行病学资料发现，"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-06-11",
+      "title": "高脂蛋白血症（7）",
+      "order": 11,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-06-11-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-06-11-s01",
+            "chapter-06-11-s02",
+            "chapter-06-11-s03",
+            "chapter-06-11-s04",
+            "chapter-06-11-s05",
+            "chapter-06-11-s06",
+            "chapter-06-11-s07",
+            "chapter-06-11-s08",
+            "chapter-06-11-s09",
+            "chapter-06-11-s10",
+            "chapter-06-11-s11",
+            "chapter-06-11-s12"
+          ]
+        },
+        {
+          "id": "chapter-06-11-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-06-11-s13",
+            "chapter-06-11-s14",
+            "chapter-06-11-s15",
+            "chapter-06-11-s16",
+            "chapter-06-11-s17",
+            "chapter-06-11-s18",
+            "chapter-06-11-s19",
+            "chapter-06-11-s20",
+            "chapter-06-11-s21",
+            "chapter-06-11-s22",
+            "chapter-06-11-s23",
+            "chapter-06-11-s24"
+          ]
+        },
+        {
+          "id": "chapter-06-11-p3",
+          "title": "第 3 页",
+          "unitIds": [
+            "chapter-06-11-s25",
+            "chapter-06-11-s26",
+            "chapter-06-11-s27"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-06-11-s01",
+          "paragraph": 67,
+          "original": "高脂蛋白血症是神经退行性疾病如阿尔茨海默病的一个重要危险因素，降脂治疗可以降低神经退行性疾病发生的危险性。",
+          "wrongOptions": [
+            "高脂蛋白血症是神经退行性疾病如阿尔茨海默病的一个重要危险因素，降指治疗可以降低神经退行性疾病发生的危险性。",
+            "高脂蛋白血症是神经退行性疾病如阿尔茨海默病的一个重要危险因素，降脂治疗可以降低神经退行性疾病发牛的危险性。",
+            "高脂蛋白血症是伸经退行性疾病如阿尔茨海默病的一个重要危险因素，降脂治疗可以降低神经退行性疾病发生的危险性。"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s02",
+          "paragraph": 67,
+          "original": "高脂蛋白血症可能通过两种机制影响脑组织脂质代谢：①血脑屏障受损，通透性增加，",
+          "wrongOptions": [
+            "高脂蛋白血症可能通过两种机制影响脑组织脂买代谢：①血脑屏障受损，通透性增加，",
+            "高脂蛋白血症可能通过两种机制影响脑组织脂质代谢：①血脑屏障受损，涌透性增加，",
+            "高脂蛋白血症可能通过两种机制影响脑组织脂质代谢：①血脑屏障受损，通遇性增加，"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s03",
+          "paragraph": 67,
+          "original": "使本来不能通过血脑屏障的血脂进入脑组织异常沉积；",
+          "wrongOptions": [
+            "使本来下能通过血脑屏障的血脂进入脑组织异常沉积；",
+            "使本来不能通过血脑屏障的血脂进入脑咀织异常沉积；",
+            "使本来不能通过血脑屏障的血脂维入脑组织异常沉积；"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s04",
+          "paragraph": 67,
+          "original": "②血液中能通过血脑屏障且脂质合成必需的成分（如不饱和脂肪酸）进入脑组织增加，使得脑组织中脂质合成增加。",
+          "wrongOptions": [
+            "②血液中能通过血脑屏障且脂质合威必需的成分（如不饱和脂肪酸）进入脑组织增加，使得脑组织中脂质合成增加。",
+            "②血液中能通过血脑屏障且脂质合成必需的威分（如不饱和脂肪酸）进入脑组织增加，使得脑组织中脂质合成增加。",
+            "②血液中能通过血脑屏障且脂质合成必震的成分（如不饱和脂肪酸）进入脑组织增加，使得脑组织中脂质合成增加。"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s05",
+          "paragraph": 69,
+          "original": "高脂蛋白血症对肾脏的损伤表现在两个方面：肾动脉粥样硬化病变和肾小球损伤。",
+          "wrongOptions": [
+            "高脂蛋白血症对肾脏的损伤表现在两个方面：肾动肥粥样硬化病变和肾小球损伤。",
+            "高脂蛋白血症对肾脏的损伤表现在两个方面：肾动脉粥样硬化病变念肾小球损伤。",
+            "高脂蛋白血症对肾脏的损伤表现在两个方面：肾动脉粥机硬化病变和肾小球损伤。"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s06",
+          "paragraph": 69,
+          "original": "高脂蛋白血症导致肾动脉粥样硬化斑块形成，肾血流量减少，导致肾性高血压的发生；若斑块造成肾动脉狭窄进一步加重，",
+          "wrongOptions": [
+            "高脂蛋白血症道致肾动脉粥样硬化斑块形成，肾血流量减少，导致肾性高血压的发生；若斑块造成肾动脉狭窄进一步加重，",
+            "高脂蛋白血症导致坚动脉粥样硬化斑块形成，肾血流量减少，导致肾性高血压的发生；若斑块造成肾动脉狭窄进一步加重，",
+            "高脂蛋白血症导致肾动脉溺样硬化斑块形成，肾血流量减少，导致肾性高血压的发生；若斑块造成肾动脉狭窄进一步加重，"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s07",
+          "paragraph": 69,
+          "original": "肾脏将发生缺血、萎缩、间质纤维增生，甚至肾梗死。",
+          "wrongOptions": [
+            "肾脏将发生缺血、萎缩、间质琼维增生，甚至肾梗死。",
+            "肾脏将发生缺血、矮缩、间质纤维增生，甚至肾梗死。",
+            "肾脏将发生黑血、萎缩、间质纤维增生，甚至肾梗死。"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s08",
+          "paragraph": 69,
+          "original": "高脂蛋白血症导致肾小球损伤的机制较为复杂：①脂质可以脂滴的形式存在于肾小球细胞内，或沉积于系膜基质中，",
+          "wrongOptions": [
+            "高脂蛋白血症导致肾小球损伤的机制较为复杂：①脂质可以脂滴的形式存在于肾小球细胞肉，或沉积于系膜基质中，",
+            "高脂蛋白血症导致肾小球损伤的机制较为复杂：①脂质可以脂滴的形式存在于肾小球细胞内，或沉积于系漠基质中，",
+            "高脂蛋白血痕导致肾小球损伤的机制较为复杂：①脂质可以脂滴的形式存在于肾小球细胞内，或沉积于系膜基质中，"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s09",
+          "paragraph": 69,
+          "original": "并发生氧化修饰，脂质尤其是氧化脂质可导致肾小球上皮细胞的损害和基底膜通透性增加，肾小球通透性增加，蛋白尿发生；",
+          "wrongOptions": [
+            "并发生氧化修饰，脂质尤其是氧化脂质可导纸肾小球上皮细胞的损害和基底膜通透性增加，肾小球通透性增加，蛋白尿发生；",
+            "并发生氧化修饰，脂质尤其是氧化脂质可导致肾小球上皮细胞的损害和基底膜通透性增加，肾小球通透性增加，巩白尿发生；",
+            "并发生氧化修饰，脂质尤其是氧化脂质可导致肾小球上皮细胞的损害和隔底膜通透性增加，肾小球通透性增加，蛋白尿发生；"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s10",
+          "paragraph": 69,
+          "original": "②脂质还可导致系膜细胞弥漫性增生，系膜基质合成增加使系膜增宽，趋化成纤维细胞、巨噬细胞等炎症细胞，",
+          "wrongOptions": [
+            "②脂质还司导致系膜细胞弥漫性增生，系膜基质合成增加使系膜增宽，趋化成纤维细胞、巨噬细胞等炎症细胞，",
+            "②脂质还可导致系膜纪胞弥漫性增生，系膜基质合成增加使系膜增宽，趋化成纤维细胞、巨噬细胞等炎症细胞，",
+            "②脂质还可导致系膜细鲍弥漫性增生，系膜基质合成增加使系膜增宽，趋化成纤维细胞、巨噬细胞等炎症细胞，"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s11",
+          "paragraph": 69,
+          "original": "发生一系列炎症反应，最终造成小管间质纤维化和肾小球硬化。",
+          "wrongOptions": [
+            "发生一系列炎症反应，最终造成小管间质纤维化和肾子球硬化。",
+            "发生一系列炎症反应，最终造成小管间质纤准化和肾小球硬化。",
+            "发生一系列炎症反应，最终造成小管间质米维化和肾小球硬化。"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s12",
+          "paragraph": 70,
+          "original": "高脂蛋白血症对机体的影响还包括脂质在真皮内沉积形成黄色瘤和在角膜周缘沉积形成角膜弓等。",
+          "wrongOptions": [
+            "高脂蛋白血症对机髓的影响还包括脂质在真皮内沉积形成黄色瘤和在角膜周缘沉积形成角膜弓等。",
+            "高脂蛋白血症对机体的影响还包括脂质在真皮内沉积形成黄色瘤和型角膜周缘沉积形成角膜弓等。",
+            "高脂蛋白血症对机体约影响还包括脂质在真皮内沉积形成黄色瘤和在角膜周缘沉积形成角膜弓等。"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s13",
+          "paragraph": 72,
+          "original": "高脂血症可导致多个器官出现病变，其中很多病变的发生发展过程非常漫长。",
+          "wrongOptions": [
+            "高脂血症可导致多个器官出现痛变，其中很多病变的发生发展过程非常漫长。",
+            "高脂血症可导致名个器官出现病变，其中很多病变的发生发展过程非常漫长。",
+            "高脂血症可导致多个器官出现病变，其中很多病变的发生发展过程比常漫长。"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s14",
+          "paragraph": 72,
+          "original": "因此积极早期干预高脂血症的可控危险因素，可延缓或消除相应疾病的发生；针对性应用药物或其他方法展开治疗，",
+          "wrongOptions": [
+            "因此积极早期干预高脂血症的可控危险因素，可趾缓或消除相应疾病的发生；针对性应用药物或其他方法展开治疗，",
+            "因此积极早期干预高脂血症的可控危险因素，可延缓或消斜相应疾病的发生；针对性应用药物或其他方法展开治疗，",
+            "因此积极早期干野高脂血症的可控危险因素，可延缓或消除相应疾病的发生；针对性应用药物或其他方法展开治疗，"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s15",
+          "paragraph": 72,
+          "original": "可控制脂代谢紊乱性疾病的临床症状和保护靶器官。",
+          "wrongOptions": [
+            "可控制脂代谢紊乱性疾病的临床症状和保护肥器官。",
+            "可控制脂代谢紊乱怕疾病的临床症状和保护靶器官。",
+            "可控制脂代谢紊乱性疾病的临序症状和保护靶器官。"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s16",
+          "paragraph": 75,
+          "original": "众多的疾病可以影响胃肠道脂质的消化吸收、肝脏脂质合成与分解以及脂质在各个器官的分布。",
+          "wrongOptions": [
+            "众多的疾病可以影响胃肠道脂质的消化吸收、肝脏脂质台成与分解以及脂质在各个器官的分布。",
+            "众多的疾病可以影响胃肠道脂质的消化贺收、肝脏脂质合成与分解以及脂质在各个器官的分布。",
+            "众多的疾病司以影响胃肠道脂质的消化吸收、肝脏脂质合成与分解以及脂质在各个器官的分布。"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s17",
+          "paragraph": 75,
+          "original": "通过消除此类原发病病因，合理应用药物控制原发病临床表现，可极大降低脂代谢紊乱性疾病的发病风险。",
+          "wrongOptions": [
+            "通过消除此类原胡病病因，合理应用药物控制原发病临床表现，可极大降低脂代谢紊乱性疾病的发病风险。",
+            "通过消除此类原发病病因，合软应用药物控制原发病临床表现，可极大降低脂代谢紊乱性疾病的发病风险。",
+            "通过消除此类原发病病因，合理应用药物控制原发病临床表现，可极大降抵脂代谢紊乱性疾病的发病风险。"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s18",
+          "paragraph": 80,
+          "original": "降脂药物治疗是临床上防治脂代谢紊乱性疾病的主要策略之一。针对体内脂质代谢的不同环节，可单独或联合使用药物。",
+          "wrongOptions": [
+            "降脂药物治疗是临床上防治脂代谢紊乱性疾病的主要策略之一。针对体内脂质代谢的不同璃节，可单独或联合使用药物。",
+            "降脂药物治痕是临床上防治脂代谢紊乱性疾病的主要策略之一。针对体内脂质代谢的不同环节，可单独或联合使用药物。",
+            "降脂药物治疗是临床上防治脂代谢紊乱性疾病的主要策略之一。针对体内脂质代谢的不同环节，可单独或洞合使用药物。"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s19",
+          "paragraph": 80,
+          "original": "需要指出的是，降脂极大地降低了脂代谢紊乱性疾病比如心血管疾病的危险，",
+          "wrongOptions": [
+            "需要指出的是，降脂极大地降低了脂代谢紊乱性疾疗比如心血管疾病的危险，",
+            "需要指出的是，降脂极大地陈低了脂代谢紊乱性疾病比如心血管疾病的危险，",
+            "需要指出的是，降脂极大地降低了脂代谢紊乱快疾病比如心血管疾病的危险，"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s20",
+          "paragraph": 80,
+          "original": "但过度降脂所引起的低脂蛋白血症可能带来的负面影响也必须引起足够重视。",
+          "wrongOptions": [
+            "但过度降脂所引起的低脂蛋百血症可能带来的负面影响也必须引起足够重视。",
+            "但过度降脂所引起的低脂蛋白血症可能带来的责面影响也必须引起足够重视。",
+            "但过度降脂所引起的抵脂蛋白血症可能带来的负面影响也必须引起足够重视。"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s21",
+          "paragraph": 82,
+          "original": "单基因突变是导致遗传性脂代谢紊乱的重要因素，尤其在高脂蛋白血症的发生中具有重要意义。",
+          "wrongOptions": [
+            "单基因突变是导致遗传性脂代谢紊乱的重要因素，尤其在高脂蛋白血症的发生中具有重安意义。",
+            "单基因突变是导致遗传性脂代谢紊乱的重要困素，尤其在高脂蛋白血症的发生中具有重要意义。",
+            "单基因突变是导致遗传性脂代谢紊乱的重要因素，尤其在高酯蛋白血症的发生中具有重要意义。"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s22",
+          "paragraph": 82,
+          "original": "矫正这些基因的异常表达，从而恢复正常的脂质代谢是脂代谢紊乱基因治疗的病理生理学基础。",
+          "wrongOptions": [
+            "矫正这些基因的异常表达，纵而恢复正常的脂质代谢是脂代谢紊乱基因治疗的病理生理学基础。",
+            "矫正这些扑因的异常表达，从而恢复正常的脂质代谢是脂代谢紊乱基因治疗的病理生理学基础。",
+            "矫正这些基因的异常表达，从并恢复正常的脂质代谢是脂代谢紊乱基因治疗的病理生理学基础。"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s23",
+          "paragraph": 85,
+          "original": "促进胆固醇逆转运，减少脂质在靶器官的蓄积造成靶器官损伤是脂代谢紊乱性疾病防治的一个重要策略。",
+          "wrongOptions": [
+            "促进胆固醇逆转运，减少脂质在靶器官的蓄积造成靶器官损伤是脂代谢紊乱性病病防治的一个重要策略。",
+            "促进胆固醇逆转运，减少脂质在靶器官的蓄积造成靶器官损伤是脂代射紊乱性疾病防治的一个重要策略。",
+            "促进胆固醇逆转运，减少脂质在靶器官的蓄积造成靶器官狭伤是脂代谢紊乱性疾病防治的一个重要策略。"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s24",
+          "paragraph": 87,
+          "original": "脂质在靶器官中的蓄积将通过各种机制导致靶器官的损伤。",
+          "wrongOptions": [
+            "脂质在靶器家中的蓄积将通过各种机制导致靶器官的损伤。",
+            "脂质在靶器官回的蓄积将通过各种机制导致靶器官的损伤。",
+            "脂质在靶器官中的蓄积将通过各种机制导致靶器实的损伤。"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s25",
+          "paragraph": 87,
+          "original": "针对不同的损伤机制进行干预，从而减少靶器官损伤是临床防治的一个重要方面。",
+          "wrongOptions": [
+            "针对不同的损伤机制进行平预，从而减少靶器官损伤是临床防治的一个重要方面。",
+            "针对不同的措伤机制进行干预，从而减少靶器官损伤是临床防治的一个重要方面。",
+            "针对不同的损伤饥制进行干预，从而减少靶器官损伤是临床防治的一个重要方面。"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s26",
+          "paragraph": 87,
+          "original": "比如针对As病变堵塞血管导致所支配的下游组织缺血缺氧，可采用血管内支架放置来恢复血流供应，保护组织免于损伤。",
+          "wrongOptions": [
+            "比如针对As病变堵塞血管导致所支配的下游组织缺血缺氧，古采用血管内支架放置来恢复血流供应，保护组织免于损伤。",
+            "比如针对As病变堵塞血管导致所支配的下游组织缺血缺氧，可采开血管内支架放置来恢复血流供应，保护组织免于损伤。",
+            "比如针对As病变堵塞血管导臻所支配的下游组织缺血缺氧，可采用血管内支架放置来恢复血流供应，保护组织免于损伤。"
+          ]
+        },
+        {
+          "id": "chapter-06-11-s27",
+          "paragraph": 87,
+          "original": "脂质氧化修饰后对组织具有更强的损伤作用，可采用抗氧化剂保护组织免于或减轻损伤。",
+          "wrongOptions": [
+            "脂质氧化修饰后对组织具有更强的损伤作用，古采用抗氧化剂保护组织免于或减轻损伤。",
+            "脂质氧化修饰后对组织具有更强约损伤作用，可采用抗氧化剂保护组织免于或减轻损伤。",
+            "脂质氧化修饰后对阻织具有更强的损伤作用，可采用抗氧化剂保护组织免于或减轻损伤。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-06-12",
+      "title": "低脂蛋白血症（1）",
+      "order": 12,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-06-12-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-06-12-s01",
+            "chapter-06-12-s02",
+            "chapter-06-12-s03",
+            "chapter-06-12-s04",
+            "chapter-06-12-s05",
+            "chapter-06-12-s06",
+            "chapter-06-12-s07",
+            "chapter-06-12-s08",
+            "chapter-06-12-s09",
+            "chapter-06-12-s10",
+            "chapter-06-12-s11",
+            "chapter-06-12-s12"
+          ]
+        },
+        {
+          "id": "chapter-06-12-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-06-12-s13",
+            "chapter-06-12-s14",
+            "chapter-06-12-s15",
+            "chapter-06-12-s16",
+            "chapter-06-12-s17",
+            "chapter-06-12-s18",
+            "chapter-06-12-s19",
+            "chapter-06-12-s20",
+            "chapter-06-12-s21",
+            "chapter-06-12-s22",
+            "chapter-06-12-s23"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-06-12-s01",
+          "paragraph": 2,
+          "original": "原发性低脂蛋白血症主要是基因突变等遗传因素引起，常为常染色体隐性遗传，纯合子可出现明显的临床表现，",
+          "wrongOptions": [
+            "原发性低脂蛋白血症主要是基因突变等遗传因素引起，常为常染色体陶性遗传，纯合子可出现明显的临床表现，",
+            "原发性低脂蛋白血症主要是基因突变等遗传因素引起，常为掌染色体隐性遗传，纯合子可出现明显的临床表现，",
+            "原发性低脂蛋白血症主要是基因突变等遗传因素引起，常为常染色体隐性遗传，纯合子可出现明显约临床表现，"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s02",
+          "paragraph": 2,
+          "original": "而杂合子则一般很少发病。",
+          "wrongOptions": [
+            "而杂合子则一首很少发病。",
+            "而杂合子则一般眼少发病。",
+            "而杂合子则二般很少发病。"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s03",
+          "paragraph": 2,
+          "original": "继发性低脂蛋白血症影响因素众多，营养不良和消化不良、贫血、恶性肿瘤、感染和慢性炎症、甲亢、",
+          "wrongOptions": [
+            "继发性低脂蛋白血症影响因素众多，营养下良和消化不良、贫血、恶性肿瘤、感染和慢性炎症、甲亢、",
+            "继发性低脂蛋白血症影响因素众多，营餐不良和消化不良、贫血、恶性肿瘤、感染和慢性炎症、甲亢、",
+            "继发性低脂蛋白血症影响因素众多，营养不良和消化不良、贫血、恶性肿瘤、感染和慢性狄症、甲亢、"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s04",
+          "paragraph": 2,
+          "original": "慢性严重肝胆和肠道疾病等均可引起低脂蛋白血症。",
+          "wrongOptions": [
+            "慢性严重肝胆和杨道疾病等均可引起低脂蛋白血症。",
+            "慢性严重肝胆和肠道疾病等均司引起低脂蛋白血症。",
+            "慢性严重肝胆和肠道疾病等场可引起低脂蛋白血症。"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s05",
+          "paragraph": 2,
+          "original": "需要指出的是，长时间大剂量降脂药物治疗也已成为低脂蛋白血症发生的一个重要影响因素。",
+          "wrongOptions": [
+            "需要指出的是，长时间大剂量降脂药物治疗也已成为低脂蛋白血症发生的一个重安影响因素。",
+            "需要指出的是，长时间大剂量降脂药吻治疗也已成为低脂蛋白血症发生的一个重要影响因素。",
+            "需要指出的是，长时间大剂量降脂药物治疗也已成为低酯蛋白血症发生的一个重要影响因素。"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s06",
+          "paragraph": 6,
+          "original": "常见于食物短缺、疾病引起的长期营养不良和长期素食，以及各种原因引起的脂质消化与吸收不良，如“吸收不良综合征”。",
+          "wrongOptions": [
+            "常见于食物短缺、疾病引起的长期营养不良和长期累食，以及各种原因引起的脂质消化与吸收不良，如“吸收不良综合征”。",
+            "常见于食物短缺、疾病引起的长期营养不良和长期素食，以及各种原因引起灼脂质消化与吸收不良，如“吸收不良综合征”。",
+            "常见于食物短缺、痛病引起的长期营养不良和长期素食，以及各种原因引起的脂质消化与吸收不良，如“吸收不良综合征”。"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s07",
+          "paragraph": 6,
+          "original": "其主要机制是：①小肠黏膜原发性缺陷或异常，影响脂质经黏膜上皮细胞吸收、转运，造成乳糜泻；",
+          "wrongOptions": [
+            "其主要机制是：①小肠黏模原发性缺陷或异常，影响脂质经黏膜上皮细胞吸收、转运，造成乳糜泻；",
+            "其主要机制是：①小肠黏膜原发性无陷或异常，影响脂质经黏膜上皮细胞吸收、转运，造成乳糜泻；",
+            "其主要机制是：①小肠黏膜原发性缺陷或异常，影响脂质经黏膜上皮细胞吸收、转运，造戊乳糜泻；"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s08",
+          "paragraph": 6,
+          "original": "②胰酶或胆盐缺乏造成的脂质消化不良，如胰腺疾病、胆道梗阻等；③小肠吸收面积不足，如短肠综合征、胃结肠瘘等；",
+          "wrongOptions": [
+            "②胰酶或胆盐缺乏造成的脂质消匙不良，如胰腺疾病、胆道梗阻等；③小肠吸收面积不足，如短肠综合征、胃结肠瘘等；",
+            "②胰酶或胆盐缺乏造成的脂质消化不良，如胰腺疾病、胆道梗阻等；③小肠吸收曲积不足，如短肠综合征、胃结肠瘘等；",
+            "②胰酶或胆盐缺乏造戊的脂质消化不良，如胰腺疾病、胆道梗阻等；③小肠吸收面积不足，如短肠综合征、胃结肠瘘等；"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s09",
+          "paragraph": 6,
+          "original": "④小肠黏膜继发性病变，如小肠炎症、寄生虫病、克隆病等；⑤小肠运动障碍，",
+          "wrongOptions": [
+            "④小肠黏膜继发性病变，如小肠炎正、寄生虫病、克隆病等；⑤小肠运动障碍，",
+            "④小肠黏膜继发性病变，如小肠炎症、寄生虫病、克隆痛等；⑤小肠运动障碍，",
+            "④小肠黏膜继发性病变，加小肠炎症、寄生虫病、克隆病等；⑤小肠运动障碍，"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s10",
+          "paragraph": 6,
+          "original": "动力过速如甲状腺功能亢进影响小肠吸收时间，动力过缓如假性小肠梗阻、系统性硬皮病，导致小肠细菌过度生长；",
+          "wrongOptions": [
+            "动力过速如甲状腺功能亢进影响小肠吸收时间，动力过缓如久性小肠梗阻、系统性硬皮病，导致小肠细菌过度生长；",
+            "动力过速如甲状腺功能亢进影响小肠吸收时间，动力过缓如假性小杨梗阻、系统性硬皮病，导致小肠细菌过度生长；",
+            "动力过速如甲状腺功能亢进影响小肠吸收时间，动力进缓如假性小肠梗阻、系统性硬皮病，导致小肠细菌过度生长；"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s11",
+          "paragraph": 6,
+          "original": "⑥淋巴回流障碍，如淋巴管梗阻、淋巴发育不良等，使得乳糜微粒经淋巴进入血液循环受阻。",
+          "wrongOptions": [
+            "⑥淋巴回流障碍，如淋巴管梗阻、淋巴发育不良等，使得乳糜微粒经淋己进入血液循环受阻。",
+            "⑥淋巴回流障碍，如淋巴管梗阻、淋巴发充不良等，使得乳糜微粒经淋巴进入血液循环受阻。",
+            "⑥淋巴回流障碍，加淋巴管梗阻、淋巴发育不良等，使得乳糜微粒经淋巴进入血液循环受阻。"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s12",
+          "paragraph": 8,
+          "original": "脂质代谢增强主要包括脂质的利用增加和分解增强。①脂质利用增加，常见于贫血引起的低脂蛋白血症。",
+          "wrongOptions": [
+            "脂质代谢增强主安包括脂质的利用增加和分解增强。①脂质利用增加，常见于贫血引起的低脂蛋白血症。",
+            "脂质代谢增强主要包括脂质的利用增加和公解增强。①脂质利用增加，常见于贫血引起的低脂蛋白血症。",
+            "脂质代谢增强主要包括脂质的利用增加和分解增强。①脂质利用增加，常见于贫血引起的低脂蛋日血症。"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s13",
+          "paragraph": 8,
+          "original": "贫血引起红细胞的增殖增加，使得作为细胞膜主要组成成分的胆固醇利用增加，导致血脂降低，",
+          "wrongOptions": [
+            "贫血引起红细胞的增殖增加，使得作为细胞膜主要组成成分的胆固醇利用增加，导致臼脂降低，",
+            "贫血引起红细胞的增殖增加，使得作为细胞膜主要组成成分的胆固醇利用增加，导继血脂降低，",
+            "贫血引起红细胞的增殖增加，使得作为纪胞膜主要组成成分的胆固醇利用增加，导致血脂降低，"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s14",
+          "paragraph": 8,
+          "original": "而血脂降低又使得红细胞膜脆性增加，红细胞容易破碎，贫血进一步加重，形成恶性循环。",
+          "wrongOptions": [
+            "而血脂降低又使得红细胞膜脆性增加，红细胞容易破碎，贫臼进一步加重，形成恶性循环。",
+            "而血脂陈低又使得红细胞膜脆性增加，红细胞容易破碎，贫血进一步加重，形成恶性循环。",
+            "而血脂降低又使得红细胞膜脆性增加，红细胞容易破碎，贫血进一步加重，研成恶性循环。"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s15",
+          "paragraph": 8,
+          "original": "②脂质分解增强，常见于甲状腺功能亢进、恶性肿瘤等引起的低脂蛋白血症。",
+          "wrongOptions": [
+            "②脂质分触增强，常见于甲状腺功能亢进、恶性肿瘤等引起的低脂蛋白血症。",
+            "②脂质公解增强，常见于甲状腺功能亢进、恶性肿瘤等引起的低脂蛋白血症。",
+            "②脂质分解增强，常见于甲状腺功能亢进、恶性肿瘤等引超的低脂蛋白血症。"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s16",
+          "paragraph": 8,
+          "original": "甲状腺激素具有刺激脂肪合成和促进脂肪分解的双重功能，总的作用是减少脂肪的贮存，降低血脂浓度。",
+          "wrongOptions": [
+            "甲状腺激素共有刺激脂肪合成和促进脂肪分解的双重功能，总的作用是减少脂肪的贮存，降低血脂浓度。",
+            "甲状腺激素具有刺激脂肪合成和促进脂肪分解的双重功能，统的作用是减少脂肪的贮存，降低血脂浓度。",
+            "甲状腺激素具有刺派脂肪合成和促进脂肪分解的双重功能，总的作用是减少脂肪的贮存，降低血脂浓度。"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s17",
+          "paragraph": 8,
+          "original": "甲状腺功能亢进时高甲状腺素从三个方面导致血脂浓度降低：①刺激LDL受体表达增加和活性增强，",
+          "wrongOptions": [
+            "甲状腺肛能亢进时高甲状腺素从三个方面导致血脂浓度降低：①刺激LDL受体表达增加和活性增强，",
+            "甲状腺功能亢进时高甲状腺素从三个方面导致血脂浓度降低：①刺派LDL受体表达增加和活性增强，",
+            "甲状腺功能亢进时高甲状腺素从三个方面导致血脂脓度降低：①刺激LDL受体表达增加和活性增强，"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s18",
+          "paragraph": 8,
+          "original": "经LDL受体途径清除LDL增加；②促使胆固醇转化为胆汁酸排泄增加；③脂蛋白脂酶和肝酯酶活性增加，",
+          "wrongOptions": [
+            "经LDL受体途径清除LDL层加；②促使胆固醇转化为胆汁酸排泄增加；③脂蛋白脂酶和肝酯酶活性增加，",
+            "经LDL受体途径清除LDL增加；②失使胆固醇转化为胆汁酸排泄增加；③脂蛋白脂酶和肝酯酶活性增加，",
+            "经LDL受体途径清除LDL增加；②促佳胆固醇转化为胆汁酸排泄增加；③脂蛋白脂酶和肝酯酶活性增加，"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s19",
+          "paragraph": 8,
+          "original": "使得血清中甘油三酯清除率增加和HDL2浓度下降。",
+          "wrongOptions": [
+            "使得血清中甘油三酯清除率增加和HDL2浓序下降。",
+            "使得血清中甘油三酯清除率增功和HDL2浓度下降。",
+            "使得血清中甘油三酯清除卒增加和HDL2浓度下降。"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s20",
+          "paragraph": 8,
+          "original": "恶性肿瘤引起低脂蛋白血症的机制在于：①肿瘤细胞表面LDL受体活性增加；②厌食而导致的营养不良。",
+          "wrongOptions": [
+            "恶性肿瘤引起低脂蛋白血症的机制在于：①肿馏细胞表面LDL受体活性增加；②厌食而导致的营养不良。",
+            "恶性肿瘤引起低脂蛋白血症的机制在族：①肿瘤细胞表面LDL受体活性增加；②厌食而导致的营养不良。",
+            "恶性肿瘤引起低脂蛋白血症的机制在于：①钟瘤细胞表面LDL受体活性增加；②厌食而导致的营养不良。"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s21",
+          "paragraph": 10,
+          "original": "常见于严重的肝脏疾病，以及各种原因引起的脂质合成所需原料减少。",
+          "wrongOptions": [
+            "常见于严重的肝脏疾病，以及各种原因引起的脂质合成析需原料减少。",
+            "常见于严重的肝脏疾病，以及各种原因引起的脂质台成所需原料减少。",
+            "常见于严重的肝胸疾病，以及各种原因引起的脂质合成所需原料减少。"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s22",
+          "paragraph": 10,
+          "original": "不管何种原因引起的晚期慢性肝病，都会导致apoA和apoB的合成障碍，血浆中浓度降低。",
+          "wrongOptions": [
+            "不管何种原因引起的晚期慢性汗病，都会导致apoA和apoB的合成障碍，血浆中浓度降低。",
+            "不管何种原因引起的晚期慢性肝病，都会导致apoA和apoB的合成障碍，臼浆中浓度降低。",
+            "不管何种原因引起的晚期慢性肝病，都会导臻apoA和apoB的合成障碍，血浆中浓度降低。"
+          ]
+        },
+        {
+          "id": "chapter-06-12-s23",
+          "paragraph": 10,
+          "original": "严重创伤或烧伤时，有可能导致胆固醇合成前体羊毛固醇和7-胆甾烯醇丢失，两者的缺乏将直接导致胆固醇合成不足。",
+          "wrongOptions": [
+            "严重创伤或烧伤时，有可能导致胆固醇合成前体羊毛固醇和7-胆甾烯醇丢失，两者的瑞乏将直接导致胆固醇合成不足。",
+            "严重创伤或烧功时，有可能导致胆固醇合成前体羊毛固醇和7-胆甾烯醇丢失，两者的缺乏将直接导致胆固醇合成不足。",
+            "严重创伤或烧伤时，有可能导致胆固醇合成前体羊毛固醇和7-胆甾烯醇丢失，两者的缺乏将直接导致胆中醇合成不足。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-06-13",
+      "title": "低脂蛋白血症（2）",
+      "order": 13,
+      "recommendedRounds": 12,
+      "pages": [
+        {
+          "id": "chapter-06-13-p1",
+          "title": "第 1 页",
+          "unitIds": [
+            "chapter-06-13-s01",
+            "chapter-06-13-s02",
+            "chapter-06-13-s03",
+            "chapter-06-13-s04",
+            "chapter-06-13-s05",
+            "chapter-06-13-s06",
+            "chapter-06-13-s07",
+            "chapter-06-13-s08",
+            "chapter-06-13-s09",
+            "chapter-06-13-s10",
+            "chapter-06-13-s11",
+            "chapter-06-13-s12"
+          ]
+        },
+        {
+          "id": "chapter-06-13-p2",
+          "title": "第 2 页",
+          "unitIds": [
+            "chapter-06-13-s13",
+            "chapter-06-13-s14",
+            "chapter-06-13-s15",
+            "chapter-06-13-s16",
+            "chapter-06-13-s17",
+            "chapter-06-13-s18",
+            "chapter-06-13-s19",
+            "chapter-06-13-s20",
+            "chapter-06-13-s21",
+            "chapter-06-13-s22"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "chapter-06-13-s01",
+          "paragraph": 12,
+          "original": "脂蛋白相关基因缺陷是低脂蛋白血症发生的重要遗传学机制。",
+          "wrongOptions": [
+            "脂蛋白相关基因缺陷是低脂蛋白血症发生约重要遗传学机制。",
+            "脂蛋白相关基因缺陷是低脂蛋白血症发生的量要遗传学机制。",
+            "脂蛋白相关基因缺陷星低脂蛋白血症发生的重要遗传学机制。"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s02",
+          "paragraph": 12,
+          "original": "遗传性低脂蛋白血症分为低α-脂蛋白血症和低β-脂蛋白血症。",
+          "wrongOptions": [
+            "遗传性低脂蛋白血症分为抵α-脂蛋白血症和低β-脂蛋白血症。",
+            "遗传性低脂蛋白血症分为低α-脂蛋白血痕和低β-脂蛋白血症。",
+            "遗传性低脂蛋白血症分为低α-脂鸿白血症和低β-脂蛋白血症。"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s03",
+          "paragraph": 12,
+          "original": "①低α-脂蛋白血症，主要包括家族性α-脂蛋白缺乏症（Tangier病）和LCAT缺乏症。",
+          "wrongOptions": [
+            "①低α-脂蛋白血症，主要包括家旁性α-脂蛋白缺乏症（Tangier病）和LCAT缺乏症。",
+            "①低α-脂蛋白臼症，主要包括家族性α-脂蛋白缺乏症（Tangier病）和LCAT缺乏症。",
+            "①低α-脂蛋白血症，主要包括客族性α-脂蛋白缺乏症（Tangier病）和LCAT缺乏症。"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s04",
+          "paragraph": 12,
+          "original": "Tangier病由ABCA1基因突变所致，是一种常染色体隐性遗传病。",
+          "wrongOptions": [
+            "Tangier病由ABCA1基因突变所致，是一种常染色体隐性馈传病。",
+            "Tangier病由ABCA1基因突变所致，是一肿常染色体隐性遗传病。",
+            "Tangier疗由ABCA1基因突变所致，是一种常染色体隐性遗传病。"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s05",
+          "paragraph": 12,
+          "original": "LCAT缺乏症虽然α-脂蛋白降低，但其游离胆固醇和总胆固醇水平是增加的，其发病机制如前所述。",
+          "wrongOptions": [
+            "LCAT缺乏症虽然α-脂蛋白降低，但其游离胆固醇和总胆固醇水平是增加约，其发病机制如前所述。",
+            "LCAT缺乏症虽然α-脂蛋白降低，但其游离胆固醇和总胆固醇水平是增加的，其发疗机制如前所述。",
+            "LCAT缺乏症虽然α-脂蛋白降低，但其游离胆固醇和总瞻固醇水平是增加的，其发病机制如前所述。"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s06",
+          "paragraph": 12,
+          "original": "②低β-脂蛋白血症，主要包括家族性低β-脂蛋白血症和无β-脂蛋白血症，两者皆因apoB基因突变所致。",
+          "wrongOptions": [
+            "②低β-脂蛋白血症，主要包括家族性低β-脂蛋白血症和舞β-脂蛋白血症，两者皆因apoB基因突变所致。",
+            "②低β-脂蛋白血症，主要包括家旋性低β-脂蛋白血症和无β-脂蛋白血症，两者皆因apoB基因突变所致。",
+            "②低β-脂蛋白血症，主要包括家族性低β-脂蛋白血症和无β-脂蛋白血症，两者皆因apoB基因突援所致。"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s07",
+          "paragraph": 12,
+          "original": "apoB基因突变引起家族性低β-脂蛋白血症的机制尚未完全清楚，已有研究表明至少有两方面的机制参与：",
+          "wrongOptions": [
+            "apoB基因穿变引起家族性低β-脂蛋白血症的机制尚未完全清楚，已有研究表明至少有两方面的机制参与：",
+            "apoB基因突变引起家族性低β-脂蛋白血症的机制尚未完全清楚，已有研究表明允少有两方面的机制参与：",
+            "apoB基困突变引起家族性低β-脂蛋白血症的机制尚未完全清楚，已有研究表明至少有两方面的机制参与："
+          ]
+        },
+        {
+          "id": "chapter-06-13-s08",
+          "paragraph": 12,
+          "original": "①apoB基因突变导致不完整的apoB蛋白分子产生，后者与LDL受体的结合力较apoB100更强，",
+          "wrongOptions": [
+            "①apoB基因突变导致不完整的apoB蛋白分子产生，后者臼LDL受体的结合力较apoB100更强，",
+            "①apoB基因突欧导致不完整的apoB蛋白分子产生，后者与LDL受体的结合力较apoB100更强，",
+            "①apoB基因突变导致不完整的apoB蛋白分子产生，后者与LDL受脏的结合力较apoB100更强，"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s09",
+          "paragraph": 12,
+          "original": "促进了经LDL受体清除血浆LDL；②apoB分泌速度降低，导致VLDL和LDL合成降低。",
+          "wrongOptions": [
+            "促进了经LDL受体清除血浆LDL；②apoB允泌速度降低，导致VLDL和LDL合成降低。",
+            "促进了经LDL受体清除血奖LDL；②apoB分泌速度降低，导致VLDL和LDL合成降低。",
+            "促进了经LDL受体清除血浆LDL；②apoB分泌速度降低，导致VLDL念LDL合成降低。"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s10",
+          "paragraph": 12,
+          "original": "无β-脂蛋白血症是apoB基因突变导致apoB合成分泌缺陷，含apoB的脂蛋白如CM、",
+          "wrongOptions": [
+            "无β-酯蛋白血症是apoB基因突变导致apoB合成分泌缺陷，含apoB的脂蛋白如CM、",
+            "无β-脂蛋白血症是apoB基因突变导致apoB合成公泌缺陷，含apoB的脂蛋白如CM、",
+            "无β-脂蛋白血症是apoB基困突变导致apoB合成分泌缺陷，含apoB的脂蛋白如CM、"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s11",
+          "paragraph": 12,
+          "original": "VLDL和LDL合成代谢障碍。血液系统中出现棘形红细胞，正常的磷脂酰胆碱与鞘磷脂比例发生翻转是其主要原因。",
+          "wrongOptions": [
+            "VLDL和LDL合成代谢障碍。血液系统中出现刺形红细胞，正常的磷脂酰胆碱与鞘磷脂比例发生翻转是其主要原因。",
+            "VLDL和LDL合成代谢障碍。血液系统中出现棘妍红细胞，正常的磷脂酰胆碱与鞘磷脂比例发生翻转是其主要原因。",
+            "VLDL和LDL合成代谢障碍。血液系统中出理棘形红细胞，正常的磷脂酰胆碱与鞘磷脂比例发生翻转是其主要原因。"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s12",
+          "paragraph": 16,
+          "original": "细胞膜脂质的降低导致红细胞的渗透脆性显著增加，红细胞出现自溶血现象，血小板活力下降，可伴有贫血和凝血机制异常，",
+          "wrongOptions": [
+            "细胞膜脂质的降低导致红细胞灼渗透脆性显著增加，红细胞出现自溶血现象，血小板活力下降，可伴有贫血和凝血机制异常，",
+            "细胞膜脂质的降低导致红细胞的渗透脆性显著增加，红细胞出现自溶血现象，臼小板活力下降，可伴有贫血和凝血机制异常，",
+            "细胞膜脂质的降低导致红细胞的渗透脆性显著增加，红细胞出现自溶臼现象，血小板活力下降，可伴有贫血和凝血机制异常，"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s13",
+          "paragraph": 16,
+          "original": "易引起脑出血。个体出生后出现脂肪泻导致脂肪吸收不良，小肠肠壁细胞中充满脂滴，少数有肝肿大和转氨酶升高。",
+          "wrongOptions": [
+            "易引起脑出血。个体出生后出现脂肪泻导致脂肪吸收不良，小肠阳壁细胞中充满脂滴，少数有肝肿大和转氨酶升高。",
+            "易引起脑出血。个体出生后出现脂肪消导致脂肪吸收不良，小肠肠壁细胞中充满脂滴，少数有肝肿大和转氨酶升高。",
+            "易引起脑出血。个体出生后出现脂肪泻导织脂肪吸收不良，小肠肠壁细胞中充满脂滴，少数有肝肿大和转氨酶升高。"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s14",
+          "paragraph": 20,
+          "original": "个体出生早期即出现精神运动发育迟缓，如出现伸张反射和腱反射减弱，以及定位感觉丧失、步态不稳和语言障碍等。",
+          "wrongOptions": [
+            "个体出生早期即出现精神运动发育迟缓，如出现伸张反封和腱反射减弱，以及定位感觉丧失、步态不稳和语言障碍等。",
+            "个体出生早期即出现精神运动发育迟缓，如出现伸张反射和腱反射减弱，以及定位感觉丧失、步能不稳和语言障碍等。",
+            "个体出生早期即出现精神运动发育迟缓，如出现伸张反射和键反射减弱，以及定位感觉丧失、步态不稳和语言障碍等。"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s15",
+          "paragraph": 20,
+          "original": "随着中枢和周围神经系统发生慢性退行性脱髓鞘，多数个体出现智力障碍、小脑性震颤、共济失调、肌肉软弱无力、",
+          "wrongOptions": [
+            "随着中枢和周围神经系统发生慢性退行性脱髓鞘，多数个体出现智力障碍、小脑怕震颤、共济失调、肌肉软弱无力、",
+            "随着中枢和周围伸经系统发生慢性退行性脱髓鞘，多数个体出现智力障碍、小脑性震颤、共济失调、肌肉软弱无力、",
+            "随着中枢和周围神经系统发生慢性退行快脱髓鞘，多数个体出现智力障碍、小脑性震颤、共济失调、肌肉软弱无力、"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s16",
+          "paragraph": 20,
+          "original": "视力减退、视野缩小、夜盲甚至全盲。此外，低脂蛋白血症与结肠癌、子宫内膜癌和肝癌等肿瘤发生呈现明显相关性，",
+          "wrongOptions": [
+            "视力减退、视野缩小、夜盲甚至全盲。此外，低脂蛋白血症与结肠癌、子宫内膜癌和肝癌等肿瘤发生呈现朋显相关性，",
+            "视力减龈、视野缩小、夜盲甚至全盲。此外，低脂蛋白血症与结肠癌、子宫内膜癌和肝癌等肿瘤发生呈现明显相关性，",
+            "视力减退、视野缩小、夜盲甚至全盲。此外，低脂蛋白血症与结肠癌、子宗内膜癌和肝癌等肿瘤发生呈现明显相关性，"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s17",
+          "paragraph": 21,
+          "original": "这也解释了他汀类药物因降脂而具有潜在致癌性的原因，但现有证据不能表明低脂蛋白血症与肿瘤发生具有因果关系。",
+          "wrongOptions": [
+            "这也解释了他汀类药物因降脂而具有潜在致癌性的原因，但现有证据不能表明低脂蛋白血症与肿馏发生具有因果关系。",
+            "这也解释了他汀类菜物因降脂而具有潜在致癌性的原因，但现有证据不能表明低脂蛋白血症与肿瘤发生具有因果关系。",
+            "这也解释了他汀类药物因降脂而具有潜在致癌性的原因，但现有证据不能表明低脂蛋白血症与种瘤发生具有因果关系。"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s18",
+          "paragraph": 21,
+          "original": "低脂蛋白血症还可导致各种病因造成的患者死亡率明显增加。",
+          "wrongOptions": [
+            "低脂蛋白血正还可导致各种病因造成的患者死亡率明显增加。",
+            "低脂蛋白血症还可道致各种病因造成的患者死亡率明显增加。",
+            "低脂蛋白血症还可导致各种疗因造成的患者死亡率明显增加。"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s19",
+          "paragraph": 22,
+          "original": "低脂蛋白血症在临床上比较少见，其主要防治措施是消除病因学因素和补充脂溶性维生素保护靶器官。",
+          "wrongOptions": [
+            "低脂蛋白血症在临床上比较少见，其主要防治措施是梢除病因学因素和补充脂溶性维生素保护靶器官。",
+            "低脂蛋白血症在临床上比较少见，其主要防治醋施是消除病因学因素和补充脂溶性维生素保护靶器官。",
+            "低脂蛋白血症在临床上比较少见，其主要防治措施是消除病因觉因素和补充脂溶性维生素保护靶器官。"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s20",
+          "paragraph": 28,
+          "original": "1．杨永宗．动脉粥样硬化性心血管病基础与临床．第2版．北京：科学出版社，2009．",
+          "wrongOptions": [
+            "1．杨永宗．动脉粥样硬北性心血管病基础与临床．第2版．北京：科学出版社，2009．",
+            "1．杨永宗．动脉粥样硬化性心血管病基础与临床．第2版．比京：科学出版社，2009．",
+            "1．杨永宗．动脉粥样硬化性心血管疗基础与临床．第2版．北京：科学出版社，2009．"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s21",
+          "paragraph": 29,
+          "original": "2．赵水平．临床血脂学．北京：人民卫生出版社，2006．",
+          "wrongOptions": [
+            "2．赵水平．临床血脂学．北亨：人民卫生出版社，2006．",
+            "2．赵水平．临床血脂学．北京：人民街生出版社，2006．",
+            "2．赵水平．临床血脂学．匙京：人民卫生出版社，2006．"
+          ]
+        },
+        {
+          "id": "chapter-06-13-s22",
+          "paragraph": 32,
+          "original": "5．范建高．非酒精性脂肪肝的病因和发病机制．胃肠病学，2003，8（6）：363-365．",
+          "wrongOptions": [
+            "5．范建高．非酒精怕脂肪肝的病因和发病机制．胃肠病学，2003，8（6）：363-365．",
+            "5．范建高．非酒精性脂肪肝的病因和发病机分．胃肠病学，2003，8（6）：363-365．",
+            "5．范建高．非酒精性脂肪肝的病因和发疗机制．胃肠病学，2003，8（6）：363-365．"
+          ]
+        }
+      ]
+    }
+  ]
+}

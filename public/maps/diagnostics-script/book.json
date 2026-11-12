@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 2,
+  "id": "diagnostics-script",
+  "title": "诊断学（脚本版）",
+  "author": "万学红、卢雪峰",
+  "contentVersion": 2,
+  "contentNote": "脚本版：单字找茬模式；已剔除附录一、附录二；表格式小节跳过；长句按标点切分，短句同小节内拼接。",
+  "chapters": [
+    {
+      "id": "chapter-01",
+      "title": "绪 论",
+      "order": 1,
+      "file": "01-chapter.json"
+    },
+    {
+      "id": "chapter-02",
+      "title": "第一篇 常见症状",
+      "order": 2,
+      "file": "02-chapter.json"
+    },
+    {
+      "id": "chapter-03",
+      "title": "第二篇 问 诊 · 第一章 问诊的重要性与医德要求",
+      "order": 3,
+      "file": "03-chapter.json"
+    },
+    {
+      "id": "chapter-04",
+      "title": "第二篇 问 诊 · 第二章 问诊的内容",
+      "order": 4,
+      "file": "04-chapter.json"
+    },
+    {
+      "id": "chapter-05",
+      "title": "第二篇 问 诊 · 第三章 问诊的方法与技巧",
+      "order": 5,
+      "file": "05-chapter.json"
+    },
+    {
+      "id": "chapter-06",
+      "title": "第三篇 体格检查 · 第一章 基本方法",
+      "order": 6,
+      "file": "06-chapter.json"
+    },
+    {
+      "id": "chapter-07",
+      "title": "第三篇 体格检查 · 第二章 一般检查",
+      "order": 7,
+      "file": "07-chapter.json"
+    },
+    {
+      "id": "chapter-08",
+      "title": "第三篇 体格检查 · 第三章 头部检查",
+      "order": 8,
+      "file": "08-chapter.json"
+    },
+    {
+      "id": "chapter-09",
+      "title": "第三篇 体格检查 · 第四章 颈部检查",
+      "order": 9,
+      "file": "09-chapter.json"
+    },
+    {
+      "id": "chapter-10",
+      "title": "第三篇 体格检查 · 第五章 胸部检查",
+      "order": 10,
+      "file": "10-chapter.json"
+    },
+    {
+      "id": "chapter-11",
+      "title": "第三篇 体格检查 · 第六章 腹部检查",
+      "order": 11,
+      "file": "11-chapter.json"
+    },
+    {
+      "id": "chapter-12",
+      "title": "第三篇 体格检查 · 第七章 生殖器、肛门、直肠检查",
+      "order": 12,
+      "file": "12-chapter.json"
+    },
+    {
+      "id": "chapter-13",
+      "title": "第三篇 体格检查 · 第八章 脊柱与四肢检查",
+      "order": 13,
+      "file": "13-chapter.json"
+    },
+    {
+      "id": "chapter-14",
+      "title": "第三篇 体格检查 · 第九章 神经系统检查",
+      "order": 14,
+      "file": "14-chapter.json"
+    },
+    {
+      "id": "chapter-15",
+      "title": "第三篇 体格检查 · 第十章 全身体格检查",
+      "order": 15,
+      "file": "15-chapter.json"
+    },
+    {
+      "id": "chapter-16",
+      "title": "第四篇 实验诊断 · 第一章 概 论",
+      "order": 16,
+      "file": "16-chapter.json"
+    },
+    {
+      "id": "chapter-17",
+      "title": "第四篇 实验诊断 · 第二章 临床血液学检测",
+      "order": 17,
+      "file": "17-chapter.json"
+    },
+    {
+      "id": "chapter-18",
+      "title": "第四篇 实验诊断 · 第三章 血栓与止血检测",
+      "order": 18,
+      "file": "18-chapter.json"
+    },
+    {
+      "id": "chapter-19",
+      "title": "第四篇 实验诊断 · 第四章 排泄物、分泌物及体液检测",
+      "order": 19,
+      "file": "19-chapter.json"
+    },
+    {
+      "id": "chapter-20",
+      "title": "第四篇 实验诊断 · 第五章 常用肾脏功能实验室检测",
+      "order": 20,
+      "file": "20-chapter.json"
+    },
+    {
+      "id": "chapter-21",
+      "title": "第四篇 实验诊断 · 第六章 肝脏病常用实验室检测",
+      "order": 21,
+      "file": "21-chapter.json"
+    },
+    {
+      "id": "chapter-22",
+      "title": "第四篇 实验诊断 · 第七章 临床常用生物化学检测",
+      "order": 22,
+      "file": "22-chapter.json"
+    },
+    {
+      "id": "chapter-23",
+      "title": "第四篇 实验诊断 · 第八章 临床常用免疫学检测",
+      "order": 23,
+      "file": "23-chapter.json"
+    },
+    {
+      "id": "chapter-24",
+      "title": "第四篇 实验诊断 · 第九章 临床常见病原体检测",
+      "order": 24,
+      "file": "24-chapter.json"
+    },
+    {
+      "id": "chapter-25",
+      "title": "第四篇 实验诊断 · 第十章 其他检测",
+      "order": 25,
+      "file": "25-chapter.json"
+    },
+    {
+      "id": "chapter-26",
+      "title": "第五篇 辅助检查 · 第一章 心 电 图",
+      "order": 26,
+      "file": "26-chapter.json"
+    },
+    {
+      "id": "chapter-27",
+      "title": "第五篇 辅助检查 · 第二章 其他常用心电学检查",
+      "order": 27,
+      "file": "27-chapter.json"
+    },
+    {
+      "id": "chapter-28",
+      "title": "第五篇 辅助检查 · 第三章 肺功能检查",
+      "order": 28,
+      "file": "28-chapter.json"
+    },
+    {
+      "id": "chapter-29",
+      "title": "第五篇 辅助检查 · 第四章 内镜检查",
+      "order": 29,
+      "file": "29-chapter.json"
+    },
+    {
+      "id": "chapter-30",
+      "title": "第六篇 病历书写 · 第一章 病历书写的基本要求",
+      "order": 30,
+      "file": "30-chapter.json"
+    },
+    {
+      "id": "chapter-31",
+      "title": "第六篇 病历书写 · 第二章 病历书写格式及内容",
+      "order": 31,
+      "file": "31-chapter.json"
+    },
+    {
+      "id": "chapter-32",
+      "title": "第六篇 病历书写 · 第三章 电子病历",
+      "order": 32,
+      "file": "32-chapter.json"
+    },
+    {
+      "id": "chapter-33",
+      "title": "第七篇 诊断疾病的步骤和临床 · 第一章 诊断疾病的步骤",
+      "order": 33,
+      "file": "33-chapter.json"
+    },
+    {
+      "id": "chapter-34",
+      "title": "第七篇 诊断疾病的步骤和临床 · 第二章 临床思维方法",
+      "order": 34,
+      "file": "34-chapter.json"
+    },
+    {
+      "id": "chapter-35",
+      "title": "第七篇 诊断疾病的步骤和临床 · 第三章 临床诊断的内容",
+      "order": 35,
+      "file": "35-chapter.json"
+    }
+  ]
+}

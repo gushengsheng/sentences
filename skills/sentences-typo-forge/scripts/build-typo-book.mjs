@@ -40,6 +40,24 @@ let filteredHead = 0;
 let filteredLegend = 0;
 let filteredShort = 0;
 const skippedUnits = [];
+function mergeWeak(units, max = 55) {
+  const cjkCount = (t) => [...t].filter((c) => /[\u4e00-\u9fa5]/.test(c)).length;
+  for (let i = 0; i < units.length; i++) {
+    if (cjkCount(units[i].text) >= 3) continue;
+    if (i + 1 < units.length && L(units[i].text + units[i + 1].text) <= max) {
+      units.splice(i, 2, { ...units[i], text: units[i].text + units[i + 1].text });
+    } else if (i > 0 && L(units[i - 1].text + units[i].text) <= max) {
+      units.splice(i - 1, 2, { ...units[i - 1], text: units[i - 1].text + units[i].text });
+      i = Math.max(-1, i - 2);
+    } else if (i + 1 < units.length) {
+      units.splice(i, 2, { ...units[i], text: units[i].text + units[i + 1].text });
+    } else if (i > 0) {
+      units.splice(i - 1, 2, { ...units[i - 1], text: units[i - 1].text + units[i].text });
+      i = Math.max(-1, i - 2);
+    }
+  }
+  return units;
+}
 function hardCap(text, max) {
   const chars = [...text];
   const out = [];
@@ -78,6 +96,7 @@ for (const sec of chapter.sections) {
   });
   if (!items.length) continue;
   const merged = mergeShort(items, MIN, MAX);
+    mergeWeak(merged, MAX);
   const chunks = splitBalanced(merged);
   chunks.forEach((chunk, ci) => {
     const suffix = chunks.length > 1 ? `（${ci + 1}）` : '';

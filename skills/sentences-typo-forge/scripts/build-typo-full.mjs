@@ -18,6 +18,7 @@ const bookId = arg('book');
 const bookTitle = arg('title');
 const chaptersArg = arg('chapters', '1-48');
 const workDir = arg('work');
+const author = arg('author', '杨宝峰');
 const MIN = Number(arg('min', '30'));
 const MAX = Number(arg('max', '55'));
 if (!epubDir || !bookId || !bookTitle || !workDir) {
@@ -82,6 +83,43 @@ function splitBig(fragments, splitAt = 35, chunk = 30) {
   }
   return out;
 }
+function mergeWeak(units, max = 55) {
+  const cjkCount = (t) => [...t].filter((c) => /[\u4e00-\u9fa5]/.test(c)).length;
+  for (let i = 0; i < units.length; i++) {
+    if (cjkCount(units[i].text) >= 3) continue;
+    if (i + 1 < units.length && L(units[i].text + units[i + 1].text) <= max) {
+      units.splice(i, 2, { ...units[i], text: units[i].text + units[i + 1].text });
+    } else if (i > 0 && L(units[i - 1].text + units[i].text) <= max) {
+      units.splice(i - 1, 2, { ...units[i - 1], text: units[i - 1].text + units[i].text });
+      i = Math.max(-1, i - 2);
+    } else if (i + 1 < units.length) {
+      units.splice(i, 2, { ...units[i], text: units[i].text + units[i + 1].text });
+    } else if (i > 0) {
+      units.splice(i - 1, 2, { ...units[i - 1], text: units[i - 1].text + units[i].text });
+      i = Math.max(-1, i - 2);
+    }
+  }
+  return units;
+}
+function rebalanceLong(units, max = 55) {
+  const out = [];
+  const cjk = (t) => [...t].filter((c) => /[\u4e00-\u9fa5]/.test(c)).length;
+  for (const u of units) {
+    const chars = [...u.text];
+    if (chars.length <= max) { out.push(u); continue; }
+    const k = Math.ceil(chars.length / max);
+    const parts = [];
+    let i = 0;
+    for (let p = 0; p < k; p++) {
+      const size = Math.floor(chars.length / k) + (p < chars.length % k ? 1 : 0);
+      parts.push(chars.slice(i, i + size).join(''));
+      i += size;
+    }
+    if (parts.every((t) => cjk(t) >= 3)) out.push(...parts.map((text) => ({ ...u, text })));
+    else out.push(u);
+  }
+  return out;
+}
 function hardCap(text, max) {
   const chars = [...text];
   const out = [];
@@ -89,6 +127,7 @@ function hardCap(text, max) {
   return out;
 }
 
+let filteredTableSection = 0;
 let filteredHead = 0;
 let filteredLegend = 0;
 let filteredShort = 0;
@@ -118,6 +157,8 @@ for (let idx = from; idx <= to; idx++) {
 
   const fragments = [];
   for (const sec of chapter.sections) {
+    const shortRatio = sec.paragraphs.filter((p) => L(p) < 12 && !/[。！？]/.test(p)).length / Math.max(1, sec.paragraphs.length);
+    if (sec.paragraphs.length > 40 && shortRatio > 0.5) { filteredTableSection++; continue; }
     const items = [];
     sec.paragraphs.forEach((p, pi) => {
       if (
@@ -146,7 +187,8 @@ for (let idx = from; idx <= to; idx++) {
       }
       for (const s of splitParagraph(p).flatMap((x) => capSentence(x, MAX))) {
         const ascii = [...s].filter((c) => c.charCodeAt(0) < 128).length / Math.max(1, [...s].length);
-        if (ascii > 0.6) {
+        const cjkCount = [...s].filter((c) => /[\u4e00-\u9fa5]/.test(c)).length;
+        if (cjkCount < 4 && ascii > 0.6) {
           filteredEnglish++;
           continue;
         }
@@ -154,7 +196,9 @@ for (let idx = from; idx <= to; idx++) {
       }
     });
     if (!items.length) continue;
-    const merged = mergeShort(items, MIN, MAX).flatMap((u) => {
+    const merged0 = mergeShort(items, MIN, MAX);
+    mergeWeak(merged0, MAX);
+    const merged = merged0.flatMap((u) => {
       if ([...u.text].length > MAX) {
         const parts = hardCap(u.text, MAX);
         return parts.map((text, i) => ({ ...u, text, hardCut: i }));
@@ -162,6 +206,8 @@ for (let idx = from; idx <= to; idx++) {
       return [u];
     });
 
+    mergeWeak(merged, MAX);
+    merged.splice(0, merged.length, ...rebalanceLong(merged, MAX));
     const n = merged.length;
     const chunks = [];
     if (n <= 30) chunks.push(merged);
@@ -255,9 +301,9 @@ const meta = {
   book: {
     id: bookId,
     title: bookTitle,
-    author: '杨宝峰',
+    author,
     contentVersion: 2,
-    contentNote: '脚本版：单字找茬模式；表格为图片，仅表题被跳过；长句按标点切分，短句同小节内拼接。',
+    contentNote: '脚本版：单字找茬模式；表格式小节跳过；长句按标点切分，短句同小节内拼接。',
   },
   chapters: chapterMeta,
 };
@@ -282,6 +328,7 @@ const report = {
   chapters: chapterMeta.length,
   fragments: chapterMeta.reduce((n, c) => n + c.fragments.length, 0),
   units: chapterStats.reduce((n, c) => n + c.units, 0),
+  filteredTableSection,
   filteredHead,
   filteredTableCaption,
   filteredLegend,
