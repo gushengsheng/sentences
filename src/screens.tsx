@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import { AI_PRESETS, presetById, type AiConfig } from './ai';
 import type { Book, Chapter, FragmentDef } from './engine';
-import type { BookBundle, BookSummary } from './mapsource';
+import { assetUrl, type BookBundle, type BookSummary } from './mapsource';
+import { cacheBook, isBookCached, uncacheBook } from './offline';
 import { ratingAtLeast, type Difficulty, type Progress, type Settings } from './store';
 
 export type Mode = 'ai' | 'hotseat' | 'spectate';
@@ -420,6 +421,67 @@ export function SettingsScreen({
   onBack,
 }: SettingsProps) {
   const [confirmReset, setConfirmReset] = useState(false);
+  const [books, setBooks] = useState<BookSummary[]>([]);
+  const [contents, setContents] = useState<Record<string, Book>>({});
+  const [cached, setCached] = useState<Record<string, boolean>>({});
+  const [caching, setCaching] = useState<Record<string, string>>({});
+
+  useEffect(() => {
+    let alive = true;
+    (async () => {
+      try {
+        const index = await (await fetch(assetUrl('maps/index.json'))).json();
+        const list: BookSummary[] = index.books || [];
+        if (!alive) return;
+        setBooks(list);
+        const map: Record<string, Book> = {};
+        await Promise.all(
+          list.map(async (b) => {
+            try {
+              const res = await fetch(assetUrl(`maps/${b.file}`));
+              if (res.ok) map[b.id] = (await res.json()) as Book;
+            } catch {
+              /* 单本失败不影响其他 */
+            }
+          }),
+        );
+        if (!alive) return;
+        setContents(map);
+        const flags: Record<string, boolean> = {};
+        await Promise.all(
+          list.map(async (b) => {
+            flags[b.id] = map[b.id] ? await isBookCached(b.dir, map[b.id]) : false;
+          }),
+        );
+        if (alive) setCached(flags);
+      } catch {
+        /* 离线时忽略 */
+      }
+    })();
+    return () => {
+      alive = false;
+    };
+  }, []);
+
+  async function cacheOne(b: BookSummary) {
+    const book = contents[b.id];
+    if (!book) return;
+    setCaching((m) => ({ ...m, [b.id]: `0/${book.chapters.length}` }));
+    await cacheBook(b.dir, book, (done, total) => {
+      setCaching((m) => ({ ...m, [b.id]: `${done}/${total}` }));
+    });
+    setCaching((m) => {
+      const next = { ...m };
+      delete next[b.id];
+      return next;
+    });
+    setCached((m) => ({ ...m, [b.id]: true }));
+  }
+
+  async function clearOne(b: BookSummary) {
+    await uncacheBook(b.dir);
+    setCached((m) => ({ ...m, [b.id]: false }));
+  }
 
   function exportProgress() {
     const blob = new Blob([JSON.stringify(progress, null, 2)], { type: 'application/json' });
@@ -556,6 +618,31 @@ export function SettingsScreen({
             onChange={(e) => onChange({ ...settings, claimFlash: e.target.checked })}
           />
         </label>
+
+        <div className="divider" />
+        <h3 className="settings-group">离线缓存</h3>
+        <p className="muted">只缓存选中的书；未选中的书在对局时按需加载。</p>
+        {books.map((b) => (
+          <div key={b.id} className="field row">
+            <span>
+              {b.title}
+              <span className="muted"> · {b.chapters} 章</span>
+            </span>
+            <span className="row">
+              {caching[b.id] ? (
+                <span className="muted">缓存中 {caching[b.id]}</span>
+              ) : cached[b.id] ? (
+                <button className="ghost" onClick={() => clearOne(b)}>
+                  清除
+                </button>
+              ) : (
+                <button onClick={() => cacheOne(b)} disabled={!contents[b.id]}>
+                  缓存
+                </button>
+              )}
+            </span>
+          </div>
+        ))}
 
         <div className="divider" />
 

@@ -1,9 +1,10 @@
 // sentences · service worker
 // 策略：
-//   导航请求 → 网络优先（有网就拿最新 HTML），断网回退缓存
+//   导航请求 → 网络优先，断网回退缓存
 //   其他同源 GET → 缓存优先 + 后台更新（stale-while-revalidate）
-// 预缓存逐项写入，单项失败不影响其他。
-const VERSION = 'v3';
+// 只预缓存应用外壳；地图不预缓存，按需使用（对局/回顾加载过的章节自动进缓存，
+// 也可以在设置里主动把整本书缓到本地）。
+const VERSION = 'v4';
 const CACHE = 'sentences-' + VERSION;
 const BASE = self.registration.scope;
 
@@ -21,34 +22,10 @@ async function put(cache, target) {
   }
 }
 
-/** 按 maps/index.json 把所有书和章节也预缓存，保证断网能开局 */
-async function precacheMaps(cache) {
-  try {
-    const indexUrl = url('maps/index.json');
-    const res = await fetch(indexUrl, { cache: 'reload' });
-    if (!res || !res.ok) return;
-    await cache.put(indexUrl, res.clone());
-    const index = await res.json();
-    for (const book of index.books || []) {
-      const bookUrl = url('maps/' + book.file);
-      const bookRes = await fetch(bookUrl, { cache: 'reload' });
-      if (!bookRes || !bookRes.ok) continue;
-      await cache.put(bookUrl, bookRes.clone());
-      const data = await bookRes.json();
-      for (const chapter of data.chapters || []) {
-        await put(cache, url('maps/' + book.dir + '/' + chapter.file));
-      }
-    }
-  } catch (e) {
-    /* 地图预缓存失败不影响应用本身 */
-  }
-}
-
 self.addEventListener('install', function (event) {
   event.waitUntil((async function () {
     const cache = await caches.open(CACHE);
     await Promise.allSettled(SHELL.map(function (u) { return put(cache, u); }));
-    await precacheMaps(cache);
     await self.skipWaiting();
   })());
 });
